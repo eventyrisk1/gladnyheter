@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Slik fungerer Gladnyheter</title>
+<meta name="description" content="Slik velges sakene på Gladnyheter: norske nyhetskilder, et automatisk filter og kunstig intelligens. Ingen kan betale for å komme med.">
+<meta property="og:title" content="Slik fungerer Gladnyheter">
+<meta property="og:description" content="Hvordan sakene velges ut – åpent og ærlig.">
+<meta property="og:url" content="https://gladnyheter.com/om">
+<meta name="theme-color" content="#f2f5f1">
+<script>try{var gt=JSON.parse(localStorage.getItem('gn-theme'));if(gt==='dark'||gt==='light')document.documentElement.setAttribute('data-theme',gt);}catch(e){}</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='%23e9a923'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+:root{
+  --bg:#f2f5f1; --surface:#ffffff; --fg:#1d2a25; --muted:#5d6b64; --line:#d8e0da;
+  --sun:#e9a923; --sun-soft:#fbefcf; --fjord:#2c6a86; --ok:#2f8f6b;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --ui:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121916; --surface:#1a231f; --fg:#e7eee9; --muted:#9aa9a1; --line:#2c3833;
+  --sun:#f2bb47; --sun-soft:#3a3018; --fjord:#7cb6d1; --ok:#4cbf92; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121916; --surface:#1a231f; --fg:#e7eee9; --muted:#9aa9a1; --line:#2c3833;
+  --sun:#f2bb47; --sun-soft:#3a3018; --fjord:#7cb6d1; --ok:#4cbf92; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+a{color:var(--fjord)}
+a:focus-visible{outline:2px solid var(--sun);outline-offset:3px;border-radius:4px}
+.wrap{max-width:760px;margin:0 auto;padding:28px 16px 56px}
+header.mast{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 20px;padding-bottom:18px;border-bottom:2px solid var(--fg)}
+.brand{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,7vw,2.6rem);letter-spacing:-.03em;line-height:1;margin:0;display:flex;align-items:center;gap:.25em;text-decoration:none;color:var(--fg)}
+.sun{width:.62em;height:.62em;border-radius:50%;background:var(--sun);box-shadow:0 0 0 .12em var(--sun-soft);flex:none}
+.brand small{font-weight:500;font-size:.38em;color:var(--muted);align-self:flex-end;margin-bottom:.35em}
+.themebtn{font-family:var(--ui);font-size:12px;font-weight:600;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--fg);cursor:pointer}
+.back{display:inline-block;margin:20px 0 0;font-family:var(--ui);font-size:14px;font-weight:600;text-decoration:none}
+.back:hover{text-decoration:underline}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2rem,6vw,2.8rem);letter-spacing:-.03em;line-height:1.05;margin:18px 0 8px}
+.lead{font-size:19px;color:var(--muted);margin:0 0 28px}
+h2{font-family:var(--display);font-weight:700;font-size:1.45rem;letter-spacing:-.02em;margin:36px 0 12px}
+ol.steps{list-style:none;padding:0;margin:0;counter-reset:s;display:grid;gap:14px}
+ol.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px 16px 64px;position:relative}
+ol.steps li::before{content:counter(s);position:absolute;left:18px;top:15px;width:32px;height:32px;border-radius:50%;background:var(--sun);color:#1d2a25;font-family:var(--ui);font-weight:800;font-size:15px;display:grid;place-items:center}
+ol.steps b{font-family:var(--ui);display:block;margin-bottom:2px}
+ul.know{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+ul.know li{padding-left:34px;position:relative}
+ul.know li::before{content:"✓";position:absolute;left:0;top:2px;width:22px;height:22px;border-radius:50%;background:var(--ok);color:#fff;font-family:var(--ui);font-size:13px;font-weight:700;display:grid;place-items:center}
+.src{font-family:var(--ui);font-size:14px;color:var(--muted)}
+.note{background:var(--sun-soft);border-radius:14px;padding:16px 18px;margin-top:32px}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-family:var(--ui);font-size:13px;color:var(--muted)}
+footer a{color:inherit}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <a class="brand" href="/"><span class="sun" aria-hidden="true"></span>Gladnyheter<small>.com</small></a>
+    <button type="button" class="themebtn" id="gn-theme" aria-label="Bytt mellom lys og mørk visning"></button>
+  </header>
+  <a class="back" href="/">← Tilbake til nyhetene</a>
+
+  <h1>Slik fungerer Gladnyheter</h1>
+  <p class="lead">Gladnyheter er ikke en redaksjon, men et automatisk filter. Her er nøyaktig hva som skjer – hver time.</p>
+
+  <h2>Slik velges sakene</h2>
+  <ol class="steps">
+    <li><b>Vi henter nyheter fra norske kilder</b>Åpne nyhetsstrømmer fra kjente norske medier og fagmiljøer.<br><span class="src">Kilder i dag: NRK, Aftenposten, VG, E24, forskning.no, Gemini.no (NTNU og SINTEF), Teknisk Ukeblad, Psykologisk.no, Utdanningsnytt, Vårt Land, Kunstkritikk, Ballade og Gamer.no.</span></li>
+    <li><b>Et enkelt filter fjerner det åpenbare</b>Saker om krig, kriminalitet, ulykker, sykdom og død sorteres bort på stikkord – det samme gjelder kjendisstoff og klikkagn.</li>
+    <li><b>Kunstig intelligens vurderer resten</b>Vi bruker Googles språkmodell Gemini. Den får én instruks: Velg de tre mest interessante, lærerike eller nyttige sakene i hver kategori, og fordel dem på flere ulike kilder. Den skriver også den korte oppsummeringen under hver overskrift.</li>
+    <li><b>Du leser saken hos kilden</b>Alle saker lenker til den opprinnelige artikkelen. Vi publiserer ikke eget innhold.</li>
+  </ol>
+
+  <h2>Dette bør du vite</h2>
+  <ul class="know">
+    <li><b>Ingen mennesker velger enkeltsaker.</b> Vi har laget reglene, men selve utvalget skjer automatisk.</li>
+    <li><b>KI kan ta feil.</b> Av og til kan en sak som ikke passer slippe gjennom, eller oppsummeringen kan være unøyaktig. Det er alltid kildeartikkelen som gjelder.</li>
+    <li><b>Ingen kan betale for å komme med.</b> Det finnes ingen reklame eller sponsede saker.</li>
+    <li><b>Vi følger ikke med på deg.</b> Vi teller bare antall besøk, uten informasjonskapsler (cookies). Valgene dine – kategorier og lys/mørk visning – lagres bare i din egen nettleser.</li>
+    <li><b>Du bestemmer selv.</b> Under «Velg kategorier» på forsiden kan du skjule kategorier du ikke er interessert i.</li>
+  </ul>
+
+  <div class="note">
+    <b>«Gladnyheter» betyr ikke at verden bare er god.</b> Vi velger bort det tunge for å gi deg en pause – ikke fordi det er uviktig. Vil du ha hele bildet, finner du det hos de vanlige nyhetskildene.
+  </div>
+
+  <h2>Si fra</h2>
+  <p>Ser du en sak som ikke hører hjemme her, en feil i en oppsummering, eller savner du en kilde eller kategori? Send e-post til <a href="mailto:post@eventyrisk.no">post@eventyrisk.no</a>.</p>
+
+  <footer>
+    <p>Gladnyheter er en betaversjon utviklet av teamet bak <a href="https://eventyrhuset.no">Eventyrhuset.no</a>. · <a href="/">Til forsiden</a></p>
+  </footer>
+</div>
+<script>
+(function(){var b=document.getElementById('gn-theme'),r=document.documentElement;
+ function dark(){var a=r.getAttribute('data-theme');if(a)return a==='dark';return !!(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches);}
+ function lab(){var d=dark();b.textContent=d?'☀️ Lys visning':'🌙 Mørk visning';var m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#121916':'#f2f5f1';}
+ b.onclick=function(){var t=dark()?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('gn-theme',JSON.stringify(t));}catch(e){}lab();};
+ lab();})();
+</script>
+<!-- Besøksstatistikk uten cookies (GoatCounter) -->
+<script data-goatcounter="https://eventyrhuset.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
