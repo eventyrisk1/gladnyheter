@@ -1,69 +1,44 @@
 {
- "updated": "2026-10-11T22:51",
+ "updated": "2026-10-11T23:26",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "SAS-meklingen i havn – flystreik avverget",
-     "url": "https://www.nrk.no/nyheter/sas-meklingen-avsluttet-_-ikke-flystreik-neste-uke-1.18051661",
+     "title": "Tiltak for å verne sårbare helleristninger",
+     "url": "https://www.nrk.no/tromsogfinnmark/verdensarv-i-fare_-helleristninger-slites-ned-av-turgaere-1.18051417",
      "source": "NRK",
-     "summary": "Meklingen mellom partene i SAS er avsluttet etter at Riksmekleren la frem en skisse. Dermed unngås streik i flyselskapet."
-    },
-    {
-     "title": "Ny veistrekning på E4 åpner for trafikk",
-     "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
-     "source": "Teknisk Ukeblad",
-     "summary": "Etter ti års arbeid kan de første bilene snart ta i bruk 3,5 nye kilometer av E4 ved Stockholm."
-    },
-    {
-     "title": "Foreslår 1000 nye trainee-stillinger for nyutdannede",
-     "url": "https://e24.no/norsk-oekonomi/i/kvvPbj/abid-raja-vil-ha-1000-nye-trainee-stillinger-i-statsbudsjettet",
-     "source": "E24",
-     "summary": "Venstre ønsker å styrke overgangen til arbeidslivet med et forslag om tusen nye trainee-plasser i statsbudsjettet."
+     "summary": "Flere tusen år gamle helleristninger i Alta slites ned av turgåere, og det iverksettes nå tiltak for å beskytte den sårbare verdensarven."
     }
    ]
   },
   {
    "id": "okonomi",
    "name": "Økonomi og næringsliv",
-   "stories": [
-    {
-     "title": "Stortinget legger ut elleve pendlerboliger for salg",
-     "url": "https://e24.no/norsk-oekonomi/i/X9jk4m/helg-stortinget-skal-selge-pendlerboliger-for-100-millioner",
-     "source": "E24",
-     "summary": "Stortinget kvitter seg med pendlerboliger de ikke lenger har behov for, til en anslått verdi av rundt 100 millioner kroner."
-    },
-    {
-     "title": "Butikkene fylles tidlig med julevarer",
-     "url": "https://e24.no/naeringsliv/i/Grrjrx/uenighet-om-hvorvidt-julen-er-velkommen-i-oktober",
-     "source": "E24",
-     "summary": "Allerede i oktober er julebrusen og sesongvarene på plass i hyllene, til både glede og diskusjon blant kundene."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "vitenskap",
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Norsk teknologi skal bidra til å avsløre mørk materie",
+     "title": "Nytt teleskop skal utforske mørk materie",
      "url": "https://www.tu.no/industri/haloer-fra-slukte-galakser-kan-gi-kunnskap-om-hva-mork-materie-er/5702909",
      "source": "Teknisk Ukeblad",
-     "summary": "Romteleskopet ARRAKHIS skal studere svake spor etter tidligere galakser, og norske forskere spiller en sentral rolle i prosjektet."
+     "summary": "ARRAKHIS-teleskopet etter planen skytes opp i 2030, og vil bli spesialdesignet for å studere de svakeste sporene etter tidligere galakser."
     },
     {
-     "title": "Norske sensorer måler flyhøyden på passasjerfly",
-     "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
-     "source": "Teknisk Ukeblad",
-     "summary": "En spesiell trykksensor utviklet og produsert på Gaustad i Oslo benyttes i mange av verdens passasjerfly."
-    },
-    {
-     "title": "Eggeskall gir ny kunnskap om kjempedinosaurer",
+     "title": "Nye funn om fortidens kjempedinosaurer",
      "url": "https://www.forskning.no/dinosaurer-paleontologi-ung/denne-dinosauren-kunne-bli-lengre-enn-en-blahval-og-la-egg-lenger-sor-enn-noen-andre-vi-vet-om/2720471",
      "source": "forskning.no",
-     "summary": "Nye funn tyder på at enorme landlevende dinosaurer oppholdt seg langt sør gjennom hele året."
+     "summary": "Funn av eggeskall viser at kjempedinosaurer kunne leve langt sør året rundt."
+    },
+    {
+     "title": "Fant norrøn kirkeruin på Grønland",
+     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
+     "source": "forskning.no",
+     "summary": "Funnet av et skjelett avslører en ukjent kirke fra den norrøne bosettingens tid på Sør-Grønland, i nærheten av Erik Raudes bosted."
     }
    ]
   },
@@ -72,10 +47,10 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Stadig flere arbeidsgivere tar i bruk KI i rekrutteringen",
+     "title": "Flere arbeidsgivere tar i bruk kunstig intelligens i søknadsprosesser",
      "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
      "source": "E24",
-     "summary": "Kunstig intelligens tas i økende grad i bruk for å behandle og vurdere jobbsøknader.",
+     "summary": "Stadig flere tar i bruk AI-verktøy for å vurdere jobbsøkere.",
      "paid": true
     }
    ]
@@ -85,16 +60,16 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Ti fascinerende fakta om blekkspruten",
-     "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
+     "title": "Ser mot kulokk for å styrke forholdet til naturen",
+     "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
      "source": "forskning.no",
-     "summary": "Forskere peker på blekksprutens overraskende høye intelligens og spesielle livssyklus som fascinerende trekk ved havdyret."
+     "summary": "Alizeé Piel trekker frem kulokk som en tradisjon som kan bidra til å gi oss et bedre forhold til naturen i en tid med økologiske utfordringer."
     },
     {
-     "title": "Enkle grep for å holde mus ute av huset i vinter",
-     "url": "https://www.forskning.no/dyreverden-hus-og-hjem-samfunn/det-er-mest-sannsynlig-ikke-husmus-du-har-i-hus/2719472",
+     "title": "Økt ferdsel påvirker villreinens trekkruter",
+     "url": "https://www.forskning.no/dyreverden-norsk-institutt-for-naturforskning-partner/dette-stopper-villreinen-pa-dens-vei/2716166",
      "source": "forskning.no",
-     "summary": "Eksperter gir råd om hvordan små sprekker kan tettes for å sikre boligen mot ubudne gnagere."
+     "summary": "Mer menneskelig ferdsel gjør at villreinen slutter å bruke gamle trekkruter, noe som kan få alvorlige konsekvenser for dyrene."
     }
    ]
   },
@@ -103,10 +78,22 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Slik tilpasser hjernen seg når vi lærer å lese",
+     "title": "Slik påvirker kaffen både tarmene og hjernen",
+     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
+     "source": "Psykologisk.no",
+     "summary": "Ny forskning viser at kaffe har innvirkning på både humør, tarmflora og søvn."
+    },
+    {
+     "title": "Modell for å ruste seg mot kriser",
+     "url": "https://www.psykologisk.no/nyheter/fire-grep-som-stotter-deg-nar-krisen-rammer/164312",
+     "source": "Psykologisk.no",
+     "summary": "Helge Mehus deler en modell for hvordan man kan bygge mental beredskap når kriser rammer."
+    },
+    {
+     "title": "Dette skjer i hjernen når du lærer å lese",
      "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
      "source": "forskning.no",
-     "summary": "Leseopplæring er en gradvis prosess som kobler sammen hjernens nettverk for syn og språk til et integrert system."
+     "summary": "Å lære å lese er en langvarig prosess som gradvis former hjernens nettverk for språk og syn til et integrert system."
     }
    ]
   },
@@ -115,10 +102,10 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Ny forskning belyser hvordan kaffe virker på kroppen",
-     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
+     "title": "Autismerelatert genetisk tilstand kan være mer utbredt enn antatt",
+     "url": "https://www.psykologisk.no/nyheter/autismerelatert-genetisk-tilstand-er-trolig-langt-vanligere-enn-tidligere-antatt/163943",
      "source": "Psykologisk.no",
-     "summary": "Studier viser at kaffe har målbare effekter på både tarmfloraen, humøret og søvnmønsteret vårt."
+     "summary": "Omfattende genetisk kartlegging av nesten 180 000 personer med autisme tyder på at et bestemt syndrom er vanligere enn tidligere antatt."
     }
    ]
   },
@@ -127,36 +114,23 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Nytt tilbud samler elever med stort læringspotensial",
+     "title": "Eget tilbud for elever med stort læringspotensial",
      "url": "https://www.nrk.no/nordland/elever-med-stort-laeringspotensial-far-eget-tilbud-i-nordland-1.18051567",
      "source": "NRK",
-     "summary": "Ungdommer fra hele Nordland har deltatt på en ny samling i Mo i Rana tilpasset elever som lærer raskere enn gjennomsnittet."
+     "summary": "Elever som lærer raskere enn gjennomsnittet risikerer å falle utenfor, og har nå deltatt på et nytt samletilbud i Nordland."
     },
     {
-     "title": "Bemanningsbyrå satser med millionlønn til barnehagelærere",
-     "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
+     "title": "Små grep i barnehagen bygger trygghet",
+     "url": "https://www.utdanningsnytt.no/barnehage-psykisk-helse-selvtillit/sma-handlinger-i-barnehagen-kan-bygge-tillit-trygghet-og-mestringstro/502937",
      "source": "Utdanningsnytt",
-     "summary": "Et nytt byrå tilbyr barnehagelærere opp mot én million kroner i årslønn for å tiltrekke seg fagkompetanse."
-    },
-    {
-     "title": "Gode råd for et inspirerende lekemiljø ute i barnehagen",
-     "url": "https://www.utdanningsnytt.no/barnehageforskning-dmmh-friluftsbarnehage/det-fysiske-lekemiljoet-ute-i-barnehagen-pavirker-barnas-trivsel-og-lek/501612",
-     "source": "Utdanningsnytt",
-     "summary": "Fagfolk viser hvordan enkle og tilgjengelige grep kan stimulere barns utforskertrang og lek utendørs."
+     "summary": "Enkle handlinger i barnehagehverdagen kan være med på å styrke barns tillit, trygghet og mestringstro."
     }
    ]
   },
   {
    "id": "tro",
    "name": "Tro og livssyn",
-   "stories": [
-    {
-     "title": "Ukjent norrøn kirkeruin funnet på Sør-Grønland",
-     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
-     "source": "forskning.no",
-     "summary": "Arkeologiske funn like ved Erik Raudes bosted avdekker spor etter en tidligere ukjent kirke fra den norrøne bosetningstiden."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "aand",
@@ -166,43 +140,25 @@
   {
    "id": "kunst",
    "name": "Kunst",
-   "stories": [
-    {
-     "title": "Kateryna Lysovenko stiller ut i Helsingborg",
-     "url": "https://kunstkritikk.no/livet-betraktat-fran-vintergatan/",
-     "source": "Kunstkritikk",
-     "summary": "Kunstneren høster ros for sin nye utstilling som utforsker menneskelighet og lys."
-    },
-    {
-     "title": "Loppemarkedfunn til 290 kroner solgt for millionbeløp",
-     "url": "https://e24.no/naeringsliv/i/mKLnxq/kjoepte-maleri-for-290-kroner-solgt-for-12-9-millioner",
-     "source": "E24",
-     "summary": "Et maleri funnet på et lokalt dødsbosalg i USA viste seg å være et verdifullt kunstverk som gikk for 12,9 millioner kroner."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "musikk",
    "name": "Musikk",
    "stories": [
     {
-     "title": "Odd Nordstoga ute med sitt tiende album",
-     "url": "https://www.aftenposten.no/kultur/i/58GBGe/anmeldelse-av-foer-du-gaar-av-odd-nordstoga-drivende-hverdagspoesi",
+     "title": "Sondre Moshagen utvider sitt musikalske virke",
+     "url": "https://www.aftenposten.no/kultur/i/43amJE/anmeldelse-av-audio-guide-av-sondre-moshagen",
      "source": "Aftenposten",
-     "summary": "Den folkekjære artisten leverer ny hverdagspoesi og høster gode skussmål for sin ferske utgivelse.",
+     "summary": "Den prisvinnende pianisten høster lovord for å utvide sitt eget virke med stort hell.",
      "paid": true
     },
     {
-     "title": "Ti nye musikkanbefalinger fra NRK",
-     "url": "https://www.nrk.no/artikkel/ra-som-sashimi-hard-som-haaland-1529600",
-     "source": "NRK",
-     "summary": "Musikkredaksjonen har plukket ut ti av de beste og mest interessante nye låtene akkurat nå."
-    },
-    {
-     "title": "Nominasjonene åpnet for Musikkforleggerprisen",
-     "url": "https://www.ballade.no/bransjen/na-kan-du-nominere-kandidater-til-musikkforleggerprisen/",
-     "source": "Ballade",
-     "summary": "Musikkbransjen inviterer nå til å nominere årets mest bemerkelsesverdige komponister og låtskrivere frem til 8. november."
+     "title": "Nytt album fra Odd Nordstoga",
+     "url": "https://www.aftenposten.no/kultur/i/58GBGe/anmeldelse-av-foer-du-gaar-av-odd-nordstoga-drivende-hverdagspoesi",
+     "source": "Aftenposten",
+     "summary": "Odd Nordstoga er aktuell med sitt tiende album som byr på drivende hverdagspoesi.",
+     "paid": true
     }
    ]
   },
@@ -211,10 +167,10 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Herbjørg Wassmo feirer 50 år som forfatter med ny roman",
+     "title": "Herbjørg Wassmo markerer 50 år som forfatter",
      "url": "https://www.aftenposten.no/kultur/i/qyW7wg/anmeldelse-roman-av-herbjoerg-wassmo-besettelse",
      "source": "Aftenposten",
-     "summary": "Den anerkjente forfatteren er aktuell med boken «Besettelse» og markerer fem tiår i litteraturens tjeneste.",
+     "summary": "Forfatteren er aktuell med romanen «Besettelse».",
      "paid": true
     }
    ]
@@ -224,10 +180,10 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "«Apestjernen» imponerer på Riksteatret",
+     "title": "Teatersuksess med «Apestjernen» på Riksteatret",
      "url": "https://www.aftenposten.no/kultur/i/0BBB1J/anmeldelse-av-apestjernen-paa-riksteatret-inderlig-vakkert",
      "source": "Aftenposten",
-     "summary": "Den ferske teaterforestillingen hylles som en varm, musikalsk og morsom opplevelse for hele familien.",
+     "summary": "Dramatiseringen av «Apestjernen» beskrives som en varm, levende og musikale opplevelse for hele familien.",
      "paid": true
     }
    ]
@@ -237,16 +193,16 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Klassikeren Machinarium får oppfølger etter 17 år",
-     "url": "https://www.gamer.no/artikler/machinarium-sjarmerte-oss-i-senk-17-ar-senere-kommer-oppfolgeren/521149",
-     "source": "Gamer.no",
-     "summary": "Det sjarmerende pek-og-klikk-spillet Machinarium skal omsider få en etterlengtet oppfølger."
-    },
-    {
-     "title": "Rekordraskt storsalg for Ace Combat 8",
+     "title": "Sterke salgstall for Ace Combat 8",
      "url": "https://www.gamer.no/artikler/ace-combat-8-hadde-seriens-hittil-beste-lansering/521151",
      "source": "Gamer.no",
-     "summary": "Det nyeste tilskuddet i flysimulatorserien solgte én million eksemplarer raskere enn noen av sine forgjengere."
+     "summary": "Flysimulatoren solgte én million eksemplarer raskere enn noen tidligere utgave i serien."
+    },
+    {
+     "title": "Oppfølgeren til Machinarium er på vei",
+     "url": "https://www.gamer.no/artikler/machinarium-sjarmerte-oss-i-senk-17-ar-senere-kommer-oppfolgeren/521149",
+     "source": "Gamer.no",
+     "summary": "Det sjarmerende spillet Machinarium får en oppfølger 17 år etter originalen."
     }
    ]
   },
@@ -255,22 +211,22 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Per Strand Hagenes med sterk seier i Paris-Tours",
-     "url": "https://www.nrk.no/sport/hagenes-med-knallsterk-seier-i-frankrike-1.18051899",
-     "source": "NRK",
-     "summary": "Den norske syklisten Per Strand Hagenes gikk helt til topps i det tradisjonsrike franske endagsrittet."
-    },
-    {
-     "title": "Gustav Iden sikret VM-sølv på Hawaii etter sterk opphenting",
+     "title": "Gustav Iden tok VM-sølv på Hawaii etter sterk opphenting",
      "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
      "source": "Aftenposten",
-     "summary": "Den norske triatlonutøveren kjempet seg opp fra niendeplass til andreplass etter en heroisk avslutning."
+     "summary": "Gustav Iden kjempet seg opp fra en niendeplass til andreplass til tross for en tidsstraff underveis."
     },
     {
-     "title": "Max Verstappen med kontrollert seier i Singapore Grand Prix",
+     "title": "Per Strand Hagenes vant det tradisjonsrike rittet Paris-Tours",
+     "url": "https://www.nrk.no/sport/hagenes-med-knallsterk-seier-i-frankrike-1.18051899",
+     "source": "NRK",
+     "summary": "Den norske syklisten sikret seieren i det franske endagsrittet foran hard konkurranse."
+    },
+    {
+     "title": "Ny Formel 1-seier for Max Verstappen i Singapore",
      "url": "https://www.nrk.no/sport/formel-1_-verstappen-med-ny-triumf-_-full-kontroll-i-singapore-grand-prix-1.18051880",
      "source": "NRK",
-     "summary": "Red Bull-føreren tok sin andre strake triumf etter et overbevisende løp under flomlysene i Singapore."
+     "summary": "Red Bull-føreren kjørte inn til en kontrollert seier i hovedløpet i Singapore."
     }
    ]
   }
@@ -1301,23 +1257,23 @@
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 6,
+    "temp": 5,
     "min": 5,
-    "max": 6,
-    "symbol": "partlycloudy_night",
+    "max": 5,
+    "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "trondheim": {
     "temp": 6,
-    "min": 6,
+    "min": 5,
     "max": 6,
     "symbol": "clearsky_night",
     "rain6": 0.0
    },
    "tromso": {
-    "temp": 0,
-    "min": 0,
-    "max": 0,
+    "temp": -1,
+    "min": -1,
+    "max": -1,
     "symbol": "partlycloudy_night",
     "rain6": 0.0
    },
@@ -1326,14 +1282,14 @@
     "min": 10,
     "max": 10,
     "symbol": "lightrain",
-    "rain6": 1.3
+    "rain6": 1.2
    },
    "stavanger": {
-    "temp": 8,
-    "min": 8,
-    "max": 8,
-    "symbol": "partlycloudy_night",
-    "rain6": 0.0
+    "temp": 7,
+    "min": 7,
+    "max": 7,
+    "symbol": "lightrainshowers_night",
+    "rain6": 0.9
    }
   },
   "date": "2026-10-11"
