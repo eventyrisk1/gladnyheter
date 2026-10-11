@@ -1,20 +1,12 @@
 {
- "updated": "2026-10-11T14:23",
+ "updated": "2026-10-11T14:27",
  "stories": [
   {
-   "title": "Reuters: Paven må opereres – oppdaget lungeknute",
-   "url": "https://www.nrk.no/nyheter/reuters_-paven-ma-opereres-_-oppdaget-lungeknute-1.18051758",
-   "source": "NRK",
-   "category": "Vitenskap",
-   "summary": "Det er oppdaget en liten klump i Pave Leos lunger, og Den katolske kirkes overhode må opereres. Klumpen er i et tidlig stadium, og han skal opereres i løpet av de nærmeste dagene, sier paven ifølge Reuters. Pave Leo …",
-   "why": ""
-  },
-  {
-   "title": "Sjømatnæringen må få kraft-prioritet",
-   "url": "https://www.nrk.no/video/2f8eded7-bea6-456f-bcfe-7a30df7f1315",
-   "source": "NRK",
-   "category": "Vitenskap",
-   "summary": "Sjømat Norge mener at kritiske samfunnsfunksjoner, som matproduksjon, må få prioritert på tilgang til strøm.",
+   "title": "Etter ti år kan de første bilene kjøre på ny vei",
+   "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
+   "source": "Teknisk Ukeblad",
+   "category": "Hverdag",
+   "summary": "6. desember skal det gå trafikk på 3,5 nye kilometre av E4 ved Stockholm.",
    "why": ""
   },
   {
@@ -26,11 +18,19 @@
    "why": ""
   },
   {
-   "title": "Etter ti år kan de første bilene kjøre på ny vei",
-   "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
+   "title": "Vakker, men litt kjedelig Austen-film",
+   "url": "https://vink.aftenposten.no/artikkel/MAnGbE/vakker-men-litt-kjedelig-austen-film",
+   "source": "Aftenposten",
+   "category": "Kultur",
+   "summary": "Regissør Georgia Oakleys versjon av Jane Austens klassiker er mer inderlig enn skarp og satirisk.",
+   "why": ""
+  },
+  {
+   "title": "Bak kulissene forhandlet det danske forsvaret med Palantir",
+   "url": "https://www.tu.no/sikkerhet/midt-i-gronland-kaoset-forhandlet-det-danske-forsvaret-med-palantir/7143928",
    "source": "Teknisk Ukeblad",
-   "category": "Hverdag",
-   "summary": "6. desember skal det gå trafikk på 3,5 nye kilometre av E4 ved Stockholm.",
+   "category": "Teknologi",
+   "summary": "Mens Grønland-krisen var på sitt mest intense, forhandlet man om en avtale med teknologi- og overvåkingsgiganten Palantir.",
    "why": ""
   },
   {
@@ -42,30 +42,6 @@
    "why": ""
   },
   {
-   "title": "Vil ha 1000 nye trainee-stillinger i statsbudsjettet",
-   "url": "https://e24.no/norsk-oekonomi/i/kvvPbj/abid-raja-vil-ha-1000-nye-trainee-stillinger-i-statsbudsjettet",
-   "source": "E24",
-   "category": "Økonomi",
-   "summary": "Venstretoppen sier regjeringen ikke kan vise til et eneste tiltak rettet mot nyutdannede det i det…",
-   "why": ""
-  },
-  {
-   "title": "Stortinget skal selge pendlerboliger for 100 millioner",
-   "url": "https://e24.no/norsk-oekonomi/i/X9jk4m/helg-stortinget-skal-selge-pendlerboliger-for-100-millioner",
-   "source": "E24",
-   "category": "Natur",
-   "summary": "Stortinget har elleve pendlerboliger de ikke lenger har bruk for.",
-   "why": ""
-  },
-  {
-   "title": "Vakker, men litt kjedelig Austen-film",
-   "url": "https://vink.aftenposten.no/artikkel/MAnGbE/vakker-men-litt-kjedelig-austen-film",
-   "source": "Aftenposten",
-   "category": "Kultur",
-   "summary": "Regissør Georgia Oakleys versjon av Jane Austens klassiker er mer inderlig enn skarp og satirisk.",
-   "why": ""
-  },
-  {
    "title": "50 år i litteraturens tjeneste",
    "url": "https://www.aftenposten.no/kultur/i/qyW7wg/anmeldelse-roman-av-herbjoerg-wassmo-besettelse",
    "source": "Aftenposten",
@@ -74,18 +50,42 @@
    "why": ""
   },
   {
-   "title": "Bak kulissene forhandlet det danske forsvaret med Palantir",
-   "url": "https://www.tu.no/sikkerhet/midt-i-gronland-kaoset-forhandlet-det-danske-forsvaret-med-palantir/7143928",
+   "title": "Derfor takler fotballproffer prestasjonsangst best",
+   "url": "https://gemini.no/2026/10/derfor-takler-fotballproffer-prestasjonsangst-best/",
+   "source": "Gemini",
+   "category": "Vitenskap",
+   "summary": "Ny forskning tyder på at fotballspillere på elitenivå opplever mindre prestasjonsangst enn amatørspillere.",
+   "why": ""
+  },
+  {
+   "title": "Høyden måles trolig med en norsk brikke",
+   "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
    "source": "Teknisk Ukeblad",
    "category": "Teknologi",
-   "summary": "Mens Grønland-krisen var på sitt mest intense, forhandlet man om en avtale med teknologi- og overvåkingsgiganten Palantir.",
+   "summary": "På Gaustad i Oslo produseres trykksensorer som brukes i mange passasjerfly.",
+   "why": ""
+  },
+  {
+   "title": "Hinter kanskje om en vridning i hele dansefeltet",
+   "url": "https://www.aftenposten.no/kultur/i/kvMjzQ/hinter-kanskje-om-en-vridning-i-hele-dansefeltet",
+   "source": "Aftenposten",
+   "category": "Kultur",
+   "summary": "Nasjonalballetten skinner i León & Lightfoots hyllest til ballettklassen.",
+   "why": ""
+  },
+  {
+   "title": "Vil ha 1000 nye trainee-stillinger i statsbudsjettet",
+   "url": "https://e24.no/norsk-oekonomi/i/kvvPbj/abid-raja-vil-ha-1000-nye-trainee-stillinger-i-statsbudsjettet",
+   "source": "E24",
+   "category": "Økonomi",
+   "summary": "Venstretoppen sier regjeringen ikke kan vise til et eneste tiltak rettet mot nyutdannede det i det…",
    "why": ""
   }
  ],
  "sport": {
-  "title": "FIS-topp om VM-anlegget i Narvik: – Ingenting er klart",
-  "url": "https://www.nrk.no/nordland/verdenscup-om-fa-maneder_-ingenting-er-klart-1.18050173",
+  "title": "Suveren Buras tok overlegent NM-gull",
+  "url": "https://www.nrk.no/sport/suveren-buras-tok-overlegent-nm-gull-1.18051398",
   "source": "NRK",
-  "summary": "Om få måneder skal det arrangeres verdenscuprenn her, men ingenting i Narviks alpinbakke er klart. Det kan få konsekvenser for VM i byen."
+  "summary": "Ingen var i nærheten av å matche Ibrahim Buras under eliteherrenes NM i terrengløp. BUL-løperen sprang inn på tiden 24.13. Det var hele 25 sekunder foran Fredrik Sandvik, som stakk av med 2.-plassen. Vetle Solbakken tok …"
  }
 }
