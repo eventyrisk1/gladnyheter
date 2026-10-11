@@ -303,6 +303,72 @@ def count(out):
     return sum(len(v) for v in (out or {}).values())
 
 
+# ---------- «Nyttig i dag»: strømpris (hvakosterstrommen.no) og vær (Meteorologisk institutt) ----------
+AREAS = [  # id, navn, prisområde, lat, lon
+    ("oslo", "Oslo / Østlandet", "NO1", 59.91, 10.75),
+    ("kristiansand", "Kristiansand / Sørlandet", "NO2", 58.15, 8.00),
+    ("trondheim", "Trondheim / Midt-Norge", "NO3", 63.43, 10.40),
+    ("tromso", "Tromsø / Nord-Norge", "NO4", 69.65, 18.96),
+    ("bergen", "Bergen / Vestlandet", "NO5", 60.39, 5.32),
+    ("stavanger", "Stavanger / Rogaland", "NO2", 58.97, 5.73),
+]
+
+
+def get_json(url, headers=None):
+    req = urllib.request.Request(url, headers=headers or UA)
+    with urllib.request.urlopen(req, timeout=25) as r:
+        return json.load(r)
+
+
+def power_prices(zone, day):
+    """Timepriser i øre/kWh inkl. mva (NO4 har ikke mva). Returnerer [[HH:MM, øre], ...]."""
+    url = f"https://www.hvakosterstrommen.no/api/v1/prices/{day:%Y}/{day:%m-%d}_{zone}.json"
+    vat = 1.0 if zone == "NO4" else 1.25
+    rows = get_json(url)
+    return [[r["time_start"][11:16], round(r["NOK_per_kWh"] * 100 * vat, 1)] for r in rows]
+
+
+def weather(lat, lon, today):
+    url = f"https://api.met.no/weatherapi/locationforecast/2.0/compact?lat={lat}&lon={lon}"
+    d = get_json(url, {"User-Agent": "gladnyheter.com https://gladnyheter.com"})
+    ts = d["properties"]["timeseries"]
+    now = ts[0]
+    temps = [t["data"]["instant"]["details"]["air_temperature"] for t in ts
+             if datetime.datetime.fromisoformat(t["time"].replace("Z", "+00:00")).astimezone(OSLO).date() == today]
+    n6 = now["data"].get("next_6_hours") or now["data"].get("next_1_hours") or {}
+    n12 = now["data"].get("next_12_hours") or {}
+    return {
+        "temp": round(now["data"]["instant"]["details"]["air_temperature"]),
+        "min": round(min(temps)) if temps else None,
+        "max": round(max(temps)) if temps else None,
+        "symbol": (n12.get("summary") or n6.get("summary") or {}).get("symbol_code", ""),
+        "rain6": (n6.get("details") or {}).get("precipitation_amount"),
+    }
+
+
+def useful_today():
+    now = datetime.datetime.now(OSLO)
+    out = {"areas": [], "power": {}, "power_tomorrow": {}, "weather": {}}
+    for aid, name, zone, lat, lon in AREAS:
+        out["areas"].append({"id": aid, "name": name, "zone": zone})
+        if zone not in out["power"]:
+            try:
+                out["power"][zone] = power_prices(zone, now)
+            except Exception as e:
+                print(f"Strømpris {zone} feilet: {e}", file=sys.stderr)
+            if now.hour >= 14:
+                try:
+                    out["power_tomorrow"][zone] = power_prices(zone, now + datetime.timedelta(days=1))
+                except Exception:
+                    pass
+        try:
+            out["weather"][aid] = weather(lat, lon, now.date())
+        except Exception as e:
+            print(f"Vær {aid} feilet: {e}", file=sys.stderr)
+    out["date"] = now.strftime("%Y-%m-%d")
+    return out
+
+
 def main():
     news = collect(FEEDS)
     sport = collect(SPORT_FEEDS)
@@ -323,6 +389,10 @@ def main():
         sys.exit("For få saker – beholder forrige utgave.")
     data = {"updated": datetime.datetime.now(OSLO).strftime("%Y-%m-%dT%H:%M"),
             "categories": [{"id": cid, "name": name, "stories": out.get(cid, [])} for cid, name, _ in CATS]}
+    try:
+        data["today"] = useful_today()
+    except Exception as e:
+        print(f"«Nyttig i dag» feilet: {e}", file=sys.stderr)
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     for c in data["categories"]:
