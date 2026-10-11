@@ -1,7 +1,7 @@
 """Gladnyheter: henter norske RSS-feeder, lar en AI velge dagens 10 beste saker + 1 sportssak,
 og skriver resultatet til data.json. Kjøres hver time av GitHub Actions.
 
-AI: bruker Claude hvis secret ANTHROPIC_API_KEY finnes, ellers GitHub Models (gratis) via GITHUB_TOKEN.
+AI: Claude via secret ANTHROPIC_API_KEY (Settings > Secrets and variables > Actions).
 """
 import json, os, re, sys, html, urllib.request, urllib.error, datetime
 from zoneinfo import ZoneInfo
@@ -132,30 +132,12 @@ def ask_claude(prompt, key):
     return "".join(b.get("text", "") for b in res["content"])
 
 
-def ask_github_models(prompt, token):
-    body = json.dumps({
-        "model": os.environ.get("GH_MODEL", "openai/gpt-4.1-mini"),
-        "temperature": 0.3,
-        "response_format": {"type": "json_object"},
-        "messages": [{"role": "user", "content": prompt}],
-    }).encode()
-    req = urllib.request.Request("https://models.github.ai/inference/chat/completions", data=body, headers={
-        "Authorization": f"Bearer {token}", "Content-Type": "application/json",
-        "Accept": "application/vnd.github+json"})
-    try:
-        with urllib.request.urlopen(req, timeout=120) as r:
-            txt = r.read().decode("utf-8", "replace")
-            status = r.status
-    except urllib.error.HTTPError as e:
-        sys.exit(f"GitHub Models svarte {e.code}: {e.read()[:800]!r}")
-    try:
-        res = json.loads(txt)
-    except Exception:
-        sys.exit(f"GitHub Models svarte {status} med uventet innhold: {txt[:800]!r}")
-    return res["choices"][0]["message"]["content"]
 
 
 def main():
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("Ingen ANTHROPIC_API_KEY lagt inn ennå – beholder forrige utgave.")
+        return
     news = collect(FEEDS, 15, 80)
     sport = collect(SPORT_FEEDS, 20, 25)
     print(f"{len(news)} nyheter, {len(sport)} sport etter grovfilter")
@@ -163,7 +145,7 @@ def main():
         sys.exit("For få saker – beholder forrige utgave.")
     prompt = PROMPT % (fmt(news), fmt(sport, 1000))
     key = os.environ.get("ANTHROPIC_API_KEY")
-    raw = ask_claude(prompt, key) if key else ask_github_models(prompt, os.environ["GITHUB_TOKEN"])
+    raw = ask_claude(prompt, key)
     m = re.search(r"\{.*\}", raw, re.S)
     ans = json.loads(m.group(0))
 
