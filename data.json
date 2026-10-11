@@ -1,91 +1,149 @@
 {
- "updated": "2026-10-11T15:25",
- "stories": [
+ "updated": "2026-10-11T16:10",
+ "categories": [
   {
-   "title": "SAS-streik avverget etter enighet hos Riksmekleren",
-   "url": "https://e24.no/naeringsliv/i/AbEpxn/sas-streik-avverget",
-   "source": "E24",
-   "category": "Samfunn",
-   "summary": "Partene kom til enighet etter at megleren la frem en skisse til løsning på overtid. Dermed unngås flystreik den kommende uken.",
-   "why": "Viktig avklaring for reisende og næringslivet"
+   "id": "samfunn",
+   "name": "Samfunn",
+   "stories": [
+    {
+     "title": "SAS-streik avverget etter enighet hos Riksmekleren",
+     "url": "https://e24.no/naeringsliv/i/AbEpxn/sas-streik-avverget",
+     "source": "E24",
+     "summary": "Partene kom til enighet etter at megleren la frem en skisse til løsning på overtid. Dermed blir det ingen flystreik."
+    },
+    {
+     "title": "Åpner ny veistrekning på E4",
+     "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
+     "source": "Teknisk Ukeblad",
+     "summary": "Etter ti års arbeid kan de første bilene nå ta i bruk 3,5 kilometer med ny vei ved Stockholm."
+    },
+    {
+     "title": "Ekspertenes råd for et musefritt hus i vinter",
+     "url": "https://www.forskning.no/dyreverden-hus-og-hjem-samfunn/det-er-mest-sannsynlig-ikke-husmus-du-har-i-hus/2719472",
+     "source": "forskning.no",
+     "summary": "Mus trenger svært få millimeter for å ta seg inn i boliger. Forskere og fagfolk deler nå sine beste tips for å tette huset."
+    }
+   ]
   },
   {
-   "title": "Norske trykksensorer måler flyhøyden i passasjerfly",
-   "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
-   "source": "Teknisk Ukeblad",
-   "category": "Teknologi",
-   "summary": "På Gaustad i Oslo produseres avanserte trykksensorer som benyttes til høydemåling i en rekke passasjerfly verden over.",
-   "why": "Norsk høyteknologisk suksess i luftfarten"
+   "id": "okonomi",
+   "name": "Økonomi og næringsliv",
+   "stories": [
+    {
+     "title": "Norske sensorbrikker måler flyhøyde i passasjerfly",
+     "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
+     "source": "Teknisk Ukeblad",
+     "summary": "På Gaustad i Oslo produseres det avanserte trykksensorer som benyttes i luftfarten over hele verden."
+    },
+    {
+     "title": "Forskere: Norsk kaffebrenning kan elektrifiseres",
+     "url": "https://gemini.no/2026/10/kan-norsk-kaffebrenning-elektrifiseres-ja-mener-forskere/",
+     "source": "Gemini",
+     "summary": "Selv om kaffebrenning tradisjonelt krever fossil energi eller biodrivstoff, viser ny forskning at prosessen fint kan drives med elektrisitet."
+    },
+    {
+     "title": "Klarsignal og politisk støtte til havvindprosjektet Utsira Nord",
+     "url": "https://www.tu.no/energi/hoyre-gir-klarsignal-til-flytende-havvind-vil-bidra-til-framdrift-for-utsira-nord/7145245",
+     "source": "Teknisk Ukeblad",
+     "summary": "En ny kvalitetssikring styrker troen på prosjektet, og Høyre stiller seg bak videre satsing på Utsira Nord."
+    }
+   ]
   },
   {
-   "title": "Høyre gir grønt lys for havvindsatsingen Utsira Nord",
-   "url": "https://www.tu.no/energi/hoyre-gir-klarsignal-til-flytende-havvind-vil-bidra-til-framdrift-for-utsira-nord/7145245",
-   "source": "Teknisk Ukeblad",
-   "category": "Næringsliv",
-   "summary": "En fersk kvalitetssikring har styrket tilliten til Utsira Nord-prosjektet, og Høyre støtter nå at havvindsatsingen fortsetter.",
-   "why": "Viktig framskritt for norsk fornybarsatsing"
+   "id": "vitenskap",
+   "name": "Vitenskap og teknologi",
+   "stories": [
+    {
+     "title": "Dette skjer i hjernen når du lærer å lese",
+     "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
+     "source": "forskning.no",
+     "summary": "Leseopplæring er en gradvis prosess som kobler hjernens nettverk for syn og språk sammen til et helhetlig system."
+    },
+    {
+     "title": "Nye funn om kjempedinosaurenes leveområder",
+     "url": "https://www.forskning.no/dinosaurer-paleontologi-ung/denne-dinosauren-kunne-bli-lengre-enn-en-blahval-og-la-egg-lenger-sor-enn-noen-andre-vi-vet-om/2720471",
+     "source": "forskning.no",
+     "summary": "Funn av forstenede eggeskall viser at de aller største landdyrene kunne bo og trives langt sør gjennom hele året."
+    },
+    {
+     "title": "Blekkspruten imponerer med høy intelligens",
+     "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
+     "source": "forskning.no",
+     "summary": "Blekkspruter har vist seg å være usedvanlig intelligente skapninger, til tross for at de som regel bare lever i få år."
+    }
+   ]
   },
   {
-   "title": "Forskere mener kaffebrenning kan gjøres elektrisk og utslippsfri",
-   "url": "https://gemini.no/2026/10/kan-norsk-kaffebrenning-elektrifiseres-ja-mener-forskere/",
-   "source": "Gemini",
-   "category": "Teknologi",
-   "summary": "Kaffebrenning er tradisjonelt en energikrevende prosess drevet av fossile energikilder, men forskere slår fast at brenningen kan elektrifiseres.",
-   "why": "Bærekraftig innovasjon for matindustrien"
+   "id": "natur",
+   "name": "Natur og miljø",
+   "stories": [
+    {
+     "title": "Pæretre bærer fremdeles frukt etter over 100 år",
+     "url": "https://www.nrk.no/mr/stort-paeretre-har-blitt-attraksjon-pa-otroya-i-molde-_-familien-heggdal-ser-pa-det-som-slektstre-1.18036366",
+     "source": "NRK",
+     "summary": "Det over hundre år gamle frukttreet holder koken og fortsetter å gi rik avling sesong etter sesong."
+    },
+    {
+     "title": "Tradisjonen med kulokk kan styrke forholdet til naturen",
+     "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
+     "source": "forskning.no",
+     "summary": "Den gamle skikken med kulokk løftes frem som et inspirerende eksempel på samspill mellom mennesker, dyr og landskap."
+    },
+    {
+     "title": "Følelser har mindre effekt på klimavennlig adferd enn antatt",
+     "url": "https://gemini.no/2026/10/folelser-betyr-ikke-sa-mye-for-klimavennlig-atferd/",
+     "source": "Gemini",
+     "summary": "En ny studie viser at følelser som sinne, håp og medfølelse spiller en mindre rolle for folks miljøvalg enn tidligere antatt."
+    }
+   ]
   },
   {
-   "title": "Stadig flere arbeidsgivere lar kunstig intelligens vurdere jobbsøkere",
-   "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
-   "source": "E24",
-   "category": "Næringsliv",
-   "summary": "Bruken av KI-verktøy skyter fart i ansettelsesprosesser der maskiner nå analyserer og vurderer innkomne søknader.",
-   "why": "Ny teknologi former arbeidsmarkedet"
+   "id": "kultur",
+   "name": "Kultur og historie",
+   "stories": [
+    {
+     "title": "Norrøn kirkeruin funnet på Grønland",
+     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
+     "source": "forskning.no",
+     "summary": "Skjelettfunn i Sør-Grønland har avdekket en hittil ukjent kirke fra den norrøne bosettingstiden, like ved Erik Raudes gård."
+    },
+    {
+     "title": "Sørsamisk tilstedeværelse i norrøne opphavsmyter",
+     "url": "https://gemini.no/2026/10/samiske-snofrid-kan-vaere-stammor-til-norske-konger/",
+     "source": "Gemini",
+     "summary": "Gamle kilder viser at samiske skikkelser som Snøfrid, datter av Svåse på Dovre, inngår i historiene om de tidlige norske kongenes slektstrær."
+    },
+    {
+     "title": "Stjålne malerier av Renoir er funnet igjen",
+     "url": "https://www.aftenposten.no/kultur/i/kvvXEv/stjaalne-renoir-malerier-funnet",
+     "source": "Aftenposten",
+     "summary": "To verdifulle kunstverk av den kjente maleren Pierre-Auguste Renoir har kommet til rette etter å ha blitt stjålet i september."
+    }
+   ]
   },
   {
-   "title": "Dette skjer i hjernen når vi lærer å lese",
-   "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
-   "source": "forskning.no",
-   "category": "Vitenskap",
-   "summary": "Leseopplæring former gradvis hjernens nettverk for syn og språk, og kobler dem sammen til et helhetlig integrert system.",
-   "why": "Fascinerende innsikt i hjernens utvikling"
-  },
-  {
-   "title": "Samiske Snøfrid kan ha vært stammor til norske konger",
-   "url": "https://gemini.no/2026/10/samiske-snofrid-kan-vaere-stammor-til-norske-konger/",
-   "source": "Gemini",
-   "category": "Historie",
-   "summary": "Norrøne opphavsmyter viser en tydelig sørsamisk tilstedeværelse, og Snøfrid fra Dovre skal ha giftet seg inn i kongsætten.",
-   "why": "Ny forståelse av felles fortid"
-  },
-  {
-   "title": "Nye funn viser at gigantiske dinosaurer levde langt sør hele året",
-   "url": "https://www.forskning.no/dinosaurer-paleontologi-ung/denne-dinosauren-kunne-bli-lengre-enn-en-blahval-og-la-egg-lenger-sor-enn-noen-andre-vi-vet-om/2720471",
-   "source": "forskning.no",
-   "category": "Vitenskap",
-   "summary": "Funn av forsteinede eggeskall avslører at de største landdyrene noensinne kunne oppholde seg langt mot sør året rundt.",
-   "why": "Ny oppdagelse om forhistorisk dyreliv"
-  },
-  {
-   "title": "Blekkspruten kombinerer høy intelligens med korte liv",
-   "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
-   "source": "forskning.no",
-   "category": "Natur",
-   "summary": "Blekkspruter er blant havets mest intelligente skapninger, til tross for at de som regel bare lever i et par år.",
-   "why": "Lærerik kunnskap om havets hemmeligheter"
-  },
-  {
-   "title": "Odd Nordstoga ute med sitt tiende musikkalbum",
-   "url": "https://www.aftenposten.no/kultur/i/58GBGe/anmeldelse-av-foer-du-gaar-av-odd-nordstoga-drivende-hverdagspoesi",
-   "source": "Aftenposten",
-   "category": "Kultur",
-   "summary": "Odd Nordstoga leverer drivende hverdagspoesi og lun musikk på sitt nyeste plateprosjekt.",
-   "why": "Ny musikk fra folkekjær artist"
+   "id": "sport",
+   "name": "Sport",
+   "stories": [
+    {
+     "title": "VM-sølv til Gustav Iden etter imponerende opphenting på Hawaii",
+     "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
+     "source": "Aftenposten",
+     "summary": "Nordmannen løp seg opp fra en niendeplass og sikret andreplassen i mesterskapet til tross for at han fikk en tidsstraff underveis."
+    },
+    {
+     "title": "Kristoffer Ajer sikret poeng for Brentford med ny scoring",
+     "url": "https://www.nrk.no/sport/ajer-reddet-poeng-for-brentford-_-scoret-igjen-1.18051464",
+     "source": "NRK",
+     "summary": "Den norske forsvarsspilleren viste frem målteft igjen da han sørget for at Brentford spilte 2–2 borte mot Aston Villa."
+    },
+    {
+     "title": "Max Verstappen med seier i Singapore Grand Prix",
+     "url": "https://www.nrk.no/sport/formel-1_-verstappen-med-ny-triumf-_-full-kontroll-i-singapore-grand-prix-1.18051880",
+     "source": "NRK",
+     "summary": "Red Bull-føreren kjørte kontrollert inn til sin andre strake Grand Prix-triumf da han vant søndagens hovedløp i Formel 1."
+    }
+   ]
   }
- ],
- "sport": {
-  "title": "Gustav Iden sikret VM-sølv på Hawaii etter heroisk opphenting",
-  "url": "https://www.vg.no/sport/i/8G53RA/vm-gull-i-ironman-til-norge",
-  "source": "VG",
-  "summary": "Den norske triatleten løp seg mesterlig opp fra niende- til andreplass og tok VM-sølv, til tross for en tidsstraff underveis."
- }
+ ]
 }
