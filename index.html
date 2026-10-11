@@ -181,8 +181,8 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
 </div>
 
 <script>
-var ICON={samfunn:"🏛️",okonomi:"📈",vitenskap:"🔬",ki:"🤖",natur:"🌿",psykologi:"🧠",oppvekst:"🧸",tro:"🕊️",aand:"🧘",kunst:"🎨",musikk:"🎵",litteratur:"📚",kultur:"🎭",spill:"🎲",sport:"⚽"};
-var PAL={aand:[318,"#efe4ee","#5e3b57","#a26f97"],samfunn:[210,"#dce8f6","#1d4f7f","#3b82c4"],okonomi:[135,"#d6efd8","#1d6130","#34a052"],vitenskap:[168,"#d2efe6","#145e4b","#22a083"],ki:[236,"#dfe0fa","#33358f","#5b5fd6"],natur:[80,"#e7f2c6","#4b6512","#8ab526"],psykologi:[338,"#fbdbe7","#8c2350","#e05b8f"],oppvekst:[26,"#fde2cc","#8a4510","#ee8a3a"],tro:[48,"#f8eebe","#6b560a","#d4ac16"],kunst:[305,"#f5d8f1","#7a2370","#c94bb8"],musikk:[8,"#fdd8d2","#93291b","#e2553f"],litteratur:[30,"#ece2d6","#5f4128","#9c7350"],kultur:[268,"#e8dcf8","#55308f","#8a5cd1"],spill:[192,"#cdf1f8","#0a5869","#13a9c4"],sport:[215,"#e3e8ee","#33465b","#687e96"]};
+var ICON={samfunn:"🏛️",okonomi:"📈",vitenskap:"🔬",ki:"🤖",natur:"🌿",psykologi:"🧠",helse:"🏃",oppvekst:"🧸",tro:"🕊️",aand:"🧘",kunst:"🎨",musikk:"🎵",litteratur:"📚",kultur:"🎭",spill:"🎲",sport:"⚽"};
+var PAL={aand:[318,"#efe4ee","#5e3b57","#a26f97"],samfunn:[210,"#dce8f6","#1d4f7f","#3b82c4"],okonomi:[135,"#d6efd8","#1d6130","#34a052"],vitenskap:[168,"#d2efe6","#145e4b","#22a083"],ki:[236,"#dfe0fa","#33358f","#5b5fd6"],natur:[80,"#e7f2c6","#4b6512","#8ab526"],psykologi:[338,"#fbdbe7","#8c2350","#e05b8f"],helse:[112,"#dcf3d2","#2f5e1c","#5cae3a"],oppvekst:[26,"#fde2cc","#8a4510","#ee8a3a"],tro:[48,"#f8eebe","#6b560a","#d4ac16"],kunst:[305,"#f5d8f1","#7a2370","#c94bb8"],musikk:[8,"#fdd8d2","#93291b","#e2553f"],litteratur:[30,"#ece2d6","#5f4128","#9c7350"],kultur:[268,"#e8dcf8","#55308f","#8a5cd1"],spill:[192,"#cdf1f8","#0a5869","#13a9c4"],sport:[215,"#e3e8ee","#33465b","#687e96"]};
 function paint(e,id){var p=PAL[id]||[150,"#e2f2ea","#24553e","#4a9a73"];e.style.setProperty('--h',p[0]);e.style.setProperty('--bgL',p[1]);e.style.setProperty('--inkL',p[2]);e.style.setProperty('--c',p[3]);}
 function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
 function render(data){
