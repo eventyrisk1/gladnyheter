@@ -18,17 +18,17 @@ FEEDS = [
     ("Kunstkritikk", "https://kunstkritikk.no/feed/", 2),
     ("Ballade", "https://www.ballade.no/feed", 2),
     ("Gamer.no", "https://www.gamer.no/rss", 2),
-    ("forskning.no", "https://www.forskning.no/?lab_viewport=rss", 3),
-    ("Gemini", "https://gemini.no/feed/", 3),
-    ("NRK", "https://www.nrk.no/viten/toppsaker.rss", 3),
+    ("forskning.no", "https://www.forskning.no/?lab_viewport=rss", 2),
+    ("Gemini", "https://gemini.no/feed/", 2),
+    ("NRK", "https://www.nrk.no/viten/toppsaker.rss", 2),
     ("NRK", "https://www.nrk.no/kultur/toppsaker.rss", 2),
-    ("Teknisk Ukeblad", "https://www.tu.no/rss", 2),
+    ("Teknisk Ukeblad", "https://www.tu.no/rss", 1),
     ("Aftenposten", "https://www.aftenposten.no/rss/kultur", 2),
     ("E24", "https://e24.no/rss2/", 1),
     ("NRK", "https://www.nrk.no/toppsaker.rss", 1),
     ("NRK", "https://www.nrk.no/norge/toppsaker.rss", 1),
-    ("Aftenposten", "https://www.aftenposten.no/rss", 0),
-    ("VG", "https://www.vg.no/rss/feed", 0),
+    ("Aftenposten", "https://www.aftenposten.no/rss", 1),
+    ("VG", "https://www.vg.no/rss/feed", 1),
 ]
 SPORT_FEEDS = [
     ("NRK", "https://www.nrk.no/sport/toppsaker.rss", 1),
@@ -191,7 +191,16 @@ def collect(feeds):
                 continue
             seen.update([key, it["url"]])
             out.append(it)
-    return out
+    # Fordel kildene jevnt (annenhver sak fra hver kilde), så ingen kilde dominerer listen
+    groups = {}
+    for it in out:
+        groups.setdefault(it["source"], []).append(it)
+    mixed = []
+    while any(groups.values()):
+        for g in groups.values():
+            if g:
+                mixed.append(g.pop(0))
+    return mixed
 
 
 CATS = [
@@ -249,7 +258,7 @@ KAST ALT som handler om krig, militære konflikter, forsvar/våpen, terror, krim
 
 Velg de 3 mest interessante, lærerike eller viktige sakene i HVER av disse kategoriene (viktigst først):
 %s
-Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kilder når det går. Finnes det færre enn 3 gode saker i en kategori, ta med færre heller enn dårlige saker.
+Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kildene: høyst 1 sak fra samme kilde i hver kategori, og høyst 4 saker fra samme kilde totalt. Bruk gjerne mange ulike kilder (NRK, Aftenposten, VG, E24, fagkilder osv.). Finnes det færre enn 3 gode saker i en kategori, ta med færre heller enn dårlige saker.
 For hver sak: informativ tittel på bokmål (omskriv klikkagn) og en oppsummering på 1-2 setninger som BARE bygger på teksten (ikke dikt opp fakta).
 Svar KUN med JSON der hver kategori-id er en nøkkel, f.eks.: {"samfunn":[{"id":0,"title":"","summary":""}],"okonomi":[...], ... ,"sport":[{"id":1000,"title":"","summary":""}]}
 
@@ -269,7 +278,7 @@ def build_prompt(news, sport):
 
 def read_answer(raw, news, sport):
     ans = json.loads(re.search(r"\{.*\}", raw, re.S).group(0))
-    out, used = {}, set()
+    out, used, per_src = {}, set(), {}
     for cid, _, _ in CATS:
         out[cid] = []
         for s in ans.get(cid, []) or []:
@@ -279,10 +288,16 @@ def read_answer(raw, news, sport):
                 continue
             pool, j = (sport, i - 1000) if cid == "sport" else (news, i)
             if 0 <= j < len(pool) and i not in used and len(out[cid]) < 3:
+                src = pool[j]["source"]
+                if any(x["source"] == src for x in out[cid]) or per_src.get(src, 0) >= MAX_PER_SOURCE:
+                    continue
                 used.add(i)
+                per_src[src] = per_src.get(src, 0) + 1
                 out[cid].append(story(pool[j], s.get("title"), s.get("summary")))
     return out
 
+
+MAX_PER_SOURCE = 4
 
 GEMINI_MODELS = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite", "gemini-3-flash-preview", "gemini-2.0-flash"]
 
