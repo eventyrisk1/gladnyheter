@@ -204,7 +204,7 @@ function render(data){
     c.stories.forEach(function(s,i){
       var li=el('li');li.appendChild(el('span','n',String(i+1)));
       var it=el('div','item');var h3=el('h3');var a=el('a',null,s.title);a.href=s.url;a.target='_blank';a.rel='noopener';h3.appendChild(a);it.appendChild(h3);
-      if(s.summary)it.appendChild(el('p',null,s.summary));it.appendChild(el('div','src',s.source));
+      if(s.summary)it.appendChild(el('p',null,s.summary));it.appendChild(el('div','src',s.source+(s.paid?' · 🔒 Krever abonnement':'')));
       li.appendChild(it);ol.appendChild(li);
     });
     sec.appendChild(ol);grid.appendChild(sec);
