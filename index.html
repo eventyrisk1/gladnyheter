@@ -50,6 +50,8 @@ header.mast{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spa
 .themebtn{font:inherit;font-size:12px;font-weight:600;margin-top:6px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--fg);cursor:pointer}
 .themebtn:hover{border-color:var(--fjord)}
 .promise{font-style:italic;font-size:15px;color:var(--muted);padding:12px 0 0;margin:0}
+.promise .how{font-style:normal;font-family:var(--ui);font-size:13px;font-weight:600;color:var(--fjord);text-decoration:none;white-space:nowrap;margin-left:4px}
+.promise .how:hover{text-decoration:underline}
 nav.jump{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 6px;font-family:var(--ui);font-size:14px}
 section.cat,nav.jump a{--cbg:var(--bgL,#e2f2ea);--cink:var(--inkL,#24553e)}
 nav.jump a{text-decoration:none;padding:6px 12px;border:1px solid var(--c,#4a9a73);border-radius:999px;background:var(--cbg)}
@@ -146,7 +148,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
     <h1 class="brand"><span class="sun" aria-hidden="true"></span>Gladnyheter<small>.com</small></h1>
     <div class="meta"><b id="gn-date"></b><br><span id="gn-upd"></span><br><button type="button" class="themebtn" id="gn-theme" aria-label="Bytt mellom lys og mørk visning"></button></div>
   </header>
-  <p class="promise">Ingen skremselsnyheter. Ingen klikkagn. Ingen influensere og kjendistull. Ingen reklame.</p>
+  <p class="promise">Ingen skremselsnyheter. Ingen klikkagn. Ingen influensere og kjendistull. Ingen reklame. <a class="how" href="/om">Hvordan velges sakene? →</a></p>
   <div class="top">
   <figure class="quote" id="gn-quote" hidden><a class="qimg" id="gn-qlink" target="_blank" rel="noopener" hidden><img id="gn-qimg" alt="" width="64" height="64" decoding="async"></a><div class="qtext"><blockquote id="gn-q"></blockquote><figcaption id="gn-qby"></figcaption></div></figure>
 
@@ -172,7 +174,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
   <div class="done" id="gn-done" hidden><h2>Du er oppdatert</h2><p id="gn-next"></p></div>
 
   <footer>
-    <p><b>Slik velges sakene:</b> Hver time leses norske nyhetskilder, og vi plukker ut sakene som gjør deg klokere og gladere – uten skremselsnyheter, klikkagn, kjendisstoff og reklame. I hver kategori står de tre mest interessante, lærerike eller nyttige sakene akkurat nå. Under «Velg kategorier» bestemmer du selv hvilke kategorier du vil se.</p>
+    <p><b>Slik velges sakene:</b> Sakene velges automatisk hver time av kunstig intelligens (Google Gemini) fra norske nyhetskilder. Ingen kan betale for å komme med. <a href="/om">Les mer om hvordan det fungerer →</a></p>
     <p>Gladnyheter lager ingen egne artikler. Hver sak lenker til kilden.</p>
     <p class="beta"><span class="badge">Beta</span> Gladnyheter er en betaversjon utviklet av teamet bak <a href="https://eventyrhuset.no">Eventyrhuset.no</a>. Tips, ønsker eller feil? Send e-post til <a href="mailto:post@eventyrisk.no">post@eventyrisk.no</a> eller <a href="https://eventyrhuset.no">chat med oss på Eventyrhuset.no</a> (chatteboblen nede i hjørnet).</p>
   </footer>
@@ -192,6 +194,7 @@ function render(data){
     document.getElementById('gn-upd').textContent="Oppdatert kl. "+m[4]+":"+m[5];}
   var cats=data.categories;
   if(!cats){cats=[{id:"samfunn",name:"Dagens saker",stories:data.stories||[]}];if(data.sport)cats.push({id:"sport",name:"Sport",stories:[data.sport]});}
+  (function(){var n=0,src={};cats.forEach(function(c){(c.stories||[]).forEach(function(s){n++;if(s.source)src[s.source]=1;});});var k=Object.keys(src).length,u=document.getElementById('gn-upd');if(m&&n&&k)u.textContent="Oppdatert kl. "+m[4]+":"+m[5]+" · "+n+" saker fra "+k+" kilder";})();
   var grid=document.getElementById('grid');grid.textContent="";
   cats.forEach(function(c){
     if(!c.stories||!c.stories.length)return;
