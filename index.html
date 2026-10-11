@@ -62,6 +62,21 @@ li:first-child .item h3{font-size:1.32rem}
 li:not(:first-child) .item p{color:var(--muted)}
 .src{font-family:var(--ui);font-size:12px;color:var(--muted);margin-top:4px}
 .empty{font-family:var(--ui);color:var(--muted)}
+.today{margin-top:20px;padding:16px 20px;background:var(--surface);border:1px solid var(--line);border-radius:14px;font-family:var(--ui);font-size:14px;display:grid;gap:10px}
+.today-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.today-head h2{margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--fjord)}
+.today select{font:inherit;font-size:13px;padding:4px 8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+.today-row{display:grid;grid-template-columns:4.5rem 1fr;gap:10px;align-items:baseline}
+.today-row b{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+.today-row span{min-width:0}
+.today-row strong{font-family:var(--display);font-size:1.15rem;font-weight:700;font-variant-numeric:tabular-nums}
+.today .note{font-size:12px;color:var(--muted)}
+.since{font-family:var(--ui);font-size:13px;color:var(--muted);margin:14px 0 0}
+.since b{color:var(--fg)}
+.new{display:inline-block;font-family:var(--ui);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--sun);color:#1d2a25;border-radius:999px;padding:1px 7px;margin-right:6px;vertical-align:2px}
+.done{margin-top:28px;padding:22px;text-align:center;border:2px dashed var(--line);border-radius:14px;font-family:var(--ui)}
+.done h2{font-family:var(--display);font-size:1.4rem;margin:0 0 4px;color:var(--fg)}
+.done p{margin:0;color:var(--muted);font-size:14px}
 footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-family:var(--ui);font-size:13px;color:var(--muted)}
 footer p{margin:0 0 6px;max-width:70ch}
 @media (max-width:480px){.meta{text-align:left}section.cat{padding:16px 16px 4px}}
@@ -75,11 +90,22 @@ footer p{margin:0 0 6px;max-width:70ch}
   </header>
   <p class="promise">Ingen krig og skremsler. Ingen klikkagn. Ingen influensere og kjendistull. Ingen reklame.</p>
 
+  <section class="today" id="today" hidden aria-label="Nyttig i dag">
+    <div class="today-head"><h2>Nyttig i dag</h2>
+      <label class="note">Område <select id="gn-area"></select></label></div>
+    <div class="today-row"><b>Vær</b><span id="gn-weather">–</span></div>
+    <div class="today-row"><b>Strøm</b><span id="gn-power">–</span></div>
+    <div class="note">Strømpris er spotpris inkl. mva, uten nettleie og påslag. Kilder: hvakosterstrommen.no og Meteorologisk institutt.</div>
+  </section>
+  <p class="since" id="gn-since" hidden></p>
+
   <nav class="jump" aria-label="Kategorier">
     <a href="#samfunn">Samfunn</a><a href="#okonomi">Økonomi og næringsliv</a><a href="#vitenskap">Vitenskap og teknologi</a><a href="#natur">Natur og miljø</a><a href="#kultur">Kultur og historie</a><a href="#sport">Sport</a>
   </nav>
 
   <main class="grid" id="grid"><p class="empty">Sakene lastes …</p></main>
+
+  <div class="done" id="gn-done" hidden><h2>Du er oppdatert</h2><p id="gn-next"></p></div>
 
   <footer>
     <p><b>Slik velges sakene:</b> Hver time leses norske nyhetskilder. Krig, kriminalitet, ulykker, klikkagn, kjendisstoff og reklame sorteres bort. I hver kategori står de tre mest interessante, lærerike eller nyttige sakene akkurat nå.</p>
@@ -112,7 +138,61 @@ function render(data){
     });
     sec.appendChild(ol);grid.appendChild(sec);
   });
+  renderToday(data.today);markNew(data);
   document.querySelectorAll('nav.jump a').forEach(function(a){if(!document.getElementById(a.getAttribute('href').slice(1)))a.hidden=true;});
+}
+function store(k,v){try{if(v===undefined){return JSON.parse(localStorage.getItem(k));}localStorage.setItem(k,JSON.stringify(v));}catch(e){return null;}}
+var WX={clearsky:"Klarvær",fair:"Lettskyet",partlycloudy:"Delvis skyet",cloudy:"Skyet",fog:"Tåke",lightrain:"Lett regn",rain:"Regn",heavyrain:"Kraftig regn",lightrainshowers:"Lette regnbyger",rainshowers:"Regnbyger",heavyrainshowers:"Kraftige regnbyger",lightsleet:"Lett sludd",sleet:"Sludd",heavysleet:"Kraftig sludd",lightsleetshowers:"Sluddbyger",sleetshowers:"Sluddbyger",lightsnow:"Lett snø",snow:"Snø",heavysnow:"Kraftig snø",lightsnowshowers:"Snøbyger",snowshowers:"Snøbyger",heavysnowshowers:"Kraftige snøbyger"};
+function wxText(code){if(!code)return"";var c=code.replace(/_(day|night|polartwilight)$/,"");if(/thunder/.test(c))return"Torden";return WX[c]||"";}
+function fmt(n){return String(Math.round(n)).replace("-","−");}
+function renderToday(t){
+  if(!t||!t.areas)return;
+  var sel=document.getElementById('gn-area');sel.textContent="";
+  t.areas.forEach(function(a){var o=document.createElement('option');o.value=a.id;o.textContent=a.name;sel.appendChild(o);});
+  var saved=store('gn-area');if(saved&&t.areas.some(function(a){return a.id===saved;}))sel.value=saved;
+  function show(){
+    var a=t.areas.filter(function(x){return x.id===sel.value;})[0]||t.areas[0];
+    var w=t.weather&&t.weather[a.id];var we=document.getElementById('gn-weather');
+    if(w){we.textContent="";var st=el('strong',null,fmt(w.temp)+"°");we.appendChild(st);
+      var parts=[wxText(w.symbol)];if(w.min!=null&&w.max!=null)parts.push("i dag "+fmt(w.min)+" til "+fmt(w.max)+"°");
+      if(w.rain6!=null)parts.push(w.rain6>0?String(w.rain6).replace(".",",")+" mm regn neste 6 timer":"opphold neste 6 timer");
+      we.appendChild(document.createTextNode("  "+parts.filter(Boolean).join(" · ")));}
+    else we.textContent="Ikke tilgjengelig akkurat nå";
+    var pe=document.getElementById('gn-power');var today=(t.power||{})[a.zone]||[];var tom=(t.power_tomorrow||{})[a.zone]||[];
+    if(today.length){
+      var now=new Date();var hh=("0"+now.getHours()).slice(-2)+":00";var isToday=t.date===now.getFullYear()+"-"+("0"+(now.getMonth()+1)).slice(-2)+"-"+("0"+now.getDate()).slice(-2);
+      var idx=-1;if(isToday){for(var i=0;i<today.length;i++){if(today[i][0]<=("0"+now.getHours()).slice(-2)+":"+("0"+now.getMinutes()).slice(-2))idx=i;}}
+      var cur=idx>=0?today[idx]:null;
+      var future=(idx>=0?today.slice(idx):today).map(function(r){return{t:r[0],p:r[1],d:"i dag"};}).concat(tom.map(function(r){return{t:r[0],p:r[1],d:"i morgen"};}));
+      var per=today.length>30?4:1, win=3*per, best=null;
+      for(var j=0;j+win<=future.length;j++){var sum=0;for(var k=0;k<win;k++)sum+=future[j+k].p;var avg=sum/win;if(!best||avg<best.avg)best={i:j,avg:avg};}
+      pe.textContent="";
+      if(cur){pe.appendChild(el('strong',null,fmt(cur[1])+" øre"));pe.appendChild(document.createTextNode(" per kWh nå"));}
+      if(best){var s0=future[best.i],s1=future[best.i+win-1];var endH=("0"+((parseInt(s1.t,10)+1)%24)).slice(-2);
+        pe.appendChild(document.createTextNode((cur?" · ":"")+"Billigst: "+s0.d+" kl. "+s0.t.slice(0,2)+"–"+endH+" (snitt "+fmt(best.avg)+" øre)"));}
+    } else pe.textContent="Ikke tilgjengelig akkurat nå";
+    store('gn-area',a.id);
+  }
+  sel.onchange=show;show();document.getElementById('today').hidden=false;
+}
+function markNew(data){
+  var seen=store('gn-seen');var first=!seen;seen=seen||{};var last=store('gn-last');var nowMs=Date.now();var n=0;
+  document.querySelectorAll('section.cat li a').forEach(function(a){
+    var u=a.href;if(!first&&!seen[u]){n++;var b=el('span','new','Ny');a.parentNode.insertBefore(b,a);}
+    if(!seen[u])seen[u]=nowMs;
+  });
+  Object.keys(seen).forEach(function(k){if(nowMs-seen[k]>14*864e5)delete seen[k];});
+  store('gn-seen',seen);store('gn-last',nowMs);
+  var p=document.getElementById('gn-since');
+  if(!first&&last){var d=new Date(last);var when=("0"+d.getHours()).slice(-2)+":"+("0"+d.getMinutes()).slice(-2);
+    var sameDay=new Date().toDateString()===d.toDateString();
+    p.textContent="";
+    if(n){p.appendChild(el('b',null,n+(n===1?" ny sak":" nye saker")));p.appendChild(document.createTextNode(" siden du var innom "+(sameDay?"kl. ":"sist, ")+(sameDay?when:d.toLocaleDateString('nb-NO',{day:'numeric',month:'long'})+" kl. "+when)+"."));}
+    else p.textContent="Ingen nye saker siden du var innom"+(sameDay?" kl. "+when:" sist")+".";
+    p.hidden=false;}
+  var m=/T(\d{2}):(\d{2})/.exec(data.updated||"");var nx=document.getElementById('gn-next');
+  nx.textContent=m?"Det var alt for nå. Nye saker kommer rundt kl. "+("0"+((+m[1]+1)%24)).slice(-2)+":"+m[2]+".":"Det var alt for nå.";
+  document.getElementById('gn-done').hidden=false;
 }
 fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){
   document.getElementById('grid').innerHTML='<p class="empty">Klarte ikke å hente sakene. Prøv å laste siden på nytt.</p>';
