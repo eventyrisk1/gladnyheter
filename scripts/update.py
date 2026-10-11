@@ -39,12 +39,12 @@ BLOCK = re.compile(
     r"paradise hotel|farmen|skal vi danse|quiz|kryssord|se bildene|se video|høydepunkt|på \d+ minutter|"
     r"tegneserie|dagens lunch|dagens dunce|konkurs|permitter|nedlegg|kutt|streik(?! avverget)|savnet|"
     r"alarm|frykt|advar|trussel|sjokk|skandale|rase|raste|slakt|knus|bråk|krangel|rettssak|søksmål|saksøk|"
-    r"etterforsk|anklag|mistenkt|sikkerhetsbrudd|hack|svindel|bedrag|rasis|hets\b|hat\b|hatet|mobb|demonstr|protest)",
+    r"etterforsk|anklag|mistenkt|sikkerhetsbrudd|hacker|svindel|bedrag|rasis|hets\b|hat\b|hatet|mobb|demonstr|protest)",
     re.I,
 )
 # Klikkagn-mønstre i titler
 CLICKBAIT = re.compile(
-    r"(\(\d{1,3}\)|^–|^-|: –|: -|dette er|her er|slik |sjekk|du vil|du må|ikke tro|avslør|hemmelig|"
+    r"(\(\d{1,3}\)|^–|^-|: –|: -|dette er|her er|sjekk|dette skjedde|du vil|du må|ikke tro|avslør|hemmelig|"
     r"utrolig|vanvittig|helt rå|alle snakker|reagerer|hylles|får kritikk|tar et oppgjør|går til angrep|"
     r"ber om unnskyldning|bryter tausheten|åpner opp|forteller om|mener at|kommentar|debatt|leder:)",
     re.I,
@@ -100,17 +100,28 @@ def parse(source, url, weight, limit=25):
         print(f"Feil: {url}: {e}", file=sys.stderr)
         return items
     now = datetime.datetime.now(datetime.timezone.utc)
-    for pos, block in enumerate(re.findall(r"<item[\s>].*?</item>", raw, re.S)[:limit]):
+    blocks = re.findall(r"<item[\s>].*?</item>", raw, re.S) or re.findall(r"<entry[\s>].*?</entry>", raw, re.S)
+    if not blocks:
+        print(f"      ingen saker funnet, starten av svaret: {raw[:300]!r}")
+    for pos, block in enumerate(blocks[:limit]):
         t = clean(tag(block, "title"))
-        link = strip_utm(clean(tag(block, "link")))
-        d = clean(tag(block, "description"), 220)
+        link = clean(tag(block, "link"))
+        if not link:
+            m = re.search(r'<link[^>]*href="([^"]+)"', block)
+            link = html.unescape(m.group(1)) if m else ""
+        link = strip_utm(link)
+        d = clean(tag(block, "description") or tag(block, "summary") or tag(block, "content"), 220)
         if not t or not link:
             continue
         age_h = None
         try:
             age_h = (now - parsedate_to_datetime(clean(tag(block, "pubDate")))).total_seconds() / 3600
         except Exception:
-            pass
+            try:
+                ds = clean(tag(block, "updated") or tag(block, "published") or tag(block, "dc:date"))
+                age_h = (now - datetime.datetime.fromisoformat(ds.replace("Z", "+00:00"))).total_seconds() / 3600
+            except Exception:
+                pass
         items.append({"source": source, "title": t, "url": link, "desc": d,
                       "weight": weight, "pos": pos, "age": age_h})
     return items
