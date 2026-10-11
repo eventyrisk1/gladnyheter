@@ -9,6 +9,10 @@
 <meta property="og:description" content="Topp 3 i hver kategori – uten krig, klikkagn, kjendistull og reklame.">
 <meta property="og:url" content="https://gladnyheter.com/">
 <meta name="theme-color" content="#f2f5f1">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Gladnyheter">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='%23e9a923'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
 <style>
@@ -72,6 +76,8 @@ li:not(:first-child) .item p{color:var(--muted)}
 .today-row b{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
 .today-row span{min-width:0}
 .today-row strong{font-family:var(--display);font-size:1.15rem;font-weight:700;font-variant-numeric:tabular-nums}
+.pushbtn{font:inherit;font-size:13px;font-weight:600;padding:5px 12px;border-radius:999px;border:1px solid var(--fjord);background:var(--fjord-soft);color:var(--fjord);cursor:pointer}
+.pushbtn.on{background:transparent;border-color:var(--line);color:var(--muted);font-weight:500}
 .today .note{font-size:12px;color:var(--muted)}
 .since{font-family:var(--ui);font-size:13px;color:var(--muted);margin:14px 0 0}
 .since b{color:var(--fg)}
@@ -124,6 +130,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
       <label class="note">Område <select id="gn-area"></select></label></div>
     <div class="today-row"><b>Vær</b><span id="gn-weather">–</span></div>
     <div class="today-row"><b>Strøm</b><span id="gn-power">–</span></div>
+    <div class="today-row" id="gn-push" hidden><b>Varsel</b><span><button type="button" class="pushbtn" id="gn-push-btn" hidden>Få varsel kl. 7 og 16</button> <span class="note" id="gn-push-msg"></span></span></div>
     <div class="note">Strømpris er spotpris inkl. mva, uten nettleie og påslag. Kilder: hvakosterstrommen.no og Meteorologisk institutt.</div>
   </section>
   </div>
@@ -275,6 +282,43 @@ function markNew(data){
 fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){
   document.getElementById('grid').innerHTML='<p class="empty">Klarte ikke å hente sakene. Prøv å laste siden på nytt.</p>';
 });
+/* Push-varsel via OneSignal. Fyll inn app-id fra OneSignal for å slå på. */
+var OS_APP="";
+function setupPush(){
+  if(!OS_APP)return;
+  var row=document.getElementById('gn-push'),btn=document.getElementById('gn-push-btn'),msg=document.getElementById('gn-push-msg');
+  var ios=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  var standalone=window.navigator.standalone===true||(window.matchMedia&&matchMedia('(display-mode: standalone)').matches);
+  row.hidden=false;
+  if(ios&&!standalone){msg.textContent="På iPhone: trykk Del-knappen og velg «Legg til på Hjem-skjerm». Åpne Gladnyheter derfra og slå på varsel.";return;}
+  msg.textContent="Laster …";
+  window.OneSignalDeferred=window.OneSignalDeferred||[];
+  var sc=document.createElement('script');sc.src='https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js';sc.defer=true;
+  sc.onerror=function(){msg.textContent="Varsler er blokkert i denne nettleseren.";};
+  document.head.appendChild(sc);
+  OneSignalDeferred.push(async function(OS){
+    try{await OS.init({appId:OS_APP,serviceWorkerPath:'OneSignalSDKWorker.js',serviceWorkerParam:{scope:'/'}});}catch(e){msg.textContent="Varsler er ikke tilgjengelig her.";return;}
+    function upd(){
+      if(!OS.Notifications.isPushSupported()){btn.hidden=true;msg.textContent="Nettleseren din støtter ikke varsler.";return;}
+      var on=OS.User.PushSubscription.optedIn&&OS.Notifications.permission;
+      btn.hidden=false;btn.className='pushbtn'+(on?' on':'');
+      btn.textContent=on?'Slå av varsel':'Få varsel kl. 7 og 16';
+      msg.textContent=on?'Du får en gladnyhet ca. kl. 7 og 16.':'';
+    }
+    btn.onclick=async function(){
+      try{
+        if(OS.User.PushSubscription.optedIn&&OS.Notifications.permission){await OS.User.PushSubscription.optOut();}
+        else{await OS.Notifications.requestPermission();await OS.User.PushSubscription.optIn();}
+      }catch(e){}
+      upd();
+      if(OS.Notifications.permissionNative==='denied')msg.textContent="Varsler er blokkert. Slå dem på i nettleserens innstillinger for gladnyheter.com.";
+    };
+    OS.User.PushSubscription.addEventListener('change',upd);
+    OS.Notifications.addEventListener('permissionChange',upd);
+    upd();
+  });
+}
+setupPush();
 </script>
 </body>
 </html>
