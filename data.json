@@ -1,27 +1,27 @@
 {
- "updated": "2026-10-11T16:10",
+ "updated": "2026-10-11T16:25",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "SAS-streik avverget etter enighet hos Riksmekleren",
+     "title": "SAS-streik avverget etter enighet i mekling",
      "url": "https://e24.no/naeringsliv/i/AbEpxn/sas-streik-avverget",
      "source": "E24",
-     "summary": "Partene kom til enighet etter at megleren la frem en skisse til løsning på overtid. Dermed blir det ingen flystreik."
+     "summary": "Partene i SAS-meklingen ble enige om en løsning natt til søndag, noe som betyr at den varslede flystreiken er avlyst."
     },
     {
-     "title": "Åpner ny veistrekning på E4",
+     "title": "Ny vei åpner ved Stockholm i desember",
      "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
      "source": "Teknisk Ukeblad",
-     "summary": "Etter ti års arbeid kan de første bilene nå ta i bruk 3,5 kilometer med ny vei ved Stockholm."
+     "summary": "Etter ti års arbeid åpner 3,5 kilometer med ny vei på E4 ved Stockholm for trafikk den 6. desember."
     },
     {
-     "title": "Ekspertenes råd for et musefritt hus i vinter",
-     "url": "https://www.forskning.no/dyreverden-hus-og-hjem-samfunn/det-er-mest-sannsynlig-ikke-husmus-du-har-i-hus/2719472",
-     "source": "forskning.no",
-     "summary": "Mus trenger svært få millimeter for å ta seg inn i boliger. Forskere og fagfolk deler nå sine beste tips for å tette huset."
+     "title": "Stortinget selger overflødige pendlerboliger",
+     "url": "https://e24.no/norsk-oekonomi/i/X9jk4m/helg-stortinget-skal-selge-pendlerboliger-for-100-millioner",
+     "source": "E24",
+     "summary": "Stortinget skal selge elleve pendlerboliger de ikke lenger har bruk for, med en anslått verdi på rundt 100 millioner kroner."
     }
    ]
   },
@@ -30,22 +30,22 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Norske sensorbrikker måler flyhøyde i passasjerfly",
-     "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
-     "source": "Teknisk Ukeblad",
-     "summary": "På Gaustad i Oslo produseres det avanserte trykksensorer som benyttes i luftfarten over hele verden."
+     "title": "Arbeidsgivere tar i bruk AI for å vurdere jobbsøkere",
+     "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
+     "source": "E24",
+     "summary": "Stadig flere bedrifter benytter nå verktøy basert på kunstig intelligens for å effektivisere vurderingen av kandidater i rekrutteringsprosesser."
     },
     {
-     "title": "Forskere: Norsk kaffebrenning kan elektrifiseres",
-     "url": "https://gemini.no/2026/10/kan-norsk-kaffebrenning-elektrifiseres-ja-mener-forskere/",
-     "source": "Gemini",
-     "summary": "Selv om kaffebrenning tradisjonelt krever fossil energi eller biodrivstoff, viser ny forskning at prosessen fint kan drives med elektrisitet."
-    },
-    {
-     "title": "Klarsignal og politisk støtte til havvindprosjektet Utsira Nord",
+     "title": "Politisk støtte til havvindsatsing på Utsira Nord",
      "url": "https://www.tu.no/energi/hoyre-gir-klarsignal-til-flytende-havvind-vil-bidra-til-framdrift-for-utsira-nord/7145245",
      "source": "Teknisk Ukeblad",
-     "summary": "En ny kvalitetssikring styrker troen på prosjektet, og Høyre stiller seg bak videre satsing på Utsira Nord."
+     "summary": "Høyre gir klarsignal for den videre prosessen med havvindprosjektet Utsira Nord etter at en ny kvalitetssikring har styrket tilliten til prosjektet."
+    },
+    {
+     "title": "Forslag om 1000 nye trainee-stillinger i staten",
+     "url": "https://e24.no/norsk-oekonomi/i/kvvPbj/abid-raja-vil-ha-1000-nye-trainee-stillinger-i-statsbudsjettet",
+     "source": "E24",
+     "summary": "Venstre foreslår å sette av midler til 1000 nye trainee-stillinger i statsbudsjettet for å hjelpe nyutdannede inn i arbeidsmarkedet."
     }
    ]
   },
@@ -54,22 +54,22 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Dette skjer i hjernen når du lærer å lese",
+     "title": "Norsk teknologi måler høyden i passasjerfly",
+     "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
+     "source": "Teknisk Ukeblad",
+     "summary": "Trykksensorer produsert på Gaustad i Oslo brukes i en rekke passasjerfly verden over for å måle flyhøyde nøyaktig."
+    },
+    {
+     "title": "Slik formes hjernen når vi lærer å lese",
      "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
      "source": "forskning.no",
-     "summary": "Leseopplæring er en gradvis prosess som kobler hjernens nettverk for syn og språk sammen til et helhetlig system."
+     "summary": "Forskning viser at lesing er en langvarig prosess som gradvis kobler sammen hjernens nettverk for språk og syn til et integrert system."
     },
     {
-     "title": "Nye funn om kjempedinosaurenes leveområder",
-     "url": "https://www.forskning.no/dinosaurer-paleontologi-ung/denne-dinosauren-kunne-bli-lengre-enn-en-blahval-og-la-egg-lenger-sor-enn-noen-andre-vi-vet-om/2720471",
+     "title": "Dans kan lindre ryggsmerter hos eldre",
+     "url": "https://www.forskning.no/blogg-elib/kan-dans-hjelpe-eldre-med-langvarige-ryggsmerter/2721468",
      "source": "forskning.no",
-     "summary": "Funn av forstenede eggeskall viser at de aller største landdyrene kunne bo og trives langt sør gjennom hele året."
-    },
-    {
-     "title": "Blekkspruten imponerer med høy intelligens",
-     "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
-     "source": "forskning.no",
-     "summary": "Blekkspruter har vist seg å være usedvanlig intelligente skapninger, til tross for at de som regel bare lever i få år."
+     "summary": "En pilotstudie har undersøkt hvordan dansebasert bevegelsestrening kan fungere som et effektivt verktøy i behandlingen av langvarige korsryggsmerter."
     }
    ]
   },
@@ -78,22 +78,22 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Pæretre bærer fremdeles frukt etter over 100 år",
-     "url": "https://www.nrk.no/mr/stort-paeretre-har-blitt-attraksjon-pa-otroya-i-molde-_-familien-heggdal-ser-pa-det-som-slektstre-1.18036366",
-     "source": "NRK",
-     "summary": "Det over hundre år gamle frukttreet holder koken og fortsetter å gi rik avling sesong etter sesong."
+     "title": "Forskere utvikler geléklump som alternativ til kjøtt",
+     "url": "https://www.forskning.no/klima-mat-ung/har-du-lyst-pa-en-geleklump-som-kjennes-ut-som-kjott/2718642",
+     "source": "forskning.no",
+     "summary": "Ny forskning på geléklumper med kjøttlignende tekstur kan bidra til at forbrukere velger mer plantebasert kosthold i fremtiden."
     },
     {
-     "title": "Tradisjonen med kulokk kan styrke forholdet til naturen",
+     "title": "Kulokk kan styrke menneskets bånd til naturen",
      "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
      "source": "forskning.no",
-     "summary": "Den gamle skikken med kulokk løftes frem som et inspirerende eksempel på samspill mellom mennesker, dyr og landskap."
+     "summary": "Den gamle tradisjonen med kulokk trekkes frem som et eksempel på hvordan vi kan gjenopprette et bedre og nærere forhold til naturen."
     },
     {
-     "title": "Følelser har mindre effekt på klimavennlig adferd enn antatt",
+     "title": "Forskning på sammenhengen mellom følelser og miljøvalg",
      "url": "https://gemini.no/2026/10/folelser-betyr-ikke-sa-mye-for-klimavennlig-atferd/",
      "source": "Gemini",
-     "summary": "En ny studie viser at følelser som sinne, håp og medfølelse spiller en mindre rolle for folks miljøvalg enn tidligere antatt."
+     "summary": "En ny studie viser at følelser som sinne og håp kanskje har mindre betydning for klimavennlig atferd enn forskere tidligere har antatt."
     }
    ]
   },
@@ -102,22 +102,22 @@
    "name": "Kultur og historie",
    "stories": [
     {
-     "title": "Norrøn kirkeruin funnet på Grønland",
+     "title": "Norrøn kirkeruin oppdaget på Grønland",
      "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
      "source": "forskning.no",
-     "summary": "Skjelettfunn i Sør-Grønland har avdekket en hittil ukjent kirke fra den norrøne bosettingstiden, like ved Erik Raudes gård."
+     "summary": "Arkeologer har funnet rester av en ukjent kirke og et skjelett fra den norrøne bosettingstiden på Sør-Grønland."
     },
     {
-     "title": "Sørsamisk tilstedeværelse i norrøne opphavsmyter",
-     "url": "https://gemini.no/2026/10/samiske-snofrid-kan-vaere-stammor-til-norske-konger/",
-     "source": "Gemini",
-     "summary": "Gamle kilder viser at samiske skikkelser som Snøfrid, datter av Svåse på Dovre, inngår i historiene om de tidlige norske kongenes slektstrær."
-    },
-    {
-     "title": "Stjålne malerier av Renoir er funnet igjen",
+     "title": "Stjålne Renoir-malerier funnet i Frankrike",
      "url": "https://www.aftenposten.no/kultur/i/kvvXEv/stjaalne-renoir-malerier-funnet",
      "source": "Aftenposten",
-     "summary": "To verdifulle kunstverk av den kjente maleren Pierre-Auguste Renoir har kommet til rette etter å ha blitt stjålet i september."
+     "summary": "To verdifulle malerier av kunstneren Renoir som ble stjålet i september, har kommet til rette igjen etter et funn i Frankrike."
+    },
+    {
+     "title": "Sørsamisk innflytelse i norrøn historie",
+     "url": "https://gemini.no/2026/10/samiske-snofrid-kan-vaere-stammor-til-norske-konger/",
+     "source": "Gemini",
+     "summary": "Forskning på norrøne opphavsmyter viser en tydelig sørsamisk tilstedeværelse, blant annet gjennom historien om Snøfrid og Harald Hårfagre."
     }
    ]
   },
@@ -126,24 +126,1087 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "VM-sølv til Gustav Iden etter imponerende opphenting på Hawaii",
+     "title": "Norsk VM-sølv i triatlon etter sterk opphenting",
      "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
      "source": "Aftenposten",
-     "summary": "Nordmannen løp seg opp fra en niendeplass og sikret andreplassen i mesterskapet til tross for at han fikk en tidsstraff underveis."
+     "summary": "Gustav Iden sikret sølvmedalje under VM på Hawaii etter å ha løpt seg opp fra en niendeplass til tross for en tidsstraff."
     },
     {
-     "title": "Kristoffer Ajer sikret poeng for Brentford med ny scoring",
+     "title": "Kristoffer Ajer reddet poeng for Brentford",
      "url": "https://www.nrk.no/sport/ajer-reddet-poeng-for-brentford-_-scoret-igjen-1.18051464",
      "source": "NRK",
-     "summary": "Den norske forsvarsspilleren viste frem målteft igjen da han sørget for at Brentford spilte 2–2 borte mot Aston Villa."
+     "summary": "Den norske landslagsspilleren fortsetter scoringsformen og sikret 2–2 for Brentford i oppgjøret mot Aston Villa."
     },
     {
-     "title": "Max Verstappen med seier i Singapore Grand Prix",
-     "url": "https://www.nrk.no/sport/formel-1_-verstappen-med-ny-triumf-_-full-kontroll-i-singapore-grand-prix-1.18051880",
+     "title": "Viking-legende har tro på mirakel mot Bayern München",
+     "url": "https://www.nrk.no/rogaland/arne-larsen-okland-blei-helt-i-tyskland-_-dette-trur-han-om-viking-sin-kamp-mot-bayern-munchen-1.18049196",
      "source": "NRK",
-     "summary": "Red Bull-føreren kjørte kontrollert inn til sin andre strake Grand Prix-triumf da han vant søndagens hovedløp i Formel 1."
+     "summary": "Arne Larsen Økland, som ble helt i Tyskland i 1981, tror det er mulig for Viking å skape et godt resultat når Bayern München gjester Stavanger."
     }
    ]
   }
- ]
+ ],
+ "today": {
+  "areas": [
+   {
+    "id": "oslo",
+    "name": "Oslo / Østlandet",
+    "zone": "NO1"
+   },
+   {
+    "id": "kristiansand",
+    "name": "Kristiansand / Sørlandet",
+    "zone": "NO2"
+   },
+   {
+    "id": "trondheim",
+    "name": "Trondheim / Midt-Norge",
+    "zone": "NO3"
+   },
+   {
+    "id": "tromso",
+    "name": "Tromsø / Nord-Norge",
+    "zone": "NO4"
+   },
+   {
+    "id": "bergen",
+    "name": "Bergen / Vestlandet",
+    "zone": "NO5"
+   },
+   {
+    "id": "stavanger",
+    "name": "Stavanger / Rogaland",
+    "zone": "NO2"
+   }
+  ],
+  "power": {
+   "NO1": [
+    [
+     "00:00",
+     147.9
+    ],
+    [
+     "01:00",
+     139.2
+    ],
+    [
+     "02:00",
+     136.6
+    ],
+    [
+     "03:00",
+     135.6
+    ],
+    [
+     "04:00",
+     138.4
+    ],
+    [
+     "05:00",
+     137.7
+    ],
+    [
+     "06:00",
+     142.5
+    ],
+    [
+     "07:00",
+     166.2
+    ],
+    [
+     "08:00",
+     179.4
+    ],
+    [
+     "09:00",
+     163.6
+    ],
+    [
+     "10:00",
+     156.9
+    ],
+    [
+     "11:00",
+     153.1
+    ],
+    [
+     "12:00",
+     153.2
+    ],
+    [
+     "13:00",
+     147.2
+    ],
+    [
+     "14:00",
+     147.6
+    ],
+    [
+     "15:00",
+     152.6
+    ],
+    [
+     "16:00",
+     175.3
+    ],
+    [
+     "17:00",
+     198.3
+    ],
+    [
+     "18:00",
+     211.2
+    ],
+    [
+     "19:00",
+     220.8
+    ],
+    [
+     "20:00",
+     214.2
+    ],
+    [
+     "21:00",
+     206.7
+    ],
+    [
+     "22:00",
+     203.8
+    ],
+    [
+     "23:00",
+     202.3
+    ]
+   ],
+   "NO2": [
+    [
+     "00:00",
+     150.8
+    ],
+    [
+     "01:00",
+     141.6
+    ],
+    [
+     "02:00",
+     138.6
+    ],
+    [
+     "03:00",
+     137.4
+    ],
+    [
+     "04:00",
+     140.3
+    ],
+    [
+     "05:00",
+     139.6
+    ],
+    [
+     "06:00",
+     145.0
+    ],
+    [
+     "07:00",
+     169.7
+    ],
+    [
+     "08:00",
+     183.4
+    ],
+    [
+     "09:00",
+     165.6
+    ],
+    [
+     "10:00",
+     159.1
+    ],
+    [
+     "11:00",
+     155.0
+    ],
+    [
+     "12:00",
+     155.0
+    ],
+    [
+     "13:00",
+     149.5
+    ],
+    [
+     "14:00",
+     149.7
+    ],
+    [
+     "15:00",
+     154.1
+    ],
+    [
+     "16:00",
+     183.0
+    ],
+    [
+     "17:00",
+     213.2
+    ],
+    [
+     "18:00",
+     234.5
+    ],
+    [
+     "19:00",
+     241.9
+    ],
+    [
+     "20:00",
+     227.6
+    ],
+    [
+     "21:00",
+     222.6
+    ],
+    [
+     "22:00",
+     213.8
+    ],
+    [
+     "23:00",
+     214.5
+    ]
+   ],
+   "NO3": [
+    [
+     "00:00",
+     112.0
+    ],
+    [
+     "01:00",
+     107.9
+    ],
+    [
+     "02:00",
+     104.0
+    ],
+    [
+     "03:00",
+     104.3
+    ],
+    [
+     "04:00",
+     105.4
+    ],
+    [
+     "05:00",
+     106.6
+    ],
+    [
+     "06:00",
+     109.7
+    ],
+    [
+     "07:00",
+     122.6
+    ],
+    [
+     "08:00",
+     130.7
+    ],
+    [
+     "09:00",
+     128.2
+    ],
+    [
+     "10:00",
+     126.9
+    ],
+    [
+     "11:00",
+     125.8
+    ],
+    [
+     "12:00",
+     127.0
+    ],
+    [
+     "13:00",
+     115.9
+    ],
+    [
+     "14:00",
+     116.2
+    ],
+    [
+     "15:00",
+     131.1
+    ],
+    [
+     "16:00",
+     140.5
+    ],
+    [
+     "17:00",
+     143.2
+    ],
+    [
+     "18:00",
+     136.0
+    ],
+    [
+     "19:00",
+     134.7
+    ],
+    [
+     "20:00",
+     128.2
+    ],
+    [
+     "21:00",
+     130.8
+    ],
+    [
+     "22:00",
+     129.8
+    ],
+    [
+     "23:00",
+     122.7
+    ]
+   ],
+   "NO4": [
+    [
+     "00:00",
+     25.2
+    ],
+    [
+     "01:00",
+     24.9
+    ],
+    [
+     "02:00",
+     24.8
+    ],
+    [
+     "03:00",
+     24.2
+    ],
+    [
+     "04:00",
+     24.8
+    ],
+    [
+     "05:00",
+     24.2
+    ],
+    [
+     "06:00",
+     24.2
+    ],
+    [
+     "07:00",
+     24.2
+    ],
+    [
+     "08:00",
+     24.2
+    ],
+    [
+     "09:00",
+     23.1
+    ],
+    [
+     "10:00",
+     24.2
+    ],
+    [
+     "11:00",
+     24.2
+    ],
+    [
+     "12:00",
+     24.2
+    ],
+    [
+     "13:00",
+     24.2
+    ],
+    [
+     "14:00",
+     25.2
+    ],
+    [
+     "15:00",
+     24.0
+    ],
+    [
+     "16:00",
+     25.1
+    ],
+    [
+     "17:00",
+     27.1
+    ],
+    [
+     "18:00",
+     27.3
+    ],
+    [
+     "19:00",
+     27.5
+    ],
+    [
+     "20:00",
+     28.1
+    ],
+    [
+     "21:00",
+     27.3
+    ],
+    [
+     "22:00",
+     26.6
+    ],
+    [
+     "23:00",
+     25.8
+    ]
+   ],
+   "NO5": [
+    [
+     "00:00",
+     147.5
+    ],
+    [
+     "01:00",
+     139.2
+    ],
+    [
+     "02:00",
+     135.0
+    ],
+    [
+     "03:00",
+     134.0
+    ],
+    [
+     "04:00",
+     136.5
+    ],
+    [
+     "05:00",
+     136.2
+    ],
+    [
+     "06:00",
+     141.3
+    ],
+    [
+     "07:00",
+     164.5
+    ],
+    [
+     "08:00",
+     177.4
+    ],
+    [
+     "09:00",
+     162.3
+    ],
+    [
+     "10:00",
+     157.4
+    ],
+    [
+     "11:00",
+     155.5
+    ],
+    [
+     "12:00",
+     155.9
+    ],
+    [
+     "13:00",
+     150.1
+    ],
+    [
+     "14:00",
+     150.2
+    ],
+    [
+     "15:00",
+     154.8
+    ],
+    [
+     "16:00",
+     168.7
+    ],
+    [
+     "17:00",
+     181.7
+    ],
+    [
+     "18:00",
+     184.0
+    ],
+    [
+     "19:00",
+     184.6
+    ],
+    [
+     "20:00",
+     184.7
+    ],
+    [
+     "21:00",
+     181.6
+    ],
+    [
+     "22:00",
+     180.0
+    ],
+    [
+     "23:00",
+     170.4
+    ]
+   ]
+  },
+  "power_tomorrow": {
+   "NO1": [
+    [
+     "00:00",
+     197.7
+    ],
+    [
+     "01:00",
+     195.5
+    ],
+    [
+     "02:00",
+     194.4
+    ],
+    [
+     "03:00",
+     193.9
+    ],
+    [
+     "04:00",
+     194.1
+    ],
+    [
+     "05:00",
+     195.5
+    ],
+    [
+     "06:00",
+     202.7
+    ],
+    [
+     "07:00",
+     219.0
+    ],
+    [
+     "08:00",
+     233.8
+    ],
+    [
+     "09:00",
+     243.1
+    ],
+    [
+     "10:00",
+     241.8
+    ],
+    [
+     "11:00",
+     219.3
+    ],
+    [
+     "12:00",
+     202.8
+    ],
+    [
+     "13:00",
+     197.0
+    ],
+    [
+     "14:00",
+     196.3
+    ],
+    [
+     "15:00",
+     201.0
+    ],
+    [
+     "16:00",
+     209.9
+    ],
+    [
+     "17:00",
+     222.4
+    ],
+    [
+     "18:00",
+     218.9
+    ],
+    [
+     "19:00",
+     218.9
+    ],
+    [
+     "20:00",
+     219.7
+    ],
+    [
+     "21:00",
+     211.3
+    ],
+    [
+     "22:00",
+     203.4
+    ],
+    [
+     "23:00",
+     196.5
+    ]
+   ],
+   "NO2": [
+    [
+     "00:00",
+     212.8
+    ],
+    [
+     "01:00",
+     211.8
+    ],
+    [
+     "02:00",
+     211.1
+    ],
+    [
+     "03:00",
+     211.3
+    ],
+    [
+     "04:00",
+     211.0
+    ],
+    [
+     "05:00",
+     212.9
+    ],
+    [
+     "06:00",
+     214.2
+    ],
+    [
+     "07:00",
+     221.0
+    ],
+    [
+     "08:00",
+     233.4
+    ],
+    [
+     "09:00",
+     239.8
+    ],
+    [
+     "10:00",
+     237.8
+    ],
+    [
+     "11:00",
+     215.8
+    ],
+    [
+     "12:00",
+     200.0
+    ],
+    [
+     "13:00",
+     194.8
+    ],
+    [
+     "14:00",
+     194.5
+    ],
+    [
+     "15:00",
+     203.4
+    ],
+    [
+     "16:00",
+     212.6
+    ],
+    [
+     "17:00",
+     239.2
+    ],
+    [
+     "18:00",
+     233.0
+    ],
+    [
+     "19:00",
+     227.9
+    ],
+    [
+     "20:00",
+     221.6
+    ],
+    [
+     "21:00",
+     216.9
+    ],
+    [
+     "22:00",
+     213.2
+    ],
+    [
+     "23:00",
+     210.3
+    ]
+   ],
+   "NO3": [
+    [
+     "00:00",
+     141.0
+    ],
+    [
+     "01:00",
+     138.8
+    ],
+    [
+     "02:00",
+     138.1
+    ],
+    [
+     "03:00",
+     137.3
+    ],
+    [
+     "04:00",
+     138.0
+    ],
+    [
+     "05:00",
+     150.5
+    ],
+    [
+     "06:00",
+     168.6
+    ],
+    [
+     "07:00",
+     195.3
+    ],
+    [
+     "08:00",
+     228.1
+    ],
+    [
+     "09:00",
+     257.1
+    ],
+    [
+     "10:00",
+     260.2
+    ],
+    [
+     "11:00",
+     235.7
+    ],
+    [
+     "12:00",
+     215.8
+    ],
+    [
+     "13:00",
+     206.0
+    ],
+    [
+     "14:00",
+     204.1
+    ],
+    [
+     "15:00",
+     209.6
+    ],
+    [
+     "16:00",
+     221.0
+    ],
+    [
+     "17:00",
+     226.9
+    ],
+    [
+     "18:00",
+     227.7
+    ],
+    [
+     "19:00",
+     212.8
+    ],
+    [
+     "20:00",
+     199.8
+    ],
+    [
+     "21:00",
+     188.1
+    ],
+    [
+     "22:00",
+     177.7
+    ],
+    [
+     "23:00",
+     165.4
+    ]
+   ],
+   "NO4": [
+    [
+     "00:00",
+     27.8
+    ],
+    [
+     "01:00",
+     27.9
+    ],
+    [
+     "02:00",
+     27.9
+    ],
+    [
+     "03:00",
+     27.9
+    ],
+    [
+     "04:00",
+     28.2
+    ],
+    [
+     "05:00",
+     28.5
+    ],
+    [
+     "06:00",
+     28.7
+    ],
+    [
+     "07:00",
+     29.4
+    ],
+    [
+     "08:00",
+     30.8
+    ],
+    [
+     "09:00",
+     30.0
+    ],
+    [
+     "10:00",
+     28.8
+    ],
+    [
+     "11:00",
+     30.6
+    ],
+    [
+     "12:00",
+     32.4
+    ],
+    [
+     "13:00",
+     33.9
+    ],
+    [
+     "14:00",
+     36.3
+    ],
+    [
+     "15:00",
+     39.7
+    ],
+    [
+     "16:00",
+     44.4
+    ],
+    [
+     "17:00",
+     59.5
+    ],
+    [
+     "18:00",
+     40.0
+    ],
+    [
+     "19:00",
+     35.7
+    ],
+    [
+     "20:00",
+     37.4
+    ],
+    [
+     "21:00",
+     31.2
+    ],
+    [
+     "22:00",
+     28.4
+    ],
+    [
+     "23:00",
+     27.0
+    ]
+   ],
+   "NO5": [
+    [
+     "00:00",
+     189.4
+    ],
+    [
+     "01:00",
+     186.1
+    ],
+    [
+     "02:00",
+     184.5
+    ],
+    [
+     "03:00",
+     183.3
+    ],
+    [
+     "04:00",
+     184.1
+    ],
+    [
+     "05:00",
+     182.9
+    ],
+    [
+     "06:00",
+     192.9
+    ],
+    [
+     "07:00",
+     218.3
+    ],
+    [
+     "08:00",
+     233.9
+    ],
+    [
+     "09:00",
+     243.6
+    ],
+    [
+     "10:00",
+     242.4
+    ],
+    [
+     "11:00",
+     219.8
+    ],
+    [
+     "12:00",
+     203.3
+    ],
+    [
+     "13:00",
+     197.4
+    ],
+    [
+     "14:00",
+     196.4
+    ],
+    [
+     "15:00",
+     197.1
+    ],
+    [
+     "16:00",
+     204.3
+    ],
+    [
+     "17:00",
+     201.9
+    ],
+    [
+     "18:00",
+     200.7
+    ],
+    [
+     "19:00",
+     208.6
+    ],
+    [
+     "20:00",
+     219.4
+    ],
+    [
+     "21:00",
+     207.2
+    ],
+    [
+     "22:00",
+     195.1
+    ],
+    [
+     "23:00",
+     183.8
+    ]
+   ]
+  },
+  "weather": {
+   "oslo": {
+    "temp": 6,
+    "min": 5,
+    "max": 6,
+    "symbol": "partlycloudy_night",
+    "rain6": 0.0
+   },
+   "kristiansand": {
+    "temp": 11,
+    "min": 3,
+    "max": 11,
+    "symbol": "clearsky_night",
+    "rain6": 0.0
+   },
+   "trondheim": {
+    "temp": 8,
+    "min": 4,
+    "max": 8,
+    "symbol": "partlycloudy_night",
+    "rain6": 0.0
+   },
+   "tromso": {
+    "temp": 3,
+    "min": 0,
+    "max": 3,
+    "symbol": "partlycloudy_night",
+    "rain6": 0.0
+   },
+   "bergen": {
+    "temp": 12,
+    "min": 10,
+    "max": 12,
+    "symbol": "lightrain",
+    "rain6": 0.0
+   },
+   "stavanger": {
+    "temp": 12,
+    "min": 9,
+    "max": 12,
+    "symbol": "lightrainshowers_day",
+    "rain6": 0.0
+   }
+  },
+  "date": "2026-10-11"
+ }
 }
