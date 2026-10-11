@@ -2,19 +2,17 @@
 <html lang="nb">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Gladnyheter samler de ti mest interessante, lærerike og nyttige nyhetene fra norske medier – uten krig, skremsler, klikkagn og kjendistull. Oppdateres hver time.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gladnyheter</title>
+<meta name="description" content="Gladnyheter samler de beste nyhetene fra norske medier – topp 3 i hver kategori, uten krig, skremsler, klikkagn, kjendistull og reklame. Oppdateres hver time.">
 <meta property="og:title" content="Gladnyheter">
-<meta property="og:description" content="Dagens ti beste norske nyheter – uten krig, klikkagn og kjendistull.">
+<meta property="og:description" content="Topp 3 i hver kategori – uten krig, klikkagn, kjendistull og reklame.">
 <meta property="og:url" content="https://gladnyheter.com/">
 <meta name="theme-color" content="#f2f5f1">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='%23e9a923'/%3E%3C/svg%3E">
-<style>:root{box-sizing:border-box}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Gladnyheter</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
 <style>
-/* Layout: morgenavis i ett spor – én hovedsak, rangert liste, egen sportsboks, filterløfte nederst */
+/* Layout: masthead, kategori-hopp, så seksjoner i rutenett (2 kolonner på stor skjerm), hver med topp 3 */
 :root{
   --bg:#f2f5f1; --surface:#ffffff; --fg:#1d2a25; --muted:#5d6b64; --line:#d8e0da;
   --sun:#e9a923; --sun-soft:#fbefcf; --fjord:#2c6a86; --fjord-soft:#e1edf2;
@@ -28,50 +26,48 @@
 :root[data-theme="dark"]{
   --bg:#121916; --surface:#1a231f; --fg:#e7eee9; --muted:#9aa9a1; --line:#2c3833;
   --sun:#f2bb47; --sun-soft:#3a3018; --fjord:#7cb6d1; --fjord-soft:#1c2d35; color-scheme:dark}
-body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.55}
-.wrap{max-width:760px;margin:0 auto;padding:28px 16px 56px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
 a{color:inherit}
+a:focus-visible{outline:2px solid var(--sun);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 16px 56px}
+.proto{display:inline-block;font-family:var(--ui);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;background:var(--sun-soft);color:var(--fg);padding:4px 10px;border-radius:999px;margin-bottom:14px}
 header.mast{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 20px;padding-bottom:18px;border-bottom:2px solid var(--fg)}
 .brand{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,8vw,3.4rem);letter-spacing:-.03em;line-height:1;margin:0;display:flex;align-items:center;gap:.25em}
 .sun{width:.62em;height:.62em;border-radius:50%;background:var(--sun);box-shadow:0 0 0 .12em var(--sun-soft);flex:none}
-.brand small{font-weight:500;font-size:.38em;color:var(--muted);letter-spacing:0;align-self:flex-end;margin-bottom:.35em}
+.brand small{font-weight:500;font-size:.38em;color:var(--muted);align-self:flex-end;margin-bottom:.35em}
 .meta{font-family:var(--ui);font-size:13px;color:var(--muted);text-align:right;line-height:1.4}
 .meta b{color:var(--fg);font-weight:600}
-.promise{font-family:var(--body);font-style:italic;font-size:15px;color:var(--muted);padding:12px 0 0;margin:0}
-.lead{margin-top:28px;padding:24px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
-.lead h2{font-family:var(--display);font-weight:700;font-size:clamp(1.6rem,5vw,2.2rem);line-height:1.12;letter-spacing:-.015em;margin:10px 0 10px;text-wrap:balance}
-.lead p{margin:0;font-size:1.08rem}
-.tagrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-family:var(--ui);font-size:12px}
-.tag{padding:3px 9px;border-radius:999px;background:var(--fjord-soft);color:var(--fjord);font-weight:600;letter-spacing:.02em}
-.src{color:var(--muted)}
-.why{margin-top:12px;font-family:var(--ui);font-size:13px;color:var(--muted)}
-.why b{color:var(--fg);font-weight:600}
-.read{display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-family:var(--ui);font-size:14px;font-weight:600;color:var(--fjord);text-decoration:none}
-.read:hover,.read:focus-visible{text-decoration:underline}
-a:focus-visible{outline:2px solid var(--sun);outline-offset:3px;border-radius:4px}
-h3.sec{font-family:var(--ui);font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:36px 0 4px;font-weight:600}
-ol.list{list-style:none;margin:0;padding:0}
-ol.list li{display:grid;grid-template-columns:2.4rem 1fr;gap:4px 12px;padding:18px 0;border-bottom:1px solid var(--line)}
-.n{font-family:var(--display);font-weight:800;font-size:1.6rem;line-height:1;color:var(--sun);font-variant-numeric:tabular-nums}
+.promise{font-style:italic;font-size:15px;color:var(--muted);padding:12px 0 0;margin:0}
+nav.jump{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 6px;font-family:var(--ui);font-size:14px}
+nav.jump a{text-decoration:none;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
+nav.jump a:hover{border-color:var(--fjord);color:var(--fjord)}
+.grid{display:grid;grid-template-columns:1fr;gap:20px;margin-top:18px}
+@media (min-width:820px){.grid{grid-template-columns:1fr 1fr}}
+section.cat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px 22px 8px;min-width:0;scroll-margin-top:16px}
+section.cat.sport{background:var(--sun-soft)}
+.cat h2{font-family:var(--ui);font-size:13px;text-transform:uppercase;letter-spacing:.12em;margin:0 0 6px;color:var(--fjord);font-weight:700;display:flex;justify-content:space-between;gap:8px}
+.cat.sport h2{color:var(--fg)}
+.cat h2 span{color:var(--muted);font-weight:500;letter-spacing:.04em;text-transform:none}
+ol{list-style:none;margin:0;padding:0}
+li{display:grid;grid-template-columns:1.8rem 1fr;gap:2px 10px;padding:14px 0;border-top:1px solid var(--line)}
+li:first-child{border-top:0}
+.n{font-family:var(--display);font-weight:800;font-size:1.35rem;line-height:1.1;color:var(--sun);font-variant-numeric:tabular-nums}
 .item{min-width:0}
-.item h4{font-family:var(--display);font-weight:700;font-size:1.22rem;line-height:1.22;margin:6px 0 6px;text-wrap:balance}
-.item h4 a{text-decoration:none}
-.item h4 a:hover{text-decoration:underline;text-decoration-color:var(--sun);text-decoration-thickness:2px}
-.item p{margin:0;color:var(--fg)}
-.sport{margin-top:32px;padding:20px 22px;border-radius:14px;background:var(--sun-soft);border:1px solid var(--line)}
-.sport .lbl{font-family:var(--ui);font-size:12px;text-transform:uppercase;letter-spacing:.12em;font-weight:700;color:var(--fg)}
-.sport h4{font-family:var(--display);font-weight:700;font-size:1.3rem;line-height:1.2;margin:8px 0 6px;text-wrap:balance}
-.sport h4 a{text-decoration:none}
-.sport p{margin:0}
-footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-family:var(--ui);font-size:13px;color:var(--muted);display:grid;gap:8px}
-footer p{margin:0;max-width:62ch}
-.empty{margin-top:28px;font-family:var(--ui);color:var(--muted)}
-@media (max-width:480px){.meta{text-align:left}.lead{padding:18px}}
+.item h3{font-family:var(--display);font-weight:700;font-size:1.08rem;line-height:1.25;margin:0 0 4px;text-wrap:balance}
+li:first-child .item h3{font-size:1.32rem}
+.item h3 a{text-decoration:none}
+.item h3 a:hover{text-decoration:underline;text-decoration-color:var(--sun);text-decoration-thickness:2px}
+.item p{margin:0;font-size:.95rem}
+li:not(:first-child) .item p{color:var(--muted)}
+.src{font-family:var(--ui);font-size:12px;color:var(--muted);margin-top:4px}
+.empty{font-family:var(--ui);color:var(--muted)}
+footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-family:var(--ui);font-size:13px;color:var(--muted)}
+footer p{margin:0 0 6px;max-width:70ch}
+@media (max-width:480px){.meta{text-align:left}section.cat{padding:16px 16px 4px}}
 </style>
 </head>
 <body>
-
-
 <div class="wrap">
   <header class="mast">
     <h1 class="brand"><span class="sun" aria-hidden="true"></span>Gladnyheter<small>.com</small></h1>
@@ -79,62 +75,48 @@ footer p{margin:0;max-width:62ch}
   </header>
   <p class="promise">Ingen krig og skremsler. Ingen klikkagn. Ingen influensere og kjendistull. Ingen reklame.</p>
 
-  <main id="gn-main"><p class="empty">Sakene lastes …</p></main>
+  <nav class="jump" aria-label="Kategorier">
+    <a href="#samfunn">Samfunn</a><a href="#okonomi">Økonomi og næringsliv</a><a href="#vitenskap">Vitenskap og teknologi</a><a href="#natur">Natur og miljø</a><a href="#kultur">Kultur og historie</a><a href="#sport">Sport</a>
+  </nav>
+
+  <main class="grid" id="grid"><p class="empty">Sakene lastes …</p></main>
 
   <footer>
-    <p><b>Slik velges sakene:</b> Hver time leses forsidene til norske nyhetskilder. Alt som er krig, kriminalitet, ulykker, klikkagn og kjendisstoff sorteres bort. Igjen står de ti sakene som er mest interessante, lærerike eller nyttige å vite, pluss den viktigste sportssaken akkurat nå.</p>
+    <p><b>Slik velges sakene:</b> Hver time leses norske nyhetskilder. Krig, kriminalitet, ulykker, klikkagn, kjendisstoff og reklame sorteres bort. I hver kategori står de tre mest interessante, lærerike eller nyttige sakene akkurat nå.</p>
     <p>Gladnyheter lager ingen egne artikler. Hver sak lenker til kilden.</p>
   </footer>
 </div>
 
 <script>
-fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){
-  document.getElementById('gn-main').innerHTML='<p class="empty">Klarte ikke å hente dagens saker. Prøv å laste siden på nytt.</p>';
-});
+function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
 function render(data){
   var months=["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"];
   var days=["søndag","mandag","tirsdag","onsdag","torsdag","fredag","lørdag"];
   var m=/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(data.updated||"");
-  if(m){
-    var d=new Date(+m[1],+m[2]-1,+m[3]);
-    var ds=days[d.getDay()]+" "+(+m[3])+". "+months[+m[2]-1]+" "+m[1];
+  if(m){var d=new Date(+m[1],+m[2]-1,+m[3]);var ds=days[d.getDay()]+" "+(+m[3])+". "+months[+m[2]-1]+" "+m[1];
     document.getElementById('gn-date').textContent=ds.charAt(0).toUpperCase()+ds.slice(1);
-    document.getElementById('gn-upd').textContent="Oppdatert kl. "+m[4]+":"+m[5];
-  }
-  function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
-  function link(s,cls){var a=el('a',cls,s.title);a.href=s.url;a.target="_blank";a.rel="noopener";return a;}
-  function tags(s){var r=el('div','tagrow');if(s.category)r.appendChild(el('span','tag',s.category));r.appendChild(el('span','src',s.source));return r;}
-  var main=document.getElementById('gn-main'); main.textContent="";
-  var st=data.stories||[];
-  if(!st.length){main.appendChild(el('p','empty','Ingen saker akkurat nå. Prøv igjen om litt.'));return;}
-  var L=st[0], lead=el('article','lead');
-  lead.appendChild(tags(L));
-  var h=el('h2');h.appendChild(link(L)); h.firstChild.style.textDecoration="none"; lead.appendChild(h);
-  lead.appendChild(el('p',null,L.summary));
-  if(L.why){var w=el('div','why');w.appendChild(el('b',null,'Hvorfor: '));w.appendChild(document.createTextNode(L.why));lead.appendChild(w);}
-  var r=el('a','read','Les hos '+L.source+' →');r.href=L.url;r.target="_blank";r.rel="noopener";lead.appendChild(r);
-  main.appendChild(lead);
-  if(st.length>1){
-    main.appendChild(el('h3','sec','Topp '+st.length+' akkurat nå'));
-    var ol=el('ol','list');ol.start=2;
-    st.slice(1).forEach(function(s,i){
-      var li=el('li');li.appendChild(el('span','n',String(i+2)));
-      var it=el('div','item');it.appendChild(tags(s));
-      var h4=el('h4');h4.appendChild(link(s));it.appendChild(h4);
-      it.appendChild(el('p',null,s.summary));
+    document.getElementById('gn-upd').textContent="Oppdatert kl. "+m[4]+":"+m[5];}
+  var cats=data.categories;
+  if(!cats){cats=[{id:"samfunn",name:"Dagens saker",stories:data.stories||[]}];if(data.sport)cats.push({id:"sport",name:"Sport",stories:[data.sport]});}
+  var grid=document.getElementById('grid');grid.textContent="";
+  cats.forEach(function(c){
+    if(!c.stories||!c.stories.length)return;
+    var sec=el('section','cat'+(c.id==='sport'?' sport':''));sec.id=c.id;
+    var h=el('h2');h.appendChild(document.createTextNode(c.name));h.appendChild(el('span',null,'Topp '+c.stories.length));sec.appendChild(h);
+    var ol=el('ol');
+    c.stories.forEach(function(s,i){
+      var li=el('li');li.appendChild(el('span','n',String(i+1)));
+      var it=el('div','item');var h3=el('h3');var a=el('a',null,s.title);a.href=s.url;a.target='_blank';a.rel='noopener';h3.appendChild(a);it.appendChild(h3);
+      if(s.summary)it.appendChild(el('p',null,s.summary));it.appendChild(el('div','src',s.source));
       li.appendChild(it);ol.appendChild(li);
     });
-    main.appendChild(ol);
-  }
-  if(data.sport&&data.sport.title){
-    var sp=el('section','sport');sp.appendChild(el('div','lbl','Sport akkurat nå'));
-    var h5=el('h4');h5.appendChild(link(data.sport));sp.appendChild(h5);
-    sp.appendChild(el('p',null,data.sport.summary));
-    sp.appendChild(el('div','why',data.sport.source));
-    main.appendChild(sp);
-  }
+    sec.appendChild(ol);grid.appendChild(sec);
+  });
+  document.querySelectorAll('nav.jump a').forEach(function(a){if(!document.getElementById(a.getAttribute('href').slice(1)))a.hidden=true;});
 }
+fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){
+  document.getElementById('grid').innerHTML='<p class="empty">Klarte ikke å hente sakene. Prøv å laste siden på nytt.</p>';
+});
 </script>
-
 </body>
 </html>
