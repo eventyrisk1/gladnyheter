@@ -34,6 +34,7 @@
   --sun:#f2bb47; --sun-soft:#3a3018; --fjord:#7cb6d1; --fjord-soft:#1c2d35; --tint-s:20%; --tint-l:15%; --ink-s:55%; --ink-l:76%; --edge-l:25%; color-scheme:dark}
 :root[data-theme="dark"] section.cat,:root[data-theme="dark"] nav.jump a{--cbg:hsl(var(--h,150) 26% 17%);--cink:hsl(var(--h,150) 62% 76%)}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
 a{color:inherit}
 a:focus-visible{outline:2px solid var(--sun);outline-offset:3px;border-radius:4px}
@@ -51,10 +52,23 @@ section.cat,nav.jump a{--cbg:var(--bgL,#e2f2ea);--cink:var(--inkL,#24553e)}
 nav.jump a{text-decoration:none;padding:6px 12px;border:1px solid var(--c,#4a9a73);border-radius:999px;background:var(--cbg)}
 nav.jump a:hover{color:var(--cink)}
 .grid{display:grid;grid-template-columns:1fr;gap:20px;margin-top:18px}
-@media (min-width:820px){.grid{grid-template-columns:1fr 1fr}}
+@media (min-width:820px){.grid{grid-template-columns:1fr 1fr}.swipe{display:none}}
+@media (max-width:819px){
+nav.jump{flex-wrap:nowrap;overflow-x:auto;margin-left:-16px;margin-right:-16px;padding:2px 16px 6px;scrollbar-width:none}
+nav.jump::-webkit-scrollbar{display:none}
+nav.jump a{flex:none;white-space:nowrap}
+nav.jump a.on{outline:2px solid var(--c);outline-offset:1px;font-weight:600}
+.grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:12px -16px 0;padding:0 16px 10px;scroll-padding:0 16px;align-items:flex-start;scrollbar-width:none;overscroll-behavior-x:contain}
+.grid::-webkit-scrollbar{display:none}
+.grid>section.cat{flex:0 0 88%;scroll-snap-align:start}
+.grid>section.cat[hidden]{display:none}
+.swipe{font-family:var(--ui);font-size:12px;color:var(--muted);margin:10px 0 0;display:flex;align-items:center;gap:6px}
+}
 section.cat{--ink:var(--cink);--edge:hsl(var(--h,150) 32% var(--edge-l));background:var(--cbg);border:1px solid var(--edge);border-top:5px solid var(--c,var(--edge));border-radius:14px;padding:20px 22px 8px;min-width:0;scroll-margin-top:16px}
 .cat h2{font-family:var(--ui);font-size:13px;text-transform:uppercase;letter-spacing:.12em;margin:0 0 6px;color:var(--ink);font-weight:700;display:flex;justify-content:space-between;gap:8px}
-.cat h2 span{color:var(--muted);font-weight:500;letter-spacing:.04em;text-transform:none}
+.cat h2 .ht{font-weight:700;display:flex;align-items:center;gap:8px}
+.cat h2 .ico{font-style:normal;font-size:18px;letter-spacing:0;line-height:1}
+.cat h2 span{white-space:nowrap;color:var(--muted);font-weight:500;letter-spacing:.04em;text-transform:none}
 ol{list-style:none;margin:0;padding:0}
 li{display:grid;grid-template-columns:1.8rem 1fr;gap:2px 10px;padding:14px 0;border-top:1px solid var(--line)}
 li:first-child{border-top:0}
@@ -86,7 +100,14 @@ li:not(:first-child) .item p{color:var(--muted)}
 .done h2{font-family:var(--display);font-size:1.4rem;margin:0 0 4px;color:var(--fg)}
 .done p{margin:0;color:var(--muted);font-size:14px}
 section.cat li{border-top-color:var(--edge)}
-.quote{margin:20px 0 0;padding:4px 0 4px 18px;border-left:3px solid var(--sun)}
+.quote{margin:20px 0 0;padding:4px 0 4px 18px;border-left:3px solid var(--sun);display:flex;gap:16px;align-items:center}
+.qimg{flex:none;display:block;width:64px;height:64px;border-radius:50%;overflow:hidden;background:var(--line);box-shadow:0 0 0 3px var(--sun-soft)}
+.qimg[hidden]{display:none}
+.qimg img{width:100%;height:100%;object-fit:cover;object-position:50% 20%;display:block;filter:saturate(.9)}
+.qtext{min-width:0}
+.quote figcaption strong{font-weight:600;color:var(--fg)}
+.quote .qsrc{display:block;font-style:italic;font-size:12px;margin-top:1px}
+.quote figcaption strong::before{content:"– "}
 .quote blockquote{margin:0;font-family:var(--body);font-style:italic;font-size:1.15rem;line-height:1.45;text-wrap:balance}
 .quote figcaption{margin-top:4px;font-family:var(--ui);font-size:13px;color:var(--muted)}
 .navrow{display:grid;gap:10px;margin:22px 0 6px}
@@ -110,6 +131,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
 .top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:28px;align-items:center;margin-top:20px}
 .top .quote,.top .today{margin-top:0}
 .top .quote blockquote{font-size:1.35rem}
+.top .qimg{width:84px;height:84px}
 }
 @media (min-width:1560px){.wrap{max-width:1820px}.grid{grid-template-columns:repeat(4,1fr)}}
 @media (max-width:480px){.meta{text-align:left}section.cat{padding:16px 16px 4px}}
@@ -123,7 +145,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
   </header>
   <p class="promise">Ingen krig og skremsler. Ingen klikkagn. Ingen influensere og kjendistull. Ingen reklame.</p>
   <div class="top">
-  <figure class="quote" id="gn-quote" hidden><blockquote id="gn-q"></blockquote><figcaption id="gn-qby"></figcaption></figure>
+  <figure class="quote" id="gn-quote" hidden><a class="qimg" id="gn-qlink" target="_blank" rel="noopener" hidden><img id="gn-qimg" alt="" width="64" height="64" decoding="async"></a><div class="qtext"><blockquote id="gn-q"></blockquote><figcaption id="gn-qby"></figcaption></div></figure>
 
   <section class="today" id="today" hidden aria-label="Nyttig i dag">
     <div class="today-head"><h2>Nyttig i dag</h2>
@@ -141,6 +163,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
     <details class="pick"><summary>Velg kategorier</summary><div class="pickbox" id="gn-pick"></div></details>
   </div>
 
+  <p class="swipe" id="gn-swipe" aria-hidden="true">Sveip til siden for flere kategorier →</p>
   <main class="grid" id="grid"><p class="empty">Sakene lastes …</p></main>
 
   <div class="done" id="gn-done" hidden><h2>Du er oppdatert</h2><p id="gn-next"></p></div>
@@ -153,7 +176,8 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
 </div>
 
 <script>
-var PAL={samfunn:[210,"#dce8f6","#1d4f7f","#3b82c4"],okonomi:[135,"#d6efd8","#1d6130","#34a052"],vitenskap:[168,"#d2efe6","#145e4b","#22a083"],ki:[236,"#dfe0fa","#33358f","#5b5fd6"],natur:[80,"#e7f2c6","#4b6512","#8ab526"],psykologi:[338,"#fbdbe7","#8c2350","#e05b8f"],oppvekst:[26,"#fde2cc","#8a4510","#ee8a3a"],tro:[48,"#f8eebe","#6b560a","#d4ac16"],kunst:[305,"#f5d8f1","#7a2370","#c94bb8"],musikk:[8,"#fdd8d2","#93291b","#e2553f"],litteratur:[30,"#ece2d6","#5f4128","#9c7350"],kultur:[268,"#e8dcf8","#55308f","#8a5cd1"],spill:[192,"#cdf1f8","#0a5869","#13a9c4"],sport:[215,"#e3e8ee","#33465b","#687e96"]};
+var ICON={samfunn:"🏛️",okonomi:"📈",vitenskap:"🔬",ki:"🤖",natur:"🌿",psykologi:"🧠",oppvekst:"🧸",tro:"🕊️",aand:"🧘",kunst:"🎨",musikk:"🎵",litteratur:"📚",kultur:"🎭",spill:"🎲",sport:"⚽"};
+var PAL={aand:[318,"#efe4ee","#5e3b57","#a26f97"],samfunn:[210,"#dce8f6","#1d4f7f","#3b82c4"],okonomi:[135,"#d6efd8","#1d6130","#34a052"],vitenskap:[168,"#d2efe6","#145e4b","#22a083"],ki:[236,"#dfe0fa","#33358f","#5b5fd6"],natur:[80,"#e7f2c6","#4b6512","#8ab526"],psykologi:[338,"#fbdbe7","#8c2350","#e05b8f"],oppvekst:[26,"#fde2cc","#8a4510","#ee8a3a"],tro:[48,"#f8eebe","#6b560a","#d4ac16"],kunst:[305,"#f5d8f1","#7a2370","#c94bb8"],musikk:[8,"#fdd8d2","#93291b","#e2553f"],litteratur:[30,"#ece2d6","#5f4128","#9c7350"],kultur:[268,"#e8dcf8","#55308f","#8a5cd1"],spill:[192,"#cdf1f8","#0a5869","#13a9c4"],sport:[215,"#e3e8ee","#33465b","#687e96"]};
 function paint(e,id){var p=PAL[id]||[150,"#e2f2ea","#24553e","#4a9a73"];e.style.setProperty('--h',p[0]);e.style.setProperty('--bgL',p[1]);e.style.setProperty('--inkL',p[2]);e.style.setProperty('--c',p[3]);}
 function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
 function render(data){
@@ -169,7 +193,7 @@ function render(data){
   cats.forEach(function(c){
     if(!c.stories||!c.stories.length)return;
     var sec=el('section','cat');sec.id=c.id;paint(sec,c.id);
-    var h=el('h2');h.appendChild(document.createTextNode(c.name));h.appendChild(el('span',null,'Topp '+c.stories.length));sec.appendChild(h);
+    var h=el('h2');var ht=el('b','ht');if(ICON[c.id])ht.appendChild(el('i','ico',ICON[c.id]));ht.appendChild(document.createTextNode(c.name));h.appendChild(ht);h.appendChild(el('span',null,'Topp '+c.stories.length));sec.appendChild(h);
     var ol=el('ol');
     c.stories.forEach(function(s,i){
       var li=el('li');li.appendChild(el('span','n',String(i+1)));
@@ -179,7 +203,15 @@ function render(data){
     });
     sec.appendChild(ol);grid.appendChild(sec);
   });
-  renderToday(data.today);markNew(data);buildPicker(cats);
+  renderToday(data.today);markNew(data);buildPicker(cats);watchSwipe();
+}
+function carousel(){return window.matchMedia&&matchMedia('(max-width:819px)').matches;}
+function watchSwipe(){
+  if(!('IntersectionObserver' in window))return;var grid=document.getElementById('grid'),nav=document.getElementById('gn-nav');
+  var io=new IntersectionObserver(function(es){if(!carousel())return;es.forEach(function(e){if(e.isIntersecting&&e.intersectionRatio>.6){
+    nav.querySelectorAll('a.on').forEach(function(x){x.classList.remove('on');});var a=nav.querySelector('a[href="#'+e.target.id+'"]');
+    if(a){a.classList.add('on');nav.scrollTo({left:a.offsetLeft-16,behavior:'smooth'});}}});},{root:grid,threshold:[.6]});
+  grid.querySelectorAll('section.cat').forEach(function(s){io.observe(s);});
 }
 function store(k,v){try{if(v===undefined){return JSON.parse(localStorage.getItem(k));}localStorage.setItem(k,JSON.stringify(v));}catch(e){return null;}}
 
@@ -191,42 +223,50 @@ function buildPicker(cats){
     store('gn-hidden',hidden);
   }
   shown.forEach(function(c){
-    var a=el('a',null,c.name);a.href='#'+c.id;paint(a,c.id);nav.appendChild(a);
+    var a=el('a',null,(ICON[c.id]?ICON[c.id]+' ':'')+c.name);a.href='#'+c.id;paint(a,c.id);a.onclick=function(ev){var sec=document.getElementById(c.id);if(!sec)return;ev.preventDefault();sec.scrollIntoView({behavior:'smooth',block:carousel()?'nearest':'start',inline:'start'});};nav.appendChild(a);
     var lab=el('label');var cb=document.createElement('input');cb.type='checkbox';cb.id='pick-'+c.id;cb.checked=hidden.indexOf(c.id)<0;
     cb.onchange=function(){var i=hidden.indexOf(c.id);if(cb.checked&&i>=0)hidden.splice(i,1);if(!cb.checked&&i<0)hidden.push(c.id);apply();};
-    lab.appendChild(cb);lab.appendChild(document.createTextNode(c.name));box.appendChild(lab);
+    lab.appendChild(cb);lab.appendChild(document.createTextNode((ICON[c.id]?ICON[c.id]+' ':'')+c.name));box.appendChild(lab);
   });
   box.appendChild(el('p','hint','Valget huskes i denne nettleseren.'));
   apply();
 }
 var QUOTES=[
- ["Livet kan bare forstås baklengs, men det må leves forlengs.","Søren Kierkegaard"],
- ["Det er ikke tingene i seg selv som uroer oss, men våre meninger om dem.","Epiktet"],
- ["Vi lider oftere i fantasien enn i virkeligheten.","Seneca"],
- ["Mens vi utsetter, haster livet forbi.","Seneca"],
- ["Det er ikke fordi ting er vanskelige at vi ikke våger. Det er fordi vi ikke våger at de er vanskelige.","Seneca"],
- ["Den beste hevnen er å ikke bli lik den som gjorde deg urett.","Marcus Aurelius"],
- ["En reise på tusen mil begynner med ett skritt.","Laozi"],
- ["Ingen går ned i den samme elven to ganger.","Heraklit"],
- ["Hvis jeg har sett lenger, er det fordi jeg har stått på skuldrene til kjemper.","Isaac Newton"],
- ["Ingenting i livet skal fryktes, det skal bare forstås.","Marie Curie"],
- ["Det vanskelige er det som tar litt tid. Det umulige er det som tar litt lenger tid.","Fridtjof Nansen"],
- ["Seier venter den som har alt i orden – flaks kaller folk det.","Roald Amundsen"],
- ["Den sterkeste mann i verden, det er han som står mest alene.","Henrik Ibsen"],
- ["Hjertet har sine grunner som fornuften ikke kjenner.","Blaise Pascal"],
- ["Det perfekte er det godes fiende.","Voltaire"],
- ["Livet er kort, kunsten er lang.","Hippokrates"],
- ["Gi meg et fast punkt, og jeg skal bevege jorden.","Arkimedes"],
- ["Fantasi er viktigere enn kunnskap.","Albert Einstein"],
- ["Det er ikke nok å vite, man må også anvende. Det er ikke nok å ville, man må også gjøre.","Johann Wolfgang von Goethe"],
- ["Alene kan vi gjøre så lite. Sammen kan vi gjøre så mye.","Helen Keller"],
- ["Den som har et hvorfor å leve for, kan tåle nesten ethvert hvordan.","Friedrich Nietzsche"],
- ["Et liv uten ettertanke er ikke verdt å leve.","Sokrates"],
- ["Jeg tenker, altså er jeg.","René Descartes"],
- ["Mennesket er av natur et samfunnsvesen.","Aristoteles"]
+ ["Livet kan bare forstås baklengs, men det må leves forlengs.","Søren Kierkegaard","Fra dagbøkene hans (1843)","Søren_Kierkegaard"],
+ ["Det er ikke tingene i seg selv som uroer oss, men våre meninger om dem.","Epiktet","Fra Håndbok i livskunst (Encheiridion)","Epictetus"],
+ ["Vi lider oftere i fantasien enn i virkeligheten.","Seneca","Fra Brev til Lucilius, brev 13","Seneca_the_Younger"],
+ ["Mens vi utsetter, haster livet forbi.","Seneca","Fra Brev til Lucilius, brev 1","Seneca_the_Younger"],
+ ["Det er ikke fordi ting er vanskelige at vi ikke våger. Det er fordi vi ikke våger at de er vanskelige.","Seneca","Fra Brev til Lucilius, brev 104","Seneca_the_Younger"],
+ ["Den beste hevnen er å ikke bli lik den som gjorde deg urett.","Marcus Aurelius","Fra Selvbetraktninger, bok 6","Marcus_Aurelius"],
+ ["En reise på tusen mil begynner med ett skritt.","Laozi","Fra Tao Te King, kapittel 64","Laozi"],
+ ["Ingen går ned i den samme elven to ganger.","Heraklit","Gjengitt av Platon i dialogen Kratylos","Heraclitus"],
+ ["Hvis jeg har sett lenger, er det fordi jeg har stått på skuldrene til kjemper.","Isaac Newton","Fra et brev til Robert Hooke (1676)","Isaac_Newton"],
+ ["Å lære uten å tenke er forgjeves. Å tenke uten å lære er farlig.","Konfucius","Fra Samtaler (Analektene), bok 2","Confucius"],
+ ["Det finnes intet godt eller ondt, men tanken gjør det slik.","William Shakespeare","Fra skuespillet Hamlet, 2. akt","William_Shakespeare"],
+ ["Seier venter den som har alt i orden – flaks kaller folk det.","Roald Amundsen","Fra boken Sydpolen (1912)","Roald_Amundsen"],
+ ["Den sterkeste mann i verden, det er han som står mest alene.","Henrik Ibsen","Fra skuespillet En folkefiende (1882)","Henrik_Ibsen"],
+ ["Hjertet har sine grunner som fornuften ikke kjenner.","Blaise Pascal","Fra Tanker (Pensées, 1670)","Blaise_Pascal"],
+ ["Det perfekte er det godes fiende.","Voltaire","Fra diktet La Bégueule (1772)","Voltaire"],
+ ["Livet er kort, kunsten er lang.","Hippokrates","Fra Aforismene","Hippocrates"],
+ ["Gi meg et fast punkt, og jeg skal bevege jorden.","Arkimedes","Gjengitt av Pappos fra Alexandria","Archimedes"],
+ ["Fantasi er viktigere enn kunnskap.","Albert Einstein","Fra et intervju i The Saturday Evening Post (1929)","Albert_Einstein"],
+ ["Det er ikke nok å vite, man må også anvende. Det er ikke nok å ville, man må også gjøre.","Johann Wolfgang von Goethe","Fra romanen Wilhelm Meisters vandreår (1829)","Johann_Wolfgang_von_Goethe"],
+ ["Den som har begynt, har gjort halve jobben.","Horats","Fra Epistler, bok 1","Horace"],
+ ["Den som har et hvorfor å leve for, kan tåle nesten ethvert hvordan.","Friedrich Nietzsche","Fra Avgudenes ragnarok (1889)","Friedrich_Nietzsche"],
+ ["Et liv uten ettertanke er ikke verdt å leve.","Sokrates","Gjengitt av Platon i Forsvarstalen","Socrates"],
+ ["Jeg tenker, altså er jeg.","René Descartes","Fra Avhandling om metoden (1637)","René_Descartes"],
+ ["Mennesket er av natur et samfunnsvesen.","Aristoteles","Fra Politikken","Aristotle"]
 ];
 (function(){var last=store('gn-q');var i;do{i=Math.floor(Math.random()*QUOTES.length);}while(QUOTES.length>1&&i===last);store('gn-q',i);
- document.getElementById('gn-q').textContent="«"+QUOTES[i][0]+"»";document.getElementById('gn-qby').textContent="– "+QUOTES[i][1];document.getElementById('gn-quote').hidden=false;})();
+ var q=QUOTES[i];document.getElementById('gn-q').textContent="«"+q[0]+"»";
+ var by=document.getElementById('gn-qby');by.textContent="";by.appendChild(el('strong',null,q[1]));if(q[2]){by.appendChild(el('span','qsrc',q[2]));}
+ document.getElementById('gn-quote').hidden=false;
+ var img=document.getElementById('gn-qimg'),lnk=document.getElementById('gn-qlink');
+ function show(src,page){img.onload=function(){lnk.hidden=false;};img.src=src;img.alt=q[1];lnk.href=page;lnk.title=q[1]+" – bilde fra Wikipedia";}
+ var key='gn-img-'+q[3];var c=store(key);
+ if(c&&c.src){show(c.src,c.page);}
+ else if(q[3]&&window.fetch){fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(q[3])).then(function(r){return r.json();}).then(function(j){if(j&&j.thumbnail){var page=(j.content_urls&&j.content_urls.desktop&&j.content_urls.desktop.page)||'https://en.wikipedia.org/wiki/'+q[3];store(key,{src:j.thumbnail.source,page:page});show(j.thumbnail.source,page);}}).catch(function(){});}
+})();
 var WX={clearsky:"Klarvær",fair:"Lettskyet",partlycloudy:"Delvis skyet",cloudy:"Skyet",fog:"Tåke",lightrain:"Lett regn",rain:"Regn",heavyrain:"Kraftig regn",lightrainshowers:"Lette regnbyger",rainshowers:"Regnbyger",heavyrainshowers:"Kraftige regnbyger",lightsleet:"Lett sludd",sleet:"Sludd",heavysleet:"Kraftig sludd",lightsleetshowers:"Sluddbyger",sleetshowers:"Sluddbyger",lightsnow:"Lett snø",snow:"Snø",heavysnow:"Kraftig snø",lightsnowshowers:"Snøbyger",snowshowers:"Snøbyger",heavysnowshowers:"Kraftige snøbyger"};
 function wxText(code){if(!code)return"";var c=code.replace(/_(day|night|polartwilight)$/,"");if(/thunder/.test(c))return"Torden";return WX[c]||"";}
 function fmt(n){return String(Math.round(n)).replace("-","−");}
