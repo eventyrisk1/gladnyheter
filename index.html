@@ -9,6 +9,7 @@
 <meta property="og:description" content="Topp 3 i hver kategori – uten krig, klikkagn, kjendistull og reklame.">
 <meta property="og:url" content="https://gladnyheter.com/">
 <meta name="theme-color" content="#f2f5f1">
+<script>try{var gt=JSON.parse(localStorage.getItem('gn-theme'));if(gt==='dark'||gt==='light')document.documentElement.setAttribute('data-theme',gt);}catch(e){}</script>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -46,6 +47,8 @@ header.mast{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spa
 .brand small{font-weight:500;font-size:.38em;color:var(--muted);align-self:flex-end;margin-bottom:.35em}
 .meta{font-family:var(--ui);font-size:13px;color:var(--muted);text-align:right;line-height:1.4}
 .meta b{color:var(--fg);font-weight:600}
+.themebtn{font:inherit;font-size:12px;font-weight:600;margin-top:6px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--fg);cursor:pointer}
+.themebtn:hover{border-color:var(--fjord)}
 .promise{font-style:italic;font-size:15px;color:var(--muted);padding:12px 0 0;margin:0}
 nav.jump{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 6px;font-family:var(--ui);font-size:14px}
 section.cat,nav.jump a{--cbg:var(--bgL,#e2f2ea);--cink:var(--inkL,#24553e)}
@@ -141,7 +144,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
 <div class="wrap">
   <header class="mast">
     <h1 class="brand"><span class="sun" aria-hidden="true"></span>Gladnyheter<small>.com</small></h1>
-    <div class="meta"><b id="gn-date"></b><br><span id="gn-upd"></span></div>
+    <div class="meta"><b id="gn-date"></b><br><span id="gn-upd"></span><br><button type="button" class="themebtn" id="gn-theme" aria-label="Bytt mellom lys og mørk visning"></button></div>
   </header>
   <p class="promise">Ingen krig og skremsler. Ingen klikkagn. Ingen influensere og kjendistull. Ingen reklame.</p>
   <div class="top">
@@ -359,6 +362,12 @@ function setupPush(){
   });
 }
 setupPush();
+(function(){var b=document.getElementById('gn-theme'),r=document.documentElement;
+ function dark(){var a=r.getAttribute('data-theme');if(a)return a==='dark';return !!(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches);}
+ function lab(){var d=dark();b.textContent=d?'☀️ Lys visning':'🌙 Mørk visning';var m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#121916':'#f2f5f1';}
+ b.onclick=function(){var t=dark()?'light':'dark';r.setAttribute('data-theme',t);store('gn-theme',t);lab();};
+ if(window.matchMedia)matchMedia('(prefers-color-scheme: dark)').addEventListener&&matchMedia('(prefers-color-scheme: dark)').addEventListener('change',lab);
+ lab();})();
 </script>
 </body>
 </html>
