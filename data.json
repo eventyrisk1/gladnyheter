@@ -1,27 +1,27 @@
 {
- "updated": "2026-10-11T17:24",
+ "updated": "2026-10-11T18:26",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "SAS-streik avverget etter enighet i meklingen",
-     "url": "https://e24.no/naeringsliv/i/AbEpxn/sas-streik-avverget",
-     "source": "E24",
-     "summary": "Partene kom til enighet etter at mekleren la fram en skissert løsning, og den varslede flystreiken unngås."
-    },
-    {
-     "title": "Ny motorveistrekning på E4 åpner for trafikk",
+     "title": "Etter ti år kan de første bilene kjøre på ny vei",
      "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
      "source": "Teknisk Ukeblad",
-     "summary": "Etter ti års arbeid settes det trafikk på en ny strekning på 3,5 kilometer ved Stockholm i desember."
+     "summary": "6. desember skal det gå trafikk på 3,5 nye kilometre av E4 ved Stockholm."
     },
     {
-     "title": "Slik sikrer du boligen mot mus i vinter",
-     "url": "https://www.forskning.no/dyreverden-hus-og-hjem-samfunn/det-er-mest-sannsynlig-ikke-husmus-du-har-i-hus/2719472",
-     "source": "forskning.no",
-     "summary": "Eksperter deler sine beste råd for å holde mus ute, og viser hvor ørsmå åpninger som skal til for at de smyger seg inn."
+     "title": "Full utrykking då Norwegian-fly fekk tekniske problem",
+     "url": "https://www.nrk.no/vestland/norwegian-fly-fra-bergen-sendte-naudmelding-1.18051903",
+     "source": "NRK",
+     "summary": "Eit Norwegian-fly til Berlin fekk søndag ettermmiddag varsel om tekniske problem og returnerte til Bergen med ein motor."
+    },
+    {
+     "title": "Nye regler skaper hodebry - slik er veien videre i City-saken",
+     "url": "https://www.nrk.no/sport/manchester-city-skandalen_-nye-regler-skaper-hodebry---slik-er-veien-videre-i-city-saken-1.18046597",
+     "source": "NRK",
+     "summary": "Nye regler, utallige straffemuligheter og enorm usikkerhet. Spørsmålene rundt Manchester City er mange – men noen svar har vi allerede fått."
     }
    ]
   },
@@ -30,22 +30,22 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Stortinget selger pendlerboliger for 100 millioner kroner",
-     "url": "https://e24.no/norsk-oekonomi/i/X9jk4m/helg-stortinget-skal-selge-pendlerboliger-for-100-millioner",
+     "title": "Dei fekk millionar i statleg støtte. Men spela blei aldri noko av",
+     "url": "https://www.gamer.no/artikler/dei-fekk-millionar-i-statleg-stotte-men-spela-blei-aldri-noko-av/520902",
+     "source": "Gamer.no",
+     "summary": "Dette er spela som du ikkje fekk prøve – finansiert av dine eigne skattekroner."
+    },
+    {
+     "title": "Vil ha 1000 nye trainee-stillinger i statsbudsjettet",
+     "url": "https://e24.no/norsk-oekonomi/i/kvvPbj/abid-raja-vil-ha-1000-nye-trainee-stillinger-i-statsbudsjettet",
      "source": "E24",
-     "summary": "Elleve leiligheter som Stortinget ikke lenger har behov for, legges nå ut for salg i boligmarkedet."
+     "summary": "Venstretoppen sier regjeringen ikke kan vise til et eneste tiltak rettet mot nyutdannede det i det…"
     },
     {
-     "title": "Bemanningsbyrå frister barnehagelærere med millionlønn",
-     "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
-     "source": "Utdanningsnytt",
-     "summary": "Et nytt bemanningsbyrå går ut på markedet og tilbyr barnehagelærere årslønninger på opptil én million kroner."
-    },
-    {
-     "title": "Flere husholdninger søker hjelp til privatbudsjettet",
-     "url": "https://www.nrk.no/rogaland/renteokningen_-flere-familier-med-god-inntekt-ber-om-hjelp-til-budsjett_-ifolge-norsk-familieokonomi-1.18039671",
-     "source": "NRK",
-     "summary": "Stadig flere familier med solide inntekter oppsøker økonomisk rådgivning for å få bedre kontroll over faste utgifter og abonnementer."
+     "title": "Equinor setter omstridt helikopter på bakken",
+     "url": "https://www.tu.no/luftfart/equinor-setter-omstridt-helikopter-pa-bakken/7145359",
+     "source": "Teknisk Ukeblad",
+     "summary": "Fra mandag stanser Equinor flygninger med helikoptertypen AW 189. Selskapet har fått flere hundre tilbakemeldinger om hørselsplager fra ansatte som har blitt fraktet med helikopteret."
     }
    ]
   },
@@ -54,22 +54,22 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Nytt romteleskop skal avdekke mørk materie",
+     "title": "Hun mener kulokk kan redde forholdet vårt til naturen",
+     "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
+     "source": "forskning.no",
+     "summary": "Alizeé Piel ser på kulokk som mer enn en gammel skikk. I en tid med økologisk krise mener hun tradisjonen viser hvordan vi kan få et bedre forhold til dyrene og planeten."
+    },
+    {
+     "title": "Vulkanutbruddet som løste plattformenes plassproblemer",
+     "url": "https://www.tu.no/energi/vulkanutbruddet-som-loste-plattformenes-plassproblemer/6058960",
+     "source": "Teknisk Ukeblad",
+     "summary": "Fordi en gjeng askefaste forskere fikk ekstra tenketid, kan vi nå vi bytte ut hver fjerde gassturbin offshore med en varmeveksler og fjerne 25 prosent av utslippene – uten å tape energi."
+    },
+    {
+     "title": "Kan gi kunnskap om hva mørk materie er",
      "url": "https://www.tu.no/industri/haloer-fra-slukte-galakser-kan-gi-kunnskap-om-hva-mork-materie-er/5702909",
      "source": "Teknisk Ukeblad",
-     "summary": "Det planlagte ARRAKHIS-teleskopet skal studere svake spor etter tidligere galakser, med sentrale bidrag fra norske forskere."
-    },
-    {
-     "title": "Fossilfunn avslører at gigantiske dinosaurer levde lenger sør året rundt",
-     "url": "https://www.forskning.no/dinosaurer-paleontologi-ung/denne-dinosauren-kunne-bli-lengre-enn-en-blahval-og-la-egg-lenger-sor-enn-noen-andre-vi-vet-om/2720471",
-     "source": "forskning.no",
-     "summary": "Nye funn av fossile eggeskall viser at de største landdyrene noensinne kunne oppholde seg i sørlige strøk gjennom hele året."
-    },
-    {
-     "title": "Norsk mikroteknologi måler høyden i passasjerfly",
-     "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
-     "source": "Teknisk Ukeblad",
-     "summary": "Trykksensorer produsert på Gaustad i Oslo benyttes i luftfarten verden over for å sikre nøyaktige høydemålinger."
+     "summary": "ARRAKHIS-teleskopet som skal skytes opp i 2030, er spesialdesignet for å studere de svakeste sporene etter tidligere galakser. Norske forskere står sentralt i arbeidet."
     }
    ]
   },
@@ -78,22 +78,22 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Stadig flere virksomheter bruker kunstig intelligens i rekruttering",
-     "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
-     "source": "E24",
-     "summary": "Flere arbeidsgivere tar nå i bruk KI-baserte verktøy for å effektivisere vurderingen av jobbsøkere."
-    },
-    {
-     "title": "Oljefondet søker større mangfold til sitt nye KI-team",
+     "title": "Bare menn i Oljefondets AI-team: 12 av 116 søkere var kvinner",
      "url": "https://e24.no/teknologi/i/Oggpm3/bare-menn-i-oljefondets-ai-team-12-av-116-soekerne-var-kvinner",
      "source": "E24",
-     "summary": "Blant over hundre søkere til Oljefondets spesialiserte teknologiteam var det kun tolv kvinner, og fondet ønsker bredere representasjon fremover."
+     "summary": "Det har vært vanskelig for Oljefondet å finne dyktige kvinner til AI-teamet."
     },
     {
-     "title": "Sterk KI-vekst utfordrer tradisjonelle forvaltere",
-     "url": "https://e24.no/boers-og-finans/i/lKKWby/ai-rallyet-loeper-fra-norske-forvaltere",
+     "title": "Etiske retningslinjer for kunstig intelligens ser ikke ut til å fungere. Vi må tenke nytt",
+     "url": "https://www.forskning.no/etikk-kronikk-kunstig-intelligens/etiske-retningslinjer-for-kunstig-intelligens-ser-ikke-ut-til-a-fungere-vi-ma-tenke-nytt/2721158",
+     "source": "forskning.no",
+     "summary": "KRONIKK: De siste ti årene har ulike organisasjoner og institusjoner produsert hundrevis av etiske retningslinjer for kunstig intelligens (KI). Forskningen tyder på at de har en begrenset effekt."
+    },
+    {
+     "title": "Nå kan jobbsøknaden din bli vurdert av en maskin",
+     "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
      "source": "E24",
-     "summary": "Den voldsomme oppgangen i internasjonale teknologiselskaper drevet av kunstig intelligens gjør at mange aktive fond henger bak indeksene."
+     "summary": "Stadig flere arbeidsgivere bruker AI-verktøy til å vurdere jobbsøkere."
     }
    ]
   },
@@ -102,22 +102,16 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Ti fascinerende fakta om den intelligente blekkspruten",
-     "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
+     "title": "Dette stopper villreinen på dens vei",
+     "url": "https://www.forskning.no/dyreverden-norsk-institutt-for-naturforskning-partner/dette-stopper-villreinen-pa-dens-vei/2716166",
      "source": "forskning.no",
-     "summary": "Blekkspruten utmerker seg med usedvanlig høy intelligens og evner til problemløsning, til tross for sin korte levetid."
+     "summary": "Økt ferdsel fra mennesker gjør at dyrene slutter å bruke gamle trekkruter. Det kan få alvorlige konsekvenser for dem."
     },
     {
-     "title": "Forskere mener kaffebrenning kan gjøres helt elektrisk",
-     "url": "https://gemini.no/2026/10/kan-norsk-kaffebrenning-elektrifiseres-ja-mener-forskere/",
-     "source": "Gemini",
-     "summary": "En studie peker på at den energikrevende brenningen av kaffebønner kan legges om fra fossile brennstoff til fornybar strøm."
-    },
-    {
-     "title": "Kulokk løftes frem som brobygger til naturen",
-     "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
-     "source": "forskning.no",
-     "summary": "En forsker peker på at den eldgamle tradisjonen med kulokk kan inspirere til et tettere og mer harmonisk samspill mellom menneske og natur."
+     "title": "Kvinnen som har formet norsk spillbransje",
+     "url": "https://www.gamer.no/artikler/kvinnen-som-har-formet-norsk-spillbransje/520988",
+     "source": "Gamer.no",
+     "summary": "I over 20 år har Kaja Hench Dyrlie kjempet spillenes kamp fra innsiden av filmens høyborg. Vi ble med inn på bakrommet."
     }
    ]
   },
@@ -126,22 +120,16 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Dette skjer i hjernen når vi lærer å lese",
+     "title": "Dette skjer i hjernen når du leser",
      "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
      "source": "forskning.no",
-     "summary": "Leseopplæring er en formende prosess som kobler hjernens nettverk for syn og språk sammen til et helhetlig system."
+     "summary": "POPULÆRVITENSKAP: Å lære å lese er en langvarig prosess som gradvis former hjernens nettverk for språk og syn til et integrert system for lesing."
     },
     {
-     "title": "Forskning viser hvorfor toppspillere mestrer prestasjonsangst",
-     "url": "https://gemini.no/2026/10/derfor-takler-fotballproffer-prestasjonsangst-best/",
-     "source": "Gemini",
-     "summary": "Fotballspillere på elitenivå rapporterer om langt mindre prestasjonsangst enn amatører, ifølge en ny studie."
-    },
-    {
-     "title": "Følelser har mindre å si for miljøvalg enn tidligere antatt",
+     "title": "Følelser betyr ikke så mye for klimavennlig atferd",
      "url": "https://gemini.no/2026/10/folelser-betyr-ikke-sa-mye-for-klimavennlig-atferd/",
      "source": "Gemini",
-     "summary": "Ny forskning tyder på at følelsesmessige reaksjoner som sinne og håp ikke er avgjørende drivere for om folk handler klimavennlig."
+     "summary": "Ny forskning viser at sinne, håp og medfølelse kanskje har mindre betydning for klimavennlig atferd enn tidligere antatt."
     }
    ]
   },
@@ -150,22 +138,22 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Gode og enkle grep for bedre utemiljø i barnehagen",
-     "url": "https://www.utdanningsnytt.no/barnehageforskning-dmmh-friluftsbarnehage/det-fysiske-lekemiljoet-ute-i-barnehagen-pavirker-barnas-trivsel-og-lek/501612",
-     "source": "Utdanningsnytt",
-     "summary": "Små justeringer i det fysiske lekemiljøet utendørs kan gi barna rikere muligheter til variert lek og utfoldelse."
+     "title": "Når begynner vi å bli redde for å synge?",
+     "url": "https://www.forskning.no/barnehage-kultur-partner/nar-begynner-vi-a-bli-redde-for-a-synge/2716190",
+     "source": "forskning.no",
+     "summary": "Studentene gruet seg til sang. Møtet med barna fikk dem til å tenke annerledes."
     },
     {
-     "title": "Forskere drøfter konsekvensene av digital sporing av ungdom",
-     "url": "https://www.aftenposten.no/norge/i/zlAyOb/flere-foreldre-sporer-barn-og-unge-det-kan-foere-til-mindre-tillit",
+     "title": "Ujevnt drama om Facebook-varslersaken",
+     "url": "https://vink.aftenposten.no/artikkel/GrraG9/ujevnt-drama-om-facebook-varslersaken",
      "source": "Aftenposten",
-     "summary": "Eksperter påpeker at kontinuerlig overvåking av ungdommen kan undergrave den gjensidige tilliten i familien."
+     "summary": "Aaron Sorkins oppfølger til «The Social Network» er av den gamle skolen."
     },
     {
-     "title": "Tidlige humørsvingninger henger sammen med trøstespising i tenårene",
-     "url": "https://gemini.no/2026/10/disse-barna-trostespiser-oftere-nar-de-blir-eldre/",
-     "source": "Gemini",
-     "summary": "En studie fra Gemini viser at barn med store emosjonelle svingninger har høyere risiko for å ty til trøstespising når de blir eldre."
+     "title": "Tilbyr barnehagelærere millionlønn",
+     "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
+     "source": "Utdanningsnytt",
+     "summary": "Ett nytt bemanningsbyrå går ut og tilbyr barnehagelærere 900 000 - 1 000 000 kroner i lønn."
     }
    ]
   },
@@ -174,10 +162,16 @@
    "name": "Tro og livssyn",
    "stories": [
     {
-     "title": "Ukjent norrøn kirkeruin avdekket på Grønland",
+     "title": "Norrøn kirkeruin funnet på Grønland",
      "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
      "source": "forskning.no",
-     "summary": "Arkeologer har funnet levninger og spor etter en ukjent kirke fra den norrøne bosettingen i nærheten av Erik Raudes historiske sete."
+     "summary": "Funnet av et skjelett avslører en ukjent kirke fra den norrøne bosettingens tid på Sør-Grønland, ikke langt fra Erik Raudes bosted."
+    },
+    {
+     "title": "Derfor takler fotballproffer prestasjonsangst best",
+     "url": "https://gemini.no/2026/10/derfor-takler-fotballproffer-prestasjonsangst-best/",
+     "source": "Gemini",
+     "summary": "Ny forskning tyder på at fotballspillere på elitenivå opplever mindre prestasjonsangst enn amatørspillere."
     }
    ]
   },
@@ -186,22 +180,22 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "To stjålne Renoir-malerier er kommet til rette",
-     "url": "https://www.aftenposten.no/kultur/i/kvvXEv/stjaalne-renoir-malerier-funnet",
-     "source": "Aftenposten",
-     "summary": "De verdifulle kunstverkene som forsvant i september, er nå trygt gjenfunnet i Frankrike."
+     "title": "Musikk i Innlandet: Vi blir en regionalt finansiert institusjon med nasjonalt oppdrag",
+     "url": "https://www.ballade.no/politikk-debatt/musikk-i-innlandet-vi-blir-en-regionalt-finansiert-institusjon-med-nasjonalt-oppdrag/",
+     "source": "Ballade",
+     "summary": "Det er vanskelig å forstå at den statlige bevilgningen nå er fjernet, skriver Solbjørg Tveiten, kunstnerisk leder i Musikk i Innlandet."
     },
     {
-     "title": "Kjøpte maleri for under tre hundre kroner – solgt for nesten 13 millioner",
-     "url": "https://e24.no/naeringsliv/i/mKLnxq/kjoepte-maleri-for-290-kroner-solgt-for-12-9-millioner",
-     "source": "E24",
-     "summary": "Et tilfeldig kunstkjøp fra et dødsbo i USA viste seg å være et verdifullt mesterverk med enorm auksjonsverdi."
-    },
-    {
-     "title": "Kateryna Lysovenko stiller ut i Helsingborg",
+     "title": "Livet betraktat från Vintergatan",
      "url": "https://kunstkritikk.no/livet-betraktat-fran-vintergatan/",
      "source": "Kunstkritikk",
-     "summary": "Den ukrainske kunstnerens nye utstilling høster lovord for sine lysende og uttrykksfulle motiver."
+     "summary": "Kateryna Lysovenkos utställning i Helsingborg glöder. The post Livet betraktat från Vintergatan appeared first on Kunstkritikk ."
+    },
+    {
+     "title": "Humanity Viewed from the Milky Way",
+     "url": "https://kunstkritikk.no/humanity-viewed-from-the-milky-way/",
+     "source": "Kunstkritikk",
+     "summary": "Kateryna Lysovenko turns fragility into light and violence into tenderness. The post Humanity Viewed from the Milky Way appeared first on Kunstkritikk ."
     }
    ]
   },
@@ -210,22 +204,22 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Odd Nordstoga slipper sitt tiende album",
-     "url": "https://www.aftenposten.no/kultur/i/58GBGe/anmeldelse-av-foer-du-gaar-av-odd-nordstoga-drivende-hverdagspoesi",
+     "title": "DeLillos redder de vanskelige 20-årene",
+     "url": "https://vink.aftenposten.no/artikkel/Jrb2JX/delillos-redder-de-vanskelige-20-aarene",
      "source": "Aftenposten",
-     "summary": "Den folkekjære artisten leverer drivende hverdagspoesi på sin nyeste plateutgivelse."
+     "summary": "Rikke Gregersens langfilmdebut er på sitt beste som en klassisk DeLillos-låt."
     },
     {
-     "title": "Ung jazzpianist høster ros for nyskapende musikk",
-     "url": "https://www.aftenposten.no/kultur/i/43amJE/anmeldelse-av-audio-guide-av-sondre-moshagen",
-     "source": "Aftenposten",
-     "summary": "Den prisbelønte pianisten Sondre Moshagen markerer seg med en vellykket utvidelse av sitt kunstneriske repertoar."
+     "title": "Spillere kan for første gang høre på musikk og podcast til fots i GTA VI",
+     "url": "https://www.gamer.no/artikler/spillere-kan-for-forste-gang-hore-pa-musikk-og-podcast-til-fots-i-gta-vi/521144",
+     "source": "Gamer.no",
+     "summary": "Rockstar delte nytt om spillets radiostasjoner."
     },
     {
-     "title": "Musikkforleggerprisen åpner for nominasjoner",
+     "title": "Nå kan du nominere kandidater til Musikkforleggerprisen",
      "url": "https://www.ballade.no/bransjen/na-kan-du-nominere-kandidater-til-musikkforleggerprisen/",
      "source": "Ballade",
-     "summary": "Bransjeaktører og publikum kan nå foreslå kandidater til hedersprisen for opphavere og låtskrivere."
+     "summary": "Frist for å sende inn nominasjoner er 8. november 2026."
     }
    ]
   },
@@ -234,10 +228,10 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Herbjørg Wassmo feirer et halvt århundre som forfatter med ny roman",
+     "title": "50 år i litteraturens tjeneste",
      "url": "https://www.aftenposten.no/kultur/i/qyW7wg/anmeldelse-roman-av-herbjoerg-wassmo-besettelse",
      "source": "Aftenposten",
-     "summary": "Den folkekjære forfatteren markerer 50 år i litteraturens tjeneste med utgivelsen av boken «Besettelse»."
+     "summary": "Anmeldelse roman av Herbjørg Wassmo «Besettelse»"
     }
    ]
   },
@@ -246,22 +240,22 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Norrøne myter peker mot samisk slektsbånd for norske konger",
-     "url": "https://gemini.no/2026/10/samiske-snofrid-kan-vaere-stammor-til-norske-konger/",
-     "source": "Gemini",
-     "summary": "Forskning på opphavsmyter trekker frem Snøfrid Svåsedatter som et sentralt symbol på tidlig samisk nærvær i kongerekken."
+     "title": "Vakker, men litt kjedelig Austen-film",
+     "url": "https://vink.aftenposten.no/artikkel/MAnGbE/vakker-men-litt-kjedelig-austen-film",
+     "source": "Aftenposten",
+     "summary": "Regissør Georgia Oakleys versjon av Jane Austens klassiker er mer inderlig enn skarp og satirisk."
     },
     {
-     "title": "«Apestjernen» skaper teatermagi på Riksteatret",
-     "url": "https://www.aftenposten.no/kultur/i/0BBB1J/anmeldelse-av-apestjernen-paa-riksteatret-inderlig-vakkert",
-     "source": "Aftenposten",
-     "summary": "Den nye forestillingen roses som et hjertevarmt, musikalsk og overskuddspreget teatereventyr for hele familien."
+     "title": "Ace Combat 8 hadde seriens hittil beste lansering",
+     "url": "https://www.gamer.no/artikler/ace-combat-8-hadde-seriens-hittil-beste-lansering/521151",
+     "source": "Gamer.no",
+     "summary": "Flysimulatoren solgte én million raskere enn noe tidligere innslag."
     },
     {
-     "title": "Nasjonalballetten hyller ballettklassen",
-     "url": "https://www.aftenposten.no/kultur/i/kvMjzQ/hinter-kanskje-om-en-vridning-i-hele-dansefeltet",
-     "source": "Aftenposten",
-     "summary": "Danserne høster strålende kritikker for sin tolkning av León og Lightfoots verk dedikert til ballettens grunnsteiner."
+     "title": "Han blei helt i Tyskland – dette tenker den tidlegare trenaren om Vikings møte med Bayern",
+     "url": "https://www.nrk.no/rogaland/arne-larsen-okland-blei-helt-i-tyskland-_-dette-trur-han-om-viking-sin-kamp-mot-bayern-munchen-1.18049196",
+     "source": "NRK",
+     "summary": "Arne Larsen Økland blir framleis hylla for bragda i 1981. No kjem Bayern München til Stavanger, og 72-åringen trur eit mirakel er mogleg."
     }
    ]
   },
@@ -270,22 +264,22 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Klassikeren Machinarium får oppfølger etter 17 år",
-     "url": "https://www.gamer.no/artikler/machinarium-sjarmerte-oss-i-senk-17-ar-senere-kommer-oppfolgeren/521149",
-     "source": "Gamer.no",
-     "summary": "Det elskede pek-og-klikk-eventyret skal endelig få et nytt kapittel nesten to tiår etter originalen."
-    },
-    {
-     "title": "Ace Combat 8 setter salgsrekord for spillserien",
-     "url": "https://www.gamer.no/artikler/ace-combat-8-hadde-seriens-hittil-beste-lansering/521151",
-     "source": "Gamer.no",
-     "summary": "Den nye flysimulatoren nådde én million solgte eksemplarer raskere enn noen av sine forgjengere."
-    },
-    {
-     "title": "PlayStation planlegger comebacks for klassiske serier",
+     "title": "PlayStation pusler angivelig med comeback for flere eldre serier",
      "url": "https://www.gamer.no/artikler/playstation-pusler-angivelig-med-comeback-for-flere-eldre-serier/521154",
      "source": "Gamer.no",
-     "summary": "Rykter tyder på at eldre fan-favoritter som Ape Escape kan være på vei tilbake til moderne konsoller."
+     "summary": "Nytt Ape Escape skal være på vei."
+    },
+    {
+     "title": "Har samlet inn over 12 millioner kroner til kampen mot barnekreft",
+     "url": "https://www.gamer.no/artikler/har-samlet-inn-over-12-millioner-kroner-til-kampen-mot-barnekreft/521147",
+     "source": "Gamer.no",
+     "summary": "I helgen inviterer Komplett til tre døgn med gaming. Målet er å samle inn enda mer penger til forskning på barnekreft."
+    },
+    {
+     "title": "Forza Horizon 6 fikk endelig PlayStation-dato",
+     "url": "https://www.gamer.no/artikler/forza-horizon-6-fikk-endelig-playstation-dato/521142",
+     "source": "Gamer.no",
+     "summary": "Kommer likevel ikke i 2026."
     }
    ]
   },
@@ -294,22 +288,22 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Per Strand Hagenes med råsterk seier i Frankrike",
-     "url": "https://www.vg.no/sport/i/OgjpBA/hagenes-med-knallsterk-seier-i-fransk-endagsritt",
-     "source": "VG",
-     "summary": "Den 23 år gamle norske syklisten fra Visma-laget gikk helt til topps i det prestisjetunge rittet Paris-Tours."
-    },
-    {
-     "title": "Gustav Iden sikret heroisk VM-sølv på Hawaii",
-     "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
-     "source": "Aftenposten",
-     "summary": "Iden løp seg opp fra en niendeplass til andreplass i det krevende mesterskapet etter å ha sonet tre minutters tidsstraff."
-    },
-    {
-     "title": "Kristoffer Vassbakk Ajer sikret poeng for Brentford",
-     "url": "https://www.nrk.no/sport/ajer-reddet-poeng-for-brentford-_-scoret-igjen-1.18051464",
+     "title": "Hagenes med knallsterk seier i Frankrike",
+     "url": "https://www.nrk.no/sport/hagenes-med-knallsterk-seier-i-frankrike-1.18051899",
      "source": "NRK",
-     "summary": "Den norske forsvarsspilleren fortsatte målformen og fastsatte sluttresultatet til 2–2 mot Aston Villa."
+     "summary": "Den norske Visma-rytteren Per Strand Hagenes sikret seieren i det tradisjonsrike endagsrittet Paris-Tours i Frankrike. Hagenes vant foran Soudal-QuickStep-rytteren Jesper Stuyven og lagkamerat Christophe Laporte. …"
+    },
+    {
+     "title": "Formel 1: Verstappen med ny triumf – full kontroll i Singapore Grand Prix",
+     "url": "https://www.nrk.no/sport/formel-1_-verstappen-med-ny-triumf-_-full-kontroll-i-singapore-grand-prix-1.18051880",
+     "source": "NRK",
+     "summary": "Red Bull-stjernen Max Verstappen radet opp sin andre strake Grand Prix-seier da han vant hovedløpet i Singapore. Nederlenderen avsluttet dermed en sterk helg i Asia, der han vant både sprintracet og hovedløpet. Han …"
+    },
+    {
+     "title": "Direkte: Liverpool - Manchester City",
+     "url": "https://www.aftenposten.no/sport/i/770jMW/direkte-liverpool-manchester-city",
+     "source": "Aftenposten",
+     "summary": "Følg Premier League-oppgjøret."
     }
    ]
   }
@@ -1340,10 +1334,10 @@
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 11,
-    "min": 3,
-    "max": 11,
-    "symbol": "clearsky_night",
+    "temp": 10,
+    "min": 4,
+    "max": 10,
+    "symbol": "fair_night",
     "rain6": 0.0
    },
    "trondheim": {
@@ -1355,23 +1349,23 @@
    },
    "tromso": {
     "temp": 2,
-    "min": 1,
+    "min": 0,
     "max": 2,
     "symbol": "partlycloudy_night",
     "rain6": 0.0
    },
    "bergen": {
-    "temp": 12,
-    "min": 10,
-    "max": 12,
-    "symbol": "lightrain",
-    "rain6": 0.6
-   },
-   "stavanger": {
     "temp": 11,
     "min": 9,
     "max": 11,
-    "symbol": "lightrainshowers_day",
+    "symbol": "lightrain",
+    "rain6": 0.8
+   },
+   "stavanger": {
+    "temp": 11,
+    "min": 8,
+    "max": 11,
+    "symbol": "partlycloudy_night",
     "rain6": 0.0
    }
   },
