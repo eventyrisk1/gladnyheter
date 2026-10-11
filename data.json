@@ -1,91 +1,91 @@
 {
- "updated": "2026-10-11T15:02",
+ "updated": "2026-10-11T15:25",
  "stories": [
   {
-   "title": "SAS-streik avverget etter enighet på overtid",
+   "title": "SAS-streik avverget etter enighet hos Riksmekleren",
    "url": "https://e24.no/naeringsliv/i/AbEpxn/sas-streik-avverget",
    "source": "E24",
    "category": "Samfunn",
-   "summary": "Partene i SAS-meklingen kom til enighet etter at mekleren la frem en skisse til løsning. Dermed blir det ingen flystreik neste uke.",
-   "why": "Viktig avklaring for reisende og næringsliv"
+   "summary": "Partene kom til enighet etter at megleren la frem en skisse til løsning på overtid. Dermed unngås flystreik den kommende uken.",
+   "why": "Viktig avklaring for reisende og næringslivet"
   },
   {
-   "title": "Norsk brikke måler høyden i passasjerfly",
+   "title": "Norske trykksensorer måler flyhøyden i passasjerfly",
    "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
    "source": "Teknisk Ukeblad",
    "category": "Teknologi",
-   "summary": "På Gaustad i Oslo produseres det avanserte trykksensorer som brukes i mange av verdens passasjerfly.",
-   "why": "Norsk teknologi i verdensklasse"
+   "summary": "På Gaustad i Oslo produseres avanserte trykksensorer som benyttes til høydemåling i en rekke passasjerfly verden over.",
+   "why": "Norsk høyteknologisk suksess i luftfarten"
   },
   {
-   "title": "Jobbsøknader vurderes i økende grad av kunstig intelligens",
-   "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
-   "source": "E24",
+   "title": "Høyre gir grønt lys for havvindsatsingen Utsira Nord",
+   "url": "https://www.tu.no/energi/hoyre-gir-klarsignal-til-flytende-havvind-vil-bidra-til-framdrift-for-utsira-nord/7145245",
+   "source": "Teknisk Ukeblad",
    "category": "Næringsliv",
-   "summary": "Stadig flere arbeidsgivere tar i bruk kunstig intelligens som verktøy for å vurdere kandidater i ansettelsesprosesser.",
-   "why": "Nyttig innsikt for arbeidsgivere og søkere"
+   "summary": "En fersk kvalitetssikring har styrket tilliten til Utsira Nord-prosjektet, og Høyre støtter nå at havvindsatsingen fortsetter.",
+   "why": "Viktig framskritt for norsk fornybarsatsing"
   },
   {
-   "title": "Forskere: Kaffebrenning kan elektrifiseres",
+   "title": "Forskere mener kaffebrenning kan gjøres elektrisk og utslippsfri",
    "url": "https://gemini.no/2026/10/kan-norsk-kaffebrenning-elektrifiseres-ja-mener-forskere/",
    "source": "Gemini",
    "category": "Teknologi",
-   "summary": "Tradisjonell kaffebrenning krever mye fossil energi eller biodrivstoff, men ny forskning viser at prosessen kan gjøres elektrisk.",
-   "why": "Grønn løsning for kaffebransjen"
+   "summary": "Kaffebrenning er tradisjonelt en energikrevende prosess drevet av fossile energikilder, men forskere slår fast at brenningen kan elektrifiseres.",
+   "why": "Bærekraftig innovasjon for matindustrien"
   },
   {
-   "title": "Norrøn kirkeruin funnet på Grønland",
-   "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
+   "title": "Stadig flere arbeidsgivere lar kunstig intelligens vurdere jobbsøkere",
+   "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
+   "source": "E24",
+   "category": "Næringsliv",
+   "summary": "Bruken av KI-verktøy skyter fart i ansettelsesprosesser der maskiner nå analyserer og vurderer innkomne søknader.",
+   "why": "Ny teknologi former arbeidsmarkedet"
+  },
+  {
+   "title": "Dette skjer i hjernen når vi lærer å lese",
+   "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
    "source": "forskning.no",
-   "category": "Historie",
-   "summary": "Funnet av et skjelett har avdekket en ukjent kirke fra den norrøne bosettingen på Sør-Grønland, nær Erik Raudes bosted.",
-   "why": "Spennende arkeologisk funn"
+   "category": "Vitenskap",
+   "summary": "Leseopplæring former gradvis hjernens nettverk for syn og språk, og kobler dem sammen til et helhetlig integrert system.",
+   "why": "Fascinerende innsikt i hjernens utvikling"
   },
   {
-   "title": "Samisk kvinne kan være stammor til norske konger",
+   "title": "Samiske Snøfrid kan ha vært stammor til norske konger",
    "url": "https://gemini.no/2026/10/samiske-snofrid-kan-vaere-stammor-til-norske-konger/",
    "source": "Gemini",
    "category": "Historie",
-   "summary": "I norrøne opphavsmyter skal Snøfrid, datter av finnekongen Svåse, ha giftet seg med Harald Hårfagre og satt samiske spor i kongerekken.",
-   "why": "Ny innsikt i norsk historie"
+   "summary": "Norrøne opphavsmyter viser en tydelig sørsamisk tilstedeværelse, og Snøfrid fra Dovre skal ha giftet seg inn i kongsætten.",
+   "why": "Ny forståelse av felles fortid"
   },
   {
-   "title": "Nye funn om kjempedinosaurene",
+   "title": "Nye funn viser at gigantiske dinosaurer levde langt sør hele året",
    "url": "https://www.forskning.no/dinosaurer-paleontologi-ung/denne-dinosauren-kunne-bli-lengre-enn-en-blahval-og-la-egg-lenger-sor-enn-noen-andre-vi-vet-om/2720471",
    "source": "forskning.no",
    "category": "Vitenskap",
-   "summary": "Funn av fossile eggeskall viser at de største landdyrene gjennom tidene kunne oppholde seg langt sør året rundt.",
-   "why": "Ny kunnskap om forhistorisk dyreliv"
+   "summary": "Funn av forsteinede eggeskall avslører at de største landdyrene noensinne kunne oppholde seg langt mot sør året rundt.",
+   "why": "Ny oppdagelse om forhistorisk dyreliv"
   },
   {
-   "title": "Kjøpte maleri for 290 kroner – solgt for nær 13 millioner",
-   "url": "https://e24.no/naeringsliv/i/mKLnxq/kjoepte-maleri-for-290-kroner-solgt-for-12-9-millioner",
-   "source": "E24",
-   "category": "Økonomi",
-   "summary": "Et maleri funnet i en bortgjemt krok under et dødsbosalg i USA viste seg å være et funn som innbrakte 12,9 millioner kroner.",
-   "why": "Utrolig kupp og verdistigning"
-  },
-  {
-   "title": "Fascinerende fakta om blekksprutens liv og intelligens",
+   "title": "Blekkspruten kombinerer høy intelligens med korte liv",
    "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
    "source": "forskning.no",
    "category": "Natur",
-   "summary": "Blekkspruter regnes blant havets mest intelligente skapninger, til tross for at de som regel bare lever i et par år.",
-   "why": "Lærerik og fascinerende dyrekunnskap"
+   "summary": "Blekkspruter er blant havets mest intelligente skapninger, til tross for at de som regel bare lever i et par år.",
+   "why": "Lærerik kunnskap om havets hemmeligheter"
   },
   {
-   "title": "Odd Nordstoga gir ut sitt tiende album",
+   "title": "Odd Nordstoga ute med sitt tiende musikkalbum",
    "url": "https://www.aftenposten.no/kultur/i/58GBGe/anmeldelse-av-foer-du-gaar-av-odd-nordstoga-drivende-hverdagspoesi",
    "source": "Aftenposten",
    "category": "Kultur",
-   "summary": "Den folkekjære artisten er aktuell med et nytt album fylt med drivende hverdagspoesi.",
-   "why": "Ny norsk kvalitetsmusikk"
+   "summary": "Odd Nordstoga leverer drivende hverdagspoesi og lun musikk på sitt nyeste plateprosjekt.",
+   "why": "Ny musikk fra folkekjær artist"
   }
  ],
  "sport": {
-  "title": "VM-sølv til Gustav Iden etter opphenting på Hawaii",
+  "title": "Gustav Iden sikret VM-sølv på Hawaii etter heroisk opphenting",
   "url": "https://www.vg.no/sport/i/8G53RA/vm-gull-i-ironman-til-norge",
   "source": "VG",
-  "summary": "Gustav Iden løp seg mesterlig opp fra niendeplass og sikret norsk VM-sølv på Hawaii etter en tre minutters tidsstraff underveis."
+  "summary": "Den norske triatleten løp seg mesterlig opp fra niende- til andreplass og tok VM-sølv, til tross for en tidsstraff underveis."
  }
 }
