@@ -14,6 +14,8 @@ OSLO = ZoneInfo("Europe/Oslo")
 FEEDS = [
     ("Utdanningsnytt", "https://www.utdanningsnytt.no/?lab_viewport=rss", 2),
     ("Psykologisk.no", "https://psykologisk.no/feed/", 2),
+    ("FHI", "https://www.fhi.no/rss/nyheter/", 2),
+    ("forskning.no", "https://www.forskning.no/helse?lab_viewport=rss", 2),
     ("Vårt Land", "https://www.vl.no/?lab_viewport=rss", 1),
     ("Kunstkritikk", "https://kunstkritikk.no/feed/", 2),
     ("Ballade", "https://www.ballade.no/feed", 2),
@@ -206,10 +208,11 @@ def collect(feeds):
 CATS = [
     ("samfunn", "Samfunn", "nyttige samfunnssaker og hverdag: nye regler, streik avverget, transport, lokalsamfunn, gode initiativ"),
     ("okonomi", "Økonomi og næringsliv", "rente, prisvekst, bolig, strøm, gründere, bedrifter, netthandel, handel"),
-    ("vitenskap", "Vitenskap og teknologi", "forskning, oppdagelser, verdensrommet, medisinske fremskritt, ny teknologi (ikke KI)"),
+    ("vitenskap", "Vitenskap og teknologi", "forskning, oppdagelser, verdensrommet, ny teknologi (ikke KI og ikke helse)"),
     ("ki", "Kunstig intelligens", "nyheter om KI, språkmodeller og hvordan KI brukes"),
     ("natur", "Natur og miljø", "dyr, natur, friluftsliv, miljøløsninger, klimaløsninger"),
     ("psykologi", "Psykologi", "psykologi, hjernen, følelser, relasjoner, livsmestring"),
+    ("helse", "Helse og trening", "gode råd om kosthold, trening, søvn og forebygging, folkehelse og nye medisinske fremskritt og behandlinger – ikke sykdomsskrekk, dødsfall, kriser eller alternativ behandling"),
     ("oppvekst", "Barn og oppvekst", "barnehage, skole, utdanning, oppdragelse, foreldre, ungdom"),
     ("tro", "Tro og livssyn", "tro, religion, kirke, livssyn, etikk – det som samler, ikke konflikter"),
     ("aand", "Ånd og spiritualitet", "meditasjon, mindfulness, stillhet, pilegrimsvandring, filosofi, meningen med livet og indre ro – ikke alternativ behandling, healing eller overtro"),
@@ -221,7 +224,7 @@ CATS = [
     ("sport", "Sport", "norske prestasjoner og viktige sportsnyheter (kun fra SPORT-listen)"),
 ]
 RULE_MAP = {"Samfunn": "samfunn", "Hverdag": "samfunn", "Økonomi": "okonomi", "Næringsliv": "okonomi",
-            "Vitenskap": "vitenskap", "Medisin": "vitenskap", "Teknologi": "vitenskap", "KI": "ki",
+            "Vitenskap": "vitenskap", "Medisin": "helse", "Teknologi": "vitenskap", "KI": "ki",
             "Natur": "natur", "Psykologi": "psykologi", "Oppvekst": "oppvekst", "Tro": "tro", "Aand": "aand",
             "Kunst": "kunst", "Musikk": "musikk", "Litteratur": "litteratur",
             "Kultur": "kultur", "Historie": "kultur", "Spill": "spill"}
