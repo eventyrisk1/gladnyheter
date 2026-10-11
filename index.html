@@ -154,7 +154,7 @@ function renderToday(t){
     var a=t.areas.filter(function(x){return x.id===sel.value;})[0]||t.areas[0];
     var w=t.weather&&t.weather[a.id];var we=document.getElementById('gn-weather');
     if(w){we.textContent="";var st=el('strong',null,fmt(w.temp)+"°");we.appendChild(st);
-      var parts=[wxText(w.symbol)];if(w.min!=null&&w.max!=null)parts.push("i dag "+fmt(w.min)+" til "+fmt(w.max)+"°");
+      var parts=[wxText(w.symbol)];if(w.min!=null&&w.max!=null)parts.push("resten av dagen "+fmt(w.min)+" til "+fmt(w.max)+"°");
       if(w.rain6!=null)parts.push(w.rain6>0?String(w.rain6).replace(".",",")+" mm regn neste 6 timer":"opphold neste 6 timer");
       we.appendChild(document.createTextNode("  "+parts.filter(Boolean).join(" · ")));}
     else we.textContent="Ikke tilgjengelig akkurat nå";
