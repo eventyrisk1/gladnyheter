@@ -17,6 +17,7 @@ FEEDS = [
     ("Vårt Land", "https://www.vl.no/?lab_viewport=rss", 1),
     ("Kunstkritikk", "https://kunstkritikk.no/feed/", 2),
     ("Ballade", "https://www.ballade.no/feed", 2),
+    ("Gamer.no", "https://www.gamer.no/rss", 2),
     ("forskning.no", "https://www.forskning.no/?lab_viewport=rss", 3),
     ("Gemini", "https://gemini.no/feed/", 3),
     ("NRK", "https://www.nrk.no/viten/toppsaker.rss", 3),
@@ -58,6 +59,7 @@ CLICKBAIT = re.compile(
 SKIP_URL = re.compile(r"/(video|kommentar|debatt|meninger|leder|kronikk|ytring|quiz|tegneserier|hjernetrim)/", re.I)
 
 TOPICS = [
+    ("Spill", 3, r"dataspill|brettspill|spillet\b|gaming|playstation|xbox|nintendo|sjakk|puslespill|kryssord|hobby|strikk|modellbygg|modelljernbane|lego|fotografer|frimerke"),
     ("KI", 4, r"kunstig intelligens|\bki\b|chatgpt|språkmodell|\bai\b"),
     ("Psykologi", 3, r"psykolog|følelse|tanke|hjernen|atferd|personlighet|lykke|søvn|stress|motivasjon"),
     ("Oppvekst", 3, r"barnehage|skole|elev|lærer|foreld|oppdragelse|ungdom|barn\b|barna"),
@@ -204,13 +206,14 @@ CATS = [
     ("musikk", "Musikk", "musikk, artister, album, konserter"),
     ("litteratur", "Litteratur", "bøker, forfattere, litteratur, lesing"),
     ("kultur", "Film, scene og historie", "film, serier, teater, dans, arkeologi og historie"),
+    ("spill", "Spill og hobby", "dataspill, brettspill, sjakk, puslespill, LEGO og hobbyer som strikking, modellbygging, foto og samling – nye spill, gode tips og morsomme prosjekter, ikke bransjedrama"),
     ("sport", "Sport", "norske prestasjoner og viktige sportsnyheter (kun fra SPORT-listen)"),
 ]
 RULE_MAP = {"Samfunn": "samfunn", "Hverdag": "samfunn", "Økonomi": "okonomi", "Næringsliv": "okonomi",
             "Vitenskap": "vitenskap", "Medisin": "vitenskap", "Teknologi": "vitenskap", "KI": "ki",
             "Natur": "natur", "Psykologi": "psykologi", "Oppvekst": "oppvekst", "Tro": "tro",
             "Kunst": "kunst", "Musikk": "musikk", "Litteratur": "litteratur",
-            "Kultur": "kultur", "Historie": "kultur"}
+            "Kultur": "kultur", "Historie": "kultur", "Spill": "spill"}
 
 
 def story(it, title=None, summary=None):
