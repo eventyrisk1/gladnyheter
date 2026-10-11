@@ -33,9 +33,9 @@ SPORT_FEEDS = [
 # Alt dette kastes: negativt, skremmende, kriminalitet, krig, kjendis/influenser, quiz osv.
 BLOCK = re.compile(
     r"\b(krig|drept|drap|dødsfall|omkom|døde|død |dør |skutt|skyting|knivstikk|terror|angrep|bombe|missil|rakett|"
-    r"voldtekt|overgrep|vold\b|voldelig|siktet|tiltalt|dømt|fengsel|fengslet|pågrepet|arrestert|politi|ulykke|kollisjon|"
+    r"voldtekt|overgrep|vold\b|voldelig|siktet|tiltalt|dømt|fengsel|fengslet|pågrepet|arrestert|politiet|politimann|ulykke|kollisjon|"
     r"brann|eksplo|katastrofe|jordskjelv|flom|skred|\bras\b|storm|uvær|gaza|ukraina|russland|putin|israel|hamas|"
-    r"iran|nato|atom|selvmord|kreft(?!fri)|sykdom|smitte|pandemi|trump|influenser|kjendis|instagram|tiktok|reality|"
+    r"iran|nato|atomvåpen|atomkraftulykke|selvmord|kreft(?!fri)|opereres|operasjon|sykehus|svulst|diagnose|\bsyke?\b|pasient|sykdom|smitte|pandemi|trump|influenser|kjendis|instagram|tiktok|reality|"
     r"paradise hotel|farmen|skal vi danse|quiz|kryssord|se bildene|se video|høydepunkt|på \d+ minutter|"
     r"tegneserie|dagens lunch|dagens dunce|konkurs|permitter|nedlegg|kutt|streik(?! avverget)|savnet|"
     r"alarm|frykt|advar|trussel|sjokk|skandale|rase|raste|slakt|knus|bråk|krangel|rettssak|søksmål|saksøk|"
@@ -44,21 +44,21 @@ BLOCK = re.compile(
 )
 # Klikkagn-mønstre i titler
 CLICKBAIT = re.compile(
-    r"(\(\d{1,3}\)|^–|^-|dette er|her er|slik |sjekk|du vil|du må|ikke tro|avslør|hemmelig|"
+    r"(\(\d{1,3}\)|^–|^-|: –|: -|dette er|her er|slik |sjekk|du vil|du må|ikke tro|avslør|hemmelig|"
     r"utrolig|vanvittig|helt rå|alle snakker|reagerer|hylles|får kritikk|tar et oppgjør|går til angrep|"
     r"ber om unnskyldning|bryter tausheten|åpner opp|forteller om|mener at|kommentar|debatt|leder:)",
     re.I,
 )
 # Opinion/kommentar i URL
-SKIP_URL = re.compile(r"/(kommentar|debatt|meninger|leder|kronikk|ytring|quiz|tegneserier|hjernetrim)/", re.I)
+SKIP_URL = re.compile(r"/(video|kommentar|debatt|meninger|leder|kronikk|ytring|quiz|tegneserier|hjernetrim)/", re.I)
 
 TOPICS = [
     ("Historie", 3, r"arkeolog|viking|historie|middelalder|skatten\b|mynt|ruin|fortid|museum"),
     ("Vitenskap", 3, r"forsk|studie|oppdag|funn|nobel|univers|planet|romfart|astronom|fysikk|kjemi|matemat"),
     ("Medisin", 2, r"behandling|medisin|vaksine|terapi|helse|trening|kosthold|søvn"),
     ("Teknologi", 2, r"teknolog|\bki\b|kunstig intelligens|robot|batteri|elbil|lading|sensor|brikke|\bdata|\bapp\b|software|digital"),
-    ("Natur", 3, r"natur|dyr|fugl|fisk|hval|fjellrev|\brev(en)?\b|ulv|elg|rein|bjørn|insekt|skog|\bhav(et)?\b|\barter?\b|miljø|klima|co2|karbon|fornybar|solenergi|solcelle|vindkraft|vern"),
-    ("Kultur", 2, r"film|serie|bok|roman|forfatter|musikk|album|konsert|kunst|teater|ballett|tegneserie|kultur|\bpris(en|vinner)?\b"),
+    ("Natur", 3, r"natur|dyr|fugl|fisk|hval|fjellrev|\brev(en)?\b|ulv|elg|reinsdyr|villrein|bjørn|insekt|skog|\bhav(et)?\b|\barter?\b|miljø|klima|co2|karbon|fornybar|solenergi|solcelle|vindkraft|vern"),
+    ("Kultur", 2, r"film|serie|bok|roman|forfatter|musikk|album|konsert|kunst|teater|ballett|tegneserie|kultur|maleri|kunstner|\bpris(en|vinner)?\b"),
     ("Næringsliv", 2, r"gründer|oppstart|bedrift|selskap|eksport|netthandel|handel|butikk|innovasjon|marked"),
     ("Økonomi", 2, r"rente|prisvekst|inflasjon|norges bank|strømpris|norgespris|statsbudsjett|skatt|lønn|bolig"),
     ("Hverdag", 2, r"avverget|enige|åpner|ny vei|tog|fly|reise|ferie|regler|\blov\b|forbud"),
@@ -120,7 +120,8 @@ def ok(it):
     text = it["title"] + " " + it["desc"]
     if BLOCK.search(text) or CLICKBAIT.search(it["title"]) or SKIP_URL.search(it["url"]):
         return False
-    if it["age"] is not None and it["age"] > 72:
+    max_age = 168 if it["weight"] >= 3 else 72    # forsknings-/vitenskapskilder får en uke
+    if it["age"] is not None and it["age"] > max_age:
         return False
     return True
 
@@ -129,7 +130,7 @@ def categorize(it):
     text = (it["title"] + " " + it["desc"]).lower()
     best, score = "Samfunn", 0
     for name, pts, pat in TOPICS:
-        if re.search(pat, text):
+        if re.search(r"\b(?:" + pat + ")", text):
             if pts > score:
                 best, score = name, pts
     return best, score
@@ -144,14 +145,21 @@ def score(it):
         s += 0.5
     s -= it["pos"] * 0.08                       # nyere saker står øverst i feeden
     if it["age"] is not None:
-        s -= min(it["age"], 72) / 24            # minus 1 poeng per døgn
+        s -= min(it["age"], 168) / 48           # minus et halvt poeng per døgn
     return s, cat
 
 
 def collect(feeds):
     seen, out = set(), []
     for src, u, w in feeds:
-        for it in parse(src, u, w):
+        got = parse(src, u, w)
+        kept = [it for it in got if ok(it)]
+        print(f"  {src:15} {len(got):3} hentet, {len(kept):3} igjen  {u}")
+        for it in got:
+            if not ok(it):
+                why = "blokk" if BLOCK.search(it["title"] + " " + it["desc"]) else "klikk" if CLICKBAIT.search(it["title"]) else "url" if SKIP_URL.search(it["url"]) else f"alder {it['age']:.0f}t"
+                print(f"      x {why}: {it['title'][:90]}")
+        for it in got:
             key = re.sub(r"\W", "", it["title"].lower())[:60]
             if key in seen or it["url"] in seen or not ok(it):
                 continue
