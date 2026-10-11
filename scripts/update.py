@@ -3,8 +3,7 @@ og skriver resultatet til data.json. Kjøres hver time av GitHub Actions.
 
 AI: bruker Claude hvis secret ANTHROPIC_API_KEY finnes, ellers GitHub Models (gratis) via GITHUB_TOKEN.
 """
-import json, os, re, sys, html, urllib.request, datetime
-import xml.etree.ElementTree as ET
+import json, os, re, sys, html, urllib.request, urllib.error, datetime
 from zoneinfo import ZoneInfo
 
 FEEDS = [
@@ -58,14 +57,18 @@ def strip_utm(u):
 def parse(source, url, limit):
     items = []
     try:
-        root = ET.fromstring(fetch(url))
+        raw = fetch(url).decode("utf-8", "replace")
     except Exception as e:
         print(f"Feil: {url}: {e}", file=sys.stderr)
         return items
-    for it in root.iter("item"):
-        t = clean(it.findtext("title"))
-        link = strip_utm((it.findtext("link") or "").strip())
-        d = clean(it.findtext("description"), 160)
+    def tag(block, name):
+        m = re.search(rf"<{name}[^>]*>(.*?)</{name}>", block, re.S)
+        v = m.group(1) if m else ""
+        return re.sub(r"^\s*<!\[CDATA\[(.*?)\]\]>\s*$", r"\1", v, flags=re.S)
+    for block in re.findall(r"<item[\s>].*?</item>", raw, re.S):
+        t = clean(tag(block, "title"))
+        link = strip_utm(clean(tag(block, "link")))
+        d = clean(tag(block, "description"), 120)
         if not t or not link:
             continue
         items.append({"source": source, "title": t, "url": link, "desc": d})
@@ -121,8 +124,11 @@ def ask_claude(prompt, key):
     }).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
         "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        res = json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            res = json.load(r)
+    except urllib.error.HTTPError as e:
+        sys.exit(f"Claude API svarte {e.code}: {e.read()[:800]!r}")
     return "".join(b.get("text", "") for b in res["content"])
 
 
@@ -136,13 +142,21 @@ def ask_github_models(prompt, token):
     req = urllib.request.Request("https://models.github.ai/inference/chat/completions", data=body, headers={
         "Authorization": f"Bearer {token}", "Content-Type": "application/json",
         "Accept": "application/vnd.github+json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        res = json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            txt = r.read().decode("utf-8", "replace")
+            status = r.status
+    except urllib.error.HTTPError as e:
+        sys.exit(f"GitHub Models svarte {e.code}: {e.read()[:800]!r}")
+    try:
+        res = json.loads(txt)
+    except Exception:
+        sys.exit(f"GitHub Models svarte {status} med uventet innhold: {txt[:800]!r}")
     return res["choices"][0]["message"]["content"]
 
 
 def main():
-    news = collect(FEEDS, 30, 110)
+    news = collect(FEEDS, 15, 80)
     sport = collect(SPORT_FEEDS, 20, 25)
     print(f"{len(news)} nyheter, {len(sport)} sport etter grovfilter")
     if len(news) < 10:
