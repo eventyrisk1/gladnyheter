@@ -258,7 +258,7 @@ KAST ALT som handler om krig, militære konflikter, forsvar/våpen, terror, krim
 
 Velg de 3 mest interessante, lærerike eller viktige sakene i HVER av disse kategoriene (viktigst først):
 %s
-Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kildene: høyst 1 sak fra samme kilde i hver kategori, og høyst 4 saker fra samme kilde totalt. Bruk gjerne mange ulike kilder (NRK, Aftenposten, VG, E24, fagkilder osv.). Finnes det færre enn 3 gode saker i en kategori, ta med færre heller enn dårlige saker.
+Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kildene: helst ulike kilder i hver kategori (aldri mer enn 2 fra samme kilde i en kategori), og høyst 5 saker fra samme kilde totalt. Bruk gjerne mange ulike kilder (NRK, Aftenposten, VG, E24, fagkilder osv.). Finnes det færre enn 3 gode saker i en kategori, ta med færre heller enn dårlige saker.
 For hver sak: informativ tittel på bokmål (omskriv klikkagn) og en oppsummering på 1-2 setninger som BARE bygger på teksten (ikke dikt opp fakta).
 Svar KUN med JSON der hver kategori-id er en nøkkel, f.eks.: {"samfunn":[{"id":0,"title":"","summary":""}],"okonomi":[...], ... ,"sport":[{"id":1000,"title":"","summary":""}]}
 
@@ -289,7 +289,7 @@ def read_answer(raw, news, sport):
             pool, j = (sport, i - 1000) if cid == "sport" else (news, i)
             if 0 <= j < len(pool) and i not in used and len(out[cid]) < 3:
                 src = pool[j]["source"]
-                if any(x["source"] == src for x in out[cid]) or per_src.get(src, 0) >= MAX_PER_SOURCE:
+                if sum(x["source"] == src for x in out[cid]) >= 2 or per_src.get(src, 0) >= MAX_PER_SOURCE:
                     continue
                 used.add(i)
                 per_src[src] = per_src.get(src, 0) + 1
@@ -297,7 +297,7 @@ def read_answer(raw, news, sport):
     return out
 
 
-MAX_PER_SOURCE = 4
+MAX_PER_SOURCE = 6
 
 GEMINI_MODELS = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite", "gemini-3-flash-preview", "gemini-2.0-flash"]
 
