@@ -1,0 +1,26 @@
+name: Push-varsel
+
+on:
+  schedule:
+    - cron: "3 5,6,14,15 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Send varsel nå (test)"
+        type: boolean
+        default: true
+
+jobs:
+  varsel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send varsel
+        env:
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
+        run: python scripts/notify.py
