@@ -1,8 +1,8 @@
 """Gladnyheter: henter norske RSS-feeder, velger de 10 beste sakene + 1 sportssak
 og skriver resultatet til data.json. Kjøres hver time av GitHub Actions (gratis).
 
-Utvalget gjøres med faste regler (filter + poeng). Hvis du senere legger inn en
-Claude API-nøkkel som secret ANTHROPIC_API_KEY, brukes Claude i stedet automatisk.
+Utvalget gjøres av Gemini (gratis, secret GEMINI_API_KEY). Finnes ANTHROPIC_API_KEY brukes
+Claude. Uten nøkkel, eller hvis AI-en feiler, brukes faste regler (filter + poeng) som reserve.
 """
 import json, os, re, sys, html, urllib.request, urllib.error, datetime
 from email.utils import parsedate_to_datetime
@@ -217,8 +217,11 @@ def pick_rules(news, sport):
 
 # ---------- Valgfritt: Claude (brukes bare hvis ANTHROPIC_API_KEY er lagt inn) ----------
 PROMPT = """Du er redaktør for Gladnyheter.no, en norsk nyhetsforside uten negative nyheter.
-Kast krig, kriminalitet, ulykker, skremsler, klikkagn, influensere, kjendisstoff, quiz og meninger.
-Velg 10 interessante, lærerike eller viktige saker (forskning, teknologi, natur, kultur, næringsliv, nyttige samfunnssaker som ikke skremmer), maks 4 per kilde, viktigst først. Velg også 1 sportssak (helst norsk prestasjon).
+Leseren er en voksen nordmann som driver nettbutikk og er lei av negative nyheter.
+KAST ALT som handler om krig, militære konflikter, forsvar/våpen, terror, kriminalitet, ulykker, sykdom, død, katastrofer, kriser og skremsler, og alt som bare gjør leseren nedstemt uten at hen kan gjøre noe med det. Kast også klikkagn, influensere, kjendisstoff, reality, sladder, quiz, kommentarer og meningsinnlegg.
+VELG 10 saker som er interessante, lærerike eller viktige: forskning og teknologi; natur, dyr og miljøløsninger; kultur og underholdning (film, bøker, tegneserier, musikk); næringsliv, gründere og netthandel; og nyttige samfunnssaker som påvirker hverdagen (rente, prisvekst, nye regler, streik avverget) når de ikke skremmer.
+Ingen sportssaker blant de 10. Spre utvalget: maks 3 fra samme kilde og variasjon i tema. Den mest interessante og viktige saken først.
+VELG i tillegg 1 sportssak fra SPORT-listen: den viktigste norske sportsnyheten nå, helst en norsk prestasjon (ikke bråk, skandaler eller rettssaker).
 For hver: informativ tittel på bokmål, oppsummering på 1-2 setninger basert KUN på teksten, category (Vitenskap, Medisin, Teknologi, Natur, Historie, Kultur, Økonomi, Næringsliv, Hverdag, Samfunn) og why (3-6 ord).
 Svar KUN med JSON: {"stories":[{"id":0,"title":"","summary":"","category":"","why":""}],"sport":{"id":1000,"title":"","summary":""}}
 
@@ -230,31 +233,76 @@ SPORT:
 """
 
 
-def pick_claude(news, sport, key):
-    fmt = lambda items, off: "\n".join(f"{i+off}. [{x['source']}] {x['title']} — {x['desc'][:120]}" for i, x in enumerate(items))
-    news, sport = news[:80], sport[:25]
-    body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5"), "max_tokens": 3000,
-                       "messages": [{"role": "user", "content": PROMPT % (fmt(news, 0), fmt(sport, 1000))}]}).encode()
-    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
-        "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        raw = "".join(b.get("text", "") for b in json.load(r)["content"])
+def build_prompt(news, sport):
+    fmt = lambda items, off: "\n".join(f"{i+off}. [{x['source']}] {x['title']} — {x['desc'][:150]}" for i, x in enumerate(items))
+    return PROMPT % (fmt(news, 0), fmt(sport, 1000))
+
+
+def read_answer(raw, news, sport):
     ans = json.loads(re.search(r"\{.*\}", raw, re.S).group(0))
     stories, used = [], set()
     for s in ans.get("stories", []):
-        i = int(s.get("id", -1))
+        try:
+            i = int(s.get("id", -1))
+        except Exception:
+            continue
         if 0 <= i < len(news) and i not in used:
             used.add(i)
             n = news[i]
             stories.append({"title": clean(s.get("title")) or n["title"], "url": n["url"], "source": n["source"],
                             "category": clean(s.get("category")) or "Samfunn",
                             "summary": clean(s.get("summary")) or n["desc"], "why": clean(s.get("why"))})
-    sp, j = None, int((ans.get("sport") or {}).get("id", -1)) - 1000
+    sp = None
+    try:
+        j = int((ans.get("sport") or {}).get("id", -1)) - 1000
+    except Exception:
+        j = -1
     if 0 <= j < len(sport):
         x = ans["sport"]
         sp = {"title": clean(x.get("title")) or sport[j]["title"], "url": sport[j]["url"],
               "source": sport[j]["source"], "summary": clean(x.get("summary")) or sport[j]["desc"]}
     return stories[:10], sp
+
+
+GEMINI_MODELS = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite", "gemini-3-flash-preview", "gemini-2.0-flash"]
+
+
+def pick_gemini(news, sport, key):
+    news, sport = news[:110], sport[:30]
+    body = json.dumps({
+        "contents": [{"role": "user", "parts": [{"text": build_prompt(news, sport)}]}],
+        "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
+    }).encode()
+    last = None
+    for model in [os.environ.get("GEMINI_MODEL")] + GEMINI_MODELS:
+        if not model:
+            continue
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+        req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json", "x-goog-api-key": key})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                res = json.load(r)
+            raw = "".join(p.get("text", "") for p in res["candidates"][0]["content"]["parts"])
+            print(f"Gemini-modell: {model}")
+            return read_answer(raw, news, sport)
+        except urllib.error.HTTPError as e:
+            last = f"{model}: {e.code} {e.read()[:300]!r}"
+            print(f"  {last}", file=sys.stderr)
+        except Exception as e:
+            last = f"{model}: {e}"
+            print(f"  {last}", file=sys.stderr)
+    raise RuntimeError(last)
+
+
+def pick_claude(news, sport, key):
+    news, sport = news[:80], sport[:25]
+    body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5"), "max_tokens": 3000,
+                       "messages": [{"role": "user", "content": build_prompt(news, sport)}]}).encode()
+    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
+        "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        raw = "".join(b.get("text", "") for b in json.load(r)["content"])
+    return read_answer(raw, news, sport)
 
 
 def main():
@@ -269,6 +317,13 @@ def main():
             print("Valgt av Claude")
         except Exception as e:
             print(f"Claude feilet ({e}) – bruker reglene", file=sys.stderr)
+    gkey = os.environ.get("GEMINI_API_KEY")
+    if len(stories) < 6 and gkey:
+        try:
+            stories, sp = pick_gemini(news, sport, gkey)
+            print("Valgt av Gemini")
+        except Exception as e:
+            print(f"Gemini feilet ({e}) – bruker reglene", file=sys.stderr)
     if len(stories) < 6:
         stories, sp = pick_rules(news, sport)
         print("Valgt med regler")
