@@ -63,6 +63,7 @@ TOPICS = [
     ("KI", 4, r"kunstig intelligens|\bki\b|chatgpt|språkmodell|\bai\b"),
     ("Psykologi", 3, r"psykolog|følelse|tanke|hjernen|atferd|personlighet|lykke|søvn|stress|motivasjon"),
     ("Oppvekst", 3, r"barnehage|skole|elev|lærer|foreld|oppdragelse|ungdom|barn\b|barna"),
+    ("Aand", 3, r"meditasjon|mindfulness|pilegrim|spiritu|stillhet|indre ro|yoga|filosof|livsvisdom|ettertanke"),
     ("Tro", 3, r"kirke|tro\b|religion|prest|bibel|menighet|biskop|livssyn|islam|kristen"),
     ("Kunst", 3, r"kunst|maleri|utstilling|galleri|kunstner|museum"),
     ("Musikk", 3, r"musikk|album|konsert|låt|band|artist|sanger|komponist|festival"),
@@ -202,6 +203,7 @@ CATS = [
     ("psykologi", "Psykologi", "psykologi, hjernen, følelser, relasjoner, livsmestring"),
     ("oppvekst", "Barn og oppvekst", "barnehage, skole, utdanning, oppdragelse, foreldre, ungdom"),
     ("tro", "Tro og livssyn", "tro, religion, kirke, livssyn, etikk – det som samler, ikke konflikter"),
+    ("aand", "Ånd og spiritualitet", "meditasjon, mindfulness, stillhet, pilegrimsvandring, filosofi, meningen med livet og indre ro – ikke alternativ behandling, healing eller overtro"),
     ("kunst", "Kunst", "billedkunst, utstillinger, museer, design, arkitektur"),
     ("musikk", "Musikk", "musikk, artister, album, konserter"),
     ("litteratur", "Litteratur", "bøker, forfattere, litteratur, lesing"),
@@ -211,7 +213,7 @@ CATS = [
 ]
 RULE_MAP = {"Samfunn": "samfunn", "Hverdag": "samfunn", "Økonomi": "okonomi", "Næringsliv": "okonomi",
             "Vitenskap": "vitenskap", "Medisin": "vitenskap", "Teknologi": "vitenskap", "KI": "ki",
-            "Natur": "natur", "Psykologi": "psykologi", "Oppvekst": "oppvekst", "Tro": "tro",
+            "Natur": "natur", "Psykologi": "psykologi", "Oppvekst": "oppvekst", "Tro": "tro", "Aand": "aand",
             "Kunst": "kunst", "Musikk": "musikk", "Litteratur": "litteratur",
             "Kultur": "kultur", "Historie": "kultur", "Spill": "spill"}
 
