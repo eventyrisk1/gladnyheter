@@ -27,6 +27,7 @@ FEEDS = [
     ("Teknisk Ukeblad", "https://www.tu.no/rss", 1),
     ("Aftenposten", "https://www.aftenposten.no/rss/kultur", 2),
     ("E24", "https://e24.no/rss2/", 1),
+    ("DN", "https://services.dn.no/api/feed/rss/?categories=nyheter", 1),
     ("NRK", "https://www.nrk.no/toppsaker.rss", 1),
     ("NRK", "https://www.nrk.no/norge/toppsaker.rss", 1),
     ("Aftenposten", "https://www.aftenposten.no/rss", 1),
@@ -261,7 +262,7 @@ KAST ALT som handler om krig, militære konflikter, forsvar/våpen, terror, krim
 
 Velg de 3 mest interessante, lærerike eller viktige sakene i HVER av disse kategoriene (viktigst først):
 %s
-Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kildene: helst ulike kilder i hver kategori (aldri mer enn 2 fra samme kilde i en kategori), og høyst 5 saker fra samme kilde totalt. Bruk gjerne mange ulike kilder (NRK, Aftenposten, VG, E24, fagkilder osv.). Finnes det færre enn 3 gode saker i en kategori, ta med færre heller enn dårlige saker.
+Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kildene: helst ulike kilder i hver kategori (aldri mer enn 2 fra samme kilde i en kategori), og høyst 5 saker fra samme kilde totalt. Bruk gjerne mange ulike kilder (NRK, Aftenposten, VG, E24, fagkilder osv.). Foretrekk saker som er gratis å lese: DN krever nesten alltid abonnement, så velg en DN-sak bare når den er klart bedre enn alternativene. Finnes det færre enn 3 gode saker i en kategori, ta med færre heller enn dårlige saker.
 For hver sak: informativ tittel på bokmål (omskriv klikkagn) og en oppsummering på 1-2 setninger som BARE bygger på teksten (ikke dikt opp fakta).
 Svar KUN med JSON der hver kategori-id er en nøkkel, f.eks.: {"samfunn":[{"id":0,"title":"","summary":""}],"okonomi":[...], ... ,"sport":[{"id":1000,"title":"","summary":""}]}
 
@@ -413,6 +414,26 @@ def useful_today():
     return out
 
 
+ALWAYS_PAID = {"DN"}
+CHECK_PAID = {"Aftenposten", "VG", "E24"}
+
+
+def mark_paywall(out):
+    """Merk saker som krever abonnement (paid=True), så siden kan vise en lås."""
+    for stories in (out or {}).values():
+        for s in stories:
+            if s["source"] in ALWAYS_PAID:
+                s["paid"] = True
+            elif s["source"] in CHECK_PAID:
+                try:
+                    h = fetch(s["url"])[:600000].decode("utf-8", "ignore")
+                    m = re.search(r'isAccessibleForFree"?\s*:\s*"?(true|false)', h, re.I)
+                    if m and m.group(1).lower() == "false":
+                        s["paid"] = True
+                except Exception as e:
+                    print(f"Betalingsmur-sjekk feilet for {s['url']}: {e}", file=sys.stderr)
+
+
 def main():
     news = collect(FEEDS)
     sport = collect(SPORT_FEEDS)
@@ -431,6 +452,7 @@ def main():
         print("Valgt med regler")
     if count(out) < 12:
         sys.exit("For få saker – beholder forrige utgave.")
+    mark_paywall(out)
     data = {"updated": datetime.datetime.now(OSLO).strftime("%Y-%m-%dT%H:%M"),
             "categories": [{"id": cid, "name": name, "stories": out.get(cid, [])} for cid, name, _ in CATS]}
     try:
