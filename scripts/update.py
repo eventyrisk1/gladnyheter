@@ -12,7 +12,7 @@ OSLO = ZoneInfo("Europe/Oslo")
 
 # (kilde, url, kildepoeng)
 FEEDS = [
-    ("forskning.no", "https://www.forskning.no/rss", 3),
+    ("forskning.no", "https://www.forskning.no/?lab_viewport=rss", 3),
     ("Gemini", "https://gemini.no/feed/", 3),
     ("NRK", "https://www.nrk.no/viten/toppsaker.rss", 3),
     ("NRK", "https://www.nrk.no/kultur/toppsaker.rss", 2),
