@@ -39,7 +39,7 @@ BLOCK = re.compile(
     r"paradise hotel|farmen|skal vi danse|quiz|kryssord|se bildene|se video|høydepunkt|på \d+ minutter|"
     r"tegneserie|dagens lunch|dagens dunce|konkurs|permitter|nedlegg|kutt|streik(?! avverget)|savnet|"
     r"alarm|frykt|advar|trussel|sjokk|skandale|rase|raste|slakt|knus|bråk|krangel|rettssak|søksmål|saksøk|"
-    r"etterforsk|anklag|mistenkt|sikkerhetsbrudd|hacker|svindel|bedrag|rasis|hets\b|hat\b|hatet|mobb|demonstr|protest)",
+    r"etterforsk|anklag|mistenkt|sikkerhetsbrudd|hacker|svindel|bedrag|rasis|hets\b|hat\b|hatet|mobb|demonstr|protest|annonse|sponset|reklame|i samarbeid med|annonsørinnhold)",
     re.I,
 )
 # Klikkagn-mønstre i titler
@@ -218,7 +218,7 @@ def pick_rules(news, sport):
 # ---------- Valgfritt: Claude (brukes bare hvis ANTHROPIC_API_KEY er lagt inn) ----------
 PROMPT = """Du er redaktør for Gladnyheter.no, en norsk nyhetsforside uten negative nyheter.
 Leseren er en voksen nordmann som driver nettbutikk og er lei av negative nyheter.
-KAST ALT som handler om krig, militære konflikter, forsvar/våpen, terror, kriminalitet, ulykker, sykdom, død, katastrofer, kriser og skremsler, og alt som bare gjør leseren nedstemt uten at hen kan gjøre noe med det. Kast også klikkagn, influensere, kjendisstoff, reality, sladder, quiz, kommentarer og meningsinnlegg.
+KAST ALT som handler om krig, militære konflikter, forsvar/våpen, terror, kriminalitet, ulykker, sykdom, død, katastrofer, kriser og skremsler, og alt som bare gjør leseren nedstemt uten at hen kan gjøre noe med det. Kast også klikkagn, reklame, sponset innhold, annonsørinnhold, influensere, kjendisstoff, reality, sladder, quiz, kommentarer og meningsinnlegg.
 VELG 10 saker som er interessante, lærerike eller viktige: forskning og teknologi; natur, dyr og miljøløsninger; kultur og underholdning (film, bøker, tegneserier, musikk); næringsliv, gründere og netthandel; og nyttige samfunnssaker som påvirker hverdagen (rente, prisvekst, nye regler, streik avverget) når de ikke skremmer.
 Ingen sportssaker blant de 10. Spre utvalget: maks 3 fra samme kilde og variasjon i tema. Den mest interessante og viktige saken først.
 VELG i tillegg 1 sportssak fra SPORT-listen: den viktigste norske sportsnyheten nå, helst en norsk prestasjon (ikke bråk, skandaler eller rettssaker).
