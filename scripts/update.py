@@ -4,7 +4,7 @@ og skriver resultatet til data.json. Kjøres hver time av GitHub Actions (gratis
 Utvalget gjøres av Gemini (gratis, secret GEMINI_API_KEY). Finnes ANTHROPIC_API_KEY brukes
 Claude. Uten nøkkel, eller hvis AI-en feiler, brukes faste regler (filter + poeng) som reserve.
 """
-import json, os, re, sys, html, urllib.request, urllib.error, datetime
+import json, os, re, sys, html, time, urllib.request, urllib.error, datetime
 from email.utils import parsedate_to_datetime
 from zoneinfo import ZoneInfo
 
@@ -13,7 +13,7 @@ OSLO = ZoneInfo("Europe/Oslo")
 # (kilde, url, kildepoeng)
 FEEDS = [
     ("Utdanningsnytt", "https://www.utdanningsnytt.no/?lab_viewport=rss", 2),
-    ("Psykologisk.no", "https://psykologisk.no/feed/", 2),
+    ("Psykologisk.no", "https://www.psykologisk.no/?lab_viewport=rss", 2),
     ("FHI", "https://www.fhi.no/rss/nyheter/", 2),
     ("forskning.no", "https://www.forskning.no/helse?lab_viewport=rss", 2),
     ("Vårt Land", "https://www.vl.no/?lab_viewport=rss", 1),
@@ -303,7 +303,7 @@ def read_answer(raw, news, sport):
 
 MAX_PER_SOURCE = 6
 
-GEMINI_MODELS = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite", "gemini-3-flash-preview", "gemini-2.0-flash"]
+GEMINI_MODELS = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-3.5-flash-lite", "gemini-flash-lite-latest", "gemini-3-flash-preview", "gemini-2.5-flash"]
 
 
 def pick_gemini(news, sport, key):
@@ -313,9 +313,10 @@ def pick_gemini(news, sport, key):
         "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
     }).encode()
     last = None
-    for model in [os.environ.get("GEMINI_MODEL")] + GEMINI_MODELS:
-        if not model:
-            continue
+    models = [m for m in [os.environ.get("GEMINI_MODEL")] + GEMINI_MODELS if m]
+    for attempt, model in enumerate(models + models):  # to runder: modeller kan være midlertidig overbelastet (503)
+        if attempt == len(models):
+            time.sleep(30)
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json", "x-goog-api-key": key})
         try:
