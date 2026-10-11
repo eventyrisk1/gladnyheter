@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-11T23:26",
+ "updated": "2026-10-12T00:24",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Tiltak for å verne sårbare helleristninger",
-     "url": "https://www.nrk.no/tromsogfinnmark/verdensarv-i-fare_-helleristninger-slites-ned-av-turgaere-1.18051417",
-     "source": "NRK",
-     "summary": "Flere tusen år gamle helleristninger i Alta slites ned av turgåere, og det iverksettes nå tiltak for å beskytte den sårbare verdensarven."
+     "title": "Fant kjærligheten gjennom tøff TV-konkurranse",
+     "url": "https://www.vg.no/rampelys/i/R5OQL5/erika-hageberg-fra-norges-toeffeste-har-funnet-kjaeresten",
+     "source": "VG",
+     "summary": "Deltakelse i «Norges tøffeste» førte til at to av deltakerne fant romansen og ble kjærester."
     }
    ]
   },
@@ -23,22 +23,16 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Nytt teleskop skal utforske mørk materie",
+     "title": "Nytt teleskop kan avsløre mørk materie",
      "url": "https://www.tu.no/industri/haloer-fra-slukte-galakser-kan-gi-kunnskap-om-hva-mork-materie-er/5702909",
      "source": "Teknisk Ukeblad",
-     "summary": "ARRAKHIS-teleskopet etter planen skytes opp i 2030, og vil bli spesialdesignet for å studere de svakeste sporene etter tidligere galakser."
+     "summary": "ARRAKHIS-teleskopet, som skal skytes opp i 2030, er spesialdesignet for å studere de svakeste sporene etter tidligere galakser."
     },
     {
      "title": "Nye funn om fortidens kjempedinosaurer",
      "url": "https://www.forskning.no/dinosaurer-paleontologi-ung/denne-dinosauren-kunne-bli-lengre-enn-en-blahval-og-la-egg-lenger-sor-enn-noen-andre-vi-vet-om/2720471",
      "source": "forskning.no",
-     "summary": "Funn av eggeskall viser at kjempedinosaurer kunne leve langt sør året rundt."
-    },
-    {
-     "title": "Fant norrøn kirkeruin på Grønland",
-     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
-     "source": "forskning.no",
-     "summary": "Funnet av et skjelett avslører en ukjent kirke fra den norrøne bosettingens tid på Sør-Grønland, i nærheten av Erik Raudes bosted."
+     "summary": "Funn av eggeskall viser at store landlevende dinosaurer kunne leve langt mot sør året rundt."
     }
    ]
   },
@@ -47,10 +41,10 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Flere arbeidsgivere tar i bruk kunstig intelligens i søknadsprosesser",
+     "title": "Flere arbeidsgivere vurderer jobbsøkere med kunstig intelligens",
      "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
      "source": "E24",
-     "summary": "Stadig flere tar i bruk AI-verktøy for å vurdere jobbsøkere.",
+     "summary": "Stadig flere bedrifter tar i bruk AI-verktøy for å analysere og vurdere søkere som melder seg på ledige stillinger.",
      "paid": true
     }
    ]
@@ -60,16 +54,16 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Ser mot kulokk for å styrke forholdet til naturen",
+     "title": "Ser mot kulokk for å bedre naturforholdet",
      "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
      "source": "forskning.no",
-     "summary": "Alizeé Piel trekker frem kulokk som en tradisjon som kan bidra til å gi oss et bedre forhold til naturen i en tid med økologiske utfordringer."
+     "summary": "Alizeé Piel mener den gamle tradisjonen med kulokk kan vise en vei til et tettere og bedre forhold til naturen i en tid med økologiske utfordringer."
     },
     {
-     "title": "Økt ferdsel påvirker villreinens trekkruter",
+     "title": "Menneskelig ferdsel stopper villreinens trekkruter",
      "url": "https://www.forskning.no/dyreverden-norsk-institutt-for-naturforskning-partner/dette-stopper-villreinen-pa-dens-vei/2716166",
      "source": "forskning.no",
-     "summary": "Mer menneskelig ferdsel gjør at villreinen slutter å bruke gamle trekkruter, noe som kan få alvorlige konsekvenser for dyrene."
+     "summary": "Økt ferdsel gjør at dyrene slutter å bruke gamle ruter, noe som kan gi alvorlige konsekvenser for villreinen."
     }
    ]
   },
@@ -78,22 +72,22 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Slik påvirker kaffen både tarmene og hjernen",
+     "title": "Slik påvirker kaffen både tarmen og hjernen",
      "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
      "source": "Psykologisk.no",
      "summary": "Ny forskning viser at kaffe har innvirkning på både humør, tarmflora og søvn."
     },
     {
-     "title": "Modell for å ruste seg mot kriser",
+     "title": "Delingsmodell for å ruste seg mot kriser",
      "url": "https://www.psykologisk.no/nyheter/fire-grep-som-stotter-deg-nar-krisen-rammer/164312",
      "source": "Psykologisk.no",
-     "summary": "Helge Mehus deler en modell for hvordan man kan bygge mental beredskap når kriser rammer."
+     "summary": "Tidligere beredskapstopping deler en modell for hvordan enkeltpersoner kan støtte seg selv når uforutsette kriser rammer."
     },
     {
      "title": "Dette skjer i hjernen når du lærer å lese",
      "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
      "source": "forskning.no",
-     "summary": "Å lære å lese er en langvarig prosess som gradvis former hjernens nettverk for språk og syn til et integrert system."
+     "summary": "Å lære å lese er en langvarig prosess som gradvis integrerer hjernens nettverk for språk og syn."
     }
    ]
   },
@@ -105,7 +99,7 @@
      "title": "Autismerelatert genetisk tilstand kan være mer utbredt enn antatt",
      "url": "https://www.psykologisk.no/nyheter/autismerelatert-genetisk-tilstand-er-trolig-langt-vanligere-enn-tidligere-antatt/163943",
      "source": "Psykologisk.no",
-     "summary": "Omfattende genetisk kartlegging av nesten 180 000 personer med autisme tyder på at et bestemt syndrom er vanligere enn tidligere antatt."
+     "summary": "Omfattende genetiske analyser av nesten 180 000 personer tyder på at et spesifikt syndrom knyttet til autisme er vanligere enn tidligere trodd."
     }
    ]
   },
@@ -117,13 +111,7 @@
      "title": "Eget tilbud for elever med stort læringspotensial",
      "url": "https://www.nrk.no/nordland/elever-med-stort-laeringspotensial-far-eget-tilbud-i-nordland-1.18051567",
      "source": "NRK",
-     "summary": "Elever som lærer raskere enn gjennomsnittet risikerer å falle utenfor, og har nå deltatt på et nytt samletilbud i Nordland."
-    },
-    {
-     "title": "Små grep i barnehagen bygger trygghet",
-     "url": "https://www.utdanningsnytt.no/barnehage-psykisk-helse-selvtillit/sma-handlinger-i-barnehagen-kan-bygge-tillit-trygghet-og-mestringstro/502937",
-     "source": "Utdanningsnytt",
-     "summary": "Enkle handlinger i barnehagehverdagen kan være med på å styrke barns tillit, trygghet og mestringstro."
+     "summary": "Elever som lærer raskere enn de fleste har vært samlet i Mo i Rana for å få et tilpasset opplegg."
     }
    ]
   },
@@ -140,24 +128,31 @@
   {
    "id": "kunst",
    "name": "Kunst",
-   "stories": []
+   "stories": [
+    {
+     "title": "Fargerik utstilling i Helsingborg av Kateryna Lysovenko",
+     "url": "https://kunstkritikk.no/livet-betraktat-fran-vintergatan/",
+     "source": "Kunstkritikk",
+     "summary": "Kateryna Lysovenkos kunstutstilling i Helsingborg skildrer fragmenter knyttet til universet og menneskelig skjørhet."
+    }
+   ]
   },
   {
    "id": "musikk",
    "name": "Musikk",
    "stories": [
     {
-     "title": "Sondre Moshagen utvider sitt musikalske virke",
+     "title": "Pianisten Sondre Moshagen får oppmerksomhet for sitt virke",
      "url": "https://www.aftenposten.no/kultur/i/43amJE/anmeldelse-av-audio-guide-av-sondre-moshagen",
      "source": "Aftenposten",
-     "summary": "Den prisvinnende pianisten høster lovord for å utvide sitt eget virke med stort hell.",
+     "summary": "Den prisvinnende pianisten utvider sin musikk med stor suksess.",
      "paid": true
     },
     {
-     "title": "Nytt album fra Odd Nordstoga",
+     "title": "Odd Nordstoga ute med sitt tiende album",
      "url": "https://www.aftenposten.no/kultur/i/58GBGe/anmeldelse-av-foer-du-gaar-av-odd-nordstoga-drivende-hverdagspoesi",
      "source": "Aftenposten",
-     "summary": "Odd Nordstoga er aktuell med sitt tiende album som byr på drivende hverdagspoesi.",
+     "summary": "Artisten serverer nytt materiale preget av drivende hverdagspoesi.",
      "paid": true
     }
    ]
@@ -167,10 +162,10 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Herbjørg Wassmo markerer 50 år som forfatter",
+     "title": "Herbjørg Wassmo markerer 50 år som forfatter med ny roman",
      "url": "https://www.aftenposten.no/kultur/i/qyW7wg/anmeldelse-roman-av-herbjoerg-wassmo-besettelse",
      "source": "Aftenposten",
-     "summary": "Forfatteren er aktuell med romanen «Besettelse».",
+     "summary": "Forfatteren anmeldes for sin nyeste bok «Besettelse» i anledning jubileum som forfatter.",
      "paid": true
     }
    ]
@@ -180,11 +175,17 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Teatersuksess med «Apestjernen» på Riksteatret",
+     "title": "Riksteatret setter opp barneforestillingen «Apestjernen»",
      "url": "https://www.aftenposten.no/kultur/i/0BBB1J/anmeldelse-av-apestjernen-paa-riksteatret-inderlig-vakkert",
      "source": "Aftenposten",
-     "summary": "Dramatiseringen av «Apestjernen» beskrives som en varm, levende og musikale opplevelse for hele familien.",
+     "summary": "Teaterstykket beskrives som et musikalsk og vilt sjarmerende overflødighetshorn for et bredt publikum.",
      "paid": true
+    },
+    {
+     "title": "Norrøn kirkeruin funnet på Grønland",
+     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
+     "source": "forskning.no",
+     "summary": "Arkeologiske funn av et skjelett har avdekket en ukjent kirke fra den norrøne bosetningens tid nær Erik Raudes bosted."
     }
    ]
   },
@@ -193,16 +194,16 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Sterke salgstall for Ace Combat 8",
-     "url": "https://www.gamer.no/artikler/ace-combat-8-hadde-seriens-hittil-beste-lansering/521151",
+     "title": "Rykte: PlayStation planlegger comeback for eldre klassikere",
+     "url": "https://www.gamer.no/artikler/playstation-pusler-angivelig-med-comeback-for-flere-eldre-serier/521154",
      "source": "Gamer.no",
-     "summary": "Flysimulatoren solgte én million eksemplarer raskere enn noen tidligere utgave i serien."
+     "summary": "Det går rykter om at spillserier som Ape Escape kan være på vei tilbake."
     },
     {
-     "title": "Oppfølgeren til Machinarium er på vei",
-     "url": "https://www.gamer.no/artikler/machinarium-sjarmerte-oss-i-senk-17-ar-senere-kommer-oppfolgeren/521149",
+     "title": "Suksesslansering for Ace Combat 8",
+     "url": "https://www.gamer.no/artikler/ace-combat-8-hadde-seriens-hittil-beste-lansering/521151",
      "source": "Gamer.no",
-     "summary": "Det sjarmerende spillet Machinarium får en oppfølger 17 år etter originalen."
+     "summary": "Flysimulatoren solgte én million eksemplarer raskere enn noen tidligere utgivelse i serien."
     }
    ]
   },
@@ -211,22 +212,16 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Gustav Iden tok VM-sølv på Hawaii etter sterk opphenting",
+     "title": "Per Strand Hagenes med seier i fransk endagsritt",
+     "url": "https://www.aftenposten.no/sport/i/77mK0W/hagenes-med-knallsterk-seier-i-fransk-endagsritt",
+     "source": "Aftenposten",
+     "summary": "Den norske syklisten sikret en sterk seier i det tradisjonsrike endagsrittet Paris-Tours."
+    },
+    {
+     "title": "VM-sølv til Gustav Iden på Hawaii",
      "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
      "source": "Aftenposten",
-     "summary": "Gustav Iden kjempet seg opp fra en niendeplass til andreplass til tross for en tidsstraff underveis."
-    },
-    {
-     "title": "Per Strand Hagenes vant det tradisjonsrike rittet Paris-Tours",
-     "url": "https://www.nrk.no/sport/hagenes-med-knallsterk-seier-i-frankrike-1.18051899",
-     "source": "NRK",
-     "summary": "Den norske syklisten sikret seieren i det franske endagsrittet foran hard konkurranse."
-    },
-    {
-     "title": "Ny Formel 1-seier for Max Verstappen i Singapore",
-     "url": "https://www.nrk.no/sport/formel-1_-verstappen-med-ny-triumf-_-full-kontroll-i-singapore-grand-prix-1.18051880",
-     "source": "NRK",
-     "summary": "Red Bull-føreren kjørte inn til en kontrollert seier i hovedløpet i Singapore."
+     "summary": "Nordmannen løpte seg opp til andreplass i mesterskapet til tross for en tidsstraff underveis."
     }
    ]
   }
@@ -265,498 +260,6 @@
    }
   ],
   "power": {
-   "NO1": [
-    [
-     "00:00",
-     147.9
-    ],
-    [
-     "01:00",
-     139.2
-    ],
-    [
-     "02:00",
-     136.6
-    ],
-    [
-     "03:00",
-     135.6
-    ],
-    [
-     "04:00",
-     138.4
-    ],
-    [
-     "05:00",
-     137.7
-    ],
-    [
-     "06:00",
-     142.5
-    ],
-    [
-     "07:00",
-     166.2
-    ],
-    [
-     "08:00",
-     179.4
-    ],
-    [
-     "09:00",
-     163.6
-    ],
-    [
-     "10:00",
-     156.9
-    ],
-    [
-     "11:00",
-     153.1
-    ],
-    [
-     "12:00",
-     153.2
-    ],
-    [
-     "13:00",
-     147.2
-    ],
-    [
-     "14:00",
-     147.6
-    ],
-    [
-     "15:00",
-     152.6
-    ],
-    [
-     "16:00",
-     175.3
-    ],
-    [
-     "17:00",
-     198.3
-    ],
-    [
-     "18:00",
-     211.2
-    ],
-    [
-     "19:00",
-     220.8
-    ],
-    [
-     "20:00",
-     214.2
-    ],
-    [
-     "21:00",
-     206.7
-    ],
-    [
-     "22:00",
-     203.8
-    ],
-    [
-     "23:00",
-     202.3
-    ]
-   ],
-   "NO2": [
-    [
-     "00:00",
-     150.8
-    ],
-    [
-     "01:00",
-     141.6
-    ],
-    [
-     "02:00",
-     138.6
-    ],
-    [
-     "03:00",
-     137.4
-    ],
-    [
-     "04:00",
-     140.3
-    ],
-    [
-     "05:00",
-     139.6
-    ],
-    [
-     "06:00",
-     145.0
-    ],
-    [
-     "07:00",
-     169.7
-    ],
-    [
-     "08:00",
-     183.4
-    ],
-    [
-     "09:00",
-     165.6
-    ],
-    [
-     "10:00",
-     159.1
-    ],
-    [
-     "11:00",
-     155.0
-    ],
-    [
-     "12:00",
-     155.0
-    ],
-    [
-     "13:00",
-     149.5
-    ],
-    [
-     "14:00",
-     149.7
-    ],
-    [
-     "15:00",
-     154.1
-    ],
-    [
-     "16:00",
-     183.0
-    ],
-    [
-     "17:00",
-     213.2
-    ],
-    [
-     "18:00",
-     234.5
-    ],
-    [
-     "19:00",
-     241.9
-    ],
-    [
-     "20:00",
-     227.6
-    ],
-    [
-     "21:00",
-     222.6
-    ],
-    [
-     "22:00",
-     213.8
-    ],
-    [
-     "23:00",
-     214.5
-    ]
-   ],
-   "NO3": [
-    [
-     "00:00",
-     112.0
-    ],
-    [
-     "01:00",
-     107.9
-    ],
-    [
-     "02:00",
-     104.0
-    ],
-    [
-     "03:00",
-     104.3
-    ],
-    [
-     "04:00",
-     105.4
-    ],
-    [
-     "05:00",
-     106.6
-    ],
-    [
-     "06:00",
-     109.7
-    ],
-    [
-     "07:00",
-     122.6
-    ],
-    [
-     "08:00",
-     130.7
-    ],
-    [
-     "09:00",
-     128.2
-    ],
-    [
-     "10:00",
-     126.9
-    ],
-    [
-     "11:00",
-     125.8
-    ],
-    [
-     "12:00",
-     127.0
-    ],
-    [
-     "13:00",
-     115.9
-    ],
-    [
-     "14:00",
-     116.2
-    ],
-    [
-     "15:00",
-     131.1
-    ],
-    [
-     "16:00",
-     140.5
-    ],
-    [
-     "17:00",
-     143.2
-    ],
-    [
-     "18:00",
-     136.0
-    ],
-    [
-     "19:00",
-     134.7
-    ],
-    [
-     "20:00",
-     128.2
-    ],
-    [
-     "21:00",
-     130.8
-    ],
-    [
-     "22:00",
-     129.8
-    ],
-    [
-     "23:00",
-     122.7
-    ]
-   ],
-   "NO4": [
-    [
-     "00:00",
-     25.2
-    ],
-    [
-     "01:00",
-     24.9
-    ],
-    [
-     "02:00",
-     24.8
-    ],
-    [
-     "03:00",
-     24.2
-    ],
-    [
-     "04:00",
-     24.8
-    ],
-    [
-     "05:00",
-     24.2
-    ],
-    [
-     "06:00",
-     24.2
-    ],
-    [
-     "07:00",
-     24.2
-    ],
-    [
-     "08:00",
-     24.2
-    ],
-    [
-     "09:00",
-     23.1
-    ],
-    [
-     "10:00",
-     24.2
-    ],
-    [
-     "11:00",
-     24.2
-    ],
-    [
-     "12:00",
-     24.2
-    ],
-    [
-     "13:00",
-     24.2
-    ],
-    [
-     "14:00",
-     25.2
-    ],
-    [
-     "15:00",
-     24.0
-    ],
-    [
-     "16:00",
-     25.1
-    ],
-    [
-     "17:00",
-     27.1
-    ],
-    [
-     "18:00",
-     27.3
-    ],
-    [
-     "19:00",
-     27.5
-    ],
-    [
-     "20:00",
-     28.1
-    ],
-    [
-     "21:00",
-     27.3
-    ],
-    [
-     "22:00",
-     26.6
-    ],
-    [
-     "23:00",
-     25.8
-    ]
-   ],
-   "NO5": [
-    [
-     "00:00",
-     147.5
-    ],
-    [
-     "01:00",
-     139.2
-    ],
-    [
-     "02:00",
-     135.0
-    ],
-    [
-     "03:00",
-     134.0
-    ],
-    [
-     "04:00",
-     136.5
-    ],
-    [
-     "05:00",
-     136.2
-    ],
-    [
-     "06:00",
-     141.3
-    ],
-    [
-     "07:00",
-     164.5
-    ],
-    [
-     "08:00",
-     177.4
-    ],
-    [
-     "09:00",
-     162.3
-    ],
-    [
-     "10:00",
-     157.4
-    ],
-    [
-     "11:00",
-     155.5
-    ],
-    [
-     "12:00",
-     155.9
-    ],
-    [
-     "13:00",
-     150.1
-    ],
-    [
-     "14:00",
-     150.2
-    ],
-    [
-     "15:00",
-     154.8
-    ],
-    [
-     "16:00",
-     168.7
-    ],
-    [
-     "17:00",
-     181.7
-    ],
-    [
-     "18:00",
-     184.0
-    ],
-    [
-     "19:00",
-     184.6
-    ],
-    [
-     "20:00",
-     184.7
-    ],
-    [
-     "21:00",
-     181.6
-    ],
-    [
-     "22:00",
-     180.0
-    ],
-    [
-     "23:00",
-     170.4
-    ]
-   ]
-  },
-  "power_tomorrow": {
    "NO1": [
     [
      "00:00",
@@ -1248,50 +751,51 @@
     ]
    ]
   },
+  "power_tomorrow": {},
   "weather": {
    "oslo": {
     "temp": 5,
-    "min": 5,
-    "max": 5,
-    "symbol": "fair_night",
+    "min": 2,
+    "max": 10,
+    "symbol": "fair_day",
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 5,
-    "min": 5,
-    "max": 5,
+    "temp": 4,
+    "min": 2,
+    "max": 10,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 6,
-    "min": 5,
-    "max": 6,
-    "symbol": "clearsky_night",
+    "temp": 5,
+    "min": 2,
+    "max": 10,
+    "symbol": "fair_day",
     "rain6": 0.0
    },
    "tromso": {
     "temp": -1,
-    "min": -1,
-    "max": -1,
-    "symbol": "partlycloudy_night",
+    "min": -2,
+    "max": 4,
+    "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "bergen": {
-    "temp": 10,
-    "min": 10,
-    "max": 10,
+    "temp": 9,
+    "min": 9,
+    "max": 12,
     "symbol": "lightrain",
-    "rain6": 1.2
+    "rain6": 0.5
    },
    "stavanger": {
-    "temp": 7,
-    "min": 7,
-    "max": 7,
-    "symbol": "lightrainshowers_night",
-    "rain6": 0.9
+    "temp": 6,
+    "min": 6,
+    "max": 12,
+    "symbol": "lightrainshowers_day",
+    "rain6": 1.1
    }
   },
-  "date": "2026-10-11"
+  "date": "2026-10-12"
  }
 }
