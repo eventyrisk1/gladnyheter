@@ -12,6 +12,11 @@ OSLO = ZoneInfo("Europe/Oslo")
 
 # (kilde, url, kildepoeng)
 FEEDS = [
+    ("Utdanningsnytt", "https://www.utdanningsnytt.no/?lab_viewport=rss", 2),
+    ("Psykologisk.no", "https://psykologisk.no/feed/", 2),
+    ("Vårt Land", "https://www.vl.no/?lab_viewport=rss", 1),
+    ("Kunstkritikk", "https://kunstkritikk.no/feed/", 2),
+    ("Ballade", "https://www.ballade.no/feed", 2),
     ("forskning.no", "https://www.forskning.no/?lab_viewport=rss", 3),
     ("Gemini", "https://gemini.no/feed/", 3),
     ("NRK", "https://www.nrk.no/viten/toppsaker.rss", 3),
@@ -53,6 +58,13 @@ CLICKBAIT = re.compile(
 SKIP_URL = re.compile(r"/(video|kommentar|debatt|meninger|leder|kronikk|ytring|quiz|tegneserier|hjernetrim)/", re.I)
 
 TOPICS = [
+    ("KI", 4, r"kunstig intelligens|\bki\b|chatgpt|språkmodell|\bai\b"),
+    ("Psykologi", 3, r"psykolog|følelse|tanke|hjernen|atferd|personlighet|lykke|søvn|stress|motivasjon"),
+    ("Oppvekst", 3, r"barnehage|skole|elev|lærer|foreld|oppdragelse|ungdom|barn\b|barna"),
+    ("Tro", 3, r"kirke|tro\b|religion|prest|bibel|menighet|biskop|livssyn|islam|kristen"),
+    ("Kunst", 3, r"kunst|maleri|utstilling|galleri|kunstner|museum"),
+    ("Musikk", 3, r"musikk|album|konsert|låt|band|artist|sanger|komponist|festival"),
+    ("Litteratur", 3, r"\bbok\b|bøker|roman|forfatter|litteratur|lyrikk|dikt"),
     ("Historie", 3, r"arkeolog|viking|historie|middelalder|skatten\b|mynt|ruin|fortid|museum"),
     ("Vitenskap", 3, r"forsk|studie|oppdag|funn|nobel|univers|planet|romfart|astronom|fysikk|kjemi|matemat"),
     ("Medisin", 2, r"behandling|medisin|vaksine|terapi|helse|trening|kosthold|søvn"),
@@ -92,7 +104,7 @@ def tag(block, name):
     return re.sub(r"^\s*<!\[CDATA\[(.*?)\]\]>\s*$", r"\1", v, flags=re.S)
 
 
-def parse(source, url, weight, limit=25):
+def parse(source, url, weight, limit=20):
     items = []
     try:
         raw = fetch(url).decode("utf-8", "replace")
@@ -180,16 +192,25 @@ def collect(feeds):
 
 
 CATS = [
-    ("samfunn", "Samfunn", "nyttige samfunnssaker og hverdag: nye regler, streik avverget, transport, skole, lokalsamfunn, gode initiativ"),
+    ("samfunn", "Samfunn", "nyttige samfunnssaker og hverdag: nye regler, streik avverget, transport, lokalsamfunn, gode initiativ"),
     ("okonomi", "Økonomi og næringsliv", "rente, prisvekst, bolig, strøm, gründere, bedrifter, netthandel, handel"),
-    ("vitenskap", "Vitenskap og teknologi", "forskning, oppdagelser, verdensrommet, medisinske fremskritt, ny teknologi, KI"),
+    ("vitenskap", "Vitenskap og teknologi", "forskning, oppdagelser, verdensrommet, medisinske fremskritt, ny teknologi (ikke KI)"),
+    ("ki", "Kunstig intelligens", "nyheter om KI, språkmodeller og hvordan KI brukes"),
     ("natur", "Natur og miljø", "dyr, natur, friluftsliv, miljøløsninger, klimaløsninger"),
-    ("kultur", "Kultur og historie", "film, serier, bøker, tegneserier, musikk, kunst, arkeologi, historie"),
+    ("psykologi", "Psykologi", "psykologi, hjernen, følelser, relasjoner, livsmestring"),
+    ("oppvekst", "Barn og oppvekst", "barnehage, skole, utdanning, oppdragelse, foreldre, ungdom"),
+    ("tro", "Tro og livssyn", "tro, religion, kirke, livssyn, etikk – det som samler, ikke konflikter"),
+    ("kunst", "Kunst", "billedkunst, utstillinger, museer, design, arkitektur"),
+    ("musikk", "Musikk", "musikk, artister, album, konserter"),
+    ("litteratur", "Litteratur", "bøker, forfattere, litteratur, lesing"),
+    ("kultur", "Film, scene og historie", "film, serier, teater, dans, arkeologi og historie"),
     ("sport", "Sport", "norske prestasjoner og viktige sportsnyheter (kun fra SPORT-listen)"),
 ]
 RULE_MAP = {"Samfunn": "samfunn", "Hverdag": "samfunn", "Økonomi": "okonomi", "Næringsliv": "okonomi",
-            "Vitenskap": "vitenskap", "Medisin": "vitenskap", "Teknologi": "vitenskap",
-            "Natur": "natur", "Kultur": "kultur", "Historie": "kultur"}
+            "Vitenskap": "vitenskap", "Medisin": "vitenskap", "Teknologi": "vitenskap", "KI": "ki",
+            "Natur": "natur", "Psykologi": "psykologi", "Oppvekst": "oppvekst", "Tro": "tro",
+            "Kunst": "kunst", "Musikk": "musikk", "Litteratur": "litteratur",
+            "Kultur": "kultur", "Historie": "kultur"}
 
 
 def story(it, title=None, summary=None):
@@ -218,14 +239,14 @@ def pick_rules(news, sport):
 
 
 PROMPT = """Du er redaktør for Gladnyheter.com, en norsk nyhetsforside uten negative nyheter.
-Leseren er en voksen nordmann som driver nettbutikk og er lei av negative nyheter.
+Leserne er voksne nordmenn som er lei av negative nyheter.
 KAST ALT som handler om krig, militære konflikter, forsvar/våpen, terror, kriminalitet, ulykker, sykdom, død, katastrofer, kriser og skremsler, og alt som bare gjør leseren nedstemt uten at hen kan gjøre noe med det. Kast også klikkagn, reklame, sponset innhold, annonsørinnhold, influensere, kjendisstoff, reality, sladder, quiz, kommentarer og meningsinnlegg.
 
 Velg de 3 mest interessante, lærerike eller viktige sakene i HVER av disse kategoriene (viktigst først):
 %s
 Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kilder når det går. Finnes det færre enn 3 gode saker i en kategori, ta med færre heller enn dårlige saker.
 For hver sak: informativ tittel på bokmål (omskriv klikkagn) og en oppsummering på 1-2 setninger som BARE bygger på teksten (ikke dikt opp fakta).
-Svar KUN med JSON: {"samfunn":[{"id":0,"title":"","summary":""}],"okonomi":[...],"vitenskap":[...],"natur":[...],"kultur":[...],"sport":[{"id":1000,"title":"","summary":""}]}
+Svar KUN med JSON der hver kategori-id er en nøkkel, f.eks.: {"samfunn":[{"id":0,"title":"","summary":""}],"okonomi":[...], ... ,"sport":[{"id":1000,"title":"","summary":""}]}
 
 NYHETER:
 %s
@@ -262,7 +283,7 @@ GEMINI_MODELS = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-li
 
 
 def pick_gemini(news, sport, key):
-    news, sport = news[:120], sport[:30]
+    news, sport = news[:170], sport[:30]
     body = json.dumps({
         "contents": [{"role": "user", "parts": [{"text": build_prompt(news, sport)}]}],
         "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
@@ -289,8 +310,8 @@ def pick_gemini(news, sport, key):
 
 
 def pick_claude(news, sport, key):
-    news, sport = news[:100], sport[:25]
-    body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5"), "max_tokens": 4000,
+    news, sport = news[:150], sport[:25]
+    body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5"), "max_tokens": 8000,
                        "messages": [{"role": "user", "content": build_prompt(news, sport)}]}).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
         "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
@@ -376,16 +397,16 @@ def main():
     out = None
     for name, env, fn in [("Claude", "ANTHROPIC_API_KEY", pick_claude), ("Gemini", "GEMINI_API_KEY", pick_gemini)]:
         key = os.environ.get(env)
-        if key and count(out) < 10:
+        if key and count(out) < 15:
             try:
                 out = fn(news, sport, key)
                 print(f"Valgt av {name}")
             except Exception as e:
                 print(f"{name} feilet ({e})", file=sys.stderr)
-    if count(out) < 10:
+    if count(out) < 15:
         out = pick_rules(news, sport)
         print("Valgt med regler")
-    if count(out) < 8:
+    if count(out) < 12:
         sys.exit("For få saker – beholder forrige utgave.")
     data = {"updated": datetime.datetime.now(OSLO).strftime("%Y-%m-%dT%H:%M"),
             "categories": [{"id": cid, "name": name, "stories": out.get(cid, [])} for cid, name, _ in CATS]}
