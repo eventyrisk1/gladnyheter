@@ -1,4 +1,4 @@
-"""Gladnyheter: henter norske RSS-feeder, velger de 10 beste sakene + 1 sportssak
+"""Gladnyheter: henter norske RSS-feeder, velger topp 3 saker i hver kategori
 og skriver resultatet til data.json. Kjøres hver time av GitHub Actions (gratis).
 
 Utvalget gjøres av Gemini (gratis, secret GEMINI_API_KEY). Finnes ANTHROPIC_API_KEY brukes
@@ -179,51 +179,53 @@ def collect(feeds):
     return out
 
 
+CATS = [
+    ("samfunn", "Samfunn", "nyttige samfunnssaker og hverdag: nye regler, streik avverget, transport, skole, lokalsamfunn, gode initiativ"),
+    ("okonomi", "Økonomi og næringsliv", "rente, prisvekst, bolig, strøm, gründere, bedrifter, netthandel, handel"),
+    ("vitenskap", "Vitenskap og teknologi", "forskning, oppdagelser, verdensrommet, medisinske fremskritt, ny teknologi, KI"),
+    ("natur", "Natur og miljø", "dyr, natur, friluftsliv, miljøløsninger, klimaløsninger"),
+    ("kultur", "Kultur og historie", "film, serier, bøker, tegneserier, musikk, kunst, arkeologi, historie"),
+    ("sport", "Sport", "norske prestasjoner og viktige sportsnyheter (kun fra SPORT-listen)"),
+]
+RULE_MAP = {"Samfunn": "samfunn", "Hverdag": "samfunn", "Økonomi": "okonomi", "Næringsliv": "okonomi",
+            "Vitenskap": "vitenskap", "Medisin": "vitenskap", "Teknologi": "vitenskap",
+            "Natur": "natur", "Kultur": "kultur", "Historie": "kultur"}
+
+
+def story(it, title=None, summary=None):
+    return {"title": clean(title) or it["title"], "url": it["url"], "source": it["source"],
+            "summary": clean(summary) or it["desc"]}
+
+
 def pick_rules(news, sport):
     for it in news:
         it["score"], it["category"] = score(it)
     news.sort(key=lambda x: -x["score"])
-    stories, per_src, per_cat = [], {}, {}
+    out = {cid: [] for cid, _, _ in CATS}
     for it in news:
-        if per_src.get(it["source"], 0) >= 3 or per_cat.get(it["category"], 0) >= 3:
-            continue
-        per_src[it["source"]] = per_src.get(it["source"], 0) + 1
-        per_cat[it["category"]] = per_cat.get(it["category"], 0) + 1
-        stories.append({"title": it["title"], "url": it["url"], "source": it["source"],
-                        "category": it["category"], "summary": it["desc"], "why": ""})
-        if len(stories) == 10:
-            break
-    if len(stories) < 10:                       # fyll opp uten grensene hvis det trengs
-        have = {x["url"] for x in stories}
-        for it in news:
-            if it["url"] not in have and len(stories) < 10:
-                stories.append({"title": it["title"], "url": it["url"], "source": it["source"],
-                                "category": it["category"], "summary": it["desc"], "why": ""})
-    best = None
-    for it in sport:
+        cid = RULE_MAP.get(it["category"], "samfunn")
+        if len(out[cid]) < 3:
+            out[cid].append(story(it))
+    def sport_score(it):
         s = it["weight"] - it["pos"] * 0.1
         if re.search(r"norge|norsk|vm|ol|gull|sølv|bronse|seier|vant|rekord|historisk", it["title"], re.I):
             s += 2
         if not it["desc"]:
             s -= 1
-        if best is None or s > best[0]:
-            best = (s, it)
-    sp = None
-    if best:
-        it = best[1]
-        sp = {"title": it["title"], "url": it["url"], "source": it["source"], "summary": it["desc"]}
-    return stories, sp
+        return s
+    out["sport"] = [story(it) for it in sorted(sport, key=lambda x: -sport_score(x))[:3]]
+    return out
 
 
-# ---------- Valgfritt: Claude (brukes bare hvis ANTHROPIC_API_KEY er lagt inn) ----------
-PROMPT = """Du er redaktør for Gladnyheter.no, en norsk nyhetsforside uten negative nyheter.
+PROMPT = """Du er redaktør for Gladnyheter.com, en norsk nyhetsforside uten negative nyheter.
 Leseren er en voksen nordmann som driver nettbutikk og er lei av negative nyheter.
 KAST ALT som handler om krig, militære konflikter, forsvar/våpen, terror, kriminalitet, ulykker, sykdom, død, katastrofer, kriser og skremsler, og alt som bare gjør leseren nedstemt uten at hen kan gjøre noe med det. Kast også klikkagn, reklame, sponset innhold, annonsørinnhold, influensere, kjendisstoff, reality, sladder, quiz, kommentarer og meningsinnlegg.
-VELG 10 saker som er interessante, lærerike eller viktige: forskning og teknologi; natur, dyr og miljøløsninger; kultur og underholdning (film, bøker, tegneserier, musikk); næringsliv, gründere og netthandel; og nyttige samfunnssaker som påvirker hverdagen (rente, prisvekst, nye regler, streik avverget) når de ikke skremmer.
-Ingen sportssaker blant de 10. Spre utvalget: maks 3 fra samme kilde og variasjon i tema. Den mest interessante og viktige saken først.
-VELG i tillegg 1 sportssak fra SPORT-listen: den viktigste norske sportsnyheten nå, helst en norsk prestasjon (ikke bråk, skandaler eller rettssaker).
-For hver: informativ tittel på bokmål, oppsummering på 1-2 setninger basert KUN på teksten, category (Vitenskap, Medisin, Teknologi, Natur, Historie, Kultur, Økonomi, Næringsliv, Hverdag, Samfunn) og why (3-6 ord).
-Svar KUN med JSON: {"stories":[{"id":0,"title":"","summary":"","category":"","why":""}],"sport":{"id":1000,"title":"","summary":""}}
+
+Velg de 3 mest interessante, lærerike eller viktige sakene i HVER av disse kategoriene (viktigst først):
+%s
+Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kilder når det går. Finnes det færre enn 3 gode saker i en kategori, ta med færre heller enn dårlige saker.
+For hver sak: informativ tittel på bokmål (omskriv klikkagn) og en oppsummering på 1-2 setninger som BARE bygger på teksten (ikke dikt opp fakta).
+Svar KUN med JSON: {"samfunn":[{"id":0,"title":"","summary":""}],"okonomi":[...],"vitenskap":[...],"natur":[...],"kultur":[...],"sport":[{"id":1000,"title":"","summary":""}]}
 
 NYHETER:
 %s
@@ -235,40 +237,32 @@ SPORT:
 
 def build_prompt(news, sport):
     fmt = lambda items, off: "\n".join(f"{i+off}. [{x['source']}] {x['title']} — {x['desc'][:150]}" for i, x in enumerate(items))
-    return PROMPT % (fmt(news, 0), fmt(sport, 1000))
+    cats = "\n".join(f"- {cid}: {name} ({desc})" for cid, name, desc in CATS)
+    return PROMPT % (cats, fmt(news, 0), fmt(sport, 1000))
 
 
 def read_answer(raw, news, sport):
     ans = json.loads(re.search(r"\{.*\}", raw, re.S).group(0))
-    stories, used = [], set()
-    for s in ans.get("stories", []):
-        try:
-            i = int(s.get("id", -1))
-        except Exception:
-            continue
-        if 0 <= i < len(news) and i not in used:
-            used.add(i)
-            n = news[i]
-            stories.append({"title": clean(s.get("title")) or n["title"], "url": n["url"], "source": n["source"],
-                            "category": clean(s.get("category")) or "Samfunn",
-                            "summary": clean(s.get("summary")) or n["desc"], "why": clean(s.get("why"))})
-    sp = None
-    try:
-        j = int((ans.get("sport") or {}).get("id", -1)) - 1000
-    except Exception:
-        j = -1
-    if 0 <= j < len(sport):
-        x = ans["sport"]
-        sp = {"title": clean(x.get("title")) or sport[j]["title"], "url": sport[j]["url"],
-              "source": sport[j]["source"], "summary": clean(x.get("summary")) or sport[j]["desc"]}
-    return stories[:10], sp
+    out, used = {}, set()
+    for cid, _, _ in CATS:
+        out[cid] = []
+        for s in ans.get(cid, []) or []:
+            try:
+                i = int(s.get("id", -1))
+            except Exception:
+                continue
+            pool, j = (sport, i - 1000) if cid == "sport" else (news, i)
+            if 0 <= j < len(pool) and i not in used and len(out[cid]) < 3:
+                used.add(i)
+                out[cid].append(story(pool[j], s.get("title"), s.get("summary")))
+    return out
 
 
 GEMINI_MODELS = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite", "gemini-3-flash-preview", "gemini-2.0-flash"]
 
 
 def pick_gemini(news, sport, key):
-    news, sport = news[:110], sport[:30]
+    news, sport = news[:120], sport[:30]
     body = json.dumps({
         "contents": [{"role": "user", "parts": [{"text": build_prompt(news, sport)}]}],
         "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
@@ -295,8 +289,8 @@ def pick_gemini(news, sport, key):
 
 
 def pick_claude(news, sport, key):
-    news, sport = news[:80], sport[:25]
-    body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5"), "max_tokens": 3000,
+    news, sport = news[:100], sport[:25]
+    body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5"), "max_tokens": 4000,
                        "messages": [{"role": "user", "content": build_prompt(news, sport)}]}).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
         "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
@@ -305,39 +299,36 @@ def pick_claude(news, sport, key):
     return read_answer(raw, news, sport)
 
 
+def count(out):
+    return sum(len(v) for v in (out or {}).values())
+
+
 def main():
     news = collect(FEEDS)
     sport = collect(SPORT_FEEDS)
     print(f"{len(news)} nyheter og {len(sport)} sportssaker igjen etter filter")
-    stories, sp = [], None
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if key:
-        try:
-            stories, sp = pick_claude(news, sport, key)
-            print("Valgt av Claude")
-        except Exception as e:
-            print(f"Claude feilet ({e}) – bruker reglene", file=sys.stderr)
-    gkey = os.environ.get("GEMINI_API_KEY")
-    if len(stories) < 6 and gkey:
-        try:
-            stories, sp = pick_gemini(news, sport, gkey)
-            print("Valgt av Gemini")
-        except Exception as e:
-            print(f"Gemini feilet ({e}) – bruker reglene", file=sys.stderr)
-    if len(stories) < 6:
-        stories, sp = pick_rules(news, sport)
+    out = None
+    for name, env, fn in [("Claude", "ANTHROPIC_API_KEY", pick_claude), ("Gemini", "GEMINI_API_KEY", pick_gemini)]:
+        key = os.environ.get(env)
+        if key and count(out) < 10:
+            try:
+                out = fn(news, sport, key)
+                print(f"Valgt av {name}")
+            except Exception as e:
+                print(f"{name} feilet ({e})", file=sys.stderr)
+    if count(out) < 10:
+        out = pick_rules(news, sport)
         print("Valgt med regler")
-    if len(stories) < 6:
+    if count(out) < 8:
         sys.exit("For få saker – beholder forrige utgave.")
-    data = {"updated": datetime.datetime.now(OSLO).strftime("%Y-%m-%dT%H:%M"), "stories": stories}
-    if sp:
-        data["sport"] = sp
+    data = {"updated": datetime.datetime.now(OSLO).strftime("%Y-%m-%dT%H:%M"),
+            "categories": [{"id": cid, "name": name, "stories": out.get(cid, [])} for cid, name, _ in CATS]}
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
-    for s in stories:
-        print(f"- [{s['category']}] {s['title']} ({s['source']})")
-    if sp:
-        print(f"Sport: {sp['title']}")
+    for c in data["categories"]:
+        print(f"{c['name']}:")
+        for s in c["stories"]:
+            print(f"  - {s['title']} ({s['source']})")
 
 
 if __name__ == "__main__":
