@@ -95,6 +95,14 @@ footer p{margin:0 0 6px;max-width:70ch}
 footer a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 footer .beta{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
 footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:1px 7px;border-radius:999px;border:1px solid currentColor;margin-right:4px}
+@media (min-width:1100px){
+.wrap{max-width:1500px;padding-left:32px;padding-right:32px}
+.grid{grid-template-columns:repeat(3,1fr)}
+.top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:28px;align-items:center;margin-top:20px}
+.top .quote,.top .today{margin-top:0}
+.top .quote blockquote{font-size:1.35rem}
+}
+@media (min-width:1560px){.wrap{max-width:1820px}.grid{grid-template-columns:repeat(4,1fr)}}
 @media (max-width:480px){.meta{text-align:left}section.cat{padding:16px 16px 4px}}
 </style>
 </head>
@@ -105,6 +113,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
     <div class="meta"><b id="gn-date"></b><br><span id="gn-upd"></span></div>
   </header>
   <p class="promise">Ingen krig og skremsler. Ingen klikkagn. Ingen influensere og kjendistull. Ingen reklame.</p>
+  <div class="top">
   <figure class="quote" id="gn-quote" hidden><blockquote id="gn-q"></blockquote><figcaption id="gn-qby"></figcaption></figure>
 
   <section class="today" id="today" hidden aria-label="Nyttig i dag">
@@ -114,6 +123,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
     <div class="today-row"><b>Strøm</b><span id="gn-power">–</span></div>
     <div class="note">Strømpris er spotpris inkl. mva, uten nettleie og påslag. Kilder: hvakosterstrommen.no og Meteorologisk institutt.</div>
   </section>
+  </div>
   <p class="since" id="gn-since" hidden></p>
 
   <div class="navrow">
