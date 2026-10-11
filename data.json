@@ -1,27 +1,27 @@
 {
- "updated": "2026-10-11T16:25",
+ "updated": "2026-10-11T16:39",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "SAS-streik avverget etter enighet i mekling",
+     "title": "SAS-streik avverget etter enighet hos Riksmekleren",
      "url": "https://e24.no/naeringsliv/i/AbEpxn/sas-streik-avverget",
      "source": "E24",
-     "summary": "Partene i SAS-meklingen ble enige om en løsning natt til søndag, noe som betyr at den varslede flystreiken er avlyst."
+     "summary": "Meklingen mellom partene i SAS førte frem etter at riksmekleren la frem en skisse til løsning, og en flystreik er dermed unngått."
     },
     {
-     "title": "Ny vei åpner ved Stockholm i desember",
-     "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
-     "source": "Teknisk Ukeblad",
-     "summary": "Etter ti års arbeid åpner 3,5 kilometer med ny vei på E4 ved Stockholm for trafikk den 6. desember."
-    },
-    {
-     "title": "Stortinget selger overflødige pendlerboliger",
+     "title": "Stortinget selger overflødige pendlerboliger for 100 millioner",
      "url": "https://e24.no/norsk-oekonomi/i/X9jk4m/helg-stortinget-skal-selge-pendlerboliger-for-100-millioner",
      "source": "E24",
-     "summary": "Stortinget skal selge elleve pendlerboliger de ikke lenger har bruk for, med en anslått verdi på rundt 100 millioner kroner."
+     "summary": "Stortinget kvitter seg med elleve pendlerleiligheter de ikke lenger har behov for, med en samlet verdi på rundt 100 millioner kroner."
+    },
+    {
+     "title": "Ny delstrekning av E4 åpner for trafikk etter ti års arbeid",
+     "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
+     "source": "Teknisk Ukeblad",
+     "summary": "I begynnelsen av desember settes det trafikk på 3,5 nye kilometer av E4 ved Stockholm."
     }
    ]
   },
@@ -30,22 +30,22 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Arbeidsgivere tar i bruk AI for å vurdere jobbsøkere",
-     "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
+     "title": "Maleri kjøpt for under 300 kroner solgt for nesten 13 millioner",
+     "url": "https://e24.no/naeringsliv/i/mKLnxq/kjoepte-maleri-for-290-kroner-solgt-for-12-9-millioner",
      "source": "E24",
-     "summary": "Stadig flere bedrifter benytter nå verktøy basert på kunstig intelligens for å effektivisere vurderingen av kandidater i rekrutteringsprosesser."
+     "summary": "Et kunstverk som ble funnet i en bortgjemt krok på et dødsbosalg i USA, innbrakte et enormt millionbeløp på auksjon."
     },
     {
-     "title": "Politisk støtte til havvindsatsing på Utsira Nord",
+     "title": "Høyre gir støtte til havvindsatsingen Utsira Nord",
      "url": "https://www.tu.no/energi/hoyre-gir-klarsignal-til-flytende-havvind-vil-bidra-til-framdrift-for-utsira-nord/7145245",
      "source": "Teknisk Ukeblad",
-     "summary": "Høyre gir klarsignal for den videre prosessen med havvindprosjektet Utsira Nord etter at en ny kvalitetssikring har styrket tilliten til prosjektet."
+     "summary": "En fersk kvalitetssikring har styrket troen på prosjektet, og partiet stiller seg bak videre framdrift for havvindparken."
     },
     {
-     "title": "Forslag om 1000 nye trainee-stillinger i staten",
-     "url": "https://e24.no/norsk-oekonomi/i/kvvPbj/abid-raja-vil-ha-1000-nye-trainee-stillinger-i-statsbudsjettet",
-     "source": "E24",
-     "summary": "Venstre foreslår å sette av midler til 1000 nye trainee-stillinger i statsbudsjettet for å hjelpe nyutdannede inn i arbeidsmarkedet."
+     "title": "Fjellhaller under Stendafjellet gir steinressurser og nye bruksmuligheter",
+     "url": "https://www.tu.no/samferdsel/her-blir-forurensede-masser-begravd-inne-i-fjellet/7143311",
+     "source": "Teknisk Ukeblad",
+     "summary": "Underjordsdrift under Stendafjellet henter ut steinmasse og baner vei for videre lønnsom etterbruk av de enorme hallene."
     }
    ]
   },
@@ -54,22 +54,46 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Norsk teknologi måler høyden i passasjerfly",
+     "title": "Norske sensorbrikker måler høyden i passasjerfly",
      "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
      "source": "Teknisk Ukeblad",
-     "summary": "Trykksensorer produsert på Gaustad i Oslo brukes i en rekke passasjerfly verden over for å måle flyhøyde nøyaktig."
+     "summary": "På Gaustad i Oslo lages avanserte trykksensorer som brukes til nøyaktige høydemålinger i fly verden over."
     },
     {
-     "title": "Slik formes hjernen når vi lærer å lese",
-     "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
+     "title": "Fossilfunn viser at kjempedinosaurer levde langt sør hele året",
+     "url": "https://www.forskning.no/dinosaurer-paleontologi-ung/denne-dinosauren-kunne-bli-lengre-enn-en-blahval-og-la-egg-lenger-sor-enn-noen-andre-vi-vet-om/2720471",
      "source": "forskning.no",
-     "summary": "Forskning viser at lesing er en langvarig prosess som gradvis kobler sammen hjernens nettverk for språk og syn til et integrert system."
+     "summary": "Nyoppdagede eggeskall tyder på at de aller største landdyrene gjennom tidene kunne oppholde seg i sørlige strøk året rundt."
     },
     {
-     "title": "Dans kan lindre ryggsmerter hos eldre",
-     "url": "https://www.forskning.no/blogg-elib/kan-dans-hjelpe-eldre-med-langvarige-ryggsmerter/2721468",
-     "source": "forskning.no",
-     "summary": "En pilotstudie har undersøkt hvordan dansebasert bevegelsestrening kan fungere som et effektivt verktøy i behandlingen av langvarige korsryggsmerter."
+     "title": "Forskere mener kaffebrenning i Norge kan gjøres utslippsfri",
+     "url": "https://gemini.no/2026/10/kan-norsk-kaffebrenning-elektrifiseres-ja-mener-forskere/",
+     "source": "Gemini",
+     "summary": "Den energikrevende prosessen med kaffebrenning foregår i dag i stor grad med fossilt brensel, men kan ifølge forskning elektrifiseres."
+    }
+   ]
+  },
+  {
+   "id": "ki",
+   "name": "Kunstig intelligens",
+   "stories": [
+    {
+     "title": "Flere arbeidsgivere tar i bruk kunstig intelligens til jobbsøknader",
+     "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
+     "source": "E24",
+     "summary": "Bruk av KI-verktøy for å vurdere og sortere kandidater blir stadig mer utbredt i ansettelsesprosesser."
+    },
+    {
+     "title": "Få kvinnelige søkere til Oljefondets KI-team",
+     "url": "https://e24.no/teknologi/i/Oggpm3/bare-menn-i-oljefondets-ai-team-12-av-116-soekerne-var-kvinner",
+     "source": "E24",
+     "summary": "Bare 12 av 116 søkere var kvinner da Oljefondet lyste ut stillinger til sin nye satsing på kunstig intelligens."
+    },
+    {
+     "title": "Aktive norske fond henger etter i det globale KI-oppsvinget",
+     "url": "https://e24.no/boers-og-finans/i/lKKWby/ai-rallyet-loeper-fra-norske-forvaltere",
+     "source": "E24",
+     "summary": "Flere norske forvaltere av global- og USA-fond har ikke hengt med på årets kraftige børsoppgang drevet av teknologiselskaper."
     }
    ]
   },
@@ -78,46 +102,160 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Forskere utvikler geléklump som alternativ til kjøtt",
-     "url": "https://www.forskning.no/klima-mat-ung/har-du-lyst-pa-en-geleklump-som-kjennes-ut-som-kjott/2718642",
+     "title": "Ti fascinerende fakta om den intelligente blekkspruten",
+     "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
      "source": "forskning.no",
-     "summary": "Ny forskning på geléklumper med kjøttlignende tekstur kan bidra til at forbrukere velger mer plantebasert kosthold i fremtiden."
+     "summary": "Blekkspruter har bemerkelsesverdige evner og høy intelligens, til tross for at de fleste arter bare lever i noen få år."
     },
     {
-     "title": "Kulokk kan styrke menneskets bånd til naturen",
+     "title": "Forsker fremhever kulokk som en vei til sterkere naturbånd",
      "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
      "source": "forskning.no",
-     "summary": "Den gamle tradisjonen med kulokk trekkes frem som et eksempel på hvordan vi kan gjenopprette et bedre og nærere forhold til naturen."
+     "summary": "Den tradisjonelle lokkerop-skikken for husdyr pekes på som et eksempel på hvordan mennesker kan finne en tettere og mer harmonisk kontakt med naturen."
     },
     {
-     "title": "Forskning på sammenhengen mellom følelser og miljøvalg",
-     "url": "https://gemini.no/2026/10/folelser-betyr-ikke-sa-mye-for-klimavennlig-atferd/",
+     "title": "Slik holder du huset fritt for mus i vinter",
+     "url": "https://www.forskning.no/dyreverden-hus-og-hjem-samfunn/det-er-mest-sannsynlig-ikke-husmus-du-har-i-hus/2719472",
+     "source": "forskning.no",
+     "summary": "Mus trenger bare noen få millimeter med åpning for å komme seg inn, og eksperter deler sine beste råd for forebygging."
+    }
+   ]
+  },
+  {
+   "id": "psykologi",
+   "name": "Psykologi",
+   "stories": [
+    {
+     "title": "Dette skjer i hjernens nettverk når du lærer å lese",
+     "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
+     "source": "forskning.no",
+     "summary": "Leselæring former hjernen over tid ved å koble sammen språksenteret og synssenteret til et helhetlig system."
+    },
+    {
+     "title": "Forskning viser hvorfor toppidrettsutøvere mestrer prestasjonsangst",
+     "url": "https://gemini.no/2026/10/derfor-takler-fotballproffer-prestasjonsangst-best/",
      "source": "Gemini",
-     "summary": "En ny studie viser at følelser som sinne og håp kanskje har mindre betydning for klimavennlig atferd enn forskere tidligere har antatt."
+     "summary": "Fotballspillere på elitenivå opplever mindre hemmende prestasjonsangst enn amatører, ifølge en ny studie."
+    },
+    {
+     "title": "Hvorfor vi blir redde for å synge – og hvordan sangglede kan vekkes",
+     "url": "https://www.forskning.no/barnehage-kultur-partner/nar-begynner-vi-a-bli-redde-for-a-synge/2716190",
+     "source": "forskning.no",
+     "summary": "Mange voksne kjenner på frykt for å bruke stemmen, men erfaring med barn viser at barrierene lett kan overvinnes i trygge omgivelser."
+    }
+   ]
+  },
+  {
+   "id": "oppvekst",
+   "name": "Barn og oppvekst",
+   "stories": [
+    {
+     "title": "Nytt bemanningsbyrå tilbyr opptil millionlønn til barnehagelærere",
+     "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
+     "source": "Utdanningsnytt",
+     "summary": "Et nyetablert byrå satser høyt for å rekruttere pedagoger og lokker med lønninger mellom 900 000 og 1 000 000 kroner."
+    },
+    {
+     "title": "Enkle grep kan forbedre barnas lekemiljø ute i barnehagen",
+     "url": "https://www.utdanningsnytt.no/barnehageforskning-dmmh-friluftsbarnehage/det-fysiske-lekemiljoet-ute-i-barnehagen-pavirker-barnas-trivsel-og-lek/501612",
+     "source": "Utdanningsnytt",
+     "summary": "Det trengs ikke nødvendigvis store omveltninger for å skape et mer stimulerende og morsomt utemiljø for barna."
+    },
+    {
+     "title": "Foreldres sporing av ungdom kan undergrave gjensidig tillit",
+     "url": "https://www.aftenposten.no/norge/i/zlAyOb/flere-foreldre-sporer-barn-og-unge-det-kan-foere-til-mindre-tillit",
+     "source": "Aftenposten",
+     "summary": "Digital overvåking av tenåringer brer om seg, men eksperter påpeker at det kan føre til dårligere kommunikasjon mellom foreldre og unge."
+    }
+   ]
+  },
+  {
+   "id": "tro",
+   "name": "Tro og livssyn",
+   "stories": [
+    {
+     "title": "Ukjent norrøn kirkeruin avdekket på Grønland",
+     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
+     "source": "forskning.no",
+     "summary": "Arkeologer har funnet rester etter en gammel kirke og et skjelett fra den norrøne bosetningstiden i nærheten av Erik Raudes tidligere gård."
+    }
+   ]
+  },
+  {
+   "id": "kunst",
+   "name": "Kunst",
+   "stories": [
+    {
+     "title": "Stjålne malerier av Renoir er kommet til rette",
+     "url": "https://www.aftenposten.no/kultur/i/kvvXEv/stjaalne-renoir-malerier-funnet",
+     "source": "Aftenposten",
+     "summary": "To verdifulle verk signert impresjonisten Pierre-Auguste Renoir har blitt funnet igjen etter et tyveri i Frankrike."
+    },
+    {
+     "title": "Kateryna Lysovenko stiller ut verk i Helsingborg",
+     "url": "https://kunstkritikk.no/livet-betraktat-fran-vintergatan/",
+     "source": "Kunstkritikk",
+     "summary": "Kunstnerens nye utstilling fremheves for sitt sterke og lysende uttrykk som forvandler sårbarhet til nærhet."
+    }
+   ]
+  },
+  {
+   "id": "musikk",
+   "name": "Musikk",
+   "stories": [
+    {
+     "title": "Odd Nordstoga ute med sitt tiende album",
+     "url": "https://www.aftenposten.no/kultur/i/58GBGe/anmeldelse-av-foer-du-gaar-av-odd-nordstoga-drivende-hverdagspoesi",
+     "source": "Aftenposten",
+     "summary": "Den folkekjære artisten leverer ny hverdagspoesi og melodisk driv på sin nyeste plateutgivelse."
+    },
+    {
+     "title": "Pianist Sondre Moshagen markerer seg med nytt prosjekt",
+     "url": "https://www.aftenposten.no/kultur/i/43amJE/anmeldelse-av-audio-guide-av-sondre-moshagen",
+     "source": "Aftenposten",
+     "summary": "Den prisvinnende norske musikeren utvider sitt musikalske register med stor kunstnerisk suksess."
+    },
+    {
+     "title": "Åpent for nominasjoner til Musikkforleggerprisen",
+     "url": "https://www.ballade.no/bransjen/na-kan-du-nominere-kandidater-til-musikkforleggerprisen/",
+     "source": "Ballade",
+     "summary": "Musikkbransjen inviteres til å foreslå kandidater til prisen som hedrer komponister og låtskrivere."
+    }
+   ]
+  },
+  {
+   "id": "litteratur",
+   "name": "Litteratur",
+   "stories": [
+    {
+     "title": "Herbjørg Wassmo markerer 50 år som forfatter med ny roman",
+     "url": "https://www.aftenposten.no/kultur/i/qyW7wg/anmeldelse-roman-av-herbjoerg-wassmo-besettelse",
+     "source": "Aftenposten",
+     "summary": "Forfatterveteranen er aktuell med boken «Besettelse» etter fem tiår med en bemerkelsesverdig litterær karriere."
     }
    ]
   },
   {
    "id": "kultur",
-   "name": "Kultur og historie",
+   "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Norrøn kirkeruin oppdaget på Grønland",
-     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
-     "source": "forskning.no",
-     "summary": "Arkeologer har funnet rester av en ukjent kirke og et skjelett fra den norrøne bosettingstiden på Sør-Grønland."
-    },
-    {
-     "title": "Stjålne Renoir-malerier funnet i Frankrike",
-     "url": "https://www.aftenposten.no/kultur/i/kvvXEv/stjaalne-renoir-malerier-funnet",
-     "source": "Aftenposten",
-     "summary": "To verdifulle malerier av kunstneren Renoir som ble stjålet i september, har kommet til rette igjen etter et funn i Frankrike."
-    },
-    {
-     "title": "Sørsamisk innflytelse i norrøn historie",
+     "title": "Sørsamiske Snøfrid kan ha vært stammor til norske konger",
      "url": "https://gemini.no/2026/10/samiske-snofrid-kan-vaere-stammor-til-norske-konger/",
      "source": "Gemini",
-     "summary": "Forskning på norrøne opphavsmyter viser en tydelig sørsamisk tilstedeværelse, blant annet gjennom historien om Snøfrid og Harald Hårfagre."
+     "summary": "I norrøn mytologi trer fortellingen om Snøfrid og Harald Hårfagre frem som et fascinerende vitnesbyrd om felles røtter."
+    },
+    {
+     "title": "«Apestjernen» på Riksteatret hylles som teatermagi for hele familien",
+     "url": "https://www.aftenposten.no/kultur/i/0BBB1J/anmeldelse-av-apestjernen-paa-riksteatret-inderlig-vakkert",
+     "source": "Aftenposten",
+     "summary": "Forestillingen byr på humor, hjertevarme og musikk som appellerer til både små og store teatergjengere."
+    },
+    {
+     "title": "Nasjonalballetten feirer dansekunsten med León & Lightfoot",
+     "url": "https://www.aftenposten.no/kultur/i/kvMjzQ/hinter-kanskje-om-en-vridning-i-hele-dansefeltet",
+     "source": "Aftenposten",
+     "summary": "Kompaniet imponerer på scenen i en hyllest som setter ballettklassens grunnleggende eleganse i sentrum."
     }
    ]
   },
@@ -126,22 +264,22 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Norsk VM-sølv i triatlon etter sterk opphenting",
+     "title": "Imponerende VM-sølv til Gustav Iden på Hawaii",
      "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
      "source": "Aftenposten",
-     "summary": "Gustav Iden sikret sølvmedalje under VM på Hawaii etter å ha løpt seg opp fra en niendeplass til tross for en tidsstraff."
+     "summary": "Den norske triatleten kjempet seg opp fra en niendeplass og sikret sølvmedalje etter en sterk opphenting."
     },
     {
-     "title": "Kristoffer Ajer reddet poeng for Brentford",
+     "title": "Kristoffer Ajer i scoringsform – berget poeng for Brentford",
      "url": "https://www.nrk.no/sport/ajer-reddet-poeng-for-brentford-_-scoret-igjen-1.18051464",
      "source": "NRK",
-     "summary": "Den norske landslagsspilleren fortsetter scoringsformen og sikret 2–2 for Brentford i oppgjøret mot Aston Villa."
+     "summary": "Den norske landslagsstopperen fortsatte den gode formen og fastsatte sluttresultatet til 2–2 mot Aston Villa."
     },
     {
-     "title": "Viking-legende har tro på mirakel mot Bayern München",
-     "url": "https://www.nrk.no/rogaland/arne-larsen-okland-blei-helt-i-tyskland-_-dette-trur-han-om-viking-sin-kamp-mot-bayern-munchen-1.18049196",
+     "title": "Bodø/Glimt snudde kampen mot Kristiansund til seier",
+     "url": "https://www.nrk.no/sport/glimt-snudde-etter-alvheims-kunstmal-pa-aspmyra-1.18051465",
      "source": "NRK",
-     "summary": "Arne Larsen Økland, som ble helt i Tyskland i 1981, tror det er mulig for Viking å skape et godt resultat når Bayern München gjester Stavanger."
+     "summary": "Glimt svarte på baklengsmål, snudde oppgjøret på Aspmyra til 3–1 og holder fullt trykk i gullkampen."
     }
    ]
   }
@@ -1187,7 +1325,7 @@
    },
    "tromso": {
     "temp": 3,
-    "min": 0,
+    "min": 1,
     "max": 3,
     "symbol": "partlycloudy_night",
     "rain6": 0.0
