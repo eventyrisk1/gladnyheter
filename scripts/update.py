@@ -42,7 +42,7 @@ SPORT_FEEDS = [
 BLOCK = re.compile(
     r"\b(krig|drept|drap|dødsfall|omkom|døde|død |dør |skutt|skyting|knivstikk|terror|angrep|bombe|missil|rakett|"
     r"voldtekt|overgrep|vold\b|voldelig|siktet|tiltalt|dømt|fengsel|fengslet|pågrepet|arrestert|politiet|politimann|ulykke|kollisjon|"
-    r"brann|eksplo|katastrofe|dommedag|undergang|jordskjelv|flom|skred|\bras\b|storm|uvær|gaza|ukraina|russland|putin|israel|hamas|"
+    r"trussel|trusler|truslene|fedme|uhelse|brann|eksplo|katastrofe|dommedag|undergang|jordskjelv|flom|skred|\bras\b|storm|uvær|gaza|ukraina|russland|putin|israel|hamas|"
     r"iran|nato|atomvåpen|atomkraftulykke|selvmord|kreft(?!fri)|opereres|operasjon|sykehus|svulst|diagnose|\bsyke?\b|pasient|sykdom|smitte|pandemi|trump|influenser|kjendis|instagram|tiktok|reality|"
     r"paradise hotel|farmen|skal vi danse|quiz|kryssord|se bildene|se video|høydepunkt|på \d+ minutter|"
     r"tegneserie|dagens lunch|dagens dunce|konkurs|permitter|nedlegg|kutt|streik(?! avverget)|savnet|"
@@ -93,6 +93,7 @@ def fetch(url):
 
 def clean(s, n=None):
     s = html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
+    s = re.sub(r"<[^>]*>?", " ", s)  # HTML som lå kodet i feeden (f.eks. &lt;img ...&gt;)
     s = re.sub(r"\s+", " ", s).strip()
     if n and len(s) > n:
         s = s[:n].rsplit(" ", 1)[0] + " …"
