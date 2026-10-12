@@ -50,6 +50,9 @@ FEEDS = [
     ("Prosa", "https://prosa.no/nb/pages.rss", 3),
     ("forskning.no", "https://www.forskning.no/kultur?lab_viewport=rss", 2),
     ("Vårt Land", "https://www.vl.no/kultur?lab_viewport=rss", 2),
+    ("NRK", "https://www.nrk.no/livsstil/toppsaker.rss", 1),
+    ("Ny Tid", "https://www.nytid.no/feed/", 1),
+    ("Buddhistforbundet", "https://buddhistforbundet.no/feed/", 3),
 ]
 SPORT_FEEDS = [
     ("NRK", "https://www.nrk.no/sport/toppsaker.rss", 1),
@@ -108,7 +111,7 @@ TOPICS = [
     ("KI", 4, r"kunstig intelligens|\bki\b|chatgpt|språkmodell|\bai\b"),
     ("Psykologi", 3, r"psykolog|følelse|tanke|hjernen|atferd|personlighet|lykke|søvn|stress|motivasjon"),
     ("Oppvekst", 3, r"barnehage|skole|elev|lærer|foreld|oppdragelse|ungdom|barn\b|barna"),
-    ("Aand", 3, r"meditasjon|mindfulness|pilegrim|spiritu|stillhet|indre ro|yoga|filosof|livsvisdom|ettertanke"),
+    ("Aand", 3, r"meditasjon|mindfulness|pilegrim|spiritu|stillhet|indre ro|yoga|filosof|livsvisdom|ettertanke|takknemlig|meningen med livet|sjelefred|retreat|kloster|ensomhet|livskvalitet|tilstedeværelse|lykke|vennskap|langsomhet|digital detox|skjermfri"),
     ("Tro", 3, r"kirke|tro\b|religion|prest|bibel|menighet|biskop|livssyn|islam|kristen"),
     ("Kunst", 3, r"kunst|maleri|utstilling|galleri|kunstner|museum"),
     ("Musikk", 3, r"musikk|album|konsert|låt|band|artist|sanger|komponist|festival"),
@@ -268,7 +271,7 @@ CATS = [
     ("helse", "Helse og trening", "gode råd om kosthold, trening, søvn og forebygging, folkehelse og nye medisinske fremskritt og behandlinger – ikke sykdomsskrekk, dødsfall, kriser eller alternativ behandling"),
     ("oppvekst", "Barn og oppvekst", "barnehage, skole, utdanning, oppdragelse, foreldre, ungdom"),
     ("tro", "Tro og livssyn", "tro, religion, kirke, livssyn, etikk – det som samler, ikke konflikter"),
-    ("aand", "Ånd og spiritualitet", "meditasjon, mindfulness, stillhet, pilegrimsvandring, filosofi, meningen med livet og indre ro – ikke alternativ behandling, healing eller overtro"),
+    ("aand", "Ånd og spiritualitet", "meditasjon, mindfulness, stillhet, pilegrimsvandring, filosofi og livsvisdom, meningen med livet, takknemlighet, vennskap og fellesskap, ensomhet og hvordan man finner ro, langsomt liv og skjermfri tid, natur som kilde til ro – ikke alternativ behandling, healing eller overtro"),
     ("kunst", "Kunst", "billedkunst, utstillinger, museer, design, arkitektur"),
     ("musikk", "Musikk", "musikk, artister, album, konserter"),
     ("litteratur", "Litteratur", "bøker, forfattere, litteratur, lesing"),
