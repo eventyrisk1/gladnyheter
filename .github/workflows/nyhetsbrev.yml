@@ -1,0 +1,27 @@
+name: Nyhetsbrev
+
+on:
+  schedule:
+    - cron: "7 5,6 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Send nyhetsbrevet nå (test)"
+        type: boolean
+        default: true
+
+jobs:
+  nyhetsbrev:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send Dagens 5 gode
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
+        run: python scripts/nyhetsbrev.py
