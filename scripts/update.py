@@ -462,10 +462,10 @@ def main():
                 print(f"Valgt av {name}")
             except Exception as e:
                 print(f"{name} feilet ({e})", file=sys.stderr)
-    if count(out) < 15:
+    if count(out) < 10:  # KI-utvalget er mye bedre enn reglene, så bruk det selv om det er litt tynt
         out = pick_rules(news, sport)
         print("Valgt med regler")
-    if count(out) < 12:
+    if count(out) < 10:
         sys.exit("For få saker – beholder forrige utgave.")
     mark_paywall(out)
     data = {"updated": datetime.datetime.now(OSLO).strftime("%Y-%m-%dT%H:%M"),
