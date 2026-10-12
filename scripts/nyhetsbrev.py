@@ -12,6 +12,7 @@ import json
 import os
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from zoneinfo import ZoneInfo
 
@@ -22,9 +23,32 @@ FORCE = os.environ.get("FORCE", "") == "true"
 TEST_TO = os.environ.get("TEST_TO", "").strip()  # sender kun test til denne adressen
 SENDER = {"name": "Gladnyheter", "email": os.environ.get("BREVO_SENDER", "post@eventyrisk.no")}
 SITE = "https://gladnyheter.com/"
+UNSUB_URL = "https://gladnyheter.com/avmeld?e={{ params.EMAIL }}"
 DAYS = ["mandag", "tirsdag", "onsdag", "torsdag", "fredag", "lørdag", "søndag"]
 MONTHS = ["januar", "februar", "mars", "april", "mai", "juni", "juli", "august",
           "september", "oktober", "november", "desember"]
+
+
+def pick_for(data, ids, n=5):
+    """Dagens beste sak fra hver valgt kategori (i abonnentens rekkefølge), fylt opp til n."""
+    by = {c["id"]: c for c in data["categories"]}
+    ids = [i for i in ids if i in by][:n]
+    lists = {i: [s for s in by[i]["stories"] if not s.get("paid")] for i in ids}
+    taken = {i: 0 for i in ids}
+    count = 0
+    for rnd in range(n):
+        for i in ids:
+            if count < n and len(lists[i]) > rnd:
+                taken[i] += 1
+                count += 1
+    return [(by[i]["name"], s) for i in ids for s in lists[i][:taken[i]]]
+
+
+def cats_of(contact, data):
+    raw = str((contact.get("attributes") or {}).get("KATEGORIER") or "")
+    valid = {c["id"] for c in data["categories"]}
+    ids = [x.strip() for x in raw.split(",") if x.strip() in valid]
+    return ids or [c["id"] for c in data["categories"] if c["id"] != "sport" and c["stories"]][:5]
 
 
 def pick(data, n=5):
@@ -46,12 +70,12 @@ def pick(data, n=5):
     return out[:n]
 
 
-def build(data, now, unsub=True):
+def build(data, now, unsub=True, picks=None):
     e = html.escape
     date = f"{DAYS[now.weekday()]} {now.day}. {MONTHS[now.month - 1]}"
     total = sum(len(c["stories"]) for c in data["categories"])
     items = ""
-    for i, (cat, s) in enumerate(pick(data), 1):
+    for i, (cat, s) in enumerate(picks or pick(data), 1):
         items += f"""
 <tr><td style="padding:18px 0;border-top:1px solid #e3e9e5">
   <div style="font:600 12px/1.4 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#2c6a86">{i}. {e(cat)}</div>
@@ -73,7 +97,7 @@ def build(data, now, unsub=True):
 <tr><td style="padding:18px 0 0;text-align:center;font:13px/1.5 Arial,sans-serif;color:#7a8680">
   Kjenner du noen som trenger en lysere morgen? Videresend denne e-posten.<br><br>
   Gladnyheter velger sakene automatisk fra norske nyhetskilder. <a href="{SITE}om" style="color:#2c6a86">Slik fungerer det</a><br>
-  {'<a href="{{ unsubscribe }}" style="color:#7a8680">Meld deg av</a>' if unsub else ''}
+  <a href="{SITE}#gn-nl" style="color:#2c6a86">Endre kategoriene dine</a>{(' · <a href="' + e(unsub) + '" style="color:#7a8680">Meld deg av</a>') if isinstance(unsub, str) else ('<br><a href="{{ unsubscribe }}" style="color:#7a8680">Meld deg av</a>' if unsub else '')}
 </td></tr>
 </table></td></tr></table></body></html>"""
 
@@ -122,26 +146,58 @@ def main():
     if len(pick(data)) < 3:
         print("For få saker – sender ikke i dag.")
         return
-    first = pick(data)[0][1]["title"]
     try:
-        camp = api("/emailCampaigns", {
-            "name": f"Dagens 5 gode {now:%Y-%m-%d}",
-            "subject": f"☀️ {first}",
-            "previewText": "Dagens 5 gode nyheter – på to minutter.",
-            "sender": SENDER,
-            "htmlContent": build(data, now),
-            "recipients": {"listIds": [int(LIST_ID)]},
-        })
-        if TEST_TO:
-            api(f"/emailCampaigns/{camp['id']}/sendTest", {"emailTo": [TEST_TO]})
-            print(f"Testutsending til {TEST_TO}: kampanje {camp['id']} – «{first}»")
-            return
-        api(f"/emailCampaigns/{camp['id']}/sendNow", {})
-        print(f"Sendt: kampanje {camp['id']} – «{first}»")
+        send_personal(data, now)
     except urllib.error.HTTPError as e:
         print("Feil fra Brevo:", e.code, e.read().decode()[:500])
         sys.exit(1)
 
+
+def get(path):
+    req = urllib.request.Request("https://api.brevo.com/v3" + path,
+                                 headers={"api-key": KEY, "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode())
+
+
+def contacts():
+    out, off = [], 0
+    while True:
+        page = get(f"/contacts/lists/{int(LIST_ID)}/contacts?limit=500&offset={off}")
+        cs = page.get("contacts", [])
+        out += cs
+        off += len(cs)
+        if not cs or off >= page.get("count", 0):
+            return out
+
+
+def send_personal(data, now):
+    if TEST_TO:
+        try:
+            people = [get("/contacts/" + urllib.parse.quote(TEST_TO))]
+        except urllib.error.HTTPError:
+            people = [{"email": TEST_TO, "attributes": {}}]
+    else:
+        lid = int(LIST_ID)
+        people = [c for c in contacts() if not c.get("emailBlacklisted") and lid not in (c.get("listUnsubscribed") or [])]
+    groups = {}
+    for c in people:
+        groups.setdefault(tuple(cats_of(c, data)), []).append(c["email"])
+    versions = []
+    for ids, emails in groups.items():
+        picks = pick_for(data, list(ids))
+        if len(picks) < 3:
+            picks = pick(data)
+        html_ = build(data, now, unsub=UNSUB_URL, picks=picks)
+        subject = ("TEST - " if TEST_TO else "") + f"☀️ {picks[0][1]['title']}"
+        for em in emails:
+            versions.append({"to": [{"email": em}], "subject": subject, "htmlContent": html_, "params": {"EMAIL": em}})
+    for k in range(0, len(versions), 500):
+        chunk = versions[k:k + 500]
+        api("/smtp/email", {"sender": SENDER, "subject": chunk[0]["subject"], "htmlContent": chunk[0]["htmlContent"],
+                            "messageVersions": chunk, "tags": ["dagens5"],
+                            "headers": {"List-Unsubscribe": "<mailto:post@eventyrisk.no?subject=Meld%20av>"}})
+    print(f"Sendt til {len(versions)} mottaker(e) i {len(groups)} kategorivariant(er)" + (f" (test til {TEST_TO})" if TEST_TO else ""))
 
 if __name__ == "__main__":
     main()
