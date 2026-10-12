@@ -268,6 +268,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
 var ICON={samfunn:"🏛️",okonomi:"📈",vitenskap:"🔬",ki:"🤖",natur:"🌿",psykologi:"🧠",helse:"🏃",oppvekst:"🧸",tro:"🕊️",aand:"🧘",kunst:"🎨",musikk:"🎵",litteratur:"📚",kultur:"🎭",spill:"🎲",sport:"⚽"};
 var PAL={aand:[318,"#efe4ee","#5e3b57","#a26f97"],samfunn:[210,"#dce8f6","#1d4f7f","#3b82c4"],okonomi:[135,"#d6efd8","#1d6130","#34a052"],vitenskap:[168,"#d2efe6","#145e4b","#22a083"],ki:[236,"#dfe0fa","#33358f","#5b5fd6"],natur:[80,"#e7f2c6","#4b6512","#8ab526"],psykologi:[338,"#fbdbe7","#8c2350","#e05b8f"],helse:[112,"#dcf3d2","#2f5e1c","#5cae3a"],oppvekst:[26,"#fde2cc","#8a4510","#ee8a3a"],tro:[48,"#f8eebe","#6b560a","#d4ac16"],kunst:[305,"#f5d8f1","#7a2370","#c94bb8"],musikk:[8,"#fdd8d2","#93291b","#e2553f"],litteratur:[30,"#ece2d6","#5f4128","#9c7350"],kultur:[268,"#e8dcf8","#55308f","#8a5cd1"],spill:[192,"#cdf1f8","#0a5869","#13a9c4"],sport:[215,"#e3e8ee","#33465b","#687e96"]};
 function paint(e,id){var p=PAL[id]||[150,"#e2f2ea","#24553e","#4a9a73"];e.style.setProperty('--h',p[0]);e.style.setProperty('--bgL',p[1]);e.style.setProperty('--inkL',p[2]);e.style.setProperty('--c',p[3]);}
+function gnTrack(a,c,s){function f(){try{if(window.goatcounter&&goatcounter.count)goatcounter.count({path:'klikk/'+c.id+'/'+s.title.slice(0,80),title:s.source+' – '+s.title,event:true});}catch(e){}}a.addEventListener('click',f);a.addEventListener('auxclick',function(e){if(e.button===1)f();});}
 function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
 function render(data){
   var months=["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"];
@@ -289,7 +290,7 @@ function render(data){
     var ol=el('ol');
     c.stories.forEach(function(s,i){
       var li=el('li');li.appendChild(el('span','n',String(i+1)));
-      var it=el('div','item');var h3=el('h3');var a=el('a',null,s.title);a.href=s.url;a.target='_blank';a.rel='noopener';h3.appendChild(a);it.appendChild(h3);
+      var it=el('div','item');var h3=el('h3');var a=el('a',null,s.title);a.href=s.url;a.target='_blank';a.rel='noopener';gnTrack(a,c,s);h3.appendChild(a);it.appendChild(h3);
       if(s.summary)it.appendChild(el('p',null,s.summary));it.appendChild(el('div','src',s.source+(s.paid?' · 🔒 Krever abonnement':'')));
       li.appendChild(it);ol.appendChild(li);
     });
