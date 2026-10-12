@@ -119,6 +119,27 @@ li:not(:first-child) .item p{color:var(--muted)}
 .done{margin-top:28px;padding:22px;text-align:center;border:2px dashed var(--line);border-radius:14px;font-family:var(--ui)}
 .done h2{font-family:var(--display);font-size:1.4rem;margin:0 0 4px;color:var(--fg)}
 .done p{margin:0;color:var(--muted);font-size:14px}
+.done[hidden]{display:none}
+.iosov{position:fixed;inset:0;z-index:50;background:rgba(10,15,13,.55);display:flex;flex-direction:column;justify-content:flex-end;align-items:center;font-family:var(--ui)}
+.iossheet{position:relative;width:min(560px,100%);background:var(--surface);color:var(--fg);border-radius:20px 20px 0 0;padding:22px 20px 18px;box-shadow:0 -10px 40px rgba(0,0,0,.3)}
+.iossheet h3{font-family:var(--display);font-size:1.25rem;margin:0 0 14px;padding-right:28px}
+.iosx{position:absolute;top:12px;right:12px;border:0;background:none;color:var(--muted);font-size:16px;cursor:pointer;padding:6px}
+.iossteps{list-style:none;margin:0;padding:0;display:grid;gap:14px;counter-reset:st}
+.iossteps li{display:flex;gap:12px;align-items:flex-start;font-size:15px;line-height:1.4}
+.iossteps .ic{flex:none;width:40px;height:40px;border-radius:12px;background:var(--bg);border:1px solid var(--line);display:grid;place-items:center;color:#2f7cf6}
+.iossteps .ic.sun::after{content:"";width:20px;height:20px;border-radius:50%;background:var(--sun);box-shadow:0 0 0 4px var(--sun-soft)}
+.iossteps small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.iosnote{margin:14px 0 0;font-size:12px;color:var(--muted)}
+.iosarrow{color:#fff;font-size:34px;line-height:1;padding:6px 0 calc(6px + env(safe-area-inset-bottom));text-shadow:0 2px 8px rgba(0,0,0,.5);animation:iosbob 1.1s ease-in-out infinite}
+@keyframes iosbob{50%{transform:translateY(8px)}}
+@media (prefers-reduced-motion:reduce){.iosarrow{animation:none}}
+.approw{display:flex;align-items:center;gap:8px;justify-content:space-between}
+.appbtn{font:inherit;font-size:13px;font-weight:700;padding:6px 14px;border-radius:999px;border:0;background:var(--fg);color:var(--bg);cursor:pointer}
+.appx{flex:none;font:inherit;font-size:12px;border:0;background:none;color:var(--muted);cursor:pointer;padding:4px 6px}
+.shareico{display:inline-block;width:14px;height:16px;vertical-align:-2px;margin:0 2px}
+.grid>.done{order:99;grid-column:1/-1;margin-top:8px}
+.done .back{display:none;margin-top:14px;font:inherit;font-size:14px;font-weight:600;padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+@media (max-width:819px){.grid>.done{flex:0 0 88%;scroll-snap-align:start;margin-top:0;align-self:flex-start;display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:320px}.grid>.done[hidden]{display:none}.done .back{display:inline-block}}
 .nl{margin-top:28px;padding:22px;border-radius:16px;background:var(--sun-soft);font-family:var(--ui);text-align:center}
 .nl h2{font-family:var(--display);font-size:1.5rem;margin:0 0 4px;color:var(--fg)}
 .nl p{margin:0 0 14px;color:var(--fg);opacity:.8;font-size:15px}
@@ -195,6 +216,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
     <div class="today-row"><b>Vær</b><span id="gn-weather">–</span></div>
     <div class="today-row"><b>Strøm</b><span id="gn-power">–</span></div>
     <div class="today-row" id="gn-filter-row" hidden><b>Filter</b><span id="gn-filter"></span></div>
+    <div class="today-row" id="gn-app" hidden><b>App</b><span class="approw"><span id="gn-app-body"></span><button type="button" class="appx" id="gn-app-x" aria-label="Skjul">✕</button></span></div>
     <div class="today-row" id="gn-push" hidden><b>Varsel</b><span><button type="button" class="pushbtn" id="gn-push-btn" hidden>Få varsel kl. 7 og 16</button> <span class="note" id="gn-push-msg"></span></span></div>
     <div class="note">Strømpris er spotpris inkl. mva, uten nettleie og påslag. Kilder: hvakosterstrommen.no og Meteorologisk institutt.</div>
   </section>
@@ -209,7 +231,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
   <p class="swipe" id="gn-swipe" aria-hidden="true">Sveip til siden for flere kategorier →</p>
   <main class="grid" id="grid"><p class="empty">Sakene lastes …</p></main>
 
-  <div class="done" id="gn-done" hidden><h2>Du er oppdatert</h2><p id="gn-next"></p></div>
+  <div class="done" id="gn-done" hidden><h2>✓ Du er oppdatert</h2><p id="gn-next"></p><button type="button" class="back" id="gn-back">← Tilbake til start</button></div>
 
   <section class="nl" id="gn-nl" hidden aria-label="Nyhetsbrev">
     <h2>📬 Dagens 5 gode på&nbsp;e&#8209;post</h2>
@@ -412,8 +434,32 @@ function markNew(data){
     p.hidden=false;}
   var m=/T(\d{2}):(\d{2})/.exec(data.updated||"");var nx=document.getElementById('gn-next');
   nx.textContent=m?"Det var alt for nå. Nye saker kommer rundt kl. "+("0"+((+m[1]+1)%24)).slice(-2)+":"+m[2]+".":"Det var alt for nå.";
-  document.getElementById('gn-done').hidden=false;
+  var dn=document.getElementById('gn-done'),gd=document.getElementById('grid');gd.appendChild(dn);dn.hidden=false;
+  document.getElementById('gn-back').onclick=function(){gd.scrollTo({left:0,behavior:'smooth'});};
 }
+function iosGuide(){var ov=el('div','iosov');ov.setAttribute('role','dialog');ov.setAttribute('aria-label','Legg til på hjemskjermen');
+ var SH='<svg viewBox="0 0 14 18" width="18" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11V1M3.5 4.5 7 1l3.5 3.5"/><path d="M4.5 7H2v10h10V7H9.5"/></svg>';
+ var PL='<svg viewBox="0 0 20 20" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="2.5" y="2.5" width="15" height="15" rx="4"/><path d="M10 6.5v7M6.5 10h7"/></svg>';
+ ov.innerHTML='<div class="iossheet"><button type="button" class="iosx" aria-label="Lukk">✕</button>'+
+ '<h3>Gladnyheter som app – på 10 sekunder</h3>'+
+ '<ol class="iossteps">'+
+ '<li><span class="ic">'+SH+'</span><span>Trykk på <b>Del</b>-knappen nederst i Safari.<small>Ser du bare <b>···</b> nede til høyre? Trykk der først, og velg <b>Del</b>.</small></span></li>'+
+ '<li><span class="ic">'+PL+'</span><span>Bla litt ned og velg <b>«Legg til på Hjem-skjerm»</b>.</span></li>'+
+ '<li><span class="ic sun"></span><span>Trykk <b>Legg til</b>. Nå ligger Gladnyheter på hjemskjermen din ☀️</span></li></ol>'+
+ '<p class="iosnote">Apple lar ikke nettsider gjøre dette automatisk – derfor må det gjøres slik.</p></div>'+
+ '<div class="iosarrow" aria-hidden="true">↓</div>';
+ function close(){ov.remove();}ov.onclick=function(e){if(e.target===ov)close();};ov.querySelector('.iosx').onclick=close;document.body.appendChild(ov);}
+(function(){var row=document.getElementById('gn-app'),body=document.getElementById('gn-app-body');
+ var standalone=(window.matchMedia&&matchMedia('(display-mode: standalone)').matches)||navigator.standalone===true;
+ var v=(store('gn-visits')||0)+1;store('gn-visits',v);
+ if(standalone||store('gn-app-x')||v<2)return;
+ function show(){row.hidden=false;document.getElementById('today').hidden=false;}
+ document.getElementById('gn-app-x').onclick=function(){store('gn-app-x',1);row.hidden=true;};
+ var ios=/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+ if(ios){var b0=el('button','appbtn','📲 Legg Gladnyheter på hjemskjermen');b0.type='button';b0.onclick=iosGuide;body.appendChild(b0);show();return;}
+ var ev=null;window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();ev=e;body.textContent='';var b=el('button','appbtn','📲 Legg Gladnyheter på hjemskjermen');b.type='button';
+  b.onclick=function(){ev.prompt();ev.userChoice.then(function(r){if(r.outcome==='accepted')row.hidden=true;});};body.appendChild(b);show();});
+ window.addEventListener('appinstalled',function(){row.hidden=true;});})();
 fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){
   document.getElementById('grid').innerHTML='<p class="empty">Klarte ikke å hente sakene. Prøv å laste siden på nytt.</p>';
 });
