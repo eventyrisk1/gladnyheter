@@ -343,7 +343,7 @@ function wxText(code){if(!code)return"";var c=code.replace(/_(day|night|polartwi
 function fmt(n){return String(Math.round(n)).replace("-","−");}
 function renderStats(st){
   if(!st||!st.total)return;var row=document.getElementById('gn-filter-row'),box=document.getElementById('gn-filter');box.textContent='';
-  var L={krim:['krim og ulykker','#b5654a'],konflikt:['konflikter og storpolitikk','#9a7b4f'],sykdom:['sykdom og død','#8a7f9e'],kjendis:['klikkagn, kjendis og reklame','#c9a03a'],uro:['kriser og uro','#7f8c86'],gammel:['for gamle','#b7c0bb'],betalt:['bak betalingsmur','#a3b4bf']};
+  var L={krim:['krim og ulykker','#b5654a'],konflikt:['konflikter og storpolitikk','#9a7b4f'],sykdom:['sykdom og død','#8a7f9e'],kjendis:['klikkagn, kjendis og reklame','#c9a03a'],uro:['kriser og uro','#7f8c86'],format:['kommentarer, video og quiz','#d3c7a8'],gammel:['for gamle','#b7c0bb'],betalt:['bak betalingsmur','#a3b4bf']};
   var head=el('span');head.appendChild(el('strong',null,String(st.chosen)));head.appendChild(document.createTextNode(' av '+st.total+' saker valgt ved siste oppdatering'));box.appendChild(head);
   var bar=el('div','fbar');bar.setAttribute('aria-hidden','true');var list=el('div','flist');
   function seg(n,c,label){if(!n)return;var i=el('i');i.style.width=(100*n/st.total)+'%';i.style.background=c;i.title=n+' '+label;bar.appendChild(i);var sp=el('span',null,n+' '+label);sp.style.setProperty('--c',c);list.appendChild(sp);}
