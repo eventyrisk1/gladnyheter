@@ -40,6 +40,13 @@ FEEDS = [
     ("NTNU", "https://nyheter.ntnu.no/feed/", 3),
     ("UiB", "https://www4.uib.no/forskning/aktuelt/feed", 3),
     ("BirdLife Norge", "https://www.birdlife.no/rss/", 3),
+    ("Barnehage.no", "https://www.barnehage.no/?lab_viewport=rss", 2),
+    ("Norsk barnebokinstitutt", "https://barnebokinstituttet.no/feed/", 3),
+    ("NRK P3", "https://www.nrk.no/p3/toppsaker.rss", 1),
+    ("Jazz i Norge", "https://jazzinorge.no/feed/", 2),
+    ("Prosa", "https://prosa.no/nb/pages.rss", 3),
+    ("forskning.no", "https://www.forskning.no/kultur?lab_viewport=rss", 2),
+    ("Vårt Land", "https://www.vl.no/kultur?lab_viewport=rss", 2),
 ]
 SPORT_FEEDS = [
     ("NRK", "https://www.nrk.no/sport/toppsaker.rss", 1),
