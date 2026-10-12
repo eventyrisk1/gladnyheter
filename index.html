@@ -414,8 +414,8 @@ function setupPush(){
 }
 setupPush();
 // Nyhetsbrev: lim inn adressen fra Brevo-skjemaet (Forms → skjemaet → Share → «Form URL» / action-URL) her
-var NL_FORM="https://8b72c0c4.sibforms.com/serve/MUIFAJgFMQ3P-RJuoGopk0u1JhcicU9IR6jI7i5Ug9VVaWz8nv2MlmhpyoI_dhaCeN_SN0YjUdR59ZzKRRyxPZRWfjlHu1wJFk6yf9C2_fLXRuX9709t6QWled7J8vvT38Avhv7KImB6WjI33wCez4dydLQhF3v_I2F_UHXaLFOUwHubi-h5FrT8FzrdtCYj0YDmk7OQ_4jK42HxWw==";
-(function(){if(!NL_FORM)return;var box=document.getElementById('gn-nl'),f=document.getElementById('gn-nl-form');f.action=NL_FORM;box.hidden=false;
+var NL_FORM="";
+(function(){if(!NL_FORM)return;var box=document.getElementById('gn-nl'),f=document.getElementById('gn-nl-form');f.action=NL_FORM;box.hidden=false;if(/buttondown/.test(NL_FORM)){f.querySelector('[name=EMAIL]').name='email';document.getElementById('gn-nl-ok').textContent='Takk! Sjekk e-posten din og trykk på bekreftelseslenken.';}
  f.addEventListener('submit',function(){setTimeout(function(){f.hidden=true;document.getElementById('gn-nl-ok').hidden=false;},300);});})();
 (function(){var b=document.getElementById('gn-theme'),r=document.documentElement;
  function dark(){var a=r.getAttribute('data-theme');if(a)return a==='dark';return !!(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches);}
