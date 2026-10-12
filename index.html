@@ -471,9 +471,22 @@ function iosGuide(){var ov=el('div','iosov');ov.setAttribute('role','dialog');ov
   b.onclick=function(){ev.prompt();ev.userChoice.then(function(r){if(r.outcome==='accepted')row.hidden=true;});};body.appendChild(b);show();});
  window.addEventListener('appinstalled',function(){row.hidden=true;});})();
 if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/OneSignalSDKWorker.js',{scope:'/'}).catch(function(){});});}
-fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){
+var gnUpd=null,gnChecked=Date.now();
+fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){gnUpd=d.updated;render(d);}).catch(function(){
   document.getElementById('grid').innerHTML='<p class="empty">Klarte ikke å hente sakene. Prøv å laste siden på nytt.</p>';
 });
+/* Hent nye saker automatisk når appen/fanen har stått åpen (sjekker ved fokus og hvert 10. minutt). */
+function gnCheck(){
+  if(document.visibilityState!=='visible'||Date.now()-gnChecked<5*60e3)return;
+  gnChecked=Date.now();
+  fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){
+    if(gnUpd&&d.updated&&d.updated!==gnUpd)location.reload();
+  }).catch(function(){});
+}
+document.addEventListener('visibilitychange',gnCheck);
+window.addEventListener('focus',gnCheck);
+window.addEventListener('pageshow',function(e){if(e.persisted){gnChecked=0;gnCheck();}});
+setInterval(gnCheck,10*60e3);
 /* Push-varsel via OneSignal. Fyll inn app-id fra OneSignal for å slå på. */
 var OS_APP="";
 function setupPush(){
