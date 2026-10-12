@@ -36,12 +36,21 @@ def pick_for(data, ids, n=5):
     lists = {i: [s for s in by[i]["stories"] if not s.get("paid")] for i in ids}
     taken = {i: 0 for i in ids}
     count = 0
-    for rnd in range(n):
+    for rnd in range(2):  # høyst to saker fra samme kategori
         for i in ids:
             if count < n and len(lists[i]) > rnd:
                 taken[i] += 1
                 count += 1
-    return [(by[i]["name"], s) for i in ids for s in lists[i][:taken[i]]]
+    out = [(by[i]["name"], s) for i in ids for s in lists[i][:taken[i]]]
+    # Fyll opp med dagens beste fra andre kategorier hvis abonnentens kategorier er tynne i dag
+    for c in data["categories"]:
+        if len(out) >= n:
+            break
+        if c["id"] not in ids and c["id"] != "sport":
+            free = [s for s in c["stories"] if not s.get("paid")]
+            if free:
+                out.append((c["name"], free[0]))
+    return out
 
 
 def cats_of(contact, data):
@@ -75,10 +84,13 @@ def build(data, now, unsub=True, picks=None):
     date = f"{DAYS[now.weekday()]} {now.day}. {MONTHS[now.month - 1]}"
     total = sum(len(c["stories"]) for c in data["categories"])
     items = ""
+    prev = None
     for i, (cat, s) in enumerate(picks or pick(data), 1):
+        label = ("Mer fra " if cat == prev else "") + cat
+        prev = cat
         items += f"""
 <tr><td style="padding:18px 0;border-top:1px solid #e3e9e5">
-  <div style="font:600 12px/1.4 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#2c6a86">{i}. {e(cat)}</div>
+  <div style="font:600 12px/1.4 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#2c6a86">{i}. {e(label)}</div>
   <a href="{e(s['url'])}" style="display:block;margin:6px 0 6px;font:700 20px/1.3 Georgia,serif;color:#1d2a25;text-decoration:none">{e(s['title'])}</a>
   <div style="font:16px/1.55 Georgia,serif;color:#3d4642">{e(s.get('summary', ''))}</div>
   <div style="margin-top:6px;font:13px/1.4 Arial,sans-serif;color:#7a8680">{e(s['source'])}</div>
