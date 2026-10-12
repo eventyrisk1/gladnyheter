@@ -34,6 +34,11 @@ FEEDS = [
     ("NRK", "https://www.nrk.no/norge/toppsaker.rss", 1),
     ("Aftenposten", "https://www.aftenposten.no/rss", 1),
     ("VG", "https://www.vg.no/rss/feed", 1),
+    ("TV 2", "https://www.tv2.no/rss/nyheter", 1),
+    ("Nettavisen", "https://www.nettavisen.no/service/rss", 1),
+    ("Bergens Tidende", "https://www.bt.no/rss", 1),
+    ("Adresseavisen", "https://www.adressa.no/rss", 1),
+    ("Stavanger Aftenblad", "https://www.aftenbladet.no/rss", 1),
     ("NRK Vestland", "https://www.nrk.no/vestland/toppsaker.rss", 1),
     ("NRK Trøndelag", "https://www.nrk.no/trondelag/toppsaker.rss", 1),
     ("NRK Nordland", "https://www.nrk.no/nordland/toppsaker.rss", 1),
@@ -471,7 +476,7 @@ def useful_today():
 
 
 ALWAYS_PAID = {"DN"}
-CHECK_PAID = {"Aftenposten", "VG", "E24"}
+CHECK_PAID = {"Aftenposten", "VG", "E24", "Nettavisen", "Bergens Tidende", "Adresseavisen", "Stavanger Aftenblad"}
 
 
 def is_paid(url):
