@@ -104,6 +104,14 @@ li:not(:first-child) .item p{color:var(--muted)}
 .done{margin-top:28px;padding:22px;text-align:center;border:2px dashed var(--line);border-radius:14px;font-family:var(--ui)}
 .done h2{font-family:var(--display);font-size:1.4rem;margin:0 0 4px;color:var(--fg)}
 .done p{margin:0;color:var(--muted);font-size:14px}
+.nl{margin-top:28px;padding:22px;border-radius:16px;background:var(--sun-soft);font-family:var(--ui);text-align:center}
+.nl h2{font-family:var(--display);font-size:1.5rem;margin:0 0 4px;color:var(--fg)}
+.nl p{margin:0 0 14px;color:var(--fg);opacity:.8;font-size:15px}
+.nl form{display:flex;gap:8px;max-width:440px;margin:0 auto;flex-wrap:wrap}
+.nl input[type=email]{flex:1 1 220px;min-width:0;font:inherit;font-size:16px;padding:12px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--fg)}
+.nl button{font:inherit;font-weight:700;font-size:15px;padding:12px 20px;border:0;border-radius:999px;background:var(--fg);color:var(--bg);cursor:pointer;flex:1 1 140px}
+.nl .ok{font-weight:600;color:var(--fg);margin:0}
+.nl small{display:block;margin-top:10px;color:var(--muted);font-size:12px}
 section.cat li{border-top-color:var(--edge)}
 .quote{margin:20px 0 0;padding:4px 0 4px 18px;border-left:3px solid var(--sun);display:flex;gap:16px;align-items:center}
 .qimg{flex:none;display:block;width:64px;height:64px;border-radius:50%;overflow:hidden;background:var(--line);box-shadow:0 0 0 3px var(--sun-soft)}
@@ -179,6 +187,19 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
   <main class="grid" id="grid"><p class="empty">Sakene lastes …</p></main>
 
   <div class="done" id="gn-done" hidden><h2>Du er oppdatert</h2><p id="gn-next"></p></div>
+
+  <section class="nl" id="gn-nl" hidden aria-label="Nyhetsbrev">
+    <h2>📬 Dagens 5 gode på&nbsp;e&#8209;post</h2>
+    <p>Hver morgen kl. 07: fem gode saker du leser på to minutter. Gratis.</p>
+    <form id="gn-nl-form" method="POST" target="gn-nl-frame">
+      <input type="email" name="EMAIL" required placeholder="Din e-postadresse" autocomplete="email" aria-label="E-postadresse">
+      <input type="hidden" name="locale" value="nb"><input type="hidden" name="email_address_check" value="">
+      <button type="submit">Meld meg på</button>
+    </form>
+    <p class="ok" id="gn-nl-ok" hidden>Takk! Sjekk e-posten din og bekreft påmeldingen.</p>
+    <small>Du kan melde deg av med ett klikk i hver e-post.</small>
+    <iframe name="gn-nl-frame" title="Påmelding" hidden></iframe>
+  </section>
 
   <footer>
     <p><b>Slik velges sakene:</b> Sakene velges automatisk hver time av kunstig intelligens (Google Gemini) fra norske nyhetskilder. Ingen kan betale for å komme med. <a href="/om">Les mer om hvordan det fungerer →</a></p>
@@ -391,6 +412,10 @@ function setupPush(){
   });
 }
 setupPush();
+// Nyhetsbrev: lim inn adressen fra Brevo-skjemaet (Forms → skjemaet → Share → «Form URL» / action-URL) her
+var NL_FORM="";
+(function(){if(!NL_FORM)return;var box=document.getElementById('gn-nl'),f=document.getElementById('gn-nl-form');f.action=NL_FORM;box.hidden=false;
+ f.addEventListener('submit',function(){setTimeout(function(){f.hidden=true;document.getElementById('gn-nl-ok').hidden=false;},300);});})();
 (function(){var b=document.getElementById('gn-theme'),r=document.documentElement;
  function dark(){var a=r.getAttribute('data-theme');if(a)return a==='dark';return !!(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches);}
  function lab(){var d=dark();b.textContent=d?'☀️ Lys visning':'🌙 Mørk visning';var m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#121916':'#f2f5f1';}
