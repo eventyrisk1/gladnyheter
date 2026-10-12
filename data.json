@@ -1,27 +1,21 @@
 {
- "updated": "2026-10-12T01:23",
+ "updated": "2026-10-12T02:39",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "SAS-streik avverget etter enighet i meklingen",
+     "title": "Enighet avverget SAS-streik",
      "url": "https://e24.no/naeringsliv/i/AbEpxn/sas-streik-avverget",
      "source": "E24",
-     "summary": "Etter at megleren la frem en skisse til løsning, ble partene enige om å avslutte meklingen 2,5 time før fristen."
+     "summary": "Partene kom til enighet etter at megleren la frem en skisse til løsning, og meklingen ble avsluttet uten streik."
     },
     {
-     "title": "Slik kan du forbedre det fysiske lekemiljøet ute i barnehagen",
-     "url": "https://www.utdanningsnytt.no/barnehageforskning-dmmh-friluftsbarnehage/det-fysiske-lekemiljoet-ute-i-barnehagen-pavirker-barnas-trivsel-og-lek/501612",
-     "source": "Utdanningsnytt",
-     "summary": "Med enkle grep kan man gjøre mye for å skape et bedre fysisk lekemiljø utendørs for barna."
-    },
-    {
-     "title": "Små handlinger i barnehagen bygger tillit og trygghet",
-     "url": "https://www.utdanningsnytt.no/barnehage-psykisk-helse-selvtillit/sma-handlinger-i-barnehagen-kan-bygge-tillit-trygghet-og-mestringstro/502937",
-     "source": "Utdanningsnytt",
-     "summary": "Gjennom enkle, daglige handlinger kan ansatte i barnehagen bidra til å styrke barnas tillit, trygghet og mestringstro."
+     "title": "Ny delstrekning av E4 åpner for trafikk",
+     "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
+     "source": "Teknisk Ukeblad",
+     "summary": "Den 6. desember settes det trafikk på 3,5 nye kilometer av E4 ved Stockholm etter ti års arbeid."
     }
    ]
   },
@@ -30,10 +24,16 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "IEA ber land vurdere nye tiltak i dieselmarkedet",
-     "url": "https://e24.no/energi-og-klima/i/4OL9ma/iea-ber-land-vurdere-nye-diesel-slipp",
-     "source": "E24",
-     "summary": "Situasjonen i dieselmarkedene er fortsatt krevende, og det internasjonale energibyrået ber derfor land om å vurdere mulige grep."
+     "title": "Klarsignal for havvindprosjektet Utsira Nord",
+     "url": "https://www.tu.no/energi/hoyre-gir-klarsignal-til-flytende-havvind-vil-bidra-til-framdrift-for-utsira-nord/7145245",
+     "source": "Teknisk Ukeblad",
+     "summary": "En fersk kvalitetssikring har styrket tilliten til prosjektet, og Høyre støtter den videre fremdriften for Utsira Nord."
+    },
+    {
+     "title": "Dobbelt formål gjør underjordisk drift lønnsom",
+     "url": "https://www.tu.no/samferdsel/her-blir-forurensede-masser-begravd-inne-i-fjellet/7143311",
+     "source": "Teknisk Ukeblad",
+     "summary": "Under Stendafjellet tas det ut stein til byggeformål, samtidig som de enorme hallene klargjøres for gjenbruk."
     }
    ]
   },
@@ -42,22 +42,16 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Nytt teleskop skal granske mørk materie og fjerne galakser",
+     "title": "Nytt romteleskop skal undersøke mørk materie",
      "url": "https://www.tu.no/industri/haloer-fra-slukte-galakser-kan-gi-kunnskap-om-hva-mork-materie-er/5702909",
      "source": "Teknisk Ukeblad",
-     "summary": "ARRAKHIS-teleskopet, som skytes opp i 2030, er spesialdesignet for å studere de svakeste sporene etter tidligere galakser."
+     "summary": "ARRAKHIS-teleskopet skal skytes opp i 2030 for å studere de svakeste sporene etter tidligere galakser, med norske forskere i en sentral rolle."
     },
     {
-     "title": "Vulkanutbrudd ga forskere uventet idé for offshore-industrien",
-     "url": "https://www.tu.no/energi/vulkanutbruddet-som-loste-plattformenes-plassproblemer/6058960",
+     "title": "Norske trykksensorer brukes i passasjerfly",
+     "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
      "source": "Teknisk Ukeblad",
-     "summary": "Ekstra tenketid som følge av vulkansk aske har ført til en løsning der man kan bytte ut gassturbiner offshore med varmevekslere."
-    },
-    {
-     "title": "Ti fascinerende fakta om blekkspruten",
-     "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
-     "source": "forskning.no",
-     "summary": "Blekkspruter er svært intelligente dyr som til tross for sine unike egenskaper bare lever i et par år."
+     "summary": "På Gaustad i Oslo produseres spesialiserte trykksensorer som måler flyhøyde i mange av verdens passasjerfly."
     }
    ]
   },
@@ -66,17 +60,17 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Flere arbeidsgivere tar i bruk kunstig intelligens i søknadsprosessen",
+     "title": "Arbeidsgivere tar i bruk kunstig intelligens til rekruttering",
      "url": "https://e24.no/karriere-og-ledelse/i/d75bKj/naa-kan-jobbsoeknaden-din-bli-vurdert-av-en-maskin",
      "source": "E24",
-     "summary": "Stadig flere bedrifter benytter nå AI-verktøy for å vurdere jobbsøkere.",
+     "summary": "Stadig flere bedrifter benytter AI-verktøy til å vurdere og sortere jobbsøkere i ansettelsesprosesser.",
      "paid": true
     },
     {
-     "title": "Slik kan kunstig intelligens påvirke fremtidens lærerrolle",
-     "url": "https://www.forskning.no/kronikk-kunstig-intelligens-meninger/hva-skjer-med-laererrollen-nar-ki-blir-hverdag/2719040",
-     "source": "forskning.no",
-     "summary": "En professor peker på at kunstig intelligens kan føre skolen i flere ulike retninger, som enten kan gi elevene mer tid med læreren eller mer selvstendig arbeid."
+     "title": "Få kvinner søkte på stillinger i Oljefondets AI-team",
+     "url": "https://e24.no/teknologi/i/Oggpm3/bare-menn-i-oljefondets-ai-team-12-av-116-soekerne-var-kvinner",
+     "source": "E24",
+     "summary": "Kun 12 av totalt 116 søkere var kvinner da Oljefondet lyste ut stillinger til sitt spesialiserte AI-team."
     }
    ]
   },
@@ -85,16 +79,10 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Økt menneskelig ferdsel stanser villreinens trekkruter",
-     "url": "https://www.forskning.no/dyreverden-norsk-institutt-for-naturforskning-partner/dette-stopper-villreinen-pa-dens-vei/2716166",
+     "title": "Ti fascinerende fakta om blekkspruten",
+     "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
      "source": "forskning.no",
-     "summary": "Når folk beveger seg mer i naturen, fører det til at villreinen slutter å bruke gamle trekkruter, noe som kan få alvorlige konsekvenser for dyrene."
-    },
-    {
-     "title": "Slik holder du musene unna huset i vinter",
-     "url": "https://www.forskning.no/dyreverden-hus-og-hjem-samfunn/det-er-mest-sannsynlig-ikke-husmus-du-har-i-hus/2719472",
-     "source": "forskning.no",
-     "summary": "Ekspertene deler konkrete tips til hvor små åpninger mus trenger for å komme seg inn, og hva du kan gjøre for å holde boligen musefri."
+     "summary": "Blekkspruter er svært intelligente skapninger, til tross for at de fleste arter bare lever i et par år."
     }
    ]
   },
@@ -103,79 +91,100 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Slik påvirker kaffen både humøret, tarmene og hjernen",
-     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
-     "source": "Psykologisk.no",
-     "summary": "Ny forskning avdekker stadig flere sammenhenger mellom kaffedrikking og kroppens funksjoner, inkludert søvn og tarmflora."
-    },
-    {
-     "title": "Dette skjer i hjernen når du lærer å lese",
+     "title": "Dette skjer i hjernen når vi lærer å lese",
      "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
      "source": "forskning.no",
-     "summary": "Å lære å lese er en gradvis prosess som former hjernens nettverk for språk og syn til et helhetlig system."
+     "summary": "Lesing er en langvarig prosess som gradvis former og kobler sammen hjernens nettverk for språk og syn."
     },
     {
-     "title": "Sangerfaringer endret studentenes syn på egen formidling",
+     "title": "Møtet med barns sangglede reduserte sangvegring hos studenter",
      "url": "https://www.forskning.no/barnehage-kultur-partner/nar-begynner-vi-a-bli-redde-for-a-synge/2716190",
      "source": "forskning.no",
-     "summary": "Studenter som først gruet seg til å synge, opplevde nye perspektiver etter å ha deltatt i et musikalsk møte med barn."
+     "summary": "Lærerstudenter som gruet seg til å synge, fikk et helt nytt perspektiv etter å ha sunget sammen med barn."
     }
    ]
   },
   {
    "id": "helse",
    "name": "Helse og trening",
-   "stories": []
+   "stories": [
+    {
+     "title": "Dette skjer i kroppen i starten av en joggetur",
+     "url": "https://www.nrk.no/trondelag/dette-gjor-starten-pa-joggeturen-sa-toff-_-handler-ikke-om-at-man-er-i-darlig-form-1.18043184",
+     "source": "NRK",
+     "summary": "Fysiologiske tilpasninger i muskulatur og kretsløp forklarer hvorfor de første minuttene av en løpetur ofte kjennes ekstra tunge."
+    },
+    {
+     "title": "Kaffens dokumenterte effekter på tarm og hjerne",
+     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
+     "source": "Psykologisk.no",
+     "summary": "Ny forskning avdekker hvordan kaffe påvirker alt fra tarmflora og humør til nattesøvn."
+    }
+   ]
   },
   {
    "id": "oppvekst",
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Hvorfor begynneropplæringen i lesing krever systematisk tilnærming",
-     "url": "https://www.utdanningsnytt.no/leseopplaering-toril-karstad/nar-lesingen-ikke-kommer-av-seg-selv/503865",
-     "source": "Utdanningsnytt",
-     "summary": "Ettersom lesing ikke alltid kommer av seg selv for alle barn, er det behov for en kunnskapsbasert og strukturert skolestart."
-    },
-    {
-     "title": "Viktigheten av å bevare demokratiopplæringen i skolen",
-     "url": "https://www.utdanningsnytt.no/demokrati-skole-stine-johansen-utler/demokratiopplaeringen-ma-ikke-forsvinne-mellom-fagene/503748",
-     "source": "Utdanningsnytt",
-     "summary": "Debattanter peker på at innføring av mer fleksibilitet i småskolen ikke må gå på bekostning av den systematiske opplæringen i demokrati."
-    },
-    {
-     "title": "Eget tilbud for elever med stort læringspotensial i Nordland",
+     "title": "Nytt tilbud samler elever med stort læringspotensial",
      "url": "https://www.nrk.no/nordland/elever-med-stort-laeringspotensial-far-eget-tilbud-i-nordland-1.18051567",
      "source": "NRK",
-     "summary": "Ungdommer fra hele fylket var samlet i Mo i Rana for å delta på et nytt opprettet tilbud rettet mot elever som lærer raskere enn gjennomsnittet."
+     "summary": "Ungdommer fra hele Nordland har deltatt på en nyopprettet samling i Mo i Rana for elever som lærer raskere enn gjennomsnittet."
+    },
+    {
+     "title": "Enkle grep for et bedre lekemiljø ute i barnehagen",
+     "url": "https://www.utdanningsnytt.no/barnehageforskning-dmmh-friluftsbarnehage/det-fysiske-lekemiljoet-ute-i-barnehagen-pavirker-barnas-trivsel-og-lek/501612",
+     "source": "Utdanningsnytt",
+     "summary": "Barnehager kan med enkle og målrettede tiltak gjøre uteområdet mer spennende og stimulerende for barna."
+    },
+    {
+     "title": "Bemanningsbyrå tilbyr millionlønn til barnehagelærere",
+     "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
+     "source": "Utdanningsnytt",
+     "summary": "Et nytt bemanningsbyrå går ut i markedet med lønnstilbud på mellom 900 000 og 1 000 000 kroner for barnehagelærere."
     }
    ]
   },
   {
    "id": "tro",
    "name": "Tro og livssyn",
-   "stories": []
+   "stories": [
+    {
+     "title": "Ukjent norrøn kirkeruin funnet på Grønland",
+     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
+     "source": "forskning.no",
+     "summary": "Arkeologer har funnet et skjelett og restene av en ukjent kirke fra den norrøne bosettingstiden like ved Erik Raudes bosted."
+    }
+   ]
   },
   {
    "id": "aand",
    "name": "Ånd og spiritualitet",
-   "stories": []
+   "stories": [
+    {
+     "title": "Kulokk fremheves som en vei til nærhet med naturen",
+     "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
+     "source": "forskning.no",
+     "summary": "Forsker Alizeé Piel trekker frem den gamle lokketradisjonen som et eksempel på hvordan mennesker kan finne dypere samspill med naturen."
+    }
+   ]
   },
   {
    "id": "kunst",
    "name": "Kunst",
    "stories": [
     {
-     "title": "Kateryna Lysovenkos utstilling gløder i Helsingborg",
-     "url": "https://kunstkritikk.no/livet-betraktat-fran-vintergatan/",
-     "source": "Kunstkritikk",
-     "summary": "Kunstneren viser en sterk og lysende utstilling som utforsker dype temaer gjennom sårbarhet og ømhet."
-    },
-    {
-     "title": "Gammelt maleri kjøpt for 290 kroner solgt for millioner",
+     "title": "Kjøpte maleri for 290 kroner – solgt for over 12 millioner",
      "url": "https://e24.no/naeringsliv/i/mKLnxq/kjoepte-maleri-for-290-kroner-solgt-for-12-9-millioner",
      "source": "E24",
-     "summary": "Et tilfeldig funn i en mørk krok på et dødsbosalg viste seg å være svært verdifullt for den nye eieren."
+     "summary": "Et maleri kjøpt billig på et dødsbosalg i USA viste seg å være et verdifullt kunstverk som gikk for millionbeløp på auksjon."
+    },
+    {
+     "title": "Kateryna Lysovenko stiller ut i Helsingborg",
+     "url": "https://kunstkritikk.no/livet-betraktat-fran-vintergatan/",
+     "source": "Kunstkritikk",
+     "summary": "Kunstnerens nye utstilling høster ros for sin evne til å skildre lys og sårbarhet."
     }
    ]
   },
@@ -184,18 +193,22 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Pianisten Sondre Moshagen utvider sitt musikkvirke med suksess",
-     "url": "https://www.aftenposten.no/kultur/i/43amJE/anmeldelse-av-audio-guide-av-sondre-moshagen",
-     "source": "Aftenposten",
-     "summary": "Den prisvinnende artisten høster lovord for å prøve ut nye ting innen musikken.",
-     "paid": true
+     "title": "NRK kårer ti av de beste nye låtene",
+     "url": "https://www.nrk.no/artikkel/ra-som-sashimi-hard-som-haaland-1529600",
+     "source": "NRK",
+     "summary": "Musikkredaksjonen har samlet en liste over ti sterke nye musikalske utgivelser som utmerker seg akkurat nå."
     },
     {
-     "title": "Odd Nordstoga ute med sitt tiende album",
-     "url": "https://www.aftenposten.no/kultur/i/58GBGe/anmeldelse-av-foer-du-gaar-av-odd-nordstoga-drivende-hverdagspoesi",
-     "source": "Aftenposten",
-     "summary": "Artisten leverer nok en samling med drivende hverdagspoesi på sin nyeste utgivelse.",
-     "paid": true
+     "title": "Nominasjonene til Musikkforleggerprisen er åpnet",
+     "url": "https://www.ballade.no/bransjen/na-kan-du-nominere-kandidater-til-musikkforleggerprisen/",
+     "source": "Ballade",
+     "summary": "Frem til 8. november kan det sendes inn nominasjoner av opphavere og verk til den årlige musikkprisen."
+    },
+    {
+     "title": "Ballade løfter frem nye norske musikkvideoer",
+     "url": "https://www.ballade.no/musikkvideo/ballade-video-koke-bjorn/",
+     "source": "Ballade",
+     "summary": "Musikknettstedet presenterer nye musikkvideoer og konsertopptak fra artister som Emil Kárlsen, Truls og Bokassa."
     }
    ]
   },
@@ -204,10 +217,10 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Herbjørg Wassmo feirer 50 år som forfatter med ny roman",
+     "title": "Herbjørg Wassmo markerer 50 år som forfatter med ny roman",
      "url": "https://www.aftenposten.no/kultur/i/qyW7wg/anmeldelse-roman-av-herbjoerg-wassmo-besettelse",
      "source": "Aftenposten",
-     "summary": "Forfatteren er aktuell med romanen «Besettelse», som markerer et langt virke i litteraturens tjeneste.",
+     "summary": "Den anerkjente forfatteren er aktuell med boken «Besettelse» etter et halvt århundre i litteraturens tjeneste.",
      "paid": true
     }
    ]
@@ -217,17 +230,17 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Ny filmversjon av Jane Austens klassiker har hatt premiere",
-     "url": "https://vink.aftenposten.no/artikkel/MAnGbE/vakker-men-litt-kjedelig-austen-film",
+     "title": "Riksteatret setter opp «Apestjernen»",
+     "url": "https://www.aftenposten.no/kultur/i/0BBB1J/anmeldelse-av-apestjernen-paa-riksteatret-inderlig-vakkert",
      "source": "Aftenposten",
-     "summary": "Regissør Georgia Oakleys tolkning beskrives som en mer inderlig enn skarp filmatisering.",
+     "summary": "Teateroppsetningen for barn og unge beskrives som en hjertevarm, morsom og musikalsk teateropplevelse.",
      "paid": true
     },
     {
-     "title": "Nasjonalballetten hyller ballettklassen i ny forestilling",
+     "title": "Nasjonalballetten hyller ballettklassen",
      "url": "https://www.aftenposten.no/kultur/i/kvMjzQ/hinter-kanskje-om-en-vridning-i-hele-dansefeltet",
      "source": "Aftenposten",
-     "summary": "León & Lightfoots koreografi byr på danselyst og viser nye takter i feltet.",
+     "summary": "Nasjonalballetten høster lovord for León og Lightfoots koreografi som hedrer det klassiske treningsarbeidet bak dansen.",
      "paid": true
     }
    ]
@@ -237,16 +250,16 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "PlayStation pusler angivelig med comeback for klassiske serier",
-     "url": "https://www.gamer.no/artikler/playstation-pusler-angivelig-med-comeback-for-flere-eldre-serier/521154",
+     "title": "Klassikeren Machinarium får oppfølger",
+     "url": "https://www.gamer.no/artikler/machinarium-sjarmerte-oss-i-senk-17-ar-senere-kommer-oppfolgeren/521149",
      "source": "Gamer.no",
-     "summary": "Det går rykter om at eldre spillserier, der iblant Ape Escape, kan få nytt liv."
+     "summary": "Det sjarmerende eventyrspillet Machinarium får en oppfølger 17 år etter at originalspillet kom ut."
     },
     {
-     "title": "Rekordstor lansering for Ace Combat 8",
+     "title": "Rekordstart for flysimulatoren Ace Combat 8",
      "url": "https://www.gamer.no/artikler/ace-combat-8-hadde-seriens-hittil-beste-lansering/521151",
      "source": "Gamer.no",
-     "summary": "Flysimulatoren solgte én million eksemplarer raskere enn noen tidligere utgivelse i serien."
+     "summary": "Spillet nådde én million solgte eksemplarer raskere enn noen tidligere tittel i den populære serien."
     }
    ]
   },
@@ -255,16 +268,22 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Gustav Iden sikret VM-sølv på Hawaii etter heroisk opphenting",
-     "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
-     "source": "Aftenposten",
-     "summary": "Etter å ha sonet tre minutters tidsstraff løp den norske utøveren seg opp fra niendeplass til en strålende andreplass."
+     "title": "Per Strand Hagenes med seier i Paris-Tours",
+     "url": "https://www.nrk.no/sport/hagenes-med-knallsterk-seier-i-frankrike-1.18051899",
+     "source": "NRK",
+     "summary": "Den norske syklisten fra Visma-laget sikret en knallsterk seier i det tradisjonsrike franske endagsrittet."
     },
     {
-     "title": "Max Verstappen tok kontroll og vant Singapore Grand Prix",
-     "url": "https://www.nrk.no/sport/formel-1_-verstappen-med-ny-triumf-_-full-kontroll-i-singapore-grand-prix-1.18051880",
-     "source": "NRK",
-     "summary": "Red Bull-stjernen kjørte inn til sin andre strake Grand Prix-seier etter en helg med full kontroll."
+     "title": "Gustav Iden sikret VM-sølv i triatlon på Hawaii",
+     "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
+     "source": "Aftenposten",
+     "summary": "Etter en tidsstraff på tre minutter løp nordmannen seg mesterlig opp fra niendeplass til andreplass i mesterskapet."
+    },
+    {
+     "title": "Bodø/Glimt svarte i gullkampen",
+     "url": "https://www.aftenposten.no/sport/i/w3R49n/glimt-svarte-viking-naa-er-det-helt-likt-i-gullkampen",
+     "source": "Aftenposten",
+     "summary": "Glimt vant 3–1 mot Kristiansund og har nå nøyaktig samme poengsum og målforskjell som serieleder Viking."
     }
    ]
   }
@@ -798,20 +817,20 @@
   "weather": {
    "oslo": {
     "temp": 5,
-    "min": 2,
+    "min": 3,
     "max": 10,
-    "symbol": "fair_day",
+    "symbol": "clearsky_day",
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 4,
+    "temp": 3,
     "min": 2,
     "max": 10,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 5,
+    "temp": 3,
     "min": 2,
     "max": 10,
     "symbol": "clearsky_day",
@@ -825,7 +844,7 @@
     "rain6": 0.0
    },
    "bergen": {
-    "temp": 10,
+    "temp": 9,
     "min": 9,
     "max": 12,
     "symbol": "lightrain",
@@ -833,10 +852,10 @@
    },
    "stavanger": {
     "temp": 6,
-    "min": 6,
+    "min": 5,
     "max": 12,
     "symbol": "lightrainshowers_day",
-    "rain6": 1.1
+    "rain6": 1.0
    }
   },
   "date": "2026-10-12"
