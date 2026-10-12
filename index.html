@@ -414,7 +414,7 @@ function setupPush(){
 }
 setupPush();
 // Nyhetsbrev: lim inn adressen fra Brevo-skjemaet (Forms → skjemaet → Share → «Form URL» / action-URL) her
-var NL_FORM="";
+var NL_FORM="https://buttondown.com/api/emails/embed-subscribe/Gladnyheter";
 (function(){if(!NL_FORM)return;var box=document.getElementById('gn-nl'),f=document.getElementById('gn-nl-form');f.action=NL_FORM;box.hidden=false;if(/buttondown/.test(NL_FORM)){f.querySelector('[name=EMAIL]').name='email';document.getElementById('gn-nl-ok').textContent='Takk! Sjekk e-posten din og trykk på bekreftelseslenken.';}
  f.addEventListener('submit',function(){setTimeout(function(){f.hidden=true;document.getElementById('gn-nl-ok').hidden=false;},300);});})();
 (function(){var b=document.getElementById('gn-theme'),r=document.documentElement;
