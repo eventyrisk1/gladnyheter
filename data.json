@@ -1,21 +1,27 @@
 {
- "updated": "2026-10-12T08:38",
+ "updated": "2026-10-12T09:31",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "SAS-streik avverget",
+     "title": "SAS-streik er avverget etter enighet hos Riksmekleren",
      "url": "https://e24.no/naeringsliv/i/AbEpxn/sas-streik-avverget",
      "source": "E24",
-     "summary": "Etter at megleren la frem en skisse til løsning, ble partene enige om å avslutte meklingen 2,5 time før fristen."
+     "summary": "Meklingen mellom partene i SAS førte frem etter at riksmekleren la frem en skisse til løsning. Dermed er en varslet streik avverget."
     },
     {
-     "title": "Eget tilbud for elever med stort læringspotensial",
-     "url": "https://www.nrk.no/nordland/elever-med-stort-laeringspotensial-far-eget-tilbud-i-nordland-1.18051567",
-     "source": "NRK",
-     "summary": "Elever som lærer raskere enn de fleste kan falle utenfor i skolen, og denne uka var ungdommer fra hele Nordland samlet i Mo i Rana for å få et eget tilbud."
+     "title": "Ny motorveiåpning på E4 ved Stockholm",
+     "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
+     "source": "Teknisk Ukeblad",
+     "summary": "Etter ti års byggearbeid kan de første bilene kjøre på 3,5 kilometer med ny vei på E4 ved Stockholm fra desember."
+    },
+    {
+     "title": "Norske sensorer måler flyhøyde verden over",
+     "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
+     "source": "Teknisk Ukeblad",
+     "summary": "På Gaustad i Oslo produseres spesialiserte trykksensorer som benyttes til å måle høyde i en rekke passasjerfly."
     }
    ]
   },
@@ -24,16 +30,16 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Stoltenberg utsetter innstramming av skatteregler",
-     "url": "https://www.vg.no/nyheter/i/2Vqp5G/stoltenberg-utsetter-innstramming-av-skatteregler",
+     "title": "Forbrukerrådet oppfordrer til grep mot lave brukskontorenter",
+     "url": "https://www.vg.no/nyheter/i/rMpEke/saa-lite-faar-du-paa-brukskonto-hvor-vi-har-446-milliarder",
      "source": "VG",
-     "summary": "Finansdepartementet utsetter den varslede innstramningen i reglene for skattemessig innbetalt kapital, som opprinnelig skulle tre i kraft 1. januar."
+     "summary": "Nordmenn har 446 milliarder kroner stående på konto med tilnærmet null rente. Forbrukerrådet råder bankkunder til å flytte pengene for å få bedre avkastning."
     },
     {
-     "title": "Gjorde millionfunn på dødsbosalg",
-     "url": "https://e24.no/naeringsliv/i/mKLnxq/kjoepte-maleri-for-290-kroner-solgt-for-12-9-millioner",
-     "source": "E24",
-     "summary": "Et maleri som ble kjøpt for 290 kroner i en mørk krok på et dødsbosalg, viste seg å være verdt 12,9 millioner kroner."
+     "title": "Bemanningsbyrå tilbyr millionlønn til barnehagelærere",
+     "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
+     "source": "Utdanningsnytt",
+     "summary": "Et nytt bemanningsbyrå går ut på markedet og tilbyr barnehagelærere mellom 900 000 og én million kroner i årslønn."
     }
    ]
   },
@@ -42,22 +48,22 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Nytt teleskop skal gi kunnskap om mørk materie",
+     "title": "Norske forskere bidrar til nytt romteleskop om mørk materie",
      "url": "https://www.tu.no/industri/haloer-fra-slukte-galakser-kan-gi-kunnskap-om-hva-mork-materie-er/5702909",
      "source": "Teknisk Ukeblad",
-     "summary": "ARRAKHIS-teleskopet, som skal skytes opp i 2030, er spesialdesignet for å studere de svakeste sporene etter tidligere galakser med bidrag fra norske forskere."
+     "summary": "ARRAKHIS-teleskopet skal skytes opp i 2030 for å studere svake spor etter tidligere galakser. Norske forskere har en sentral rolle i prosjektet."
     },
     {
-     "title": "Ny, enorm vannlilje oppdaget etter tilfeldig selfie",
-     "url": "https://www.forskning.no/blomst-botanikk-planteverden/ny-svaer-vannlilje-oppdaget-det-begynte-med-en-selfie/2721909",
+     "title": "Studie undersøker nyfødtes oppmerksomhet",
+     "url": "https://www.forskning.no/hjernen/fant-kjonnsforskjeller-i-babyers-oppmerksomhet-allerede-fa-timer-etter-fodsel/2719631",
      "source": "forskning.no",
-     "summary": "En amerikaner oppdaget en svær ny vannlilje da han tok planterelaterte bilder som først ble ertet for, men som nå har resultert i en stor botanisk oppdagelse."
+     "summary": "Forskere har observert forskjeller i babyers oppmerksomhet bare timer etter fødselen, men norske fagfolk oppfordrer til å tolke funnene med forsiktighet."
     },
     {
-     "title": "Norrøn kirkeruin funnet på Grønland",
-     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
-     "source": "forskning.no",
-     "summary": "Funnet av et skjelett har avslørt en ukjent kirke fra den norrøne bosettingens tid på Sør-Grønland, ikke langt fra der Erik Raude bodde."
+     "title": "Ny teknologi kan erstatte gassturbiner offshore",
+     "url": "https://www.tu.no/energi/vulkanutbruddet-som-loste-plattformenes-plassproblemer/6058960",
+     "source": "Teknisk Ukeblad",
+     "summary": "Ved å bytte ut hver fjerde gassturbin på plattformer med varmevekslere kan man spare betydelig plass og redusere energibruken offshore."
     }
    ]
   },
@@ -66,10 +72,10 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "SVT mistenker utstrakt bruk av KI-bidrag til Melodifestivalen",
-     "url": "https://www.vg.no/rampelys/i/ylm5GR/svt-mistenker-flere-ki-bidrag-til-melodifestivalen",
+     "title": "Anthropic oppdaterer retningslinjene for språkmodellen Claude",
+     "url": "https://www.vg.no/i/AbGR2n/anthropic-naa-faar-du-ikke-vaere-slem-mot-claude",
      "source": "VG",
-     "summary": "SVT mistenker at en betydelig del av de rekordmange bidragene til neste års Melodifestivalen er generert av kunstig intelligens."
+     "summary": "KI-selskapet Anthropic har innført nye rammer for brukeroppførsel i samhandlingen med sin språkmodell Claude."
     }
    ]
   },
@@ -78,10 +84,16 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Tiltak for å verne sårbare helleristninger",
-     "url": "https://www.nrk.no/tromsogfinnmark/verdensarv-i-fare_-helleristninger-slites-ned-av-turgaere-1.18051417",
-     "source": "NRK",
-     "summary": "Flere tusen år gamle helleristninger i Alta slites ned av turgåere, og det settes nå inn tiltak for å skåne den sårbare verdensarven."
+     "title": "Kjempestor ny vannliljeart oppdaget",
+     "url": "https://www.forskning.no/blomst-botanikk-planteverden/ny-svaer-vannlilje-oppdaget-det-begynte-med-en-selfie/2721909",
+     "source": "forskning.no",
+     "summary": "En botanikers mangeårige bildedokumentasjon har ledet frem til den offisielle oppdagelsen av en ny, gigantisk vannliljeart."
+    },
+    {
+     "title": "Ti fascinerende fakta om blekksprutens egenskaper",
+     "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
+     "source": "forskning.no",
+     "summary": "Blekkspruter utmerker seg med usedvanlig høy intelligens og unike tilpasninger, til tross for at de fleste artene kun lever i få år."
     }
    ]
   },
@@ -90,16 +102,10 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Fire grep for å ruste seg mot kriser",
-     "url": "https://www.psykologisk.no/nyheter/fire-grep-som-stotter-deg-nar-krisen-rammer/164312",
-     "source": "Psykologisk.no",
-     "summary": "Den tidligere fungerende lederen for Beredskapstroppen deler en modell for hvordan du kan bygge motstandskraft og støtte deg selv når kriser rammer."
-    },
-    {
-     "title": "Slik overvann studentene sangfrykten",
-     "url": "https://www.forskning.no/barnehage-kultur-partner/nar-begynner-vi-a-bli-redde-for-a-synge/2716190",
+     "title": "Dette skjer i hjernen når vi lærer å lese",
+     "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
      "source": "forskning.no",
-     "summary": "Studenter som gruet seg til å synge, endret fullstendig syn etter et møte med barn som hjalp dem å tenke annerledes."
+     "summary": "Leseopplæring er en gradvis prosess der hjernens nettverk for syn og språk kobles sammen og danner et felles system for lesing."
     }
    ]
   },
@@ -108,10 +114,10 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Slik påvirker kaffen kroppen din",
+     "title": "Slik påvirker kaffe kroppen, tarmen og hjernen",
      "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
      "source": "Psykologisk.no",
-     "summary": "Ny forskning avdekker at kaffe har ulike effekter på både humøret, tarmfloraen og søvnen."
+     "summary": "Ny forskning viser hvordan kaffe virker inn på tarmfloraen, humøret og søvnmønsteret, og avdekker stadig flere fysiologiske sammenhenger."
     }
    ]
   },
@@ -120,17 +126,36 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Fellesskoleutvalget: Norske elever i verdenstoppen som voksne",
+     "title": "Nytt skoletilbud for elever med stort læringspotensial",
+     "url": "https://www.nrk.no/nordland/elever-med-stort-laeringspotensial-far-eget-tilbud-i-nordland-1.18051567",
+     "source": "NRK",
+     "summary": "Ungdommer fra hele Nordland samlet seg i Mo i Rana for å delta på et nytt opplegg rettet mot elever som lærer raskere enn gjennomsnittet."
+    },
+    {
+     "title": "Norske voksne presterer i verdenstoppen tross middels ungdomsskolesnitt",
      "url": "https://www.utdanningsnytt.no/pisa/testparadokset-middelmadige-pa-ungdomsskolen-i-verdenstoppen-som-voksne/502722",
      "source": "Utdanningsnytt",
-     "summary": "Selv om norske ungdommer kan skåre middelmådig på ungdomsskolen, viser det seg overraskende nok at de ender i verdenstoppen som voksne."
+     "summary": "Fellesskoleutvalget peker på et bemerkelsesverdig paradoks der norske ungdommer skårer gjennomsnittlig, mens voksne nordmenn hevder seg helt i toppen internasjonalt."
     }
    ]
   },
   {
    "id": "tro",
    "name": "Tro og livssyn",
-   "stories": []
+   "stories": [
+    {
+     "title": "Norrøn kirkeruin avdekket på Sør-Grønland",
+     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
+     "source": "forskning.no",
+     "summary": "Arkeologiske undersøkelser har avslørt restene etter en ukjent kirke fra den norrøne bosetningstiden, like ved Erik Raudes historiske gård."
+    },
+    {
+     "title": "Statsministeren hyllet Michael Melchiors brobyggende innsats",
+     "url": "https://www.vl.no/nyheter/store-trakk-frem-palestina-engasjement/10576879",
+     "source": "Vårt Land",
+     "summary": "Ledere fra politikk og livssyn markerte Michael Melchiors engasjement for dialog, der statsminister Jonas Gahr Støre trakk frem hans betydningsfulle virke."
+    }
+   ]
   },
   {
    "id": "aand",
@@ -142,10 +167,16 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Kateryna Lysovenkos glødende utstilling i Helsingborg",
+     "title": "Kateryna Lysovenko stiller ut i Helsingborg",
      "url": "https://kunstkritikk.no/livet-betraktat-fran-vintergatan/",
      "source": "Kunstkritikk",
-     "summary": "Kunstneren Kateryna Lysovenko viser en utstilling i Helsingborg som utforsker skjørhet og lys."
+     "summary": "Kunstneren Kateryna Lysovenkos nye utstilling i Helsingborg fremheves for sitt sterke og lysende uttrykk."
+    },
+    {
+     "title": "Bruktkjøp til 290 kroner solgt på auksjon for millionbeløp",
+     "url": "https://e24.no/naeringsliv/i/mKLnxq/kjoepte-maleri-for-290-kroner-solgt-for-12-9-millioner",
+     "source": "E24",
+     "summary": "Et maleri funnet på et dødsbosalg i USA for en rimelig penge viste seg å være et verdifullt kunstverk og ble solgt for 12,9 millioner kroner."
     }
    ]
   },
@@ -154,27 +185,52 @@
    "name": "Musikk",
    "stories": [
     {
+     "title": "Her er ukens ti beste nye låter",
+     "url": "https://www.nrk.no/artikkel/ra-som-sashimi-hard-som-haaland-1529600",
+     "source": "NRK",
+     "summary": "NRK har samlet og anmeldt ti av de mest bemerkelsesverdige og friske musikalske utgivelsene denne uken."
+    },
+    {
      "title": "Åpner for nominasjoner til Musikkforleggerprisen",
      "url": "https://www.ballade.no/bransjen/na-kan-du-nominere-kandidater-til-musikkforleggerprisen/",
      "source": "Ballade",
-     "summary": "Nå er det klart for å sende inn nominasjoner til Musikkforleggerprisen med frist i november 2026."
+     "summary": "Musikkforleggerprisen inviterer nå bransjen til å sende inn sine kandidater innen fristen 8. november."
+    },
+    {
+     "title": "Nye musikkvideoer og minikonserter i Ballade video",
+     "url": "https://www.ballade.no/musikkvideo/ballade-video-koke-bjorn/",
+     "source": "Ballade",
+     "summary": "Ballade presenterer ferske musikkvideoer fra en rekke norske artister sammen med en direktesendt minikonsert."
     }
    ]
   },
   {
    "id": "litteratur",
    "name": "Litteratur",
-   "stories": []
+   "stories": [
+    {
+     "title": "Ny bok gir engasjerende innblikk i ungdom og dataspill",
+     "url": "https://www.gamer.no/artikler/treff-blink-om-gaming-og-ungdom/521132",
+     "source": "Gamer.no",
+     "summary": "En fersk utgivelse skildrer to spillentusiaster og viser hvordan lidenskapen for gaming former vennskap og oppvekst."
+    }
+   ]
   },
   {
    "id": "kultur",
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Stjålne Renoir-malerier kom til rette",
-     "url": "https://www.aftenposten.no/kultur/i/kvvXEv/stjaalne-renoir-malerier-funnet",
-     "source": "Aftenposten",
-     "summary": "To verdifulle Renoir-malerier som ble stjålet i september, har blitt funnet igjen, opplyser en fransk ordfører."
+     "title": "Paramount utvikler spillefilm basert på Cyberpunk 2077",
+     "url": "https://www.gamer.no/artikler/cyberpunk-2077-film-pa-vei-fra-paramount/521143",
+     "source": "Gamer.no",
+     "summary": "Det kjente spilluniverset Cyberpunk 2077 skal nå overføres til det store lerretet i en ny spillefilmproduksjon."
+    },
+    {
+     "title": "Portrett av Kaja Hench Dyrlies innsats for norsk spillbransje",
+     "url": "https://www.gamer.no/artikler/kvinnen-som-har-formet-norsk-spillbransje/520988",
+     "source": "Gamer.no",
+     "summary": "Gjennom over to tiår har Kaja Hench Dyrlie arbeidet for å fremme og sikre gode rammevilkår for norske spillskapere."
     }
    ]
   },
@@ -183,16 +239,16 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Imponerende salgstall for Phasmophobia",
-     "url": "https://www.gamer.no/artikler/phasmophobia-har-solgt-30-millioner-eksemplarer-i-early-access/521156",
+     "title": "Squadron 42 har fått egen side på Steam",
+     "url": "https://www.gamer.no/artikler/squadron-42-har-fatt-en-steam-side/521157",
      "source": "Gamer.no",
-     "summary": "Spillet Phasmophobia har passert 30 millioner solgte eksemplarer i sin tidlige tilgang-fase."
+     "summary": "Det etterlengtede enkeltspillerspillet knyttet til Star Citizen-universet har nå offisielt dukket opp i spillbutikken Steam."
     },
     {
-     "title": "Rekordstart for Ace Combat 8",
-     "url": "https://www.gamer.no/artikler/ace-combat-8-hadde-seriens-hittil-beste-lansering/521151",
+     "title": "Phasmophobia har solgt 30 millioner eksemplarer",
+     "url": "https://www.gamer.no/artikler/phasmophobia-har-solgt-30-millioner-eksemplarer-i-early-access/521156",
      "source": "Gamer.no",
-     "summary": "Flysimulatoren solgte én million eksemplarer raskere enn noen tidligere utgave i serien."
+     "summary": "Skrekkspillet har nådd en solid salgsmilepæl på over 30 millioner solgte kopier mens det fremdeles er i tidlig tilgang."
     }
    ]
   },
@@ -201,16 +257,22 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Hagenes med knallsterk seier i fransk endagsritt",
+     "title": "Per Strand Hagenes med seier i Paris-Tours",
      "url": "https://www.aftenposten.no/sport/i/77mK0W/hagenes-med-knallsterk-seier-i-fransk-endagsritt",
      "source": "Aftenposten",
-     "summary": "Den norske Visma-rytteren Per Strand Hagenes sikret seieren i det tradisjonsrike endagsrittet Paris-Tours."
+     "summary": "Den norske syklisten Per Strand Hagenes sikret en sterk triumf i det tradisjonsrike franske endagsrittet Paris-Tours."
     },
     {
-     "title": "Verstappen med ny triumf i Singapore Grand Prix",
-     "url": "https://www.nrk.no/sport/formel-1_-verstappen-med-ny-triumf-_-full-kontroll-i-singapore-grand-prix-1.18051880",
+     "title": "Gustav Iden sikret VM-sølv på Hawaii etter sterk opphenting",
+     "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
+     "source": "Aftenposten",
+     "summary": "Til tross for tre minutters tidsstraff løp Gustav Iden seg opp fra niende- til andreplass og tok VM-sølv i triatlon."
+    },
+    {
+     "title": "Carlo Holse herjet med tre mål på 19 minutter i MLS",
+     "url": "https://www.nrk.no/sport/tidligere-rbk-profil-med-raskt-hattrick-i-usa-1.18052191",
      "source": "NRK",
-     "summary": "Red Bull-stjernen Max Verstappen tok sin andre strake Grand Prix-seier etter å ha hatt full kontroll gjennom helgen i Singapore."
+     "summary": "Tidligere Rosenborg-spiller Carlo Holse leverte et lynraskt hattrick da St. Louis City vant 6-2 mot LA Galaxy."
     }
    ]
   }
@@ -750,10 +812,10 @@
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 1,
-    "min": 1,
-    "max": 9,
-    "symbol": "partlycloudy_day",
+    "temp": 2,
+    "min": 2,
+    "max": 10,
+    "symbol": "cloudy",
     "rain6": 0.0
    },
    "trondheim": {
@@ -764,10 +826,10 @@
     "rain6": 0.0
    },
    "tromso": {
-    "temp": -2,
-    "min": -2,
+    "temp": -1,
+    "min": -1,
     "max": 3,
-    "symbol": "fair_day",
+    "symbol": "clearsky_day",
     "rain6": 0.0
    },
    "bergen": {
