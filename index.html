@@ -121,8 +121,13 @@ details.pick{font-family:var(--ui);font-size:14px}
 details.pick summary{display:inline-block;cursor:pointer;list-style:none;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-weight:600}
 details.pick summary::-webkit-details-marker{display:none}
 details.pick[open] summary{border-color:var(--fjord);color:var(--fjord)}
-.pickbox{margin-top:8px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px 16px}
-.pickbox label{display:flex;align-items:center;gap:8px;cursor:pointer}
+.pickbox{margin-top:8px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px 20px}
+.pickbox label{display:flex;align-items:center;gap:8px;cursor:pointer;flex:1;min-width:0}
+.prow{display:flex;align-items:center;gap:6px}
+.mv{flex:none;width:32px;height:32px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--fg);font-size:12px;line-height:1;cursor:pointer;padding:0}
+.mv:hover:not(:disabled){border-color:var(--fjord);color:var(--fjord)}
+.mv:disabled{opacity:.25;cursor:default}
+.pickbox .reset{font:inherit;font-size:12px;color:var(--fjord);background:none;border:0;padding:0;text-decoration:underline;cursor:pointer}
 .pickbox input{width:18px;height:18px;accent-color:var(--fjord)}
 .pickbox .hint{grid-column:1/-1;color:var(--muted);font-size:12px;margin:0}
 footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-family:var(--ui);font-size:13px;color:var(--muted)}
@@ -195,6 +200,7 @@ function render(data){
   var cats=data.categories;
   if(!cats){cats=[{id:"samfunn",name:"Dagens saker",stories:data.stories||[]}];if(data.sport)cats.push({id:"sport",name:"Sport",stories:[data.sport]});}
   (function(){var n=0,src={};cats.forEach(function(c){(c.stories||[]).forEach(function(s){n++;if(s.source)src[s.source]=1;});});var k=Object.keys(src).length,u=document.getElementById('gn-upd');if(m&&n&&k)u.textContent="Oppdatert kl. "+m[4]+":"+m[5]+" · "+n+" saker fra "+k+" kilder";})();
+  var ord=store('gn-order')||[];if(ord.length){cats=cats.slice().sort(function(a,b){var x=ord.indexOf(a.id),y=ord.indexOf(b.id);return (x<0?999:x)-(y<0?999:y);});}
   var grid=document.getElementById('grid');grid.textContent="";
   cats.forEach(function(c){
     if(!c.stories||!c.stories.length)return;
@@ -228,13 +234,24 @@ function buildPicker(cats){
     shown.forEach(function(c){var off=hidden.indexOf(c.id)>=0;var sec=document.getElementById(c.id);if(sec)sec.hidden=off;var a=nav.querySelector('a[href="#'+c.id+'"]');if(a)a.hidden=off;});
     store('gn-hidden',hidden);
   }
+  var grid=document.getElementById('grid'),rows={},hint=el('p','hint','Bruk pilene for å endre rekkefølgen. Valget huskes i denne nettleseren. ');
+  function reorder(){shown.forEach(function(c,i){var sec=document.getElementById(c.id);if(sec)grid.appendChild(sec);var a=nav.querySelector('a[href="#'+c.id+'"]');if(a)nav.appendChild(a);
+    var r=rows[c.id];box.insertBefore(r,hint);r.querySelector('.up').disabled=i===0;r.querySelector('.dn').disabled=i===shown.length-1;});}
+  function move(id,d){var i=-1;shown.forEach(function(c,k){if(c.id===id)i=k;});var j=i+d;if(i<0||j<0||j>=shown.length)return;
+    var t=shown[i];shown[i]=shown[j];shown[j]=t;var ids=shown.map(function(c){return c.id;});
+    store('gn-order',ids.concat((store('gn-order')||[]).filter(function(x){return ids.indexOf(x)<0;})));reorder();}
   shown.forEach(function(c){
     var a=el('a',null,(ICON[c.id]?ICON[c.id]+' ':'')+c.name);a.href='#'+c.id;paint(a,c.id);a.onclick=function(ev){var sec=document.getElementById(c.id);if(!sec)return;ev.preventDefault();sec.scrollIntoView({behavior:'smooth',block:carousel()?'nearest':'start',inline:'start'});};nav.appendChild(a);
     var lab=el('label');var cb=document.createElement('input');cb.type='checkbox';cb.id='pick-'+c.id;cb.checked=hidden.indexOf(c.id)<0;
     cb.onchange=function(){var i=hidden.indexOf(c.id);if(cb.checked&&i>=0)hidden.splice(i,1);if(!cb.checked&&i<0)hidden.push(c.id);apply();};
-    lab.appendChild(cb);lab.appendChild(document.createTextNode((ICON[c.id]?ICON[c.id]+' ':'')+c.name));box.appendChild(lab);
+    lab.appendChild(cb);lab.appendChild(document.createTextNode((ICON[c.id]?ICON[c.id]+' ':'')+c.name));
+    var row=el('div','prow');row.appendChild(lab);
+    var up=el('button','mv up','▲');up.type='button';up.setAttribute('aria-label','Flytt '+c.name+' opp');up.onclick=function(){move(c.id,-1);};
+    var dn=el('button','mv dn','▼');dn.type='button';dn.setAttribute('aria-label','Flytt '+c.name+' ned');dn.onclick=function(){move(c.id,1);};
+    row.appendChild(up);row.appendChild(dn);rows[c.id]=row;box.appendChild(row);
   });
-  box.appendChild(el('p','hint','Valget huskes i denne nettleseren.'));
+  var rs=el('button','reset','Tilbakestill rekkefølge');rs.type='button';rs.onclick=function(){store('gn-order',[]);location.reload();};hint.appendChild(rs);
+  box.appendChild(hint);reorder();
   apply();
 }
 var QUOTES=[
