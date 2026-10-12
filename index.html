@@ -133,8 +133,11 @@ li:not(:first-child) .item p{color:var(--muted)}
 .iosarrow{color:#fff;font-size:34px;line-height:1;padding:6px 0 calc(6px + env(safe-area-inset-bottom));text-shadow:0 2px 8px rgba(0,0,0,.5);animation:iosbob 1.1s ease-in-out infinite}
 @keyframes iosbob{50%{transform:translateY(8px)}}
 @media (prefers-reduced-motion:reduce){.iosarrow{animation:none}}
-.approw{display:flex;align-items:center;gap:8px;justify-content:space-between}
-.appbtn{font:inherit;font-size:13px;font-weight:700;padding:6px 14px;border-radius:999px;border:0;background:var(--fg);color:var(--bg);cursor:pointer}
+.appbox{position:relative;margin-top:28px;padding:22px;border-radius:16px;background:var(--surface);border:1px solid var(--line);font-family:var(--ui);text-align:center}
+.appbox h2{font-family:var(--display);font-size:1.4rem;margin:0 0 4px;color:var(--fg)}
+.appbox p{margin:0 0 14px;color:var(--muted);font-size:15px}
+.appbox .appx{position:absolute;top:10px;right:10px}
+.appbtn{font:inherit;font-size:15px;font-weight:700;padding:12px 22px;border-radius:999px;border:0;background:var(--fg);color:var(--bg);cursor:pointer}
 .appx{flex:none;font:inherit;font-size:12px;border:0;background:none;color:var(--muted);cursor:pointer;padding:4px 6px}
 .shareico{display:inline-block;width:14px;height:16px;vertical-align:-2px;margin:0 2px}
 .grid>.done{order:99;grid-column:1/-1;margin-top:8px}
@@ -216,7 +219,6 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
     <div class="today-row"><b>Vær</b><span id="gn-weather">–</span></div>
     <div class="today-row"><b>Strøm</b><span id="gn-power">–</span></div>
     <div class="today-row" id="gn-filter-row" hidden><b>Filter</b><span id="gn-filter"></span></div>
-    <div class="today-row" id="gn-app" hidden><b>App</b><span class="approw"><span id="gn-app-body"></span><button type="button" class="appx" id="gn-app-x" aria-label="Skjul">✕</button></span></div>
     <div class="today-row" id="gn-push" hidden><b>Varsel</b><span><button type="button" class="pushbtn" id="gn-push-btn" hidden>Få varsel kl. 7 og 16</button> <span class="note" id="gn-push-msg"></span></span></div>
     <div class="note">Strømpris er spotpris inkl. mva, uten nettleie og påslag. Kilder: hvakosterstrommen.no og Meteorologisk institutt.</div>
   </section>
@@ -232,6 +234,13 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
   <main class="grid" id="grid"><p class="empty">Sakene lastes …</p></main>
 
   <div class="done" id="gn-done" hidden><h2>✓ Du er oppdatert</h2><p id="gn-next"></p><button type="button" class="back" id="gn-back">← Tilbake til start</button></div>
+
+  <section class="appbox" id="gn-app" hidden aria-label="Gladnyheter som app">
+    <button type="button" class="appx" id="gn-app-x" aria-label="Skjul">✕</button>
+    <h2>📲 Ha Gladnyheter på hjemskjermen</h2>
+    <p>Åpne dagens gode nyheter med ett trykk – som en app, uten adressefelt.</p>
+    <div id="gn-app-body"></div>
+  </section>
 
   <section class="nl" id="gn-nl" hidden aria-label="Nyhetsbrev">
     <h2>📬 Dagens 5 gode på&nbsp;e&#8209;post</h2>
@@ -453,11 +462,11 @@ function iosGuide(){var ov=el('div','iosov');ov.setAttribute('role','dialog');ov
  var standalone=(window.matchMedia&&matchMedia('(display-mode: standalone)').matches)||navigator.standalone===true;
  var v=(store('gn-visits')||0)+1;store('gn-visits',v);
  if(standalone||store('gn-app-x')||v<2)return;
- function show(){row.hidden=false;document.getElementById('today').hidden=false;}
+ function show(){row.hidden=false;}
  document.getElementById('gn-app-x').onclick=function(){store('gn-app-x',1);row.hidden=true;};
  var ios=/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
- if(ios){var b0=el('button','appbtn','📲 Legg Gladnyheter på hjemskjermen');b0.type='button';b0.onclick=iosGuide;body.appendChild(b0);show();return;}
- var ev=null;window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();ev=e;body.textContent='';var b=el('button','appbtn','📲 Legg Gladnyheter på hjemskjermen');b.type='button';
+ if(ios){var b0=el('button','appbtn','Slik gjør du det');b0.type='button';b0.onclick=iosGuide;body.appendChild(b0);show();return;}
+ var ev=null;window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();ev=e;body.textContent='';var b=el('button','appbtn','Legg til på hjemskjermen');b.type='button';
   b.onclick=function(){ev.prompt();ev.userChoice.then(function(r){if(r.outcome==='accepted')row.hidden=true;});};body.appendChild(b);show();});
  window.addEventListener('appinstalled',function(){row.hidden=true;});})();
 fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){
