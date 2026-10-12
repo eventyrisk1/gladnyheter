@@ -82,7 +82,9 @@ SEEN_ALL = set()
 
 def reason(it):
     text = it["title"] + " " + it["desc"]
-    if CLICKBAIT.search(it["title"]) or SKIP_URL.search(it["url"]):
+    if SKIP_URL.search(it["url"]):
+        return "format"
+    if CLICKBAIT.search(it["title"]):
         return "kjendis"
     if BLOCK.search(text):
         for key, rx in REASONS:
