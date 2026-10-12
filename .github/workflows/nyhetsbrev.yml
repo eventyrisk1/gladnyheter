@@ -21,6 +21,7 @@ jobs:
           python-version: "3.12"
       - name: Send Dagens 5 gode
         env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
           FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
