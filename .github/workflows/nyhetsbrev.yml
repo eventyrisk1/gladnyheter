@@ -6,9 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: "Send nyhetsbrevet nå (test)"
+        description: "Send til ALLE abonnenter nå"
         type: boolean
-        default: true
+        default: false
+      test_to:
+        description: "Send bare en test til denne e-postadressen"
+        type: string
+        default: ""
 
 jobs:
   nyhetsbrev:
@@ -24,5 +28,6 @@ jobs:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
+          TEST_TO: ${{ github.event_name == 'workflow_dispatch' && inputs.test_to || '' }}
           FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
         run: python scripts/nyhetsbrev.py
