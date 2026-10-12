@@ -49,7 +49,7 @@ SPORT_FEEDS = [
 
 # Alt dette kastes: negativt, skremmende, kriminalitet, krig, kjendis/influenser, quiz osv.
 BLOCK = re.compile(
-    r"\b(krig|drept|drap|dødsfall|omkom|døde|død |dør |skutt|skyting|knivstikk|terror|angrep|bombe|missil|rakett|"
+    r"\b(krig|drept|drap|dødsfall|omkom|døde|død |dør |skutt|skyting|knivstikk|knivstukk|terror|angrep|bombe|missil|rakett|"
     r"voldtekt|overgrep|vold\b|voldelig|siktet|tiltalt|dømt|fengsel|fengslet|pågrepet|arrestert|politiet|politimann|ulykke|kollisjon|"
     r"trussel|trusler|truslene|fedme|uhelse|brann|eksplo|katastrofe|dommedag|undergang|jordskjelv|flom|skred|\bras\b|storm|uvær|gaza|ukraina|russland|putin|israel|hamas|"
     r"iran|nato|atomvåpen|atomkraftulykke|selvmord|kreft(?!fri)|opereres|operasjon|sykehus|svulst|diagnose|\bsyke?\b|pasient|sykdom|smitte|pandemi|trump|influenser|kjendis|instagram|tiktok|reality|"
@@ -68,6 +68,28 @@ CLICKBAIT = re.compile(
 )
 # Opinion/kommentar i URL
 SKIP_URL = re.compile(r"/(video|kommentar|debatt|meninger|leder|kronikk|ytring|quiz|tegneserier|hjernetrim)/", re.I)
+
+# Statistikk over hva filteret sorterte bort (vises i «Filteret»-boksen på siden)
+REASONS = [
+    ("krim", re.compile(r"drept|drap|skutt|skyting|knivstikk|knivstukk|voldtekt|overgrep|vold\b|voldelig|siktet|tiltalt|dømt|fengsel|fengslet|pågrepet|arrestert|politi|ulykke|kollisjon|brann|eksplo|savnet|rettssak|søksmål|saksøk|etterforsk|anklag|mistenkt|svindel|bedrag|hacker|sikkerhetsbrudd", re.I)),
+    ("konflikt", re.compile(r"krig|terror|angrep|bombe|missil|rakett|gaza|ukraina|russland|putin|israel|hamas|iran|nato|atomvåpen|trump|demonstr|protest|hets\b|hat\b|hatet|rasis", re.I)),
+    ("sykdom", re.compile(r"dødsfall|omkom|døde|død |dør |selvmord|kreft|opereres|operasjon|sykehus|svulst|diagnose|\bsyke?\b|pasient|sykdom|smitte|pandemi|fedme|uhelse", re.I)),
+    ("kjendis", re.compile(r"influenser|kjendis|instagram|tiktok|reality|paradise hotel|farmen|skal vi danse|quiz|kryssord|se bildene|se video|høydepunkt|tegneserie|dagens lunch|dagens dunce|annonse|sponset|reklame|i samarbeid med", re.I)),
+]
+STATS = {"total": 0}
+SEEN_ALL = set()
+
+
+def reason(it):
+    text = it["title"] + " " + it["desc"]
+    if CLICKBAIT.search(it["title"]) or SKIP_URL.search(it["url"]):
+        return "kjendis"
+    if BLOCK.search(text):
+        for key, rx in REASONS:
+            if rx.search(text):
+                return key
+        return "uro"
+    return "gammel"
 
 TOPICS = [
     ("Spill", 3, r"dataspill|brettspill|spillet\b|gaming|playstation|xbox|nintendo|sjakk|puslespill|kryssord|hobby|strikk|modellbygg|modelljernbane|lego|fotografer|frimerke"),
@@ -193,6 +215,15 @@ def collect(feeds):
         got = parse(src, u, w)
         kept = [it for it in got if ok(it)]
         print(f"  {src:15} {len(got):3} hentet, {len(kept):3} igjen  {u}")
+        for it in got:
+            k = re.sub(r"\W", "", it["title"].lower())[:60]
+            if k in SEEN_ALL or it["url"] in SEEN_ALL:
+                continue
+            SEEN_ALL.update([k, it["url"]])
+            STATS["total"] += 1
+            if not ok(it):
+                r = reason(it)
+                STATS[r] = STATS.get(r, 0) + 1
         for it in got:
             if not ok(it):
                 why = "blokk" if BLOCK.search(it["title"] + " " + it["desc"]) else "klikk" if CLICKBAIT.search(it["title"]) else "url" if SKIP_URL.search(it["url"]) else f"alder {it['age']:.0f}t"
@@ -447,6 +478,7 @@ def drop_paywalled(items):
         paid = {it["url"] for it, p in zip(check, ex.map(lambda it: is_paid(it["url"]), check)) if p}
     kept = [it for it in items if it["source"] not in ALWAYS_PAID and it["url"] not in paid]
     print(f"Betalingsmur: fjernet {len(items) - len(kept)} av {len(check)} sjekkede saker")
+    STATS["betalt"] = STATS.get("betalt", 0) + len(items) - len(kept)
     return kept
 
 
@@ -479,6 +511,11 @@ def main():
     mark_paywall(out)
     data = {"updated": datetime.datetime.now(OSLO).strftime("%Y-%m-%dT%H:%M"),
             "categories": [{"id": cid, "name": name, "stories": out.get(cid, [])} for cid, name, _ in CATS]}
+    chosen = sum(len(c["stories"]) for c in data["categories"])
+    gone = {k: v for k, v in STATS.items() if k != "total" and v}
+    data["stats"] = {"total": STATS["total"], "chosen": chosen,
+                     "notchosen": max(0, STATS["total"] - chosen - sum(gone.values())), "removed": gone}
+    print("Filterstatistikk:", data["stats"])
     try:
         data["today"] = useful_today()
     except Exception as e:
