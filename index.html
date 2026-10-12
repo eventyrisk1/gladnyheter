@@ -469,6 +469,7 @@ function iosGuide(){var ov=el('div','iosov');ov.setAttribute('role','dialog');ov
  var ev=null;window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();ev=e;body.textContent='';var b=el('button','appbtn','Legg til på hjemskjermen');b.type='button';
   b.onclick=function(){ev.prompt();ev.userChoice.then(function(r){if(r.outcome==='accepted')row.hidden=true;});};body.appendChild(b);show();});
  window.addEventListener('appinstalled',function(){row.hidden=true;});})();
+if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/OneSignalSDKWorker.js',{scope:'/'}).catch(function(){});});}
 fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(render).catch(function(){
   document.getElementById('grid').innerHTML='<p class="empty">Klarte ikke å hente sakene. Prøv å laste siden på nytt.</p>';
 });
