@@ -1,27 +1,21 @@
 {
- "updated": "2026-10-12T14:46",
+ "updated": "2026-10-12T15:39",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Ny strekning på E4 åpner for trafikk etter ti år",
-     "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
-     "source": "Teknisk Ukeblad",
-     "summary": "Den 6. desember åpner 3,5 kilometer med ny vei på E4 ved Stockholm for biltrafikk."
-    },
-    {
-     "title": "Gamere samler inn over 12 millioner kroner til barnekreftsaken",
-     "url": "https://www.gamer.no/artikler/har-samlet-inn-over-12-millioner-kroner-til-kampen-mot-barnekreft/521147",
-     "source": "Gamer.no",
-     "summary": "Komplett inviterer til et tre dager langt gamingarrangement med mål om å samle inn penger til forskning på barnekreft."
-    },
-    {
-     "title": "Auksjonerer bort unike opplevelser og gjenstander til TV-aksjonen",
-     "url": "https://www.nrk.no/tvaksjonen/pa-jakt-etter-noko-unikt_-_-dette-kan-du-by-pa-i-tv-aksjonen-2026-1.18016731",
+     "title": "Stor interesse for fersk tankmjølk i dagligvarebutikken",
+     "url": "https://www.nrk.no/rogaland/na-kan-du-fa-tankmjolk-i-daglegvarebutikk-1.18034250",
      "source": "NRK",
-     "summary": "Under TV-aksjonen kan publikum by på spesielle auksjonsobjekter, deriblant en VM-tromme, pingvinmalerier og en treningsøkt med Ståle Solbakken."
+     "summary": "Mjølkebøndene på Line opplever enorm etterspørsel etter tankmjølk, og håper å nå ut til en enda større markedsplass."
+    },
+    {
+     "title": "Boligprisene stiger flere steder i nord",
+     "url": "https://www.nrk.no/tromsogfinnmark/boligpriser-oker-flere-steder-i-nord-og-synker-pa-ostlandet-1.18052298",
+     "source": "NRK",
+     "summary": "Selv om boligprisene vanligvis faller i tredje kvartal, viser ferske tall fra Eiendom Norge at prisene øker flere steder i nord."
     }
    ]
   },
@@ -30,22 +24,10 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "To amerikanere vinner Nobels minnepris i økonomi",
-     "url": "https://www.aftenposten.no/verden/i/BMkmpG/to-amerikanere-vinner-nobels-minnepris-i-oekonomi",
-     "source": "Aftenposten",
-     "summary": "Robert E. Hall og Michael Woodford er tildelt årets minnepris i økonomi for sitt arbeid med makroøkonomisk stabilisering."
-    },
-    {
-     "title": "Bønder tilbyr fersk tankmelk i dagligvarebutikker",
-     "url": "https://www.nrk.no/rogaland/na-kan-du-fa-tankmjolk-i-daglegvarebutikk-1.18034250",
-     "source": "NRK",
-     "summary": "Melkebøndene på Line opplever stor interesse for fersk tankmelk og satser nå på salg i dagligvarehandelen."
-    },
-    {
-     "title": "Oppgang for rederier på Oslo Børs",
-     "url": "https://e24.no/boers-og-finans/i/Vgjzx6/nedgang-paa-oslo-boers-oljeaksjer-faller",
-     "source": "E24",
-     "summary": "Flere rederier opplever kursvekst på børsen, samtidig som Vår Energi justerer sine produksjonsforventninger for året."
+     "title": "Amerikanske forskere tildeles Nobels minnepris i økonomi",
+     "url": "https://www.forskning.no/ntb-okonomi/vinner-nobels-minnepris-i-okonomi-for-stabilisering/2722778",
+     "source": "forskning.no",
+     "summary": "Prisen for 2026 går til Robert E. Hall og Michael Woodford for deres mikroøkonomiske grunnlag for makroøkonomisk stabilisering."
     }
    ]
   },
@@ -54,39 +36,46 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Nytt romteleskop skal kaste lys over mørk materie",
+     "title": "Nytt teleskop kan gi svar om mørk materie",
      "url": "https://www.tu.no/industri/haloer-fra-slukte-galakser-kan-gi-kunnskap-om-hva-mork-materie-er/5702909",
      "source": "Teknisk Ukeblad",
-     "summary": "Det planlagte ARRAKHIS-teleskopet skal skytes opp i 2030 for å studere svake spor etter tidligere galakser, med norske forskere i en sentral rolle."
+     "summary": "ARRAKHIS-teleskopet, som skal skytes opp i 2030, er spesialdesignet for å studere de svakeste sporene etter tidligere galakser ved hjelp av norsk forskning."
     },
     {
-     "title": "Norske sensorer måler flyhøyde verden over",
-     "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
-     "source": "Teknisk Ukeblad",
-     "summary": "På Gaustad i Oslo produseres det trykksensorer som benyttes til høydemåling i en rekke passasjerfly."
+     "title": "Ny og enorm vannlilje oppdaget ved en tilfeldighet",
+     "url": "https://www.forskning.no/blomst-botanikk-planteverden/ny-svaer-vannlilje-oppdaget-det-begynte-med-en-selfie/2721909",
+     "source": "forskning.no",
+     "summary": "En amerikaner oppdaget en svær ny vannlilje da han tok en plantebilde-selfie som først ble møtt med latter."
+    },
+    {
+     "title": "Norrøn kirkeruin avdekket på Grønland",
+     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
+     "source": "forskning.no",
+     "summary": "Arkeologer har funnet et skjelett som avslører en ukjent kirke fra den norrøne bosettingens tid på Sør-Grønland, nær Erik Raudes bosted."
     }
    ]
   },
   {
    "id": "ki",
    "name": "Kunstig intelligens",
-   "stories": []
+   "stories": [
+    {
+     "title": "Slik kan kunstig intelligens forme fremtidens skole",
+     "url": "https://www.forskning.no/kronikk-kunstig-intelligens-meninger/hva-skjer-med-laererrollen-nar-ki-blir-hverdag/2719040",
+     "source": "forskning.no",
+     "summary": "En professor peker på at kunstig intelligens kan føre skolen i tre ulike retninger, blant annet ved å gi elevene mer tid med læreren."
+    }
+   ]
   },
   {
    "id": "natur",
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Oppdaget enorm ny vannliljeart etter bildedeling",
-     "url": "https://www.forskning.no/blomst-botanikk-planteverden/ny-svaer-vannlilje-oppdaget-det-begynte-med-en-selfie/2721909",
-     "source": "forskning.no",
-     "summary": "En botaniker har oppdaget en ny og stor vannliljeart, et funn som opprinnelig startet med deling av planteselfier."
-    },
-    {
-     "title": "Ti fascinerende fakta om blekkspruters intelligens og liv",
+     "title": "Ti fascinerende fakta om den intelligente blekkspruten",
      "url": "https://www.forskning.no/dyreverden-havet/ti-ting-du-ikke-kanskje-ikke-vet-om-blekksprut/2721660",
      "source": "forskning.no",
-     "summary": "Blekkspruter utmerker seg med sin høye intelligens, til tross for at de bare lever i et par år."
+     "summary": "Blekkspruter er svært intelligente dyr som dessverre bare lever i et par år, noe forskere nå ser nærmere på."
     }
    ]
   },
@@ -95,10 +84,10 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Forskning ser på humorens rolle ved depresjon",
+     "title": "Kan humor brukes til å lindre depresjon?",
      "url": "https://www.psykologisk.no/nyheter/kan-humor-lindre-depresjoner/163994",
      "source": "Psykologisk.no",
-     "summary": "En litteraturgjennomgang viser at humor kan ha en plass i depresjonsbehandling, men advarer om at feil bruk kan virke mot sin hensikt."
+     "summary": "En litteraturgjennomgang viser at humor kan ha en plass i behandlingen av depresjon, selv om den må brukes med omtanke."
     }
    ]
   },
@@ -107,29 +96,35 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Slik påvirker kaffen både tarmen og hjernen",
+     "title": "Dette gjør kaffen med kroppen din",
      "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
      "source": "Psykologisk.no",
-     "summary": "Ny forskning kartlegger hvordan kaffedrikking har konkrete effekter på humør, tarmflora og søvnmønster."
+     "summary": "Ny forskning viser hvordan den populære drikken påvirker både humøret, tarmfloraen og søvnen."
+    },
+    {
+     "title": "Derfor føles starten på joggeturen alltid tyngst",
+     "url": "https://www.nrk.no/trondelag/dette-gjor-starten-pa-joggeturen-sa-toff-_-handler-ikke-om-at-man-er-i-darlig-form-1.18043184",
+     "source": "NRK",
+     "summary": "Forskning og erfaring viser at overgangen fra hvile til aktivitet krever en omstilling i kroppen som gjør starten mest slitsom."
     }
    ]
   },
   {
    "id": "oppvekst",
    "name": "Barn og oppvekst",
-   "stories": [
-    {
-     "title": "Bemanningsbyrå frister barnehagelærere med millionlønn",
-     "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
-     "source": "Utdanningsnytt",
-     "summary": "Et nytt bemanningsbyrå går ut på markedet og tilbyr barnehagelærere opptil én million kroner i årslønn."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "tro",
    "name": "Tro og livssyn",
-   "stories": []
+   "stories": [
+    {
+     "title": "Ingeborg Heldal om oppveksten med søndagsskole og kirkemusikk",
+     "url": "https://www.vl.no/nyheter/hvor-kristen-ma-man-vaere-for-a-kalle-seg-kristen/10567926",
+     "source": "Vårt Land",
+     "summary": "KK-redaktøren forteller om varme barndomsminner med aftenbønn, kristenleir og sin store kjærlighet for julegudstjenester."
+    }
+   ]
   },
   {
    "id": "aand",
@@ -139,78 +134,38 @@
   {
    "id": "kunst",
    "name": "Kunst",
-   "stories": [
-    {
-     "title": "Dronning Sonja besøkte Nasjonalarkivet for å se hilsener fra folket",
-     "url": "https://www.aftenposten.no/norge/i/PgneV5/dronning-sonja-ute-paa-oppdrag-igjen",
-     "source": "Aftenposten",
-     "summary": "Dronningen har vært på Nasjonalarkivet i Oslo for å se gjennom tegninger og hilsener som opprinnelig ble lagt igjen på Slottsplassen."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "musikk",
    "name": "Musikk",
-   "stories": [
-    {
-     "title": "Forsker fremhever kulokkens kraft og betydning",
-     "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
-     "source": "forskning.no",
-     "summary": "Forsker Alizeé Piel trekker frem tradisjonen med kulokk som en viktig nøkkel til å styrke menneskets bånd til naturen."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "litteratur",
    "name": "Litteratur",
-   "stories": [
-    {
-     "title": "Dette skjer i hjernen når vi lærer å lese",
-     "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
-     "source": "forskning.no",
-     "summary": "Leseopplæring er en gradvis prosess som former hjernens nettverk for syn og språk til et helhetlig lesesystem."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "kultur",
    "name": "Film, scene og historie",
-   "stories": [
-    {
-     "title": "Ukjent norrøn kirkeruin avdekket på Grønland",
-     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
-     "source": "forskning.no",
-     "summary": "Funn av et skjelett har ført til oppdagelsen av en hittil ukjent kirke fra den norrøne bosetningen på Sør-Grønland."
-    },
-    {
-     "title": "Cyberpunk 2077 blir spillefilm hos Paramount",
-     "url": "https://www.gamer.no/artikler/cyberpunk-2077-film-pa-vei-fra-paramount/521143",
-     "source": "Gamer.no",
-     "summary": "Det kjente universet fra dataspillet Cyberpunk 2077 skal filmatiseres i samarbeid med filmstudioet Paramount."
-    },
-    {
-     "title": "Prime Video sikrer seg rettighetene til ny serie om prinsesse Diana",
-     "url": "https://www.vg.no/rampelys/i/qymra0/prime-video-snappet-opp-ny-prinsesse-diana-serie",
-     "source": "VG",
-     "summary": "Strømmetjenesten har kjøpt britiske visningsrettigheter til en ny dramaserie om prinsesse Diana."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "spill",
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Klassikeren Machinarium får oppfølger etter 17 år",
-     "url": "https://www.gamer.no/artikler/machinarium-sjarmerte-oss-i-senk-17-ar-senere-kommer-oppfolgeren/521149",
-     "source": "Gamer.no",
-     "summary": "Det kritikerroste pek-og-klikk-eventyret Machinarium får en etterlengtet oppfølger mange år etter originalutgivelsen."
-    },
-    {
-     "title": "Ace Combat 8 setter ny salgsrekord for spillserien",
+     "title": "Suksess for ny flysimulator: Solgte en million raskere enn forgjengerne",
      "url": "https://www.gamer.no/artikler/ace-combat-8-hadde-seriens-hittil-beste-lansering/521151",
      "source": "Gamer.no",
-     "summary": "Flysimulatoren har passert én million solgte eksemplarer raskere enn noen tidligere utgave i serien."
+     "summary": "Ace Combat 8 har hatt seriens beste lansering til nå og klatret raskt til én million solgte eksemplarer."
+    },
+    {
+     "title": "Det klassiske eventyrspillet Machinarium får oppfølger",
+     "url": "https://www.gamer.no/artikler/machinarium-sjarmerte-oss-i-senk-17-ar-senere-kommer-oppfolgeren/521149",
+     "source": "Gamer.no",
+     "summary": "Sju år etter det sjarmerende originalspillet kommer det nå en etterlengtet oppfølger for fansen."
     }
    ]
   },
@@ -219,22 +174,22 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Per Strand Hagenes med sterk seier i fransk storritt",
+     "title": "Knallsterk seier til Per Strand Hagenes i fransk endagsritt",
      "url": "https://www.aftenposten.no/sport/i/77mK0W/hagenes-med-knallsterk-seier-i-fransk-endagsritt",
      "source": "Aftenposten",
-     "summary": "Den norske syklisten Per Strand Hagenes gikk helt til topps i det tradisjonsrike endagsrittet Paris-Tours."
+     "summary": "Den norske Visma-rytteren sikret seieren i det tradisjonsrike endagsrittet i Frankrike."
     },
     {
-     "title": "Gustav Iden sikret VM-sølv på Hawaii etter kraftig opphenting",
-     "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
-     "source": "Aftenposten",
-     "summary": "Den norske triatleten løp seg opp fra en niendeplass til andreplass og tok sølv til tross for en tidsstraff underveis."
-    },
-    {
-     "title": "Dansk VM-medaljør klar for Uno-X",
+     "title": "Merittert dansk sykkelprofil klar for Uno-X",
      "url": "https://www.nrk.no/sport/vm-medaljor-til-uno-x-1.18052227",
      "source": "NRK",
-     "summary": "Cecilie Uttrup Ludwig forsterker det norske sykkellaget Uno-X foran neste sesong etter å ha signert en toårskontrakt."
+     "summary": "Cecilie Uttrup Ludwig forsterker kvinnelaget til Uno-X med en ny toårig kontrakt foran kommende sesong."
+    },
+    {
+     "title": "Ny triumf for Max Verstappen i Singapore Grand Prix",
+     "url": "https://www.nrk.no/sport/formel-1_-verstappen-med-ny-triumf-_-full-kontroll-i-singapore-grand-prix-1.18051880",
+     "source": "NRK",
+     "summary": "Red Bull-stjernen tok sin andre strake Grand Prix-seier med full kontroll gjennom hele helgens hovedløp."
     }
    ]
   }
@@ -1258,44 +1213,44 @@
   },
   "weather": {
    "oslo": {
-    "temp": 8,
+    "temp": 9,
     "min": 4,
     "max": 9,
-    "symbol": "fair_day",
+    "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 9,
-    "min": 7,
+    "temp": 10,
+    "min": 8,
     "max": 10,
     "symbol": "cloudy",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 9,
-    "min": 3,
-    "max": 9,
+    "temp": 10,
+    "min": 2,
+    "max": 10,
     "symbol": "fair_day",
     "rain6": 0.0
    },
    "tromso": {
-    "temp": 4,
-    "min": -1,
-    "max": 4,
+    "temp": 5,
+    "min": 0,
+    "max": 5,
     "symbol": "clearsky_day",
     "rain6": 0.0
    },
    "bergen": {
     "temp": 11,
-    "min": 11,
-    "max": 12,
+    "min": 10,
+    "max": 11,
     "symbol": "cloudy",
     "rain6": 0.0
    },
    "stavanger": {
-    "temp": 12,
+    "temp": 11,
     "min": 10,
-    "max": 12,
+    "max": 11,
     "symbol": "cloudy",
     "rain6": 0.0
    }
