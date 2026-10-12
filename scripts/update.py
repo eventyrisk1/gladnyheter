@@ -31,6 +31,15 @@ FEEDS = [
     ("NRK", "https://www.nrk.no/norge/toppsaker.rss", 1),
     ("Aftenposten", "https://www.aftenposten.no/rss", 1),
     ("VG", "https://www.vg.no/rss/feed", 1),
+    ("NRK Vestland", "https://www.nrk.no/vestland/toppsaker.rss", 1),
+    ("NRK Trøndelag", "https://www.nrk.no/trondelag/toppsaker.rss", 1),
+    ("NRK Nordland", "https://www.nrk.no/nordland/toppsaker.rss", 1),
+    ("NRK Troms og Finnmark", "https://www.nrk.no/tromsogfinnmark/toppsaker.rss", 1),
+    ("NRK Innlandet", "https://www.nrk.no/innlandet/toppsaker.rss", 1),
+    ("NRK Rogaland", "https://www.nrk.no/rogaland/toppsaker.rss", 1),
+    ("NTNU", "https://nyheter.ntnu.no/feed/", 3),
+    ("UiB", "https://www4.uib.no/forskning/aktuelt/feed", 3),
+    ("BirdLife Norge", "https://www.birdlife.no/rss/", 3),
 ]
 SPORT_FEEDS = [
     ("NRK", "https://www.nrk.no/sport/toppsaker.rss", 1),
