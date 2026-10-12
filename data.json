@@ -1,16 +1,10 @@
 {
- "updated": "2026-10-12T06:28",
+ "updated": "2026-10-12T07:22",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
-    {
-     "title": "Etter ti år kan de første bilene kjøre på ny vei",
-     "url": "https://www.tu.no/samferdsel/etter-ti-ar-kan-de-forste-bilene-kjore-pa-ny-vei/7144284",
-     "source": "Teknisk Ukeblad",
-     "summary": "6. desember skal det gå trafikk på 3,5 nye kilometre av E4 ved Stockholm."
-    },
     {
      "title": "Full utrykking då Norwegian-fly fekk tekniske problem",
      "url": "https://www.nrk.no/vestland/norwegian-fly-fra-bergen-sendte-naudmelding-1.18051903",
@@ -18,10 +12,16 @@
      "summary": "Eit Norwegian-fly til Berlin fekk søndag ettermmiddag varsel om tekniske problem og returnerte til Bergen med ein motor."
     },
     {
-     "title": "Nye regler skaper hodebry - slik er veien videre i City-saken",
-     "url": "https://www.nrk.no/sport/manchester-city-skandalen_-nye-regler-skaper-hodebry---slik-er-veien-videre-i-city-saken-1.18046597",
-     "source": "NRK",
-     "summary": "Nye regler, utallige straffemuligheter og enorm usikkerhet. Spørsmålene rundt Manchester City er mange – men noen svar har vi allerede fått."
+     "title": "FerdigheterElevene trenger en ny grunnleggende ferdighet",
+     "url": "https://www.utdanningsnytt.no/grunnleggende-ferdigheter-karin-kaellsmyr-marita-gallefoss/elevene-trenger-en-ny-grunnleggende-ferdighet/503785",
+     "source": "Utdanningsnytt",
+     "summary": "Debatt: Det er på høy tid å gjøre sosial og emosjonell kompetanse til en grunnleggende ferdighet."
+    },
+    {
+     "title": "Phasmophobia har solgt 30 millioner eksemplarer i «early access»",
+     "url": "https://www.gamer.no/artikler/phasmophobia-har-solgt-30-millioner-eksemplarer-i-early-access/521156",
+     "source": "Gamer.no",
+     "summary": ""
     }
    ]
   },
@@ -42,11 +42,10 @@
      "summary": "Dagligvaregigantene vil slå tilbake i retten mot påstander om at prisjegerne utgjør noe ulovlig samarbeid. Samtidig fortsetter prisjakten butikkene imellom."
     },
     {
-     "title": "Tjente 440 mill. på s­alg av solselskap – nå er over 200 mill. tapt på to år",
-     "url": "https://www.dn.no/marked/solcellespesialisten/solceller/energi/tjente-440-mill-pa-salg-av-solselskap-na-er-over-200-mill-tapt-pa-to-ar/2-1-2045518",
-     "source": "DN",
-     "summary": "Solgründer Carl Christian Strømberg ble rik da han solgte selskapet sitt for tre år siden. Så ble store deler av gevinsten til 45-åringen plassert i det nye selskapet. Det gikk helt galt.",
-     "paid": true
+     "title": "Vil ha 1000 nye trainee-stillinger i statsbudsjettet",
+     "url": "https://e24.no/norsk-oekonomi/i/kvvPbj/abid-raja-vil-ha-1000-nye-trainee-stillinger-i-statsbudsjettet",
+     "source": "E24",
+     "summary": "Venstretoppen sier regjeringen ikke kan vise til et eneste tiltak rettet mot nyutdannede det i det…"
     }
    ]
   },
@@ -61,16 +60,16 @@
      "summary": "Forskerne mener de viser at kjønnsforskjeller i adferd er til stede før babyene er påvirket av verden utenfor. Norsk forsker er skeptisk."
     },
     {
-     "title": "Når sier du nei takk? Lukt avgjør om kyllingen havner i panna eller søpla",
-     "url": "https://www.forskning.no/bioteknologi-mat-matsikkerhet/nar-sier-du-nei-takk-lukt-avgjor-om-kyllingen-havner-i-panna-eller-sopla/2717344",
+     "title": "Ny norsk studie: Flere får infeksjoner etter fødsel",
+     "url": "https://www.forskning.no/fodsel-kvinnehelse-partner/ny-norsk-studie-flere-far-infeksjoner-etter-fodsel/2716394",
      "source": "forskning.no",
-     "summary": "– Resultatene var tydelige. Ved 8 °C vokste bakteriene raskere, sier forsker."
+     "summary": "Enkelte av dem kan være livstruende."
     },
     {
-     "title": "Vulkanutbruddet som løste plattformenes plassproblemer",
-     "url": "https://www.tu.no/energi/vulkanutbruddet-som-loste-plattformenes-plassproblemer/6058960",
-     "source": "Teknisk Ukeblad",
-     "summary": "Fordi en gjeng askefaste forskere fikk ekstra tenketid, kan vi nå vi bytte ut hver fjerde gassturbin offshore med en varmeveksler og fjerne 25 prosent av utslippene – uten å tape energi."
+     "title": "Klarer du ukens forskningsquiz?",
+     "url": "https://www.forskning.no/helse-kultur-miljo/klarer-du-ukens-forskningsquiz/2721591",
+     "source": "forskning.no",
+     "summary": "Uke 41/2026: Ti spørsmål om det som har skjedd i forskningens verden denne uken."
     }
    ]
   },
@@ -78,18 +77,6 @@
    "id": "ki",
    "name": "Kunstig intelligens",
    "stories": [
-    {
-     "title": "Fedme, psykisk uhelse og KI blant de største helsetruslene mot Norge",
-     "url": "https://www.fhi.no/nyheter/2026/fedme-psykisk-uhelse-og-ki-blant-de-storste-helsetruslene-mot-norge/",
-     "source": "FHI",
-     "summary": "<img src=/contentassets/00bb8f9cc0dc4c3da73a25758daacb3b/siste-helsetrusler_infografikk-1000x667.png?preset=thumbnail&width=100>"
-    },
-    {
-     "title": "Hva skjer med lærer­rollen når KI blir hverdag?",
-     "url": "https://www.forskning.no/kronikk-kunstig-intelligens-meninger/hva-skjer-med-laererrollen-nar-ki-blir-hverdag/2719040",
-     "source": "forskning.no",
-     "summary": "KRONIKK: Kunstig intelligens kan føre skolen i tre svært forskjellige retninger, mener professor. Elevene kan få mer tid til med læreren eller mer tid foran skjermen."
-    },
     {
      "title": "Bare menn i Oljefondets AI-team: 12 av 116 søkere var kvinner",
      "url": "https://e24.no/teknologi/i/Oggpm3/bare-menn-i-oljefondets-ai-team-12-av-116-soekerne-var-kvinner",
@@ -102,12 +89,6 @@
    "id": "natur",
    "name": "Natur og miljø",
    "stories": [
-    {
-     "title": "Dette stopper villreinen på dens vei",
-     "url": "https://www.forskning.no/dyreverden-norsk-institutt-for-naturforskning-partner/dette-stopper-villreinen-pa-dens-vei/2716166",
-     "source": "forskning.no",
-     "summary": "Økt ferdsel fra mennesker gjør at dyrene slutter å bruke gamle trekkruter. Det kan få alvorlige konsekvenser for dem."
-    },
     {
      "title": "Kvinnen som har formet norsk spillbransje",
      "url": "https://www.gamer.no/artikler/kvinnen-som-har-formet-norsk-spillbransje/520988",
@@ -125,12 +106,6 @@
      "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
      "source": "Psykologisk.no",
      "summary": "Både humøret, tarmfloraen og søvnen påvirkes av kaffe. Ny forskning av­dekker stadig flere effekter som den populære drikken har på kroppen."
-    },
-    {
-     "title": "Dette skjer i hjernen når du leser",
-     "url": "https://www.forskning.no/hjernen-kognitiv-vitenskap-kultur/dette-skjer-i-hjernen-nar-du-leser/2720376",
-     "source": "forskning.no",
-     "summary": "POPULÆRVITENSKAP: Å lære å lese er en langvarig prosess som gradvis former hjernens nettverk for språk og syn til et integrert system for lesing."
     }
    ]
   },
@@ -144,13 +119,6 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Ujevnt drama om Facebook-varslersaken",
-     "url": "https://vink.aftenposten.no/artikkel/GrraG9/ujevnt-drama-om-facebook-varslersaken",
-     "source": "Aftenposten",
-     "summary": "Aaron Sorkins oppfølger til «The Social Network» er av den gamle skolen.",
-     "paid": true
-    },
-    {
      "title": "Tilbyr barnehagelærere millionlønn",
      "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
      "source": "Utdanningsnytt",
@@ -161,26 +129,19 @@
      "url": "https://www.utdanningsnytt.no/leseopplaering-toril-karstad/nar-lesingen-ikke-kommer-av-seg-selv/503865",
      "source": "Utdanningsnytt",
      "summary": "Debatt: Ikke alle barn lærer å lese intuitivt. Derfor må begynneropplæringen være systematisk og kunnskapsbasert."
+    },
+    {
+     "title": "Testparadokset: Middelmådige på ungdomsskolen – i verdenstoppen som voksne",
+     "url": "https://www.utdanningsnytt.no/pisa/testparadokset-middelmadige-pa-ungdomsskolen-i-verdenstoppen-som-voksne/502722",
+     "source": "Utdanningsnytt",
+     "summary": "Bemerkelsesverdig, konkluderte Fellesskoleutvalget. Hvorfor er vi landet med lavtpresterende ungdommer og høytpresterende voksne?"
     }
    ]
   },
   {
    "id": "tro",
    "name": "Tro og livssyn",
-   "stories": [
-    {
-     "title": "Støre trakk frem Palestina-engasjement",
-     "url": "https://www.vl.no/nyheter/store-trakk-frem-palestina-engasjement/10576879",
-     "source": "Vårt Land",
-     "summary": "FARVEL: – Michael Melchior har betydd mye for meg, sier statsminister Jonas Gahr Støre til Vårt Land. Søndag takket topper fra politikk, livssyn og samfunnsliv av overrabbineren etter 50 år."
-    },
-    {
-     "title": "Norrøn kirkeruin funnet på Grønland",
-     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
-     "source": "forskning.no",
-     "summary": "Funnet av et skjelett avslører en ukjent kirke fra den norrøne bosettingens tid på Sør-Grønland, ikke langt fra Erik Raudes bosted."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "aand",
@@ -216,11 +177,10 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "DeLillos redder de vanskelige 20-årene",
-     "url": "https://vink.aftenposten.no/artikkel/Jrb2JX/delillos-redder-de-vanskelige-20-aarene",
-     "source": "Aftenposten",
-     "summary": "Rikke Gregersens langfilmdebut er på sitt beste som en klassisk DeLillos-låt.",
-     "paid": true
+     "title": "Nå kan du nominere kandidater til Musikkforleggerprisen",
+     "url": "https://www.ballade.no/bransjen/na-kan-du-nominere-kandidater-til-musikkforleggerprisen/",
+     "source": "Ballade",
+     "summary": "Frist for å sende inn nominasjoner er 8. november 2026."
     },
     {
      "title": "Spillere kan for første gang høre på musikk og podcast til fots i GTA VI",
@@ -229,10 +189,10 @@
      "summary": "Rockstar delte nytt om spillets radiostasjoner."
     },
     {
-     "title": "Nå kan du nominere kandidater til Musikkforleggerprisen",
-     "url": "https://www.ballade.no/bransjen/na-kan-du-nominere-kandidater-til-musikkforleggerprisen/",
+     "title": "Ballade video: Koke bjørn",
+     "url": "https://www.ballade.no/musikkvideo/ballade-video-koke-bjorn/",
      "source": "Ballade",
-     "summary": "Frist for å sende inn nominasjoner er 8. november 2026."
+     "summary": "Levende bilder og levende lyd med Emil Kárlsen, Truls, Juli Von Lou, The Flow, Eie, Bokassa, Gothminister. Og en mini-konsert med Uld."
     }
    ]
   },
@@ -245,13 +205,6 @@
      "url": "https://www.psykologisk.no/nyheter/kan-humor-lindre-depresjoner/163994",
      "source": "Psykologisk.no",
      "summary": "Humor kan ha sin plass i behandlingen av depresjon, men brukes det feil kan det gjøre vondt verre, konkluderer en litteraturgjennomgang."
-    },
-    {
-     "title": "50 år i litteraturens tjeneste",
-     "url": "https://www.aftenposten.no/kultur/i/qyW7wg/anmeldelse-roman-av-herbjoerg-wassmo-besettelse",
-     "source": "Aftenposten",
-     "summary": "Anmeldelse roman av Herbjørg Wassmo «Besettelse»",
-     "paid": true
     }
    ]
   },
@@ -266,18 +219,16 @@
      "summary": "Flysimulatoren solgte én million raskere enn noe tidligere innslag."
     },
     {
-     "title": "Vakker, men litt kjedelig Austen-film",
-     "url": "https://vink.aftenposten.no/artikkel/MAnGbE/vakker-men-litt-kjedelig-austen-film",
-     "source": "Aftenposten",
-     "summary": "Regissør Georgia Oakleys versjon av Jane Austens klassiker er mer inderlig enn skarp og satirisk.",
-     "paid": true
+     "title": "Han blei helt i Tyskland – dette tenker den tidlegare trenaren om Vikings møte med Bayern",
+     "url": "https://www.nrk.no/rogaland/arne-larsen-okland-blei-helt-i-tyskland-_-dette-trur-han-om-viking-sin-kamp-mot-bayern-munchen-1.18049196",
+     "source": "NRK",
+     "summary": "Arne Larsen Økland blir framleis hylla for bragda i 1981. No kjem Bayern München til Stavanger, og 72-åringen trur eit mirakel er mogleg."
     },
     {
-     "title": "Hinter kanskje om en vridning i hele dansefeltet",
-     "url": "https://www.aftenposten.no/kultur/i/kvMjzQ/hinter-kanskje-om-en-vridning-i-hele-dansefeltet",
-     "source": "Aftenposten",
-     "summary": "Nasjonalballetten skinner i León & Lightfoots hyllest til ballettklassen.",
-     "paid": true
+     "title": "Cyberpunk 2077-film på vei fra Paramount",
+     "url": "https://www.gamer.no/artikler/cyberpunk-2077-film-pa-vei-fra-paramount/521143",
+     "source": "Gamer.no",
+     "summary": ""
     }
    ]
   },
@@ -852,14 +803,14 @@
   "power_tomorrow": {},
   "weather": {
    "oslo": {
-    "temp": 4,
-    "min": 4,
+    "temp": 3,
+    "min": 3,
     "max": 10,
     "symbol": "clearsky_day",
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 2,
+    "temp": 1,
     "min": 1,
     "max": 10,
     "symbol": "partlycloudy_day",
@@ -874,22 +825,22 @@
    },
    "tromso": {
     "temp": -1,
-    "min": -1,
+    "min": -2,
     "max": 3,
     "symbol": "fair_day",
     "rain6": 0.0
    },
    "bergen": {
-    "temp": 7,
-    "min": 7,
-    "max": 11,
+    "temp": 8,
+    "min": 8,
+    "max": 12,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "stavanger": {
-    "temp": 7,
-    "min": 7,
-    "max": 11,
+    "temp": 8,
+    "min": 8,
+    "max": 12,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    }
