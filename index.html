@@ -98,6 +98,12 @@ li:not(:first-child) .item p{color:var(--muted)}
 .today-row strong{font-family:var(--display);font-size:1.15rem;font-weight:700;font-variant-numeric:tabular-nums}
 .pushbtn{font:inherit;font-size:13px;font-weight:600;padding:5px 12px;border-radius:999px;border:1px solid var(--fjord);background:var(--fjord-soft);color:var(--fjord);cursor:pointer}
 .pushbtn.on{background:transparent;border-color:var(--line);color:var(--muted);font-weight:500}
+.fbar{display:flex;height:8px;border-radius:99px;overflow:hidden;margin:6px 0 6px;background:var(--line)}
+.fbar i{display:block;height:100%}
+.flist{display:flex;flex-wrap:wrap;gap:2px 12px;font-size:12px;color:var(--muted)}
+.flist span{white-space:nowrap}
+.flist span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;background:var(--c)}
+.ffeel{margin-top:4px;font-size:13px}
 .today .note{font-size:12px;color:var(--muted)}
 .since{font-family:var(--ui);font-size:13px;color:var(--muted);margin:14px 0 0}
 .since b{color:var(--fg)}
@@ -180,6 +186,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
       <label class="note">Område <select id="gn-area"></select></label></div>
     <div class="today-row"><b>Vær</b><span id="gn-weather">–</span></div>
     <div class="today-row"><b>Strøm</b><span id="gn-power">–</span></div>
+    <div class="today-row" id="gn-filter-row" hidden><b>Filter</b><span id="gn-filter"></span></div>
     <div class="today-row" id="gn-push" hidden><b>Varsel</b><span><button type="button" class="pushbtn" id="gn-push-btn" hidden>Få varsel kl. 7 og 16</button> <span class="note" id="gn-push-msg"></span></span></div>
     <div class="note">Strømpris er spotpris inkl. mva, uten nettleie og påslag. Kilder: hvakosterstrommen.no og Meteorologisk institutt.</div>
   </section>
@@ -249,7 +256,7 @@ function render(data){
     });
     sec.appendChild(ol);grid.appendChild(sec);
   });
-  renderToday(data.today);markNew(data);buildPicker(cats);watchSwipe();
+  renderToday(data.today);renderStats(data.stats);markNew(data);buildPicker(cats);watchSwipe();
 }
 function carousel(){return window.matchMedia&&matchMedia('(max-width:819px)').matches;}
 function watchSwipe(){
@@ -334,6 +341,20 @@ var QUOTES=[
 var WX={clearsky:"Klarvær",fair:"Lettskyet",partlycloudy:"Delvis skyet",cloudy:"Skyet",fog:"Tåke",lightrain:"Lett regn",rain:"Regn",heavyrain:"Kraftig regn",lightrainshowers:"Lette regnbyger",rainshowers:"Regnbyger",heavyrainshowers:"Kraftige regnbyger",lightsleet:"Lett sludd",sleet:"Sludd",heavysleet:"Kraftig sludd",lightsleetshowers:"Sluddbyger",sleetshowers:"Sluddbyger",lightsnow:"Lett snø",snow:"Snø",heavysnow:"Kraftig snø",lightsnowshowers:"Snøbyger",snowshowers:"Snøbyger",heavysnowshowers:"Kraftige snøbyger"};
 function wxText(code){if(!code)return"";var c=code.replace(/_(day|night|polartwilight)$/,"");if(/thunder/.test(c))return"Torden";return WX[c]||"";}
 function fmt(n){return String(Math.round(n)).replace("-","−");}
+function renderStats(st){
+  if(!st||!st.total)return;var row=document.getElementById('gn-filter-row'),box=document.getElementById('gn-filter');box.textContent='';
+  var L={krim:['krim og ulykker','#b5654a'],konflikt:['konflikter og storpolitikk','#9a7b4f'],sykdom:['sykdom og død','#8a7f9e'],kjendis:['klikkagn, kjendis og reklame','#c9a03a'],uro:['kriser og uro','#7f8c86'],gammel:['for gamle','#b7c0bb'],betalt:['bak betalingsmur','#a3b4bf']};
+  var head=el('span');head.appendChild(el('strong',null,String(st.chosen)));head.appendChild(document.createTextNode(' av '+st.total+' saker valgt ved siste oppdatering'));box.appendChild(head);
+  var bar=el('div','fbar');bar.setAttribute('aria-hidden','true');var list=el('div','flist');
+  function seg(n,c,label){if(!n)return;var i=el('i');i.style.width=(100*n/st.total)+'%';i.style.background=c;i.title=n+' '+label;bar.appendChild(i);var sp=el('span',null,n+' '+label);sp.style.setProperty('--c',c);list.appendChild(sp);}
+  seg(st.chosen,'#3f9a6e','valgt');
+  var rm=st.removed||{},keys=Object.keys(rm).filter(function(k){return L[k];}).sort(function(a,b){return rm[b]-rm[a];});
+  keys.forEach(function(k){seg(rm[k],L[k][1],L[k][0]);});
+  seg(st.notchosen,'#c9d1cc','ikke blant de beste');
+  box.appendChild(bar);box.appendChild(list);
+  var heavy=['krim','konflikt','sykdom','kjendis','uro'].reduce(function(a,k){return a+(rm[k]||0);},0);
+  if(heavy){var f=el('div','ffeel','🌿 Du slapp '+heavy+' tunge eller tomme overskrifter. ');var a=el('a',null,'Slik fungerer filteret');a.href='/om';f.appendChild(a);box.appendChild(f);}
+  row.hidden=false;document.getElementById('today').hidden=false;}
 function renderToday(t){
   if(!t||!t.areas)return;
   var sel=document.getElementById('gn-area');sel.textContent="";
