@@ -1,27 +1,21 @@
 {
- "updated": "2026-10-12T22:28",
+ "updated": "2026-10-12T23:25",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Tankmelk blir tilgjengelig i dagligvarebutikker",
+     "title": "Togstreiken til tvungen megling hos Riksmekleren",
+     "url": "https://www.aftenposten.no/norge/i/AbGg5z/tvungen-megling-i-togstreiken",
+     "source": "Aftenposten",
+     "summary": "Partene i togstreiken skal møtes hos Riksmekleren på fredag for å forsøke å finne en løsning."
+    },
+    {
+     "title": "Melkebønder på Jæren tilbyr tankmelk i dagligvarebutikker",
      "url": "https://www.nrk.no/rogaland/na-kan-du-fa-tankmjolk-i-daglegvarebutikk-1.18034250",
      "source": "NRK Rogaland",
-     "summary": "Melkebønder på Jæren opplever stor etterspørsel etter fersk tankmelk og tester nå ut salg i et større dagligvaremarked."
-    },
-    {
-     "title": "Senter for psykisk helse får midler over statsbudsjettet",
-     "url": "https://nyheter.ntnu.no/senter-for-psykisk-helse-far-midler-i-statsbudsjettet/",
-     "source": "NTNU",
-     "summary": "Regjeringens forslag til statsbudsjett gir et viktig økonomisk løft til NTNU og St. Olavs hospitals felles satsing på psykisk helse."
-    },
-    {
-     "title": "Spillmiljøet har samlet inn over 12 millioner kroner til kreftsaken",
-     "url": "https://www.gamer.no/artikler/har-samlet-inn-over-12-millioner-kroner-til-kampen-mot-barnekreft/521147",
-     "source": "Gamer.no",
-     "summary": "Komplett arrangerer en tre dager lang spillsending for å samle inn ytterligere midler til forskning på barnekreft."
+     "summary": "Bøndene på Line opplever stor interesse for fersk tankmelk og satser nå på et større marked i vanlige butikker."
     }
    ]
   },
@@ -30,22 +24,16 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Nobels minnepris i økonomi tildelt amerikanske forskere",
+     "title": "Nobels minnepris i økonomi tildelt for forskning på makroøkonomisk stabilisering",
      "url": "https://www.forskning.no/ntb-okonomi/vinner-nobels-minnepris-i-okonomi-for-stabilisering/2722778",
      "source": "forskning.no",
-     "summary": "Robert E. Hall og Michael Woodford tildeles prisen for sitt arbeid med mikroøkonomiske grunnlag for makroøkonomisk stabilisering."
+     "summary": "Amerikanerne Robert E. Hall og Michael Woodford er tildelt årets økonomipris for sitt arbeid med mikroøkonomiske grunnlag for stabilisering."
     },
     {
      "title": "Gründere kan spare store summer på bedre skattekunnskap",
      "url": "https://e24.no/naeringsliv/i/V6KpR6/regnskapsfoerer-mener-grundere-kan-spare-tusenvis",
      "source": "E24",
-     "summary": "Regnskapsførere peker på at mange selvstendig næringsdrivende går glipp av fradrag og skattefordeler fordi de ikke kjenner regelverket godt nok."
-    },
-    {
-     "title": "Boligprisene stiger i Nord-Norge mot den vanlige høsttrenden",
-     "url": "https://www.nrk.no/tromsogfinnmark/boligpriser-oker-flere-steder-i-nord-og-synker-pa-ostlandet-1.18052298",
-     "source": "NRK Troms og Finnmark",
-     "summary": "Mens boligprisene normalt faller i tredje kvartal og synker på Østlandet, viser ferske tall fra Eiendom Norge prisvekst flere steder i nord."
+     "summary": "Mange selvstendig næringsdrivende går glipp av fradrag og penger fordi de ikke kjenner skattereglene godt nok, påpeker regnskapsfører."
     }
    ]
   },
@@ -54,22 +42,16 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Nye romteleskopet ARRAKHIS skal jakte på mørk materie",
+     "title": "Norske forskere bidrar til nytt teleskop som skal utforske mørk materie",
      "url": "https://www.tu.no/industri/haloer-fra-slukte-galakser-kan-gi-kunnskap-om-hva-mork-materie-er/5702909",
      "source": "Teknisk Ukeblad",
-     "summary": "Norske forskere deltar i utviklingen av et romteleskop som skal skytes opp i 2030 for å kartlegge svake spor etter tidligere galakser."
+     "summary": "Romteleskopet ARRAKHIS planlegges skutt opp i 2030 for å studere svake spor etter tidligere galakser."
     },
     {
-     "title": "Amerikanske forskere bygger hus av resirkulert risskall",
-     "url": "https://www.nettavisen.no/nyheter/risskall-blir-barekraftig-og-bestandig-kledning-bygger-hus-av-landbruksavfall/s/80-95-151928",
-     "source": "Nettavisen",
-     "summary": "Millioner av tonn med risavfall blir nå tatt i bruk som et robust og miljøvennlig byggemateriale i USA."
-    },
-    {
-     "title": "Norske mikrobrikker sikrer høydemåling i passasjerfly",
-     "url": "https://www.tu.no/samferdsel/skal-du-ut-og-fly-da-males-hoyden-trolig-med-norsk-brikke/7141811",
+     "title": "Norsk forskning kutter plassbehov og gassturbiner offshore",
+     "url": "https://www.tu.no/energi/vulkanutbruddet-som-loste-plattformenes-plassproblemer/6058960",
      "source": "Teknisk Ukeblad",
-     "summary": "På Gaustad i Oslo produseres spesialiserte trykksensorer som benyttes til nøyaktig høydemåling i kommersielle rutefly over hele verden."
+     "summary": "Forskere har utviklet en løsning der varmevekslere kan erstatte hver fjerde gassturbin på olje- og gassplattformer."
     }
    ]
   },
@@ -78,22 +60,16 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Meta lanserer den nye AI-modellen Muse Wonder",
+     "title": "Meta avduker ny avansert KI-modell",
      "url": "https://e24.no/boers-og-finans/i/OgWGWE/mark-zuckerberg-meta-har-tatt-igjen-ai-rivaler-med-ny-modell",
      "source": "E24",
-     "summary": "Meta har lansert en ny modell som ifølge selskapet henter inn forspranget til rivalene, noe som ga aksjeoppgang på Wall Street."
+     "summary": "Meta har lansert modellen Muse Wonder, som ifølge selskapet tar igjen konkurrentene på feltet."
     },
     {
-     "title": "NRK forbyr KI-genererte bidrag i Melodi Grand Prix",
+     "title": "NRK forbyr sanger skapt av kunstig intelligens i MGP",
      "url": "https://www.aftenposten.no/kultur/i/n9mJvm/nrk-stenger-doeren-for-ki-skapte-sanger-i-mgp",
      "source": "Aftenposten",
-     "summary": "I motsetning til nabolandene har NRK bestemt at låter skapt ved hjelp av kunstig intelligens ikke slipper gjennom til den norske finalen."
-    },
-    {
-     "title": "Kjøredemo drevet av KI koster utviklerne store summer daglig",
-     "url": "https://www.pressfire.no/artikkel/betaler-over-10-000-kroner-hver-dag-for-a-holde-ai-demo-i-live",
-     "source": "Pressfire",
-     "summary": "Skaperne av kjøresimulatoren «Teach My Little Sister How To Drive» må betale over 10 000 kroner hver dag for å holde den populære demonstrasjonen i luften."
+     "summary": "NRK har bestemt at ingen KI-genererte bidrag får delta i den norske Melodi Grand Prix-konkurransen."
     }
    ]
   },
@@ -102,22 +78,22 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Sjelden vestindiapetrell observert i Norden for første gang",
+     "title": "Sjelden vestindiapetrell observert for første gang i Norden",
      "url": "https://www.birdlife.no/fuglekunnskap/nyheter/?id=4102",
      "source": "BirdLife Norge",
-     "summary": "En vestindiapetrell ble observert og artsbestemt ved Lista fyr i Agder, noe som markerer et historisk førstegangsfunn i Norden."
+     "summary": "Den sjeldne sjøfuglen ble nylig oppdaget og artsbestemt ved Lista fyr i Agder."
     },
     {
-     "title": "Kjempestor vannliljeart oppdaget etter planteselfie",
+     "title": "Oppdaget ny kjempevannlilje gjennom deling av plantebilder",
      "url": "https://www.forskning.no/blomst-botanikk-planteverden/ny-svaer-vannlilje-oppdaget-det-begynte-med-en-selfie/2721909",
      "source": "forskning.no",
-     "summary": "En botanikers personlige bilder i sosiale medier ledet forskere frem til oppdagelsen av en helt ny art av kjempevannlilje."
+     "summary": "En botanikers ivrige fotografering av planter har ført til oppdagelsen av en helt ny art kjempevannlilje."
     },
     {
-     "title": "Stort fugletrekk skapte entusiasme under EuroBirdwatch",
+     "title": "Stor fugleglede under EuroBirdwatch på Helgeland",
      "url": "https://www.birdlife.no/organisasjonen/fylkesavdelinger/nordland/nyheter/?id=4103",
      "source": "BirdLife Norge",
-     "summary": "Fugleinteresserte på Sør-Helgeland samlet seg for å observere hundrevis av kortnebbgjess og trost under det årlige arrangementet."
+     "summary": "Fugleentusiaster samlet seg til en sosial høstdag fylt med observasjoner av hundrevis av gjess og troster."
     }
    ]
   },
@@ -126,16 +102,16 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Forskning undersøker humorens rolle i behandling av depresjon",
+     "title": "Forskning viser at humor kan ha en plass i behandling av depresjon",
      "url": "https://www.psykologisk.no/nyheter/kan-humor-lindre-depresjoner/163994",
      "source": "Psykologisk.no",
-     "summary": "En litteraturgjennomgang viser at riktig dosert humor kan ha en positiv effekt, men at tilnærmingen må tilpasses den enkelte for ikke å virke mot sin hensikt."
+     "summary": "En litteraturgjennomgang konkluderer med at riktig bruk av humor kan lindre depressive plager."
     },
     {
-     "title": "Ekspert deler fire mentale grep for å mestre uforutsette kriser",
-     "url": "https://www.psykologisk.no/nyheter/fire-grep-som-stotter-deg-nar-krisen-rammer/164312",
+     "title": "Ny forskning avdekker hvordan kaffe påvirker kropp og sinn",
+     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
      "source": "Psykologisk.no",
-     "summary": "Tidligere leder i Beredskapstroppen presenterer en praktisk modell som skal hjelpe folk med å holde hodet kaldt og støtte seg selv under press."
+     "summary": "Forskere ser stadig nye sammenhenger mellom kaffedrikking, forbedret humør, tarmhelse og søvnmønstre."
     }
    ]
   },
@@ -144,16 +120,10 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Ny forskning kartlegger hvordan kaffe påvirker tarm og hjerne",
-     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
-     "source": "Psykologisk.no",
-     "summary": "Forskere avdekker stadig nye sammenhenger mellom kaffedrikking og kroppens funksjoner, deriblant endringer i humør, tarmflora og søvnmønster."
-    },
-    {
-     "title": "Dette er årsaken til at starten på joggeturen føles tyngst",
+     "title": "Dette er forklaringen på hvorfor starten på joggeturen kjennes tyngst",
      "url": "https://www.nrk.no/trondelag/dette-gjor-starten-pa-joggeturen-sa-toff-_-handler-ikke-om-at-man-er-i-darlig-form-1.18043184",
      "source": "NRK",
-     "summary": "Kroppens overgang fra hvile til aerob forbrenning krever tid, og fysiologiske prosesser forklarer hvorfor de første minuttene med løping oppleves så seige."
+     "summary": "Fysiologiske prosesser i kroppen gjør at musklene og kretsløpet trenger litt tid før løpeøkten føles lettere."
     }
    ]
   },
@@ -162,22 +132,22 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Nordland etablerer nytt samlingstilbud for elever med høyt læringspotensial",
+     "title": "Nytt tilbud i Nordland samler elever med stort læringspotensial",
      "url": "https://www.nrk.no/nordland/elever-med-stort-laeringspotensial-far-eget-tilbud-i-nordland-1.18051567",
      "source": "NRK Nordland",
-     "summary": "Ungdommer fra hele fylket ble samlet i Mo i Rana for å få faglig påfyll og fellesskap tilpasset elever som lærer raskere enn gjennomsnittet."
+     "summary": "Ungdommer fra hele fylket møttes i Mo i Rana til et nytt skoletilbud tilpasset elever som lærer raskere enn gjennomsnittet."
     },
     {
-     "title": "Derfor er risikolek og skrubbsår viktig for barns mestring",
+     "title": "Derfor gir risikolek verdifull livsmestring for barn",
      "url": "https://www.barnehage.no/skrubbsar-gir-livsmestring/278412",
      "source": "Barnehage.no",
-     "summary": "Fagfolk fremhever at barn bygger robusthet og verdifull livsmestring når de får utfordre egne fysiske grenser i trygge rammer."
+     "summary": "Å få prøve seg i utfordrende lek bygger barns selvtillit og mestringsfølelse for fremtiden."
     },
     {
-     "title": "Bemanningsbyrå frister barnehagelærere med topplønn",
+     "title": "Bemanningsbyrå frister barnehagelærere med millionlønn",
      "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
      "source": "Utdanningsnytt",
-     "summary": "Et nytt byrå går offensivt ut og tilbyr pedagogiske ledere opptil én million kroner i årslønn for å dekke bemanningsbehovet."
+     "summary": "Et nytt bemanningsselskap tilbyr opp mot én million kroner i årslønn for å tiltrekke seg kvalifiserte barnehagelærere."
     }
    ]
   },
@@ -189,13 +159,13 @@
      "title": "Roger Jensen tildelt Olavsstipendet for 2027",
      "url": "https://www.vl.no/nyheter/han-far-olavsstipendet-for-2027/10578861",
      "source": "Vårt Land",
-     "summary": "Den Norske Kirke har tildelt Jensen årets forskningsstipend for å gjennomføre et nytt fordypningsprosjekt."
+     "summary": "Den Norske Kirke har tildelt Olavsstipendet til Roger Jensen for et nytt fordypningsprosjekt."
     },
     {
-     "title": "Ingeborg Heldal reflekterer over kristne tradisjoner og barndommens tro",
+     "title": "Ingeborg Heldal deler gode minner om kirkemusikk og barndommens tro",
      "url": "https://www.vl.no/nyheter/hvor-kristen-ma-man-vaere-for-a-kalle-seg-kristen/10567926",
      "source": "Vårt Land",
-     "summary": "Redaktøren forteller om oppveksten med aftenbønn og søndagsskole, og hvordan kirkemusikk og tradisjoner fortsatt gir ro og glede."
+     "summary": "Redaktøren forteller varmt om sin oppvekst med kristenleir og sin kjærlighet til julegudstjenester og høytidstradisjoner."
     }
    ]
   },
@@ -204,40 +174,27 @@
    "name": "Ånd og spiritualitet",
    "stories": [
     {
-     "title": "Tradisjonell kulokk kan vise vei til dypere naturopplevelser",
+     "title": "Mener kulokk kan gjenopprette menneskets kontakt med naturen",
      "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
      "source": "forskning.no",
-     "summary": "Forsker Alizeé Piel trekker frem den gamle lokketradisjonen som en sanselig inngang til å gjenopprette et nært og harmonisk bånd til naturen."
+     "summary": "Den tradisjonsrike lokkemetoden trekkes frem som et vakkert eksempel på hvordan man kan finne ro og dypere samspill med omgivelsene."
     }
    ]
   },
   {
    "id": "kunst",
    "name": "Kunst",
-   "stories": [
-    {
-     "title": "Norsk barnebokinstitutt inviterer til verksted om poesi og bildekunst",
-     "url": "https://barnebokinstituttet.no/uncategorized/hvordan-skape-poesi-i-ord-og-bilde-et-dykk-i-det-poetiske-spraket/",
-     "source": "Norsk barnebokinstitutt",
-     "summary": "Forfattere og illustratører samles til et fagseminar dedikert til samspillet mellom det visuelle uttrykket og poetisk språk."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "musikk",
    "name": "Musikk",
    "stories": [
     {
-     "title": "Ny studie ser på når voksne mister gleden av å synge",
+     "title": "Møtet med barn hjalp studenter med å overvinne sangfrykt",
      "url": "https://www.forskning.no/barnehage-kultur-partner/nar-begynner-vi-a-bli-redde-for-a-synge/2716190",
      "source": "forskning.no",
-     "summary": "Lærerstudenter som kviet seg for å synge høyt, fikk et helt nytt perspektiv på sangglede etter møter med uhemmede barn."
-    },
-    {
-     "title": "Komponist Mick Gordon utelukker ikke en fremtidig retur til Doom",
-     "url": "https://www.gamereactor.no/mick-gordon-aapner-for-doom-retur-under-rette-forhold/",
-     "source": "Gamereactor",
-     "summary": "Den anerkjente spillkomponisten bekrefter at han er villig til å lage ny musikk til serien dersom rammene og vilkårene er de rette."
+     "summary": "Forskning viser at studenter som gruet seg til å synge, fant sangglede og trygghet da de sang sammen med barn."
     }
    ]
   },
@@ -246,16 +203,16 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Forskning belyser hvordan forfattere formidler krevende temaer for barn",
-     "url": "https://barnebokinstituttet.no/aktuelt/det-handler-ikke-om-hva-men-om-hvordan-om-sensitiv-tematikk-i-barneboker/",
+     "title": "Inviterer forfattere og tegnere til verksted om poetisk språk",
+     "url": "https://barnebokinstituttet.no/uncategorized/hvordan-skape-poesi-i-ord-og-bilde-et-dykk-i-det-poetiske-spraket/",
      "source": "Norsk barnebokinstitutt",
-     "summary": "En ny studie undersøker hvilke litterære og språklige grep forfattere og redaktører tar i bruk når de formidler sensitiv tematikk til unge lesere."
+     "summary": "NBU og Norsk barnebokinstitutt arrangerer seminar og workshop for å utforske poesi i tekst og illustrasjoner."
     },
     {
-     "title": "Kristin Jobraaten overtar lederstolen i Norsk barnebokinstitutt",
+     "title": "Kristin Jobraaten tilsatt som ny direktør ved Norsk barnebokinstitutt",
      "url": "https://barnebokinstituttet.no/aktuelt/kristin-jobraaten-blir-ny-direktor/",
      "source": "Norsk barnebokinstitutt",
-     "summary": "Jobraaten er utnevnt til ny direktør og ser frem til å lede instituttets faglige arbeid for barne- og ungdomslitteraturen."
+     "summary": "Jobraaten ser frem til å lede instituttets fagmiljø og styrke arbeidet for barne- og ungdomslitteraturen."
     }
    ]
   },
@@ -264,16 +221,16 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Ukjent norrøn kirkeruin oppdaget på Sør-Grønland",
+     "title": "Ukjent norrøn kirkeruin funnet på Sør-Grønland",
      "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
      "source": "forskning.no",
-     "summary": "Arkeologer har funnet rester etter en tidligere ukjent kirke fra nordboernes bosettingstid, like ved områdene der Erik Raude slo seg ned."
+     "summary": "Arkeologer har avdekket en ukjent kirke fra nordboernes tid i nærheten av Erik Raudes historiske boplass."
     },
     {
-     "title": "Fredrik Solvang vender tilbake til NRK som leder for «Yachten»",
-     "url": "https://www.aftenposten.no/kultur/i/Wgo3rK/solvang-tilbake-som-programleder-i-nrk",
-     "source": "Aftenposten",
-     "summary": "Den kjente programlederen inntar skjermen igjen med en helt ny storsatsing hos allmennkringkasteren."
+     "title": "Setter inn tiltak for å verne historiske helleristninger i Alta",
+     "url": "https://www.nrk.no/tromsogfinnmark/verdensarv-i-fare_-helleristninger-slites-ned-av-turgaere-1.18051417",
+     "source": "NRK Troms og Finnmark",
+     "summary": "Verdensarvsenteret iverksetter tiltak for å ta vare på de tusenvis av år gamle helleristningene mot slitasje fra turgåere."
     }
    ]
   },
@@ -282,22 +239,22 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "«Ace Combat 8» høster lovord for spektakulære luftkamper",
+     "title": "«Ace Combat 8» hylles som en ny spilljuvel",
      "url": "https://www.pressfire.no/artikkel/har-du-tid-til-enda-en-liten-spilljuvel-i-ar",
      "source": "Pressfire",
-     "summary": "Det nyeste spillet i flyserien roses opp i skyene av anmeldere for god spillmekanikk og fantastisk grafisk presentasjon."
+     "summary": "Det nye flyactionspillet innfrir forventningene og leverer topp underholdning for sjangerens tilhengere."
     },
     {
-     "title": "Spillmessen i Kristiansand rigger for rekordhelg",
+     "title": "Spillmessen i Kristiansand setter ny deltakerrekord",
      "url": "https://spillhistorie.no/2026/10/12/spillmessen-i-kristiansand-blir-storre-enn-noensinne/",
      "source": "Spillhistorie.no",
-     "summary": "Arrangørene utvider arealene og melder om historisk stor interesse foran årets messe for brett- og dataspillentusiaster."
+     "summary": "Messen arrangeres denne helgen med et større og mer innholdsrikt tilbud for spillinteresserte enn noensinne."
     },
     {
-     "title": "Klassikeren Machinarium får oppfølger etter 17 år",
+     "title": "Det kritikerroste eventyrspillet Machinarium får oppfølger",
      "url": "https://www.gamer.no/artikler/machinarium-sjarmerte-oss-i-senk-17-ar-senere-kommer-oppfolgeren/521149",
      "source": "Gamer.no",
-     "summary": "Det sjarmerende pek-og-klikk-eventyret skal endelig få en fullverdig oppfølger, melder utviklerne."
+     "summary": "17 år etter braksuksessen med det sjarmerende robotspelet er det bekreftet at en oppfølger er underveis."
     }
    ]
   },
@@ -306,38 +263,38 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Per Strand Hagenes vant det tradisjonsrike franske endagsrittet",
+     "title": "Per Strand Hagenes med råsterk seier i Frankrike",
      "url": "https://www.aftenposten.no/sport/i/77mK0W/hagenes-med-knallsterk-seier-i-fransk-endagsritt",
      "source": "Aftenposten",
-     "summary": "Den norske Visma-syklisten sto for en imponerende avslutning og sikret en overlegen seier på fransk jord."
+     "summary": "Den norske syklisten fra Visma gikk til topps i det tradisjonsrike franske endagsrittet etter en overbevisende avslutning."
     },
     {
-     "title": "Gustav Iden sikret heroisk VM-sølv på Hawaii etter tidsstraff",
+     "title": "Gustav Iden sikret VM-sølv etter forrykende opphenting på Hawaii",
      "url": "https://www.aftenposten.no/sport/i/vl6vRV/vm-soelv-til-norge-etter-heroisk-opphenting-straff-kostet-trolig-gullet",
      "source": "Aftenposten",
-     "summary": "Triatleten løp seg mesterlig opp fra niendeplass og kapret sølvet, til tross for at han måtte sone en tre minutters tidsstraff."
+     "summary": "Den norske triatleten løp seg opp fra en niendeplass til andreplass til tross for en tidsstraff underveis."
     },
     {
-     "title": "Tidligere VM-medaljør Cecilie Uttrup Ludwig forsterker Uno-X",
+     "title": "Uno-X styrker stallen med dansk VM-medaljør",
      "url": "https://www.nrk.no/sport/vm-medaljor-til-uno-x-1.18052227",
      "source": "NRK",
-     "summary": "Det norske sykkellaget henter den danske stjernerytteren på en toårskontrakt foran den kommende sesongen."
+     "summary": "Den meritterte syklisten Cecilie Uttrup Ludwig har signert en toårskontrakt med det norske sykkellaget."
     }
    ]
   }
  ],
  "stats": {
   "total": 818,
-  "chosen": 38,
-  "notchosen": 142,
+  "chosen": 31,
+  "notchosen": 148,
   "removed": {
-   "gammel": 289,
+   "gammel": 287,
    "format": 38,
-   "kjendis": 164,
-   "krim": 38,
-   "sykdom": 35,
+   "kjendis": 163,
+   "krim": 37,
+   "sykdom": 39,
    "konflikt": 18,
-   "uro": 27,
+   "uro": 28,
    "betalt": 29
   }
  },
@@ -1360,9 +1317,9 @@
   },
   "weather": {
    "oslo": {
-    "temp": 5,
-    "min": 5,
-    "max": 5,
+    "temp": 4,
+    "min": 4,
+    "max": 4,
     "symbol": "cloudy",
     "rain6": 0.0
    },
@@ -1374,32 +1331,32 @@
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 4,
-    "min": 4,
-    "max": 4,
-    "symbol": "partlycloudy_night",
+    "temp": 3,
+    "min": 3,
+    "max": 3,
+    "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "tromso": {
     "temp": 1,
     "min": 1,
     "max": 1,
-    "symbol": "clearsky_night",
+    "symbol": "clearsky_day",
     "rain6": 0.0
    },
    "bergen": {
     "temp": 11,
     "min": 11,
     "max": 11,
-    "symbol": "rain",
-    "rain6": 1.1
+    "symbol": "lightrain",
+    "rain6": 2.2
    },
    "stavanger": {
     "temp": 10,
     "min": 10,
     "max": 10,
     "symbol": "lightrain",
-    "rain6": 0.0
+    "rain6": 0.8
    }
   },
   "date": "2026-10-12"
