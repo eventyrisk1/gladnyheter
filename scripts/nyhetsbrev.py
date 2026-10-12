@@ -1,6 +1,7 @@
-"""Sender «Dagens 5 gode» på e-post kl. 07 (norsk tid) via Brevo.
+"""Sender «Dagens 5 gode» på e-post kl. 07 (norsk tid) via Buttondown eller Brevo.
 
-Trenger GitHub-secrets:
+Buttondown: GitHub-secret BUTTONDOWN_API_KEY (Settings → API i Buttondown).
+Brevo (alternativ): GitHub-secrets
   BREVO_API_KEY  – API-nøkkel fra Brevo (Settings → SMTP & API → API keys)
   BREVO_LIST_ID  – ID-en til kontaktlisten påmeldingene havner i (tall)
 Uten disse hopper skriptet stille over.
@@ -15,6 +16,7 @@ import urllib.request
 from zoneinfo import ZoneInfo
 
 KEY = os.environ.get("BREVO_API_KEY", "").strip()
+BD_KEY = os.environ.get("BUTTONDOWN_API_KEY", "").strip()
 LIST_ID = os.environ.get("BREVO_LIST_ID", "").strip()
 FORCE = os.environ.get("FORCE", "") == "true"
 SENDER = {"name": "Gladnyheter", "email": os.environ.get("BREVO_SENDER", "post@eventyrisk.no")}
@@ -43,7 +45,7 @@ def pick(data, n=5):
     return out[:n]
 
 
-def build(data, now):
+def build(data, now, unsub=True):
     e = html.escape
     date = f"{DAYS[now.weekday()]} {now.day}. {MONTHS[now.month - 1]}"
     total = sum(len(c["stories"]) for c in data["categories"])
@@ -70,7 +72,7 @@ def build(data, now):
 <tr><td style="padding:18px 0 0;text-align:center;font:13px/1.5 Arial,sans-serif;color:#7a8680">
   Kjenner du noen som trenger en lysere morgen? Videresend denne e-posten.<br><br>
   Gladnyheter velger sakene automatisk fra norske nyhetskilder. <a href="{SITE}om" style="color:#2c6a86">Slik fungerer det</a><br>
-  <a href="{{{{ unsubscribe }}}}" style="color:#7a8680">Meld deg av</a>
+  {'<a href="{{ unsubscribe }}" style="color:#7a8680">Meld deg av</a>' if unsub else ''}
 </td></tr>
 </table></td></tr></table></body></html>"""
 
@@ -83,7 +85,31 @@ def api(path, body):
         return json.loads(raw) if raw.strip() else {}
 
 
+def send_buttondown(data, now):
+    first = pick(data)[0][1]["title"]
+    body = "<!-- buttondown-editor-mode: fancy -->\n" + build(data, now, unsub=False)
+    req = urllib.request.Request("https://api.buttondown.com/v1/emails", data=json.dumps({
+        "subject": f"☀️ {first}", "body": body, "status": "about_to_send"}).encode(),
+        headers={"Authorization": "Token " + BD_KEY, "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            print("Sendt via Buttondown:", r.status, f"«{first}»")
+    except urllib.error.HTTPError as e:
+        print("Feil fra Buttondown:", e.code, e.read().decode()[:500])
+        sys.exit(1)
+
+
 def main():
+    if BD_KEY:
+        now = datetime.datetime.now(ZoneInfo("Europe/Oslo"))
+        if not FORCE and now.hour != 7:
+            print(f"Klokka er {now:%H:%M} i Norge – ikke utsendingstid.")
+            return
+        data = json.load(open("data.json", encoding="utf-8"))
+        if len(pick(data)) < 3:
+            print("For få saker – sender ikke i dag.")
+            return
+        return send_buttondown(data, now)
     if not KEY or not LIST_ID:
         print("Mangler BREVO_API_KEY eller BREVO_LIST_ID – hopper over nyhetsbrevet.")
         return
