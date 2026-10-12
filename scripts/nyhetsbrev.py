@@ -1,10 +1,10 @@
 """Sender «Dagens 5 gode» på e-post kl. 07 (norsk tid) via Buttondown eller Brevo.
 
-Buttondown: GitHub-secret BUTTONDOWN_API_KEY (Settings → API i Buttondown).
-Brevo (alternativ): GitHub-secrets
+Brevo (foretrukket): GitHub-secrets
   BREVO_API_KEY  – API-nøkkel fra Brevo (Settings → SMTP & API → API keys)
   BREVO_LIST_ID  – ID-en til kontaktlisten påmeldingene havner i (tall)
-Uten disse hopper skriptet stille over.
+Buttondown (reserve): GitHub-secret BUTTONDOWN_API_KEY – brukes bare hvis Brevo mangler.
+Uten noen av disse hopper skriptet stille over.
 """
 import datetime
 import html
@@ -19,6 +19,7 @@ KEY = os.environ.get("BREVO_API_KEY", "").strip()
 BD_KEY = os.environ.get("BUTTONDOWN_API_KEY", "").strip()
 LIST_ID = os.environ.get("BREVO_LIST_ID", "").strip()
 FORCE = os.environ.get("FORCE", "") == "true"
+TEST_TO = os.environ.get("TEST_TO", "").strip()  # sender kun test til denne adressen
 SENDER = {"name": "Gladnyheter", "email": os.environ.get("BREVO_SENDER", "post@eventyrisk.no")}
 SITE = "https://gladnyheter.com/"
 DAYS = ["mandag", "tirsdag", "onsdag", "torsdag", "fredag", "lørdag", "søndag"]
@@ -100,7 +101,7 @@ def send_buttondown(data, now):
 
 
 def main():
-    if BD_KEY:
+    if BD_KEY and not (KEY and LIST_ID):
         now = datetime.datetime.now(ZoneInfo("Europe/Oslo"))
         if not FORCE and now.hour != 7:
             print(f"Klokka er {now:%H:%M} i Norge – ikke utsendingstid.")
@@ -114,7 +115,7 @@ def main():
         print("Mangler BREVO_API_KEY eller BREVO_LIST_ID – hopper over nyhetsbrevet.")
         return
     now = datetime.datetime.now(ZoneInfo("Europe/Oslo"))
-    if not FORCE and now.hour != 7:
+    if not FORCE and not TEST_TO and now.hour != 7:
         print(f"Klokka er {now:%H:%M} i Norge – ikke utsendingstid.")
         return
     data = json.load(open("data.json", encoding="utf-8"))
@@ -131,6 +132,10 @@ def main():
             "htmlContent": build(data, now),
             "recipients": {"listIds": [int(LIST_ID)]},
         })
+        if TEST_TO:
+            api(f"/emailCampaigns/{camp['id']}/sendTest", {"emailTo": [TEST_TO]})
+            print(f"Testutsending til {TEST_TO}: kampanje {camp['id']} – «{first}»")
+            return
         api(f"/emailCampaigns/{camp['id']}/sendNow", {})
         print(f"Sendt: kampanje {camp['id']} – «{first}»")
     except urllib.error.HTTPError as e:
