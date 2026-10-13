@@ -1,30 +1,23 @@
 {
- "updated": "2026-10-13T15:36",
+ "updated": "2026-10-13T16:31",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Ungarn opphever omstridt lovgivning mot LHBT",
-     "url": "https://www.vl.no/nyheter/ungarn-opphever-anti-lhbt-lovgivning/10580081",
-     "source": "Vårt Land",
-     "summary": "Nasjonalforsamlingen i Ungarn har vedtatt å fjerne det tidligere forbudet mot å fremme homofili overfor mindreårige.",
-     "published": "2026-10-13T08:26Z"
-    },
-    {
-     "title": "Bønder tilbyr fersk tankmelk i dagligvarebutikker",
+     "title": "Stor interesse for tankmjølk i daglegvarebutikken",
      "url": "https://www.nrk.no/rogaland/na-kan-du-fa-tankmjolk-i-daglegvarebutikk-1.18034250",
      "source": "NRK Rogaland",
-     "summary": "Melkebønder på Line opplever stor etterspørsel etter tankmelk og utvider nå tilbudet til en større kundekrets i dagligvarehandelen.",
-     "published": "2026-10-12T07:56Z"
+     "summary": "Mjølkebøndene på Line opplever enorm interesse for tankmjølk, og håpar no at mjølkeinteressa kan nå ut til ein ny og større marknad i butikkene.",
+     "published": "2026-10-12T07:54Z"
     },
     {
-     "title": "Bemanningsbyrå frister barnehagelærere med topplønn",
-     "url": "https://www.utdanningsnytt.no/barnehagelaerer-bemanning-lonn/tilbyr-barnehagelaerere-millionlonn/503920",
-     "source": "Utdanningsnytt",
-     "summary": "Et nytt bemanningsbyrå tilbyr barnehagelærere årslønninger på opptil én million kroner for å tiltrekke seg fagkompetanse.",
-     "published": "2026-10-11T07:15Z"
+     "title": "Dropper skolenedleggelse",
+     "url": "https://www.nrk.no/nordland/dropper-nedleggelse_-skaug-skole-i-bodo-reddes-1.18053501",
+     "source": "NRK Nordland",
+     "summary": "NRK Nordland melder at det likevel ikke blir noe av den planlagte skolenedleggelsen.",
+     "published": "2026-10-13T10:47Z"
     }
    ]
   },
@@ -33,25 +26,25 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Gründere kan spare store beløp på skatteregler",
-     "url": "https://e24.no/naeringsliv/i/V6KpR6/regnskapsfoerer-mener-grundere-kan-spare-tusenvis",
-     "source": "E24",
-     "summary": "Regnskapsekspert påpeker at gründere og selvstendig næringsdrivende ofte går glipp av betydelige skattefradrag de har krav på.",
-     "published": "2026-10-12T18:49Z"
+     "title": "Tildeles Nobels minnepris i økonomi for stabilisering",
+     "url": "https://www.forskning.no/ntb-okonomi/vinner-nobels-minnepris-i-okonomi-for-stabilisering/2722778",
+     "source": "forskning.no",
+     "summary": "Årets Nobelpris i økonomi går til amerikanerne Robert E. Hall og Michael Woodford for deres mikroøkonomiske grunnlag for makroøkonomisk stabilisering.",
+     "published": "2026-10-12T11:48Z"
     },
     {
-     "title": "Priskrig på julevarer i gang i dagligvarebutikkene",
-     "url": "https://www.tv2.no/a/19314818",
-     "source": "TV 2",
-     "summary": "En dagligvarekjede kutter prisene kraftig på pepperkaker og setter i gang sesongens priskonkurranse to måneder før jul.",
-     "published": "2026-10-13T06:54Z"
-    },
-    {
-     "title": "Inntektshopp for meglerhuset ABG",
+     "title": "Inntektshopp for ABG Sundal Collier",
      "url": "https://e24.no/boers-og-finans/i/rM5vz8/inntektshopp-for-abg",
      "source": "E24",
-     "summary": "Meglerhuset ABG melder om solid vekst i både omsetning og driftsresultat foran tiltredelsen til ny toppsjef.",
-     "published": "2026-10-13T06:07Z"
+     "summary": "Meglerhuset, som snart får ny toppsjef, økte både omsetning og resultat i den nyeste perioden.",
+     "published": "2026-10-13T06:05Z"
+    },
+    {
+     "title": "Regnskapsfører: Gründere kan spare tusenvis på skattereglene",
+     "url": "https://e24.no/naeringsliv/i/V6KpR6/regnskapsfoerer-mener-grundere-kan-spare-tusenvis",
+     "source": "E24",
+     "summary": "Gründere og selvstendig næringsdrivende er for dårlige til å utnytte gjeldende skatteregler, mener regnskapsfører Vetle Valsgård.",
+     "published": "2026-10-12T18:48Z"
     }
    ]
   },
@@ -60,25 +53,18 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Forskere vurderer å erstatte skuddsekund med en hel time",
-     "url": "https://www.forskning.no/astronomi-ntb-tid/skuddsekund-kan-bli-en-time/2723084",
-     "source": "forskning.no",
-     "summary": "Etter at 27 sekunder er lagt til siden 1972, vurderer eksperter å endre ordningen med skuddsekunder for å forhindre store tekniske komplikasjoner i datasystemer.",
-     "published": "2026-10-13T06:59Z"
-    },
-    {
-     "title": "Forskere har rekonstruert ansiktet til tidlige mennesker",
+     "title": "Slik kan de aller tidligste menneskene ha sett ut",
      "url": "https://www.forskning.no/arkeologi/slik-kan-de-aller-tidligste-menneskene-ha-sett-ut/2721128",
      "source": "forskning.no",
-     "summary": "En ny vitenskapelig studie viser hvordan de eldste kjente representantene for vår art kan ha sett ut basert på anatomiske analyser.",
-     "published": "2026-10-12T22:04Z"
+     "summary": "Forskere har forsøkt å rekonstruere ansiktet til den eldste kjente representanten for vår egen art.",
+     "published": "2026-10-12T22:02Z"
     },
     {
-     "title": "Kjempeturbiner kan oppgradere eksisterende vindparker",
-     "url": "https://www.tu.no/energi/gigantisk-vindturbin-pa-hoyde-med-berlins-tv-tarn-men-effekten-er-beskjeden/7145088",
-     "source": "Teknisk Ukeblad",
-     "summary": "Et ingeniørkonsern planlegger å bygge gigantiske vindturbiner på høyde med store landemerker for å forbedre effekten i eldre vindparker.",
-     "published": "2026-10-13T09:36Z"
+     "title": "Vurderer å endre skuddsekund til en hel time",
+     "url": "https://www.forskning.no/astronomi-ntb-tid/skuddsekund-kan-bli-en-time/2723084",
+     "source": "forskning.no",
+     "summary": "For å unngå enorme tekniske problemer i fremtiden, vurderer forskere å endre ordningen med skuddsekunder som har blitt lagt til siden 1972.",
+     "published": "2026-10-13T06:57Z"
     }
    ]
   },
@@ -87,25 +73,25 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Apple lanserer HomeView med integrert kunstig intelligens",
-     "url": "https://www.nettavisen.no/apple-homeview/norge/apple/apple-lanserer-homeview/s/80-95-156404",
-     "source": "Nettavisen",
-     "summary": "Apple presenterer en ny smartskjerm for hjemmet som benytter Siri AI til stemmestyring, musikkavspilling og ansiktsgjenkjenning.",
-     "published": "2026-10-13T13:30Z"
+     "title": "Svindlet til seg millionbeløp ved hjelp av KI-musikk",
+     "url": "https://www.tu.no/kunstig-intelligens/svindlet-til-seg-nesten-80-millioner-kroner-med-ki-musikk/7145919",
+     "source": "Teknisk Ukeblad",
+     "summary": "Gjerningspersoner brukte kunstig intelligens til å strømme musikk i massiv skala og svindle til seg nesten 80 millioner kroner.",
+     "published": "2026-10-13T08:23Z"
     },
     {
-     "title": "Epic Games satser for fullt på kunstig intelligens i utviklingen",
+     "title": "Epic Games satser på AI-først og utsetter Disney-skytespill",
      "url": "https://www.gamereactor.no/epic-games-utsetter-disney-skytespill-kunstig-intelligens-utvikling/",
      "source": "Gamereactor",
-     "summary": "Spillgiganten går over til en arbeidsflyt drevet av kunstig intelligens og ber utviklerne benytte KI-verktøy fremfor å skrive koden manuelt.",
-     "published": "2026-10-13T10:27Z"
+     "summary": "Utviklerne bes om å slutte å skrive kode for hånd, da selskapet legger om til en mer automatisert arbeidsflyt.",
+     "published": "2026-10-13T10:26Z"
     },
     {
-     "title": "Forskere undersøker hvordan selvstendige KI-agenter kan styres",
-     "url": "https://www.forskning.no/innovasjon-juridiske-fag-kunstig-intelligens/samarbeider-ki-agenter-logisk-kan-de-finne-pa-a-bestille-en-leiemorder/2715758",
-     "source": "forskning.no",
-     "summary": "En ny studie tar for seg utfordringene som kan oppstå når autonome KI-agenter samarbeider logisk, og hvordan man best kan sikre trygge rammer.",
-     "published": "2026-10-12T22:06Z"
+     "title": "NRK stenger døren for KI-skapte sanger i Melodi Grand Prix",
+     "url": "https://www.aftenposten.no/kultur/i/n9mJvm/nrk-stenger-doeren-for-ki-skapte-sanger-i-mgp",
+     "source": "Aftenposten",
+     "summary": "I motsetning til Sverige har NRK valgt å ikke tillate kunstig intelligens-skapte bidrag i sin utvelgelse til Eurovision.",
+     "published": "2026-10-12T12:51Z"
     }
    ]
   },
@@ -114,25 +100,18 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Sjelden vestindiapetrell observert i Norden for første gang",
+     "title": "Sensasjonelt fuglefunn ved Lista fyr: Første vestindiapetrell i Norden",
      "url": "https://www.birdlife.no/fuglekunnskap/nyheter/?id=4102",
      "source": "BirdLife Norge",
-     "summary": "Fugleentusiaster ved Lista fyr fikk oppleve en historisk observasjon da den sjeldne arten vestindiapetrell ble registrert i norsk natur.",
-     "published": "2026-10-07T00:02Z"
+     "summary": "En vestindiapetrell ble for første gang oppdaget i Norge og Norden da den åpenbarte seg ved Lista fyr i september.",
+     "published": "2026-10-07T00:01Z"
     },
     {
-     "title": "Fugletellere samlet seg til EuroBirdwatch på Helgeland",
+     "title": "Vellykket fuglefeiring under EuroBirdwatch på Helgeland",
      "url": "https://www.birdlife.no/organisasjonen/fylkesavdelinger/nordland/nyheter/?id=4103",
      "source": "BirdLife Norge",
-     "summary": "Deltakere på Sør-Helgeland observerte over 800 kortnebbgjess og flere hundre troster under det årlige fuglearrangementet.",
-     "published": "2026-10-07T00:02Z"
-    },
-    {
-     "title": "Gode tips til velsmakende soppretter",
-     "url": "https://www.vg.no/i/qy3BRm/tre-retter-som-kan-omvende-sopphateren",
-     "source": "VG",
-     "summary": "Matoppskrifter og enkle tilberedningstriks kan gjøre skogens råvarer til en favoritt, selv for dem som vanligvis er skeptiske til sopp.",
-     "published": "2026-10-13T13:32Z"
+     "summary": "Sør-Helgeland lokallag markerte dagen med observasjoner av hundrevis av gjess og troster, akkompagnert av kaffe og eplekake.",
+     "published": "2026-10-07T00:01Z"
     }
    ]
   },
@@ -141,25 +120,25 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Forskning viser verdien av å stole på andre",
-     "url": "https://www.forskning.no/barn-og-ungdom-partner-psykologi/derfor-er-det-lurt-a-stole-pa-andre/2714993",
-     "source": "forskning.no",
-     "summary": "En studie forklarer hvorfor tillit og evnen til å lene seg på medmennesker er avgjørende for sosial mestring og robusthet.",
-     "published": "2026-10-12T22:04Z"
-    },
-    {
-     "title": "Humor kan ha positiv effekt i behandling av depresjon",
+     "title": "Kan humor lindre depresjon?",
      "url": "https://www.psykologisk.no/nyheter/kan-humor-lindre-depresjoner/163994",
      "source": "Psykologisk.no",
-     "summary": "En litteraturgjennomgang viser at riktig bruk av humor i terapeutiske rammer kan bidra til å lindre depressive symptomer.",
-     "published": "2026-10-12T04:03Z"
+     "summary": "En litteraturgjennomgang viser at humor kan ha en plass i behandlingen av depresjon, selv om feil bruk kan gjøre vondt verre.",
+     "published": "2026-10-12T04:01Z"
     },
     {
-     "title": "Familiealbum kaster lys over skjulte relasjoner",
-     "url": "https://psyche.co/ideas/what-is-hidden-in-the-photographs-we-keep-of-each-other",
-     "source": "Psyche",
-     "summary": "En antropolog reflekterer over hvordan fotografier i gamle familiealbum både bevarer minner og skjuler ufortalte sider ved nære bånd.",
-     "published": "2026-10-13T10:02Z"
+     "title": "Slik påvirker kaffen både tarmene og hjernen din",
+     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
+     "source": "Psykologisk.no",
+     "summary": "Ny forskning avdekker stadig flere sider ved hvordan den populære drikken virker inn på både humør, søvn og tarmflora.",
+     "published": "2026-10-11T04:01Z"
+    },
+    {
+     "title": "Derfor er det lurt å stole på andre",
+     "url": "https://www.forskning.no/barn-og-ungdom-partner-psykologi/derfor-er-det-lurt-a-stole-pa-andre/2714993",
+     "source": "forskning.no",
+     "summary": "Mennesker er sårbare alene, og forskning viser at vi må lære oss å lene oss på hverandre for å mestre tilværelsen.",
+     "published": "2026-10-12T22:02Z"
     }
    ]
   },
@@ -168,18 +147,25 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Treningsekspert forklarer hva som gir reell prestasjonsvekst",
-     "url": "https://www.forskning.no/kreatin-kultur-meninger/dette-bor-du-gjore-for-du-tar-kreatin/2719108",
+     "title": "Ny og raskere behandling for spiseforstyrrelser",
+     "url": "https://www.forskning.no/hogskolen-i-ostfold-medisinske-metoder-partner/ny-behandling-av-spiseforstyrrelser-gir-raskere-effekt-enn-dagens-standardbehandling/2715806",
      "source": "forskning.no",
-     "summary": "En professor i idrettsvitenskap minner om at grunnleggende trening og restitusjon må på plass før man vurderer kosttilskudd som kreatin.",
-     "published": "2026-10-12T22:04Z"
+     "summary": "Et nytt behandlingstilbud kan gis der folk bor, og viser seg å gi raskere effekt enn dagens standardmetoder for en gruppe som før hadde få alternativer.",
+     "published": "2026-10-12T22:05Z"
     },
     {
-     "title": "Slik påvirker kaffe tarmhelsen og hjernen",
-     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
-     "source": "Psykologisk.no",
-     "summary": "Nyere forskning viser hvordan inntak av kaffe har sammensatte effekter på humør, kognitiv funksjon og kroppens tarmflora.",
-     "published": "2026-10-11T04:03Z"
+     "title": "Dette bør du vite før du begynner med kreatin",
+     "url": "https://www.forskning.no/kreatin-kultur-meninger/dette-bor-du-gjore-for-du-tar-kreatin/2719108",
+     "source": "forskning.no",
+     "summary": "En treningsprofessor understreker viktigheten av å skille mellom tiltak som gir marginale forskjeller, og det som faktisk bygger god prestasjon.",
+     "published": "2026-10-12T22:02Z"
+    },
+    {
+     "title": "Derfor føles starten på joggeturen alltid så tung",
+     "url": "https://www.nrk.no/trondelag/dette-gjor-starten-pa-joggeturen-sa-toff-_-handler-ikke-om-at-man-er-i-darlig-form-1.18043184",
+     "source": "NRK",
+     "summary": "NRK ser nærmere på kroppens mekanismer og forklarer hvorfor de første minuttene av en løpetur oppleves som ekstra slitsomme.",
+     "published": "2026-10-11T06:47Z"
     }
    ]
   },
@@ -188,18 +174,25 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Nytt læringstilbud for elever med stort læringspotensial",
-     "url": "https://www.nrk.no/nordland/elever-med-stort-laeringspotensial-far-eget-tilbud-i-nordland-1.18051567",
-     "source": "NRK Nordland",
-     "summary": "Ungdommer fra hele Nordland samlet seg i Mo i Rana for å delta på et nytt program skreddersydd for elever som tilegner seg kunnskap raskere enn snittet.",
-     "published": "2026-10-11T16:34Z"
-    },
-    {
-     "title": "Fagfolk løfter frem risikolek som nøkkel til livsmestring",
+     "title": "Derfor gir skrubbsår verdifull livsmestring",
      "url": "https://www.barnehage.no/skrubbsar-gir-livsmestring/278412",
      "source": "Barnehage.no",
-     "summary": "Pedagoger understreker betydningen av at barn i barnehagen får utfordre seg gjennom spennende lek for å bygge mestringsfølelse.",
-     "published": "2026-10-12T13:29Z"
+     "summary": "Et dypdykk i risikolek viser at barn trenger rom for utfordringer som bygger mestringsfølelse og utvikling.",
+     "published": "2026-10-12T13:28Z"
+    },
+    {
+     "title": "Eget tilbud for elever med stort læringspotensial",
+     "url": "https://www.nrk.no/nordland/elever-med-stort-laeringspotensial-far-eget-tilbud-i-nordland-1.18051567",
+     "source": "NRK Nordland",
+     "summary": "Ungdommelige hoder fra hele Nordland var samlet til et eget læringstilbud for å sikre at de som lærer raskest også får riktige utfordringer.",
+     "published": "2026-10-11T16:32Z"
+    },
+    {
+     "title": "Kampen for kollektivet i en tid med sosiale algoritmer",
+     "url": "https://www.utdanningsnytt.no/annette-hoisaeter-fellesskap-teknologi-i-skolen/kampen-for-kollektivet-i-algoritmenes-tid/504084",
+     "source": "Utdanningsnytt",
+     "summary": "Debattinntekter minner om at skolen må fortsette å lære barn verdien av å vente, fordype seg og være en del av et ekte fellesskap.",
+     "published": "2026-10-13T10:43Z"
     }
    ]
   },
@@ -208,24 +201,24 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Stabil finansiering støtter fellesverdier og fellesskap",
+     "title": "Hermann Hesse om kunsten å lese en bok og forstå seg selv",
+     "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
+     "source": "The Marginalian",
+     "summary": "Bøker viser oss hvordan det er å være en annen, samtidig som de fører oss tilbake til oss selv for å lære oss kunsten å leve.",
+     "published": "2026-10-13T03:27Z"
+    },
+    {
+     "title": "James Baldwin om hvordan kjærligheten til slutt finner oss",
+     "url": "https://www.themarginalian.org/2026/10/11/baldwin-love/",
+     "source": "The Marginalian",
+     "summary": "En filosofisk betraktning over språket vårt og hvordan vi snakker om kjærlighet som et ukjent kontinent som venter på å bli oppdaget.",
+     "published": "2026-10-11T20:13Z"
+    },
+    {
+     "title": "Kirkerådet: En stabil finansiering opprettholder viktige fellesskap",
      "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20st%C3%B8tte%20til%20viktige%20fellesverdier/",
      "source": "Den norske kirke",
-     "summary": "Kirkerådsleder Harald Hegstad understreker at forutsigbare økonomiske rammer sikrer folkekirkens rolle som samlende fellesskap i hverdagen."
-    },
-    {
-     "title": "Refleksjoner over etiske retningslinjer og tilstedeværelse",
-     "url": "https://tricycle.org/article/five-mindfulness-trainings/",
-     "source": "Tricycle",
-     "summary": "Dharamalærere fra Plum Village-tradisjonen belyser hvordan mindfulness og etiske leveregler kan gi veiledning og indre ro i hverdagen.",
-     "published": "2026-10-12T10:02Z"
-    },
-    {
-     "title": "Markering av historisk buddhistisk bevegelse for likeverd",
-     "url": "https://tricycle.org/article/ambedkar-dalit-buddhism/",
-     "source": "Tricycle",
-     "summary": "På syttiårsdagen for Dr. B. R. Ambedkars massekonvertering reflekteres det over dalit-buddhismens betydning for verdighet og samhold.",
-     "published": "2026-10-13T10:03Z"
+     "summary": "Harald Hegstad fremhever at finansieringen av Den norske kirke er et viktig bidrag til å ta vare på fellesverdier og tradisjoner."
     }
    ]
   },
@@ -234,18 +227,11 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Pingviner har malt kunstverk til årets TV-aksjon",
-     "url": "https://www.nrk.no/tvaksjonen/pa-jakt-etter-noko-unikt_-_-dette-kan-du-by-pa-i-tv-aksjonen-2026-1.18016731",
-     "source": "NRK Vestland",
-     "summary": "Akvariepingviner i Bergen har bidratt med fargerike malerier som skal auksjoneres bort til inntekt for TV-aksjonen.",
-     "published": "2026-10-12T10:19Z"
-    },
-    {
-     "title": "Seminar om poesi i ord og bilder for barnebokskapere",
-     "url": "https://barnebokinstituttet.no/uncategorized/hvordan-skape-poesi-i-ord-og-bilde-et-dykk-i-det-poetiske-spraket/",
-     "source": "Norsk barnebokinstitutt",
-     "summary": "Norsk barnebokinstitutt inviterer forfattere og illustratører til fagverksted med fokus på poetisk formspråk og visuelle uttrykk.",
-     "published": "2026-10-10T16:43Z"
+     "title": "Høystemt og løssluppent på Operaen med Nasjonalballetten",
+     "url": "https://www.vl.no/kultur/pa-innsiden-av-ballettklassen/10579707",
+     "source": "Vårt Land",
+     "summary": "León og Lightfoot leverer en ballettkveld som spenner fra gripende relasjonsdrama til stor danseglede på Hovedscenen.",
+     "published": "2026-10-13T07:41Z"
     }
    ]
   },
@@ -254,18 +240,11 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "NRK sier nei til KI-generert musikk i Melodi Grand Prix",
-     "url": "https://www.aftenposten.no/kultur/i/n9mJvm/nrk-stenger-doeren-for-ki-skapte-sanger-i-mgp",
-     "source": "Aftenposten",
-     "summary": "NRK har bestemt at låter skapt ved hjelp av kunstig intelligens ikke vil få delta i den norske Melodi Grand Prix-konkurransen.",
-     "published": "2026-10-12T12:53Z"
-    },
-    {
-     "title": "Komponist Mick Gordon åpen for nytt Doom-samarbeid",
+     "title": "Komponist Mick Gordon utelukker ikke en retur til Doom",
      "url": "https://www.gamereactor.no/mick-gordon-aapner-for-doom-retur-under-rette-forhold/",
      "source": "Gamereactor",
-     "summary": "Den anerkjente spillkomponisten Mick Gordon utelukker ikke å lage musikk til fremtidige Doom-spill dersom rammene ligger til rette.",
-     "published": "2026-10-12T15:27Z"
+     "summary": "Musikkskaperen stenger ikke døren for et fremtidig samarbeid, men setter klare betingelser etter tidligere tiders uenigheter.",
+     "published": "2026-10-12T15:25Z"
     }
    ]
   },
@@ -274,25 +253,25 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Ole Brumm runder 100 år",
-     "url": "https://www.nettavisen.no/nyheter/hvorfor-elsker-vi-ole-brumm-100-ar-etter-ekspertene-forklarer/s/80-95-154340",
-     "source": "Nettavisen",
-     "summary": "A.A. Milnes tidløse fortellinger om den godlynte bamsen i Hundremeterskogen feirer hundreårsjubileum og gleder stadig nye generasjoner.",
-     "published": "2026-10-13T12:55Z"
-    },
-    {
-     "title": "Hermann Hesse om litteraturens kraft og selvinnsikt",
-     "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
-     "source": "The Marginalian",
-     "summary": "Forfatteren Hermann Hesse reflekterer over hvordan bøker gir oss dypere forståelse for andres liv samtidig som de bringer oss nærmere oss selv.",
-     "published": "2026-10-13T03:29Z"
-    },
-    {
-     "title": "Selma Moren debuterer med varm roman",
+     "title": "Selma Moren debuterer med sterk roman om sorg og kjærlighet",
      "url": "https://www.nettavisen.no/kjendis/selma-moren-kan-du-hente-meg/r/5-95-3220042",
      "source": "Nettavisen",
-     "summary": "Selma Moren høster ros for sin romandebut «Kan du hente meg», som skildrer kjærlighet og sorg i et nært og tilgjengelig format.",
-     "published": "2026-10-13T13:28Z"
+     "summary": "I boken «Kan du hente meg» skriver Selma Moren (30) om store følelser på bare 156 sider, der sorgen aldri tar overhånd for kjærligheten.",
+     "published": "2026-10-13T13:26Z"
+    },
+    {
+     "title": "Ingrid Brækken Melve skriver om underbevissthet og ansvar",
+     "url": "https://www.vl.no/kultur/et-leirskred-av-vold-overgrep-og-varme-hender/10576049",
+     "source": "Vårt Land",
+     "summary": "Forfatteren og presten utforsker skyld og menneskers mørkere sider i sin nye roman, uten å blande rollene som forfatter og sjelesørger.",
+     "published": "2026-10-12T18:32Z"
+    },
+    {
+     "title": "Utforsker det poetiske språket i ord og bilde",
+     "url": "https://barnebokinstituttet.no/uncategorized/hvordan-skape-poesi-i-ord-og-bilde-et-dykk-i-det-poetiske-spraket/",
+     "source": "Norsk barnebokinstitutt",
+     "summary": "Seminaret i regi av barnebokmiljøene gir et innblikk i hvordan forfattere og illustratører kan skape god poesi for unge lesere.",
+     "published": "2026-10-10T16:41Z"
     }
    ]
   },
@@ -301,18 +280,25 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Nasjonalballetten imponerer i Operaen",
-     "url": "https://www.vl.no/kultur/pa-innsiden-av-ballettklassen/10579707",
-     "source": "Vårt Land",
-     "summary": "Forestillingen til koreografduoen León & Lightfoot byr på både gripende scenedrama og virtuos danseglede med Nasjonalballetten i storslag.",
-     "published": "2026-10-13T07:42Z"
+     "title": "Trude Teiges krimbøker om Kajsa Coren blir til TV-serie",
+     "url": "https://www.vg.no/rampelys/i/KrWRAy/trude-teige-krimserien-om-kajsa-koren-blir-tv-serie",
+     "source": "VG",
+     "summary": "Selskapet bak suksesser som «Lykkeland» har sikret seg rettighetene til å filmatisere forfatterens kjente bøker.",
+     "published": "2026-10-13T14:04Z"
     },
     {
-     "title": "Lucasfilm-veteran skal styrke Xbox på film og TV",
-     "url": "https://www.gamer.no/artikler/lucasfilm-veteran-tar-over-utvidet-film-og-tv-satsing-hos-xbox/521158",
-     "source": "Gamer.no",
-     "summary": "En erfaren produsent fra Lucasfilm er hentet inn for å lede og utvide spillmerkevaren Xbox sine satsinger på film og TV-serier.",
-     "published": "2026-10-12T11:16Z"
+     "title": "Jakob Oftebro med ny stor svensk filmrolle",
+     "url": "https://www.nettavisen.no/kjendis/jakob-oftebro-spiller-mot-helena-bergstr-m-og-amy-diamond-i-ny-thriller/s/80-95-156608",
+     "source": "Nettavisen",
+     "summary": "Den norske skuespilleren er klar for rollen mot Helena Bergström i den kommende thrilleren «Leksaksmannen».",
+     "published": "2026-10-13T14:11Z"
+    },
+    {
+     "title": "Fredrik Solvang skal lede ny storsatsing på NRK",
+     "url": "https://www.aftenposten.no/kultur/i/Wgo3rK/solvang-tilbake-som-programleder-i-nrk",
+     "source": "Aftenposten",
+     "summary": "Den kjente programlederen er klar for å lede en ny serie med tittelen «Yachten» på rikskringkasteren.",
+     "published": "2026-10-12T12:35Z"
     }
    ]
   },
@@ -321,25 +307,25 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "«No Man's Sky» slippes på mobil og nettbrett",
-     "url": "https://www.pressfire.no/artikkel/no-mans-sky-krympes",
-     "source": "Pressfire",
-     "summary": "Det populære romutforskningsspillet No Man's Sky kommer i en tilpasset mobilversjon som inkluderer ti år med oppdateringer og utvidelser.",
-     "published": "2026-10-13T08:29Z"
+     "title": "Det populære spillet «No Man's Sky» kommer til mobil og nettbrett",
+     "url": "https://www.gamer.no/artikler/plutselig-kommer-no-mans-sky-til-telefon-og-nettbrett/521163",
+     "source": "Gamer.no",
+     "summary": "Spillet lanseres i en mobilvennlig versjon som inneholder hele ti år med oppdateringer og utvidelser.",
+     "published": "2026-10-13T08:28Z"
     },
     {
-     "title": "Klassikeren «Super Star Trek» vekkes til live på original maskin",
+     "title": "Spillmessen i Kristiansand er større enn noen gang",
+     "url": "https://spillhistorie.no/2026/10/12/spillmessen-i-kristiansand-blir-storre-enn-noensinne/",
+     "source": "Spillhistorie.no",
+     "summary": "Årets utgave av arrangementet byr på et rekordstort program for spillentusiaster i helgen.",
+     "published": "2026-10-12T10:54Z"
+    },
+    {
+     "title": "Spiller klassikeren «Super Star Trek» på maskinen den ble laget på",
      "url": "https://spillhistorie.no/2026/10/13/super-star-trek-spillet-fra-en-svunnen-tid/",
      "source": "Spillhistorie.no",
-     "summary": "Det over femti år gamle dataspillet demonstreres på nøyaktig samme maskinvare som det en gang ble utviklet på.",
-     "published": "2026-10-13T11:41Z"
-    },
-    {
-     "title": "Ted Lasso gjør comeback i FC 27",
-     "url": "https://www.gamer.no/artikler/ted-lasso-vender-tilbake-i-fc-27/521169",
-     "source": "Gamer.no",
-     "summary": "Den folkekjære fotballtreneren vender tilbake til spillserien, der spillerne denne gangen kan lede AFC Richmonds damelag.",
-     "published": "2026-10-13T12:40Z"
+     "summary": "Et dypdykk i spillhistorien viser hvordan man fremdeles kan kjøre femti år gamle titler på originalmaskinvare.",
+     "published": "2026-10-13T11:40Z"
     }
    ]
   },
@@ -348,42 +334,42 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Per Strand Hagenes med råsterk seier i Frankrike",
+     "title": "Formel 1 vender tilbake til Afrika med historisk VM-løp i Rwanda",
+     "url": "https://www.nrk.no/sport/formel-1_-afrika-vender-tilbake-til-vm-kalenderen-_-lop-i-rwanda-bekreftet-1.18053341",
+     "source": "NRK",
+     "summary": "Det er klart at Rwanda skal arrangere VM-runder i Formel 1, noe som blir sportens første besøk på det afrikanske kontinentet på mange tiår.",
+     "published": "2026-10-13T09:28Z"
+    },
+    {
+     "title": "Knallsterk norsk seier i tradisjonsrikt fransk endagsritt",
      "url": "https://www.aftenposten.no/sport/i/77mK0W/hagenes-med-knallsterk-seier-i-fransk-endagsritt",
      "source": "Aftenposten",
-     "summary": "Den norske sykkelrytteren Per Strand Hagenes fra Team Visma sikret en overbevisende seier i et prestisjefylt fransk endagsritt.",
-     "published": "2026-10-11T15:20Z"
+     "summary": "Per Strand Hagenes syklet inn til en imponerende seier i det krevende rittet i Frankrike.",
+     "published": "2026-10-11T15:19Z"
     },
     {
-     "title": "16 utøvere tatt ut på det norske friidrettslandslaget",
-     "url": "https://www.nrk.no/sport/16-utovere-tatt-ut-pa-landslaget-1.18053359",
-     "source": "NRK",
-     "summary": "Norges Friidrettsforbund har presentert neste års landslag, der Jakob Asserson Ingebrigtsen er blant de sentrale profilene.",
-     "published": "2026-10-13T08:31Z"
-    },
-    {
-     "title": "Dansk VM-medaljør klar for sykkellaget Uno-X",
+     "title": "Merittert VM-medaljør klar for det norske laget Uno-X",
      "url": "https://www.nrk.no/sport/vm-medaljor-til-uno-x-1.18052227",
      "source": "NRK",
-     "summary": "Det norske sykkellaget forsterker kvinnesatsingen med den meritterte syklisten Cecilie Uttrup Ludwig, som har signert en toårsavtale.",
-     "published": "2026-10-12T08:09Z"
+     "summary": "Danske Cecilie Uttrup Ludwig har signert en toårig kontrakt med kvinnesatsingen til Uno-X foran kommende sesong.",
+     "published": "2026-10-12T08:08Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 879,
-  "chosen": 40,
-  "notchosen": 167,
+  "total": 878,
+  "chosen": 38,
+  "notchosen": 160,
   "removed": {
-   "uro": 20,
-   "kjendis": 161,
-   "gammel": 339,
-   "format": 26,
-   "krim": 40,
+   "uro": 19,
+   "kjendis": 168,
+   "gammel": 338,
+   "format": 27,
+   "krim": 42,
    "sykdom": 42,
-   "konflikt": 20,
-   "betalt": 24
+   "konflikt": 19,
+   "betalt": 25
   }
  },
  "today": {
@@ -1409,21 +1395,21 @@
     "min": 7,
     "max": 8,
     "symbol": "rain",
-    "rain6": 4.8
+    "rain6": 5.7
    },
    "kristiansand": {
     "temp": 11,
     "min": 11,
     "max": 14,
-    "symbol": "lightrainshowers_day",
-    "rain6": 10.2
+    "symbol": "lightrainshowers_night",
+    "rain6": 9.2
    },
    "trondheim": {
-    "temp": 9,
+    "temp": 11,
     "min": 8,
-    "max": 10,
+    "max": 11,
     "symbol": "lightrain",
-    "rain6": 1.2
+    "rain6": 1.4
    },
    "tromso": {
     "temp": 4,
@@ -1436,15 +1422,15 @@
     "temp": 12,
     "min": 12,
     "max": 13,
-    "symbol": "lightrain",
-    "rain6": 8.3
+    "symbol": "rain",
+    "rain6": 3.7
    },
    "stavanger": {
     "temp": 13,
     "min": 13,
     "max": 14,
     "symbol": "rain",
-    "rain6": 11.5
+    "rain6": 5.1
    }
   },
   "date": "2026-10-13"
