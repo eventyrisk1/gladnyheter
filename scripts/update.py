@@ -63,6 +63,19 @@ FEEDS = [
     ("Tricycle", "https://tricycle.org/feed/", 2),
     ("The Marginalian", "https://www.themarginalian.org/feed/", 2),
     ("Psyche", "https://psyche.co/feed.rss", 2),
+    # Film, musikk og litteratur – norske og anerkjente internasjonale (engelske saker får norsk tittel/ingress av KI)
+    ("Rushprint", "https://www.rushprint.no/feed/", 2, 8),
+    ("RogerEbert.com", "https://www.rogerebert.com/feed", 2, 8),
+    ("The Guardian (film)", "https://www.theguardian.com/film/rss", 2, 8),
+    ("NPR Music", "https://feeds.npr.org/1039/rss.xml", 2, 8),
+    ("The Guardian (musikk)", "https://www.theguardian.com/music/rss", 2, 8),
+    ("Bandcamp Daily", "https://daily.bandcamp.com/feed", 2, 8),
+    ("Stereogum", "https://www.stereogum.com/feed/", 1, 8),
+    ("Literary Hub", "https://lithub.com/feed/", 2, 8),
+    ("The Guardian (bøker)", "https://www.theguardian.com/books/rss", 2, 8),
+    ("NPR Books", "https://feeds.npr.org/1032/rss.xml", 2, 8),
+    ("The Paris Review", "https://www.theparisreview.org/blog/feed/", 3, 8),
+    ("Open Culture", "https://www.openculture.com/feed", 2, 8),
 ]
 SPORT_FEEDS = [
     ("NRK", "https://www.nrk.no/sport/toppsaker.rss", 1),
@@ -383,7 +396,7 @@ GEMINI_MODELS = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-3.5-flash-li
 
 
 def pick_gemini(news, sport, key):
-    news, sport = news[:170], sport[:30]
+    news, sport = news[:200], sport[:30]
     body = json.dumps({
         "contents": [{"role": "user", "parts": [{"text": build_prompt(news, sport)}]}],
         "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
@@ -411,7 +424,7 @@ def pick_gemini(news, sport, key):
 
 
 def pick_claude(news, sport, key):
-    news, sport = news[:150], sport[:25]
+    news, sport = news[:180], sport[:25]
     body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5"), "max_tokens": 8000,
                        "messages": [{"role": "user", "content": build_prompt(news, sport)}]}).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
