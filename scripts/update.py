@@ -200,7 +200,8 @@ def ok(it):
     text = it["title"] + " " + it["desc"]
     if BLOCK.search(text) or CLICKBAIT.search(it["title"]) or SKIP_URL.search(it["url"]):
         return False
-    max_age = 168 if it["weight"] >= 3 else 72    # forsknings-/vitenskapskilder får en uke
+    # Nyhetskilder: maks ~1 døgn, fagkilder 2 døgn, sjeldne kilder (forskning, organisasjoner) en uke
+    max_age = 168 if it["weight"] >= 3 else 48 if it["weight"] == 2 else 30
     if it["age"] is not None and it["age"] > max_age:
         return False
     return True
