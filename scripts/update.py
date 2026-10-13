@@ -293,8 +293,12 @@ RULE_MAP = {"Samfunn": "samfunn", "Hverdag": "samfunn", "Økonomi": "okonomi", "
 
 
 def story(it, title=None, summary=None):
-    return {"title": clean(title) or it["title"], "url": it["url"], "source": it["source"],
-            "summary": clean(summary) or it["desc"]}
+    d = {"title": clean(title) or it["title"], "url": it["url"], "source": it["source"],
+         "summary": clean(summary) or it["desc"]}
+    if it.get("age") is not None:
+        pub = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=it["age"])
+        d["published"] = pub.strftime("%Y-%m-%dT%H:%MZ")
+    return d
 
 
 def pick_rules(news, sport):
