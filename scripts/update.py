@@ -200,8 +200,9 @@ def ok(it):
     text = it["title"] + " " + it["desc"]
     if BLOCK.search(text) or CLICKBAIT.search(it["title"]) or SKIP_URL.search(it["url"]):
         return False
-    # Nyhetskilder: maks 1,5 døgn, fagkilder 3 døgn, sjeldne kilder (forskning, organisasjoner) en uke
-    max_age = 168 if it["weight"] >= 3 else 72 if it["weight"] == 2 else 36
+    # Nyhetskilder: maks 2 døgn, fagkilder 3 døgn, sjeldne kilder (forskning, organisasjoner) en uke.
+    # Innenfor dette foretrekker KI-en ferske saker (se PROMPT), så eldre saker brukes bare når det mangler ferske.
+    max_age = 168 if it["weight"] >= 3 else 72 if it["weight"] == 2 else 48
     if it["age"] is not None and it["age"] > max_age:
         return False
     return True
@@ -327,7 +328,8 @@ KAST ALT som handler om krig, militære konflikter, forsvar/våpen, terror, krim
 
 Velg de 3 mest interessante, lærerike eller viktige sakene i HVER av disse kategoriene (viktigst først):
 %s
-Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kildene: helst ulike kilder i hver kategori (aldri mer enn 2 fra samme kilde i en kategori), og høyst 5 saker fra samme kilde totalt. Bruk gjerne mange ulike kilder (NRK, Aftenposten, VG, E24, fagkilder osv.). Finnes det færre enn 3 gode saker i en kategori, ta med færre heller enn dårlige saker.
+Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kildene: helst ulike kilder i hver kategori (aldri mer enn 2 fra samme kilde i en kategori), og høyst 5 saker fra samme kilde totalt. Bruk gjerne mange ulike kilder (NRK, Aftenposten, VG, E24, fagkilder osv.). Prøv å fylle alle 3 plassene i hver kategori; ta bare med færre hvis det ikke finnes egnede saker.
+FERSKHET: Hver sak er merket med alder (f.eks. «3t», «i går», «3d»). Foretrekk saker fra det siste døgnet. Bruk saker merket «i går» eller eldre bare når det ikke finnes ferske, gode saker i kategorien – men det er bedre med en litt eldre god sak enn en tom kategori.
 For hver sak: informativ tittel på bokmål (omskriv klikkagn) og en oppsummering på 1-2 setninger som BARE bygger på teksten (ikke dikt opp fakta).
 Svar KUN med JSON der hver kategori-id er en nøkkel, f.eks.: {"samfunn":[{"id":0,"title":"","summary":""}],"okonomi":[...], ... ,"sport":[{"id":1000,"title":"","summary":""}]}
 
@@ -340,7 +342,10 @@ SPORT:
 
 
 def build_prompt(news, sport):
-    fmt = lambda items, off: "\n".join(f"{i+off}. [{x['source']}] {x['title']} — {x['desc'][:150]}" for i, x in enumerate(items))
+    def age(x):
+        a = x.get("age")
+        return "ukjent alder" if a is None else f"{max(0, int(a))}t" if a < 20 else "i går" if a < 44 else f"{int(a // 24)}d"
+    fmt = lambda items, off: "\n".join(f"{i+off}. [{x['source']}, {age(x)}] {x['title']} — {x['desc'][:150]}" for i, x in enumerate(items))
     cats = "\n".join(f"- {cid}: {name} ({desc})" for cid, name, desc in CATS)
     return PROMPT % (cats, fmt(news, 0), fmt(sport, 1000))
 
