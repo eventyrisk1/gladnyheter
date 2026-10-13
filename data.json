@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-13T21:38",
+ "updated": "2026-10-13T22:39",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Gjøvik-bedrift lager maskin som bevarer mer fiskekjøtt",
+     "title": "Ny maskin bevarer mer av fiskekjøttet",
      "url": "https://www.nrk.no/innlandet/mustad-autoline-lager-maskin-som-skanner-fisk-for-den-skjaeres_-dermed-blir-mer-fiskekjott-bevart-1.18050766",
      "source": "NRK Innlandet",
-     "summary": "Mustad Autoline har utviklet en ny maskin som sørger for at mer av fiskekjøttet blir bevart, og at både lever og rogn unngår å bli kastet.",
+     "summary": "Mustad Autoline på Gjøvik har utviklet en oppfinnelse som gjør at mer av fiskekjøttet blir bevart, og at lever og rogn ikke kastes.",
      "published": "2026-10-13T12:57Z"
     },
     {
-     "title": "NTNU Ocean Campus er på plass i Ålesund",
+     "title": "NTNU Ocean Campus på plass i Ålesund",
      "url": "https://nyheter.ntnu.no/ntnu-ocean-campus-pa-plass-i-alesund/",
      "source": "NTNU",
-     "summary": "Den store Fjordlab-flåten ble slept sjøveien og har funnet sin plass i sentrum av Ålesund som en del av den nye satsingen.",
+     "summary": "Den store Fjordlab-flåten ble slept sjøveien og har funnet sin plass i sentrum av Ålesund.",
      "published": "2026-10-13T17:37Z"
     }
    ]
@@ -26,18 +26,25 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Får Nobels minnepris i økonomi for forskning på stabilisering",
+     "title": "Nobels minnepris i økonomi til amerikanere for stabilisering",
      "url": "https://www.forskning.no/ntb-okonomi/vinner-nobels-minnepris-i-okonomi-for-stabilisering/2722778",
      "source": "forskning.no",
-     "summary": "Prisen tildeles amerikanerne Robert E. Hall og Michael Woodford for deres mikroøkonomiske grunnlag for makroøkonomisk stabilisering.",
+     "summary": "Årets pris i økonomi tildeles Robert E. Hall og Michael Woodford for deres mikroøkonomiske grunnlag for makroøkonomisk stabilisering.",
      "published": "2026-10-12T11:47Z"
     },
     {
      "title": "Inntektshopp for meglerhuset ABG",
      "url": "https://e24.no/boers-og-finans/i/rM5vz8/inntektshopp-for-abg",
      "source": "E24",
-     "summary": "Meglerhuset økte både omsetning og resultat i en periode med ny toppsjef på vei inn.",
+     "summary": "Meglerhuset ABG økte både omsetning og resultat, samtidig som en ny toppsjef er på vei inn.",
      "published": "2026-10-13T06:04Z"
+    },
+    {
+     "title": "Solgte stor eiendom på Hvasser for nesten 60 millioner",
+     "url": "https://e24.no/naeringsliv/i/L3kv6J/blar-opp-59-5-millioner-for-eiendom-paa-hvasser",
+     "source": "E24",
+     "summary": "En investor har sikret seg en av årets dyreste fritidseiendommer etter et rekordår.",
+     "published": "2026-10-13T07:34Z"
     }
    ]
   },
@@ -46,25 +53,40 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Slik kan de aller tidligste menneskene ha sett ut",
-     "url": "https://www.forskning.no/arkeologi/slik-kan-de-aller-tidligste-menneskene-ha-sett-ut/2721128",
+     "title": "Vurderer å endre skuddsekundet for å unngå tekniske problemer",
+     "url": "https://www.forskning.no/astronomi-ntb-tid/skuddsekund-kan-bli-en-time/2723084",
      "source": "forskning.no",
-     "summary": "Forskere har forsøkt å rekonstruere ansiktet til den eldste kjente representanten for vår art.",
-     "published": "2026-10-12T22:01Z"
+     "summary": "Siden 1972 har 27 sekunder blitt lagt til verdens klokker, og nå ser forskere på muligheten for å endre ordningen.",
+     "published": "2026-10-13T06:56Z"
     },
     {
-     "title": "Ny rapport: Anbefaler eget EU-senter for Arktis",
-     "url": "https://www.forskning.no/arktis-eu-nord-universitet/ny-rapport-eu-bor-fa-et-eget-senter-for-arktis-innen-ett-ar/2717302",
+     "title": "Forskere har rekonstruert ansiktet til de tidligste menneskene",
+     "url": "https://www.forskning.no/arkeologi/slik-kan-de-aller-tidligste-menneskene-ha-sett-ut/2721128",
      "source": "forskning.no",
-     "summary": "Forskere peker på at EU bør samle data fra blant annet satellitter og skip i en egen enhet for Arktis innen ett år.",
-     "published": "2026-10-12T22:02Z"
+     "summary": "Forskere har gjort et forsøk på å vise hvordan den eldste representanten for vår art kan ha sett ut.",
+     "published": "2026-10-12T22:01Z"
     }
    ]
   },
   {
    "id": "ki",
    "name": "Kunstig intelligens",
-   "stories": []
+   "stories": [
+    {
+     "title": "Avdekket massiv svindel med KI-generert musikk",
+     "url": "https://www.tu.no/kunstig-intelligens/svindlet-til-seg-nesten-80-millioner-kroner-med-ki-musikk/7145919",
+     "source": "Teknisk Ukeblad",
+     "summary": "Personer klarte å svindle til seg store summer ved å bruke KI-agenter til å strømme musikk i massiv skala.",
+     "published": "2026-10-13T08:23Z"
+    },
+    {
+     "title": "Forskere vil temme avanserte KI-agenter",
+     "url": "https://www.forskning.no/innovasjon-juridiske-fag-kunstig-intelligens/samarbeider-ki-agenter-logisk-kan-de-finne-pa-a-bestille-en-leiemorder/2715758",
+     "source": "forskning.no",
+     "summary": "Forskere undersøker hvordan autonome KI-agenter oppfører seg når de samarbeiderlogisk, for å forstå og forhindre uønsket atferd.",
+     "published": "2026-10-12T22:03Z"
+    }
+   ]
   },
   {
    "id": "natur",
@@ -74,14 +96,14 @@
      "title": "Sjelden fugleart oppdaget ved Lista fyr",
      "url": "https://www.birdlife.no/fuglekunnskap/nyheter/?id=4102",
      "source": "BirdLife Norge",
-     "summary": "En vestindiapetrell ble for første gang registrert i både Norge og Norden da den åpenbarte seg ved Lista fyr.",
+     "summary": "Norges og Nordens første vestindiapetrell ble observert og artsbestemt ved Lista fyr.",
      "published": "2026-10-07T00:00Z"
     },
     {
-     "title": "Fugleglede og fellesskap under EuroBirdwatch",
+     "title": "Vellykket fuglekikking under EuroBirdwatch",
      "url": "https://www.birdlife.no/organisasjonen/fylkesavdelinger/nordland/nyheter/?id=4103",
      "source": "BirdLife Norge",
-     "summary": "Sør-Helgeland lokallag samlet deltakere for å observere hundrevis av gjester og fugler i hyggelige omgivelser med eplekake og kaffe.",
+     "summary": "Deltakere samlet seg for å observere hundrevis av gjess og troster i en innholdsrik høstfeiring av fuglelivet.",
      "published": "2026-10-07T00:00Z"
     }
    ]
@@ -98,10 +120,17 @@
      "published": "2026-10-12T04:00Z"
     },
     {
-     "title": "Derfor er det lurt å stole på andre",
+     "title": "Slik påvirker kaffe både humør og hjerne",
+     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
+     "source": "Psykologisk.no",
+     "summary": "Ny forskning viser hvordan den populære drikken setter sitt preg på både tarmflora, søvn og humør.",
+     "published": "2026-10-11T04:00Z"
+    },
+    {
+     "title": "Derfor er det lurt å lene seg på andre",
      "url": "https://www.forskning.no/barn-og-ungdom-partner-psykologi/derfor-er-det-lurt-a-stole-pa-andre/2714993",
      "source": "forskning.no",
-     "summary": "Mennesker er sårbare alene, og forskning viser at vi er avhengige av å lære oss å lene oss på hverandre.",
+     "summary": "Mennesker er sårbare alene, og forskning viser viktigheten av å lære seg å stole på og støtte seg på andre.",
      "published": "2026-10-12T22:01Z"
     }
    ]
@@ -111,18 +140,11 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Ny behandling av spiseforstyrrelser gir raskere effekt",
+     "title": "Ny behandling gir raskere hjelp ved spiseforstyrrelser",
      "url": "https://www.forskning.no/hogskolen-i-ostfold-medisinske-metoder-partner/ny-behandling-av-spiseforstyrrelser-gir-raskere-effekt-enn-dagens-standardbehandling/2715806",
      "source": "forskning.no",
-     "summary": "Et nytt lokalt tilbud gir raskere og mer effektiv hjelp til en gruppe som tidligere har hatt få behandlingsmuligheter.",
+     "summary": "Et nytt behandlingstilbud kan tilbys der folk bor, og gir raskere effekt enn dagens standardmetoder for en gruppe som før hadde få alternativer.",
      "published": "2026-10-12T22:04Z"
-    },
-    {
-     "title": "Slik påvirker kaffen både tarmene og hjernen",
-     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
-     "source": "Psykologisk.no",
-     "summary": "Ny forskning avdekker stadig flere positive og interessante effekter som kaffe har på humør, søvn og tarmflora.",
-     "published": "2026-10-11T04:00Z"
     }
    ]
   },
@@ -131,17 +153,10 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Hva skjer i hjernen når barn sliter med matte?",
-     "url": "https://www.forskning.no/dyskalkuli-hjernen-matematikk/hva-skjer-i-hodet-nar-du-sliter-med-matte/2717416",
-     "source": "forskning.no",
-     "summary": "Forskere har avdekket et eget mønster i hjerneaktiviteten hos barn som synes matematikk er vanskelig.",
-     "published": "2026-10-12T22:01Z"
-    },
-    {
-     "title": "Derfor gir skrubbsår verdifull livsmestring",
+     "title": "Skrubbsår og risikolek gir verdifull mestringsfølelse",
      "url": "https://www.barnehage.no/skrubbsar-gir-livsmestring/278412",
      "source": "Barnehage.no",
-     "summary": "Eksperter fremhever viktigheten av risikolek og mestringsfølelse for barns utvikling.",
+     "summary": "Fagfolk peker på at barn har godt av å erfare risikolek som en naturlig del av sin egen utvikling og livsmestring.",
      "published": "2026-10-12T13:27Z"
     }
    ]
@@ -151,25 +166,31 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Hermann Hesse om kunsten å lese bøker og seg selv",
-     "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
-     "source": "The Marginalian",
-     "summary": "Bøker viser oss hvordan det er å være en annen, samtidig som de leder oss tilbake til oss selv for å lære kunsten å leve.",
-     "published": "2026-10-13T03:26Z"
+     "title": "Livet og hverdagen går videre i landesorgen",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/den%20norske%20kirke%20glede%20og%20hverdag%20midt%20i%20landesorgen/",
+     "source": "Den norske kirke",
+     "summary": "Mennesker samles i kirkene over hele landet for både fellesskap, dåp, sorg og gode stunder."
     },
     {
-     "title": "Refleksjoner om kjærlighet og fellesskap",
-     "url": "https://www.themarginalian.org/2026/10/11/baldwin-love/",
-     "source": "The Marginalian",
-     "summary": "Et dypere dykk i hvordan vi møter hverandre og finner tilhørighet i en kompleks verden.",
-     "published": "2026-10-11T20:12Z"
+     "title": "Viktigheten av stabile fellesskap og fellesverdier",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20st%C3%B8tte%20til%20viktige%20fellesverdier/",
+     "source": "Den norske kirke",
+     "summary": "En stabil finansiering av trossamfunn trekkes frem som et viktig bidrag til å opprettholde gode fellesskap."
     }
    ]
   },
   {
    "id": "kunst",
    "name": "Kunst",
-   "stories": []
+   "stories": [
+    {
+     "title": "Pingviner har malt kunstverk til inntekt for TV-aksjonen",
+     "url": "https://www.nrk.no/tvaksjonen/pa-jakt-etter-noko-unikt_-_-dette-kan-du-by-pa-i-tv-aksjonen-2026-1.18016731",
+     "source": "NRK Vestland",
+     "summary": "Skaperglede i dyreparken resulterte i fargerike maleri-bidrag laget av pingviner.",
+     "published": "2026-10-12T10:17Z"
+    }
+   ]
   },
   {
    "id": "musikk",
@@ -179,7 +200,7 @@
      "title": "Kårer årets beste norske musikkvideo",
      "url": "https://www.ballade.no/musikkvideo/ballade-video-spesial-beste-norske-musikkvideo/",
      "source": "Ballade",
-     "summary": "Bergen Internasjonale Filmfestival og Vill Vill Vest er igjen klare for å kåre den beste norske musikkvideoen.",
+     "summary": "Bergen Internasjonale Filmfestival og Vill Vill Vest inviterer til kåring av fremragende musikkvideoer.",
      "published": "2026-10-13T18:11Z"
     }
    ]
@@ -189,11 +210,18 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Slik skapes poesi i både ord og bilde",
+     "title": "Dykk dypt inn i det poetiske språket",
      "url": "https://barnebokinstituttet.no/uncategorized/hvordan-skape-poesi-i-ord-og-bilde-et-dykk-i-det-poetiske-spraket/",
      "source": "Norsk barnebokinstitutt",
-     "summary": "Norske Barne- og ungdomsbokforfattere og Norsk barnebokinstitutt inviterer til dypdykk i det poetiske språket.",
+     "summary": "Seminarer og workshops gir forfattere og illustratører verktøy til å utforske poesiens verden i ord og bilde.",
      "published": "2026-10-10T16:40Z"
+    },
+    {
+     "title": "Hermann Hesse om kunsten å lese en bok",
+     "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
+     "source": "The Marginalian",
+     "summary": "Bøker viser oss hvordan det er å være et annet menneske, samtidig som de hjelper oss å forstå oss selv bedre.",
+     "published": "2026-10-13T03:26Z"
     }
    ]
   },
@@ -202,11 +230,11 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Kong Haakon besøker Narvik",
-     "url": "https://www.nrk.no/nordland/na-kommer-haakon-viii-til-narvik-som-ikke-ville-ha-haakon-vii-1.18051019",
-     "source": "NRK Nordland",
-     "summary": "Dagens konge mottas med åpne armer i Narvik, i sterk kontrast til stemningen i malmbyen i 1905.",
-     "published": "2026-10-12T18:37Z"
+     "title": "Høystemt og løssluppent på Operaen med Nasjonalballetten",
+     "url": "https://www.vl.no/kultur/pa-innsiden-av-ballettklassen/10579707",
+     "source": "Vårt Land",
+     "summary": "Nasjonalballetten byr på en variert kveld som spenner fra gripende drama til ren danseglede.",
+     "published": "2026-10-13T07:40Z"
     }
    ]
   },
@@ -215,24 +243,24 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Eventyrlig trailersllipp for den nye Narnia-filmen",
+     "title": "Ny og eventyrlig trailer for kommende Narnia-film",
      "url": "https://www.gamer.no/artikler/slapp-eventyrlig-trailer-for-den-nye-narnia-filmen/521171",
      "source": "Gamer.no",
-     "summary": "The Magician's Nephew viser seg fram med både Led Zeppelin, Aslan og Daniel Craig i spissen.",
+     "summary": "Elementer fra den kjente fortellingen viser seg frem i en fersk og etterlengtet videopresentasjon.",
      "published": "2026-10-13T18:51Z"
     },
     {
-     "title": "«No Man's Sky» kommer til mobil",
+     "title": "«No Man's Sky» kommer i mobilversjon",
      "url": "https://www.pressfire.no/artikkel/no-mans-sky-krympes",
      "source": "Pressfire",
-     "summary": "Det populære utforskningsspillet blir tilgjengelig i en mobilversjon denne måneden.",
-     "published": "2026-10-13T08:26Z"
+     "summary": "Det populære utforskningsspillet blir tilgjengelig for mobile plattformer denne måneden.",
+     "published": "2026-10-13T08:27Z"
     },
     {
-     "title": "Gjenopplever klassisk Super Star Trek",
+     "title": "Gjenopplever klassisk dataspill fra en svunnen tid",
      "url": "https://spillhistorie.no/2026/10/13/super-star-trek-spillet-fra-en-svunnen-tid/",
      "source": "Spillhistorie.no",
-     "summary": "Et dypdykk i det historiske spillet kjørt på nøyaktig samme type maskin som det ble skapt på for over femti år siden.",
+     "summary": "Spillentusiaster har kjørt «Super Star Trek» på nøyaktig samme type maskin som den det ble skapt på for over femti år siden.",
      "published": "2026-10-13T11:39Z"
     }
    ]
@@ -242,34 +270,34 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Norge imponerte før VM-innspurt",
+     "title": "Norge imponerte før VM-avgjørelsen",
      "url": "https://www.nrk.no/sport/norge-leker-med-romania-pa-ullevaal-_-ett-hinder-unna-vm-i-brasil-1.18053966",
      "source": "NRK",
-     "summary": "Foran 9000 tilskuere vartet landslaget opp med strålende spill og feiret en ny opptur.",
+     "summary": "Foran 9000 tilskuere viste det norske landslaget strålende takter på banen.",
      "published": "2026-10-13T16:55Z"
     },
     {
-     "title": "Formel 1 vender tilbake til Afrika",
+     "title": "Formel 1 vender tilbake til Afrika med Rwanda-løp",
      "url": "https://www.nrk.no/sport/formel-1_-afrika-vender-tilbake-til-vm-kalenderen-_-lop-i-rwanda-bekreftet-1.18053341",
      "source": "NRK",
-     "summary": "Rwanda er bekreftet som arrangør av fremtidige VM-runder, noe som markerer et historisk gjensyn med det afrikanske kontinentet.",
+     "summary": "Rwanda er offisielt bekreftet som arrangør for fremtidige VM-runder, noe som blir historisk for kontinentet.",
      "published": "2026-10-13T09:27Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 876,
-  "chosen": 24,
-  "notchosen": 165,
+  "total": 879,
+  "chosen": 28,
+  "notchosen": 157,
   "removed": {
-   "uro": 21,
-   "kjendis": 170,
-   "gammel": 336,
-   "format": 32,
-   "krim": 47,
+   "uro": 19,
+   "kjendis": 172,
+   "gammel": 335,
+   "format": 33,
+   "krim": 52,
    "sykdom": 40,
-   "konflikt": 19,
+   "konflikt": 21,
    "betalt": 22
   }
  },
@@ -1296,42 +1324,42 @@
     "min": 8,
     "max": 8,
     "symbol": "lightrainshowers_night",
-    "rain6": 2.6
+    "rain6": 1.7
    },
    "kristiansand": {
-    "temp": 13,
+    "temp": 12,
     "min": 11,
-    "max": 13,
+    "max": 12,
     "symbol": "fair_night",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 9,
-    "min": 9,
-    "max": 9,
+    "temp": 8,
+    "min": 8,
+    "max": 8,
     "symbol": "lightrain",
-    "rain6": 0.6
+    "rain6": 0.0
    },
    "tromso": {
-    "temp": 4,
-    "min": 4,
+    "temp": 5,
+    "min": 5,
     "max": 5,
     "symbol": "partlycloudy_night",
     "rain6": 0.0
    },
    "bergen": {
     "temp": 12,
-    "min": 12,
+    "min": 11,
     "max": 12,
     "symbol": "rain",
-    "rain6": 3.2
+    "rain6": 5.5
    },
    "stavanger": {
     "temp": 11,
     "min": 11,
     "max": 11,
     "symbol": "lightrain",
-    "rain6": 5.1
+    "rain6": 6.2
    }
   },
   "date": "2026-10-13"
