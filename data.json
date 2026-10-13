@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-13T19:27",
+ "updated": "2026-10-13T20:34",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Ny maskin bevarer mer fiskekjøtt på Gjøvik",
-     "url": "https://www.nrk.no/innlandet/mustad-autoline-lager-maskin-som-skanner-fisk-for-den-skjaeres_-dermed-blir-mer-fiskekjott-bevart-1.18050766",
-     "source": "NRK",
-     "summary": "Mustad Autoline har utviklet en ny maskin som sørger for at mer av fiskekjøttet blir bevart, slik at mindre lever og rogn kastes.",
-     "published": "2026-10-13T12:57Z"
+     "title": "NTNU Ocean Campus på plass i Ålesund",
+     "url": "https://nyheter.ntnu.no/ntnu-ocean-campus-pa-plass-i-alesund/",
+     "source": "NTNU",
+     "summary": "Den store Fjordlab-flåten ble slept sjøveien til Ålesund og har nå kommet på plass i sentrum som en del av NTNU Ocean Campus.",
+     "published": "2026-10-13T17:38Z"
     },
     {
-     "title": "Stor interesse for tankmjølk i daglegvarebutikken",
+     "title": "Stor interesse for tankmjølk i daglegvarebutikk",
      "url": "https://www.nrk.no/rogaland/na-kan-du-fa-tankmjolk-i-daglegvarebutikk-1.18034250",
      "source": "NRK Rogaland",
-     "summary": "Mjølkebøndene på Line opplever enorm etterspørsel etter tankmjølk og håper å nå ut til eit større publikum i butikk.",
+     "summary": "Mjølkebøndene på Line opplever enorm interesse for tankmjølk og håpar på ein ny og større marknad for produktet.",
      "published": "2026-10-12T07:54Z"
     }
    ]
@@ -26,18 +26,25 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Nobels minnepris i økonomi til amerikanere for stabilisering",
-     "url": "https://www.forskning.no/ntb-okonomi/vinner-nobels-minnepris-i-okonomi-for-stabilisering/2722778",
-     "source": "forskning.no",
-     "summary": "Robert E. Hall og Michael Woodford tildeles Nobels minnepris i økonomi for sitt mikroøkonomiske grunnlag for makroøkonomisk stabilisering.",
-     "published": "2026-10-12T11:48Z"
+     "title": "Priskampen om julekundene er i gang",
+     "url": "https://www.vg.no/nyheter/i/p19Mg1/pepperkakeprisen-dumpes",
+     "source": "VG",
+     "summary": "Allerede over to måneder før jul kjemper dagligvarekjedene om kundene, og prisen på pepperkaker har begynt å bli dumpet.",
+     "published": "2026-10-13T18:01Z"
     },
     {
-     "title": "Inntektshopp for meglerhuset ABG",
-     "url": "https://e24.no/boers-og-finans/i/rM5vz8/inntektshopp-for-abg",
+     "title": "Regjeringen foreslår milliarder til klimakvoter i utlandet",
+     "url": "https://e24.no/energi-og-klima/i/58LQPb/regjeringen-ber-om-26-milliarder-til-klimakvoter",
      "source": "E24",
-     "summary": "Meglerhuset økte både omsetning og resultat i en periode med ny toppsjef på vei inn.",
-     "published": "2026-10-13T06:05Z"
+     "summary": "Norge ber om 26 milliarder kroner til klimakvoter for å støtte opp om omstillingen i andre land.",
+     "published": "2026-10-13T13:37Z"
+    },
+    {
+     "title": "Boligprisene øker flere steder i nord",
+     "url": "https://www.nrk.no/tromsogfinnmark/boligpriser-oker-flere-steder-i-nord-og-synker-pa-ostlandet-1.18052298",
+     "source": "NRK Troms og Finnmark",
+     "summary": "Trass i at boligprisene vanligvis faller i tredje kvartal, viser tall fra Eiendom Norge at prisene øker flere steder i nord.",
+     "published": "2026-10-12T09:17Z"
     }
    ]
   },
@@ -46,25 +53,47 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Forskere har funnet hjerne-mønster ved mattetrøbbel",
-     "url": "https://www.forskning.no/dyskalkuli-hjernen-matematikk/hva-skjer-i-hodet-nar-du-sliter-med-matte/2717416",
+     "title": "Forskere har rekonstruert ansiktet til tidlige mennesker",
+     "url": "https://www.forskning.no/arkeologi/slik-kan-de-aller-tidligste-menneskene-ha-sett-ut/2721128",
      "source": "forskning.no",
-     "summary": "Forskere har oppdaget et felles mønster i hjerneaktiviteten til barn som strever med matematikk.",
+     "summary": "Forskere har forsøkt å vise hvordan de aller tidligste menneskene og den eldste representanten for vår art kan ha sett ut.",
      "published": "2026-10-12T22:02Z"
     },
     {
-     "title": "Slik kan de aller tidligste menneskene ha sett ut",
-     "url": "https://www.forskning.no/arkeologi/slik-kan-de-aller-tidligste-menneskene-ha-sett-ut/2721128",
+     "title": "Ny maskin bevarer mer fiskekjøtt",
+     "url": "https://www.nrk.no/innlandet/mustad-autoline-lager-maskin-som-skanner-fisk-for-den-skjaeres_-dermed-blir-mer-fiskekjott-bevart-1.18050766",
+     "source": "NRK",
+     "summary": "Mustad Autoline på Gjøvik har utviklet en oppfinnelse som gjør at mer fiskekjøtt bevares og at rogn og lever i større grad unngås å kastes.",
+     "published": "2026-10-13T12:57Z"
+    },
+    {
+     "title": "Ny rapport anbefaler eget EU-senter for Arktis",
+     "url": "https://www.forskning.no/arktis-eu-nord-universitet/ny-rapport-eu-bor-fa-et-eget-senter-for-arktis-innen-ett-ar/2717302",
      "source": "forskning.no",
-     "summary": "Forskere har forsøkt å rekonstruere ansiktet til den eldste kjente representanten for vår art.",
-     "published": "2026-10-12T22:02Z"
+     "summary": "Forskere anbefaler at EU samler data fra satellitter og skip i en egen felles enhet for Arktis innen ett år.",
+     "published": "2026-10-12T22:03Z"
     }
    ]
   },
   {
    "id": "ki",
    "name": "Kunstig intelligens",
-   "stories": []
+   "stories": [
+    {
+     "title": "NRK stenger døren for KI-skapte sanger i MGP",
+     "url": "https://www.aftenposten.no/kultur/i/n9mJvm/nrk-stenger-doeren-for-ki-skapte-sanger-i-mgp",
+     "source": "Aftenposten",
+     "summary": "I kontrast til Sverige har NRK valgt å ikke tillate KI-skapte sanger i den norske Eurovision-uttaket.",
+     "published": "2026-10-12T12:51Z"
+    },
+    {
+     "title": "Epic Games satser sterkt på AI",
+     "url": "https://www.gamereactor.no/epic-games-utsetter-disney-skytespill-kunstig-intelligens-utvikling/",
+     "source": "Gamereactor",
+     "summary": "Epic Games utsetter sitt Disney-skytespill for å gå over til en AI-først arbeidsflyt der utviklere bes om å slutte å skrive kode for hånd.",
+     "published": "2026-10-13T10:25Z"
+    }
+   ]
   },
   {
    "id": "natur",
@@ -74,15 +103,15 @@
      "title": "Første observasjon av vestindiapetrell i Norden",
      "url": "https://www.birdlife.no/fuglekunnskap/nyheter/?id=4102",
      "source": "BirdLife Norge",
-     "summary": "En sjelden vestindiapetrell ble for første gang oppdaget i Norden da den åpenbarte seg ved Lista fyr.",
-     "published": "2026-10-07T00:00Z"
+     "summary": "En sjelden vestindiapetrell ble for første gang oppdaget i Norge og Norden ved Lista fyr.",
+     "published": "2026-10-07T00:01Z"
     },
     {
-     "title": "Innholdsrik fugledag under EuroBirdwatch",
+     "title": "Vellykket fugleglede under EuroBirdwatch",
      "url": "https://www.birdlife.no/organisasjonen/fylkesavdelinger/nordland/nyheter/?id=4103",
      "source": "BirdLife Norge",
-     "summary": "Sør-Helgeland lokallag samlet deltakere for å observere hundrevis av trekkfugler og kose seg med bakverk.",
-     "published": "2026-10-07T00:00Z"
+     "summary": "Sør-Helgeland lokallag samlet deltakere til en innholdsrik høstdag med observasjon av hundrevis av fugler, kaffe og eplekake.",
+     "published": "2026-10-07T00:01Z"
     }
    ]
   },
@@ -91,17 +120,24 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Kan humor lindre depresjon?",
+     "title": "Kan humor lindre depresjoner?",
      "url": "https://www.psykologisk.no/nyheter/kan-humor-lindre-depresjoner/163994",
      "source": "Psykologisk.no",
-     "summary": "En litteraturgjennomgang viser at humor kan ha en plass i behandlingen av depresjon, men den må brukes med forsiktighet.",
+     "summary": "En litteraturgjennomgang viser at humor kan ha en plass i behandlingen av depresjon, men at feil bruk kan gjøre vondt verre.",
      "published": "2026-10-12T04:01Z"
+    },
+    {
+     "title": "Dette gjør kaffen med kropp og hode",
+     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
+     "source": "Psykologisk.no",
+     "summary": "Ny forskning viser hvordan kaffe påvirker både humøret, tarmfloraen og søvnen vår.",
+     "published": "2026-10-11T04:01Z"
     },
     {
      "title": "Derfor er det lurt å stole på andre",
      "url": "https://www.forskning.no/barn-og-ungdom-partner-psykologi/derfor-er-det-lurt-a-stole-pa-andre/2714993",
      "source": "forskning.no",
-     "summary": "Fordi mennesker er sårbare alene, viser det seg at vi er avhengige av å lære oss å lene oss på hverandre.",
+     "summary": "Mennesker er sårbare alene, og forskning viser at vi derfor må lære oss å lene oss på hverandre.",
      "published": "2026-10-12T22:02Z"
     }
    ]
@@ -111,18 +147,18 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Ny behandling gir raskere effekt ved spiseforstyrrelser",
+     "title": "Ny behandling av spiseforstyrrelser gir raskere effekt",
      "url": "https://www.forskning.no/hogskolen-i-ostfold-medisinske-metoder-partner/ny-behandling-av-spiseforstyrrelser-gir-raskere-effekt-enn-dagens-standardbehandling/2715806",
      "source": "forskning.no",
-     "summary": "Et nytt behandlingstilbud kan gis der folk bor, og gir raskere resultater enn dagens standard for en gruppe som før hadde få alternativer.",
+     "summary": "Et nytt behandlingstilbud som kan gis der folk bor, viser raskere effekt og hjelper en gruppe som før hadde få tilbud.",
      "published": "2026-10-12T22:05Z"
     },
     {
-     "title": "Slik påvirker kaffe kroppen og hjernen",
-     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
-     "source": "Psykologisk.no",
-     "summary": "Ny forskning viser hvordan kaffe spiller inn på både humør, tarmflora og søvn.",
-     "published": "2026-10-11T04:01Z"
+     "title": "Forskere fant mønster i hjerneaktiviteten ved mattetrøbbel",
+     "url": "https://www.forskning.no/dyskalkuli-hjernen-matematikk/hva-skjer-i-hodet-nar-du-sliter-med-matte/2717416",
+     "source": "forskning.no",
+     "summary": "Forskere har oppdaget et spesifikt mønster i hjerneaktiviteten hos barn som strever med matematikk.",
+     "published": "2026-10-12T22:02Z"
     }
    ]
   },
@@ -134,8 +170,15 @@
      "title": "Skrubbsår gir verdifull livsmestring",
      "url": "https://www.barnehage.no/skrubbsar-gir-livsmestring/278412",
      "source": "Barnehage.no",
-     "summary": "Fagfolk peker på viktigheten av risikolek og mestringsfølelse for barns utvikling.",
+     "summary": "Fokus på risikolek viser at barna opplever mestringsfølelse gjennom frihet under ansvar.",
      "published": "2026-10-12T13:27Z"
+    },
+    {
+     "title": "Undersøker sensitiv tematikk i barnebøker",
+     "url": "https://barnebokinstituttet.no/aktuelt/det-handler-ikke-om-hva-men-om-hvordan-om-sensitiv-tematikk-i-barneboker/",
+     "source": "Norsk barnebokinstitutt",
+     "summary": "Ny gjennomgang ser nærmere på hvordan forfattere og redaktører vurderer språklige og tematiske valg i litteratur for barn.",
+     "published": "2026-10-08T07:28Z"
     }
    ]
   },
@@ -144,36 +187,49 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Hermann Hesse om kunsten å lese og forstå seg selv",
+     "title": "En støtte til viktige fellesverdier",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20st%C3%B8tte%20til%20viktige%20fellesverdier/",
+     "source": "Den norske kirke",
+     "summary": "En stabil finansiering av Den norske kirke trekkes frem som et viktig bidrag for å opprettholde fellesskap og fellesverdier."
+    },
+    {
+     "title": "Hermann Hesse om kunsten å lese en bok",
      "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
      "source": "The Marginalian",
-     "summary": "Bøker viser oss hvordan det er å være en annen, og hjelper oss samtidig å finne veien tilbake til oss selv og lære å leve.",
+     "summary": "Et dypdykk i hvordan bøker viser oss andre menneskers opplevelser og samtidig hjelper oss å forstå oss selv.",
      "published": "2026-10-13T03:27Z"
     },
     {
-     "title": "James Baldwin om hvordan kjærligheten finner oss",
-     "url": "https://www.themarginalian.org/2026/10/11/baldwin-love/",
-     "source": "The Marginalian",
-     "summary": "En dypere refleksjon over hvordan språket vårt avslører våre egne forestillinger om kjærlighet og fellesskap.",
-     "published": "2026-10-11T20:12Z"
+     "title": "Glede og hverdag i landesorgen",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/den%20norske%20kirke%20glede%20og%20hverdag%20midt%20i%20landesorgen/",
+     "source": "Den norske kirke",
+     "summary": "Midt i en tid med felles sorg samles mennesker i kirkene over hele landet til både ettertanke, dåp og gudstjenester."
     }
    ]
   },
   {
    "id": "kunst",
    "name": "Kunst",
-   "stories": []
+   "stories": [
+    {
+     "title": "Pingviner har malt kunst til TV-aksjonen",
+     "url": "https://www.nrk.no/tvaksjonen/pa-jakt-etter-noko-unikt_-_-dette-kan-du-by-pa-i-tv-aksjonen-2026-1.18016731",
+     "source": "NRK Vestland",
+     "summary": "Utvalgte pingviner har bidratt med malerier som en kreativ støtteaksjon.",
+     "published": "2026-10-12T10:18Z"
+    }
+   ]
   },
   {
    "id": "musikk",
    "name": "Musikk",
    "stories": [
     {
-     "title": "Unikt musikalsk møte med Mark Solborgs trio",
-     "url": "https://www.nettavisen.no/kjendis/kreative-hoder-og-hender/r/5-95-3221142",
-     "source": "Nettavisen",
-     "summary": "Den danske gitaristen leder en trio som byr på et særegent og nært uttrykk.",
-     "published": "2026-10-13T16:06Z"
+     "title": "Kårer årets beste norske musikkvideo",
+     "url": "https://www.ballade.no/musikkvideo/ballade-video-spesial-beste-norske-musikkvideo/",
+     "source": "Ballade",
+     "summary": "Bergen Internasjonale Filmfestival og Vill Vill Vest er i gang med å kåre den beste norske musikkvideoen.",
+     "published": "2026-10-13T18:12Z"
     }
    ]
   },
@@ -182,11 +238,11 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Dypdykk i det poetiske språket og formidling",
+     "title": "Seminar om det poetiske språket",
      "url": "https://barnebokinstituttet.no/uncategorized/hvordan-skape-poesi-i-ord-og-bilde-et-dykk-i-det-poetiske-spraket/",
      "source": "Norsk barnebokinstitutt",
-     "summary": "Seminaret og workshopen gir verktøy og inspirasjon for forfattere og illustratører som jobber med poesi.",
-     "published": "2026-10-10T16:40Z"
+     "summary": "Norske Barne- og ungdomsbokforfattere og Norsk barnebokinstitutt inviterer til seminar om poesi i ord og bilde.",
+     "published": "2026-10-10T16:41Z"
     }
    ]
   },
@@ -195,11 +251,18 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Høystemt og løssluppent på Operaen med Nasjonalballetten",
-     "url": "https://www.vl.no/kultur/pa-innsiden-av-ballettklassen/10579707",
-     "source": "Vårt Land",
-     "summary": "León & Lightfoot leverer en ballettkveld som spenner fra gripende drama til ren danseglede.",
-     "published": "2026-10-13T07:40Z"
+     "title": "Oppsiktsvekkende vellykket norsk komedie",
+     "url": "https://www.vg.no/rampelys/i/X9znKE/anmeldelse-pensjonskuppet",
+     "source": "VG",
+     "summary": "En aktuell norsk komedie høster svært sterke lovord og beskrives som en stor positiv overraskelse.",
+     "published": "2026-10-13T18:00Z"
+    },
+    {
+     "title": "Fredrik Solvang tilbake som programleder i NRK",
+     "url": "https://www.aftenposten.no/kultur/i/Wgo3rK/solvang-tilbake-som-programleder-i-nrk",
+     "source": "Aftenposten",
+     "summary": "Fredrik Solvang er klar for en ny rolle der han skal lede den kommende NRK-serien «Yachten».",
+     "published": "2026-10-12T12:35Z"
     }
    ]
   },
@@ -208,24 +271,24 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "No Man's Sky kommer til mobil",
+     "title": "Ted Lasso kommer til FC 27",
+     "url": "https://www.gamer.no/artikler/ted-lasso-vender-tilbake-i-fc-27/521169",
+     "source": "Gamer.no",
+     "summary": "Spillere kan glede seg til å lede AFC Richmonds damelag til seier i det populære spillet.",
+     "published": "2026-10-13T12:38Z"
+    },
+    {
+     "title": "«No Man's Sky» lanseres på mobil",
      "url": "https://www.pressfire.no/artikkel/no-mans-sky-krympes",
      "source": "Pressfire",
-     "summary": "Det populære utforskingsspillet blir tilgjengelig i en mobilversjon i løpet av måneden.",
+     "summary": "Det omfangsrike utforskningsspillet tilpasses mobiltelefoner og nettbrett denne måneden.",
      "published": "2026-10-13T08:27Z"
     },
     {
-     "title": "Gjenopplever Super Star Trek etter femti år",
-     "url": "https://spillhistorie.no/2026/10/13/super-star-trek-spillet-fra-en-svunnen-tid/",
-     "source": "Spillhistorie.no",
-     "summary": "Spillet fra en svunnen tid blir testet på samme type datamaskin det ble skapt på for over et halvt århundre siden.",
-     "published": "2026-10-13T11:39Z"
-    },
-    {
-     "title": "Større spillmesse enn noensinne i Kristiansand",
+     "title": "Spillmessen i Kristiansand vokser",
      "url": "https://spillhistorie.no/2026/10/12/spillmessen-i-kristiansand-blir-storre-enn-noensinne/",
      "source": "Spillhistorie.no",
-     "summary": "Årets spillmesse i Kristiansand byr på et bredt program for spillentusiaster denne helgen.",
+     "summary": "Spillmesse 2026 går av stabelen denne helgen og melder om større oppslutning enn noen gang.",
      "published": "2026-10-12T10:54Z"
     }
    ]
@@ -235,35 +298,35 @@
    "name": "Sport",
    "stories": [
     {
+     "title": "Norge imponerte med storseier og sambatakter",
+     "url": "https://www.nrk.no/sport/norge-leker-med-romania-pa-ullevaal-_-ett-hinder-unna-vm-i-brasil-1.18053966",
+     "source": "NRK",
+     "summary": "Foran 9000 tilskuere leverte det norske landslaget spill som vekket begeistring hos ekspertene.",
+     "published": "2026-10-13T16:56Z"
+    },
+    {
      "title": "Formel 1 vender tilbake til Afrika med løp i Rwanda",
      "url": "https://www.nrk.no/sport/formel-1_-afrika-vender-tilbake-til-vm-kalenderen-_-lop-i-rwanda-bekreftet-1.18053341",
      "source": "NRK",
-     "summary": "Formel 1-kalenderen utvides med framtidige VM-runder i Rwanda, noe som blir de første løpene på det afrikanske kontinentet på mange tiår.",
-     "published": "2026-10-13T09:27Z"
-    },
-    {
-     "title": "16 utøvere klare for friidrettslandslaget",
-     "url": "https://www.nrk.no/sport/16-utovere-tatt-ut-pa-landslaget-1.18053359",
-     "source": "NRK",
-     "summary": "Norges Friidrettsforbund har presentert uttaket for neste års landslag, med Jakob Asserson Ingebrigtsen blant de uttatte.",
-     "published": "2026-10-13T08:29Z"
+     "summary": "Det er bekreftet at Rwanda skal arrangere VM-runder i Formel 1, noe som blir de første på det afrikanske kontinentet på flere tiår.",
+     "published": "2026-10-13T09:28Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 881,
-  "chosen": 23,
-  "notchosen": 172,
+  "total": 825,
+  "chosen": 32,
+  "notchosen": 147,
   "removed": {
-   "uro": 20,
-   "kjendis": 173,
-   "gammel": 338,
-   "format": 30,
-   "krim": 42,
-   "sykdom": 40,
-   "konflikt": 19,
-   "betalt": 24
+   "uro": 17,
+   "kjendis": 160,
+   "gammel": 321,
+   "format": 27,
+   "krim": 47,
+   "sykdom": 38,
+   "konflikt": 14,
+   "betalt": 22
   }
  },
  "today": {
@@ -1288,43 +1351,43 @@
     "temp": 8,
     "min": 8,
     "max": 8,
-    "symbol": "rainshowers_night",
-    "rain6": 7.4
+    "symbol": "lightrainshowers_night",
+    "rain6": 4.9
    },
    "kristiansand": {
-    "temp": 14,
+    "temp": 13,
     "min": 11,
-    "max": 14,
+    "max": 13,
     "symbol": "fair_night",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 9,
-    "min": 9,
-    "max": 9,
+    "temp": 10,
+    "min": 10,
+    "max": 10,
     "symbol": "lightrain",
-    "rain6": 0.8
+    "rain6": 0.7
    },
    "tromso": {
     "temp": 4,
     "min": 4,
     "max": 5,
-    "symbol": "partlycloudy_night",
+    "symbol": "cloudy",
     "rain6": 0.0
    },
    "bergen": {
-    "temp": 12,
-    "min": 12,
+    "temp": 11,
+    "min": 11,
     "max": 12,
     "symbol": "lightrain",
-    "rain6": 0.0
+    "rain6": 0.6
    },
    "stavanger": {
     "temp": 12,
     "min": 12,
     "max": 12,
-    "symbol": "lightrainshowers_night",
-    "rain6": 0.0
+    "symbol": "rainshowers_night",
+    "rain6": 1.6
    }
   },
   "date": "2026-10-13"
