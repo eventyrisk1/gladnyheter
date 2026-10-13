@@ -9,7 +9,7 @@
 <meta property="og:description" content="Topp 3 i hver kategori – uten skremselsnyheter, klikkagn, kjendistull og reklame.">
 <meta property="og:url" content="https://gladnyheter.com/">
 <meta name="theme-color" content="#f2f5f1">
-<script>try{var gt=JSON.parse(localStorage.getItem('gn-theme'));if(gt==='dark'||gt==='light')document.documentElement.setAttribute('data-theme',gt);}catch(e){}</script>
+<script>var gt=null;try{gt=JSON.parse(localStorage.getItem('gn-theme'));}catch(e){}document.documentElement.setAttribute('data-theme',gt==='dark'?'dark':'light');</script>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
