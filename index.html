@@ -115,6 +115,7 @@ li:not(:first-child) .item p{color:var(--muted)}
 .today .note{font-size:12px;color:var(--muted)}
 .since{font-family:var(--ui);font-size:13px;color:var(--muted);margin:14px 0 0}
 .since b{color:var(--fg)}
+.hot{display:inline-block;font-family:var(--ui);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#d9532c;color:#fff;border-radius:999px;padding:1px 7px;margin-right:6px;vertical-align:2px}
 .fresh{display:inline-block;font-family:var(--ui);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#2b7a55;box-shadow:inset 0 0 0 1px currentColor;border-radius:999px;padding:1px 7px;margin-right:6px;vertical-align:2px}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .fresh{color:#6fd1a0}}:root[data-theme="dark"] .fresh{color:#6fd1a0}
 .new{display:inline-block;font-family:var(--ui);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--sun);color:#1d2a25;border-radius:999px;padding:1px 7px;margin-right:6px;vertical-align:2px}
@@ -295,7 +296,7 @@ function render(data){
     var ol=el('ol');
     c.stories.forEach(function(s,i){
       var li=el('li');li.appendChild(el('span','n',String(i+1)));
-      var it=el('div','item');var h3=el('h3');var a=el('a',null,s.title);a.href=s.url;a.target='_blank';a.rel='noopener';gnTrack(a,c,s);if(s.published&&!when(s.published))h3.appendChild(el('span','fresh','I dag'));h3.appendChild(a);it.appendChild(h3);
+      var it=el('div','item');var h3=el('h3');var a=el('a',null,s.title);a.href=s.url;a.target='_blank';a.rel='noopener';gnTrack(a,c,s);if(s.published&&!when(s.published)){var ageH=(Date.now()-Date.parse(s.published.replace('Z',':00Z')))/36e5;h3.appendChild(ageH<3?el('span','hot','🔥 Fersk'):el('span','fresh','I dag'));}h3.appendChild(a);it.appendChild(h3);
       if(s.summary)it.appendChild(el('p',null,s.summary));it.appendChild(el('div','src',s.source+when(s.published)+(s.paid?' · 🔒 Krever abonnement':'')));
       li.appendChild(it);ol.appendChild(li);
     });
