@@ -1,16 +1,23 @@
 {
- "updated": "2026-10-13T07:33",
+ "updated": "2026-10-13T08:35",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Stor interesse for tankmjølk i daglegvarebutikk",
+     "title": "Stor interesse for tankmjølk i Rogaland",
      "url": "https://www.nrk.no/rogaland/na-kan-du-fa-tankmjolk-i-daglegvarebutikk-1.18034250",
      "source": "NRK Rogaland",
-     "summary": "Mjølkebøndene på Line opplever enorm interesse for tankmjølk og håpar no å nå ut til ein ny og større marknad i daglegvarebutikken.",
+     "summary": "Mjølkebøndene på Line opplever enorm interesse for tankmjølk, og nå håper de at mjølkeinteressen kan nå ut til eit større marknad.",
      "published": "2026-10-12T07:53Z"
+    },
+    {
+     "title": "Boligprisene stiger flere steder i nord",
+     "url": "https://www.nrk.no/tromsogfinnmark/boligpriser-oker-flere-steder-i-nord-og-synker-pa-ostlandet-1.18052298",
+     "source": "NRK Troms og Finnmark",
+     "summary": "Til tross for at boligprisene vanligvis faller i tredje kvartal, viser tall fra Eiendom Norge at prisene øker flere steder i nord.",
+     "published": "2026-10-12T09:16Z"
     }
    ]
   },
@@ -19,11 +26,11 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Tildeles Nobels minnepris i økonomi for stabilisering",
-     "url": "https://www.forskning.no/ntb-okonomi/vinner-nobels-minnepris-i-okonomi-for-stabilisering/2722778",
-     "source": "forskning.no",
-     "summary": "Nobels minnepris i økonomi for dette året går til amerikanerne Robert E. Hall og Michael Woodford for deres mikroøkonomiske grunnlag for makroøkonomisk stabilisering.",
-     "published": "2026-10-12T11:47Z"
+     "title": "Inntektshopp for ABG Sundal Collier",
+     "url": "https://e24.no/boers-og-finans/i/rM5vz8/inntektshopp-for-abg",
+     "source": "E24",
+     "summary": "Meglerhuset økte både omsetning og resultat, samtidig som de har en ny toppsjef på vei inn.",
+     "published": "2026-10-13T06:04Z"
     }
    ]
   },
@@ -32,17 +39,17 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Forskerne har forsøkt å rekonstruere ansiktet til tidlig menneske",
+     "title": "Forskerne har rekonstruert ansiktet til et av de tidligste menneskene",
      "url": "https://www.forskning.no/arkeologi/slik-kan-et-av-de-tidligste-menneskene-ha-sett-ut/2721128",
      "source": "forskning.no",
-     "summary": "Forskere har prøvd å gjenskape utseendet til den eldste kjente representanten for vår art.",
+     "summary": "Forskere har forsøkt å rekonstruere ansiktet til den eldste representanten for vår art basert på historiske funn.",
      "published": "2026-10-12T22:01Z"
     },
     {
-     "title": "Norrøn kirkeruin oppdaget på Grønland",
+     "title": "Norrøn kirkeruin funnet på Grønland",
      "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
      "source": "forskning.no",
-     "summary": "Et funnet skjelett har avdekket en ukjent kirke fra den norrøne bosettingens tid på Sør-Grønland, i nærheten av Erik Raudes bosted.",
+     "summary": "Oppdagelsen av et skjelett har avslørt en ukjent kirke fra den norrøne bosettingens tid på Sør-Grønland, i nærheten av Erik Raudes bosted.",
      "published": "2026-10-10T22:02Z"
     }
    ]
@@ -55,8 +62,8 @@
      "title": "Meta lanserer ny AI-modell",
      "url": "https://e24.no/boers-og-finans/i/OgWGWE/mark-zuckerberg-meta-har-tatt-igjen-ai-rivaler-med-ny-modell",
      "source": "E24",
-     "summary": "Mark Zuckerberg opplyser at Meta har tatt igjen konkurrenter på kunstig intelligens med lanseringen av den nye modellen Muse Wonder.",
-     "published": "2026-10-12T17:16Z"
+     "summary": "Meta har sluppet en ny modell ved navn Muse Wonder, noe som har ført til et hopp for aksjen på Wall Street.",
+     "published": "2026-10-12T17:17Z"
     }
    ]
   },
@@ -65,10 +72,17 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Vellykket fugleobservasjon under EuroBirdwatch",
+     "title": "Første observasjon av vestindiapetrell i Norden",
+     "url": "https://www.birdlife.no/fuglekunnskap/nyheter/?id=4102",
+     "source": "BirdLife Norge",
+     "summary": "En vestindiapetrell ble for første gang observert i Norden da den åpenbarte seg ved Lista fyr lørdag.",
+     "published": "2026-10-07T00:00Z"
+    },
+    {
+     "title": "Vellykket fuglekikking under EuroBirdwatch",
      "url": "https://www.birdlife.no/organisasjonen/fylkesavdelinger/nordland/nyheter/?id=4103",
      "source": "BirdLife Norge",
-     "summary": "Sør-Helgeland lokallag samlet over 800 kortnebbgås, flere hundre troster og 18 deltakere til en innholdsrik høstdag med kaffe og eplekake.",
+     "summary": "Sør-Helgeland lokallag samlet deltakere til en innholdsrik høstdag med observasjoner av over 800 kortnebbgås og andre fuglearter.",
      "published": "2026-10-07T00:00Z"
     }
    ]
@@ -78,10 +92,10 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Derfor er det en styrke å stole på andre",
+     "title": "Derfor er det lurt å lene seg på andre",
      "url": "https://www.forskning.no/barn-og-ungdom-partner-psykologi/derfor-er-det-lurt-a-stole-pa-andre/2714993",
      "source": "forskning.no",
-     "summary": "Mennesker er sårbare alene, og forskning viser at vi derfor er avhengige av å kunne lene oss på hverandre.",
+     "summary": "Mennesker er sårbare alene, og forskning viser at vi derfor er avhengige av å lære oss å stole på andre.",
      "published": "2026-10-12T22:01Z"
     }
    ]
@@ -89,26 +103,18 @@
   {
    "id": "helse",
    "name": "Helse og trening",
-   "stories": [
-    {
-     "title": "Nytt behandlingstilbud for spiseforstyrrelser gir raskere effekt",
-     "url": "https://www.forskning.no/hogskolen-i-ostfold-medisinske-metoder-partner/ny-behandling-av-spiseforstyrrelser-gir-raskere-effekt-enn-dagens-standardbehandling/2715806",
-     "source": "forskning.no",
-     "summary": "En ny behandlingsmetode kan gis der folk bor, og gir raskere effekt enn dagens standardbehandling for en gruppe som tidligere har hatt få tilbud.",
-     "published": "2026-10-12T22:04Z"
-    }
-   ]
+   "stories": []
   },
   {
    "id": "oppvekst",
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Framhever skrubbsår som en del av barns livsmestring",
-     "url": "https://www.barnehage.no/skrubbsar-gir-livsmestring/278412",
-     "source": "Barnehage.no",
-     "summary": "Risikolek og mestringsfølelse gjennom fri lek trekkes frem som viktige elementer for barns utvikling.",
-     "published": "2026-10-12T13:27Z"
+     "title": "Slik arter hjerneaktiviteten seg når barn sliter med matte",
+     "url": "https://www.forskning.no/dyskalkuli-hjernen-matematikk/hva-skjer-i-hodet-nar-du-sliter-med-matte/2717416",
+     "source": "forskning.no",
+     "summary": "Forskere har identifisert et eget mønster i hjerneaktiviteten til barn som opplever utfordringer med matematikk.",
+     "published": "2026-10-12T22:01Z"
     }
    ]
   },
@@ -130,15 +136,7 @@
   {
    "id": "musikk",
    "name": "Musikk",
-   "stories": [
-    {
-     "title": "Mick Gordon åpner for å vende tilbake til Doom-serien",
-     "url": "https://www.gamereactor.no/mick-gordon-aapner-for-doom-retur-under-rette-forhold/",
-     "source": "Gamereactor",
-     "summary": "Komponisten utelukker ikke å lage musikk til Doom igjen, men stiller visse krav etter tidligere uenigheter.",
-     "published": "2026-10-12T15:24Z"
-    }
-   ]
+   "stories": []
   },
   {
    "id": "litteratur",
@@ -155,25 +153,25 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Nytt spill i Ace Combat-serien høster lovord",
+     "title": "Gode skussmål for «Ace Combat 8»",
      "url": "https://www.pressfire.no/artikkel/har-du-tid-til-enda-en-liten-spilljuvel-i-ar",
      "source": "Pressfire",
-     "summary": "«Ace Combat 8» leverer på alle fronter og har hatt en historisk rask lansering.",
+     "summary": "Det nye spillet leverer på alle fronter og byr på en solid opplevelse for spillere som liker action og flyvning.",
      "published": "2026-10-12T09:20Z"
     },
     {
-     "title": "Spillmessen i Kristiansand utvides",
+     "title": "Spillmessen i Kristiansand vokser",
      "url": "https://spillhistorie.no/2026/10/12/spillmessen-i-kristiansand-blir-storre-enn-noensinne/",
      "source": "Spillhistorie.no",
-     "summary": "Årets spillmesse i Kristiansand arrangeres denne helgen og blir større enn noen gang tidligere.",
-     "published": "2026-10-12T10:53Z"
+     "summary": "Spillmesse 2026 går av stabelen denne helgen og melder om at arrangementet blir større enn noensinne.",
+     "published": "2026-10-12T10:54Z"
     },
     {
-     "title": "Imponerende salgstall for Phasmophobia",
-     "url": "https://www.gamer.no/artikler/phasmophobia-har-solgt-30-millioner-eksemplarer-i-early-access/521156",
+     "title": "Salgsrekord for «Ace Combat 8»",
+     "url": "https://www.gamer.no/artikler/ace-combat-8-hadde-seriens-hittil-beste-lansering/521151",
      "source": "Gamer.no",
-     "summary": "Skrekkspillet Phasmophobia har solgt hele 30 millioner eksemplarer mens det fremdeles har vært i «early access».",
-     "published": "2026-10-12T04:45Z"
+     "summary": "Flysimulatoren solgte én million eksemplarer raskere enn noen tidligere utgivelse i serien.",
+     "published": "2026-10-10T13:53Z"
     }
    ]
   },
@@ -182,34 +180,34 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Coventry tok andre strake seier",
+     "title": "Andre strake seier for Coventry",
      "url": "https://www.nrk.no/sport/coventry-sin-andre-strake-seier-og-klatrer-over-nedrykkstreken-1.18053081",
      "source": "NRK",
-     "summary": "Etter en tung start på sesongen klatret Coventry over nedrykkstreken i Championship med seier mot Newcastle.",
+     "summary": "Etter en tung start på sesongen fortsatte Coventry oppturen med seier mot Newcastle.",
      "published": "2026-10-12T20:52Z"
     },
     {
-     "title": "Cecilie Uttrup Ludwig klar for Uno-X",
+     "title": "Merittert syklist klar for Uno-X",
      "url": "https://www.nrk.no/sport/vm-medaljor-til-uno-x-1.18052227",
      "source": "NRK",
-     "summary": "Den meriterte danske syklisten forsterker kvinnelaget til Uno-X med en toårig kontrakt foran kommende sesong.",
+     "summary": "Cecilie Uttrup Ludwig forsterker kvinnelaget til Uno-X foran neste sesong etter å ha signert en toårig kontrakt.",
      "published": "2026-10-12T08:07Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 817,
+  "total": 813,
   "chosen": 15,
-  "notchosen": 131,
+  "notchosen": 133,
   "removed": {
    "kjendis": 165,
-   "gammel": 311,
-   "format": 36,
+   "gammel": 310,
+   "format": 34,
    "krim": 39,
-   "sykdom": 41,
+   "sykdom": 39,
    "konflikt": 18,
-   "uro": 31,
+   "uro": 30,
    "betalt": 30
   }
  },
@@ -743,16 +741,16 @@
    "oslo": {
     "temp": 5,
     "min": 5,
-    "max": 9,
+    "max": 8,
     "symbol": "lightrain",
-    "rain6": 1.2
+    "rain6": 0.0
    },
    "kristiansand": {
     "temp": 11,
     "min": 11,
     "max": 14,
     "symbol": "rain",
-    "rain6": 0.5
+    "rain6": 0.8
    },
    "trondheim": {
     "temp": 5,
@@ -762,8 +760,8 @@
     "rain6": 0.0
    },
    "tromso": {
-    "temp": -1,
-    "min": -1,
+    "temp": 0,
+    "min": 0,
     "max": 5,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
