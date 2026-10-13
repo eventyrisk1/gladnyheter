@@ -58,6 +58,11 @@ FEEDS = [
     ("NRK", "https://www.nrk.no/livsstil/toppsaker.rss", 1),
     ("Ny Tid", "https://www.nytid.no/feed/", 1),
     ("Buddhistforbundet", "https://buddhistforbundet.no/feed/", 3),
+    ("Den norske kirke", "https://www.kirken.no/rss", 2, 8),
+    ("Mindful", "https://www.mindful.org/feed/", 2),
+    ("Tricycle", "https://tricycle.org/feed/", 2),
+    ("The Marginalian", "https://www.themarginalian.org/feed/", 2),
+    ("Psyche", "https://psyche.co/feed.rss", 2),
 ]
 SPORT_FEEDS = [
     ("NRK", "https://www.nrk.no/sport/toppsaker.rss", 1),
@@ -233,8 +238,9 @@ def score(it):
 
 def collect(feeds):
     seen, out = set(), []
-    for src, u, w in feeds:
-        got = parse(src, u, w)
+    for f in feeds:
+        src, u, w = f[:3]
+        got = parse(src, u, w, f[3] if len(f) > 3 else 20)
         kept = [it for it in got if ok(it)]
         print(f"  {src:15} {len(got):3} hentet, {len(kept):3} igjen  {u}")
         for it in got:
@@ -277,8 +283,7 @@ CATS = [
     ("psykologi", "Psykologi", "psykologi, hjernen, følelser, relasjoner, livsmestring"),
     ("helse", "Helse og trening", "gode råd om kosthold, trening, søvn og forebygging, folkehelse og nye medisinske fremskritt og behandlinger – ikke sykdomsskrekk, dødsfall, kriser eller alternativ behandling"),
     ("oppvekst", "Barn og oppvekst", "barnehage, skole, utdanning, oppdragelse, foreldre, ungdom"),
-    ("tro", "Tro og livssyn", "tro, religion, kirke, livssyn, etikk – det som samler, ikke konflikter"),
-    ("aand", "Ånd og spiritualitet", "meditasjon, mindfulness, stillhet, pilegrimsvandring, filosofi og livsvisdom, meningen med livet, takknemlighet, vennskap og fellesskap, ensomhet og hvordan man finner ro, langsomt liv og skjermfri tid, natur som kilde til ro – ikke alternativ behandling, healing eller overtro"),
+    ("tro", "Tro, ånd og ettertanke", "tro, religion, kirke og livssyn, etikk, meditasjon og mindfulness, stillhet og indre ro, pilegrimsvandring, filosofi og livsvisdom, meningen med livet, takknemlighet, vennskap og fellesskap, natur som kilde til ro – det som samler og gir ettertanke, ikke konflikter, alternativ behandling, healing eller overtro"),
     ("kunst", "Kunst", "billedkunst, utstillinger, museer, design, arkitektur"),
     ("musikk", "Musikk", "musikk, artister, album, konserter"),
     ("litteratur", "Litteratur", "bøker, forfattere, litteratur, lesing"),
@@ -288,7 +293,7 @@ CATS = [
 ]
 RULE_MAP = {"Samfunn": "samfunn", "Hverdag": "samfunn", "Økonomi": "okonomi", "Næringsliv": "okonomi",
             "Vitenskap": "vitenskap", "Medisin": "helse", "Teknologi": "vitenskap", "KI": "ki",
-            "Natur": "natur", "Psykologi": "psykologi", "Oppvekst": "oppvekst", "Tro": "tro", "Aand": "aand",
+            "Natur": "natur", "Psykologi": "psykologi", "Oppvekst": "oppvekst", "Tro": "tro", "Aand": "tro",
             "Kunst": "kunst", "Musikk": "musikk", "Litteratur": "litteratur",
             "Kultur": "kultur", "Historie": "kultur", "Spill": "spill"}
 
@@ -331,6 +336,7 @@ Velg de 3 mest interessante, lærerike eller viktige sakene i HVER av disse kate
 Regler: Samme sak kan bare brukes én gang. Sport velges bare fra SPORT-listen, de andre kategoriene bare fra NYHETER-listen. Spre på kildene: helst ulike kilder i hver kategori (aldri mer enn 2 fra samme kilde i en kategori), og høyst 5 saker fra samme kilde totalt. Bruk gjerne mange ulike kilder (NRK, Aftenposten, VG, E24, fagkilder osv.). Prøv å fylle alle 3 plassene i hver kategori; ta bare med færre hvis det ikke finnes egnede saker.
 FERSKHET: Hver sak er merket med alder (f.eks. «3t», «i går», «3d»). Foretrekk saker fra det siste døgnet. Bruk saker merket «i går» eller eldre bare når det ikke finnes ferske, gode saker i kategorien – men det er bedre med en litt eldre god sak enn en tom kategori.
 For hver sak: informativ tittel på bokmål (omskriv klikkagn) og en oppsummering på 1-2 setninger som BARE bygger på teksten (ikke dikt opp fakta).
+Noen kilder er engelskspråklige: skriv da tittel og oppsummering på norsk bokmål.
 Svar KUN med JSON der hver kategori-id er en nøkkel, f.eks.: {"samfunn":[{"id":0,"title":"","summary":""}],"okonomi":[...], ... ,"sport":[{"id":1000,"title":"","summary":""}]}
 
 NYHETER:
