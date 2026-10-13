@@ -1,38 +1,45 @@
 {
- "updated": "2026-10-13T07:26",
+ "updated": "2026-10-13T07:29",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Stor interesse for tankmjølk i Rogaland",
+     "title": "Stor interesse for fersk tankmjølk direkte i daglegvarebutikken",
      "url": "https://www.nrk.no/rogaland/na-kan-du-fa-tankmjolk-i-daglegvarebutikk-1.18034250",
      "source": "NRK Rogaland",
-     "summary": "Mjølkebøndene på Line opplever enorm etterspørsel etter tankmjølk og håper nå å nå ut til eit større marked i daglegvarebutikken."
+     "summary": "Mjølkebøndene på Line opplever enorm etterspørsel etter tankmjølk og håpar å nå ut til ein mykje større marknad."
     }
    ]
   },
   {
    "id": "okonomi",
    "name": "Økonomi og næringsliv",
-   "stories": []
+   "stories": [
+    {
+     "title": "Nobels minnepris i økonomi tildelt for arbeid med stabilisering",
+     "url": "https://www.forskning.no/ntb-okonomi/vinner-nobels-minnepris-i-okonomi-for-stabilisering/2722778",
+     "source": "forskning.no",
+     "summary": "Årets pris går til amerikanerne Robert E. Hall og Michael Woodford for deres mikroøkonomiske grunnlag for makroøkonomisk stabilisering."
+    }
+   ]
   },
   {
    "id": "vitenskap",
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Slik så et av de tidligste menneskene ut",
-     "url": "https://www.forskning.no/arkeologi/slik-kan-et-av-de-tidligste-menneskene-ha-sett-ut/2721128",
+     "title": "Norrøn kirkeruin funnet på Grønland",
+     "url": "https://www.forskning.no/arkeologi-gronland-historie/norron-kirkeruin-funnet-pa-gronland/2715928",
      "source": "forskning.no",
-     "summary": "Forskere har gjort et forsøk på å rekonstruere ansiktet til den eldste kjente representanten for vår art."
+     "summary": "Et funnet skjelett på Sør-Grønland har ledet til oppdagelsen av en ukjent kirke fra den norrøne bosettingens tid, like ved Erik Raudes bosted."
     },
     {
-     "title": "Ny rapport foreslår eget EU-senter for Arktis",
-     "url": "https://www.forskning.no/arktis-eu-nord-universitet/ny-rapport-eu-bor-fa-et-eget-senter-for-arktis-innen-ett-ar/2717302",
+     "title": "Forsøk på å rekonstruere ansiktet til tidlig menneske",
+     "url": "https://www.forskning.no/arkeologi/slik-kan-et-av-de-tidligste-menneskene-ha-sett-ut/2721128",
      "source": "forskning.no",
-     "summary": "Forskere anbefaler at EU samler data fra blant annet satellitter og skip i en egen enhet for Arktis innen ett år."
+     "summary": "Forskere har forsøkt å avdekke hvordan en av de tidligste representantene for vår art kan ha sett ut."
     }
    ]
   },
@@ -41,10 +48,10 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Meta lanserer ny AI-modell",
+     "title": "Meta lanserer ny modell for kunstig intelligens",
      "url": "https://e24.no/boers-og-finans/i/OgWGWE/mark-zuckerberg-meta-har-tatt-igjen-ai-rivaler-med-ny-modell",
      "source": "E24",
-     "summary": "Meta har avduket den nye modellen Muse Wonder, npe som bidro til et hopp for aksjen på Wall Street."
+     "summary": "Mark Zuckerberg opplyser at Meta har lansert sin nye modell Muse Wonder, som ifølge selskapet henter inn forspranget til konkurrentene."
     }
    ]
   },
@@ -53,16 +60,16 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Sjelden fugleart oppdaget ved Lista fyr",
+     "title": "Sjelden fugleart observerte for første gang i Norden",
      "url": "https://www.birdlife.no/fuglekunnskap/nyheter/?id=4102",
      "source": "BirdLife Norge",
-     "summary": "Norges og Nordens første vestindiapetrell ble oppdaget og artsbestemt ved Lista fyr."
+     "summary": "En vestindiapetrell ble for første gang oppdaget i Norden da den åpenbarte seg ved Lista fyr lørdag 19. september."
     },
     {
-     "title": "Vellykket fuglekikking under EuroBirdwatch",
+     "title": "Fugleentusiaster samlet seg til tradisjonsrik høstdag",
      "url": "https://www.birdlife.no/organisasjonen/fylkesavdelinger/nordland/nyheter/?id=4103",
      "source": "BirdLife Norge",
-     "summary": "Sør-Helgeland lokallag samlet over 800 kortnebbgås og mange deltakere til en innholdsrik høstdag med både fugleglede og eplekake."
+     "summary": "Sør-Helgeland lokallag markerte EuroBirdwatch med både fugleskikking, kaffe og eplekake i hyggelig lag."
     }
    ]
   },
@@ -71,10 +78,10 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Derfor er det viktig å lene seg på andre",
+     "title": "Derfor er det viktig å lære seg å stole på andre",
      "url": "https://www.forskning.no/barn-og-ungdom-partner-psykologi/derfor-er-det-lurt-a-stole-pa-andre/2714993",
      "source": "forskning.no",
-     "summary": "Mennesker er sårbare alene, og forskning viser at vi har godt av å lære oss å stole på hverandre."
+     "summary": "Mennesker er sårbare alene, og forskning viser at vi er avhengige av å kunne lene oss på fellesskapet."
     }
    ]
   },
@@ -83,24 +90,23 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Nytt tilbud for spiseforstyrrelser gir raskere effekt",
+     "title": "Nytt tilbud for raskere behandling av spiseforstyrrelser",
      "url": "https://www.forskning.no/hogskolen-i-ostfold-medisinske-metoder-partner/ny-behandling-av-spiseforstyrrelser-gir-raskere-effekt-enn-dagens-standardbehandling/2715806",
      "source": "forskning.no",
-     "summary": "En ny behandlingsform for spiseforstyrrelser kan gis der folk bor, og gir raskere effekt enn dagens standardbehandling."
+     "summary": "En ny behandlingsmetode gir raskere effekt enn dagens standard og kan tilbys der folk bor."
+    },
+    {
+     "title": "Slik påvirker kaffen både tarmen og hjernen",
+     "url": "https://www.psykologisk.no/nyheter/dette-gjor-kaffen-med-tarmene-og-hjernen-din/163979",
+     "source": "Psykologisk.no",
+     "summary": "Forskning viser at den populære drikken har en rekke målbare effekter på både humør, søvn og tarmflora."
     }
    ]
   },
   {
    "id": "oppvekst",
    "name": "Barn og oppvekst",
-   "stories": [
-    {
-     "title": "Skrubbsår gir verdifull livsmestring",
-     "url": "https://www.barnehage.no/skrubbsar-gir-livsmestring/278412",
-     "source": "Barnehage.no",
-     "summary": "Risikolek gir barn mulighet til å kjenne på mestringsfølelse gjennom naturlige utfordringer som skrubbsår."
-    }
-   ]
+   "stories": []
   },
   {
    "id": "tro",
@@ -110,7 +116,14 @@
   {
    "id": "aand",
    "name": "Ånd og spiritualitet",
-   "stories": []
+   "stories": [
+    {
+     "title": "Vil bruke kulokk for å styrke forholdet til naturen",
+     "url": "https://www.forskning.no/historie-sprak/hun-mener-kulokk-kan-redde-forholdet-vart-til-naturen/2714660",
+     "source": "forskning.no",
+     "summary": "Alizeé Piel mener gamle tradisjoner som kulokk kan hjelpe oss med å gjenopprette et nært og meningsfullt forhold til naturen."
+    }
+   ]
   },
   {
    "id": "kunst",
@@ -120,7 +133,14 @@
   {
    "id": "musikk",
    "name": "Musikk",
-   "stories": []
+   "stories": [
+    {
+     "title": "Mick Gordon utelukker ikke en fremtidig retur til Doom-serien",
+     "url": "https://www.gamereactor.no/mick-gordon-aapner-for-doom-retur-under-rette-forhold/",
+     "source": "Gamereactor",
+     "summary": "Komponisten stiller åpne dører for et samarbeid under de rette betingelsene."
+    }
+   ]
   },
   {
    "id": "litteratur",
@@ -137,10 +157,22 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Større spillmesse i Kristiansand",
+     "title": "Ny spillopplevelse imponerer anmelderne",
+     "url": "https://www.pressfire.no/artikkel/har-du-tid-til-enda-en-liten-spilljuvel-i-ar",
+     "source": "Pressfire",
+     "summary": "Det nyeste tilskuddet i serien leverer på alle fronter og byr på stor spillglede."
+    },
+    {
+     "title": "Stor suksess for skrekkspill i tidlig utgave",
+     "url": "https://www.gamer.no/artikler/phasmophobia-har-solgt-30-millioner-eksemplarer-i-early-access/521156",
+     "source": "Gamer.no",
+     "summary": "Spillet Phasmophobia har passert hele 30 millioner solgte eksemplarer mens det fremdeles har vært under utvikling."
+    },
+    {
+     "title": "Årets spillmesse i Kristiansand vokser",
      "url": "https://spillhistorie.no/2026/10/12/spillmessen-i-kristiansand-blir-storre-enn-noensinne/",
      "source": "Spillhistorie.no",
-     "summary": "Spillmesse 2026 går av stabelen denne helgen og blir større enn noensinne."
+     "summary": "Den årlige spillmessen i sør fyller lokaler og byr på et større program enn noensinne."
     }
    ]
   },
@@ -149,33 +181,33 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Coventry med andre strake seier",
+     "title": "Andre strake seier for Coventry",
      "url": "https://www.nrk.no/sport/coventry-sin-andre-strake-seier-og-klatrer-over-nedrykkstreken-1.18053081",
      "source": "NRK",
-     "summary": "Etter en tung start på sesongen tok Coventry sin andre seier på rad med seier mot Newcastle."
+     "summary": "Coventry fulgte opp forrige seier med en ny opptur og klatret dermed over nedrykkstreken."
     },
     {
      "title": "Merittert syklist klar for Uno-X",
      "url": "https://www.nrk.no/sport/vm-medaljor-til-uno-x-1.18052227",
      "source": "NRK",
-     "summary": "Cecilie Uttrup Ludwig forsterker kvinnelaget til Uno-X med en ny toårig kontrakt."
+     "summary": "Danske Cecilie Uttrup Ludwig har signert en toårskontrakt med det norske kvinnelaget for neste sesong."
     }
    ]
   }
  ],
  "stats": {
-  "total": 814,
-  "chosen": 12,
-  "notchosen": 120,
+  "total": 815,
+  "chosen": 17,
+  "notchosen": 129,
   "removed": {
-   "gammel": 329,
+   "kjendis": 165,
+   "gammel": 311,
    "format": 36,
-   "kjendis": 164,
-   "krim": 38,
+   "krim": 39,
    "sykdom": 41,
    "konflikt": 18,
    "uro": 29,
-   "betalt": 27
+   "betalt": 30
   }
  },
  "today": {
