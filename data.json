@@ -1,23 +1,30 @@
 {
- "updated": "2026-10-14T10:42",
+ "updated": "2026-10-14T11:42",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Norsk IT-selskap skal levere datamaskiner til 12 kommuner",
-     "url": "https://www.tu.no/it-bransjen/liten-utfordrer-danket-ut-dustin-atea-og-komplett/7143934",
-     "source": "Teknisk Ukeblad",
-     "summary": "Et mindre norsk IT-selskap har vunnet en anbudskonkurranse og skal de neste fire årene forsyne 12 kommuner med datamaskiner og tilbehør for 110 millioner kroner.",
-     "published": "2026-10-14T03:03Z"
+     "title": "Kongen stiller opp som bøssebærer for TV-aksjonen",
+     "url": "https://www.nettavisen.no/kjendis/kong-haakon-blir-bossebarer-for-arets-tv-aksjon/s/80-95-158784",
+     "source": "Nettavisen",
+     "summary": "TV-aksjonen mobiliserer før søndagens innsamling, og kongen melder seg nå personlig til å gå fra dør til dør for den gode saken.",
+     "published": "2026-10-14T09:11Z"
     },
     {
-     "title": "Norge og Verdensbanken inngår avtale for å styrke offentlig finansforvaltning",
+     "title": "Norge og Verdensbanken inngår avtaler for 110 millioner kroner",
      "url": "https://www.nettavisen.no/nyheter/norge-inngar-avtaler-med-verdensbanken-for-110-millioner-kroner/s/80-95-154697",
      "source": "Nettavisen",
-     "summary": "Norge og Verdensbanken har inngått avtaler verdt 110 millioner kroner for å styrke offentlig finansforvaltning og bekjempe korrupsjon i utviklingsland.",
-     "published": "2026-10-14T08:03Z"
+     "summary": "Midlene skal gå til å forbedre offentlig finansforvaltning internasjonalt og støtte arbeidet mot korrupsjon.",
+     "published": "2026-10-14T08:04Z"
+    },
+    {
+     "title": "Perspektiver på skattepolitikk og fellesskapets inntekter",
+     "url": "https://prosa.no/artikler/kommentarer/ma-milliardaerer-betale-skatt",
+     "source": "Prosa",
+     "summary": "En faglig gjennomgang belyser hvordan et rettferdig og effektivt skattesystem best kan utformes til samfunnets felles beste.",
+     "published": "2026-10-12T20:51Z"
     }
    ]
   },
@@ -26,25 +33,25 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Lavere oljeforbruk og stramt dieselmarked i sikte",
-     "url": "https://e24.no/energi-og-klima/i/Elm4Aj/iea-jekker-ned-utsiktene-igjen",
-     "source": "E24",
-     "summary": "Det internasjonale energibyrået (IEA) jekker ned utsiktene for oljeforbruket og venter et stramt dieselmarked godt inn i 2027.",
-     "published": "2026-10-14T08:03Z"
+     "title": "Regjeringen vil dempe utslagene av høye strømpriser i nettleien",
+     "url": "https://www.tu.no/energi/vil-dempe-utslagene-av-hoye-strompriser-i-nettleien/7146390",
+     "source": "Teknisk Ukeblad",
+     "summary": "En foreslått ordning lar nettselskapene jevne ut kostnadene slik at forbrukerne kan få en lavere og mer forutsigbar nettleie.",
+     "published": "2026-10-14T08:44Z"
     },
     {
-     "title": "Boligprisene i nord stiger til tross for vanlig høstnedgang",
-     "url": "https://www.nrk.no/tromsogfinnmark/boligpriser-oker-flere-steder-i-nord-og-synker-pa-ostlandet-1.18052298",
-     "source": "NRK Troms og Finnmark",
-     "summary": "Vanligvis faller boligprisene i tredje kvartal, men tall fra Eiendom Norge viser at prisene tvert imot øker flere steder i nord.",
-     "published": "2026-10-12T09:19Z"
+     "title": "Norsk IT-utfordrer sikret avtale verdt 110 millioner kroner",
+     "url": "https://www.tu.no/it-bransjen/liten-utfordrer-danket-ut-dustin-atea-og-komplett/7143934",
+     "source": "Teknisk Ukeblad",
+     "summary": "Et mindre norsk selskap utkonkurrerte de store etablerte aktørene og skal levere datautstyr til tolv kommuner de neste fire årene.",
+     "published": "2026-10-14T03:04Z"
     },
     {
-     "title": "Solgte fritidseiendom på Hvasser for nesten 60 millioner",
-     "url": "https://e24.no/naeringsliv/i/L3kv6J/blar-opp-59-5-millioner-for-eiendom-paa-hvasser",
+     "title": "Vurderer ny millionstøtte til miljøstiftelsen Bellona",
+     "url": "https://e24.no/naeringsliv/i/rM9GOe/aapner-for-aa-bla-opp-nye-millioner-til-bellona",
      "source": "E24",
-     "summary": "En investor har sikret seg en av årets dyreste fritidseiendommer på Hvasser for 59,5 millioner kroner etter et rekordår.",
-     "published": "2026-10-13T07:37Z"
+     "summary": "Investoren har tidligere bidratt med betydelige midler og åpner nå for ytterligere støtte til stiftelsens miljøarbeid.",
+     "published": "2026-10-14T04:09Z"
     }
    ]
   },
@@ -53,36 +60,79 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Forskere har oppdaget mulig ny «blå sone» med mange hundreåringer",
-     "url": "https://www.forskning.no/aldring/er-dette-en-ny-bla-sone-i-denne-lille-landsbyen-er-det-nemlig-mange-hundrearinger/2721876",
-     "source": "forskning.no",
-     "summary": "Innbyggerne i den lille landsbyen Bolotana på Sardinia lever lenger enn folk de fleste andre steder i verden, viser ny oppdagelse.",
-     "published": "2026-10-13T22:04Z"
+     "title": "NTNU Ocean Campus på plass i Ålesund",
+     "url": "https://nyheter.ntnu.no/ntnu-ocean-campus-pa-plass-i-alesund/",
+     "source": "NTNU",
+     "summary": "Den store forskningsflåten Fjordlab er slept til Ålesund sentrum, der den skal styrke marin og maritim forskning.",
+     "published": "2026-10-13T17:41Z"
     },
     {
-     "title": "Eldgammel haikirkegård funnet i ørkenen",
+     "title": "Eldgammel haikirkegård oppdaget i den egyptiske ørkenen",
      "url": "https://www.forskning.no/arkeologi-egypt-havet/eldgammel-haikirkegard-funnet-i-den-egyptiske-orkenen/2721610",
      "source": "forskning.no",
-     "summary": "Forskere har gjort funn av en eldgammel haikirkegård i den egyptiske ørkenen.",
-     "published": "2026-10-13T22:04Z"
+     "summary": "Forskere undersøker et unikt fossilfunn som gir ny innsikt i fortidens maritime økosystemer der det i dag er ørkensand.",
+     "published": "2026-10-13T22:05Z"
+    },
+    {
+     "title": "Andøya Space forbereder nytt oppskytningsvindu",
+     "url": "https://www.nrk.no/nordland/nyhetssenter-nordland-1.15898380#1.18053830.1.18053830",
+     "source": "NRK Nordland",
+     "summary": "Det norske romsenteret planlegger neste fase for oppskyting av forskningsraketter fra basen i Nord-Norge.",
+     "published": "2026-10-13T14:34Z"
     }
    ]
   },
   {
    "id": "ki",
    "name": "Kunstig intelligens",
-   "stories": []
+   "stories": [
+    {
+     "title": "NRK stenger døren for KI-genererte bidrag i Melodi Grand Prix",
+     "url": "https://www.aftenposten.no/kultur/i/n9mJvm/nrk-stenger-doeren-for-ki-skapte-sanger-i-mgp",
+     "source": "Aftenposten",
+     "summary": "Allmennkringkasteren slår fast at låtene i den norske finalen skal være skapt av mennesker, i motsetning til praksis i nabolandene.",
+     "published": "2026-10-12T12:54Z"
+    },
+    {
+     "title": "Mental Helse undersøker om KI avlaster hjelpetelefonene",
+     "url": "https://www.nrk.no/tromsogfinnmark/mental-helse-mistenker-at-ki-gir-faerre-henvendelser-1.18051518",
+     "source": "NRK",
+     "summary": "Organisasjonen ser tegn til at brukere tyr til samtaleroboter med kunstig intelligens for støtte, noe som kan forklare færre henvendelser.",
+     "published": "2026-10-14T03:35Z"
+    },
+    {
+     "title": "Epic Games legger om til KI-først i spillutviklingen",
+     "url": "https://www.gamereactor.no/epic-games-utsetter-disney-skytespill-kunstig-intelligens-utvikling/",
+     "source": "Gamereactor",
+     "summary": "Selskapet effektiviserer arbeidsprosessene sine og ber utviklere ta i bruk automatiserte KI-verktøy i produksjonen.",
+     "published": "2026-10-13T10:28Z"
+    }
+   ]
   },
   {
    "id": "natur",
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Gode nyheter for kjempeskippadden: Bestanden har vokst til 180 000",
+     "title": "Markant oppsving for vernet kjempeskilpadde",
      "url": "https://www.forskning.no/dyreverden/gode-nyheter-om-denne-kjempeskilpadden/2721703",
      "source": "forskning.no",
-     "summary": "Arten som var nær ved å bli utryddet, har nå opplevd en solid vekst og teller om lag 180 000 individer.",
-     "published": "2026-10-13T22:04Z"
+     "summary": "Etter å ha vært på randen av utryddelse har bestanden av kjempeskilpadder nå nådd over 180 000 individer takket være målrettet bevaring.",
+     "published": "2026-10-13T22:05Z"
+    },
+    {
+     "title": "Kjempeturbin kan gi nytt liv til eldre vindparker",
+     "url": "https://www.tu.no/energi/gigantisk-vindturbin-pa-hoyde-med-berlins-tv-tarn-men-effekten-er-beskjeden/7145088",
+     "source": "Teknisk Ukeblad",
+     "summary": "Ingeniører utforsker hvordan oppgradering med høye turbiner kan utnytte eksisterende infrastruktur mer skånsomt og effektivt.",
+     "published": "2026-10-13T09:37Z"
+    },
+    {
+     "title": "Høytrykk bringer klart og fint høstvær",
+     "url": "https://www.nettavisen.no/nyheter/kan-bli-80-millimeter-nedbor-i-vest-men-sa-kommer-solen/s/80-95-158607",
+     "source": "Nettavisen",
+     "summary": "Etter kraftige regnbyger er et stabilt høytrykk på vei som sikrer sol og klare høstdager både i øst og vest.",
+     "published": "2026-10-14T08:48Z"
     }
    ]
   },
@@ -91,25 +141,25 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Sosial støtte kan dempe risikoen for kognitiv svikt",
-     "url": "https://www.psykologisk.no/nyheter/kronisk-stress-oker-faren-for-demens/164018",
-     "source": "Psykologisk.no",
-     "summary": "Tidligere forskning viser at kronisk stress øker faren for demens, men en ny studie peker på at god sosial støtte kan bidra til å redusere denne risikoen.",
-     "published": "2026-10-14T04:03Z"
+     "title": "Hva familiebildene våre egentlig forteller",
+     "url": "https://psyche.co/ideas/what-is-hidden-in-the-photographs-we-keep-of-each-other",
+     "source": "Psyche",
+     "summary": "En utforsking av gamle fotoalbum viser hvordan bildene vi tar vare på former minner og belyser relasjoner på nye måter.",
+     "published": "2026-10-13T10:03Z"
     },
     {
-     "title": "Kan humor lindre depresjon?",
-     "url": "https://www.psykologisk.no/nyheter/kan-humor-lindre-depresjoner/163994",
-     "source": "Psykologisk.no",
-     "summary": "En litteraturgjennomgang konkluderer med at humor kan ha en plass i behandlingen av depresjon, men at feil bruk kan gjøre vondt verre.",
-     "published": "2026-10-12T04:03Z"
-    },
-    {
-     "title": "Hermann Hesse om kunsten å lese en bok og seg selv",
-     "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
+     "title": "Kreativitetens vesen og geniets to former",
+     "url": "https://www.themarginalian.org/2026/10/13/mark-kac-enigmas-of-chance-geniuses/",
      "source": "The Marginalian",
-     "summary": "Bøker viser oss hvordan det er å være et annet menneske samtidig som de leder oss tilbake til oss selv for å lære å leve.",
-     "published": "2026-10-13T03:28Z"
+     "summary": "Matematikeren Mark Kac reflekterer over hvordan skapende mennesker veksler mellom hverdagens virkelighet og idéenes frie rom.",
+     "published": "2026-10-13T21:02Z"
+    },
+    {
+     "title": "James Baldwin om kjærlighet og ekte nærhet",
+     "url": "https://www.themarginalian.org/2026/10/11/baldwin-love/",
+     "source": "The Marginalian",
+     "summary": "Forfatterens betraktninger minner oss om at ekte kjærlighet oppstår når vi tør å legge fra oss forsvarsmekanismene våre.",
+     "published": "2026-10-11T20:15Z"
     }
    ]
   },
@@ -118,11 +168,25 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Ny behandling for spiseforstyrrelser gir raskere effekt",
+     "title": "Landsby på Sardinia peker seg ut med usedvanlig mange hundreåringer",
+     "url": "https://www.forskning.no/aldring/er-dette-en-ny-bla-sone-i-denne-lille-landsbyen-er-det-nemlig-mange-hundrearinger/2721876",
+     "source": "forskning.no",
+     "summary": "Forskere studerer innbyggerne i Bolotana, der en kombinasjon av livsstil og fellesskap ser ut til å gi usedvanlig lang levetid.",
+     "published": "2026-10-13T22:05Z"
+    },
+    {
+     "title": "Ny behandling mot spiseforstyrrelser gir raskere bedring",
      "url": "https://www.forskning.no/hogskolen-i-ostfold-medisinske-metoder-partner/ny-behandling-av-spiseforstyrrelser-gir-raskere-effekt-enn-dagens-standardbehandling/2715806",
      "source": "forskning.no",
-     "summary": "Et nytt behandlingstilbud kan gis der folk bor, og det viser seg å hjelpe en gruppe pasienter som tidligere har hatt få tilbud.",
-     "published": "2026-10-12T22:07Z"
+     "summary": "Et nytt behandlingstilbud som kan gis i nærmiljøet gir lovende resultater og hjelper en gruppe pasienter med tidligere få alternativer.",
+     "published": "2026-10-12T22:08Z"
+    },
+    {
+     "title": "Humor som ressurs i mental helse",
+     "url": "https://www.psykologisk.no/nyheter/kan-humor-lindre-depresjoner/163994",
+     "source": "Psykologisk.no",
+     "summary": "En litteraturgjennomgang viser at riktig bruk av humor og latter kan være et verdifullt verktøy for å styrke mestring og velvære.",
+     "published": "2026-10-12T04:04Z"
     }
    ]
   },
@@ -131,11 +195,25 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Ny studie viser store variasjoner i barns tilgang til sosial lek",
-     "url": "https://www.forskning.no/barn-barnehage-lek/disse-jentene-deltar-mest-i-sosial-lek-i-barnehagen/2716476",
-     "source": "forskning.no",
-     "summary": "Forskning viser at det er stor forskjell på hvor mye barn deltar i sosial lek i barnehagen, noe både foreldre og lærere bør merke seg.",
-     "published": "2026-10-13T22:07Z"
+     "title": "Hvorfor risikolek og skrubbsår gir verdifull livsmestring",
+     "url": "https://www.barnehage.no/skrubbsar-gir-livsmestring/278412",
+     "source": "Barnehage.no",
+     "summary": "Fagfolk understreker at barn trenger rom for utfordrende lek for å bygge mestringsfølelse, robusthet og selvtillit.",
+     "published": "2026-10-12T13:30Z"
+    },
+    {
+     "title": "Nytt opplæringsprogram hever kvaliteten for barnehageansatte",
+     "url": "https://www.barnehage.no/dibber/ruller-ut-nytt-opplaeringsprogram-for-barnehageansatte-i-india/278498",
+     "source": "Barnehage.no",
+     "summary": "Et nytt tiltak rulles ut for å sikre flere faglærte medarbeidere og skape en trygg og lærerik hverdag for de minste.",
+     "published": "2026-10-14T08:04Z"
+    },
+    {
+     "title": "Skolen som arena for fellesskap og fordypning",
+     "url": "https://www.utdanningsnytt.no/annette-hoisaeter-fellesskap-teknologi-i-skolen/kampen-for-kollektivet-i-algoritmenes-tid/504084",
+     "source": "Utdanningsnytt",
+     "summary": "I en digital hverdag pekes det på skolens viktige rolle som et felles rom der barn lærer tålmodighet og ekte samhold.",
+     "published": "2026-10-13T10:45Z"
     }
    ]
   },
@@ -144,41 +222,78 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "En støtte til viktige fellesverdier",
-     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20st%C3%B8tte%20til%20viktige%20fellesverdier/",
-     "source": "Den norske kirke",
-     "summary": "En stabil finansiering av trossamfunn trekkes frem som et viktig bidrag for å opprettholde fellesskap og videreføre fellesverdier."
+     "title": "Hagemeditasjon: Enkel tilstedeværelse under åpen himmel",
+     "url": "https://www.mindful.org/garden-meditation-a-simple-outdoor-practice-for-presence-and-awe/",
+     "source": "Mindful",
+     "summary": "En enkel mindfulness-øvelse viser hvordan tid tilbragt utendørs kan gi dypere ro, undring og indre balanse.",
+     "published": "2026-10-13T23:06Z"
     },
     {
-     "title": "Hverdagsøyeblikk og fellesskap midt i sorgen",
-     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/den%20norske%20kirke%20glede%20og%20hverdag%20midt%20i%20landesorgen/",
+     "title": "Fem etiske retningslinjer for indre fred og omtanke",
+     "url": "https://tricycle.org/article/five-mindfulness-trainings/",
+     "source": "Tricycle",
+     "summary": "Dharmalærere deler innsikt i hvordan mindfulness-tradisjonens prinsipper kan veilede oss til et mer harmonisk liv i møte med andre.",
+     "published": "2026-10-12T10:03Z"
+    },
+    {
+     "title": "Fellesverdier og stabile møteplasser styrker fellesskapet",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20st%C3%B8tte%20til%20viktige%20fellesverdier/",
      "source": "Den norske kirke",
-     "summary": "Mennesker samles i kirkene for både alvor, dåp og feiring av hverdagen for å opprettholde gode fellesskap."
+     "summary": "Harald Hegstad fremhever at kirkens tilstedeværelse er en viktig støtte for å bevare trygge sosiale fellesskap og felles verdigrunnlag."
     }
    ]
   },
   {
    "id": "kunst",
    "name": "Kunst",
-   "stories": []
+   "stories": [
+    {
+     "title": "Nytt museum vier seg til den narrative kunsten",
+     "url": "https://www.rogerebert.com/interviews/lucas-museum-of-narrative-art-curator-ryan-linkof-interview",
+     "source": "RogerEbert.com",
+     "summary": "Kuratoren for det kommende Lucas Museum of Narrative Art forteller om visjonene for å fremme kunst som forteller historier.",
+     "published": "2026-10-13T14:34Z"
+    },
+    {
+     "title": "Hvitfargens uventede nyanser og historie i design",
+     "url": "https://lithub.com/what-lies-behind-a-blank-wall-on-the-myriad-hidden-meanings-of-white-paint/",
+     "source": "Literary Hub",
+     "summary": "En designhistorisk reise utforsker hvordan det hvite rommet oppsto som et bevisst kunstnerisk valg for ro og lys.",
+     "published": "2026-10-14T09:13Z"
+    },
+    {
+     "title": "Fargeveileder fra 1692 gjort tilgjengelig for alle",
+     "url": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
+     "source": "Open Culture",
+     "summary": "En over 900 sider lang håndmalt fargeguide fra 1600-tallet er digitalisert i høy oppløsning til glede for kunst- og designinteresserte.",
+     "published": "2026-10-12T08:04Z"
+    }
+   ]
   },
   {
    "id": "musikk",
    "name": "Musikk",
    "stories": [
     {
-     "title": "Hyller jazzbassist med historier og musikk",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-6000428/ray-brown-100-jazz-night",
-     "source": "NPR Music",
-     "summary": "Christian McBride og John Clayton markerer 100-årsjubileet til den legendariske bassisten Ray Brown.",
-     "published": "2026-10-13T20:32Z"
+     "title": "Årets beste norske musikkvideoer skal kåres",
+     "url": "https://www.ballade.no/musikkvideo/ballade-video-spesial-beste-norske-musikkvideo/",
+     "source": "Ballade",
+     "summary": "Bergen Internasjonale Filmfestival og Vill Vill Vest løfter frem nyskapende norsk musikkvideokunst i årets nominasjoner.",
+     "published": "2026-10-13T18:15Z"
     },
     {
-     "title": "Beth Orton imponerer med ny musikk i jazzdrakt",
-     "url": "https://www.theguardian.com/music/2026/oct/13/beth-orton-review-brighton-concorde-2",
-     "source": "The Guardian (musikk)",
-     "summary": "Artist Beth Orton leverer kritikerroste opptredener backet av et band dypt forankret i jazz og eksperimentering.",
-     "published": "2026-10-13T11:06Z"
+     "title": "Bassistlegenden Ray Brown feires ved 100-årsjubileet",
+     "url": "https://www.npr.org/2026/10/13/nx-s1-6000428/ray-brown-100-jazz-night",
+     "source": "NPR Music",
+     "summary": "Toppmusikerne Christian McBride og John Clayton hedrer sin mentor med historier og musikalske tolkninger.",
+     "published": "2026-10-13T20:33Z"
+    },
+    {
+     "title": "Joni Mitchell feirer nytt statsborgerskap",
+     "url": "https://stereogum.com/2514497/joni-mitchell-becomes-an-american-citizen/news/",
+     "source": "Stereogum",
+     "summary": "Den folkekjære artisten har offisielt blitt amerikansk statsborger og markerer en ny milepæl i sitt liv.",
+     "published": "2026-10-13T19:54Z"
     }
    ]
   },
@@ -187,25 +302,25 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Derfor er poesi en perfekt inngangport for unge lesere",
-     "url": "https://lithub.com/lit-hub-daily-october-13-2026/",
-     "source": "Literary Hub",
-     "summary": "Lærere og forfattere trekker frem dikt som en fin måte å vekke leselysten hos tweener og ungdommer på.",
-     "published": "2026-10-13T10:33Z"
+     "title": "Bonnie Garmus med ny humoristisk roman om poesi",
+     "url": "https://www.theguardian.com/books/2026/oct/13/peck-peck-by-bonnie-garmus-review-the-zany-follow-up-to-lessons-in-chemistry",
+     "source": "The Guardian (bøker)",
+     "summary": "Forfatteren bak suksessen «Lessons in Chemistry» følger opp med en fartsfylt og hjertevarm fortelling lagt til et litterært magasin.",
+     "published": "2026-10-13T06:03Z"
     },
     {
-     "title": "Utvalgte favorittsitater fra høstens bokslipp",
-     "url": "https://www.theparisreview.org/blog/2026/10/09/passages-we-underlined-this-fall/",
+     "title": "Anne Carson hedres etter tildeling av nobelprisen i litteratur",
+     "url": "https://www.theparisreview.org/blog/2026/10/08/anne-carson-nobel-prize/",
      "source": "The Paris Review",
-     "summary": "En samling minneverdige passasjer og sitater fra nyere bkutgivelser i høst.",
-     "published": "2026-10-09T14:03Z"
+     "summary": "Et dypdykk i forfatterens rike arkiv feirer hennes nyskapende poesiverk og internasjonale anerkjennelse.",
+     "published": "2026-10-08T19:22Z"
     },
     {
-     "title": "Møt forfatterne bak høstens nye bøker",
-     "url": "https://lithub.com/lit-hub-asks-5-authors-7-questions-no-wrong-answers-october-2026/",
-     "source": "Literary Hub",
-     "summary": "En fast månedlig intervjuserie gir fem aktuelle forfattere sju spørsmål om deres ferske bokutgivelser.",
-     "published": "2026-10-13T09:12Z"
+     "title": "Hermann Hesse om hvordan lesing gir selvinnsikt",
+     "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
+     "source": "The Marginalian",
+     "summary": "Den klassiske forfatterens refleksjoner belyser hvordan bøker hjelper oss å forstå andre mennesker og finne tilbake til oss selv.",
+     "published": "2026-10-13T03:30Z"
     }
    ]
   },
@@ -214,18 +329,25 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Ny animasjonsfilm byr på drømmende stopp-effekt",
-     "url": "https://www.theguardian.com/film/2026/oct/14/kiri-and-lou-go-raaa-review-delightful-origin-story-for-cbeebies-prehistoric-pals",
-     "source": "The Guardian (film)",
-     "summary": "Et nytt lengre eventyr for de yngste byr på et drømmende lydspor og vakre stopp-motion-visualer.",
-     "published": "2026-10-14T06:03Z"
+     "title": "Derfor holder Hollywoods filmklassikere seg så godt",
+     "url": "https://www.openculture.com/2026/10/why-cleopatra-lawrence-of-arabia-ben-hur-other-hollywood-classics-still-look-so-good.html",
+     "source": "Open Culture",
+     "summary": "Et tilbakeblikk på produksjonen av mesterverk som Cleopatra og Ben-Hur viser det enestående håndverket bak kulissene.",
+     "published": "2026-10-14T09:03Z"
     },
     {
-     "title": "Historien om de gamle sjøfartstradisjonene",
-     "url": "https://www.openculture.com/2026/10/the-biggest-ship-in-history-was-built-in-china-600-years-ago-or-was-it.html",
+     "title": "Nasjonalballetten imponerer med virtuositet og danseglede",
+     "url": "https://www.vl.no/kultur/pa-innsiden-av-ballettklassen/10579707",
+     "source": "Vårt Land",
+     "summary": "Koreografduoen León & Lightfoot byr på en fargerik ballettaften på Operaen som høster strålende mottakelse.",
+     "published": "2026-10-13T07:43Z"
+    },
+    {
+     "title": "Historien om italienernes ikoniske kaffekanne",
+     "url": "https://www.openculture.com/2026/10/how-to-use-the-bialetti-moka-pot-the-right-way.html",
      "source": "Open Culture",
-     "summary": "Historiske sjøfartsfortellinger og gigantiske skip fra eldre tider fortsetter å vekke amatørhistorikeres nysgjerrighet.",
-     "published": "2026-10-12T09:03Z"
+     "summary": "Bialetti Moka Express har prydet kjøkken i nesten et århundre, og historien bak designikonet er både fascinerende og velsmakende.",
+     "published": "2026-10-13T08:03Z"
     }
    ]
   },
@@ -234,25 +356,25 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Nye detaljer fra skaperen av Stardew Valley",
+     "title": "Nintendo bekrefter støtte for fysiske spill på Switch 2",
+     "url": "https://www.gamereactor.no/nintendo-bekrefter-vil-fortsette-med-fysiske-spill-switch-2/",
+     "source": "Gamereactor",
+     "summary": "Selskapet beroliger spillentusiaster og slår fast at den kommende konsollen vil støtte både kassetter og digitale spillkjøp.",
+     "published": "2026-10-13T20:28Z"
+    },
+    {
+     "title": "Livstegn fra skaperen bak suksessen Stardew Valley",
      "url": "https://www.gamer.no/artikler/livstegn-fra-stardew-valley-skaperens-neste/521166",
      "source": "Gamer.no",
-     "summary": "Utvikleren bak suksesspuslespillet byr på livstegn fra sitt neste store spillprosjekt.",
-     "published": "2026-10-14T06:18Z"
+     "summary": "Utvikleren deler nye detaljer om sitt neste spillprosjekt, som utforsker en helt ny retning med spennende mekanikker.",
+     "published": "2026-10-14T06:19Z"
     },
     {
-     "title": "Gammelt klassisk dataspill gjenoppleves på original maskinvare",
-     "url": "https://spillhistorie.no/2026/10/13/super-star-trek-spillet-fra-en-svunnen-tid/",
-     "source": "Spillhistorie.no",
-     "summary": "Klassiske spill fra datamaskinens barndom blir fremdeles verdsatt og spilt på maskiner fra samme tiår.",
-     "published": "2026-10-13T11:41Z"
-    },
-    {
-     "title": "Nok et kritikerrost spill lages for fly og håndholdte enheter",
-     "url": "https://www.pressfire.no/artikkel/har-du-tid-til-enda-en-liten-spilljuvel-i-ar",
+     "title": "No Man's Sky tar steget over til mobil og nettbrett",
+     "url": "https://pressfire.no/artikkel/no-mans-sky-krympes",
      "source": "Pressfire",
-     "summary": "Spillserien «Ace Combat» leverer på alle fronter i sin nyeste utgivelse.",
-     "published": "2026-10-12T09:22Z"
+     "summary": "Det gigantiske romutforskningsspillet slippes på mobile plattformer denne måneden komplett med innhold fra mange års oppdateringer.",
+     "published": "2026-10-13T08:30Z"
     }
    ]
   },
@@ -261,35 +383,42 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Norge ett hinder unna VM etter oppvisning",
-     "url": "https://www.nrk.no/sport/norge-leker-med-romania-pa-ullevaal-_-ett-hinder-unna-vm-i-brasil-1.18053966",
-     "source": "NRK",
-     "summary": "Foran 9000 tilskuere vartet landslaget opp med strålende spill og tok et stort steg mot verdensmesterskapet.",
-     "published": "2026-10-13T16:57Z"
+     "title": "Ny norsk suksess i NHL med både mål og målgivende",
+     "url": "https://www.vg.no/sport/i/2Vy55G/ny-nhl-nordmann-herjer-maal-og-assist-mot-devils",
+     "source": "VG",
+     "summary": "Den norske hockeyspilleren imponerte stort på isen og leverte avgjørende scoring og assist i oppgjøret mot New Jersey Devils.",
+     "published": "2026-10-14T07:51Z"
     },
     {
-     "title": "Formel 1-VM vender tilbake til Afrika med løp i Rwanda",
+     "title": "Martin Ødegaard kom inn og sikret seier for Arsenal",
+     "url": "https://www.nrk.no/sport/odegaard-innhopp-da-arsenal-slet-seg-til-seier-1.18053933",
+     "source": "NRK",
+     "summary": "Kapteinen ble byttet inn i andre omgang da Arsenal rodde i land tre viktige poeng i en tøff Champions League-kamp.",
+     "published": "2026-10-13T21:24Z"
+    },
+    {
+     "title": "Formel 1 vender tilbake til Afrika med løp i Rwanda",
      "url": "https://www.nrk.no/sport/formel-1_-afrika-vender-tilbake-til-vm-kalenderen-_-lop-i-rwanda-bekreftet-1.18053341",
      "source": "NRK",
-     "summary": "Rwanda har blitt bekreftet som arrangør av fremtidige VM-runder i Formel 1, noe som blir de første løpene på det afrikanske kontinentet på flere tiår.",
-     "published": "2026-10-13T09:29Z"
+     "summary": "Rwanda skal arrangere VM-runder i Formel 1, noe som markerer sportens historiske retur til det afrikanske kontinentet.",
+     "published": "2026-10-13T09:30Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 963,
-  "chosen": 27,
-  "notchosen": 193,
+  "total": 964,
+  "chosen": 45,
+  "notchosen": 181,
   "removed": {
-   "kjendis": 193,
-   "gammel": 357,
-   "format": 30,
-   "uro": 27,
+   "kjendis": 189,
+   "gammel": 355,
+   "format": 29,
+   "uro": 29,
    "krim": 54,
-   "sykdom": 38,
-   "konflikt": 25,
-   "betalt": 19
+   "sykdom": 36,
+   "konflikt": 26,
+   "betalt": 20
   }
  },
  "today": {
@@ -822,36 +951,36 @@
    "oslo": {
     "temp": 8,
     "min": 8,
-    "max": 15,
+    "max": 14,
     "symbol": "clearsky_day",
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 9,
-    "min": 9,
-    "max": 13,
+    "temp": 11,
+    "min": 10,
+    "max": 14,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 9,
+    "temp": 10,
     "min": 8,
     "max": 11,
-    "symbol": "lightrainshowers_day",
-    "rain6": 1.2
+    "symbol": "partlycloudy_day",
+    "rain6": 0.0
    },
    "tromso": {
-    "temp": 7,
-    "min": 7,
+    "temp": 8,
+    "min": 8,
     "max": 9,
     "symbol": "cloudy",
     "rain6": 0.0
    },
    "bergen": {
-    "temp": 9,
-    "min": 9,
+    "temp": 10,
+    "min": 10,
     "max": 13,
-    "symbol": "partlycloudy_day",
+    "symbol": "cloudy",
     "rain6": 0.0
    },
    "stavanger": {
