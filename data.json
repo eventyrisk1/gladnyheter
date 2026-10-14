@@ -1,16 +1,23 @@
 {
- "updated": "2026-10-14T09:49",
+ "updated": "2026-10-14T10:42",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "NTNU Ocean Campus har ankommet Ålesund",
-     "url": "https://nyheter.ntnu.no/ntnu-ocean-campus-pa-plass-i-alesund/",
-     "source": "NTNU",
-     "summary": "Den store Fjordlab-flåten ble slept sjøveien og kom på plass i sentrum av Ålesund.",
-     "published": "2026-10-13T17:41Z"
+     "title": "Norsk IT-selskap skal levere datamaskiner til 12 kommuner",
+     "url": "https://www.tu.no/it-bransjen/liten-utfordrer-danket-ut-dustin-atea-og-komplett/7143934",
+     "source": "Teknisk Ukeblad",
+     "summary": "Et mindre norsk IT-selskap har vunnet en anbudskonkurranse og skal de neste fire årene forsyne 12 kommuner med datamaskiner og tilbehør for 110 millioner kroner.",
+     "published": "2026-10-14T03:03Z"
+    },
+    {
+     "title": "Norge og Verdensbanken inngår avtale for å styrke offentlig finansforvaltning",
+     "url": "https://www.nettavisen.no/nyheter/norge-inngar-avtaler-med-verdensbanken-for-110-millioner-kroner/s/80-95-154697",
+     "source": "Nettavisen",
+     "summary": "Norge og Verdensbanken har inngått avtaler verdt 110 millioner kroner for å styrke offentlig finansforvaltning og bekjempe korrupsjon i utviklingsland.",
+     "published": "2026-10-14T08:03Z"
     }
    ]
   },
@@ -19,11 +26,25 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Nel inngår intensjonsavtale med Rheinmetall",
-     "url": "https://e24.no/boers-og-finans/i/MA913r/nel-stiger-paa-oslo-boers",
+     "title": "Lavere oljeforbruk og stramt dieselmarked i sikte",
+     "url": "https://e24.no/energi-og-klima/i/Elm4Aj/iea-jekker-ned-utsiktene-igjen",
      "source": "E24",
-     "summary": "De to selskapene skal se på mulighetne for lokal produksjon sammen.",
-     "published": "2026-10-13T07:07Z"
+     "summary": "Det internasjonale energibyrået (IEA) jekker ned utsiktene for oljeforbruket og venter et stramt dieselmarked godt inn i 2027.",
+     "published": "2026-10-14T08:03Z"
+    },
+    {
+     "title": "Boligprisene i nord stiger til tross for vanlig høstnedgang",
+     "url": "https://www.nrk.no/tromsogfinnmark/boligpriser-oker-flere-steder-i-nord-og-synker-pa-ostlandet-1.18052298",
+     "source": "NRK Troms og Finnmark",
+     "summary": "Vanligvis faller boligprisene i tredje kvartal, men tall fra Eiendom Norge viser at prisene tvert imot øker flere steder i nord.",
+     "published": "2026-10-12T09:19Z"
+    },
+    {
+     "title": "Solgte fritidseiendom på Hvasser for nesten 60 millioner",
+     "url": "https://e24.no/naeringsliv/i/L3kv6J/blar-opp-59-5-millioner-for-eiendom-paa-hvasser",
+     "source": "E24",
+     "summary": "En investor har sikret seg en av årets dyreste fritidseiendommer på Hvasser for 59,5 millioner kroner etter et rekordår.",
+     "published": "2026-10-13T07:37Z"
     }
    ]
   },
@@ -32,37 +53,36 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Andøya Space planlegger nytt oppskytningsvindu",
-     "url": "https://www.nrk.no/nordland/nyhetssenter-nordland-1.15898380#1.18053830.1.18053830",
-     "source": "NRK Nordland",
-     "summary": "Andøya Space forbereder nye oppskytninger fra sin base.",
-     "published": "2026-10-13T14:35Z"
+     "title": "Forskere har oppdaget mulig ny «blå sone» med mange hundreåringer",
+     "url": "https://www.forskning.no/aldring/er-dette-en-ny-bla-sone-i-denne-lille-landsbyen-er-det-nemlig-mange-hundrearinger/2721876",
+     "source": "forskning.no",
+     "summary": "Innbyggerne i den lille landsbyen Bolotana på Sardinia lever lenger enn folk de fleste andre steder i verden, viser ny oppdagelse.",
+     "published": "2026-10-13T22:04Z"
+    },
+    {
+     "title": "Eldgammel haikirkegård funnet i ørkenen",
+     "url": "https://www.forskning.no/arkeologi-egypt-havet/eldgammel-haikirkegard-funnet-i-den-egyptiske-orkenen/2721610",
+     "source": "forskning.no",
+     "summary": "Forskere har gjort funn av en eldgammel haikirkegård i den egyptiske ørkenen.",
+     "published": "2026-10-13T22:04Z"
     }
    ]
   },
   {
    "id": "ki",
    "name": "Kunstig intelligens",
-   "stories": [
-    {
-     "title": "Epic Games utsetter spill for å satse på kunstig intelligens",
-     "url": "https://www.pressfire.no/artikkel/epic-utsetter-marvel-og-star-wars-spill-satser-pa-ki",
-     "source": "Pressfire",
-     "summary": "Selskapet skyver på Marvel- og Star Wars-spill for å satse mer på KI i utviklingen.",
-     "published": "2026-10-13T08:22Z"
-    }
-   ]
+   "stories": []
   },
   {
    "id": "natur",
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Bønder i Rogaland tilbyr tankmelk i dagligvarebutikken",
-     "url": "https://www.nrk.no/rogaland/na-kan-du-fa-tankmjolk-i-daglegvarebutikk-1.18034250",
-     "source": "NRK Rogaland",
-     "summary": "Mjølkebøndene på Line opplever enorm interesse for tankmelk og håper på en større markedssatsing.",
-     "published": "2026-10-12T07:58Z"
+     "title": "Gode nyheter for kjempeskippadden: Bestanden har vokst til 180 000",
+     "url": "https://www.forskning.no/dyreverden/gode-nyheter-om-denne-kjempeskilpadden/2721703",
+     "source": "forskning.no",
+     "summary": "Arten som var nær ved å bli utryddet, har nå opplevd en solid vekst og teller om lag 180 000 individer.",
+     "published": "2026-10-13T22:04Z"
     }
    ]
   },
@@ -71,11 +91,25 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Historiene bak familiens gamle fotografier",
-     "url": "https://psyche.co/ideas/what-is-hidden-in-the-photographs-we-keep-of-each-other",
-     "source": "Psyche",
-     "summary": "Et dypdykk i gamle familiealbum viser hvordan fotografier kan romme historier som ikke umiddelbart synes.",
-     "published": "2026-10-13T10:04Z"
+     "title": "Sosial støtte kan dempe risikoen for kognitiv svikt",
+     "url": "https://www.psykologisk.no/nyheter/kronisk-stress-oker-faren-for-demens/164018",
+     "source": "Psykologisk.no",
+     "summary": "Tidligere forskning viser at kronisk stress øker faren for demens, men en ny studie peker på at god sosial støtte kan bidra til å redusere denne risikoen.",
+     "published": "2026-10-14T04:03Z"
+    },
+    {
+     "title": "Kan humor lindre depresjon?",
+     "url": "https://www.psykologisk.no/nyheter/kan-humor-lindre-depresjoner/163994",
+     "source": "Psykologisk.no",
+     "summary": "En litteraturgjennomgang konkluderer med at humor kan ha en plass i behandlingen av depresjon, men at feil bruk kan gjøre vondt verre.",
+     "published": "2026-10-12T04:03Z"
+    },
+    {
+     "title": "Hermann Hesse om kunsten å lese en bok og seg selv",
+     "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
+     "source": "The Marginalian",
+     "summary": "Bøker viser oss hvordan det er å være et annet menneske samtidig som de leder oss tilbake til oss selv for å lære å leve.",
+     "published": "2026-10-13T03:28Z"
     }
    ]
   },
@@ -84,11 +118,11 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Ny maskin bevarer mer fiskekjøtt",
-     "url": "https://www.nrk.no/innlandet/mustad-autoline-lager-maskin-som-skanner-fisk-for-den-skjaeres_-dermed-blir-mer-fiskekjott-bevart-1.18050766",
-     "source": "NRK Innlandet",
-     "summary": "Mustad Autoline på Gjøvik har utviklet en oppfinnelse som gjør at mer av fiskekjøttet bevares, og at lever og rogn ikke kastes.",
-     "published": "2026-10-13T13:01Z"
+     "title": "Ny behandling for spiseforstyrrelser gir raskere effekt",
+     "url": "https://www.forskning.no/hogskolen-i-ostfold-medisinske-metoder-partner/ny-behandling-av-spiseforstyrrelser-gir-raskere-effekt-enn-dagens-standardbehandling/2715806",
+     "source": "forskning.no",
+     "summary": "Et nytt behandlingstilbud kan gis der folk bor, og det viser seg å hjelpe en gruppe pasienter som tidligere har hatt få tilbud.",
+     "published": "2026-10-12T22:07Z"
     }
    ]
   },
@@ -97,11 +131,11 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Utfordringer med rekruttering i barnehagene",
-     "url": "https://www.nrk.no/tromsogfinnmark/2.600-barnehagelaerarar-for-lite_-slit-med-a-fa-barnehagelaerarar-til-a-ta-jobb-i-barnehagar-1.18049256",
-     "source": "NRK Troms og Finnmark",
-     "summary": "Norge mangler tusenvis av barnehagelærere, og mange nyutdannede velger å jobbe andre steder enn i barnehagene.",
-     "published": "2026-10-12T10:54Z"
+     "title": "Ny studie viser store variasjoner i barns tilgang til sosial lek",
+     "url": "https://www.forskning.no/barn-barnehage-lek/disse-jentene-deltar-mest-i-sosial-lek-i-barnehagen/2716476",
+     "source": "forskning.no",
+     "summary": "Forskning viser at det er stor forskjell på hvor mye barn deltar i sosial lek i barnehagen, noe både foreldre og lærere bør merke seg.",
+     "published": "2026-10-13T22:07Z"
     }
    ]
   },
@@ -110,36 +144,41 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Glede og hverdag i landets kirker",
+     "title": "En støtte til viktige fellesverdier",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20st%C3%B8tte%20til%20viktige%20fellesverdier/",
+     "source": "Den norske kirke",
+     "summary": "En stabil finansiering av trossamfunn trekkes frem som et viktig bidrag for å opprettholde fellesskap og videreføre fellesverdier."
+    },
+    {
+     "title": "Hverdagsøyeblikk og fellesskap midt i sorgen",
      "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/den%20norske%20kirke%20glede%20og%20hverdag%20midt%20i%20landesorgen/",
      "source": "Den norske kirke",
-     "summary": "Midt i en tid med felles sorg fortsetter livet i kirkene med gudstjenester, dåp og fellesskap."
+     "summary": "Mennesker samles i kirkene for både alvor, dåp og feiring av hverdagen for å opprettholde gode fellesskap."
     }
    ]
   },
   {
    "id": "kunst",
    "name": "Kunst",
-   "stories": [
-    {
-     "title": "Digitalisert fargeguide fra 1692",
-     "url": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
-     "source": "Open Culture",
-     "summary": "En 900-siders historisk fargeguide fra 1700-tallet er gjort tilgjengelig gjennom komplette høyoppløselige digitale skanninger.",
-     "published": "2026-10-12T08:04Z"
-    }
-   ]
+   "stories": []
   },
   {
    "id": "musikk",
    "name": "Musikk",
    "stories": [
     {
-     "title": "Musikere hedrer legendariske Ray Brown",
+     "title": "Hyller jazzbassist med historier og musikk",
      "url": "https://www.npr.org/2026/10/13/nx-s1-6000428/ray-brown-100-jazz-night",
      "source": "NPR Music",
-     "summary": "Christian McBride og John Clayton feirer hundreårsjubileet til sin mentor med historier og musikk.",
-     "published": "2026-10-13T20:34Z"
+     "summary": "Christian McBride og John Clayton markerer 100-årsjubileet til den legendariske bassisten Ray Brown.",
+     "published": "2026-10-13T20:32Z"
+    },
+    {
+     "title": "Beth Orton imponerer med ny musikk i jazzdrakt",
+     "url": "https://www.theguardian.com/music/2026/oct/13/beth-orton-review-brighton-concorde-2",
+     "source": "The Guardian (musikk)",
+     "summary": "Artist Beth Orton leverer kritikerroste opptredener backet av et band dypt forankret i jazz og eksperimentering.",
+     "published": "2026-10-13T11:06Z"
     }
    ]
   },
@@ -148,11 +187,25 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Bonnie Garmus med oppfølger om poesi i 80-tallet",
-     "url": "https://www.theguardian.com/books/2026/oct/13/peck-peck-by-bonnie-garmus-review-the-zany-follow-up-to-lessons-in-chemistry",
-     "source": "The Guardian (bøker)",
-     "summary": "Forfatteren er aktuell med en ny, humoristisk roman som hyller poesien og et eksentrisk litteraturmagasin.",
-     "published": "2026-10-13T06:04Z"
+     "title": "Derfor er poesi en perfekt inngangport for unge lesere",
+     "url": "https://lithub.com/lit-hub-daily-october-13-2026/",
+     "source": "Literary Hub",
+     "summary": "Lærere og forfattere trekker frem dikt som en fin måte å vekke leselysten hos tweener og ungdommer på.",
+     "published": "2026-10-13T10:33Z"
+    },
+    {
+     "title": "Utvalgte favorittsitater fra høstens bokslipp",
+     "url": "https://www.theparisreview.org/blog/2026/10/09/passages-we-underlined-this-fall/",
+     "source": "The Paris Review",
+     "summary": "En samling minneverdige passasjer og sitater fra nyere bkutgivelser i høst.",
+     "published": "2026-10-09T14:03Z"
+    },
+    {
+     "title": "Møt forfatterne bak høstens nye bøker",
+     "url": "https://lithub.com/lit-hub-asks-5-authors-7-questions-no-wrong-answers-october-2026/",
+     "source": "Literary Hub",
+     "summary": "En fast månedlig intervjuserie gir fem aktuelle forfattere sju spørsmål om deres ferske bokutgivelser.",
+     "published": "2026-10-13T09:12Z"
     }
    ]
   },
@@ -161,11 +214,18 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Netflix viser første smakebit på Greta Gerwigs Narnia",
-     "url": "https://www.theguardian.com/film/2026/oct/13/narnia-trailer-netflix-greta-gerwig",
+     "title": "Ny animasjonsfilm byr på drømmende stopp-effekt",
+     "url": "https://www.theguardian.com/film/2026/oct/14/kiri-and-lou-go-raaa-review-delightful-origin-story-for-cbeebies-prehistoric-pals",
      "source": "The Guardian (film)",
-     "summary": "Fantasy-eposet basert på C.S. Lewis' klassiker har fått sin første trailer med en stjernespekket rolleliste.",
-     "published": "2026-10-13T19:14Z"
+     "summary": "Et nytt lengre eventyr for de yngste byr på et drømmende lydspor og vakre stopp-motion-visualer.",
+     "published": "2026-10-14T06:03Z"
+    },
+    {
+     "title": "Historien om de gamle sjøfartstradisjonene",
+     "url": "https://www.openculture.com/2026/10/the-biggest-ship-in-history-was-built-in-china-600-years-ago-or-was-it.html",
+     "source": "Open Culture",
+     "summary": "Historiske sjøfartsfortellinger og gigantiske skip fra eldre tider fortsetter å vekke amatørhistorikeres nysgjerrighet.",
+     "published": "2026-10-12T09:03Z"
     }
    ]
   },
@@ -174,25 +234,25 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Nintendo bekrefter at de vil fortsette med fysiske spill",
-     "url": "https://www.gamereactor.no/nintendo-bekrefter-vil-fortsette-med-fysiske-spill-switch-2/",
-     "source": "Gamereactor",
-     "summary": "Nintendo har ingen planer om å droppe fysiske spill, og bekrefter støtte for både kassetter og digitale kjøp fremover.",
-     "published": "2026-10-13T20:29Z"
-    },
-    {
-     "title": "Spillmessen i Kristiansand vokser",
-     "url": "https://spillhistorie.no/2026/10/12/spillmessen-i-kristiansand-blir-storre-enn-noensinne/",
-     "source": "Spillhistorie.no",
-     "summary": "Årets spillmesse i Kristiansand arrangeres denne helgen og blir større enn noensinne.",
-     "published": "2026-10-12T10:58Z"
-    },
-    {
-     "title": "Phasmophobia runder stor salgssmilepæl",
-     "url": "https://www.gamer.no/artikler/phasmophobia-har-solgt-30-millioner-eksemplarer-i-early-access/521156",
+     "title": "Nye detaljer fra skaperen av Stardew Valley",
+     "url": "https://www.gamer.no/artikler/livstegn-fra-stardew-valley-skaperens-neste/521166",
      "source": "Gamer.no",
-     "summary": "Spillet har solgt hele 30 millioner eksemplarer i sin periode som tidlig tilgang-tittel.",
-     "published": "2026-10-12T04:50Z"
+     "summary": "Utvikleren bak suksesspuslespillet byr på livstegn fra sitt neste store spillprosjekt.",
+     "published": "2026-10-14T06:18Z"
+    },
+    {
+     "title": "Gammelt klassisk dataspill gjenoppleves på original maskinvare",
+     "url": "https://spillhistorie.no/2026/10/13/super-star-trek-spillet-fra-en-svunnen-tid/",
+     "source": "Spillhistorie.no",
+     "summary": "Klassiske spill fra datamaskinens barndom blir fremdeles verdsatt og spilt på maskiner fra samme tiår.",
+     "published": "2026-10-13T11:41Z"
+    },
+    {
+     "title": "Nok et kritikerrost spill lages for fly og håndholdte enheter",
+     "url": "https://www.pressfire.no/artikkel/har-du-tid-til-enda-en-liten-spilljuvel-i-ar",
+     "source": "Pressfire",
+     "summary": "Spillserien «Ace Combat» leverer på alle fronter i sin nyeste utgivelse.",
+     "published": "2026-10-12T09:22Z"
     }
    ]
   },
@@ -201,35 +261,35 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Formel 1 vender tilbake til Afrika med VM-løp i Rwanda",
-     "url": "https://www.nrk.no/sport/formel-1_-afrika-vender-tilbake-til-vm-kalenderen-_-lop-i-rwanda-bekreftet-1.18053341",
+     "title": "Norge ett hinder unna VM etter oppvisning",
+     "url": "https://www.nrk.no/sport/norge-leker-med-romania-pa-ullevaal-_-ett-hinder-unna-vm-i-brasil-1.18053966",
      "source": "NRK",
-     "summary": "Rwanda er bekreftet som arrangør for fremtidige VM-runder i Formel 1, noe som blir de første på det afrikaiske kontinentet på flere tiår.",
-     "published": "2026-10-13T09:31Z"
+     "summary": "Foran 9000 tilskuere vartet landslaget opp med strålende spill og tok et stort steg mot verdensmesterskapet.",
+     "published": "2026-10-13T16:57Z"
     },
     {
-     "title": "Seier for Arsenal i mesterligaen etter viktige innhopp",
-     "url": "https://www.nrk.no/sport/odegaard-innhopp-da-arsenal-slet-seg-til-seier-1.18053933",
+     "title": "Formel 1-VM vender tilbake til Afrika med løp i Rwanda",
+     "url": "https://www.nrk.no/sport/formel-1_-afrika-vender-tilbake-til-vm-kalenderen-_-lop-i-rwanda-bekreftet-1.18053341",
      "source": "NRK",
-     "summary": "Mikel Arteta måtte kaste inn stjernene fra benken da Arsenal slet seg til seier mot Lille i mesterligakampen.",
-     "published": "2026-10-13T21:25Z"
+     "summary": "Rwanda har blitt bekreftet som arrangør av fremtidige VM-runder i Formel 1, noe som blir de første løpene på det afrikanske kontinentet på flere tiår.",
+     "published": "2026-10-13T09:29Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 810,
-  "chosen": 18,
-  "notchosen": 172,
+  "total": 963,
+  "chosen": 27,
+  "notchosen": 193,
   "removed": {
-   "sykdom": 31,
-   "gammel": 293,
-   "kjendis": 155,
-   "format": 27,
-   "krim": 49,
-   "uro": 22,
+   "kjendis": 193,
+   "gammel": 357,
+   "format": 30,
+   "uro": 27,
+   "krim": 54,
+   "sykdom": 38,
    "konflikt": 25,
-   "betalt": 18
+   "betalt": 19
   }
  },
  "today": {
@@ -760,29 +820,29 @@
   "power_tomorrow": {},
   "weather": {
    "oslo": {
-    "temp": 6,
-    "min": 6,
+    "temp": 8,
+    "min": 8,
     "max": 15,
     "symbol": "clearsky_day",
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 8,
-    "min": 8,
-    "max": 14,
+    "temp": 9,
+    "min": 9,
+    "max": 13,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 8,
+    "temp": 9,
     "min": 8,
     "max": 11,
     "symbol": "lightrainshowers_day",
-    "rain6": 1.3
+    "rain6": 1.2
    },
    "tromso": {
-    "temp": 6,
-    "min": 6,
+    "temp": 7,
+    "min": 7,
     "max": 9,
     "symbol": "cloudy",
     "rain6": 0.0
@@ -795,8 +855,8 @@
     "rain6": 0.0
    },
    "stavanger": {
-    "temp": 10,
-    "min": 10,
+    "temp": 11,
+    "min": 11,
     "max": 14,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
