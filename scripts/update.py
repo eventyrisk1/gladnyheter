@@ -391,6 +391,7 @@ def read_answer(raw, news, sport):
 
 
 MAX_PER_SOURCE = 6
+GOOD_ENOUGH = 36  # av 45 mulige (3 per kategori)
 
 GEMINI_MODELS = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-3.5-flash-lite", "gemini-flash-lite-latest", "gemini-3-flash-preview", "gemini-2.5-flash"]
 
@@ -401,7 +402,7 @@ def pick_gemini(news, sport, key):
         "contents": [{"role": "user", "parts": [{"text": build_prompt(news, sport)}]}],
         "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
     }).encode()
-    last = None
+    last, best, answers = None, None, 0
     models = [m for m in [os.environ.get("GEMINI_MODEL")] + GEMINI_MODELS if m]
     for attempt, model in enumerate(models + models):  # to runder: modeller kan være midlertidig overbelastet (503)
         if attempt == len(models):
@@ -412,14 +413,22 @@ def pick_gemini(news, sport, key):
             with urllib.request.urlopen(req, timeout=120) as r:
                 res = json.load(r)
             raw = "".join(p.get("text", "") for p in res["candidates"][0]["content"]["parts"])
-            print(f"Gemini-modell: {model}")
-            return read_answer(raw, news, sport)
+            got = read_answer(raw, news, sport)
+            print(f"Gemini-modell: {model} – {count(got)} saker")
+            if count(got) > count(best):
+                best = got
+            answers += 1
+            # Noen ganger svarer modellen med bare 1 sak per kategori – prøv da neste modell og behold det fyldigste svaret
+            if count(best) >= GOOD_ENOUGH or answers >= 3:
+                return best
         except urllib.error.HTTPError as e:
             last = f"{model}: {e.code} {e.read()[:300]!r}"
             print(f"  {last}", file=sys.stderr)
         except Exception as e:
             last = f"{model}: {e}"
             print(f"  {last}", file=sys.stderr)
+    if best:
+        return best
     raise RuntimeError(last)
 
 
@@ -432,6 +441,41 @@ def pick_claude(news, sport, key):
     with urllib.request.urlopen(req, timeout=120) as r:
         raw = "".join(b.get("text", "") for b in json.load(r)["content"])
     return read_answer(raw, news, sport)
+
+
+def top_up(out, news, sport):
+    """Fyll opp kategorier der KI-en ga færre enn 3 saker, med saker som tydelig hører til kategorien."""
+    used = {s["url"] for v in out.values() for s in v}
+    per_src = {}
+    for v in out.values():
+        for s in v:
+            per_src[s["source"]] = per_src.get(s["source"], 0) + 1
+    ranked = []
+    for it in news:
+        cat, topic = categorize(it)
+        if topic > 0 and cat in RULE_MAP:
+            ranked.append((score(it)[0], RULE_MAP[cat], it))
+    ranked.sort(key=lambda x: -x[0])
+    added = 0
+    for _, cid, it in ranked:
+        lst = out.setdefault(cid, [])
+        if len(lst) >= 3 or it["url"] in used or per_src.get(it["source"], 0) >= MAX_PER_SOURCE:
+            continue
+        if sum(x["source"] == it["source"] for x in lst) >= 2:
+            continue
+        lst.append(story(it))
+        used.add(it["url"])
+        per_src[it["source"]] = per_src.get(it["source"], 0) + 1
+        added += 1
+    sp = out.setdefault("sport", [])
+    for it in sorted(sport, key=lambda x: x["weight"] - x["pos"] * 0.1, reverse=True):
+        if len(sp) >= 3:
+            break
+        if it["url"] not in used:
+            sp.append(story(it))
+            used.add(it["url"])
+            added += 1
+    print(f"Fylte opp {added} tomme plasser med regelvalgte saker")
 
 
 def count(out):
@@ -546,15 +590,20 @@ def main():
     out = None
     for name, env, fn in [("Claude", "ANTHROPIC_API_KEY", pick_claude), ("Gemini", "GEMINI_API_KEY", pick_gemini)]:
         key = os.environ.get(env)
-        if key and count(out) < 15:
+        if key and count(out) < GOOD_ENOUGH:
             try:
-                out = fn(news, sport, key)
-                print(f"Valgt av {name}")
+                got = fn(news, sport, key)
+                print(f"{name} valgte {count(got)} saker")
+                if count(got) > count(out):
+                    out = got
+                    print(f"Valgt av {name}")
             except Exception as e:
                 print(f"{name} feilet ({e})", file=sys.stderr)
     if count(out) < 10:  # KI-utvalget er mye bedre enn reglene, så bruk det selv om det er litt tynt
         out = pick_rules(news, sport)
         print("Valgt med regler")
+    else:
+        top_up(out, news, sport)
     if count(out) < 10:
         sys.exit("For få saker – beholder forrige utgave.")
     mark_paywall(out)
