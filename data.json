@@ -1,30 +1,16 @@
 {
- "updated": "2026-10-14T06:39",
+ "updated": "2026-10-14T07:36",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Ny maskin tar vare på mer fiskekjøtt og kutter svinn",
-     "url": "https://www.nrk.no/innlandet/mustad-autoline-lager-maskin-som-skanner-fisk-for-den-skjaeres_-dermed-blir-mer-fiskekjott-bevart-1.18050766",
-     "source": "NRK Innlandet",
-     "summary": "Mustad Autoline på Gjøvik har utviklet en ny maskin som bevarer mer av fiskekjøttet, slik at mindre lever og rogn kastes. Fiskemottakslederen kaller oppfinnelsen et stort framskritt.",
-     "published": "2026-10-13T12:57Z"
-    },
-    {
-     "title": "NTNU Ocean Campus har ankommet Ålesund",
-     "url": "https://nyheter.ntnu.no/ntnu-ocean-campus-pa-plass-i-alesund/",
-     "source": "NTNU",
-     "summary": "Den store Fjordlab-flåten ble slept sjøveien til Ålesund og er nå på plass i sentrum som en del av den nye satsingen.",
-     "published": "2026-10-13T17:37Z"
-    },
-    {
-     "title": "Stor interesse for fersk tankmjølk i dagligvarebutikken",
-     "url": "https://www.nrk.no/rogaland/na-kan-du-fa-tankmjolk-i-daglegvarebutikk-1.18034250",
-     "source": "NRK Rogaland",
-     "summary": "Mjølkebøndene på Line merker enorm etterspørsel etter tankmjølk og håper nå å nå ut til et enda større publikum i dagligvarehandelen.",
-     "published": "2026-10-12T07:54Z"
+     "title": "Kritisk behov for bøssebærere til årets innsamlingsaksjon",
+     "url": "https://www.nettavisen.no/kjendis/mangler-58-000-bossebarere-roper-om-hjelp/s/80-95-157665",
+     "source": "Nettavisen",
+     "summary": "NRC Flyktninghjelpen melder om et stort underskudd på frivillige og oppfordrer folk til å melde seg som bøssebærere for å hjelpe til.",
+     "published": "2026-10-14T05:19Z"
     }
    ]
   },
@@ -33,17 +19,17 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Sterkt resultat og inntektshopp for meglerhuset ABG",
+     "title": "Sterke tall og inntektshopp for meglerhuset ABG",
      "url": "https://e24.no/boers-og-finans/i/rM5vz8/inntektshopp-for-abg",
      "source": "E24",
-     "summary": "Meglerhuset, som snart får en ny toppsjef på plass, kunne vise til vekst i både omsetning og resultat.",
+     "summary": "Meglerhuset ABG leverte solide resultater med økt omsetning og resultat, og har en ny toppsjef på vei inn.",
      "published": "2026-10-13T06:04Z"
     },
     {
-     "title": "Solgte luksuseiendom på Hvasser for nesten 60 millioner",
+     "title": "Solgte luksusleilighet på Hvasser for nesten 60 millioner",
      "url": "https://e24.no/naeringsliv/i/L3kv6J/blar-opp-59-5-millioner-for-eiendom-paa-hvasser",
      "source": "E24",
-     "summary": "En investor har sikret seg en av årets dyreste fritidseiendommer i hytteperlen etter et rekordår.",
+     "summary": "En investor sikret seg en av årets dyreste fritidseiendommer på Hvasser for 59,5 millioner kroner etter et sterkt år.",
      "published": "2026-10-13T07:34Z"
     }
    ]
@@ -53,18 +39,18 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Forskere funnet ny mulig «blå sone» med mange hundreåringer",
+     "title": "Forskere har funnet mulig ny «blå sone» med mange hundreåringer",
      "url": "https://www.forskning.no/aldring/er-dette-en-ny-bla-sone-i-denne-lille-landsbyen-er-det-nemlig-mange-hundrearinger/2721876",
      "source": "forskning.no",
-     "summary": "Innbyggerne i den lille landsbyen Bolotana på Sardinia lever lenger enn folk flest i verden, viser ny oppdagelse.",
+     "summary": "Innbyggerne i den lille landsbyen Bolotana på Sardinia lever lenger enn folk flest, noe som har fanget forskernes interesse.",
      "published": "2026-10-13T22:01Z"
     },
     {
-     "title": "Studie undersøker tidlige kjønnsforskjeller hos nyfødte",
-     "url": "https://www.forskning.no/hjernen/fant-kjonnsforskjeller-i-babyers-oppmerksomhet-allerede-fa-timer-etter-fodsel/2719631",
+     "title": "Slik så kanskje de aller tidligste menneskene ut",
+     "url": "https://www.forskning.no/arkeologi/slik-kan-de-aller-tidligste-menneskene-ha-sett-ut/2721128",
      "source": "forskning.no",
-     "summary": "Forskere har sett på oppmerksomheten hos babyer få timer etter fødselen for å forstå tidlige adferdsforskjeller, selv om norske fagfolk er avventende.",
-     "published": "2026-10-11T22:01Z"
+     "summary": "Forskere har forsøkt å rekonstruere ansiktet til den eldste kjente representanten for vår art.",
+     "published": "2026-10-12T22:01Z"
     }
    ]
   },
@@ -73,24 +59,24 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Mental Helse frykter at kunstig intelligens gir færre menneskelige samtaler",
+     "title": "Frykter at kunstig intelligens gir færre menneskelige samtalehjelpere",
      "url": "https://www.nrk.no/tromsogfinnmark/mental-helse-mistenker-at-ki-gir-faerre-henvendelser-1.18051518",
      "source": "NRK",
-     "summary": "Organisasjonen merker færre henvendelser på chattetjenesten og mistenker at folk tyr til KI i stedet for å oppsøke menneskelig støtte.",
+     "summary": "Mental Helse merker færre henvendelser på chattetjenesten sin og mistenker at folk tyr til KI i stedet for ekte samtaler.",
      "published": "2026-10-14T03:31Z"
     },
     {
-     "title": "Avslørt: Brukte automatiserte agenter til massiv musikkstrømming",
+     "title": "Svindlet til seg store summer ved hjelp av KI-musikk",
      "url": "https://www.tu.no/kunstig-intelligens/svindlet-til-seg-nesten-80-millioner-kroner-med-ki-musikk/7145919",
      "source": "Teknisk Ukeblad",
-     "summary": "Teknologiutnyttelse ble nylig avdekket etter omfattende misbruk knyttet til automatisert strømming av musikkverk.",
+     "summary": "Svindlere brukte kunstig intelligens-agenter til å strømme musikk i massiv skala og sikre seg store beløp.",
      "published": "2026-10-13T08:23Z"
     },
     {
-     "title": "NRK setter foten ned for KI-musikk i Melodi Grand Prix",
+     "title": "NRK stenger døren for KI-skapte sanger i MGP",
      "url": "https://www.aftenposten.no/kultur/i/n9mJvm/nrk-stenger-doeren-for-ki-skapte-sanger-i-mgp",
      "source": "Aftenposten",
-     "summary": "I motsetning til i nabolandet åpner ikke rikskringkasteren for innsendte låter skapt av kunstig intelligens i den kommende uttakingen.",
+     "summary": "I motsetning til i Sverige har NRK bestemt seg for å avvise kunstig intelligens-genererte bidrag til Melodi Grand Prix.",
      "published": "2026-10-12T12:51Z"
     }
    ]
@@ -100,25 +86,18 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Klimaendringer og parasitter påvirker den norske elgstammen",
+     "title": "Ny maskin på Gjøvik bevarer mer av fiskekjøttet",
+     "url": "https://www.nrk.no/innlandet/mustad-autoline-lager-maskin-som-skanner-fisk-for-den-skjaeres_-dermed-blir-mer-fiskekjott-bevart-1.18050766",
+     "source": "NRK Innlandet",
+     "summary": "Mustad Autoline har utviklet en oppfinnelse som gjør at mer av fisken utnyttes, inkludert lever og rogn som tidligere ble kastet.",
+     "published": "2026-10-13T12:57Z"
+    },
+    {
+     "title": "Klimaendringer og parasitter påvirker elgstammen",
      "url": "https://www.nrk.no/sapmi/ny-rapport_-elgkalvene-er-mindre-enn-de-pleide-a-vaere-1.18043822",
      "source": "NRK Troms og Finnmark",
-     "summary": "Nye tall viser at elgkalver veier betydelig mindre i dag enn før, noe forskere knytter til endringer i miljø og økosystem.",
+     "summary": "En ny rapport viser at elgkalver veier betydelig mindre i dag enn før, noe forskere knytter til endringer i miljøet.",
      "published": "2026-10-12T06:10Z"
-    },
-    {
-     "title": "Vil bygge om og effektivisere eldre vindkraftparker",
-     "url": "https://www.tu.no/energi/gigantisk-vindturbin-pa-hoyde-med-berlins-tv-tarn-men-effekten-er-beskjeden/7145088",
-     "source": "Teknisk Ukeblad",
-     "summary": "Et ingeniørkonsern ser på mulighetene for å oppgradere eksisterende anlegg for å hente ut mer ren energi.",
-     "published": "2026-10-13T09:34Z"
-    },
-    {
-     "title": "Regjeringen satser milliarder på internasjonale klimakvoter",
-     "url": "https://e24.no/energi-og-klima/i/58LQPb/regjeringen-ber-om-26-milliarder-til-klimakvoter",
-     "source": "E24",
-     "summary": "Norge øker sin finansiering av grønne kutt i andre land for å bidra til global omstilling.",
-     "published": "2026-10-13T13:37Z"
     }
    ]
   },
@@ -127,25 +106,18 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Sosial støtte demper skadevirkningene av kronisk stress",
+     "title": "Sosial støtte kan dempe faren for demens ved kronisk stress",
      "url": "https://www.psykologisk.no/nyheter/kronisk-stress-oker-faren-for-demens/164018",
      "source": "Psykologisk.no",
-     "summary": "Ny forskning viser at selv om langvarig stress øker risikoen for kognitiv svikt, kan gode relasjoner fungere som et effektivt vern.",
+     "summary": "En ny studie viser at selv om kronisk stress øker risikoen for kognitiv svikt, kan gode sosiale relasjoner redusere denne faren.",
      "published": "2026-10-14T04:00Z"
     },
     {
-     "title": "Kan humor fungere som medisin mot depresjon?",
+     "title": "Kan humor brukes til å lindre depresjon?",
      "url": "https://www.psykologisk.no/nyheter/kan-humor-lindre-depresjoner/163994",
      "source": "Psykologisk.no",
-     "summary": "En ny litteraturgjennomgang viser at humor kan ha en plass i behandlingen, men advarer om at metoden må brukes med varsomhet.",
+     "summary": "En ny litteraturgjennomgang viser at humor kan ha en plass i behandlingen av depresjon, men advarer om at feil bruk kan virke mot sin hensikt.",
      "published": "2026-10-12T04:00Z"
-    },
-    {
-     "title": "Pioneren Mark Kac om kreativitetens uforutsigbarhet",
-     "url": "https://www.themarginalian.org/2026/10/13/mark-kac-enigmas-of-chance-geniuses/",
-     "source": "The Marginalian",
-     "summary": "Sannsynlighetspioneren har reflektert over hvordan skapende mennesker beveger seg mellom den vanlige hverdagen og det uventede.",
-     "published": "2026-10-13T20:58Z"
     }
    ]
   },
@@ -154,25 +126,18 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Ny behandlingsmetode for spiseforstyrrelser gir raskere bedring",
+     "title": "Ny behandling for spiseforstyrrelser gir raskere resultater",
      "url": "https://www.forskning.no/hogskolen-i-ostfold-medisinske-metoder-partner/ny-behandling-av-spiseforstyrrelser-gir-raskere-effekt-enn-dagens-standardbehandling/2715806",
      "source": "forskning.no",
-     "summary": "Et desentralisert tilbud kan nå hjelpe pasienter der de bor, og viser svært gode resultater sammenlignet med standarden.",
+     "summary": "Et nytt lokalt tilbud viser seg å gi raskere effekt og hjelper en pasientgruppe som tidligere har hatt få behandlingsmuligheter.",
      "published": "2026-10-12T22:04Z"
     },
     {
-     "title": "Dette bør du vite før du begynner med kreatin",
+     "title": "Slik bør du trene og forberede deg før bruk av kreatin",
      "url": "https://www.forskning.no/kreatin-kultur-meninger/dette-bor-du-gjore-for-du-tar-kreatin/2719108",
      "source": "forskning.no",
-     "summary": "En treningsprofessor minner om viktigheten av å skille mellom tiltak som gir marginale utslag og det som faktisk bygger grunnleggende prestasjon.",
+     "summary": "En treningsprofessor peker på forskjellen mellom tiltak som gir marginale fordeler og det som faktisk bygger opp prestasjon.",
      "published": "2026-10-12T22:01Z"
-    },
-    {
-     "title": "Derfor føles alltid starten på joggeturen så tung",
-     "url": "https://www.nrk.no/trondelag/dette-gjor-starten-pa-joggeturen-sa-toff-_-handler-ikke-om-at-man-er-i-darlig-form-1.18043184",
-     "source": "NRK",
-     "summary": "Fysiologiske mekanismer gjør at kroppen trenger en innledningsfase før blodsirkulasjon og energifrigjøring er optimalt i gang.",
-     "published": "2026-10-11T06:46Z"
     }
    ]
   },
@@ -181,25 +146,18 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Derfor er skrubbsår og risikolek bra for barns mestring",
+     "title": "Derfor er skrubbsår og risikolek bra for barnas utvikling",
      "url": "https://www.barnehage.no/skrubbsar-gir-livsmestring/278412",
      "source": "Barnehage.no",
-     "summary": "Fagfolk peker på at barn har godt av å utfordre seg selv fysisk for å bygge sunn risikoforståelse og mestringsfølelse.",
+     "summary": "Eksperter trekker frem viktigheten av risikolek for å bygge mestringsfølelse og god livsmestring hos de minste.",
      "published": "2026-10-12T13:27Z"
     },
     {
-     "title": "Ny studie om jenters deltakelse i sosial lek i barnehagen",
+     "title": "Studie viser stor variasjon i barnehagebarns tilgang til sosial lek",
      "url": "https://www.forskning.no/barn-barnehage-lek/disse-jentene-deltar-mest-i-sosial-lek-i-barnehagen/2716476",
      "source": "forskning.no",
-     "summary": "Forskere har undersøkt hvordan barn leker sammen, og understreker at voksne bør være oppmerksomme på de sosiale mønstrene.",
+     "summary": "Forskning viser at det er betydelige forskjell på barns mulighet til å delta i sosial lek sammen med andre i barnehagen.",
      "published": "2026-10-13T22:04Z"
-    },
-    {
-     "title": "Derfor må den første leseopplæringen være systematisk",
-     "url": "https://www.utdanningsnytt.no/leseopplaering-toril-karstad/nar-lesingen-ikke-kommer-av-seg-selv/503865",
-     "source": "Utdanningsnytt",
-     "summary": "Debattanter minner om at lesing ikke alltid kommer av seg selv, og at god begynnaropplæring krever faglig fundament.",
-     "published": "2026-10-11T06:52Z"
     }
    ]
   },
@@ -208,23 +166,16 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Framhever kirkens rolle som bærer av fellesverdier",
+     "title": "Kirken fremheves som viktig støtte for fellesverdier",
      "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20st%C3%B8tte%20til%20viktige%20fellesverdier/",
      "source": "Den norske kirke",
-     "summary": "Ledere i Den norske kirke peker på at stabile rammer for troslivet er med på å opprettholde viktige fellesskap i samfunnet."
+     "summary": "Stabil finansiering av Den norske kirke trekkes frem som et sentralt bidrag til å opprettholde viktige fellesskap i samfunnet."
     },
     {
-     "title": "Slik forvandler du hagearbeid til en rolig stund med mindfulness",
-     "url": "https://www.mindful.org/garden-meditation-a-simple-outdoor-practice-for-presence-and-awe/",
-     "source": "Mindful",
-     "summary": "Enkle naturaktiviteter kan brukes som en praktisk øvelse i tilstedeværelse, enten man har stor hage eller bare en liten balkong.",
-     "published": "2026-10-13T23:03Z"
-    },
-    {
-     "title": "Hermann Hesse om hvorfor vi leser for å finne oss selv",
+     "title": "Hermann Hesse om kunsten å lese bøker og forstå seg selv",
      "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
      "source": "The Marginalian",
-     "summary": "Klassiske betraktninger viser hvordan litteraturen lar oss oppleve andre menneskers liv samtidig som vi speiler oss selv.",
+     "summary": "Et dypdykk i forfatterens tanker viser hvordan litteratur hjelper oss å forstå andre og finne veien tilbake til oss selv.",
      "published": "2026-10-13T03:26Z"
     }
    ]
@@ -234,18 +185,11 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Oppdag tidenes fargeguide fra 1692 i full digital prakt",
+     "title": "Sjelden fargeguide fra 1692 tilgjengeliggjort digitalt",
      "url": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
      "source": "Open Culture",
-     "summary": "Et historisk verk om fargelære fra Nederland er gjort tilgjengelig i høyoppløst format for alle kunstinteresserte.",
+     "summary": "Et omfattende historisk verk om farger og maling har blitt skannet og publisert i høyt oppløst format for alle kunstinteresserte.",
      "published": "2026-10-12T08:00Z"
-    },
-    {
-     "title": "Møt kuratoren bak det nye museet for narrativ kunst",
-     "url": "https://www.rogerebert.com/interviews/lucas-museum-of-narrative-art-curator-ryan-linkof-interview",
-     "source": "RogerEbert.com",
-     "summary": "Et dypdykk i tankene bak formidlingen av visuelle historier og samlingene som venter publikum.",
-     "published": "2026-10-13T14:31Z"
     }
    ]
   },
@@ -254,25 +198,18 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Hedrer bassisten Ray Brown med stjernelag",
+     "title": "Hedrer basslegenden Ray Brown på 100-årsdagen",
      "url": "https://www.npr.org/2026/10/13/nx-s1-6000428/ray-brown-100-jazz-night",
      "source": "NPR Music",
-     "summary": "Musikerkollegaer samles for å feire hundreårsminnet til den legendariske jazzbassisten gjennom historier og toner.",
+     "summary": "De kjente bassistenes arv feires med historier og musikk av fremtredende kolleger.",
      "published": "2026-10-13T20:30Z"
     },
     {
-     "title": "Draco Rosa skaper magisk stemning med akustiske toner",
+     "title": "Draco Rosa med stemningsfull konsert",
      "url": "https://www.npr.org/2026/10/13/g-s1-141845/draco-rosa-tiny-desk-concert",
      "source": "NPR Music",
-     "summary": "Artistens opptreden bød på stemningsfulle og gitardrevne betraktninger om tilværelsen.",
+     "summary": "Artisten leverer nære og elektriske tolkingen av liv og musikk i en ny liveopptreden.",
      "published": "2026-10-13T11:00Z"
-    },
-    {
-     "title": "Beth Orton imponerer med nyvunnet musikalitet",
-     "url": "https://www.theguardian.com/music/2026/oct/13/beth-orton-review-brighton-concorde-2",
-     "source": "The Guardian (musikk)",
-     "summary": "Artistens nyere materiale, båret fram av et jazzpreget band, høster lovord for sin modne og varme tone.",
-     "published": "2026-10-13T11:04Z"
     }
    ]
   },
@@ -281,25 +218,11 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Bokomtale: Hyllest til poesien fra forfatteren av suksessroman",
+     "title": "Suksessforfatter klar med sjarmerende ny bok om poesi",
      "url": "https://www.theguardian.com/books/2026/oct/13/peck-peck-by-bonnie-garmus-review-the-zany-follow-up-to-lessons-in-chemistry",
      "source": "The Guardian (bøker)",
-     "summary": "En særpreget og humoristisk fortelling om et eksentrisk tidsskrift i 1980-tallet New York hyller ordkunsten.",
+     "summary": "Forfatteren bak «Lessons in Chemistry» følger opp med en humoristisk og hjerteømfintlig fortelling om en eksentrisk poesiklubb på 80-tallet.",
      "published": "2026-10-13T06:00Z"
-    },
-    {
-     "title": "Derfor passer diktene til Frank O’Hara perfekt for unge lesere",
-     "url": "https://lithub.com/lit-hub-daily-october-13-2026/",
-     "source": "Literary Hub",
-     "summary": "Lærere og litteraturformidlere peker på at tilgjengelig og leken poesi er en flott inngangsport til leselyst for tweens.",
-     "published": "2026-10-13T10:31Z"
-    },
-    {
-     "title": "Forfatter Bonnie Garmus om kunsten å skrive om oppvekst og dikt",
-     "url": "https://lithub.com/bonnie-garmus-on-writing-a-coming-of-age-novel-of-poets-and-poetry/",
-     "source": "Literary Hub",
-     "summary": "Forfatteren bak store suksesser deler sine tanker om å skrive fengslende historier med sterke karakterer.",
-     "published": "2026-10-13T09:09Z"
     }
    ]
   },
@@ -308,25 +231,18 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Høyt nivå og danseglede da Nasjonalballetten inntok hovedscenen",
-     "url": "https://www.vl.no/kultur/pa-innsiden-av-ballettklassen/10579707",
-     "source": "Vårt Land",
-     "summary": "En variert ballettkveld spente fra gripende samlivsdramaer til ren virtuos danseglede for publikum.",
-     "published": "2026-10-13T07:40Z"
+     "title": "Anne Carson tildelt Nobelprisen i litteratur",
+     "url": "https://www.theparisreview.org/blog/2026/10/08/anne-carson-nobel-prize/",
+     "source": "The Paris Review",
+     "summary": "Den anerkjente forfatteren og poeten hedres med litteraturprisens høyeste utmerkelse.",
+     "published": "2026-10-08T19:18Z"
     },
     {
-     "title": "Unike skisser avslører hemmelighetene bak stumfilmklassikeren «Faust»",
+     "title": "Unike skisser avslører hemmelighetene bak stumfilmklassiker",
      "url": "https://www.theguardian.com/film/2026/oct/13/how-fw-murnau-made-faust-bible-silent-film",
      "source": "The Guardian (film)",
-     "summary": "Et nyrediskovert arkiv gir et unikt innblikk i arbeidet til en av filmhistoriens virkelige pionerer.",
+     "summary": "Gjenoppdagede samlinger og fotografier kaster nytt lys over innspillingen av en av filmhistoriens store mesterverk.",
      "published": "2026-10-13T10:25Z"
-    },
-    {
-     "title": "Historien om de legendariske historiske skipene",
-     "url": "https://www.openculture.com/2026/10/the-biggest-ship-in-history-was-built-in-china-600-years-ago-or-was-it.html",
-     "source": "Open Culture",
-     "summary": "Et blikk på fortidens maritime bragder og debatten rundt tidlig langdistanse-seilas.",
-     "published": "2026-10-12T09:01Z"
     }
    ]
   },
@@ -335,25 +251,25 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Nintendo bekrefter at de beholder fysiske spillkassetter",
+     "title": "Rykter tyder på tidligere PC-lansering for storspill",
+     "url": "https://www.gamer.no/artikler/grand-theft-auto-vi-kan-komme-til-pc-mye-tidligere-enn-forventet/521172",
+     "source": "Gamer.no",
+     "summary": "Nye opplysninger antyder at det etterlengtede spillet kan finne veien til PC allerede tidlig i 2027.",
+     "published": "2026-10-14T03:30Z"
+    },
+    {
+     "title": "Nintendo bekrefter at fysiske spill består",
      "url": "https://www.gamereactor.no/nintendo-bekrefter-vil-fortsette-med-fysiske-spill-switch-2/",
      "source": "Gamereactor",
-     "summary": "Selskapet opplyser at den kommende konsollgenerasjonen vil gi spillerne friheten til å velge mellom fysiske medier og digitale kjøp.",
+     "summary": "Selskapet opplyser at den kommende konsollen vil opprettholde støtten for både fysiske kassetter og digitale kjøp.",
      "published": "2026-10-13T20:24Z"
     },
     {
-     "title": "Spillmessen i Kristiansand vokser og samler hobbyentusiaster",
+     "title": "Spillmesse i Kristiansand rigger for tidenes største arrangement",
      "url": "https://spillhistorie.no/2026/10/12/spillmessen-i-kristiansand-blir-storre-enn-noensinne/",
      "source": "Spillhistorie.no",
-     "summary": "Helgens store mestere feirer spillkultur og brede dataspillinteresser med rekordmange deltakere.",
+     "summary": "Årets spillmesse er i gang med et bredere tilbud enn noensinne for spillentusiaster i helgen.",
      "published": "2026-10-12T10:54Z"
-    },
-    {
-     "title": "Ted Lasso-universet utvider seg til EA Sports FC 27",
-     "url": "https://www.gamer.no/artikler/ted-lasso-vender-tilbake-i-fc-27/521169",
-     "source": "Gamer.no",
-     "summary": "Spillere kan snart lede AFC Richmonds damelag til nye triumfer på den virtuelle fotballbanen.",
-     "published": "2026-10-13T12:37Z"
     }
    ]
   },
@@ -362,35 +278,35 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Norge imponerte med storspill før VM-innspurten",
+     "title": "Norge imponerte og er ett hinder unna VM",
      "url": "https://www.nrk.no/sport/norge-leker-med-romania-pa-ullevaal-_-ett-hinder-unna-vm-i-brasil-1.18053966",
      "source": "NRK",
-     "summary": "Foran et fullsatt stadion vartet landslaget opp med teknisk festfotball og begeistret ekspertene.",
+     "summary": "Med teknisk spill og strålende takter underholdt landslaget foran 9000 tilskuere på vei mot VM-plassen.",
      "published": "2026-10-13T16:55Z"
     },
     {
-     "title": "Formel 1-VM vender tilbake til Afrika med løp i Rwanda",
-     "url": "https://www.nrk.no/sport/formel-1_-afrika-vender-tilbake-til-vm-kalenderen-_-lop-i-rwanda-bekreftet-1.18053341",
+     "title": "16 utøvere klare for friidrettslandslaget",
+     "url": "https://www.nrk.no/sport/16-utovere-tatt-ut-pa-landslaget-1.18053359",
      "source": "NRK",
-     "summary": "Framtidige VM-runder er bekreftet for Rwanda, noe som markerer sportens comeback på det afrikanske kontinentet på mange tiår.",
-     "published": "2026-10-13T09:27Z"
+     "summary": "Norges Friidrettsforbund har presentert utøverne som skal representere landslaget kommende sesong, med Jakob Asserson Ingegrisen i spissen.",
+     "published": "2026-10-13T08:28Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 962,
-  "chosen": 41,
-  "notchosen": 186,
+  "total": 960,
+  "chosen": 29,
+  "notchosen": 202,
   "removed": {
-   "uro": 23,
-   "kjendis": 184,
-   "gammel": 353,
-   "format": 31,
-   "krim": 57,
+   "uro": 21,
+   "kjendis": 187,
+   "gammel": 352,
+   "format": 29,
+   "krim": 54,
    "sykdom": 40,
    "konflikt": 27,
-   "betalt": 20
+   "betalt": 19
   }
  },
  "today": {
@@ -921,29 +837,29 @@
   "power_tomorrow": {},
   "weather": {
    "oslo": {
-    "temp": 7,
+    "temp": 6,
     "min": 6,
     "max": 14,
     "symbol": "clearsky_day",
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 9,
+    "temp": 7,
     "min": 7,
     "max": 14,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 7,
+    "temp": 8,
     "min": 7,
     "max": 11,
     "symbol": "lightrainshowers_day",
-    "rain6": 1.8
+    "rain6": 1.5
    },
    "tromso": {
-    "temp": 6,
-    "min": 6,
+    "temp": 5,
+    "min": 5,
     "max": 9,
     "symbol": "cloudy",
     "rain6": 0.0
