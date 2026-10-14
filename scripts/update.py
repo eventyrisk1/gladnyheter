@@ -99,7 +99,7 @@ BLOCK = re.compile(
 CLICKBAIT = re.compile(
     r"(\(\d{1,3}\)|^–|^-|: –|: -|dette er|her er|sjekk|dette skjedde|du vil|du må|ikke tro|avslør|hemmelig|"
     r"utrolig|vanvittig|helt rå|alle snakker|reagerer|hylles|får kritikk|tar et oppgjør|går til angrep|"
-    r"ber om unnskyldning|bryter tausheten|åpner opp|forteller om|mener at|kommentar|debatt|leder:)",
+    r"ber om unnskyldning|bryter tausheten|åpner opp|forteller om|mener at|kommentar|debatt|leder:|lit hub daily)",
     re.I,
 )
 # Opinion/kommentar i URL
@@ -161,7 +161,7 @@ def fetch(url):
 
 
 def clean(s, n=None):
-    s = html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
+    s = html.unescape(html.unescape(re.sub(r"<[^>]+>", " ", s or "")))  # to ganger: noen feeder dobbeltkoder (&amp;nbsp;)
     s = re.sub(r"<[^>]*>?", " ", s)  # HTML som lå kodet i feeden (f.eks. &lt;img ...&gt;)
     s = re.sub(r"\s+", " ", s).strip()
     if n and len(s) > n:
@@ -478,6 +478,80 @@ def top_up(out, news, sport):
     print(f"Fylte opp {added} tomme plasser med regelvalgte saker")
 
 
+# ---------- Alle saker skal være på norsk ----------
+# Engelske kilder får norsk tekst av KI-en i utvalget, men saker som fylles opp med regler (top_up/pick_rules)
+# – eller som KI-en glemte å oversette – står fortsatt på engelsk. De oversettes her i én egen KI-runde.
+EN_WORDS = re.compile(r"\b(the|and|of|to|is|with|how|what|why|in|on|from|a|an|review|its|this|that|are|you|your|was|by|at|we|our|it|new|about|story)\b", re.I)
+NO_WORDS = re.compile(r"\b(og|er|som|til|med|på|en|et|ei|det|den|av|om|ikke|har|fra|blir|slik|nye?|sin|seg|i|å|for|var|gir|får|kan|skal|vil)\b", re.I)
+
+
+def looks_english(s):
+    t = s["title"] + " " + (s.get("summary") or "")
+    return len(EN_WORDS.findall(t)) > len(NO_WORDS.findall(t))
+
+
+TRANSLATE_PROMPT = """Du skriver for Gladnyheter.com, en norsk nyhetsforside. Disse sakene står på engelsk.
+Skriv en informativ tittel og en oppsummering på 1-2 setninger på naturlig norsk bokmål for hver sak.
+Oppsummeringen skal BARE bygge på teksten (ikke dikt opp fakta). Behold egennavn og titler på bøker, filmer og album.
+Svar KUN med JSON, f.eks.: {"0":{"title":"","summary":""},"1":{"title":"","summary":""}}
+
+%s
+"""
+
+
+def ask_ai(prompt):
+    """Send en prompt til Claude (hvis nøkkel finnes) eller Gemini og returner svarteksten."""
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if key:
+        try:
+            body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5"), "max_tokens": 4000,
+                               "messages": [{"role": "user", "content": prompt}]}).encode()
+            req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
+                "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+            with urllib.request.urlopen(req, timeout=120) as r:
+                return "".join(b.get("text", "") for b in json.load(r)["content"])
+        except Exception as e:
+            print(f"  Claude (oversetting) feilet: {e}", file=sys.stderr)
+    key = os.environ.get("GEMINI_API_KEY")
+    if key:
+        body = json.dumps({"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                           "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
+        for model in [m for m in [os.environ.get("GEMINI_MODEL")] + GEMINI_MODELS if m]:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+            req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json", "x-goog-api-key": key})
+            try:
+                with urllib.request.urlopen(req, timeout=90) as r:
+                    res = json.load(r)
+                return "".join(p.get("text", "") for p in res["candidates"][0]["content"]["parts"])
+            except Exception as e:
+                print(f"  Gemini {model} (oversetting) feilet: {e}", file=sys.stderr)
+    return None
+
+
+def translate_english(out):
+    todo = [s for v in out.values() for s in v if looks_english(s)]
+    if not todo:
+        return
+    lines = "\n".join(f"{i}. [{s['source']}] {s['title']} — {(s.get('summary') or '')[:300]}" for i, s in enumerate(todo))
+    try:
+        ans = json.loads(re.search(r"\{.*\}", ask_ai(TRANSLATE_PROMPT % lines) or "", re.S).group(0))
+        for i, s in enumerate(todo):
+            t = ans.get(str(i)) or {}
+            if clean(t.get("title")):
+                s["title"] = clean(t["title"])
+            if clean(t.get("summary")):
+                s["summary"] = clean(t["summary"])
+    except Exception as e:
+        print(f"Oversetting feilet: {e}", file=sys.stderr)
+    # Det som fortsatt er på engelsk, tas ut – heller en sak færre enn en engelsk sak på siden
+    removed = 0
+    for cid in out:
+        keep = [s for s in out[cid] if not looks_english(s)]
+        removed += len(out[cid]) - len(keep)
+        out[cid] = keep
+    print(f"Oversatte {len(todo) - removed} engelske saker til norsk" + (f", fjernet {removed} som ikke ble oversatt" if removed else ""))
+
+
 def count(out):
     return sum(len(v) for v in (out or {}).values())
 
@@ -606,6 +680,7 @@ def main():
         top_up(out, news, sport)
     if count(out) < 10:
         sys.exit("For få saker – beholder forrige utgave.")
+    translate_english(out)
     mark_paywall(out)
     data = {"updated": datetime.datetime.now(OSLO).strftime("%Y-%m-%dT%H:%M"),
             "categories": [{"id": cid, "name": name, "stories": out.get(cid, [])} for cid, name, _ in CATS]}
