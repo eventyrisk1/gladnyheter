@@ -1,30 +1,16 @@
 {
- "updated": "2026-10-14T13:38",
+ "updated": "2026-10-14T14:49",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Potetfestival gir elevene praktisk læring og mestring",
+     "title": "Her har de potetferie i skoletiden",
      "url": "https://www.utdanningsnytt.no/praktisk-undervisning-uteskole/har-potetferie-i-skoletiden/504105",
      "source": "Utdanningsnytt",
-     "summary": "Elevane ved ein skule får delta på potetferie med fysisk arbeid og konkurransar, noko som gir dei verdifull kunnskap dei ikkje finn i klasserommet.",
-     "published": "2026-10-14T10:58Z"
-    },
-    {
-     "title": "Normal trafikk etter fergehavari",
-     "url": "https://www.nrk.no/nordland/normal-trafikk-etter-ferge-havari-1.18054301",
-     "source": "NRK Nordland",
-     "summary": "Trafikken går igjen som normalt etter at det oppstod problemer med en ferge.",
-     "published": "2026-10-14T05:16Z"
-    },
-    {
-     "title": "Skolepris til Sjøvegan videregående",
-     "url": "https://www.nrk.no/tromsogfinnmark/skoleprisen-til-sjovegan-vgs-1.18054589",
-     "source": "NRK Troms og Finnmark",
-     "summary": "Sjøvegan videregående skole har blitt tildelt en gjev skolepris for sin innsats.",
-     "published": "2026-10-14T11:32Z"
+     "summary": "Potetfestivalen gir elevene fysisk arbeid, konkurranser og mestring, og tilfører kunnskap de ikke får i klasserommet.",
+     "published": "2026-10-14T11:01Z"
     }
    ]
   },
@@ -33,25 +19,11 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Mer vann i magasinene etter en sommer med lave nivåer",
-     "url": "https://www.tu.no/energi/mer-vann-i-magasinene-etter-en-sommer-med-lave-nivaer/7146517",
-     "source": "Teknisk Ukeblad",
-     "summary": "Fyllingsgraden i de norske vannmagasinene økte til 69 prosent i forrige uke etter en periode med lave nivåer.",
-     "published": "2026-10-14T11:06Z"
-    },
-    {
-     "title": "MG lanserer ny elbil til under 200.000 kroner",
-     "url": "https://www.vg.no/i/64yK8r/mg-lanserer-ny-elbil-til-under-200-000-kroner",
-     "source": "VG",
-     "summary": "Bilmerket MG kommer med en helt ny elbil som prissettes til under 200.000 kroner, i tillegg til at de oppgraderer den eksisterende MG4-modellen.",
-     "published": "2026-10-14T11:34Z"
-    },
-    {
-     "title": "Norsk IT-selskap sikrer millionkontrakt med 12 kommuner",
+     "title": "Liten norsk utfordrer vant stor kommunekontrakt",
      "url": "https://www.tu.no/it-bransjen/liten-utfordrer-danket-ut-dustin-atea-og-komplett/7143934",
      "source": "Teknisk Ukeblad",
-     "summary": "Et mindre norsk IT-selskap har vunnet anbudet om å levere datamaskiner og tilbehør til en verdi av 110 millioner kroner til 12 kommuner de neste fire årene.",
-     "published": "2026-10-14T03:00Z"
+     "summary": "Et norsk IT-selskap skal forsyne tolv kommuner med datamaskiner og tilbehør til en verdi av 110 millioner kroner de neste fire årene.",
+     "published": "2026-10-14T03:04Z"
     }
    ]
   },
@@ -60,25 +32,11 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Er dette en ny blå sone? Unikt mange hundreåringer på Sardinia",
+     "title": "Forskere har oppdaget mulig ny «blå sone» på Sardinia",
      "url": "https://www.forskning.no/aldring/er-dette-en-ny-bla-sone-i-denne-lille-landsbyen-er-det-nemlig-mange-hundrearinger/2721876",
      "source": "forskning.no",
-     "summary": "Forskere har oppdaget at innbyggerne i den lille landsbyen Bolotana på Sardinia lever lenger enn folk flest, noe som kan gjøre den til en ny såkalt blå sone.",
-     "published": "2026-10-13T22:02Z"
-    },
-    {
-     "title": "Frankrikes høyeste fjell har vokst nesten to meter",
-     "url": "https://www.nettavisen.no/nyheter/frankrikes-hoyeste-fjell-har-vokst-nesten-to-meter/s/80-95-159318",
-     "source": "Nettavisen",
-     "summary": "Nye målinger viser at Mont Blanc strekker seg enda høyere mot himmelen enn før.",
-     "published": "2026-10-14T11:08Z"
-    },
-    {
-     "title": "Eldgammel haikirkegård funnet i den egyptiske ørkenen",
-     "url": "https://www.forskning.no/arkeologi-egypt-havet/eldgammel-haikirkegard-funnet-i-den-egyptiske-orkenen/2721610",
-     "source": "forskning.no",
-     "summary": "Forskere har gjort et oppsiktsvekkende funn av en eldgammel haikirkegård i ørkenen i Egypt.",
-     "published": "2026-10-13T22:01Z"
+     "summary": "I den lille landsbyen Bolotana lever det uvanlig mange hundreåringer, noe som har fanget forskernes interesse.",
+     "published": "2026-10-13T22:05Z"
     }
    ]
   },
@@ -87,18 +45,11 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Epic utsetter spill og satser på kunstig intelligens",
-     "url": "https://www.pressfire.no/artikkel/epic-utsetter-marvel-og-star-wars-spill-satser-pa-ki",
-     "source": "Pressfire",
-     "summary": "Epic Games velger å utsette flere spillprosjekter for å satse tyngre på en arbeidsflyt basert på kunstig intelligens.",
-     "published": "2026-10-13T08:18Z"
-    },
-    {
-     "title": "NRK stenger døren for KI-skapte sanger i MGP",
-     "url": "https://www.aftenposten.no/kultur/i/n9mJvm/nrk-stenger-doeren-for-ki-skapte-sanger-i-mgp",
-     "source": "Aftenposten",
-     "summary": "I motsetning til i Sverige har NRK valgt å ikke tillate kunstig intelligens-skapte bidrag i sin uttakskonkurranse til Eurovision.",
-     "published": "2026-10-12T12:51Z"
+     "title": "Mental Helse undersøker om KI påvirker henvendelser",
+     "url": "https://www.nrk.no/tromsogfinnmark/mental-helse-mistenker-at-ki-gir-faerre-henvendelser-1.18051518",
+     "source": "NRK",
+     "summary": "Organisasjonen opplever færre henvendelser på chattetjenesten og mistenker at kunstig intelligens tar over for menneskelige samtaler.",
+     "published": "2026-10-14T03:35Z"
     }
    ]
   },
@@ -110,8 +61,8 @@
      "title": "Gode nyheter for sjelden kjempeskilpadde",
      "url": "https://www.forskning.no/dyreverden/gode-nyheter-om-denne-kjempeskilpadden/2721703",
      "source": "forskning.no",
-     "summary": "Kjempeskilpadden som en gang var nær ved å bli utryddet, teller nå om lag 180.000 individer takket være positive bestandsendringer.",
-     "published": "2026-10-13T22:01Z"
+     "summary": "Skilpadden, som tidligere var nær ved å bli utryddet, teller nå hele 180.000 individer.",
+     "published": "2026-10-13T22:05Z"
     }
    ]
   },
@@ -123,8 +74,8 @@
      "title": "Slik kan du håndtere sjalusi på en konstruktiv måte",
      "url": "https://psyche.co/guides/how-to-handle-jealous-feelings",
      "source": "Psyche",
-     "summary": "Sjalusi kan være en nyttig og innsiktsfull følelse dersom man utforsker den med nysgjerrighet og håndterer den på riktig vis.",
-     "published": "2026-10-14T10:00Z"
+     "summary": "Sjalusi kan være en nyttig og innsiktsfull følelse dersom du møter den med nysgjerrighet og håndterer den godt.",
+     "published": "2026-10-14T10:04Z"
     }
    ]
   },
@@ -133,11 +84,11 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Ny behandling gir raskere effekt ved spiseforstyrrelser",
+     "title": "Ny behandling for spiseforstyrrelser gir raskere effekt",
      "url": "https://www.forskning.no/hogskolen-i-ostfold-medisinske-metoder-partner/ny-behandling-av-spiseforstyrrelser-gir-raskere-effekt-enn-dagens-standardbehandling/2715806",
      "source": "forskning.no",
-     "summary": "Et nytt tilbud for behandling av spiseforstyrrelser kan tilbys der folk bor, og viser raskere effekt enn dagens standardmetoder.",
-     "published": "2026-10-12T22:05Z"
+     "summary": "Et nytt behandlingstilbud kan tilbys der folk bor, og hjelper en gruppe som tidligere har hatt få tilbud.",
+     "published": "2026-10-12T22:08Z"
     }
    ]
   },
@@ -146,18 +97,11 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Derfor er skrubbsår og risikolek bra for barnas mestringsfølelse",
+     "title": "Skrubbsår gir verdifull livsmestring gjennom lek",
      "url": "https://www.barnehage.no/skrubbsar-gir-livsmestring/278412",
      "source": "Barnehage.no",
-     "summary": "Eksperter peker på at risikolek og muligheten til å utfordre seg selv gir barn verdifull erfaring med livsmestring.",
-     "published": "2026-10-12T13:27Z"
-    },
-    {
-     "title": "Studie viser stor variasjon i barnehagebarns sosiale lek",
-     "url": "https://www.forskning.no/barn-barnehage-lek/disse-jentene-deltar-mest-i-sosial-lek-i-barnehagen/2716476",
-     "source": "forskning.no",
-     "summary": "En ny studie kaster lys over hvordan barn deltar i sosial lek i barnehagen, noe både foreldre og lærere kan ha nytte av å vite mer om.",
-     "published": "2026-10-13T22:04Z"
+     "summary": "Risikolek gir barn viktig mestringsfølelse som bidrar til god utvikling og livsmestring.",
+     "published": "2026-10-12T13:31Z"
     }
    ]
   },
@@ -166,17 +110,10 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Viktigheten av å opprettholde fellesverdier og fellesskap",
-     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20st%C3%B8tte%20til%20viktige%20fellesverdier/",
+     "title": "Hverdag og fellesskap i kirkene",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/den%20norske%20kirke%20glede%20og%20hverdag%20midt%20i%20landesorgen/",
      "source": "Den norske kirke",
-     "summary": "En stabil finansiering av trossamfunn trekkes fram som en viktig støtte for å bevare fellesverdier og gode fellesskap i samfunnet."
-    },
-    {
-     "title": "Slik gjør du hagearbeid eller uteliv til en mindfulness-praksis",
-     "url": "https://www.mindful.org/garden-meditation-a-simple-outdoor-practice-for-presence-and-awe/",
-     "source": "Mindful",
-     "summary": "Enkel tilstedeværelse utendørs, enten i en hage eller på en balkong, kan brukes som en fin metode for å finne indre ro.",
-     "published": "2026-10-13T23:03Z"
+     "summary": "Midt i hverdagen samles mennesker i kirkene til både sorg og feiring, dåp og gudstjenester."
     }
    ]
   },
@@ -185,11 +122,11 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Historisk fargeguide fra 1692 publisert i høyoppløsning",
-     "url": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
-     "source": "Open Culture",
-     "summary": "Et 900 sider langt verk om farger fra 1692 har blitt digitalisert og gjort tilgjengelig i full oppløsning for alle kunstinteresserte.",
-     "published": "2026-10-12T08:00Z"
+     "title": "Dokkhuset scene i Trondheim feirer 20 år",
+     "url": "https://jazzinorge.no/2026/10/14/dokkhuset-feirer-20-ar/",
+     "source": "Jazz i Norge",
+     "summary": "Med tjue musikere på scenen under ledelse av Eirik Hegdal markeres jubileet med brask og bram.",
+     "published": "2026-10-14T11:57Z"
     }
    ]
   },
@@ -198,18 +135,11 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Feirer 100-årsjubileum for bassisten Ray Brown",
-     "url": "https://www.npr.org/2026/10/13/nx-s1-6000428/ray-brown-100-jazz-night",
-     "source": "NPR Music",
-     "summary": "Basslegendene Christian McBride og John Clayton hedrer minnet om sin mentor Ray Brown med historier og musikk.",
-     "published": "2026-10-13T20:30Z"
-    },
-    {
-     "title": "Draco Rosa med intim konsertopplevelse",
-     "url": "https://www.npr.org/2026/10/13/g-s1-141845/draco-rosa-tiny-desk-concert",
-     "source": "NPR Music",
-     "summary": "Draco Rosa framfører akustiske og gitardrevne tolkninger av liv og kjærlighet i et stemningsfullt konsertformat.",
-     "published": "2026-10-13T11:00Z"
+     "title": "Stevie Wonder i gang med jubileumsturné",
+     "url": "https://www.theguardian.com/music/2026/oct/14/stevie-wonder-review-songs-in-the-key-of-life-50th-anniversary-live-utilita-arena-birmingham-uk-tour",
+     "source": "The Guardian (musikk)",
+     "summary": "Åpningskvelden på turneen som markerer 50-årsjubileet for klassiske album imponerte publikum stort.",
+     "published": "2026-10-14T11:39Z"
     }
    ]
   },
@@ -218,18 +148,11 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Slik bidro avisene til å demokratisere kunnskapen",
-     "url": "https://lithub.com/lit-hub-daily-october-14-2026/",
-     "source": "Literary Hub",
-     "summary": "Historisk sett har tilgangen til aviser spilt en avgjørende rolle i å gjøre lesning og kunnskap tilgjengelig for flere enn bare de rikeste.",
-     "published": "2026-10-14T10:31Z"
-    },
-    {
-     "title": "Hermann Hesse om hvorfor vi leser bøker",
-     "url": "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/",
-     "source": "The Marginalian",
-     "summary": "Forfatteren minner oss på hvordan god litteratur lar oss forstå andre mennesker og samtidig føre oss tilbake til oss selv.",
-     "published": "2026-10-13T03:26Z"
+     "title": "Anne Carson tildelt Nobelprisen i litteratur",
+     "url": "https://www.theparisreview.org/blog/2026/10/08/anne-carson-nobel-prize/",
+     "source": "The Paris Review",
+     "summary": "Forfatterskapet hylles, og i forbindelse med prisen har forlaget åpnet hele arkivet med hennes verker.",
+     "published": "2026-10-08T19:22Z"
     }
    ]
   },
@@ -238,18 +161,11 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Elskede forhistoriske figurer får ny filmfortelling",
-     "url": "https://www.theguardian.com/film/2026/oct/14/kiri-and-lou-go-raaa-review-delightful-origin-story-for-cbeebies-prehistoric-pals",
-     "source": "The Guardian (film)",
-     "summary": "De forhistoriske vennene er tilbake i et nytt eventyr fylt med drømmende musikk og nydelig stop-motion-animasjon.",
-     "published": "2026-10-14T06:01Z"
-    },
-    {
-     "title": "«Girls» gjør comeback med originale skuespillere",
-     "url": "https://www.vg.no/rampelys/i/zlVWW5/girls-serien-kommer-tilbake",
-     "source": "VG",
-     "summary": "Lena Dunham samler den opprinnelige gjengen for å lage fem helt nye episoder av den populære serien.",
-     "published": "2026-10-14T11:19Z"
+     "title": "Derfor holder klassiske Hollywood-filmer seg så godt visuelt",
+     "url": "https://www.openculture.com/2026/10/why-cleopatra-lawrence-of-arabia-ben-hur-other-hollywood-classics-still-look-so-good.html",
+     "source": "Open Culture",
+     "summary": "En titt på historien bak storfilmer som Cleopatra viser hvordan grundig håndverk og budsjetter har skapt tidløse verk.",
+     "published": "2026-10-14T09:04Z"
     }
    ]
   },
@@ -258,25 +174,11 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Lover å bevare den klassiske følelsen i ny spillutvidelse",
+     "title": "Blizzard vil bevare den klassiske følelsen i WoW",
      "url": "https://www.gamer.no/artikler/lover-a-ikke-modernisere-klassene-i-wow-forever-for-mye/521173",
      "source": "Gamer.no",
-     "summary": "Utviklerne vil utvide noen av de enklere delene av spillet, men har som mål å ta vare på den opprinnelige og klassiske stemningen.",
-     "published": "2026-10-14T09:06Z"
-    },
-    {
-     "title": "«No Man's Sky» lanseres som mobilversjon",
-     "url": "https://www.pressfire.no/artikkel/no-mans-sky-krympes",
-     "source": "Pressfire",
-     "summary": "Det populære utforskingsspillet kommer til både telefoner og nettbrett denne måneden, komplett med alle oppdateringer fra de siste årene.",
-     "published": "2026-10-13T08:27Z"
-    },
-    {
-     "title": "Nintendo bekrefter at de fortsetter med fysiske spill",
-     "url": "https://www.gamereactor.no/nintendo-bekrefter-vil-fortsette-med-fysiske-spill-switch-2/",
-     "source": "Gamereactor",
-     "summary": "Selskapet slår fast at deres neste konsoll vil støtte både fysiske spillkassetter og digitale kjøp.",
-     "published": "2026-10-13T20:25Z"
+     "summary": "Utviklerne vil utvide enkle klasser, men legger vekt på å beholde den opprinnelige og nostalgiske opplevelsen.",
+     "published": "2026-10-14T09:09Z"
     }
    ]
   },
@@ -285,42 +187,28 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Zlatko Tripic nektar å gi opp landslagshåpet",
-     "url": "https://www.vg.no/sport/i/ElmRRA/zlatko-tripic-tviholder-paa-landslagsdroemmen-det-er-det-jeg-virkelig-har-lyst-til-aa-oppleve",
-     "source": "VG",
-     "summary": "Etter å ha levert to målgivende pasninger mot Bayern München, rettferdiggjør 34-åringen at han framleis drøymer om sin første A-landskamp for Norge.",
-     "published": "2026-10-14T11:32Z"
-    },
-    {
-     "title": "Norge imponerte med sambatakter ett hinder unna VM",
+     "title": "Norge ett hinder unna VM etter sterk prestasjon",
      "url": "https://www.nrk.no/sport/norge-leker-med-romania-pa-ullevaal-_-ett-hinder-unna-vm-i-brasil-1.18053966",
      "source": "NRK",
-     "summary": "Foran 9000 tilskuere vartet landslaget opp med festfotball og spennende manøvrer som høstet lovord fra ekspertene.",
-     "published": "2026-10-13T16:55Z"
-    },
-    {
-     "title": "Formel 1 vender tilbake til Afrika med løp i Rwanda",
-     "url": "https://www.nrk.no/sport/formel-1_-afrika-vender-tilbake-til-vm-kalenderen-_-lop-i-rwanda-bekreftet-1.18053341",
-     "source": "NRK",
-     "summary": "Det er bekreftet at Rwanda skal arrangere framtidige VM-runder i Formel 1, nokså nøyaktig det første løpet på det afrika-kontinentet på flere tiår.",
-     "published": "2026-10-13T09:27Z"
+     "summary": "Foran 9000 tilskuere vartet landslaget opp med strålende spill og imponerte fotballekspertene.",
+     "published": "2026-10-13T16:59Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 972,
-  "chosen": 31,
-  "notchosen": 205,
+  "total": 956,
+  "chosen": 15,
+  "notchosen": 214,
   "removed": {
    "uro": 28,
-   "kjendis": 183,
-   "format": 31,
-   "gammel": 352,
+   "kjendis": 177,
+   "format": 30,
+   "gammel": 348,
    "krim": 55,
-   "sykdom": 37,
-   "konflikt": 29,
-   "betalt": 21
+   "sykdom": 36,
+   "konflikt": 31,
+   "betalt": 22
   }
  },
  "today": {
@@ -848,45 +736,536 @@
     ]
    ]
   },
-  "power_tomorrow": {},
+  "power_tomorrow": {
+   "NO1": [
+    [
+     "00:00",
+     190.8
+    ],
+    [
+     "01:00",
+     187.5
+    ],
+    [
+     "02:00",
+     187.4
+    ],
+    [
+     "03:00",
+     187.7
+    ],
+    [
+     "04:00",
+     183.1
+    ],
+    [
+     "05:00",
+     183.6
+    ],
+    [
+     "06:00",
+     194.3
+    ],
+    [
+     "07:00",
+     204.8
+    ],
+    [
+     "08:00",
+     207.4
+    ],
+    [
+     "09:00",
+     210.0
+    ],
+    [
+     "10:00",
+     205.7
+    ],
+    [
+     "11:00",
+     189.3
+    ],
+    [
+     "12:00",
+     153.2
+    ],
+    [
+     "13:00",
+     133.3
+    ],
+    [
+     "14:00",
+     141.1
+    ],
+    [
+     "15:00",
+     166.3
+    ],
+    [
+     "16:00",
+     196.4
+    ],
+    [
+     "17:00",
+     203.3
+    ],
+    [
+     "18:00",
+     203.4
+    ],
+    [
+     "19:00",
+     203.9
+    ],
+    [
+     "20:00",
+     203.4
+    ],
+    [
+     "21:00",
+     202.2
+    ],
+    [
+     "22:00",
+     200.9
+    ],
+    [
+     "23:00",
+     200.2
+    ]
+   ],
+   "NO2": [
+    [
+     "00:00",
+     196.3
+    ],
+    [
+     "01:00",
+     191.5
+    ],
+    [
+     "02:00",
+     193.3
+    ],
+    [
+     "03:00",
+     194.7
+    ],
+    [
+     "04:00",
+     186.2
+    ],
+    [
+     "05:00",
+     186.5
+    ],
+    [
+     "06:00",
+     202.2
+    ],
+    [
+     "07:00",
+     221.8
+    ],
+    [
+     "08:00",
+     222.6
+    ],
+    [
+     "09:00",
+     220.6
+    ],
+    [
+     "10:00",
+     214.1
+    ],
+    [
+     "11:00",
+     193.3
+    ],
+    [
+     "12:00",
+     154.5
+    ],
+    [
+     "13:00",
+     133.0
+    ],
+    [
+     "14:00",
+     141.8
+    ],
+    [
+     "15:00",
+     169.6
+    ],
+    [
+     "16:00",
+     206.7
+    ],
+    [
+     "17:00",
+     221.8
+    ],
+    [
+     "18:00",
+     221.8
+    ],
+    [
+     "19:00",
+     222.4
+    ],
+    [
+     "20:00",
+     222.4
+    ],
+    [
+     "21:00",
+     221.8
+    ],
+    [
+     "22:00",
+     218.3
+    ],
+    [
+     "23:00",
+     219.3
+    ]
+   ],
+   "NO3": [
+    [
+     "00:00",
+     133.7
+    ],
+    [
+     "01:00",
+     130.3
+    ],
+    [
+     "02:00",
+     129.9
+    ],
+    [
+     "03:00",
+     129.9
+    ],
+    [
+     "04:00",
+     129.8
+    ],
+    [
+     "05:00",
+     130.3
+    ],
+    [
+     "06:00",
+     108.6
+    ],
+    [
+     "07:00",
+     111.7
+    ],
+    [
+     "08:00",
+     122.0
+    ],
+    [
+     "09:00",
+     125.6
+    ],
+    [
+     "10:00",
+     130.1
+    ],
+    [
+     "11:00",
+     137.1
+    ],
+    [
+     "12:00",
+     130.3
+    ],
+    [
+     "13:00",
+     130.4
+    ],
+    [
+     "14:00",
+     128.6
+    ],
+    [
+     "15:00",
+     127.1
+    ],
+    [
+     "16:00",
+     140.4
+    ],
+    [
+     "17:00",
+     147.2
+    ],
+    [
+     "18:00",
+     147.3
+    ],
+    [
+     "19:00",
+     147.1
+    ],
+    [
+     "20:00",
+     144.1
+    ],
+    [
+     "21:00",
+     134.6
+    ],
+    [
+     "22:00",
+     127.8
+    ],
+    [
+     "23:00",
+     122.7
+    ]
+   ],
+   "NO4": [
+    [
+     "00:00",
+     22.6
+    ],
+    [
+     "01:00",
+     22.5
+    ],
+    [
+     "02:00",
+     22.6
+    ],
+    [
+     "03:00",
+     22.9
+    ],
+    [
+     "04:00",
+     22.9
+    ],
+    [
+     "05:00",
+     22.9
+    ],
+    [
+     "06:00",
+     22.6
+    ],
+    [
+     "07:00",
+     22.7
+    ],
+    [
+     "08:00",
+     22.7
+    ],
+    [
+     "09:00",
+     22.8
+    ],
+    [
+     "10:00",
+     22.6
+    ],
+    [
+     "11:00",
+     22.6
+    ],
+    [
+     "12:00",
+     22.4
+    ],
+    [
+     "13:00",
+     22.5
+    ],
+    [
+     "14:00",
+     22.4
+    ],
+    [
+     "15:00",
+     22.5
+    ],
+    [
+     "16:00",
+     22.7
+    ],
+    [
+     "17:00",
+     23.1
+    ],
+    [
+     "18:00",
+     22.8
+    ],
+    [
+     "19:00",
+     26.1
+    ],
+    [
+     "20:00",
+     26.1
+    ],
+    [
+     "21:00",
+     24.7
+    ],
+    [
+     "22:00",
+     22.0
+    ],
+    [
+     "23:00",
+     18.3
+    ]
+   ],
+   "NO5": [
+    [
+     "00:00",
+     183.8
+    ],
+    [
+     "01:00",
+     183.0
+    ],
+    [
+     "02:00",
+     182.6
+    ],
+    [
+     "03:00",
+     182.4
+    ],
+    [
+     "04:00",
+     181.8
+    ],
+    [
+     "05:00",
+     182.2
+    ],
+    [
+     "06:00",
+     187.5
+    ],
+    [
+     "07:00",
+     189.9
+    ],
+    [
+     "08:00",
+     194.0
+    ],
+    [
+     "09:00",
+     205.4
+    ],
+    [
+     "10:00",
+     199.7
+    ],
+    [
+     "11:00",
+     187.9
+    ],
+    [
+     "12:00",
+     153.6
+    ],
+    [
+     "13:00",
+     134.3
+    ],
+    [
+     "14:00",
+     142.2
+    ],
+    [
+     "15:00",
+     166.7
+    ],
+    [
+     "16:00",
+     190.1
+    ],
+    [
+     "17:00",
+     186.7
+    ],
+    [
+     "18:00",
+     186.7
+    ],
+    [
+     "19:00",
+     187.0
+    ],
+    [
+     "20:00",
+     186.7
+    ],
+    [
+     "21:00",
+     186.7
+    ],
+    [
+     "22:00",
+     186.4
+    ],
+    [
+     "23:00",
+     184.7
+    ]
+   ]
+  },
   "weather": {
    "oslo": {
-    "temp": 10,
+    "temp": 12,
     "min": 8,
     "max": 13,
-    "symbol": "fair_day",
+    "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 12,
-    "min": 10,
+    "temp": 13,
+    "min": 9,
     "max": 13,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 9,
-    "min": 8,
-    "max": 11,
+    "temp": 11,
+    "min": 9,
+    "max": 12,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "tromso": {
     "temp": 8,
-    "min": 7,
+    "min": 8,
     "max": 9,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "bergen": {
-    "temp": 13,
+    "temp": 12,
     "min": 12,
     "max": 13,
     "symbol": "lightrain",
     "rain6": 0.0
    },
    "stavanger": {
-    "temp": 12,
+    "temp": 13,
     "min": 12,
     "max": 13,
     "symbol": "partlycloudy_day",
