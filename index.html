@@ -193,6 +193,14 @@ footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-fa
 footer p{margin:0 0 6px;max-width:70ch}
 footer a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 footer .beta{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+footer .stott{margin:0 0 18px;padding:16px 18px;background:var(--sun-soft);border:1px solid var(--line);border-left:5px solid var(--sun);border-radius:12px;color:var(--fg);max-width:none}
+footer .stott h2{font-family:var(--display);font-size:18px;margin:0 0 4px;color:var(--fg)}
+footer .stott p{margin:0 0 10px;color:var(--fg)}
+footer .stott ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 22px}
+footer .stott li{border:0;margin:0;padding:0;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+footer .stott .num{font-size:15px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--fg)}
+footer .stott button{font:inherit;font-size:12px;padding:2px 9px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+footer .stott button:hover{border-color:var(--sun)}
 footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:1px 7px;border-radius:999px;border:1px solid currentColor;margin-right:4px}
 @media (min-width:1100px){
 .wrap{max-width:1500px;padding-left:32px;padding-right:32px}
@@ -293,12 +301,24 @@ section.cat li{position:relative}
   </section>
 
   <footer>
+    <div class="stott" id="stott">
+      <h2>☀️ Støtt Gladnyheter</h2>
+      <p>Gladnyheter er gratis og uten reklame. Vil du bidra til drift og videreutvikling, setter vi stor pris på et lite bidrag.</p>
+      <ul>
+        <li>Vipps: <span class="num">#504073</span> <button type="button" data-copy="504073">Kopier</button></li>
+        <li>Kontonr: <span class="num">9490.06.03376</span> (Eventyrhuset) <button type="button" data-copy="94900603376">Kopier</button></li>
+      </ul>
+    </div>
     <p><b>Slik velges sakene:</b> Sakene velges automatisk hver time av kunstig intelligens (Google Gemini) fra norske nyhetskilder. Ingen kan betale for å komme med. <a href="/om">Les mer om hvordan det fungerer →</a></p>
     <p>Gladnyheter lager ingen egne artikler. Hver sak lenker til kilden.</p>
     <p class="beta"><span class="badge">Beta</span> Gladnyheter er en betaversjon utviklet av teamet bak <a href="https://eventyrhuset.no">Eventyrhuset.no</a>. Tips, ønsker eller feil? Send e-post til <a href="mailto:post@eventyrisk.no">post@eventyrisk.no</a> eller <a href="https://eventyrhuset.no">chat med oss på Eventyrhuset.no</a> (chatteboblen nede i hjørnet).</p>
   </footer>
 </div>
 
+<script>
+document.querySelectorAll('#stott [data-copy]').forEach(function(b){b.addEventListener('click',function(){var t=b.getAttribute('data-copy');function ok(){b.textContent='Kopiert ✓';setTimeout(function(){b.textContent='Kopier';},1800);}
+ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,function(){});}else{var i=document.createElement('textarea');i.value=t;document.body.appendChild(i);i.select();try{document.execCommand('copy');ok();}catch(e){}i.remove();}});});
+</script>
 <script>
 var ICON={samfunn:"🏛️",okonomi:"📈",vitenskap:"🔬",ki:"🤖",natur:"🌿",psykologi:"🧠",helse:"🏃",oppvekst:"🧸",tro:"🕊️",aand:"🧘",kunst:"🎨",musikk:"🎵",litteratur:"📚",kultur:"🎭",spill:"🎲",sport:"⚽"};
 var PAL={aand:[318,"#efe4ee","#5e3b57","#a26f97"],samfunn:[210,"#dce8f6","#1d4f7f","#3b82c4"],okonomi:[135,"#d6efd8","#1d6130","#34a052"],vitenskap:[168,"#d2efe6","#145e4b","#22a083"],ki:[236,"#dfe0fa","#33358f","#5b5fd6"],natur:[80,"#e7f2c6","#4b6512","#8ab526"],psykologi:[338,"#fbdbe7","#8c2350","#e05b8f"],helse:[112,"#dcf3d2","#2f5e1c","#5cae3a"],oppvekst:[26,"#fde2cc","#8a4510","#ee8a3a"],tro:[48,"#f8eebe","#6b560a","#d4ac16"],kunst:[305,"#f5d8f1","#7a2370","#c94bb8"],musikk:[8,"#fdd8d2","#93291b","#e2553f"],litteratur:[30,"#ece2d6","#5f4128","#9c7350"],kultur:[268,"#e8dcf8","#55308f","#8a5cd1"],spill:[192,"#cdf1f8","#0a5869","#13a9c4"],sport:[215,"#e3e8ee","#33465b","#687e96"]};
