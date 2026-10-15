@@ -373,7 +373,6 @@ function render(data){
     sec.appendChild(ol);grid.appendChild(sec);
   });
   renderLead(cats);
-  if(carousel()){var tp=document.querySelector('.top'),dn=document.getElementById('gn-done');if(tp&&dn&&tp.nextElementSibling!==dn.nextElementSibling)dn.parentNode.insertBefore(tp,dn.nextSibling);}
   renderToday(data.today);renderStats(data.stats);markNew(data);buildPicker(cats);watchSwipe();watchSeen();
 }
 function carousel(){return window.matchMedia&&matchMedia('(max-width:819px)').matches;}
