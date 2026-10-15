@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Gladnyheter</title>
-<meta name="description" content="Gladnyheter samler de beste nyhetene fra norske medier – topp 3 i hver kategori, uten skremselsnyheter, klikkagn, kjendistull og reklame. Oppdateres hver time.">
+<meta name="description" content="Gladnyheter samler gode nyheter fra norske medier – topp 3 i hver kategori, uten skremselsnyheter, klikkagn, kjendistull og reklame. Oppdateres hver time.">
 <meta property="og:title" content="Gladnyheter">
 <meta property="og:description" content="Topp 3 i hver kategori – uten skremselsnyheter, klikkagn, kjendistull og reklame.">
 <meta property="og:url" content="https://gladnyheter.com/">
@@ -212,7 +212,7 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
 }
 @media (min-width:1560px){.wrap{max-width:1820px}.grid{grid-template-columns:repeat(4,1fr)}}
 @media (max-width:480px){.meta{text-align:left}section.cat{padding:16px 16px 4px}}
-/* Dagens beste: 3 store saker øverst, hele kortet er klikkbart */
+/* Et lite utvalg: 3 store saker øverst, hele kortet er klikkbart */
 .lead{margin-top:18px}
 .leadh{font-family:var(--ui);font-size:13px;text-transform:uppercase;letter-spacing:.12em;margin:0 0 10px;color:var(--fjord);font-weight:700}
 .leadgrid{display:grid;gap:12px}
@@ -251,7 +251,7 @@ section.cat li{position:relative}
     <div class="meta"><b id="gn-date"></b><br><span id="gn-upd"></span><br><button type="button" class="themebtn" id="gn-theme" aria-label="Bytt mellom lys og mørk visning"></button></div>
   </header>
   <p class="promise">Ingen skremselsnyheter. Ingen klikkagn. Ingen influensere og kjendistull. Ingen reklame. <a class="how" href="/om">Hvordan velges sakene? →</a></p>
-  <section class="lead" id="gn-lead" hidden aria-label="Dagens beste"><h2 class="leadh">☀️ Dagens beste</h2><div class="leadgrid" id="gn-leadgrid"></div></section>
+  <section class="lead" id="gn-lead" hidden aria-label="Et lite utvalg"><h2 class="leadh">☀️ Et lite utvalg</h2><div class="leadgrid" id="gn-leadgrid"></div></section>
 
   <div class="top">
   <figure class="quote" id="gn-quote" hidden><a class="qimg" id="gn-qlink" target="_blank" rel="noopener" hidden><img id="gn-qimg" alt="" width="64" height="64" decoding="async"></a><div class="qtext"><blockquote id="gn-q"></blockquote><figcaption id="gn-qby"></figcaption></div></figure>
@@ -292,7 +292,7 @@ section.cat li{position:relative}
       <input type="email" name="EMAIL" required placeholder="Din e-postadresse" autocomplete="email" aria-label="E-postadresse">
       <input type="hidden" name="locale" value="nb"><input type="hidden" name="email_address_check" value=""><input type="hidden" name="html_type" value="simple">
       <input type="hidden" name="KATEGORIER" id="gn-nl-cats" value="">
-      <fieldset class="nlcats" id="gn-nl-pick" hidden><legend>Velg opptil 5 kategorier – du får dagens beste sak fra hver</legend><div id="gn-nl-chips"></div></fieldset>
+      <fieldset class="nlcats" id="gn-nl-pick" hidden><legend>Velg opptil 5 kategorier – du får en god sak fra hver</legend><div id="gn-nl-chips"></div></fieldset>
       <button type="submit">Meld meg på</button>
     </form>
     <p class="ok" id="gn-nl-ok" hidden>Takk! Første utgave kommer i innboksen din kl. 07.</p>
@@ -465,13 +465,13 @@ function renderStats(st){
   var rm=st.removed||{};var heavy=['krim','konflikt','sykdom','kjendis','uro'].reduce(function(a,k){return a+(rm[k]||0);},0);
   if(heavy){var hero=el('div','fhero');var big=el('span','big',String(heavy));hero.appendChild(big);var tx=el('span','txt');tx.appendChild(el('span','em','dystre eller tomme overskrifter'));tx.appendChild(document.createTextNode(' slapp du å se 🌿'));hero.appendChild(tx);box.appendChild(hero);
    if(!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)&&'IntersectionObserver' in window){big.textContent='0';var io=new IntersectionObserver(function(es){if(!es[0].isIntersecting)return;io.disconnect();var t0=performance.now();(function step(t){var k=Math.min(1,(t-t0)/1200);big.textContent=String(Math.round(heavy*(1-Math.pow(1-k,3))));if(k<1)requestAnimationFrame(step);})(t0);});io.observe(hero);}}
-  var head=el('div','fsub');head.appendChild(document.createTextNode('Vi valgte de '));head.appendChild(el('strong',null,String(st.chosen)));head.appendChild(document.createTextNode(' beste av '+st.total+' saker ved siste oppdatering.'));box.appendChild(head);
+  var head=el('div','fsub');head.appendChild(document.createTextNode('Vi valgte ut '));head.appendChild(el('strong',null,String(st.chosen)));head.appendChild(document.createTextNode(' av '+st.total+' saker ved siste oppdatering.'));box.appendChild(head);
   var bar=el('div','fbar');bar.setAttribute('aria-hidden','true');var list=el('div','flist');
   function seg(n,c,label){if(!n)return;var i=el('i');i.style.width=(100*n/st.total)+'%';i.style.background=c;i.title=n+' '+label;bar.appendChild(i);var sp=el('span',null,n+' '+label);sp.style.setProperty('--c',c);list.appendChild(sp);}
   seg(st.chosen,'#3f9a6e','valgt');
   var keys=Object.keys(rm).filter(function(k){return L[k];}).sort(function(a,b){return rm[b]-rm[a];});
   keys.forEach(function(k){seg(rm[k],L[k][1],L[k][0]);});
-  seg(st.notchosen,'#c9d1cc','ikke blant de beste');
+  seg(st.notchosen,'#c9d1cc','ikke valgt');
   box.appendChild(bar);box.appendChild(list);
   var f=el('div','fsub');var a=el('a',null,'Slik fungerer filteret');a.href='/om';f.appendChild(a);box.appendChild(f);
   row.hidden=false;document.getElementById('today').hidden=false;}
