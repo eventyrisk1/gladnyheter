@@ -204,6 +204,36 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
 }
 @media (min-width:1560px){.wrap{max-width:1820px}.grid{grid-template-columns:repeat(4,1fr)}}
 @media (max-width:480px){.meta{text-align:left}section.cat{padding:16px 16px 4px}}
+/* Dagens beste: 3 store saker øverst, hele kortet er klikkbart */
+.lead{margin-top:18px}
+.leadh{font-family:var(--ui);font-size:13px;text-transform:uppercase;letter-spacing:.12em;margin:0 0 10px;color:var(--fjord);font-weight:700}
+.leadgrid{display:grid;gap:12px}
+.lcard{--lt:hsl(var(--h,150) 45% 90%);--lk:hsl(var(--h,150) 45% 30%);display:flex;flex-direction:column;text-decoration:none;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-top:5px solid var(--c,var(--line));border-radius:14px;overflow:hidden;min-width:0}
+.limg{aspect-ratio:16/9;background:var(--lt);display:grid;place-items:center;font-size:44px;overflow:hidden}
+.limg img{width:100%;height:100%;object-fit:cover;display:block}
+.lbody{padding:12px 16px 14px;display:flex;flex-direction:column;gap:6px;min-width:0;flex:1}
+.lcat{font-family:var(--ui);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--lk)}
+.lcard h3{font-family:var(--display);font-weight:700;font-size:1.3rem;line-height:1.22;margin:0;text-wrap:balance}
+.lcard p{margin:0;font-size:.95rem;color:var(--muted)}
+.lgo{font-family:var(--ui);font-size:13px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;padding-top:2px}
+.lgo b,.src .go{color:var(--fjord);font-weight:700;white-space:nowrap}
+.lcard:hover h3,.lcard:focus-visible h3{text-decoration:underline;text-decoration-color:var(--sun);text-decoration-thickness:2px}
+.lcard:focus-visible{outline:2px solid var(--sun);outline-offset:3px}
+@media (min-width:820px){.leadgrid{grid-template-columns:repeat(3,1fr)}.limg{aspect-ratio:2/1}}
+@media (max-width:819px){
+.lcard:not(:first-child){flex-direction:row}
+.lcard:not(:first-child) .limg{flex:0 0 104px;aspect-ratio:auto;min-height:104px;font-size:32px}
+.lcard:not(:first-child) h3{font-size:1.05rem}
+.lcard:not(:first-child) p{display:none}
+.lcard:not(:first-child) .lbody{padding:10px 12px}
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .lcard{--lt:hsl(var(--h,150) 26% 20%);--lk:hsl(var(--h,150) 62% 74%)}}
+:root[data-theme="dark"] .lcard{--lt:hsl(var(--h,150) 26% 20%);--lk:hsl(var(--h,150) 62% 74%)}
+/* Hele saken i kategoriene er klikkbar, og toppsaken får bilde */
+section.cat li{position:relative}
+.item h3 a::after{content:"";position:absolute;inset:0}
+.thumb{grid-column:1/-1;display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin:0 0 8px;background:var(--line)}
+.src .go{margin-left:6px}
 </style>
 </head>
 <body>
@@ -213,6 +243,8 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
     <div class="meta"><b id="gn-date"></b><br><span id="gn-upd"></span><br><button type="button" class="themebtn" id="gn-theme" aria-label="Bytt mellom lys og mørk visning"></button></div>
   </header>
   <p class="promise">Ingen skremselsnyheter. Ingen klikkagn. Ingen influensere og kjendistull. Ingen reklame. <a class="how" href="/om">Hvordan velges sakene? →</a></p>
+  <section class="lead" id="gn-lead" hidden aria-label="Dagens beste"><h2 class="leadh">☀️ Dagens beste</h2><div class="leadgrid" id="gn-leadgrid"></div></section>
+
   <div class="top">
   <figure class="quote" id="gn-quote" hidden><a class="qimg" id="gn-qlink" target="_blank" rel="noopener" hidden><img id="gn-qimg" alt="" width="64" height="64" decoding="async"></a><div class="qtext"><blockquote id="gn-q"></blockquote><figcaption id="gn-qby"></figcaption></div></figure>
 
@@ -271,7 +303,26 @@ footer .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing
 var ICON={samfunn:"🏛️",okonomi:"📈",vitenskap:"🔬",ki:"🤖",natur:"🌿",psykologi:"🧠",helse:"🏃",oppvekst:"🧸",tro:"🕊️",aand:"🧘",kunst:"🎨",musikk:"🎵",litteratur:"📚",kultur:"🎭",spill:"🎲",sport:"⚽"};
 var PAL={aand:[318,"#efe4ee","#5e3b57","#a26f97"],samfunn:[210,"#dce8f6","#1d4f7f","#3b82c4"],okonomi:[135,"#d6efd8","#1d6130","#34a052"],vitenskap:[168,"#d2efe6","#145e4b","#22a083"],ki:[236,"#dfe0fa","#33358f","#5b5fd6"],natur:[80,"#e7f2c6","#4b6512","#8ab526"],psykologi:[338,"#fbdbe7","#8c2350","#e05b8f"],helse:[112,"#dcf3d2","#2f5e1c","#5cae3a"],oppvekst:[26,"#fde2cc","#8a4510","#ee8a3a"],tro:[48,"#f8eebe","#6b560a","#d4ac16"],kunst:[305,"#f5d8f1","#7a2370","#c94bb8"],musikk:[8,"#fdd8d2","#93291b","#e2553f"],litteratur:[30,"#ece2d6","#5f4128","#9c7350"],kultur:[268,"#e8dcf8","#55308f","#8a5cd1"],spill:[192,"#cdf1f8","#0a5869","#13a9c4"],sport:[215,"#e3e8ee","#33465b","#687e96"]};
 function paint(e,id){var p=PAL[id]||[150,"#e2f2ea","#24553e","#4a9a73"];e.style.setProperty('--h',p[0]);e.style.setProperty('--bgL',p[1]);e.style.setProperty('--inkL',p[2]);e.style.setProperty('--c',p[3]);}
-function gnTrack(a,c,s){function f(){try{if(window.goatcounter&&goatcounter.count)goatcounter.count({path:'klikk/'+c.id+'/'+s.title.slice(0,80),title:s.source+' – '+s.title,event:true});}catch(e){}}a.addEventListener('click',f);a.addEventListener('auxclick',function(e){if(e.button===1)f();});}
+function gnCount(o){try{if(window.goatcounter&&goatcounter.count){goatcounter.count(o);return;}}catch(e){}
+ try{(new Image()).src='https://eventyrhuset.goatcounter.com/count?p='+encodeURIComponent(o.path)+'&t='+encodeURIComponent(o.title||'')+'&e=true&rnd='+Math.random().toString(36).slice(2);}catch(e){}}
+function gnTrack(a,c,s,pre){var done=0;function f(){if(done)return;done=1;setTimeout(function(){done=0;},800);gnCount({path:(pre||'klikk')+'/'+c.id+'/'+s.title.slice(0,80),title:s.source+' – '+s.title,event:true});}a.addEventListener('click',f);a.addEventListener('auxclick',function(e){if(e.button===1)f();});}
+function imgEl(src,cls){var i=document.createElement('img');i.src=src;i.alt='';i.loading='lazy';i.decoding='async';i.referrerPolicy='no-referrer';if(cls)i.className=cls;i.onerror=function(){if(i.parentNode&&i.parentNode.className==='limg'){i.parentNode.removeChild(i);}else i.remove();};return i;}
+function renderLead(cats){
+  var box=document.getElementById('gn-lead'),g=document.getElementById('gn-leadgrid');if(!box||!g)return;g.textContent='';
+  var hidden=store('gn-hidden')||[];var cand=[];
+  cats.forEach(function(c,ci){if(c.id==='sport'||hidden.indexOf(c.id)>=0||!c.stories||!c.stories.length)return;var s=c.stories[0];if(s.paid)return;cand.push({c:c,s:s,k:(s.img?0:100)+ci});});
+  cand.sort(function(a,b){return a.k-b.k;});cand=cand.slice(0,3);if(!cand.length)return;
+  cand.forEach(function(x){var c=x.c,s=x.s;
+    var a=el('a','lcard');a.href=s.url;a.target='_blank';a.rel='noopener';paint(a,c.id);gnTrack(a,c,s,'topp');
+    var im=el('div','limg');im.textContent=ICON[c.id]||'☀️';if(s.img){im.textContent='';im.appendChild(imgEl(s.img));}a.appendChild(im);
+    var b=el('div','lbody');b.appendChild(el('span','lcat',(ICON[c.id]?ICON[c.id]+' ':'')+c.name));b.appendChild(el('h3',null,s.title));
+    if(s.summary)b.appendChild(el('p',null,s.summary));
+    var go=el('span','lgo');go.appendChild(el('span',null,s.source+when(s.published)));go.appendChild(el('b',null,'Les saken →'));b.appendChild(go);
+    a.appendChild(b);g.appendChild(a);});
+  box.hidden=false;
+}
+function watchSeen(){if(window.gnSeenOn||!('IntersectionObserver' in window))return;window.gnSeenOn=1;var grid=document.getElementById('grid');
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){gnCount({path:'scroll/kategorier',title:'Scrollet ned til kategoriene',event:true});io.disconnect();}});},{threshold:.2});io.observe(grid);}
 function when(iso){if(!iso)return '';var d=new Date(iso.replace('Z',':00Z'));if(isNaN(d))return '';var now=new Date(),t0=new Date(now.getFullYear(),now.getMonth(),now.getDate());
  var diff=Math.round((t0-new Date(d.getFullYear(),d.getMonth(),d.getDate()))/864e5);if(diff<=0)return '';if(diff===1)return ' · i går';
  if(diff<7)return ' · '+['søndag','mandag','tirsdag','onsdag','torsdag','fredag','lørdag'][d.getDay()];return ' · '+d.getDate()+'. '+['jan','feb','mar','apr','mai','jun','jul','aug','sep','okt','nov','des'][d.getMonth()];}
@@ -295,14 +346,16 @@ function render(data){
     var h=el('h2');var ht=el('b','ht');if(ICON[c.id])ht.appendChild(el('i','ico',ICON[c.id]));ht.appendChild(document.createTextNode(c.name));h.appendChild(ht);h.appendChild(el('span',null,'Topp '+c.stories.length));sec.appendChild(h);
     var ol=el('ol');
     c.stories.forEach(function(s,i){
-      var li=el('li');li.appendChild(el('span','n',String(i+1)));
+      var li=el('li');if(i===0&&s.img)li.appendChild(imgEl(s.img,'thumb'));li.appendChild(el('span','n',String(i+1)));
       var it=el('div','item');var h3=el('h3');var a=el('a',null,s.title);a.href=s.url;a.target='_blank';a.rel='noopener';gnTrack(a,c,s);if(s.published&&!when(s.published)){var ageH=(Date.now()-Date.parse(s.published.replace('Z',':00Z')))/36e5;h3.appendChild(ageH<3?el('span','hot','🔥 Fersk'):el('span','fresh','I dag'));}h3.appendChild(a);it.appendChild(h3);
-      if(s.summary)it.appendChild(el('p',null,s.summary));it.appendChild(el('div','src',s.source+when(s.published)+(s.paid?' · 🔒 Krever abonnement':'')));
+      if(s.summary)it.appendChild(el('p',null,s.summary));var sr=el('div','src',s.source+when(s.published)+(s.paid?' · 🔒 Krever abonnement':''));sr.appendChild(el('span','go','Les →'));it.appendChild(sr);
       li.appendChild(it);ol.appendChild(li);
     });
     sec.appendChild(ol);grid.appendChild(sec);
   });
-  renderToday(data.today);renderStats(data.stats);markNew(data);buildPicker(cats);watchSwipe();
+  renderLead(cats);
+  if(carousel()){var tp=document.querySelector('.top'),dn=document.getElementById('gn-done');if(tp&&dn&&tp.nextElementSibling!==dn.nextElementSibling)dn.parentNode.insertBefore(tp,dn.nextSibling);}
+  renderToday(data.today);renderStats(data.stats);markNew(data);buildPicker(cats);watchSwipe();watchSeen();
 }
 function carousel(){return window.matchMedia&&matchMedia('(max-width:819px)').matches;}
 function watchSwipe(){
