@@ -110,6 +110,7 @@ li:not(:first-child) .item p{color:var(--muted)}
 .fsub strong{font-family:inherit;font-size:inherit;font-weight:700;color:var(--fg)}
 .fsub{font-size:13px;color:var(--muted)}
 .fsub a{color:inherit}
+.fnote{font-size:12px;margin-top:6px}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .fhero{background:#1d3127}:root:not([data-theme="light"]) .fhero .big{color:#6fd1a0}}
 :root[data-theme="dark"] .fhero{background:#1d3127}:root[data-theme="dark"] .fhero .big{color:#6fd1a0}
 .today .note{font-size:12px;color:var(--muted)}
@@ -470,8 +471,9 @@ function renderStats(st){
   seg(st.chosen,'#3f9a6e','valgt');
   var keys=Object.keys(rm).filter(function(k){return L[k];}).sort(function(a,b){return rm[b]-rm[a];});
   keys.forEach(function(k){seg(rm[k],L[k][1],L[k][0]);});
-  seg(st.notchosen,'#c9d1cc','ikke valgt');
+  seg(st.notchosen,'#c9d1cc','fikk ikke plass');
   box.appendChild(bar);box.appendChild(list);
+  if(st.notchosen){var nc=el('div','fsub fnote');nc.appendChild(el('strong',null,'Fikk ikke plass'));nc.appendChild(document.createTextNode(' = greie saker som kom gjennom filteret, men vi viser bare tre per kategori. Samme nyhet fra flere kilder tas også med bare én gang.'));box.appendChild(nc);}
   var f=el('div','fsub');var a=el('a',null,'Slik fungerer filteret');a.href='/om';f.appendChild(a);box.appendChild(f);
   row.hidden=false;document.getElementById('today').hidden=false;}
 function renderToday(t){
