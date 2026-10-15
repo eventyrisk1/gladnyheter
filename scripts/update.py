@@ -179,6 +179,53 @@ def tag(block, name):
     return re.sub(r"^\s*<!\[CDATA\[(.*?)\]\]>\s*$", r"\1", v, flags=re.S)
 
 
+def good_img(u):
+    u = html.unescape((u or "").strip())
+    if u.startswith("//"):
+        u = "https:" + u
+    if not u.startswith("http") or re.search(r"\.(svg|gif)(\?|$)|logo|placeholder|1x1|pixel|spacer", u, re.I):
+        return ""
+    return u.replace("http://", "https://", 1)
+
+
+def feed_image(block):
+    """Bilde fra RSS-saken (media:content, media:thumbnail, enclosure eller <img> i teksten)."""
+    for pat in (r'<media:content[^>]+url="([^"]+)"[^>]*>', r'<media:thumbnail[^>]+url="([^"]+)"',
+                r'<enclosure[^>]+url="([^"]+)"[^>]*type="image', r'<enclosure[^>]+type="image[^"]*"[^>]*url="([^"]+)"',
+                r'<img[^>]+src="([^"]+)"', r'&lt;img[^&]+src=&quot;([^&]+)&quot;'):
+        m = re.search(pat, block, re.I)
+        if m and "video" not in m.group(0).lower() and good_img(m.group(1)):
+            return good_img(m.group(1))
+    return ""
+
+
+def page_image(url):
+    """og:image / twitter:image fra artikkelsiden."""
+    try:
+        h = fetch(url)[:400000].decode("utf-8", "ignore")
+    except Exception as e:
+        print(f"Bildehenting feilet for {url}: {e}", file=sys.stderr)
+        return ""
+    for pat in (r'<meta[^>]+(?:property|name)=["\'](?:og:image(?::secure_url)?|twitter:image(?::src)?)["\'][^>]*content=["\']([^"\']+)',
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\'](?:og:image|twitter:image)'):
+        m = re.search(pat, h, re.I)
+        if m and good_img(m.group(1)):
+            return good_img(m.group(1))
+    return ""
+
+
+def add_images(out):
+    """Sørg for at så mange saker som mulig har et bilde – bilder gir flere klikk."""
+    from concurrent.futures import ThreadPoolExecutor
+    need = [s for stories in (out or {}).values() for s in stories if not s.get("img")]
+    with ThreadPoolExecutor(8) as ex:
+        for s, img in zip(need, ex.map(lambda s: page_image(s["url"]), need)):
+            if img:
+                s["img"] = img
+    total = sum(len(v) for v in (out or {}).values())
+    print(f"Bilder: {sum(1 for v in (out or {}).values() for s in v if s.get('img'))} av {total} saker har bilde")
+
+
 def parse(source, url, weight, limit=20):
     items = []
     try:
@@ -198,6 +245,7 @@ def parse(source, url, weight, limit=20):
             link = html.unescape(m.group(1)) if m else ""
         link = strip_utm(link)
         d = clean(tag(block, "description") or tag(block, "summary") or tag(block, "content"), 220)
+        img = feed_image(block)
         if not t or not link:
             continue
         age_h = None
@@ -210,7 +258,7 @@ def parse(source, url, weight, limit=20):
             except Exception:
                 pass
         items.append({"source": source, "title": t, "url": link, "desc": d,
-                      "weight": weight, "pos": pos, "age": age_h})
+                      "weight": weight, "pos": pos, "age": age_h, "img": img})
     return items
 
 
@@ -314,6 +362,8 @@ RULE_MAP = {"Samfunn": "samfunn", "Hverdag": "samfunn", "Økonomi": "okonomi", "
 def story(it, title=None, summary=None):
     d = {"title": clean(title) or it["title"], "url": it["url"], "source": it["source"],
          "summary": clean(summary) or it["desc"]}
+    if it.get("img"):
+        d["img"] = it["img"]
     if it.get("age") is not None:
         pub = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=it["age"])
         d["published"] = pub.strftime("%Y-%m-%dT%H:%MZ")
@@ -682,6 +732,10 @@ def main():
         sys.exit("For få saker – beholder forrige utgave.")
     translate_english(out)
     mark_paywall(out)
+    try:
+        add_images(out)
+    except Exception as e:
+        print(f"Bildehenting feilet: {e}", file=sys.stderr)
     data = {"updated": datetime.datetime.now(OSLO).strftime("%Y-%m-%dT%H:%M"),
             "categories": [{"id": cid, "name": name, "stories": out.get(cid, [])} for cid, name, _ in CATS]}
     chosen = sum(len(c["stories"]) for c in data["categories"])
