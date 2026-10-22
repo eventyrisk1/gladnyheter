@@ -1,33 +1,33 @@
 {
- "updated": "2026-10-22T22:36",
+ "updated": "2026-10-22T23:35",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Snart slutt på E18-kaoset i Porsgrunn",
-     "url": "https://www.nettavisen.no/okonomi/snart-slutt-pa-e18-kaoset-ved-porsgrunn-sa-hoy-blir-bomregningen/s/80-95-183993",
-     "source": "Nettavisen",
-     "summary": "E18 gjennom Porsgrunn har vært preget av kaos i flere år, men nå går det mot en bedre hverdag med ferdigstillelse og ny bomstasjon.",
-     "published": "2026-10-22T20:25Z",
-     "img": "https://g.acdn.no/obscura/API/dynamic/r1/cue/tr_2000_2000_s_f/1792688128000/nettav/2026/10/22/16/e18porsgrunn.jpg?chk=269F6A"
-    },
-    {
-     "title": "Fergesamband på E6 er tilbake i rute",
-     "url": "https://www.nrk.no/nordland/nyhetssenter-nordland-1.15898380#1.18061407.1.18061407",
-     "source": "NRK Nordland",
-     "summary": "Fergesambandet på E6 er igjen i ordinær drift og går som normalt etter en periode med endringer.",
-     "img": "https://gfx.nrk.no/WVa4p7gnbE3KpPE1viln6AHtRyqbH45aOZaGdVKUxVcw.jpg",
-     "published": "2026-10-22T04:56Z"
-    },
-    {
      "title": "Målet må være at alle barn lærer å svømme",
      "url": "https://www.utdanningsnytt.no/egil-galaaen-gjolme-svomming/malet-ma-vaere-at-alle-barn-laerer-a-svomme/505506",
      "source": "Utdanningsnytt",
-     "summary": "Debatten om svømmeundervisning bør fokusere på det mest sentrale: at alle barn blir trygge i vann og lærer å svømme.",
+     "summary": "Debatten om kjønnsdelt svømmeundervisning bør fokusere på det mest sentrale: at alle barn blir trygge i vann og lærer å svømme.",
      "img": "https://image.utdanningsnytt.no/505524.jpg?imageId=505524&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=1587&format=jpg",
      "published": "2026-10-22T09:30Z"
+    },
+    {
+     "title": "Gir grønt lys for vindkraftverk for første gang på ni år",
+     "url": "https://www.nrk.no/rogaland/nve-gir-gront-lys-for-vindkraftverk-pa-moldalsknuten-i-sokndal-i-dalane-1.18060436",
+     "source": "NRK Rogaland",
+     "summary": "Etter at kommunene fikk vetorett i 2023 har utbyggingsplanene stanset opp, men nå er det for første gang på ni år gitt grønt lys til et nytt vindkraftverk.",
+     "img": "https://gfx.nrk.no/CsR25CvZGb74p9UqVPh3AgeLP5WE6OT9FjONhHtSKeCg.jpg",
+     "published": "2026-10-21T14:05Z"
+    },
+    {
+     "title": "Posisjonen i Nordland krever jernbanesatsing i nord",
+     "url": "https://www.nrk.no/nordland/nyhetssenter-nordland-1.15898380#1.18061570.1.18061570",
+     "source": "NRK Nordland",
+     "summary": "Posisjonen i Nordland reiser krav om en styrket satsing på jernbane i den nordlige landsdelen.",
+     "img": "https://gfx.nrk.no/MZYbl37OzCtZwZ2ZfRbA4gj3HX06z8M7Jfa-vmlivORQ.jpg",
+     "published": "2026-10-22T09:15Z"
     }
    ]
   },
@@ -36,27 +36,27 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Kinesiske netthandelsgiganter selger for milliarder i Norge uten fysiske butikker",
+     "title": "Kinesiske netthandelsselskap selger for milliarder i Norge",
      "url": "https://www.tv2.no/a/19318874",
      "source": "TV 2",
-     "summary": "Flere utenlandske netthandelsselskaper omsatte for enorme summer i Norge til tross for at de verken har fysiske butikker eller ansatte her til lands.",
+     "summary": "De store kinesiske netthandelsaktørene omsetter for milliardbeløp her til lands, og ville ha vært blant de største butikkjedene i flere varekategorier dersom de hadde vært norske.",
      "published": "2026-10-22T19:20Z"
+    },
+    {
+     "title": "Staten kan spare milliarder på å bygge Hordfast",
+     "url": "https://www.tu.no/samferdsel/ny-analyse-staten-kan-spare-28-milliarder-pa-a-bygge-hordfast/7148999",
+     "source": "Teknisk Ukeblad",
+     "summary": "En ny finansieringsanalyse fra Deloitte viser at det vil være billigere for staten å bygge ut Hordfast enn å videreføre dagens ordning med ferjedrift.",
+     "img": "https://image.tu.no/7149008.webp?imageId=7149008&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=18.15&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=636&format=jpg",
+     "published": "2026-10-22T08:51Z"
     },
     {
      "title": "Airbnb innfører nye regler for utleiere",
      "url": "https://www.tv2.no/a/19349249",
      "source": "TV 2",
-     "summary": "Utleieplattformen setter nå klare grenser for hva verter kan kreve av gjestene sine i forbindelse med oppholdet.",
+     "summary": "Utleieplattformen setter nå faste grenser for hva vertskap kan kreve av gjestene sine i forbindelse med oppholdet.",
      "img": "https://www.cdn.tv2.no/images/?imageId=19349264&panoy=0&panox=0&panow=99.39&panoh=100&heightw=99.39&heighth=100&heighty=0&heightx=0&width=480",
      "published": "2026-10-22T07:35Z"
-    },
-    {
-     "title": "Bobilaktør kaster kortene i Tromsø",
-     "url": "https://e24.no/naeringsliv/i/b84n8q/bobilkonkurs-21-ansatte-rammes",
-     "source": "E24",
-     "summary": "En av landets største aktører innen bobilmarkedet har meldt oppbud, noe som rammer 21 ansatte.",
-     "img": "https://akamai.vgc.no/v2/images/23920269-0375-38f1-af5b-b7a8e7c53808?format=auto&w=1000&s=a038be8e03aa279a6b26df7956c875972027102e",
-     "published": "2026-10-22T18:58Z"
     }
    ]
   },
@@ -65,28 +65,28 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Norsk tunnelmetode vekker oppsikt internasjonalt",
+     "title": "Norsk tunnelmetode vekker internasjonal oppsikt",
      "url": "https://gemini.no/2026/10/norsk-tunnelmetode-sparer-miljo-og-milliarder/",
      "source": "Gemini",
-     "summary": "Norge har lang erfaring med tunnelbygging, og en spesiell norsk metode vekker nå oppmerksomhet verden over fordi den sparer både miljøet og store summer.",
+     "summary": "Norge har lang erfaring med tunnelbygging, og en særnorsk metode roses for å spare både store pengesummer og miljøet.",
      "img": "https://gemini.no/wp-content/uploads/2026/10/krishna-kanta-panthi-leirfossen-foto-per-anton-ditleif-jynge-ntnu-265x152.jpg",
      "published": "2026-10-20T02:01Z"
     },
     {
-     "title": "Derfor er Wikipedia et unikt fenomen i den moderne verden",
-     "url": "https://lithub.com/why-wikipedia-is-a-wonder-of-the-modern-world-that-well-never-see-the-likes-of-again/",
-     "source": "Literary Hub",
-     "summary": "En nærmere titt på Wikipedia viser hvorfor den digitale oppslagsboken skiller seg ut som et enestående samarbeidsprosjekt i vår tid.",
-     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/wikipedia-768x397.jpg",
-     "published": "2026-10-22T09:11Z"
-    },
-    {
-     "title": "Podcast-gjennomgang av middelalderens virkelighet",
+     "title": "Avliver myter om en møkkete middelalder",
      "url": "https://www.forskning.no/forskning-no-podcast-forskningspodden-podcast/forskningnos-podcast-var-middelalderen-virkelig-sa-mork-og-mokkete/2727095",
      "source": "forskning.no",
-     "summary": "Forskning.no tar for seg mytene om den angivelig så møkkete middelalderen og ser på faktiske forhold fra perioden.",
+     "summary": "I en fersk podcast diskuteres det om middelalderen virkelig var så mørk og skitten som mange skal ha det til.",
      "img": "https://image.forskning.no/2639577.webp?imageId=2639577&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
      "published": "2026-10-22T10:45Z"
+    },
+    {
+     "title": "Hvordan laksens utvikling påvirker elvene",
+     "url": "https://www.forskning.no/laks-natur-naturressursforvaltning/nar-laksen-blir-mindre-kan-elva-oppfore-seg-annleis/2719830",
+     "source": "forskning.no",
+     "summary": "Forskning viser at laksen utvikler seg evolusjonært som svar på menneskelig aktivitet, noe som kan ha mye å si for både naturmangfold og elveforvaltning.",
+     "img": "https://image.forskning.no/2719906.jpg?imageId=2719906&panox=0.00&panoy=10.97&panow=100.00&panoh=35.83&heightx=21.55&heighty=9.63&heightw=40.96&heighth=49.65&width=1058&height=582&format=webp&width=1058&height=402&format=webp&format=jpg",
+     "published": "2026-10-21T22:03Z"
     }
    ]
   },
@@ -95,28 +95,28 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Halvparten av unge er bekymret for KI-utviklingen",
+     "title": "Kraftig økning i unges bekymring for kunstig intelligens",
      "url": "https://www.aftenposten.no/kultur/i/lKj297/halvparten-av-unge-er-bekymret-for-ki-utviklingen",
      "source": "Aftenposten",
-     "summary": "Andelen unge som føler bekymring knyttet til den raske utviklingen innen kunstig intelligens, har økt merkbart.",
+     "summary": "Andelen unge som føler uro knyttet til den raske utviklingen innen kunstig intelligens, har steget markant den siste tiden.",
      "img": "https://akamai.vgc.no/v2/images/3254e0ac-9440-36b2-9170-3e662636f947?format=auto&w=1000&s=b58c027cbc32f951fd5b490a1c9609fb2a7300af",
-     "published": "2026-10-22T08:06Z"
+     "published": "2026-10-22T08:07Z"
     },
     {
-     "title": "Spotify har slettet 75 millioner KI-genererte låter",
-     "url": "https://www.aftenposten.no/kultur/i/zlyoyO/spotify-har-slettet-75-millioner-ki-genererte-laater",
-     "source": "Aftenposten",
-     "summary": "Strømmegiganten har fjernet et stort antall spor som er skapt ved hjelp av kunstig intelligens fra plattformen sin.",
-     "img": "https://akamai.vgc.no/v2/images/27b615aa-0cd7-3876-8c70-293860eea10c?format=auto&w=1000&s=bf09f750da08aa264024b1027e0d40576b0a0dab",
-     "published": "2026-10-21T12:37Z"
-    },
-    {
-     "title": "Refleksjoner rundt KI-genererte reklamer",
+     "title": "Reagerer på KI-genererte hudpleiereklamer",
      "url": "https://www.theparisreview.org/blog/2026/10/20/the-uncanny-catharsis-of-the-ai-emomercial/",
      "source": "The Paris Review",
-     "summary": "Et dypdykk i den nyeste trenden med kunstig intelligens i hudpleiereklamer og den kulturelle responsen på dette.",
+     "summary": "En ny bølge av kunstig intelligens-genererte reklamer for hudpleie har blitt et eget fenomen som vekker oppmerksomhet.",
      "img": "https://www.theparisreview.org/blog/wp-content/uploads/2026/10/unnamed-1-e1792438109955-913x1024.jpg",
      "published": "2026-10-20T15:35Z"
+    },
+    {
+     "title": "Spotify har fjernet millioner av KI-låter",
+     "url": "https://www.aftenposten.no/kultur/i/zlyoyO/spotify-har-slettet-75-millioner-ki-genererte-laater",
+     "source": "Aftenposten",
+     "summary": "Strømmetjenesten opplyser at de har slettet over 75 millioner musikkspor som er skapt ved hjelp av kunstig intelligens.",
+     "img": "https://akamai.vgc.no/v2/images/27b615aa-0cd7-3876-8c70-293860eea10c?format=auto&w=1000&s=bf09f750da08aa264024b1027e0d40576b0a0dab",
+     "published": "2026-10-21T12:37Z"
     }
    ]
   },
@@ -125,26 +125,26 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Viktig seier for fuglelivet: EU vil forby blyhagl",
+     "title": "Seier for fuglelivet: EU vil forby blyhagl",
      "url": "https://www.birdlife.no/naturforvaltning/nyheter/?id=4114",
      "source": "BirdLife Norge",
-     "summary": "Europaparlamentet har stemt for nye restriksjoner som forbyr blyhagl for å verne fugler og natur mot blyforurensning.",
+     "summary": "Europaparlamentet har stemt for nye restriksjoner for å verne fugler mot blyforurensning i naturen.",
      "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/10/20/12774/bly_kongeorn.jpg",
      "published": "2026-10-20T00:00Z"
     },
     {
-     "title": "Hvordan laksen tilpasser seg menneskelig aktivitet",
-     "url": "https://www.forskning.no/laks-natur-naturressursforvaltning/nar-laksen-blir-mindre-kan-elva-oppfore-seg-annleis/2719830",
+     "title": "Tradisjonsrik mat kan styrke beredskapen",
+     "url": "https://www.forskning.no/beredskap-landbruk-mat/rommegrot-reinsdyrhjerte-og-raspeball-hva-kan-tradisjonsrike-retter-laere-oss/2718946",
      "source": "forskning.no",
-     "summary": "Forskning viser at laksen utvikler seg evolusjonært som svar på menneskeskapt påvirkning, noe som kan ha mye å si for elveforvaltningen.",
-     "img": "https://image.forskning.no/2719906.jpg?imageId=2719906&panox=0.00&panoy=10.97&panow=100.00&panoh=35.83&heightx=21.55&heighty=9.63&heightw=40.96&heighth=49.65&width=1058&height=582&format=webp&width=1058&height=402&format=webp&format=jpg",
-     "published": "2026-10-21T22:03Z"
+     "summary": "Norske tradisjonsretter kan gi verdifull innsikt i hvordan vi kan spise mer bærekraftig og styrke matberedskapen i fremtiden.",
+     "img": "https://image.forskning.no/2718955.jpg?imageId=2718955&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=32.62&heighty=0.00&heightw=30.95&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=686&format=webp&format=jpg",
+     "published": "2026-10-21T22:04Z"
     },
     {
-     "title": "Slik kan du ta vare på flaggermusene i nærmiljøet",
+     "title": "Slik kan du hjelpe flaggermusene",
      "url": "https://www.forskning.no/dyreverden-partner-ung/slik-kan-du-ta-vare-pa-flaggermusene/2726709",
      "source": "forskning.no",
-     "summary": "Et blikk på hvordan man best kan hjelpe og ivareta flaggermusene gjennom årets ulike faser.",
+     "summary": "Forskere gir råd om hvordan man kan ta vare på flaggermusene og hvor de oppholder seg når det er kaldt.",
      "img": "https://image.forskning.no/2726766.jpg?imageId=2726766&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=402&format=webp&format=jpg",
      "published": "2026-10-21T22:01Z"
     }
@@ -155,28 +155,28 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Avvisningssensitiv dysfori og relasjonelle sår",
+     "title": "Er avvisningssensitiv dysfori et sår fra relasjoner?",
      "url": "https://www.psykologisk.no/ytringer/avvisningssensitiv-dysfori-arr-fra-et-relasjonelt-sar/164520",
      "source": "Psykologisk.no",
-     "summary": "En gjennomgang av hvordan avvisningssensitiv dysfori kan henge sammen med ensomhet, særlig blant nevrodivergente personer.",
+     "summary": "Eksperter undrer seg over om avvisningssensitiv dysfori kan forklare hvorfor mange nevrodivergente personer kjenner på mye ensomhet.",
      "img": "https://image.psykologisk.no/163554.webp?imageId=163554&x=0.00&y=0.00&cropw=100.00&croph=84.87&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-20T09:10Z"
+     "published": "2026-10-20T09:11Z"
     },
     {
-     "title": "Slik kan du overkomme oppgaveparese",
-     "url": "https://psyche.co/guides/how-to-overcome-task-paralysis",
-     "source": "Psyche",
-     "summary": "Metoder basert på målstyring kan hjelpe deg i gang igjen når stress, tretthet eller ADHD gjør at du føler deg helt fastlåst.",
-     "img": "https://images.aeonmedia.co/images/97132dde-0fba-4546-bc3b-33b1999cee57/sz-surface-hpw43cbt1lk-unsplash.jpg?top=125&left=0&cropWidth=2416&cropHeight=1359&width=1200&quality=75&format=auto",
+     "title": "Veien til et åpent og ikke-reaktivt sinn",
+     "url": "https://tricycle.org/article/open-heart-ungrasping-heart/",
+     "source": "Tricycle",
+     "summary": "Erfaringer fra meditasjon viser hvilken dyp indre ro som kan oppstå når man øver seg på å ikke reagere umiddelbart på alle impulser.",
+     "img": "https://tricycle.org/wp-content/uploads/2026/10/Book-cover.jpg",
      "published": "2026-10-20T10:00Z"
     },
     {
-     "title": "Hva alenetid kan lære deg om relasjoner",
-     "url": "https://www.mindful.org/the-thing-your-friends-dont-tell-you-about-being-single/",
-     "source": "Mindful",
-     "summary": "Å tilbringe tid på egenhånd kan bidra til å bygge opp selvmedfølelse og trygghet som du tar med deg inn i fremtidige vennskap og forhold.",
-     "published": "2026-10-20T17:15Z",
-     "img": "https://www.mindful.org/content/uploads/Article-header_The-Thing-Your-Friends-Dont-Tell-You-About-Being-Single-1.jpg"
+     "title": "Slik kommer du deg ut av oppgavelammelse",
+     "url": "https://psyche.co/guides/how-to-overcome-task-paralysis",
+     "source": "Psyche",
+     "summary": "Målrettet trening i oppgavestyring kan hjelpe stressede eller overveldede personer med å komme i gang og holde det gående.",
+     "img": "https://images.aeonmedia.co/images/97132dde-0fba-4546-bc3b-33b1999cee57/sz-surface-hpw43cbt1lk-unsplash.jpg?top=125&left=0&cropWidth=2416&cropHeight=1359&width=1200&quality=75&format=auto",
+     "published": "2026-10-20T10:00Z"
     }
    ]
   },
@@ -185,27 +185,27 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "FHI minner om anbefalte høst- og vintervaksiner",
+     "title": "FHI oppfordrer flere til å ta anbefalte vaksiner",
      "url": "https://www.fhi.no/nyheter/2026/fhi-flere-bor-ta-anbefalte-vaksiner/",
      "source": "FHI",
-     "summary": "Folkehelseinstituttet anbefaler at eldre og risikogrupper tar oppdaterte vaksiner mot influensa og andre luftveisinfeksjoner.",
+     "summary": "Folk helseinstituttet minner om at vaksiner mot influensa, korona og pneumokokksykdom gir viktig beskyttelse for eldre og risikogrupper.",
      "published": "2026-10-20T06:01Z"
     },
     {
      "title": "Tromsøundersøkelsen trenger flere mannlige deltakere",
      "url": "https://www.nrk.no/tromsogfinnmark/tromsoundersokelsen-treng-fleire-menn-1.18060845",
      "source": "NRK Troms og Finnmark",
-     "summary": "Norges største befolkningsundersøkelse etterlyser flere deltakere, med et spesielt ønske om å få med flere menn i 40-årene.",
+     "summary": "Norges største befolkningsundersøkelse mangler deltakere, og det er særlig behov for menn i 40-årene.",
      "img": "https://gfx.nrk.no/4eecCIy9zbJVYxL9ie6jWwAmd_3dKKHqRwOoNOlGxJ1w.jpg",
      "published": "2026-10-22T03:12Z"
     },
     {
-     "title": "Åpenhet rundt elektrokonvulsiv behandling",
-     "url": "https://www.psykologisk.no/nyheter/ect-reddet-livet-hennes-det-mener-hun-vi-bor-snakke-mer-om/164288",
-     "source": "Psykologisk.no",
-     "summary": "Erfaringer viser at mer kunnskap og samtale om livreddende behandlingsmetoder i psykiatrien er verdifullt.",
-     "img": "https://image.psykologisk.no/164302.jpg?imageId=164302&panox=0.00&panoy=12.17&panow=100.00&panoh=84.87&heightx=32.09&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-20T04:00Z"
+     "title": "Bok tar til orde for å omfavne sollysets fordeler",
+     "url": "https://psyche.co/notes-to-self/why-sunlight-is-vital-to-our-physical-and-mental-health",
+     "source": "Psyche",
+     "summary": "En ny bok argumenterer for at vår store bekymring for solens farer kan føre til at vi overser dens helsemessige gevinster.",
+     "img": "https://images.aeonmedia.co/images/4bd4e006-07c9-4580-b6df-7c356885e4be/sz-2014-07-27t120000z_1298661931_lm1ea7r16uz01_rtrmadp_3_britain-weather.jpg?top=143&left=0&cropWidth=2448&cropHeight=1377&width=1200&quality=75&format=auto",
+     "published": "2026-10-20T10:00Z"
     }
    ]
   },
@@ -214,26 +214,26 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Gjør samisk fortelling tilgjengelig på 30 språk",
+     "title": "Samisk fortelling tilgjengeliggjøres på 30 språk",
      "url": "https://www.barnehage.no/samisk-sprak/gjor-samisk-fortelling-tilgjengelig-pa-30-sprak/278663",
      "source": "Barnehage.no",
-     "summary": "En ny satsing gjør det mulig for barn og unge over hele landet å bli kjent med samisk kultur på et bredt spekter av språk.",
+     "summary": "En ny satsing gjør en samisk fortelling tilgjengelig på en lang rekke språk slik at barn over hele landet kan bli kjent med kulturen.",
      "img": "https://image.barnehage.no/278668.webp?imageId=278668&x=0.00&y=16.25&cropw=100.00&croph=35.83&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
      "published": "2026-10-22T11:55Z"
     },
     {
-     "title": "Vil fjerne digitale enheter fra skolesekken for de yngste",
+     "title": "Vil fjerne nettbrettet fra klasserommene",
      "url": "https://www.tv2.no/a/19350581",
      "source": "TV 2",
-     "summary": "Politiske aktører foreslår å ta vekk nettbrett fra undervisningen for å fokusere på andre læringsmetoder i skolen.",
+     "summary": "Politikere i Oslo Ap går til valg på å ta iPaden ut av skolesekken for tusenvis av elever.",
      "img": "https://www.cdn.tv2.no/images/?imageId=19350625&panoy=6.94&panox=0&panow=100&panoh=71.67&width=480",
      "published": "2026-10-22T16:39Z"
     },
     {
-     "title": "Nordisk råds barne- og ungdomslitteraturpris til Hilde Hagerup",
+     "title": "Nordisk råds pris til Hilde Hagerup",
      "url": "https://barnebokinstituttet.no/aktuelt/nordisk-rads-pris-til-hilde-hagerup-for-du-eneste/",
      "source": "Norsk barnebokinstitutt",
-     "summary": "Hilde Hagerup tildeles prisen for ungdomsromanen «Du eneste», som handler om Gunvor Hofmo og Ruth Maier.",
+     "summary": "Hilde Hagerup tildeles Nordisk råds barne- og ungdomslitteraturpris for ungdomsromanen 'Du eneste'.",
      "published": "2026-10-20T11:12Z",
      "img": "https://barnebokinstituttet.no/wp-content/uploads/2026/10/hagerup-niklas-lello.jpg"
     }
@@ -244,26 +244,26 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Zen Fredrikstad fremmer ro gjennom meditasjon",
+     "title": "Zen Fredrikstad fremmer indre ro gjennom meditasjon",
      "url": "https://buddhistforbundet.no/medlemsorganisasjoner/automatisk-kladd/",
      "source": "Buddhistforbundet",
-     "summary": "Organisasjonen arbeider for å styrke forståelsen av zenbuddhisme gjennom felles meditasjon og undervisning.",
+     "summary": "Foreningen arbeider for å styrke forståelsen av zenbuddhisme ved hjelp av meditasjon, undervisning og fellesskap.",
      "published": "2026-10-22T12:26Z",
      "img": "https://buddhistforbundet.no/wp-content/uploads/2026/10/Zen-Fredkrikstad-seshin.jpeg"
     },
     {
-     "title": "Ny oversettelse løfter frem vietnamesiske folkeeventyr og buddhistisk arv",
+     "title": "Ny oversettelse gjenoppretter vietnamesisk folketro og buddhisme",
      "url": "https://tricycle.org/article/vietnamese-folktales-review/",
      "source": "Tricycle",
-     "summary": "En fersk utgivelse kaster nytt lys over den rike fortellertradisjonen og den åndelige arven i Vietnam.",
+     "summary": "En aktuell bokutgivelse bringer til torgs nye oversettelser av tradisjonelle folkeeventyr og den dertilhørende buddhistiske kulturarven.",
      "img": "https://tricycle.org/wp-content/uploads/2026/10/Book-cover-1.jpg",
      "published": "2026-10-22T10:00Z"
     },
     {
-     "title": "Globale julehilsener i Den norske kirke",
-     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/jul-i-den-verdensvide-kirke/",
+     "title": "Vil skape en kirke der flest mulig føler seg hjemme",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20kirke%20som%20er%20%C3%A5pen%20for%20alle/",
      "source": "Den norske kirke",
-     "summary": "Hvert år utveksles det julehilsener mellom Den norske kirke og samarbeidskirker i store deler av verden."
+     "summary": "Den nye biskopen ønsker at Den norske kirke skal være et åpent fellesskap hvor alle kjenner en reell tilhørighet."
     }
    ]
   },
@@ -272,28 +272,28 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Monet-maleri solgt for rekordsum i Paris",
-     "url": "https://www.vg.no/rampelys/i/Wg5XVd/maleriet-iris-av-claude-monet-solgt-for-50-millioner-euro",
-     "source": "VG",
-     "summary": "Det berømte maleriet «Iris» ble solgt på auksjon i den franske hovedstaden for 50 millioner euro, ny rekord for et kunstverk i landet.",
-     "published": "2026-10-22T19:42Z",
-     "img": "https://akamai.vgc.no/v2/images/c7ddd0ed-347e-33ba-8302-71f1e26956a3?format=auto&w=1080&s=e82e1b21ed8a27f189bc2011d26aabe0f349bdf6"
-    },
-    {
-     "title": "Gjenopplever historisk kunsthappening i Oslo",
+     "title": "Gjenopplever kjent kunsthappening i Oslo",
      "url": "https://kunstkritikk.no/underjordisk-deja-vu/",
      "source": "Kunstkritikk",
-     "summary": "Galleri Podium bød denne helgen på et gjensyn med en av det siste tiårets mest minneverdige kunsthendelser i hovedstaden.",
+     "summary": "Publikum har nylig hatt mulighet til å ta del i en nyinnspilling av en av det siste tiårtalls mest omtalte kunsthendelser i hovedstaden.",
      "published": "2026-10-22T14:43Z",
      "img": "https://cdn.kunstkritikk.no/uploads/2026/10/Krista-Papista-Foto_-Hedda-Grevle-Ottesen.4-scaled.jpeg"
     },
     {
-     "title": "Utforsker Monir Shahroudy Farmanfarmaians kunstneriske univers",
+     "title": "Monir Shahroudy Farmanfarmaians fascinerende speilkunst",
      "url": "https://kunstkritikk.no/disco-delay-desire/",
      "source": "Kunstkritikk",
-     "summary": "Et dypdykk i utstillingen som forener geometriske mønstre, speil og labyrinter for å begeistre betrakteren.",
+     "summary": "Utstillingen med verkene til Farmanfarmaian fortsetter å trollbinde publikum med sine intrikate geometriske former og speilfasetter.",
      "published": "2026-10-21T13:41Z",
      "img": "https://cdn.kunstkritikk.no/uploads/2026/10/MM_MSF_Portrait-1-978x652.jpeg"
+    },
+    {
+     "title": "Monet-maleri solgt for rekordbeløp i Paris",
+     "url": "https://www.bt.no/kultur/i/MArvoR/monet-maleri-satte-salgsrekord-i-paris",
+     "source": "Bergens Tidende",
+     "summary": "Det kjente maleriet 'Iris' gikk under hammeren for hele 50 millioner euro på en auksjon i den franske hovedstaden.",
+     "img": "https://akamai.vgc.no/v2/images/c7ddd0ed-347e-33ba-8302-71f1e26956a3?format=auto&w=1000&s=d65444e60efdcc4afcec742498aca77e8d59ee96",
+     "published": "2026-10-22T19:47Z"
     }
    ]
   },
@@ -302,28 +302,28 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Nordisk råds musikkpris til Benedicte Maurseth og Kristine Tjøgersen",
-     "url": "https://www.ballade.no/priser-og-tildelinger/nordisk-rads-musikkpris-til-benedicte-maurseth-og-kristine-tjogersens-elja/",
-     "source": "Ballade",
-     "summary": "For første gang i historien kommer alle vinnerne av Nordisk råds priser fra samme land, idet Maurseth og Tjøgersen hedres for verket «Elja».",
-     "img": "https://www.ballade.no/wp-content/uploads/2026/10/Benedicte-Maurseth-og-Kristine-Tjogersen-foto-Thor-Brodreskift_25-1600px-e1792492110964-1024x784.jpg",
-     "published": "2026-10-20T16:24Z"
-    },
-    {
-     "title": "Inspirasjon til klassiske lytteropplevelser",
+     "title": "Dykk ned i den klassiske platebunken",
      "url": "https://www.ballade.no/kunstmusikk/ballade-klassisk-fa-orene-opp/",
      "source": "Ballade",
-     "summary": "En gjennomgang av platebunker byr på et variert utvalg av klassiske perler, fra historiske referanseinnspillinger til spennende nyskapninger.",
+     "summary": "Musikkritikere løfter frem et variert utvalg av klassiske utgivelser, fra historiske referanseinnspillinger til nyskapende tolkninger.",
      "img": "https://www.ballade.no/wp-content/uploads/2026/10/Opus13_2026cJuliaWesely_HIGHRES-9903crop.jpg",
      "published": "2026-10-22T11:55Z"
     },
     {
-     "title": "Vokalmagi og korharmonier i Tiny Desk Radio",
+     "title": "Sjelfulle opptredener med stjerneartister i intimt format",
      "url": "https://www.npr.org/2026/10/22/g-s1-149341/tiny-desk-radio-shirley-caesar-sam-smith-cece-winans",
      "source": "NPR Music",
-     "summary": "Et musikalsk dypdykk som presenterer sterke vokalister backet av mektige korarrangementer.",
+     "summary": "En rekke kjente artister har samlet seg for å levere musikalske opplevelser akkompagnert av dedikerte kor.",
      "published": "2026-10-22T16:00Z",
      "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2199x1237+1+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc1%2Fc0%2F46ab23224886b4326d972a2895a2%2F20250605-cece-winans-72.jpg"
+    },
+    {
+     "title": "Nordisk råds musikkpris til Norge",
+     "url": "https://www.ballade.no/priser-og-tildelinger/nordisk-rads-musikkpris-til-benedicte-maurseth-og-kristine-tjogersens-elja/",
+     "source": "Ballade",
+     "summary": "Benedicte Maurseth og Kristine Tjøgersen hedres med Nordisk råds musikkpris for verket «Elja».",
+     "img": "https://www.ballade.no/wp-content/uploads/2026/10/Benedicte-Maurseth-og-Kristine-Tjogersen-foto-Thor-Brodreskift_25-1600px-e1792492110964-1024x784.jpg",
+     "published": "2026-10-20T16:24Z"
     }
    ]
   },
@@ -332,28 +332,28 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Lager ny pris for lune og humoristiske skildringer",
+     "title": "Laster opp pris for lune og humoristiske hverdagsbøker",
      "url": "https://www.theguardian.com/books/2026/oct/22/helen-fielding-launches-bridget-jones-prize-for-northern-comedy-writing",
      "source": "The Guardian (bøker)",
-     "summary": "Forfatteren bak Bridget Jones står bak en ny skrivekonkurranse som hyller hverdagshumor og komisk fortellerkunst i nord.",
+     "summary": "Forfatteren bak Bridget Jones står bak en ny skrivekonkurranse som hedrer dem som skildrer det stille og lystige hverdagslivet.",
      "img": "https://i.guim.co.uk/img/media/86b6d5cc9222c27728f285655042bf0ebbc0a7d0/204_0_4464_3572/master/4464.jpg?width=140&quality=85&auto=format&fit=max&s=589353750051df250a75583158bddf58",
-     "published": "2026-10-22T11:46Z"
+     "published": "2026-10-22T11:47Z"
     },
     {
-     "title": "Forfattertanker om skriveprosess og rutiner",
-     "url": "https://lithub.com/tanais-writes-their-drafts-at-night-and-revises-during-the-day/",
-     "source": "Literary Hub",
-     "summary": "Forfatter Tanaïs deler sine erfaringer om å skrive om natten, redigere på dagtid og balansen i det skapende arbeidet.",
-     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Tanais-768x410.png",
-     "published": "2026-10-22T09:10Z"
-    },
-    {
-     "title": "Gjenutgivelse av klassisk debutroman gleder nye lesere",
+     "title": "Klassisk debutroman finner nye lesere",
      "url": "https://www.npr.org/2026/10/20/nx-s1-6007701/brother-of-the-more-famous-jack-review",
      "source": "NPR Books",
-     "summary": "Barbara Trapidos kritikerroste roman fra åttitallet finner veien til et nytt publikum som lar seg sjarmere av fortellingen.",
+     "summary": "Barbara Trapidos kritikerroste debutroman fra 1980-tallet oppdages på nytt av en oppmerksom, yngre generasjon bokelskere.",
      "published": "2026-10-20T12:26Z",
      "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/657x370+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd4%2F94%2Fe52c72364c6abd7fbfa89593c714%2Fjack.jpg"
+    },
+    {
+     "title": "Gir ferske lesere større plass i norsk skole",
+     "url": "https://www.utdanningsnytt.no/vi-ma-se-naermere-pa-begynnerlesingen/504952",
+     "source": "Utdanningsnytt",
+     "summary": "Debatten rundt svake leseresultater har satt søkelyset på nødvendigheten av å styrke den aller første leseopplæringen.",
+     "img": "https://image.utdanningsnytt.no/505164.jpg?imageId=505164&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=1587&format=jpg",
+     "published": "2026-10-20T08:53Z"
     }
    ]
   },
@@ -362,28 +362,28 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Filmskaperne vant frem i lagmannsretten",
+     "title": "Full seier for norske filmfolk i lagmannsretten",
      "url": "https://rushprint.no/2026/10/trier-og-vogt-vant-i-lagmannsretten/",
      "source": "Rushprint",
-     "summary": "Joachim Trier og Eskil Vogt har fått fullt medhold i sin ankesak mot et produksjonsselskap.",
+     "summary": "Borgarting lagmannsrett har gitt filmskaperne Joachim Trier og Eskil Vogt fullt medhold i en lengre rettssak.",
      "published": "2026-10-22T12:51Z",
      "img": "https://rushprint.no/wp-content/uploads/2022/03/q73LhRrKQSuH7U9Q5DlsQ_thumb_1180-680x354.jpeg"
     },
     {
-     "title": "«Glee» gjør comeback på skjermen",
-     "url": "https://www.aftenposten.no/kultur/i/ElAmkK/glee-tilbake-paa-skjermen-etter-elleve-aar",
-     "source": "Aftenposten",
-     "summary": "Den populære musikalske dramaserien vender tilbake elleve år etter at den siste episoden ble sendt.",
-     "img": "https://akamai.vgc.no/v2/images/9661ef16-b3ab-334c-8b28-405e9a219b73?format=auto&w=1000&s=f8375966d4fe364679b5cd31b6a34faafbeb7d43",
-     "published": "2026-10-22T03:55Z"
-    },
-    {
-     "title": "Norske prisvinnere under årets filmfestival i Bergen",
+     "title": "Prisdryss for norske dokumentarer",
      "url": "https://rushprint.no/2026/10/norske-prisvinnere-pa-biff/",
      "source": "Rushprint",
-     "summary": "Dokumentaren «Forbannelsen Kane» ble hyllet som beste norske film under BIFF, hvor flere andre sterke norske bidrag også ble hedret.",
+     "summary": "Flere norske filmproduksjoner høstet gjeve priser under årets internasjonale filmfestival i Bergen.",
      "published": "2026-10-22T12:36Z",
      "img": "https://rushprint.no/wp-content/uploads/2026/08/THE_CURSE_OF_KANE_1_cred_Indie-Film.jpeg"
+    },
+    {
+     "title": "Verdenskjent reiselivsmagasin løfter fram Vestland",
+     "url": "https://www.nrk.no/vestland/kara-til-reisemal-i-verdstoppen-1.18061352",
+     "source": "NRK Vestland",
+     "summary": "Det populære reiselivskonseptet «Norway in a Nutshell» høster nok en gang lovord i internasjonale medier.",
+     "img": "https://gfx.nrk.no/05WUddB5Y_BNvJ-2ZklpjQeQbdaVfvplLFr06zeu4qjQ.jpg",
+     "published": "2026-10-22T03:34Z"
     }
    ]
   },
@@ -392,28 +392,28 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Første offisielle Pokémon-senter i Europa åpner i London",
+     "title": "Åpner det første Pokémon-senteret utenfor Asia",
      "url": "https://www.gamer.no/artikler/forste-pokemon-senter-utenfor-asia/521234",
      "source": "Gamer.no",
-     "summary": "The Pokémon Company utvider sin tilstedeværelse i Europa med en splitter ny flaggskipbutikk i den britiske hovedstaden.",
+     "summary": "The Pokémon Company utvider sin fysiske tilstedeværelse i Europa med en splitter ny butikk i London.",
      "img": "https://i.bo3.no/image/401789/2022%2520Pok%25C3%25A9mon%2520World%2520Championships%2520London%25202.jpg?c=0&h=337&w=599",
      "published": "2026-10-22T13:39Z"
     },
     {
-     "title": "«Fallout 4» utvidet med gratis grøsserinnhold",
+     "title": "«Fallout 4» får gratis oppdatering med ny historie",
      "url": "https://www.pressfire.no/artikkel/fallout-4-har-fatt-gratis-gross-dlc",
      "source": "Pressfire",
-     "summary": "Spillere kan glede seg over en helt ny historiebit som lanseres uten ekstra kostnad, med de originale stemmeskuespillerne på plass.",
+     "summary": "Spillere kan glede seg over en ny historiedel som er sluppet til det populære spillet, komplett med de originale stemmeskuespillerne.",
      "img": "https://www.pressfire.no/storage/images/2026/10/21/21746/top_image.webp",
      "published": "2026-10-22T08:26Z"
     },
     {
-     "title": "Spennende blikk på det tverrsektorielle grøsserspillet Tenebris Somnia",
-     "url": "https://spillhistorie.no/2026/10/22/inntrykk-tenebris-somnia/",
-     "source": "Spillhistorie.no",
-     "summary": "En titt på et unikt skrekkspill som kombinerer levde filmsekvenser med tradisjonell retropikselgrafikk.",
-     "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/10/tenebris-somnia.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-10-22T10:05Z"
+     "title": "Indiespill i kø for de neste årene",
+     "url": "https://www.gamereactor.no/id-xbox-showcasen-i-oktober-2026-avduker-shrek-2-mouthwashing-og-en/",
+     "source": "Gamereactor",
+     "summary": "En fersk spillvisning har avduket lanseringsdatoer for en rekke spennende uavhengige titler som kommer fram mot 2027.",
+     "published": "2026-10-21T07:05Z",
+     "img": "https://www.gamereactor.no/wp-content/uploads/sites/6/2026/10/ss_d582f6e384652c1a05fb6e928ab6557b0abba1b3.1920x1080-1600x900.jpg"
     }
    ]
   },
@@ -422,45 +422,45 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Skriver norsk idrettshistorie i kunstløp",
+     "title": "Aursnes med scoring da Benfica vant i europaligaen",
+     "url": "https://www.nrk.no/sport/aursnes-scoring-i-benfica-seier--1.18062299",
+     "source": "NRK",
+     "summary": "Fredrik Aursnes scoret Benficas tredje mål da laget tok en komfortabel 4-1-seier over Omonia Nikosia i ligafasen.",
+     "img": "https://gfx.nrk.no/6mo_uxvnRcssc0DzW2GIxwI7eam0fg6fkLeSA8bjrOVg.jpg",
+     "published": "2026-10-22T21:08Z"
+    },
+    {
+     "title": "Skriver norsk idrettshistorie på kunstløpisen",
      "url": "https://www.nrk.no/sport/norske-daniil-valanov-_17_-blei-historisk-i-kunstlop_-_-eg-vil-vere-eit-forebilde-for-gutar-1.18037863",
      "source": "NRK",
-     "summary": "17 år gamle Daniil Valanov har satt dype spor i norsk kunstløp og håper prestasjonene kan bane vei for flere unge gutter i sporten.",
+     "summary": "17 år gamle Daniil Valanov har satt en ny standard for norsk kunstløp og håper å inspirere flere gutter til å prøve idretten.",
      "img": "https://gfx.nrk.no/5XFIaSs4OY-Do_6slhyc_QHrn_hd_vYnbNVyFc48qy8w.jpg",
      "published": "2026-10-22T19:36Z"
     },
     {
-     "title": "Helsingfors tildelt friidretts-EM i 2030",
-     "url": "https://www.nrk.no/sport/helsingfors-fikk-em-i-friidrett-i-2030-1.18061626",
+     "title": "Trøbbel for Strand Larsen: Måtte av med skade",
+     "url": "https://www.nrk.no/sport/trobbel-for-strand-larsen_-matte-av-med-skade-1.18062225",
      "source": "NRK",
-     "summary": "Den finske hovedstaden stakk av med arrangementet i hard konkurranse og blir vertskap for mesterskapet for fjerde gang.",
-     "img": "https://gfx.nrk.no/5lkFVLPSbi4XF0dG-hJ77AjHVybcAbOX6AuYyUc2b-zg.jpg",
-     "published": "2026-10-22T10:50Z"
-    },
-    {
-     "title": "Medier: Straffes ikke etter taktikk-kritikk",
-     "url": "https://www.nrk.no/sport/medier_-straffes-ikke-etter-taktikk-kritikk-1.18062169",
-     "source": "NRK",
-     "summary": "Bruno Fernandes får ingen sanksjoner etter at han onsdag ytret misnøye med Manchester Uniteds spilleplan i 1-4-tapet for Como. Det melder BBC og Sky Sports dagen etter den mye omtalte kampen i Italia. Krisen United …",
-     "img": "https://gfx.nrk.no/-Yd23OH_J0xVlTClW7tyPwbPgsFXzCS1WQZC4148NSJw.jpg",
-     "published": "2026-10-22T17:09Z"
+     "summary": "Jørgen Strand Larsen startet på benken for Crystal Palace, men trøblet da han først kom inn for den engelske klubben. For etter få minutter på banen mot tyrkiske Besiktas måtte nordmannen gå av med skade. Strand Larsen …",
+     "img": "https://gfx.nrk.no/8Sr0Sn2fS5eMAFg0HoehvQr4zqQ_WTdIUyfdShNGb7Aw.jpg",
+     "published": "2026-10-22T21:15Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 990,
+  "total": 989,
   "chosen": 45,
   "notchosen": 224,
   "removed": {
    "uro": 36,
-   "kjendis": 189,
-   "gammel": 335,
+   "kjendis": 187,
+   "gammel": 337,
    "krim": 47,
-   "konflikt": 32,
-   "sykdom": 34,
+   "konflikt": 28,
+   "sykdom": 35,
    "format": 27,
-   "betalt": 21
+   "betalt": 23
   }
  },
  "today": {
@@ -1486,14 +1486,14 @@
     "min": 11,
     "max": 11,
     "symbol": "lightrain",
-    "rain6": 0.9
+    "rain6": 0.7
    },
    "kristiansand": {
     "temp": 10,
-    "min": 9,
+    "min": 10,
     "max": 10,
-    "symbol": "lightrainshowers_night",
-    "rain6": 2.4
+    "symbol": "lightrainshowers_day",
+    "rain6": 1.7
    },
    "trondheim": {
     "temp": 14,
@@ -1503,10 +1503,10 @@
     "rain6": 0.0
    },
    "tromso": {
-    "temp": 7,
-    "min": 7,
-    "max": 7,
-    "symbol": "partlycloudy_night",
+    "temp": 6,
+    "min": 6,
+    "max": 6,
+    "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "bergen": {
@@ -1514,14 +1514,14 @@
     "min": 11,
     "max": 11,
     "symbol": "rain",
-    "rain6": 1.4
+    "rain6": 2.3
    },
    "stavanger": {
-    "temp": 10,
-    "min": 10,
-    "max": 10,
-    "symbol": "lightrain",
-    "rain6": 0.7
+    "temp": 9,
+    "min": 9,
+    "max": 9,
+    "symbol": "lightrainshowers_night",
+    "rain6": 0.5
    }
   },
   "date": "2026-10-22"
