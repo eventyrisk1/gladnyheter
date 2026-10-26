@@ -1,33 +1,33 @@
 {
- "updated": "2026-10-26T10:53",
+ "updated": "2026-10-26T11:49",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Studentbevegelse vant valget i Beograd",
-     "url": "https://www.tv2.no/a/19360668",
-     "source": "TV 2",
-     "summary": "En studentbevegelse har tatt en klar seier i det serbiske valget, noe som har ført til feiring i gatene. Den sittende lederen har erkjent nederlaget etter det tydelige valgresultatet.",
-     "img": "https://www.cdn.tv2.no/images/?imageId=19360683&panoh=71.67&panoy=6.94&panox=0&panow=100&width=480",
-     "published": "2026-10-26T01:35Z"
-    },
-    {
-     "title": "Nye regler sikrer lønn ved innstilte ferjer",
+     "title": "Innstilte ferjer skal ikke lenger gi lønnstrekk",
      "url": "https://www.nrk.no/trondelag/nar-ferja-innstilles_-skal-ikke-trekkes-i-lonn-1.18064478",
      "source": "NRK Trøndelag",
-     "summary": "Nye retningslinjer slår fast at innstilte ferjer ikke lenger skal føre til lønnstrekk for ansatte. Dette gir økt forutsigbarhet for arbeidstakere som er avhengige av ferjetransport.",
+     "summary": "En ny ordning sikrer at ansatte ikke trekkes i lønn når ferjene blir innstilt.",
      "img": "https://gfx.nrk.no/s-ZLoUaHocr77QzilRWZpgV3iFDrv7b4HC8og1itsU0g.jpg",
-     "published": "2026-10-25T20:12Z"
+     "published": "2026-10-25T20:10Z"
     },
     {
-     "title": "Send inn forslag til Årets trønder og Årets hverdagshelt",
+     "title": "Send inn forslag til Årets trønder og hverdagshelt",
      "url": "https://www.nrk.no/trondelag/2026_-hvem-er-arets-tronder-og-arets-hverdagshelt_-1.18054356",
      "source": "NRK",
-     "summary": "Det er nå åpnet for nominasjoner til prisene Årets trønder og Årets hverdagshelt for 2026. Publikum inviteres til å foreslå kandidater som fortjener ekstra heder for sin positive innsats i lokalsamfunnet.",
+     "summary": "Nå åpnes det igjen for å nominere personer som fortjener ekstra heder for sin innsats i lokalsamfunnet.",
      "img": "https://gfx.nrk.no/u7E1SiGn1aU5EEgEKlY05QGpEB6999MHfhJiOXo1ofvg.jpg",
-     "published": "2026-10-26T07:11Z"
+     "published": "2026-10-26T07:09Z"
+    },
+    {
+     "title": "Vy-ansatte får kurs i å håndtere aggressive passasjerer",
+     "url": "https://www.aftenposten.no/norge/i/AbaeWj/vy-ansatte-faar-kurs-i-aa-haandtere-aggressive-passasjerer",
+     "source": "Aftenposten",
+     "summary": "Lokførere og konduktører i Vy sendes på spesialkurs for å lære å håndtere aggressive passasjerer på en trygg måte.",
+     "img": "https://akamai.vgc.no/v2/images/774b3f56-fcaa-39a2-90d3-48dfb849955e?format=auto&w=1000&s=357a7dce39b978d6f6bdca497afa0510081e45b9",
+     "published": "2026-10-25T18:17Z"
     }
    ]
   },
@@ -36,28 +36,28 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Islamske børsindekser gjør det sterkt på Wall Street",
-     "url": "https://e24.no/boers-og-finans/i/rM1g1w/sharia-byks-paa-wall-street",
+     "title": "Oda-gründer blir ny styreleder i Vestre",
+     "url": "https://e24.no/boers-og-finans/i/Jrv5wR/oda-grunder-blir-ny-styreleder-i-vestre",
      "source": "E24",
-     "summary": "Børsindekser som følger islamsk lovpraksis har prestert bedre enn tradisjonelle indekser så langt i 2026. Dette markerer en økende interesse for sharia-kompatible investeringer i finansmarkedet.",
-     "img": "https://akamai.vgc.no/v2/images/8189509f-f304-3d00-a6e2-e01e1672edaf?format=auto&w=1000&s=015418a23c9dfc9192badf5fd2511560011b929b",
-     "published": "2026-10-25T20:18Z"
+     "summary": "Møbelprodusenten henter inn ny kompetanse og ansetter en tidligere Oda-gründer som ny styreleder for å vokse videre.",
+     "img": "https://akamai.vgc.no/v2/images/29ee3037-2ae9-3c02-95bf-ae058df96fe0?format=auto&w=1000&s=ad0c1c5731f0895efd67259d2a252e42167ad4e8",
+     "published": "2026-10-26T10:41Z"
     },
     {
-     "title": "Norsk spillbransje nådde historisk milepæl",
-     "url": "https://www.gamer.no/artikler/norsk-spelbransje-med-historisk-milepael/521213",
-     "source": "Gamer.no",
-     "summary": "Den norske spillbransjen omsatte for over én milliard kroner i 2025, noe som er en historisk rekord. Veksten viser at Norge er i ferd med å bli en betydelig aktør i det internasjonale spillmarkedet.",
-     "published": "2026-10-25T03:06Z",
-     "img": "https://i.bo3.no/image/402229/gamer_videointro_16x9_utan_lyd.jpg?c=1&h=675&w=1200"
+     "title": "Oslo Børs stiger i morgentimene",
+     "url": "https://e24.no/boers-og-finans/i/77abzo/oppgang-paa-oslo-boers",
+     "source": "E24",
+     "summary": "Oslo Børs åpner opp med en oppgang for flere av de mest omsatte aksjene.",
+     "img": "https://akamai.vgc.no/v2/images/b758df53-8f35-3acf-a5a2-1fcb11477422?format=auto&w=1000&s=547ffef1214ccffff113282da1fbde783c7141a6",
+     "published": "2026-10-26T08:05Z"
     },
     {
-     "title": "Forfatteren Maria Edgeworths bidrag til klassisk økonomi",
-     "url": "https://lithub.com/maria-edgeworth-early-19th-century-celebrity-novelist-and-key-contributor-to-the-birth-of-classical-economics/",
-     "source": "Literary Hub",
-     "summary": "Forfatteren Maria Edgeworth var ikke bare en litterær kjendis på 1800-tallet, men også en viktig bidragsyter til utviklingen av klassisk økonomi. Hun kombinerte suksessrike romaner med dyp innsikt i økonomiske prinsipper.",
-     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Maria-Edgeworth-768x410.png",
-     "published": "2026-10-26T09:15Z"
+     "title": "Skulle berre ein snartur på butikken: Vart låst inne",
+     "url": "https://www.nrk.no/nordland/blei-last-inne-pa-matbutikk-i-vesteralen-1.18064348",
+     "source": "NRK",
+     "summary": "Kim-Adrian Rasmussen skulle berre ein kjapp tur innom butikken for å handle ein tube kaviar og ei pakke røyk. Då han kom til kassa var det ingen der.",
+     "img": "https://gfx.nrk.no/n5zNsF9B_bd7Id_e3msZBAi3NeKa1AB9Oti63nFXBJCQ.jpg",
+     "published": "2026-10-25T19:52Z"
     }
    ]
   },
@@ -66,28 +66,28 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Astronomer har funnet mulige tegn til en niende planet",
-     "url": "https://www.forskning.no/universet-videnskabdk/astronomer-har-kanskje-sett-planet-9/2725660",
-     "source": "forskning.no",
-     "summary": "Astronomer har observert fenomener som kan tyde på eksistensen av en niende planet i vårt solsystem. Funnene gir ny næring til jakten på den mystiske 'Planet 9'.",
-     "img": "https://image.forskning.no/2725672.webp?imageId=2725672&x=0.00&y=0.99&cropw=100.00&croph=84.87&heightx=32.62&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-24T22:07Z"
-    },
-    {
-     "title": "Derfor endrer jorden stadig sin form",
+     "title": "Derfor endrer jordens form seg",
      "url": "https://www.tu.no/universet/jorden-blir-bade-mer-og-mindre-rund/7148550",
      "source": "Teknisk Ukeblad",
-     "summary": "Jorden er ikke en perfekt kule, men snarere ellipseformet, og formen endrer seg stadig. Forskere forklarer de ulike naturlige faktorene som påvirker planetens skiftende utseende over tid.",
+     "summary": "Selv om planoter ofte fremstilles som kulerunde, er jorden ellipseformet, og formen endrer seg stadig på grunn av naturlige prosesser.",
      "img": "https://image.tu.no/7148556.webp?imageId=7148556&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-10-24T14:17Z"
+     "published": "2026-10-24T14:16Z"
     },
     {
-     "title": "Dette er vitenskapen bak synkehull",
-     "url": "https://www.forskning.no/geologi-jord-og-skog-norges-geotekniske-institutt/nar-bakken-apner-seg-hva-er-egentlig-et-synkehull/2726524",
+     "title": "Astronomer har kanskje sett Planet 9",
+     "url": "https://www.forskning.no/universet-videnskabdk/astronomer-har-kanskje-sett-planet-9/2725660",
      "source": "forskning.no",
-     "summary": "Synkehull kan oppstå både på grunn av menneskelig aktivitet og naturlige prosesser i grunnen. Forskere forklarer fenomenet som oppstår når bakken plutselig åpner seg.",
-     "img": "https://image.forskning.no/2726582.jpg?imageId=2726582&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=686&format=webp&format=jpg",
-     "published": "2026-10-25T23:07Z"
+     "summary": "Nye observasjoner gir håp om at forskere endelig kan ha sporet opp den hypotetiske niende planeten i solsystemet vårt.",
+     "img": "https://image.forskning.no/2725672.webp?imageId=2725672&x=0.00&y=0.99&cropw=100.00&croph=84.87&heightx=32.62&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-10-24T22:05Z"
+    },
+    {
+     "title": "110-åringer hadde overskudd av spesielle celler",
+     "url": "https://www.forskning.no/aldring-videnskabdk/110-aringer-i-studie-hadde-et-overskudd-av-spesielle-celler/2725613",
+     "source": "forskning.no",
+     "summary": "En studie viser at svært gamle mennesker har flere uvanlige dreperceller, noe som vekker interesse blant aldersforskere.",
+     "img": "https://image.forskning.no/2725624.jpg?imageId=2725624&panox=0.00&panoy=0.00&panow=100.00&panoh=70.88&heightx=42.26&heighty=0.00&heightw=41.90&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-10-23T22:05Z"
     }
    ]
   },
@@ -96,28 +96,28 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Studenter som unngikk KI presterte best på eksamen",
+     "title": "Studenter som ikke brukte KI, presterte best på eksamen",
      "url": "https://gemini.no/2026/10/studenter-som-ikke-brukte-ki-presterte-best-pa-eksamen/",
      "source": "Gemini",
-     "summary": "En ny studie viser at studenter som ikke benyttet seg av kunstig intelligens, oppnådde de beste resultatene på eksamen. Forskerne fant en sammenheng mellom karakterer og måten teknologien ble brukt på.",
+     "summary": "En fersk studie viser en sammenheng mellom studentenes karakterer og deres bruk av kunstig intelligens, der de som klarte seg uten kom best ut.",
      "img": "https://gemini.no/wp-content/uploads/2026/10/immatrikulering_ntnu_kait_dragland-265x152.jpg",
-     "published": "2026-10-26T03:07Z"
+     "published": "2026-10-26T03:05Z"
     },
     {
-     "title": "Analyserer den emosjonelle effekten av KI-reklame",
-     "url": "https://www.theparisreview.org/blog/2026/10/20/the-uncanny-catharsis-of-the-ai-emomercial/",
-     "source": "The Paris Review",
-     "summary": "En analyse ser på hvordan KI-generert reklame for hudpleie skaper en ny form for emosjonell rensing hos seeren. Artikkelen utforsker de estetiske og psykologiske sidene ved denne nye teknologitrenden.",
-     "img": "https://www.theparisreview.org/blog/wp-content/uploads/2026/10/unnamed-1-e1792438109955-913x1024.jpg",
-     "published": "2026-10-20T15:40Z"
+     "title": "Diskusjon rundt valg av amerikanske og kinesiske KI-modeller",
+     "url": "https://www.forskning.no/kronikk-kunstig-intelligens-meninger/norges-ki-dilemma-skal-vi-velge-amerikanske-eller-kinesiske-modeller/2727227",
+     "source": "forskning.no",
+     "summary": "Forskere og eksperter diskuterer nå forskjellene og utfordringene ved å velge mellom vestlige lukkede språkmodeller og nye kinesiske alternativer.",
+     "img": "https://image.forskning.no/2727236.webp?imageId=2727236&x=0.00&y=4.26&cropw=100.00&croph=47.78&heightx=28.57&heighty=0.00&heightw=61.90&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-10-26T10:13Z"
     },
     {
-     "title": "Studie undersøker om KI påvirker menneskelig selvstendighet",
+     "title": "Ny studie: Kan vi bli mindre selvstendige av KI?",
      "url": "https://www.forskning.no/blir-vi-mindre-selvstendige-av-ki-ny-studie-tyder-pa-det/2722878",
      "source": "forskning.no",
-     "summary": "En ny studie tyder på at omfattende bruk av kunstig intelligens over tid kan påvirke menneskers selvstendighet. Forskere ser nærmere på hvordan teknologien endrer måten vi tar beslutninger på.",
+     "summary": "Forskere advarer om at utstrakt bruk av kunstig intelligens over lang tid kan påvirke vår egen evne til selvstendig problemløsning.",
      "img": "https://image.forskning.no/2724959.webp?imageId=2724959&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-23T22:07Z"
+     "published": "2026-10-23T22:05Z"
     }
    ]
   },
@@ -126,28 +126,28 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Geiter løste flåttproblemet på naturlig vis",
-     "url": "https://www.nrk.no/sorlandet/slet-med-mye-flatt_-sa-spiste-geitene-opp-problemet-1.18059444",
-     "source": "NRK",
-     "summary": "En hundeeier i Tromsø ble kvitt flåttproblemet ved å la geiter beite i området. Geitene spiste opp vegetasjonen der flåtten holdt til, og problemet forsvant uten bruk av kjemikalier.",
-     "img": "https://gfx.nrk.no/YjsapNASXte6urE2cZYynwNdd5zSFPVVRkDklsIBwxoQ.jpg",
-     "published": "2026-10-25T13:44Z"
-    },
-    {
-     "title": "Villmarksområdet Davvi er avgjørende for snøugla",
+     "title": "Nye kart slår fast: Villmarka i Davvi er avgjørende for snøugla",
      "url": "https://www.birdlife.no/naturforvaltning/nyheter/?id=4115",
      "source": "BirdLife Norge",
-     "summary": "Nye kartlegginger dokumenterer at villmarksområdet Davvi er et svært viktig leveområde for snøugla. Dataene er samlet inn gjennom et samarbeid mellom BirdLife Norge, NINA og UiA.",
+     "summary": "Det norske snøugleprosjektet har fremskaffet unike data som viser hvor viktig Davvi-området er for arten.",
      "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/10/23/12790/snougle.jpg",
-     "published": "2026-10-23T00:06Z"
+     "published": "2026-10-23T00:04Z"
     },
     {
-     "title": "Seier for fuglelivet: EU vedtar forbud mot blyhagl",
+     "title": "Seier for fuglelivet: EU vil forby blyhagl",
      "url": "https://www.birdlife.no/naturforvaltning/nyheter/?id=4114",
      "source": "BirdLife Norge",
-     "summary": "Europaparlamentet har stemt for å forby bruk av blyhagl for å beskytte fuglelivet mot forurensning i naturen. Vedtaket anses som et viktig skritt for å bevare det europeiske artsmangfoldet.",
+     "summary": "Europaparlamentet har stemt for nye restriksjoner som skal stanse blyforurensning i naturen og beskytte fuglelivet.",
      "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/10/20/12774/bly_kongeorn.jpg",
-     "published": "2026-10-20T00:06Z"
+     "published": "2026-10-20T00:04Z"
+    },
+    {
+     "title": "De arktiske tareskogane endrer seg",
+     "url": "https://www.forskning.no/biologisk-mangfold-havet-havforskningsinstituttet/dei-arktiske-tareskogane-ser-meir-og-meir-ut-som-norskekysten/2725260",
+     "source": "forskning.no",
+     "summary": "Kongsfjorden på Svalbard liknar meir på ein fastlandsfjord enn før, med høgare temperaturer.",
+     "img": "https://image.forskning.no/2725270.jpg?imageId=2725270&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=26.92&heighty=0.00&heightw=35.71&heighth=99.53&width=1058&height=582&format=webp&width=1058&height=684&format=webp&format=jpg",
+     "published": "2026-10-24T22:05Z"
     }
    ]
   },
@@ -156,28 +156,28 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Kosthold som kan bremse hjernens aldring",
-     "url": "https://www.psykologisk.no/nyheter/dette-kostholdet-kan-bremse-aldringen-med-to-og-et-halvt-ar/164160",
-     "source": "Psykologisk.no",
-     "summary": "Forskere har fulgt over tusen deltakere i tolv år for å se hvordan kosthold påvirker hjernen. Resultatene tyder på at et spesifikt kosthold kan bremse hjernens aldring med over to år.",
-     "img": "https://image.psykologisk.no/164165.jpg?imageId=164165&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-26T05:06Z"
-    },
-    {
-     "title": "Slik fungerer menneskelig kommunikasjon egentlig",
-     "url": "https://psyche.co/ideas/can-you-ever-really-think-what-someone-else-is-thinking",
+     "title": "Klinisk angst er noe annet enn hverdagsangst",
+     "url": "https://psyche.co/ideas/everyone-says-they-have-anxiety-clinical-anxiety-is-different",
      "source": "Psyche",
-     "summary": "Forskere undersøker de underliggende mekanismene i hvordan vi kommuniserer med hverandre. Studien utfordrer forestillingen om at forskjellige mennesker kan dele nøyaktig de samme tankene.",
-     "img": "https://images.aeonmedia.co/images/39a6a90b-5d06-4e39-82e1-ea1ab4d1b0e8/sz-2026-03-27t184149z_899378536_rc25dkaeghfu_rtrmadp_3_usa-trump-airports.jpg?top=122&left=0&cropWidth=2336&cropHeight=1314&width=1200&quality=75&format=auto",
-     "published": "2026-10-23T10:05Z"
+     "summary": "Erfaringer viser at man ikke kan utslette det som er en del av en selv, men at man kan endre måten man forholder seg til det på.",
+     "img": "https://images.aeonmedia.co/images/aa7df25e-05ae-4109-86cf-f6ae0620515a/sz-this-gettyimages-2215104767.jpg?top=254&left=0&cropWidth=2592&cropHeight=1458&width=1200&quality=75&format=auto",
+     "published": "2026-10-26T10:04Z"
     },
     {
-     "title": "Hvorfor vi føler uro etter å ha tatt riktige valg",
+     "title": "Derfor kan du føle deg mer engstelig etter å ha tatt den rette beslutningen",
      "url": "https://www.mindful.org/why-you-sometimes-feel-more-anxious-after-making-the-right-decision/",
      "source": "Mindful",
-     "summary": "Det er ikke uvanlig å føle angst selv etter at man har tatt en god og riktig beslutning. Artikkelen forklarer de psykologiske årsakene til at magen kan knyte seg etter store livsvalg.",
-     "published": "2026-10-23T22:19Z",
+     "summary": "Selv etter å ha valgt riktig jobb eller bolig, kan kroppen reagere med uro i en overgangsfase.",
+     "published": "2026-10-23T22:18Z",
      "img": "https://www.mindful.org/content/uploads/Article-header_Why-You-Sometimes-Feel-More-Anxious-After-Making-the-Right-Decision.jpg"
+    },
+    {
+     "title": "Dostojevskijs tanker om meningen med livet",
+     "url": "https://www.themarginalian.org/2026/10/24/dostoyevsky-execution-life/",
+     "source": "The Marginalian",
+     "summary": "Et historisk brev belyser viktigheten av å bevare sin menneskelighet og holde motet oppe uansett hvilke omstendigheter man møter.",
+     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2019/12/dostoevskyletters_meyer.jpg?fit=320%2C482&ssl=1",
+     "published": "2026-10-24T11:17Z"
     }
    ]
   },
@@ -186,28 +186,28 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Nytt plaster måler pulsen uten elektronikk",
-     "url": "https://www.tu.no/helseteknologi/plaster-maler-pulsen-uten-elektronikk/7147237",
-     "source": "Teknisk Ukeblad",
-     "summary": "Et innovativt plaster kan måle pulsen og undersøke hjertets tilstand uten bruk av innebygd elektronikk. Ved hjelp av en smarttelefon kan man enkelt lese av resultatene fra plasteret.",
-     "img": "https://image.tu.no/7147245.webp?imageId=7147245&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-10-25T04:06Z"
+     "title": "Dette kostholdet kan bremse aldringen i hjernen",
+     "url": "https://www.psykologisk.no/nyheter/dette-kostholdet-kan-bremse-aldringen-med-to-og-et-halvt-ar/164160",
+     "source": "Psykologisk.no",
+     "summary": "En ny studie som fulgte over tusen deltakere i tolv år, viser at et spesifikt kosthold kan bidra til å bevare hjernens funksjoner bedre over tid.",
+     "img": "https://image.psykologisk.no/164165.jpg?imageId=164165&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-10-26T05:04Z"
     },
     {
-     "title": "Hjerneforsker fant ulikheter i utvikling hos tvillinger",
-     "url": "https://www.tv2.no/a/19318093",
-     "source": "TV 2",
-     "summary": "En hjerneforsker har gjort oppsiktsvekkende funn etter å ha studert ulikheter i hjernen hos tvillinger. Forskningen gir ny innsikt i hvordan hjernen utvikler seg individuelt til tross for likt genetisk utgangspunkt.",
-     "img": "https://www.cdn.tv2.no/images/?imageId=19319766&panow=100&panoh=100&panoy=0&panox=0&heightw=28.93&heighth=69.67&heightx=62.14&heighty=30.33&width=480",
-     "published": "2026-10-25T15:31Z"
-    },
-    {
-     "title": "Studie av 110-åringer gir innsikt i eksepsjonelt langt liv",
-     "url": "https://www.forskning.no/aldring-videnskabdk/110-aringer-i-studie-hadde-et-overskudd-av-spesielle-celler/2725613",
+     "title": "Fire gode råd for bedre munnhelse",
+     "url": "https://www.forskning.no/partner-royking-sykdommer/roykere-har-flere-bakterier-knyttet-til-tannkjottsykdom/2725854",
      "source": "forskning.no",
-     "summary": "En studie av svært gamle mennesker viser at de har et overskudd av spesielle immunceller. Forskere undersøker nå om disse cellene er en nøkkelfaktor for å oppnå en uvanlig høy alder.",
-     "img": "https://image.forskning.no/2725624.jpg?imageId=2725624&panox=0.00&panoy=0.00&panow=100.00&panoh=70.88&heightx=42.26&heighty=0.00&heightw=41.90&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-23T22:07Z"
+     "summary": "Forskning viser en klar sammenheng mellom røyking og bakterier knyttet til tannkjøttsykdom, og ekspertene deler enkle råd for å forebygge problemet.",
+     "img": "https://image.forskning.no/2726965.jpg?imageId=2726965&panox=8.00&panoy=13.55&panow=92.00&panoh=66.15&heightx=49.68&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=478&format=webp&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-10-25T23:05Z"
+    },
+    {
+     "title": "Fekk det verste hjerneslaget – no driv han bilverkstad",
+     "url": "https://www.nrk.no/artikkel/fekk-det-verste-hjerneslaget-no-driv-han-bilverkstad-1530496",
+     "source": "NRK Vestland",
+     "summary": "Revolusjonerande behandling redda livet til Leiv Arne frå Sandane",
+     "img": "https://gfx.nrk.no/UX2lRXiFhv4AlBA1ORyK0gK-AQmy1IrWughv2BxCSlnw.jpg",
+     "published": "2026-10-25T18:12Z"
     }
    ]
   },
@@ -216,28 +216,28 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Lærer og forfatter motvirker lesekrise med ungdomsroman",
-     "url": "https://www.utdanningsnytt.no/lesekrise-lesing/laerer-og-forfatter-drar-folk-ut-av-lesekrisa/505640",
-     "source": "Utdanningsnytt",
-     "summary": "Studenter og ansatte ved OsloMet har latt seg inspirere til å lese en ungdomsroman som tar opp viktige temaer med humor og varme. Prosjektet viser at engasjerende litteratur kan bidra til å øke leselysten.",
-     "img": "https://image.utdanningsnytt.no/505673.jpg?imageId=505673&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-10-25T15:02Z"
-    },
-    {
-     "title": "Barnehager fjernet voksenstyrte aktiviteter for barnas skyld",
+     "title": "Ett enkelt spørsmål snudde opp ned på barnehagehverdagen",
      "url": "https://www.utdanningsnytt.no/lek/barnehagene-fjernet-faste-aktiviteter-for-a-gi-mer-plass-til-lek/505207",
      "source": "Utdanningsnytt",
-     "summary": "To barnehager på Nøtterøy har tatt bort de fleste faste voksenstyrte aktivitetene for å gi barna mer rom for fri lek. Endringen har ført til en mer harmonisk hverdag for både barna og de ansatte.",
+     "summary": "To barnehager på Nøtterøy har fjernet alt de kan av faste, vaksenstyrte aktiviteter for barnas beste, etter en nyansatt styrers initiativ.",
      "img": "https://image.utdanningsnytt.no/505226.jpg?imageId=505226&x=0.00&y=6.94&cropw=100.00&croph=71.67&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-10-24T22:08Z"
+     "published": "2026-10-24T22:06Z"
     },
     {
-     "title": "Nytt verktøy utforsker barns perspektiver på trivsel",
+     "title": "Tester nytt verktøy for å forstå de yngste barnas trivsel",
      "url": "https://www.barnehage.no/trivsel-verktoy/tester-nytt-verktoy-for-a-utforske-yngre-barns-perspektiver-pa-trivsel/278704",
      "source": "Barnehage.no",
-     "summary": "Barnehager tester ut et nytt verktøy for å bedre forstå de yngste barnas egne opplevelser av trivsel. Målet er å gi barna en tydeligere stemme i utformingen av sin egen hverdag.",
+     "summary": "Barnehager prøver ut nye metoder for å lytte til hva barna selv har å fortelle om sin hverdag.",
      "img": "https://image.barnehage.no/278709.webp?imageId=278709&x=0.00&y=4.57&cropw=100.00&croph=78.66&heightx=25.43&heighty=0.00&heightw=37.62&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-23T14:05Z"
+     "published": "2026-10-23T14:04Z"
+    },
+    {
+     "title": "Håp om at kalenderen ikke lenger skal avgjøre barnehagestarten",
+     "url": "https://www.barnehage.no/kan-vi-endelig-hape-at-kalenderen-ikke-avgjor-barnehagestarten/278683",
+     "source": "Barnehage.no",
+     "summary": "Desemberbarn kan omsider få rett til barnehageplass fra måneden de fyller ett år, noe som vil kutte ventetiden for foreldre.",
+     "img": "https://image.barnehage.no/278717.webp?imageId=278717&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-10-23T14:02Z"
     }
    ]
   },
@@ -246,28 +246,26 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Dostojevskij om meningen med livet og menneskeverd",
-     "url": "https://www.themarginalian.org/2026/10/24/dostoyevsky-execution-life/",
-     "source": "The Marginalian",
-     "summary": "Etter å ha unnsluppet en dødsdom, reflekterte Dostojevskij over betydningen av å bevare sin menneskelighet uansett omstendigheter. Han understreket viktigheten av å aldri miste motet eller håpet.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2019/12/dostoevskyletters_meyer.jpg?fit=320%2C482&ssl=1",
-     "published": "2026-10-24T11:18Z"
-    },
-    {
-     "title": "De poetiske hagene til dikteren Liu Zongyuan",
-     "url": "https://tricycle.org/article/liu-zongyuan-poetry/",
-     "source": "Tricycle",
-     "summary": "En gjennomgang av hagene til Tang-dynastiets dikter Liu Zongyuan gir innsikt i historisk hagekunst og filosofi. Hagene fungerte som viktige steder for refleksjon, stillhet og indre ro.",
-     "img": "https://tricycle.org/wp-content/uploads/2026/10/9781646052172_FC_1024x1024@2x-1037x1600.jpeg",
-     "published": "2026-10-25T10:05Z"
-    },
-    {
-     "title": "Zen Fredrikstad fremmer meditasjon og fellesskap",
+     "title": "Zen Fredrikstad fremmer indre ro gjennom meditasjon",
      "url": "https://buddhistforbundet.no/medlemsorganisasjoner/automatisk-kladd/",
      "source": "Buddhistforbundet",
-     "summary": "Zen Fredrikstad tilbyr et fellesskap for praktisering og forståelse av zenbuddhisme. Gjennom meditasjon og undervisning søker gruppen å fremme indre ro, livsvisdom og takknemlighet.",
-     "published": "2026-10-22T12:32Z",
+     "summary": "Foreningen arbeider for å styrke forståelsen av zenbuddhisme gjennom felles meditasjon og undervisning.",
+     "published": "2026-10-22T12:30Z",
      "img": "https://buddhistforbundet.no/wp-content/uploads/2026/10/Zen-Fredkrikstad-seshin.jpeg"
+    },
+    {
+     "title": "Nydelig dypdykk i meditasjonens ro",
+     "url": "https://tricycle.org/article/thanissaro-bhikkhu-nibbana/",
+     "source": "Tricycle",
+     "summary": "Klosterlærdommer fra den thailandske skogtradisjonen gir nye perspektiver på indre fred og sinnsro.",
+     "published": "2026-10-26T10:05Z",
+     "img": "https://tricycle.org/wp-content/uploads/2026/10/DSC_9980.jpg"
+    },
+    {
+     "title": "En kirke som skal være åpen for alle",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20kirke%20som%20er%20%C3%A5pen%20for%20alle/",
+     "source": "Den norske kirke",
+     "summary": "Ny biskop Stig Lægdene ønsker at flest mulig skal føle tilhørighet og kjenne at kirken er et lunt samlingspunkt."
     }
    ]
   },
@@ -276,28 +274,28 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Snøhetta har designet spiraltrapp i Shanghais nye operahus",
-     "url": "https://www.tu.no/bygg/snohettas-svimlende-spiraltrapp/7149044",
-     "source": "Teknisk Ukeblad",
-     "summary": "Shanghais nye operahus er ferdigstilt med en spektakulær spiraltrapp tegnet av det norske arkitektkontoret Snøhetta. Bygget kombinerer moderne arkitektur med funksjonalitet for scenekunst.",
-     "img": "https://image.tu.no/7149135.webp?imageId=7149135&x=0.00&y=11.59&cropw=100.00&croph=63.86&heightx=26.12&heighty=0.00&heightw=46.37&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-10-25T15:16Z"
+     "title": "Seth Price om tilfeldigheter og skapende kunst",
+     "url": "https://kunstkritikk.no/the-first-task-is-to-keep-it-exciting-for-yourself/",
+     "source": "Kunstkritikk",
+     "summary": "Kunstneren reflekterer over selvbiografi, sjanse og kunsten å holde skaperevnen levende for seg selv.",
+     "published": "2026-10-26T08:24Z",
+     "img": "https://cdn.kunstkritikk.no/uploads/2026/10/portrett-seth-price.jpeg"
     },
     {
-     "title": "Historien bak Edward Hoppers ikoniske maleri Nighthawks",
-     "url": "https://lithub.com/the-story-behind-edward-hoppers-iconic-painting-nighthawks/",
-     "source": "Literary Hub",
-     "summary": "Edward Hoppers berømte maleri 'Nighthawks' fra 1942 har en fascinerende historie knyttet til sin tilblivelse. Verket fanger en stemningsfull nattlig scene på en kafé og er et av de mest kjente i amerikansk kunsthistorie.",
-     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Nighthawks-by-Edward-Hopper-painting-768x432.png",
-     "published": "2026-10-26T09:06Z"
-    },
-    {
-     "title": "Arkitektur som prisme for menneskelige dramaer",
+     "title": "Turner Brooks’ romlige minner",
      "url": "https://www.theparisreview.org/blog/2026/10/23/turner-brooks-spatial-memories/",
      "source": "The Paris Review",
-     "summary": "Arkitekten Turner Brooks undersøker hvordan bygninger fungerer som rammer for menneskelige minner og dramaer. Han ser på arkitektur som et verktøy for å forstå menneskelige relasjoner og historie.",
+     "summary": "Arkitekten undersøker bygninger som prismer for de menneskelige dramaene som utspiller seg på innsiden.",
      "img": "https://www.theparisreview.org/blog/wp-content/uploads/2026/10/turner-2-1024x939.jpg",
-     "published": "2026-10-23T12:06Z"
+     "published": "2026-10-23T12:05Z"
+    },
+    {
+     "title": "Snøhettas svimlende spiraltrapp i Shanghai",
+     "url": "https://www.tu.no/bygg/snohettas-svimlende-spiraltrapp/7149044",
+     "source": "Teknisk Ukeblad",
+     "summary": "Teppet har gått opp for Shanghais nye operahus, tegnet av det norske arkitektkontoret Snøhettas.",
+     "img": "https://image.tu.no/7149135.webp?imageId=7149135&x=0.00&y=11.59&cropw=100.00&croph=63.86&heightx=26.12&heighty=0.00&heightw=46.37&heighth=100.00&width=1058&height=636&format=jpg",
+     "published": "2026-10-25T15:14Z"
     }
    ]
   },
@@ -306,28 +304,28 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Hør jazzy bakgrunnsmusikk fra Spider-Man-serien fra 1967",
-     "url": "https://www.openculture.com/2026/10/an-hour-of-the-jazzy-background-music-from-the-original-1967-spider-man-cartoon.html",
-     "source": "Open Culture",
-     "summary": "En time med den originale jazzmusikken fra den klassiske Spider-Man-tegnefilmen er nå tilgjengelig for lyttere. Musikken ble komponert av Ray Ellis og er kjent for sin unike og tidløse stil.",
-     "img": "https://i.ytimg.com/vi/yCF8JU30gXI/maxresdefault.jpg",
-     "published": "2026-10-26T08:06Z"
-    },
-    {
-     "title": "Nye sanger preger de internasjonale hitlistene",
-     "url": "https://www.npr.org/2026/10/23/nx-s1-6010495/songs-by-adela-karol-g-and-dominic-fike-make-waves-on-the-billboard-charts",
-     "source": "NPR Music",
-     "summary": "Nye utgivelser fra artister som Adela, Karol G og Dominic Fike markerer seg sterkt på Billboard-listene. Selv om Taylor Swift fortsatt topper listene, får hun selskap av flere spennende nye låter.",
-     "published": "2026-10-23T21:42Z",
-     "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg"
-    },
-    {
      "title": "Lars Ljosland er ny sjef for Kongsberg Jazzfestival",
      "url": "https://www.ballade.no/bransjen/lars-ljosland-er-den-nye-sjefen-for-kongsberg-jazzfestival/",
      "source": "Ballade",
-     "summary": "Lars Ljosland er utnevnt til ny festivalsjef og beskriver rollen som en drøm som går i oppfyllelse. Han har lang erfaring med festivalen og ønsker å bruke sin kunnskap til å videreutvikle arrangementet.",
+     "summary": "En erfaren musikkentusiast tar over ledelsen av den tradisjonsrike jazzfestivalen.",
      "img": "https://www.ballade.no/wp-content/uploads/2026/10/Lars-Ljosland-KJF-2026-5-scaled-1.jpg",
-     "published": "2026-10-23T15:04Z"
+     "published": "2026-10-23T15:03Z"
+    },
+    {
+     "title": "Nye låter vekker oppsikt på hitlistene",
+     "url": "https://www.npr.org/2026/10/23/nx-s1-6010495/songs-by-adela-karol-g-and-dominic-fike-make-waves-on-the-billboard-charts",
+     "source": "NPR Music",
+     "summary": "Artister som Adela, Karol G og Dominic Fike markerer seg sterkt på Billboard-listene ved siden av etablerte stjerner.",
+     "published": "2026-10-23T21:41Z",
+     "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg"
+    },
+    {
+     "title": "Kjetil Jerve presenterer ny trio og musikalske krumspring",
+     "url": "https://jazzinorge.no/2026/10/23/ntt-slatter-i-livets-toneart/",
+     "source": "Jazz i Norge",
+     "summary": "Pianisten er aktuell med nye prosjekter og henter inspirasjon fra storheter som Stevie Wonder.",
+     "img": "https://jazzinorge.no/content/uploads/2026/10/andre-marmot_bik-cover_jazz-explosion_til-ntt.jpg",
+     "published": "2026-10-23T13:57Z"
     }
    ]
   },
@@ -336,28 +334,28 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Stephen Fry om Sherlock Holmes' betydning for livet",
-     "url": "https://www.theguardian.com/books/2026/oct/25/stephen-fry-sherlock-holmes-altered-the-course-of-my-whole-life",
+     "title": "Musikk mot mørketid: En hyllest til kunstens kraft",
+     "url": "https://www.theguardian.com/books/2026/oct/26/music-against-the-night-by-yiyun-li-review-a-virtuosic-interrogation-of-the-power-of-art",
      "source": "The Guardian (bøker)",
-     "summary": "Stephen Fry forteller hvordan historiene om Sherlock Holmes har preget ham helt fra barndommen av. Han utforsker hvorfor Arthur Conan Doyles detektiv fortsatt fascinerer og inspirerer lesere over hele verden.",
-     "img": "https://i.guim.co.uk/img/media/da5e281611e3fff9be42aa02698c2869f65e3f35/1336_141_1379_1103/master/1379.jpg?width=140&quality=85&auto=format&fit=max&s=fd274dbb21e6e822711d9f83f7bdd582",
-     "published": "2026-10-25T12:05Z"
+     "summary": "Yiyun Li undersøker i sin nye bok avstanden mellom talent og geni gjennom ekte historier om kunstnerskap.",
+     "img": "https://i.guim.co.uk/img/media/dab1b5e1f6b3a1408bdc08d6a1f98126b033bac0/1401_1273_8359_6688/master/8359.jpg?width=140&quality=85&auto=format&fit=max&s=e67a8f8593bacc20bc66bc873b4aeaee",
+     "published": "2026-10-26T07:04Z"
     },
     {
-     "title": "20 favorittbøker for barn gjennom to tiår",
-     "url": "https://www.themarginalian.org/2026/10/25/20-childrens-books/",
-     "source": "The Marginalian",
-     "summary": "En samling av 20 fremragende barnebøker fra de siste 20 årene fremhever litteratur som tar barn på alvor. Utvalget viser den store bredden og kvaliteten i moderne barnebokutgivelser.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2026/10/thelittleprince_original.jpg?w=325&ssl=1",
-     "published": "2026-10-25T20:19Z"
-    },
-    {
-     "title": "Nordisk råds pris til Hilde Hagerup for ungdomsroman",
+     "title": "Nordisk råds litteraturpris til Hilde Hagerup",
      "url": "https://barnebokinstituttet.no/aktuelt/nordisk-rads-pris-til-hilde-hagerup-for-du-eneste/",
      "source": "Norsk barnebokinstitutt",
-     "summary": "Hilde Hagerup er tildelt Nordisk råds barne- og ungdomslitteraturpris for 2026 for romanen 'Du eneste'. Boken forteller den gripende historien om Gunvor Hofmo og Ruth Maier.",
-     "published": "2026-10-20T11:18Z",
+     "summary": "Forfatteren tildeles barne- og ungdomslitteraturprisen for ungdomsromanen «Du eneste».",
+     "published": "2026-10-20T11:16Z",
      "img": "https://barnebokinstituttet.no/wp-content/uploads/2026/10/hagerup-niklas-lello.jpg"
+    },
+    {
+     "title": "Lærer og forfatter drar folk ut av lesekrisa",
+     "url": "https://www.utdanningsnytt.no/lesekrise-lesing/laerer-og-forfatter-drar-folk-ut-av-lesekrisa/505640",
+     "source": "Utdanningsnytt",
+     "summary": "Et engasjerende leseprosjekt ved OsloMet får både studenter og ansatte til å sluke ferske ungdomsromaner.",
+     "img": "https://image.utdanningsnytt.no/505673.jpg?imageId=505673&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
+     "published": "2026-10-25T15:01Z"
     }
    ]
   },
@@ -366,28 +364,28 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Hvorfor That Thing You Do! er den ultimate feelgood-filmen",
+     "title": "Busan International Film Festival runder av et sterkt år",
+     "url": "https://www.rogerebert.com/festivals/busan-international-film-festival-2026-wrap-up",
+     "source": "RogerEbert.com",
+     "summary": "En oppsummering av årets store filmfestival viser et mangfoldig program av sterke internasjonale filmperler.",
+     "img": "https://www.rogerebert.com/wp-content/uploads/2026/10/01_CO_01_Still_1_Main_그날의-태주_Beach-Fictions-1.jpg",
+     "published": "2026-10-25T14:59Z"
+    },
+    {
+     "title": "Derfor er denne 90-tallsfilmen den ultimate feelgood-opplevelsen",
      "url": "https://www.theguardian.com/film/2026/oct/26/that-thing-you-do-feelgood-movie",
      "source": "The Guardian (film)",
-     "summary": "Filmen 'That Thing You Do!' trekkes frem som en tidløs kilde til glede og god stemning. Artikkelen forklarer hvorfor Tom Hanks' regidebut fra 90-tallet fortsatt er en stor favoritt for mange.",
+     "summary": "Tom Hanks' hjertevarme film fra musikkens verden trekkes frem som et tidløst mesterverk av god stemning.",
      "img": "https://i.guim.co.uk/img/media/f2e83c195ef9dd5d884e84854d662f2dd5497016/0_75_2095_1677/master/2095.jpg?width=140&quality=85&auto=format&fit=max&s=11acfdae4ee13ed46ac1cdf4b289dd1c",
-     "published": "2026-10-26T09:06Z"
+     "published": "2026-10-26T09:04Z"
     },
     {
-     "title": "100 år siden Harry Houdinis død markeres",
-     "url": "https://www.openculture.com/2026/10/harry-houdini-died-100-years-ago-this-halloween.html",
-     "source": "Open Culture",
-     "summary": "Det er i år 100 år siden den legendariske utbryterkongen Harry Houdini gikk bort. Artikkelen ser nærmere på hans spektakulære karriere og mytene som fortsatt omgir hans liv og virke.",
-     "img": "https://i.ytimg.com/vi/Bj6ulLJGPB8/maxresdefault.jpg",
-     "published": "2026-10-26T09:05Z"
-    },
-    {
-     "title": "Historien om nordmenns skepsis til poteten",
-     "url": "https://www.forskning.no/historie-humaniora-kultur/nordmenn-var-skeptiske-da-poteten-kom-til-landet/2721899",
-     "source": "forskning.no",
-     "summary": "Da poteten først kom til Norge, møtte den stor motstand fra en befolkning som foretrakk sin tradisjonelle vassgraut. Det tok lang tid før den i dag så selvfølgelige rotfrukten ble en del av det norske kostholdet.",
-     "img": "https://image.forskning.no/2724918.webp?imageId=2724918&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-24T22:07Z"
+     "title": "Synger for å ta tilbake sin samiske identitet",
+     "url": "https://www.nrk.no/tromsogfinnmark/gjennom-musikken-tar-enya-trast-lillevik-tilbake-sin-samiske-identitet-1.18059772",
+     "source": "NRK Troms og Finnmark",
+     "summary": "Med albumet «Arvesynd» deler Enya Trast Lillevik den sårbare og stolte prosessen med å gjenvinne sitt språk og sin kulturarv.",
+     "img": "https://gfx.nrk.no/6SeRiUaO5gnG8McWsCAzpQBi3ttXZ3nZpE7jQCYcvQKw.jpg",
+     "published": "2026-10-25T08:02Z"
     }
    ]
   },
@@ -396,28 +394,28 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Sniktitt på rollespillet Drova 2 – Torn Lands",
+     "title": "Fem minneverdige rollespill fra BioWares rike historie",
+     "url": "https://www.gamer.no/artikler/fem-minneverdige-bioware-spill/521250",
+     "source": "Gamer.no",
+     "summary": "Vi mimrer tilbake til noen av de mest ikoniske øyeblikkene fra det legendariske spillstudioets lange historie.",
+     "img": "https://i.bo3.no/image/402273/mass%2520effect.jpg?c=0&h=338&w=600",
+     "published": "2026-10-26T09:27Z"
+    },
+    {
+     "title": "Sniktitt på det etterlengtede rollespillet Drova 2",
      "url": "https://spillhistorie.no/2026/10/26/sniktitt-drova-2-torn-lands/",
      "source": "Spillhistorie.no",
-     "summary": "En sniktitt på Drova 2 viser lovende takter for oppfølgeren til et av de senere årenes mest kritikerroste rollespill. Spillet bygger videre på suksessen med en dypere verden og nye utfordringer for spilleren.",
+     "summary": "Oppfølgeren til en av de senere årenes store rollespill-favoritter er testet, og byr på nye eventyr.",
      "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/10/drova-2-b2-1.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-10-26T09:42Z"
+     "published": "2026-10-26T09:41Z"
     },
     {
-     "title": "Cyberpunk 2077 får endelig modifikasjoner på konsoll",
-     "url": "https://www.gamereactor.no/cyberpunk-2077-far-endelig-mods-pa-konsoll-en-storre-sak-enn/",
-     "source": "Gamereactor",
-     "summary": "En ny oppdatering til Cyberpunk 2077 lar nå konsollspillere installere modifikasjoner for første gang. Oppdateringen inkluderer også nye spillmekanikker som dobbelthåndtering av pistoler.",
-     "published": "2026-10-24T15:57Z",
-     "img": "https://www.gamereactor.no/wp-content/uploads/sites/6/2026/10/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080-1600x900.jpg"
-    },
-    {
-     "title": "World of Warcraft: Forever får ny servertype etter ønske fra fansen",
-     "url": "https://www.gamer.no/artikler/oppfyller-spillernes-onske-wow-forever-far-ny-servertype/521241",
+     "title": "Norsk spillbransje med historisk omsetningsmilepæl",
+     "url": "https://www.gamer.no/artikler/norsk-spelbransje-med-historisk-milepael/521213",
      "source": "Gamer.no",
-     "summary": "Blizzard bekrefter at de vil lansere RP-PvP-servere til lanseringen av World of Warcraft: Forever. Dette er et direkte svar på etterspørsel fra spillmiljøet.",
-     "img": "https://i.bo3.no/image/401821/WoW_Forever_SCENIC_Announce_Skyborne_Customization_061.png?c=0&h=337&w=599",
-     "published": "2026-10-23T12:16Z"
+     "summary": "Den norske spillbransjen opplevde sterk vekst og omsatte for godt over en milliard i løpet av 2025.",
+     "published": "2026-10-25T03:04Z",
+     "img": "https://i.bo3.no/image/402229/gamer_videointro_16x9_utan_lyd.jpg?c=1&h=675&w=1200"
     }
    ]
   },
@@ -426,45 +424,45 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Tidenes første norske VM-medalje i turn",
-     "url": "https://www.nrk.no/sport/norsk-sensasjon-i-vm_-tok-tidenes-forste-norske-medalje-1.18064270",
+     "title": "Mbappé-show da Real Madrid vant El Clásico",
+     "url": "https://www.nrk.no/sport/mbappe-show-senket-barcelona-i-el-clasico-1.18064552",
      "source": "NRK",
-     "summary": "Norge har sikret seg sin aller første medalje i et verdensmesterskap i turn noensinne. Prestasjonen beskrives som en historisk sensasjon av Norges Gymnastikk- og Turnforbund.",
-     "img": "https://gfx.nrk.no/-I7Um9zH6WgbE-2yno0v7wE8Irzd9jEIR47V4V1tUeUw.jpg",
-     "published": "2026-10-25T14:33Z"
+     "summary": "Kylian Mbappé scoret målene da Real Madrid brøt Barcelonas lange seiersrekke i den spanske eliteserien.",
+     "img": "https://gfx.nrk.no/BjC5e0J3F5Ur3yXsahPpiwLn3S3eWcfmpv_KPFXJybow.jpg",
+     "published": "2026-10-25T22:06Z"
     },
     {
-     "title": "Lucas Braathen vant suverent i sesongåpningen",
-     "url": "https://www.aftenposten.no/sport/i/77aO3W/braathen-suveren-i-sesongaapningen-kjaeresten-i-taarer-etter-maalgang",
-     "source": "Aftenposten",
-     "summary": "Lucas Pinheiro Braathen gjorde et sterkt comeback og tok en overlegen seier i sesongåpningen. Den emosjonelle seieren førte til tårer og stor jubel i målområdet.",
-     "img": "https://akamai.vgc.no/v2/images/336469e0-6e5b-3e68-8f81-9da310f595e1?format=auto&w=1000&s=4d963e01f36297ada0211f650fcbbfe2f3f29791",
-     "published": "2026-10-25T12:53Z"
+     "title": "Suveren seier for Kimi Antonelli i USA",
+     "url": "https://www.nrk.no/sport/suveren-antonelli-seier-i-usa-1.18064436",
+     "source": "NRK",
+     "summary": "Mercedes-føreren kjørte en feilfri helg og vant Formel 1-løpet i Texas med god margin.",
+     "img": "https://gfx.nrk.no/SkoVD7LSHs46nzb3XqGvuQBzMSijVFRDJ6J6BQUfxS8g.jpg",
+     "published": "2026-10-25T21:44Z"
     },
     {
-     "title": "Jonatan Braut Brunes scoret fire mål for Sparta Praha",
+     "title": "Jonatan Braut Brunes scoret fire for Sparta Praha – publikum rodde",
      "url": "https://www.nrk.no/sport/jonatan-braut-brunes-scoret-fire-for-sparta-praha-_-publikum-rodde-1.18064517",
      "source": "NRK",
-     "summary": "Den norske spissen Jonatan Braut Brunes herjet i den tsjekkiske eliteserien og scoret hele fire mål i en 5-1-seier. Prestasjonen ble hyllet av både publikum og lagkamerater.",
-     "published": "2026-10-25T20:31Z",
+     "summary": "Jonatan Braut Brunes herjet og scoret fire ganger for Sparta Praha i 5-1-seieren over Slovacko i tsjekkisk eliteserie. På tribunen rodde hjemmefansen til hans ære. Fetteren til Erling Braut Haaland gjorde ekte hattrick …",
+     "published": "2026-10-25T20:30Z",
      "img": "https://static.nrk.no/nrkno/serum/2.0.532/common/img/default.jpg"
     }
    ]
   }
  ],
  "stats": {
-  "total": 986,
+  "total": 979,
   "chosen": 45,
-  "notchosen": 179,
+  "notchosen": 175,
   "removed": {
    "uro": 30,
-   "konflikt": 26,
+   "konflikt": 25,
    "sykdom": 42,
-   "gammel": 382,
-   "kjendis": 169,
-   "krim": 50,
-   "format": 28,
-   "betalt": 35
+   "gammel": 384,
+   "kjendis": 165,
+   "krim": 53,
+   "format": 26,
+   "betalt": 34
   }
  },
  "today": {
@@ -995,45 +993,45 @@
   "power_tomorrow": {},
   "weather": {
    "oslo": {
-    "temp": 10,
+    "temp": 11,
     "min": 8,
-    "max": 14,
+    "max": 13,
     "symbol": "clearsky_day",
     "rain6": 0.0
    },
    "kristiansand": {
-    "temp": 11,
-    "min": 8,
+    "temp": 12,
+    "min": 9,
     "max": 12,
-    "symbol": "partlycloudy_day",
+    "symbol": "cloudy",
     "rain6": 0.0
    },
    "trondheim": {
-    "temp": 9,
+    "temp": 10,
     "min": 7,
-    "max": 11,
+    "max": 12,
     "symbol": "lightrainshowers_day",
     "rain6": 1.2
    },
    "tromso": {
     "temp": 10,
-    "min": 9,
-    "max": 11,
+    "min": 8,
+    "max": 10,
     "symbol": "lightrainshowers_day",
     "rain6": 1.2
    },
    "bergen": {
     "temp": 10,
+    "min": 8,
+    "max": 11,
+    "symbol": "lightrain",
+    "rain6": 0.5
+   },
+   "stavanger": {
+    "temp": 10,
     "min": 9,
     "max": 11,
     "symbol": "lightrain",
-    "rain6": 1.3
-   },
-   "stavanger": {
-    "temp": 11,
-    "min": 9,
-    "max": 11,
-    "symbol": "partlycloudy_day",
     "rain6": 0.0
    }
   },
