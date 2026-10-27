@@ -1,33 +1,33 @@
 {
- "updated": "2026-10-27T13:48",
+ "updated": "2026-10-27T14:58",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Sauda-ordfører får Åpenhetsprisen",
+     "title": "EU vil styrke grensekontrollen og utvide Frontex",
+     "url": "https://www.nettavisen.no/nyheter/eu-vil-styrke-grensekontrollen/s/80-95-196365",
+     "source": "Nettavisen",
+     "summary": "EU ønsker å gi grensekontrollbyrået Frontex utvidede fullmakter og nær tredoble styrken som kan stå ved territoriets yttergrenser.",
+     "published": "2026-10-27T13:48Z",
+     "img": "https://g.acdn.no/obscura/API/dynamic/r1/cue/tr_2000_2000_s_f/1793108551000/nettav/2026/10/27/13/Frontex+flger+blant+annet+med+p+yttergrensense+av+gresk+farvann+i+Middelhavet.+Foto%3A+Lefteris+Pita?chk=5277E5"
+    },
+    {
+     "title": "Sauda-ordfører tildeles Åpenhetsprisen",
      "url": "https://e24.no/naeringsliv/i/zlp4wr/sauda-ordfoerer-faar-aapenhetsprisen",
      "source": "E24",
-     "summary": "Håvard Handeland (Ap) tildeles Åpenhetsprisen for sin håndtering av den mye omtalte datasenter-kampen.",
+     "summary": "Håvard Handeland (Ap) får prisen for sin håndtering av den mye omtalte datasenter-kampen.",
      "img": "https://akamai.vgc.no/v2/images/72a85fb8-6495-3193-b34b-1b815a671a36?format=auto&w=1000&s=1a18d13e659d6c8d0a638d2e183f4db9b8553bf5",
-     "published": "2026-10-27T12:02Z"
+     "published": "2026-10-27T12:05Z"
     },
     {
-     "title": "Send inn forslag: Hvem er Årets trønder og Årets hverdagshelt?",
+     "title": "Inviterer til å hedre lokale helter",
      "url": "https://www.nrk.no/trondelag/2026_-hvem-er-arets-tronder-og-arets-hverdagshelt_-1.18054356",
      "source": "NRK Trøndelag",
-     "summary": "Nå er det igjen åpnet for at folk kan sende inn forslag på personer som fortjener ekstra heder og oppmerksomhet i regionen.",
+     "summary": "Nå åpnes det for å sende inn forslag på hvem som fortjener tittelen som årets hverdagshelt og trønder.",
      "img": "https://gfx.nrk.no/u7E1SiGn1aU5EEgEKlY05QGpEB6999MHfhJiOXo1ofvg.jpg",
-     "published": "2026-10-26T07:05Z"
-    },
-    {
-     "title": "E6 mellom Biri og Vingrom åpen igjen etter oversvømmelse",
-     "url": "https://www.nrk.no/innlandet/e6-stengt-mellom-lillehammer-og-biri-1.18064498",
-     "source": "NRK Innlandet",
-     "summary": "Oversvømmelsene som stengte E6 søndag kveld er over, og veien er nå åpnet for normal trafikk igjen.",
-     "img": "https://gfx.nrk.no/t6jg2P7eP6pgvvuPpBUZVAIFVum3gCeU-3dnchMXomjg.jpg",
-     "published": "2026-10-25T19:53Z"
+     "published": "2026-10-26T07:08Z"
     }
    ]
   },
@@ -36,28 +36,28 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
+     "title": "Videre oppgang på Wall Street",
+     "url": "https://e24.no/boers-og-finans/i/GrWwQx/oppgangen-fortsetter-paa-wall-street",
+     "source": "E24",
+     "summary": "Aksjemarkedet i USA fortsetter oppover, anført av brikkeaksjer som stiger for andre dag på rad.",
+     "img": "https://akamai.vgc.no/v2/images/cbb39bae-da6d-322a-b591-86d3e6400e2a?format=auto&w=1000&s=ae60c0d52314b4c3becc4437712cd5b873618c58",
+     "published": "2026-10-27T13:35Z"
+    },
+    {
+     "title": "Fransk forbrukertillit på det laveste på 13 år",
+     "url": "https://e24.no/boers-og-finans/i/k0dv69/fransk-forbrukertillit-laveste-paa-13-aar",
+     "source": "E24",
+     "summary": "Franskmennene har ikke hatt lavere forventninger til egen kjøpekraft siden 2013.",
+     "img": "https://akamai.vgc.no/v2/images/160df9c3-2727-3f6f-b172-44341a75c921?format=auto&w=1000&s=2694609183f472560b30bf8042417df3f74e55e9",
+     "published": "2026-10-27T08:08Z"
+    },
+    {
      "title": "Kraftig økning i strømprisen i Midt-Norge",
      "url": "https://www.tu.no/energi/strommen-i-midt-norge-nesten-atte-ganger-dyrere-pa-ett-ar/7178629",
      "source": "Teknisk Ukeblad",
-     "summary": "Sammenlignet med tredje kvartal i fjor har strømprisen i Midt-Norge (NO3) økt med hele 770 prosent.",
+     "summary": "Sammenlignet med samme kvartal i fjor har strømprisen i prisområde NO3 steget markant over året.",
      "img": "https://image.tu.no/7143783.webp?imageId=7143783&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-10-26T15:02Z"
-    },
-    {
-     "title": "Vurderer strengere energikrav for store kraftforbrukere",
-     "url": "https://www.tu.no/energi/aasland-datasentre-kan-matte-bygge-ut-mer-fornybar-kraft/7178717",
-     "source": "Teknisk Ukeblad",
-     "summary": "Energiministeren opplyser at regjeringen vil vurdere strengere krav for store kraftforbrukere, og trekker frem solceller på tak som et mulig tiltak.",
-     "img": "https://image.tu.no/7178730.webp?imageId=7178730&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-10-27T06:58Z"
-    },
-    {
-     "title": "Fransk forbrukertillit på det laveste nivået på 13 år",
-     "url": "https://e24.no/boers-og-finans/i/k0dv69/fransk-forbrukertillit-laveste-paa-13-aar",
-     "source": "E24",
-     "summary": "Forventningene til egen kjøpekraft blant franskmennene har ikke vært lavere siden 2013.",
-     "img": "https://akamai.vgc.no/v2/images/160df9c3-2727-3f6f-b172-44341a75c921?format=auto&w=1000&s=2694609183f472560b30bf8042417df3f74e55e9",
-     "published": "2026-10-27T08:05Z"
+     "published": "2026-10-26T15:05Z"
     }
    ]
   },
@@ -66,28 +66,28 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Dødsdømt satellitt gir ny kunnskap om atmosfæren",
+     "title": "Norsk forskningssatellitt gir ny atmosfærekunnskap",
      "url": "https://gemini.no/2026/10/dodsdomt-satellitt-gir-ny-kunnskap-om-atmosfaeren/",
      "source": "Gemini",
-     "summary": "Norges første forskningssatellitt har nådd sine siste dager og utnytter tiden til unike eksperimenter før den brenner opp i atmosfæren.",
+     "summary": "Norges første forskningssatellitt har nådd sine siste dager og benyttes til unike eksperimenter før den brenner opp i atmosfæren.",
      "img": "https://gemini.no/wp-content/uploads/2026/10/hypso-1_inspeksjonnt-265x152.jpg",
-     "published": "2026-10-27T03:01Z"
+     "published": "2026-10-27T03:04Z"
     },
     {
-     "title": "Derfor tok blomstene over verden",
+     "title": "Derfor tok blomstene over jorden",
      "url": "https://www.forskning.no/biologi/derfor-tok-blomstene-over-verden/2725378",
      "source": "forskning.no",
-     "summary": "Ny forskning viser at ekstrem varme langt tilbake i tid gjorde det enklere og smartere å være en plantetype med blomster.",
+     "summary": "Ekstrem varme for lenge siden gjorde det enklere og mer hensiktsmessig for planter å utvikle blomster.",
      "img": "https://image.forskning.no/2726969.webp?imageId=2726969&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-26T23:01Z"
+     "published": "2026-10-26T23:04Z"
     },
     {
-     "title": "Nye kart dokumenterer villmarkas betydning for snøugla",
-     "url": "https://www.birdlife.no/naturforvaltning/nyheter/?id=4115",
-     "source": "BirdLife Norge",
-     "summary": "Det norske snøugleprosjektet har fremskaffet unike data som viser hvor viktig Davvi-området er for arten.",
-     "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/10/23/12790/snougle.jpg",
-     "published": "2026-10-23T00:00Z"
+     "title": "Historiker: Da nordmenn flest var skeptiske til poteten",
+     "url": "https://www.forskning.no/historie-humaniora-kultur/nordmenn-var-skeptiske-da-poteten-kom-til-landet/2721899",
+     "source": "forskning.no",
+     "summary": "Historieprofessoren forteller om en tid da folk var så knyttet til sin vanlige mat at poteten møtte stor skepsis da den først kom.",
+     "img": "https://image.forskning.no/2724918.webp?imageId=2724918&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=1058&format=jpg",
+     "published": "2026-10-24T22:04Z"
     }
    ]
   },
@@ -96,28 +96,28 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Studie: Studenter som unngikk kunstig intelligens presterte best",
+     "title": "Slik har karakterene endret seg etter at NTNU-studenter tok i bruk KI",
+     "url": "https://www.nrk.no/trondelag/studenter-som-brukte-ki-mye_-fikk-darligere-karakterer-pa-eksamen_-viser-ny-studie-fra-ntnu-1.18060556",
+     "source": "NRK Trøndelag",
+     "summary": "Et dypdykk i hvordan bruken av kunstig intelligens har påvirket studentenes akademiske resultater over tid.",
+     "img": "https://gfx.nrk.no/exoBriSs2WoYxFhHLGE8qQyjMD37X_WSNoKYpxWlNQWg.jpg",
+     "published": "2026-10-26T15:16Z"
+    },
+    {
+     "title": "Studie: Studenter som unngikk KI presterte best på eksamen",
      "url": "https://gemini.no/2026/10/studenter-som-ikke-brukte-ki-presterte-best-pa-eksamen/",
      "source": "Gemini",
-     "summary": "En undersøkelse viser at både bruken av KI og måten studentene tok teknologien i bruk hang tydelig sammen med eksamenskarakterene.",
+     "summary": "En undersøkelse viser en klar sammenheng mellom studentenes eksamensresultater og fraværet av kunstig intelligens i studiehverdagen.",
      "img": "https://gemini.no/wp-content/uploads/2026/10/immatrikulering_ntnu_kait_dragland-265x152.jpg",
-     "published": "2026-10-26T03:01Z"
+     "published": "2026-10-26T03:04Z"
     },
     {
-     "title": "Microsoft tilbyr frivillig sluttpakke til ansatte",
-     "url": "https://www.gamer.no/artikler/microsoft-tilbyr-frivillig-sluttpakke-til-60-000-ansatte/521261",
-     "source": "Gamer.no",
-     "summary": "Teknologiganten tilbyr sluttpakker til et stort antall ansatte som et ledd i selskapets økte satsing på kunstig intelligens.",
-     "img": "https://i.bo3.no/image/402310/Highlight-Microsoft-Brick-and-Mortar-Store-en-us%253AVP4-1468x826.jpg?c=0&h=338&w=600",
-     "published": "2026-10-27T11:52Z"
-    },
-    {
-     "title": "Forskere tar til orde for å utvikle åpne KI-modeller",
+     "title": "Forskere tar til orde for å boikotte store KI-selskaper",
      "url": "https://www.forskning.no/akademia-kronikk-kunstig-intelligens/forskere-bor-boikotte-de-store-ki-selskapene/2729075",
      "source": "forskning.no",
-     "summary": "En ny kronikk tar til orde for at forskere bør fase ut bruken av de største kommersielle KI-tjenestene for å styrke arbeidet med åpne alternativer.",
+     "summary": "En kronikk argumenterer for fordelene ved å fase ut bruk av de store teknologiselskapenes tjenester til fordel for åpne modeller.",
      "img": "https://image.forskning.no/2729084.webp?imageId=2729084&x=0.00&y=7.28&cropw=100.00&croph=85.43&heightx=34.22&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-27T00:10Z"
+     "published": "2026-10-27T00:13Z"
     }
    ]
   },
@@ -126,28 +126,28 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Fortsatt flere jerver enn myndighetenes mål",
+     "title": "Nye kart dokumenterer villmarkens betydning for snøugla",
+     "url": "https://www.birdlife.no/naturforvaltning/nyheter/?id=4115",
+     "source": "BirdLife Norge",
+     "summary": "Det norske snøugleprosjektet har fremskaffet unike data som viser hvor viktig Davvi-området er for arten.",
+     "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/10/23/12790/snougle.jpg",
+     "published": "2026-10-23T00:03Z"
+    },
+    {
+     "title": "Stabilt høyt nivå av jerv i Norge",
      "url": "https://www.forskning.no/dyreverden-norsk-institutt-for-naturforskning-partner/fortsatt-flere-jerver-enn-myndighetenes-mal/2724093",
      "source": "forskning.no",
-     "summary": "Det er i år påvist totalt 52 jervekull i Norge, noe som er over det vedtatte bestandsmålet.",
+     "summary": "Det er i år påvist 52 jervekull i landet, noe som er over myndighetenes vedtatte bestandsmål.",
      "img": "https://image.forskning.no/2724110.jpg?imageId=2724110&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=18.26&heighty=9.24&heightw=37.43&heighth=90.09&width=1058&height=582&format=webp&width=1058&height=402&format=webp&format=jpg",
-     "published": "2026-10-26T23:03Z"
+     "published": "2026-10-26T23:06Z"
     },
     {
-     "title": "Nytt rekordår for klimagasser i atmosfæren",
-     "url": "https://www.forskning.no/klima-ntb/fn-2025-ble-et-nytt-rekordar-for-mengden-klimagasser-i-atmosfaeren/2729599",
-     "source": "forskning.no",
-     "summary": "FN melder at det totale nivået av klimagasser i atmosfæren nådde nye høyder i 2025.",
-     "img": "https://image.forskning.no/2729608.webp?imageId=2729608&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-27T10:48Z"
-    },
-    {
-     "title": "Elden Ring-filmens budsjett på 1,8 milliarder",
-     "url": "https://www.gamer.no/artikler/elden-ring-filmens-budsjett-pa-18-milliarder/521257",
-     "source": "Gamer.no",
-     "summary": "Skal være den klart dyreste filmen A24 har produsert.",
-     "img": "https://i.bo3.no/image/402277/Elden_Ring_Screenshot_07.jpg?c=0&h=337&w=599",
-     "published": "2026-10-27T07:11Z"
+     "title": "Historisk bre har smeltet helt bort",
+     "url": "https://www.nrk.no/artikkel/30004000-ar-gammel-bre-helt-forsvunnet-i-sommer-1530844",
+     "source": "NRK Vestland",
+     "summary": "En flere tusen år gammel bre har i løpet av sommeren blitt helt borte.",
+     "img": "https://gfx.nrk.no/DoLrRnTCg8FsYd0pCYlPFw_0EwXLX5VWFlNXpzZLpohg.jpg",
+     "published": "2026-10-26T11:08Z"
     }
    ]
   },
@@ -156,28 +156,28 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Spontanabort er vanlig – men det snakkes for lite om det",
+     "title": "Åpenhet om spontanabort: Vanlig å oppleve, men det snakkes lite om",
      "url": "https://www.psykologisk.no/nyheter/minst-en-av-seks-graviditeter-ender-i-spontanabort-likevel-snakkes-det-lite-om/164572",
      "source": "Psykologisk.no",
-     "summary": "Statistisk sett opplever mange en spontanabort, men for den som rammes, oppleves det ofte som svært isolerende og uvanlig.",
+     "summary": "Statistikken viser at mange opplever spontanabort, selv om det for den enkelte kan føles ensomt og uvanlig.",
      "img": "https://image.psykologisk.no/164580.jpg?imageId=164580&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=25.40&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-27T05:01Z"
+     "published": "2026-10-27T05:04Z"
     },
     {
-     "title": "Hvordan vennlig oppmerksomhet kan dempe livets vanskeligheter",
-     "url": "https://www.mindful.org/power-of-loving-awareness/",
-     "source": "Mindful",
-     "summary": "Mindfulness kan ikke endre vonde omstendigheter i seg selv, men å møte dem med bevisst nærvær kan redusere lidelse og styrke indre kontakt.",
-     "published": "2026-10-26T18:40Z",
-     "img": "https://www.mindful.org/content/uploads/Article-header_The-Power-of-Loving-Awareness.jpg"
+     "title": "Klinisk angst er noe annet enn hverdagsbekymringer",
+     "url": "https://psyche.co/ideas/everyone-says-they-have-anxiety-clinical-anxiety-is-different",
+     "source": "Psyche",
+     "summary": "Erfaringer viser at man ikke kan utslette det som er en del av en selv, men at man kan endre måten man forholder seg til det på.",
+     "img": "https://images.aeonmedia.co/images/aa7df25e-05ae-4109-86cf-f6ae0620515a/sz-this-gettyimages-2215104767.jpg?top=254&left=0&cropWidth=2592&cropHeight=1458&width=1200&quality=75&format=auto",
+     "published": "2026-10-26T10:03Z"
     },
     {
-     "title": "Filosofiske perspektiver på å snu motgang til vekst",
+     "title": "Marcus Aurelius om å snu motgang til lærdom",
      "url": "https://www.themarginalian.org/2026/10/27/marcus-aurelius-luck/",
      "source": "The Marginalian",
-     "summary": "Marcus Aurelius-sitater minner oss om at vanskelige opplevelser kan møtes med motstandsdyktighet og personlig styrke.",
+     "summary": "Refleksjoner over hvordan man kan bære med seg erfaringer når uforutsette ting rammer.",
      "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2021/04/meditations_robinwaterfield.jpg?fit=320%2C496&ssl=1",
-     "published": "2026-10-27T11:52Z"
+     "published": "2026-10-27T11:55Z"
     }
    ]
   },
@@ -186,28 +186,28 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Kostholdet som kan bidra til å styrke hjernen over tid",
-     "url": "https://www.psykologisk.no/nyheter/dette-kostholdet-kan-bremse-aldringen-med-to-og-et-halvt-ar/164160",
-     "source": "Psykologisk.no",
-     "summary": "Langtidsstudier av over tusen deltakere viser positive sammenhenger mellom spesifikke kostholdsvaner og bevaring av kognitiv funksjon i eldre år.",
-     "img": "https://image.psykologisk.no/164165.jpg?imageId=164165&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-26T05:01Z"
-    },
-    {
-     "title": "Studie viser at lettbrus fungerer godt for vektnedgang",
-     "url": "https://www.forskning.no/mat-og-helse-overvekt/ny-studie-fungerte-like-godt-som-vann/2727104",
-     "source": "forskning.no",
-     "summary": "Britisk forskning indikerer at lettbrus kan fungere like bra som rent vann når man ønsker å redusere vekten.",
-     "img": "https://image.forskning.no/2727121.jpg?imageId=2727121&panox=0.00&panoy=0.83&panow=100.00&panoh=71.67&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-25T23:02Z"
-    },
-    {
-     "title": "Forskere gir nye svar om antibiotikakurer",
+     "title": "Ny studie om antibiotikakurer skaper debatt blant professorer",
      "url": "https://www.forskning.no/antibiotikaresistens-medisiner-videnskabdk/ma-du-fullfore-antibiotikakuren-studie-far-professorer-til-a-gi-klar-beskjed/2726206",
      "source": "forskning.no",
-     "summary": "En fersk studie kaster nytt lys over det klassiske rådet om å alltid fullføre hele antibiotikakuren.",
+     "summary": "Et tradisjonelt råd om å fullføre hele antibiotikakuren settes under lupen i ny forskning.",
      "img": "https://image.forskning.no/2728475.jpg?imageId=2728475&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-26T23:02Z"
+     "published": "2026-10-26T23:05Z"
+    },
+    {
+     "title": "Kostholdsvaner knyttet til langsommere aldring i hjernen",
+     "url": "https://www.psykologisk.no/nyheter/dette-kostholdet-kan-bremse-aldringen-med-to-og-et-halvt-ar/164160",
+     "source": "Psykologisk.no",
+     "summary": "Forskere har fulgt over tusen deltakere over flere år for å kartlegge hvordan ulike matvaner påvirker aldringsprosessen.",
+     "img": "https://image.psykologisk.no/164165.jpg?imageId=164165&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-10-26T05:04Z"
+    },
+    {
+     "title": "Studie viser at lettbrus fungerer like godt som vann for vektnedgang",
+     "url": "https://www.forskning.no/mat-og-helse-overvekt/ny-studie-fungerte-like-godt-som-vann/2727104",
+     "source": "forskning.no",
+     "summary": "En britisk studie indikerer at lettbrus kan være et like godt alternativ som vann når målet er å gå ned i vekt.",
+     "img": "https://image.forskning.no/2727121.jpg?imageId=2727121&panox=0.00&panoy=0.83&panow=100.00&panoh=71.67&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-10-25T23:05Z"
     }
    ]
   },
@@ -216,28 +216,28 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Sansebrett lar barn oppleve litteratur med hendene",
+     "title": "Utfordringer med frafall i starten av skoleåret ved videregående skole",
+     "url": "https://www.utdanningsnytt.no/grunnskole-karakterbasert-inntak-videregaende/skolen-mistet-en-tredel-av-en-elevgruppe-etter-forste-termin/504690",
+     "source": "Utdanningsnytt",
+     "summary": "Ved Rosenvilde videregående skole sluttet eller uteble en del av elevene som var tatt inn etter individuell behandling.",
+     "img": "https://image.utdanningsnytt.no/505197.jpg?imageId=505197&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
+     "published": "2026-10-27T05:00Z"
+    },
+    {
+     "title": "Skap sansebrett for å la barn oppleve litteratur med hendene",
      "url": "https://www.utdanningsnytt.no/fantasifantasten-forste-steg-lek/la-barna-oppleve-boker-gjennom-et-sansebrett/501863",
      "source": "Utdanningsnytt",
-     "summary": "Ved å lage enkle sansebrett på gulvet kan barnehagebarn få en mer fysisk og taktil opplevelse av barnelitteraturen.",
+     "summary": "Et praktisk tips til hvordan man kan lage sansebrett på gulvet for å levendegjøre barnelitteraturen for de minste.",
      "img": "https://image.utdanningsnytt.no/501876.jpg?imageId=501876&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-10-27T06:01Z"
+     "published": "2026-10-27T06:04Z"
     },
     {
-     "title": "Ny barnebok feirer naturens årstider",
+     "title": "Ny barnebok feirer snøgjessenes høytid",
      "url": "https://www.npr.org/2026/10/25/nx-s1-5871193/snow-geese-season-angela-burke-kunkel-eb-goodale",
      "source": "NPR Books",
-     "summary": "En aktuell bildebok tar for seg den virkelige naturhendelsen når snøgjessene trekker sørover og dekker bakken i Vermont.",
-     "published": "2026-10-25T11:00Z",
+     "summary": "En ny bildebok retter søkelyset mot den virkelige naturhendelsen når trekkfuglene fyller landskapet om høsten.",
+     "published": "2026-10-25T11:03Z",
      "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/790x445+722+0/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffb%2F10%2Ff13b5c8c432a8991fc0121bc96f7%2Fsnowgeeseseason-interior-select4.jpg"
-    },
-    {
-     "title": "Samling med favorittbøker for barn gjennom to tiår",
-     "url": "https://www.themarginalian.org/2026/10/25/20-childrens-books/",
-     "source": "The Marginalian",
-     "summary": "En oversikt over klassiske barnebøker minner oss om betydningen av å skrive med substans og respekt for den unge leseren.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2026/10/thelittleprince_original.jpg?w=325&ssl=1",
-     "published": "2026-10-25T20:13Z"
     }
    ]
   },
@@ -246,28 +246,26 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Formidler zenbuddhisme gjennom meditasjon og fellesskap",
+     "title": "Zen Fredrikstad fremmer indre ro gjennom meditasjon",
      "url": "https://buddhistforbundet.no/medlemsorganisasjoner/automatisk-kladd/",
      "source": "Buddhistforbundet",
-     "summary": "Zen Fredrikstad arbeider for å fremme forståelsen av zenbuddhisme med et særskilt fokus på meditasjon og indre ro.",
-     "published": "2026-10-22T12:27Z",
+     "summary": "Foreningen arbeider for å dele forståelsen av zenbuddhisme gjennom felles meditasjon og undervisning.",
+     "published": "2026-10-22T12:29Z",
      "img": "https://buddhistforbundet.no/wp-content/uploads/2026/10/Zen-Fredkrikstad-seshin.jpeg"
     },
     {
-     "title": "Hvordan tvil kan bli en drivkraft for personlig praksis",
-     "url": "https://tricycle.org/article/live-the-questions/",
-     "source": "Tricycle",
-     "summary": "Refleksjoner fra buddhistiske tidsskrifter viser hvordan undring og eksistensielle spørsmål kan fordype den åndelige reisen.",
-     "published": "2026-10-27T10:01Z",
-     "img": "https://tricycle.org/wp-content/uploads/2026/10/Leonid_Pasternak_-_Portrait_painting_of_Rainer_Maria_Rilke.jpg"
+     "title": "Kraften i nærvær og medfølelse i hverdagen",
+     "url": "https://www.mindful.org/power-of-loving-awareness/",
+     "source": "Mindful",
+     "summary": "Mindfulness kan kanskje ikke endre alle ytre omstendigheter, men bevisst nærvær kan minske indre uro og styrke livskvaliteten.",
+     "published": "2026-10-26T18:43Z",
+     "img": "https://www.mindful.org/content/uploads/Article-header_The-Power-of-Loving-Awareness.jpg"
     },
     {
-     "title": "Walt Whitmans tidløse råd om et levende og rikt liv",
-     "url": "https://www.themarginalian.org/2026/10/26/walt-whitman-leaves-of-grass-preface/",
-     "source": "The Marginalian",
-     "summary": "Klassiske tekster oppfordrer til å verdsette naturen rundt oss, lytte til egne indre verdier og finne sin egen vei i tilværelsen.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2013/05/leavesofgrass.jpg?w=680&ssl=1",
-     "published": "2026-10-26T17:14Z"
+     "title": "Ny biskop ønsker en åpen kirke for alle",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20kirke%20som%20er%20%C3%A5pen%20for%20alle/",
+     "source": "Den norske kirke",
+     "summary": "Stig Lægdene har som hovedbudskap at flest mulig skal føle seg hjemme og inkludert i Den norske kirke."
     }
    ]
   },
@@ -276,28 +274,28 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Utforsker estisk urfolksidentitet i ny utstilling",
+     "title": "Estisk urfolksidentitet under lupen i Tallinn",
      "url": "https://kunstkritikk.no/expeditions-into-the-self/",
      "source": "Kunstkritikk",
-     "summary": "En kunstutstilling i Tallinn retter søkelyset mot estisk urfolkskultur og identitet.",
-     "published": "2026-10-27T08:23Z",
+     "summary": "En kunstutstilling utforsker historiske og kulturelle røtter knyttet til estisk urfolk.",
+     "published": "2026-10-27T08:26Z",
      "img": "https://cdn.kunstkritikk.no/uploads/2026/10/onslag3.jpeg"
     },
     {
-     "title": "Snøhettas nye operahus i Shanghai har åpnet dørene",
+     "title": "Snøhettas svimlende spiraltrapp i Shanghai",
      "url": "https://www.tu.no/bygg/snohettas-svimlende-spiraltrapp/7149044",
      "source": "Teknisk Ukeblad",
-     "summary": "Det spektakulære bygget med sin karakteristiske svimlende spiraltrapp har markert åpningen for publikum.",
+     "summary": "Teppet har gått opp for Shanghais nye operahus, som er designet av det norske arkitektkontoret.",
      "img": "https://image.tu.no/7149135.webp?imageId=7149135&x=0.00&y=11.59&cropw=100.00&croph=63.86&heightx=26.12&heighty=0.00&heightw=46.37&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-10-25T15:10Z"
+     "published": "2026-10-25T15:13Z"
     },
     {
-     "title": "Litterære skildringer av kunst og amatører",
+     "title": "Kunsten å skildre kunstnere i litteraturen",
      "url": "https://lithub.com/jane-eyres-watercolors-lily-briscoes-paintings-and-the-problem-with-writing-about-art/",
      "source": "Literary Hub",
-     "summary": "En gjennomgang av hvordan billedkunst og malerkunst fremstilles og utforskes gjennom kjente romanfigurer.",
+     "summary": "En betraktning rundt hvordan fiktive og amatørmessige kunstnere har blitt portrettert gjennom litteraturhistorien.",
      "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/woman-artists-in-art-studio-768x432.png",
-     "published": "2026-10-27T09:01Z"
+     "published": "2026-10-27T09:03Z"
     }
    ]
   },
@@ -306,28 +304,28 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Ny sesong av Komposisjonsforum utforsker teknologi og musikk",
+     "title": "Kunstnernes Hus setter teknologi på agendaen i ny sesong",
      "url": "https://www.ballade.no/musikkteknologi/ny-sesong-av-komposisjonsforum-om-teknologi/",
      "source": "Ballade",
-     "summary": "Kunstnernes Hus i Oslo setter teknologi, menneske og makt i sentrum for sin nyeste samtalekveld.",
+     "summary": "Komposisjonsforum i Oslo inviterer til en serie som utforsker forholdet mellom musikk, teknologi, historie og menneske.",
      "img": "https://www.ballade.no/wp-content/uploads/2026/10/Screenshot-2026-10-26-235600.png",
-     "published": "2026-10-26T23:02Z"
+     "published": "2026-10-26T23:05Z"
     },
     {
-     "title": "CMAT gjestet Tiny Desk Concert med sterk energi",
+     "title": "Suksessfull opptreden med CMAT på Tiny Desk",
      "url": "https://www.npr.org/2026/10/27/g-s1-146871/cmat-tiny-desk-concert",
      "source": "NPR Music",
-     "summary": "Artistens opptreden bød på fengende låtskriving, solid vokal og et opplagt band.",
-     "published": "2026-10-27T09:00Z",
+     "summary": "Artistens opptreden fremheves for sin sterke scenekurve, gode låtskriving og fine formidlingsevne.",
+     "published": "2026-10-27T09:03Z",
      "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2048x1152+0+0/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F29%2Fbb%2F11411d3243ffbefcef88a4ad1ed2%2F20260929-cmat-performs-a-tiny-desk-concert-at-npr-in-washington-d-c-vanessa-castillo-3-2-3.jpg"
     },
     {
-     "title": "The Flaming Lips annonserer nytt album",
-     "url": "https://stereogum.com/2515626/the-flaming-lips-announce-first-post-steven-drozd-album-the-teardrop-throbs-hear-god-will-control-the-werewolves/music/",
+     "title": "Sufjan Stevens med sjelden liveopptreden og ny julesang",
+     "url": "https://stereogum.com/2515669/sufjan-stevens-makes-rare-onstage-appearance-readies-new-christmas-song/news/",
      "source": "Stereogum",
-     "summary": "Bandet er klare med sin første plate etter at Steven Drozd takket for seg, og har sluppet en smakebit fra utgivelsen.",
-     "img": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/10/SnapInsta-Ai_4016613994166203160_182510900.jpg?w=564",
-     "published": "2026-10-26T19:05Z"
+     "summary": "Den folkekjære artisten har gledet fansen med både et scenecomeback og ny musikk i vente.",
+     "img": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/10/unnamed-2026-10-27T093120.232.jpg?w=564",
+     "published": "2026-10-27T13:37Z"
     }
    ]
   },
@@ -336,28 +334,28 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Nye noveller skildrer familiemøter og relasjoner",
+     "title": "Nye noveller skaper begeistring med hverdagsfortellinger",
      "url": "https://www.npr.org/2026/10/26/nx-s1-6017155/seven-stories-about-tammy-elizabeth-mccracken-review",
      "source": "NPR Books",
-     "summary": "Elizabeth McCracken er aktuell med en samling sammenhengende historier om en families møter med sønnens kjæreste.",
-     "published": "2026-10-26T16:28Z",
+     "summary": "Elizabeth McCracken samler trådene i en ny bok som skildrer familiemøter og nære relasjoner.",
+     "published": "2026-10-26T16:31Z",
      "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1080x607+0+499/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F79%2F8e%2F673f7b924423b225dd5827152429%2F71xkiie-zul-sl1500.jpg"
     },
     {
-     "title": "Eksistensielt mellomspråk i ny roman om midten av livet",
+     "title": "Eksistensiell roman om å finne fotfeste midt i livet",
      "url": "https://www.theguardian.com/books/2026/oct/27/time-being-by-jude-cook-review-a-smart-existential-tale-of-midlife",
      "source": "The Guardian (bøker)",
-     "summary": "Jude Cooks nye bok tar for seg en filosofiprofessor som navigerer i skyggen av alvorlig sykdom og tilværelsens dypere spørsmål.",
+     "summary": "Jude Cooks nye bok tar for seg en filosofiprofessor som navigerer i skyggen av store livsvalg.",
      "img": "https://i.guim.co.uk/img/media/955d54cd7679f81f97a88ed9ee1458efed3d1c50/59_69_5774_4619/master/5774.jpg?width=140&quality=85&auto=format&fit=max&s=7c956ffead227fafc801b616931e689c",
-     "published": "2026-10-27T09:00Z"
+     "published": "2026-10-27T09:03Z"
     },
     {
-     "title": "Slik preget kaffevanene Honoré de Balzacs forfatterskap",
+     "title": "Kaffevaner og skrivekløe hos Honoré de Balzac",
      "url": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
      "source": "Open Culture",
-     "summary": "En titt på den franske forfatterens intense arbeidsrutiner og hans legendariske forhold til kaffe under skriveprosessen.",
+     "summary": "Et blikk inn i den legendariske forfatterens uvanlige og intensive arbeidsrutiner.",
      "img": "https://cdn8.openculture.com/2026/10/26223252/balzac-scaled.png",
-     "published": "2026-10-27T09:00Z"
+     "published": "2026-10-27T09:03Z"
     }
    ]
   },
@@ -366,28 +364,28 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Internasjonale prisvinnere på årets Film fra Sør-festival",
+     "title": "Internasjonale prisvinnere og mangfold på Film fra Sør",
      "url": "https://rushprint.no/2026/10/film-fra-sor-romcom-i-kabul-og-massiv-japansk-monsterfilm/",
      "source": "Rushprint",
-     "summary": "Festivalen byr på et variert program med alt fra romantiske komedier fra Kabul til anerkjente internasjonale filmperler.",
-     "published": "2026-10-26T17:11Z",
+     "summary": "Årets festival byr på et variert program med alt fra prisbelønte komedier til sterke dokumentarer.",
+     "published": "2026-10-26T17:14Z",
      "img": "https://rushprint.no/wp-content/uploads/2026/10/Still-1_Courtesy-Of-NEON.jpg.jpeg"
     },
     {
-     "title": "Oppsummering fra Busan internasjonale filmfestival",
-     "url": "https://www.rogerebert.com/festivals/busan-international-film-festival-2026-wrap-up",
-     "source": "RogerEbert.com",
-     "summary": "Årets filmfestival i Busan har avrundet sitt program med et bredt spekter av filmvisninger fra hele verden.",
-     "img": "https://www.rogerebert.com/wp-content/uploads/2026/10/01_CO_01_Still_1_Main_그날의-태주_Beach-Fictions-1.jpg",
-     "published": "2026-10-25T14:55Z"
-    },
-    {
-     "title": "Kinodokumentar gir bredt blikk på natur og miljø",
+     "title": "Kinodokumentar setter søkelyset på vern av natur",
      "url": "https://rushprint.no/2026/10/innblikk-og-utsyn/",
      "source": "Rushprint",
-     "summary": "Dokumentarfilmen «La fjella leve» gir et nøkternt og grundig innblikk i store naturspørsmål.",
-     "published": "2026-10-26T12:50Z",
+     "summary": "Filmen «La fjella leve» gir et nøkternt og nært innblikk i natur- og miljøvernperspektiver.",
+     "published": "2026-10-26T12:53Z",
      "img": "https://rushprint.no/wp-content/uploads/2026/10/LET_OUR_MOUNTAINS_LIVE_UPNORTH-FILM-30-1.jpeg"
+    },
+    {
+     "title": "Turner Brooks utforsker arkitektur som speil for menneskeliv",
+     "url": "https://www.theparisreview.org/blog/2026/10/23/turner-brooks-spatial-memories/",
+     "source": "The Paris Review",
+     "summary": "En gjennomgang av hvordan bygninger fungerer som rammer for de dypere menneskelige dramaene som utspiller seg i dem.",
+     "img": "https://www.theparisreview.org/blog/wp-content/uploads/2026/10/turner-2-1024x939.jpg",
+     "published": "2026-10-23T12:04Z"
     }
    ]
   },
@@ -396,28 +394,28 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Shigeru Miyamoto tildeles Japans høyeste kulturutmerkelse",
+     "title": "Shigeru Miyamoto tildeles Japans høyeste kulturmedalje",
      "url": "https://www.pressfire.no/artikkel/shigeru-miyamoto-far-japans-hoyeste-kulturutmerkelse",
      "source": "Pressfire",
-     "summary": "«Mario»-skaperen blir historiens første spillutvikler som mottar den prestisjetunge medaljen.",
+     "summary": "«Mario»-skaperen blir historiens første spillutvikler som mottar denne gjeve utmerkelsen etter 50 år i bransjen.",
      "img": "https://www.pressfire.no/storage/images/2026/10/27/21766/top_image.webp",
-     "published": "2026-10-27T09:17Z"
+     "published": "2026-10-27T09:20Z"
     },
     {
-     "title": "Sniktitt på oppfølgeren til storspillet Drova",
+     "title": "Ropoko byr på klassiske retroeventyr",
+     "url": "https://spillhistorie.no/2026/10/27/ropoko-herlig-eventyr-for-klassisk-maskinvare/",
+     "source": "Spillhistorie.no",
+     "summary": "Et nytt spill for klassisk maskinvare byr på utfordringer og nostalgisk spillglede for entusiastene.",
+     "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2025/12/ropoko.jpg?fit=300%2C150&ssl=1",
+     "published": "2026-10-27T13:12Z"
+    },
+    {
+     "title": "Sniktitt på det etterlengtede rollespillet Drova 2",
      "url": "https://spillhistorie.no/2026/10/26/sniktitt-drova-2-torn-lands/",
      "source": "Spillhistorie.no",
-     "summary": "Et av de senere årenes mest roste rollespill får en etterlengtet oppfølger med nye eventyr.",
+     "summary": "Oppfølgeren til et av de populære nyere rollespillene lover godt for fans av sjangeren.",
      "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/10/drova-2-b2-1.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-10-26T09:37Z"
-    },
-    {
-     "title": "Ny utvidelse til Marvel Cosmic Invasion med roguelite-modus",
-     "url": "https://www.gamereactor.no/marvel-cosmic-invasion-the-siege-of-castle-doom-dlc-legger-til-roguelite/",
-     "source": "Gamereactor",
-     "summary": "Spillet utvides med en ny spillmodus kalt Castle Doom i november.",
-     "published": "2026-10-27T08:53Z",
-     "img": "https://www.gamereactor.no/wp-content/uploads/sites/6/2026/10/ss_e0adf79d4bee58c06323896eb22a651f41217160.1920x1080-1600x900.jpg"
+     "published": "2026-10-26T09:40Z"
     }
    ]
   },
@@ -426,45 +424,45 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Sender Haaland på mini-ferie etter helgens tap",
-     "url": "https://www.nrk.no/sport/manchester-city-manageren-bekrefter_-sendte-haaland-pa-ferie-etter-tap-1.18065631",
-     "source": "NRK",
-     "summary": "Etter 1-2-tapet for Aston Villa fikk Erling Braut Haaland noen dagers avbrekk for å hente krefter før sesongen fortsetter.",
-     "img": "https://gfx.nrk.no/3437NHybvjWcSZIztyCkkQUPFmx9kVH-Cay4SsT9PjcQ.jpg",
-     "published": "2026-10-27T10:39Z"
-    },
-    {
-     "title": "Harry Kane vant Gullballen – Haaland høyt plassert",
-     "url": "https://www.aftenposten.no/sport/i/0BRjVM/harry-kane-vant-gullballen-haaland-med-karrierens-tredje-beste-plassering",
-     "source": "Aftenposten",
-     "summary": "Bayern München-stjernen tok hjem den prestisjetunge prisen som verdens beste spiller, mens Erling Braut Haaland sikret seg en sterk plassering blant de aller beste.",
-     "img": "https://akamai.vgc.no/v2/images/7c897898-6f79-3ce4-a445-fa6652020bc3?format=auto&w=1000&s=447c2a4fb8ab648dda8f620b9b8fd58390b5b101",
-     "published": "2026-10-26T19:08Z"
-    },
-    {
-     "title": "Casper Ruud snudde til seier i Basel",
+     "title": "Casper Ruud videre i Basel etter sterk snuoperasjon",
      "url": "https://www.vg.no/sport/i/X9Xwb7/casper-ruud-videre-i-basel-slo-tilbake-mot-ukjent-sveitser",
      "source": "VG",
-     "summary": "Den norske tennisprofilen fikk en tøff åpning på kampen, men kjempet seg tilbake og sikret avansement i ATP500-turneringen.",
-     "published": "2026-10-27T06:25Z",
+     "summary": "Den norske tennisprofilen fikk en tøff start, men kjempet seg mesterlig tilbake og sikret avansement i ATP500-turneringen.",
+     "published": "2026-10-27T06:28Z",
      "img": "https://akamai.vgc.no/v2/images/94fe7e77-cae5-3869-9c2c-65f3efec92e2?format=auto&w=1080&s=fb8be2b620009e86cce4807e6e6b38c8012dfdab"
+    },
+    {
+     "title": "Magni Smedås klar for nytt langløpslag",
+     "url": "https://www.nrk.no/innlandet/dalsbygda-loper-klar-for-nytt-profflag-1.18065651",
+     "source": "NRK",
+     "summary": "Langrennsløperen fra Dalsbygda tar steget over til det norske profflaget GVD Ski Team i Ski Classics.",
+     "img": "https://gfx.nrk.no/KWg9Z8v7V9o1aLgGMQUTuAvxVqWSwIb5CWkpxwzQmogA.jpg",
+     "published": "2026-10-27T06:12Z"
+    },
+    {
+     "title": "Sterk seier for Brandsegg-Nygård og Detroit Red Wings",
+     "url": "https://www.nrk.no/sport/brandsegg-nygard-og-detroit-red-wings-slo-edmonton-oilers-etter-straffeslag-1.18065627",
+     "source": "NRK",
+     "summary": "Det ble seier etter straffeslag i bortekampen mot Edmonton Oilers etter en jevnspilt og spennende kamp.",
+     "img": "https://gfx.nrk.no/_YUksfq2jXjnGuJdbkK4aQbXrhBD02U63bthLM76-N_A.jpg",
+     "published": "2026-10-27T05:13Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 974,
+  "total": 973,
   "chosen": 45,
-  "notchosen": 196,
+  "notchosen": 195,
   "removed": {
-   "uro": 36,
+   "uro": 34,
    "sykdom": 35,
-   "gammel": 374,
-   "kjendis": 134,
-   "krim": 55,
-   "format": 26,
+   "gammel": 367,
+   "kjendis": 140,
+   "krim": 59,
    "konflikt": 40,
-   "betalt": 33
+   "format": 27,
+   "betalt": 31
   }
  },
  "today": {
@@ -992,33 +990,524 @@
     ]
    ]
   },
-  "power_tomorrow": {},
+  "power_tomorrow": {
+   "NO1": [
+    [
+     "00:00",
+     180.1
+    ],
+    [
+     "01:00",
+     183.4
+    ],
+    [
+     "02:00",
+     183.3
+    ],
+    [
+     "03:00",
+     185.4
+    ],
+    [
+     "04:00",
+     186.1
+    ],
+    [
+     "05:00",
+     186.1
+    ],
+    [
+     "06:00",
+     196.5
+    ],
+    [
+     "07:00",
+     197.7
+    ],
+    [
+     "08:00",
+     202.6
+    ],
+    [
+     "09:00",
+     197.7
+    ],
+    [
+     "10:00",
+     193.9
+    ],
+    [
+     "11:00",
+     187.7
+    ],
+    [
+     "12:00",
+     184.6
+    ],
+    [
+     "13:00",
+     179.9
+    ],
+    [
+     "14:00",
+     187.9
+    ],
+    [
+     "15:00",
+     197.8
+    ],
+    [
+     "16:00",
+     209.4
+    ],
+    [
+     "17:00",
+     206.7
+    ],
+    [
+     "18:00",
+     209.5
+    ],
+    [
+     "19:00",
+     212.8
+    ],
+    [
+     "20:00",
+     206.2
+    ],
+    [
+     "21:00",
+     201.9
+    ],
+    [
+     "22:00",
+     195.0
+    ],
+    [
+     "23:00",
+     191.5
+    ]
+   ],
+   "NO2": [
+    [
+     "00:00",
+     185.3
+    ],
+    [
+     "01:00",
+     191.8
+    ],
+    [
+     "02:00",
+     197.6
+    ],
+    [
+     "03:00",
+     204.7
+    ],
+    [
+     "04:00",
+     209.0
+    ],
+    [
+     "05:00",
+     208.0
+    ],
+    [
+     "06:00",
+     216.7
+    ],
+    [
+     "07:00",
+     220.4
+    ],
+    [
+     "08:00",
+     221.7
+    ],
+    [
+     "09:00",
+     222.9
+    ],
+    [
+     "10:00",
+     220.9
+    ],
+    [
+     "11:00",
+     220.0
+    ],
+    [
+     "12:00",
+     215.8
+    ],
+    [
+     "13:00",
+     215.7
+    ],
+    [
+     "14:00",
+     220.0
+    ],
+    [
+     "15:00",
+     222.1
+    ],
+    [
+     "16:00",
+     224.9
+    ],
+    [
+     "17:00",
+     228.4
+    ],
+    [
+     "18:00",
+     234.7
+    ],
+    [
+     "19:00",
+     222.4
+    ],
+    [
+     "20:00",
+     221.9
+    ],
+    [
+     "21:00",
+     221.1
+    ],
+    [
+     "22:00",
+     219.6
+    ],
+    [
+     "23:00",
+     219.8
+    ]
+   ],
+   "NO3": [
+    [
+     "00:00",
+     115.9
+    ],
+    [
+     "01:00",
+     118.8
+    ],
+    [
+     "02:00",
+     120.8
+    ],
+    [
+     "03:00",
+     118.9
+    ],
+    [
+     "04:00",
+     122.0
+    ],
+    [
+     "05:00",
+     125.7
+    ],
+    [
+     "06:00",
+     143.5
+    ],
+    [
+     "07:00",
+     149.6
+    ],
+    [
+     "08:00",
+     153.6
+    ],
+    [
+     "09:00",
+     145.1
+    ],
+    [
+     "10:00",
+     137.4
+    ],
+    [
+     "11:00",
+     135.1
+    ],
+    [
+     "12:00",
+     135.7
+    ],
+    [
+     "13:00",
+     136.6
+    ],
+    [
+     "14:00",
+     135.1
+    ],
+    [
+     "15:00",
+     144.9
+    ],
+    [
+     "16:00",
+     138.9
+    ],
+    [
+     "17:00",
+     138.1
+    ],
+    [
+     "18:00",
+     120.0
+    ],
+    [
+     "19:00",
+     128.2
+    ],
+    [
+     "20:00",
+     147.2
+    ],
+    [
+     "21:00",
+     151.8
+    ],
+    [
+     "22:00",
+     145.2
+    ],
+    [
+     "23:00",
+     143.8
+    ]
+   ],
+   "NO4": [
+    [
+     "00:00",
+     16.6
+    ],
+    [
+     "01:00",
+     19.0
+    ],
+    [
+     "02:00",
+     23.8
+    ],
+    [
+     "03:00",
+     19.7
+    ],
+    [
+     "04:00",
+     25.7
+    ],
+    [
+     "05:00",
+     27.3
+    ],
+    [
+     "06:00",
+     27.5
+    ],
+    [
+     "07:00",
+     23.4
+    ],
+    [
+     "08:00",
+     23.1
+    ],
+    [
+     "09:00",
+     23.1
+    ],
+    [
+     "10:00",
+     21.3
+    ],
+    [
+     "11:00",
+     19.8
+    ],
+    [
+     "12:00",
+     20.0
+    ],
+    [
+     "13:00",
+     21.0
+    ],
+    [
+     "14:00",
+     21.8
+    ],
+    [
+     "15:00",
+     22.9
+    ],
+    [
+     "16:00",
+     22.5
+    ],
+    [
+     "17:00",
+     22.4
+    ],
+    [
+     "18:00",
+     21.3
+    ],
+    [
+     "19:00",
+     22.1
+    ],
+    [
+     "20:00",
+     23.2
+    ],
+    [
+     "21:00",
+     23.2
+    ],
+    [
+     "22:00",
+     22.6
+    ],
+    [
+     "23:00",
+     21.9
+    ]
+   ],
+   "NO5": [
+    [
+     "00:00",
+     180.2
+    ],
+    [
+     "01:00",
+     181.6
+    ],
+    [
+     "02:00",
+     178.4
+    ],
+    [
+     "03:00",
+     179.0
+    ],
+    [
+     "04:00",
+     177.1
+    ],
+    [
+     "05:00",
+     176.9
+    ],
+    [
+     "06:00",
+     186.6
+    ],
+    [
+     "07:00",
+     190.9
+    ],
+    [
+     "08:00",
+     196.6
+    ],
+    [
+     "09:00",
+     190.3
+    ],
+    [
+     "10:00",
+     185.4
+    ],
+    [
+     "11:00",
+     178.2
+    ],
+    [
+     "12:00",
+     176.0
+    ],
+    [
+     "13:00",
+     170.9
+    ],
+    [
+     "14:00",
+     178.1
+    ],
+    [
+     "15:00",
+     189.3
+    ],
+    [
+     "16:00",
+     201.1
+    ],
+    [
+     "17:00",
+     197.7
+    ],
+    [
+     "18:00",
+     198.4
+    ],
+    [
+     "19:00",
+     204.4
+    ],
+    [
+     "20:00",
+     197.1
+    ],
+    [
+     "21:00",
+     192.0
+    ],
+    [
+     "22:00",
+     182.5
+    ],
+    [
+     "23:00",
+     177.7
+    ]
+   ]
+  },
   "weather": {
    "oslo": {
-    "temp": 12,
+    "temp": 13,
     "min": 12,
     "max": 13,
-    "symbol": "rain",
-    "rain6": 6.9
+    "symbol": "lightrain",
+    "rain6": 7.2
    },
    "kristiansand": {
     "temp": 14,
     "min": 12,
     "max": 14,
     "symbol": "lightrain",
-    "rain6": 12.4
+    "rain6": 9.6
    },
    "trondheim": {
     "temp": 13,
-    "min": 10,
+    "min": 11,
     "max": 13,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "tromso": {
-    "temp": 10,
+    "temp": 9,
     "min": 6,
-    "max": 10,
+    "max": 9,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
@@ -1030,9 +1519,9 @@
     "rain6": 0.0
    },
    "stavanger": {
-    "temp": 14,
+    "temp": 13,
     "min": 11,
-    "max": 14,
+    "max": 13,
     "symbol": "cloudy",
     "rain6": 0.0
    }
