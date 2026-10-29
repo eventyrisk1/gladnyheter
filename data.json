@@ -1,33 +1,33 @@
 {
- "updated": "2026-10-29T01:59",
+ "updated": "2026-10-29T02:59",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Tromsø, Vågan og Stranda får innføre besøksbidrag fra nyttår",
+     "title": "Elektriker vil tenne skolegnisten med smie og 3D-printing",
+     "url": "https://www.utdanningsnytt.no/fravaer-motivasjon-praktisk-undervisning/elektrikeren-knut-inge-vil-tenne-skolegnisten-med-smie-og-3d-printing/505805",
+     "source": "Utdanningsnytt",
+     "summary": "På Løken i Aurskog-Høland etableres en 'mestringssmie' for å gi elever gode mestringsopplevelser i hverdagen gjennom praktiske aktiviteter.",
+     "img": "https://image.utdanningsnytt.no/505811.jpg?imageId=505811&x=0.00&y=4.12&cropw=100.00&croph=63.86&heightx=53.33&heighty=0.00&heightw=46.67&heighth=100.00&width=1587&height=954&format=jpg",
+     "published": "2026-10-28T12:22Z"
+    },
+    {
+     "title": "Grønt lys for besøksbidrag i Tromsø, Vågan og Stranda",
      "url": "https://www.nrk.no/tromsogfinnmark/tromso_-vagan-og-stranda-far-innfore-besoksbidrag-fra-nyttar-1.18066872",
      "source": "NRK",
-     "summary": "Regjeringen gir grønt lys for at de første kommunene kan innføre besøksbidrag for å håndtere turisme. Næringsministeren bekrefter at ordningen trer i kraft fra nyttår, og at det også vil inkludere cruisefart.",
+     "summary": "Næringsministeren bekrefter at de første kommunene får innføre besøksbidrag fra nyttår.",
      "img": "https://gfx.nrk.no/HiFOge_ipjfcV7qJEDVwQQ0rOKhaJ7IddP7-XoZqcDqQ.jpg",
-     "published": "2026-10-28T15:02Z"
+     "published": "2026-10-28T15:01Z"
     },
     {
-     "title": "Nytt køsystem for kraftnettet kan spare samfunnet for store summer",
-     "url": "https://gemini.no/2026/10/nytt-kosystem-for-kraftnettet-kan-spare-samfunnet-for-store-summer/",
-     "source": "Gemini",
-     "summary": "Et nytt system for fornyelse av strømnettet skal prioritere basert på sannsynlighet for svikt fremfor alder på luftlinjer. Dette grepet er ventet å gi betydelige samfunnsøkonomiske besparelser.",
-     "img": "https://gemini.no/wp-content/uploads/2019/01/kraftlinjer-ntbscanpix-265x152.jpg",
-     "published": "2026-10-28T03:03Z"
-    },
-    {
-     "title": "Skoler og barnehager åpner igjen etter utbedring av vannforsyning",
-     "url": "https://www.utdanningsnytt.no/finnmark-ntb/skoler-og-barnehager-i-kirkenes-apner-i-dag/506037",
-     "source": "Utdanningsnytt",
-     "summary": "Vannforsyningen fra hovedvannverket er nå gjenopprettet etter tekniske problemer. Dette betyr at lokale skoler og barnehager kan gjenoppta normal drift.",
-     "published": "2026-10-28T05:56Z",
-     "img": "https://www.utdanningsnytt.no/view-resources/dachser2/public/utdanningsnytt/favicon-180x180.png"
+     "title": "Kennedy trosser egne eksperter – åpner for omstridte peptider",
+     "url": "https://www.vg.no/nyheter/i/rMxvk8/usa-kennedy-aapner-for-omstridte-peptider",
+     "source": "VG",
+     "summary": "Stoffene er ikke godkjent. Likevel skal apotek få lage dem.",
+     "published": "2026-10-29T00:30Z",
+     "img": "https://akamai.vgc.no/v2/images/22e1b258-cbdd-3d2c-8d27-80551b7e74ef?format=auto&w=1080&s=a3129522584e731761faceaaaa32dd0e13d2a061"
     }
    ]
   },
@@ -36,28 +36,28 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Microsoft leverer sterke resultater over forventning",
-     "url": "https://e24.no/boers-og-finans/i/zlpR61/microsoft-knaller-til",
-     "source": "E24",
-     "summary": "Teknologikjempen Microsoft leverer bedre enn markedet hadde ventet på flere sentrale parametere i sitt siste kvartal. Resultatene ble godt mottatt i aksjemarkedet.",
-     "img": "https://akamai.vgc.no/v2/images/a55ab970-2c68-3797-87e5-74bcf60b6457?format=auto&w=1000&s=77cb549b70edfc6a87fa975e767a626d58505489",
-     "published": "2026-10-28T20:07Z"
+     "title": "Nytt køsystem for kraftnettet kan spare samfunnet for store summer",
+     "url": "https://gemini.no/2026/10/nytt-kosystem-for-kraftnettet-kan-spare-samfunnet-for-store-summer/",
+     "source": "Gemini",
+     "summary": "Alderen på luftlinjer som gir oss strøm skal ikke lenger avgjøre hva som kommer først i køen for fornyelse, da sannsynlighet for svikt nå vil grovsortere.",
+     "img": "https://gemini.no/wp-content/uploads/2019/01/kraftlinjer-ntbscanpix-265x152.jpg",
+     "published": "2026-10-28T03:02Z"
     },
     {
-     "title": "Equinor leverer bedre enn ventet i tredje kvartal",
+     "title": "Equinor leverte over forventningene igjen",
      "url": "https://www.tu.no/industri/equinor-leverte-over-forventningene/7179096",
      "source": "Teknisk Ukeblad",
-     "summary": "Equinor overgår markedets forventninger med et justert driftsresultat på 12,35 milliarder dollar. Selskapet fortsetter å levere solide økonomiske resultater.",
+     "summary": "Equinor overgår nok en gang markedets forventninger og leverer et justert driftsresultat i tredje kvartal på 12,35 milliarder dollar.",
      "img": "https://image.tu.no/7144145.webp?imageId=7144145&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=636&format=jpg",
      "published": "2026-10-28T06:44Z"
     },
     {
-     "title": "Equinor-sjefen om faktorene som sikrer gode resultater",
-     "url": "https://e24.no/energi-og-klima/i/64Oavz/equinor-sjefen-satt-i-gang-et-stort-maskineri",
+     "title": "Europeisk gasspris stiger til ny årsrekord",
+     "url": "https://e24.no/energi-og-klima/i/qy99q0/europeisk-gasspris-i-100",
      "source": "E24",
-     "summary": "Konsernsjefen i Equinor peker på at vedvarende etterspørsel etter energi bidrar til selskapets sterke posisjon. Dette kan medføre gode utbytter for selskapets aksjonærer fremover.",
-     "img": "https://akamai.vgc.no/v2/images/091ae8c9-ceeb-3a66-81ee-2461373f66d3?format=auto&w=1000&s=9b9de8cfe3f3c54587d0eaee5e0f106d6fa59d48",
-     "published": "2026-10-28T19:41Z"
+     "summary": "Gassprisen i Europa setter ny årsrekord med 100 euro per megawattime.",
+     "img": "https://akamai.vgc.no/v2/images/4b25b644-b444-3aa6-8e10-9b9fdfcd420d?format=auto&w=1000&s=f0c84d0f39ac125bb836ab75544b516297ab099f",
+     "published": "2026-10-28T13:39Z"
     }
    ]
   },
@@ -66,28 +66,28 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Nytt plaster måler pulsen uten bruk av elektronikk",
-     "url": "https://www.forskning.no/elektronikk-helse-materialteknologi/plaster-maler-pulsen-uten-elektronikk/2724626",
-     "source": "forskning.no",
-     "summary": "Forskere har utviklet et plaster som kan undersøke hjertets tilstand i kombinasjon med en vanlig smarttelefon. Oppfinnelsen gjør det mulig å overvåke helseparametere på en enkel og rimelig måte.",
-     "img": "https://image.forskning.no/2724636.jpg?imageId=2724636&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=32.97&heighty=0.00&heightw=46.67&heighth=100.00&width=1058&height=478&format=webp&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-28T23:03Z"
-    },
-    {
-     "title": "Norsk satellitt gir unik kunnskap om atmosfæren i sine siste dager",
+     "title": "Dødsdømt satellitt gir ny kunnskap om atmosfæren",
      "url": "https://gemini.no/2026/10/dodsdomt-satellitt-gir-ny-kunnskap-om-atmosfaeren/",
      "source": "Gemini",
-     "summary": "Norges første forskningssatellitt gjennomfører unike eksperimenter før den brenner opp i atmosfæren. Dataene gir forskere ny innsikt i hvordan atmosfæren fungerer.",
+     "summary": "Norges første forskningssatellitt har nådd sine siste dager og brenner opp, men først gjør forskerne unike eksperimenter i slutten av sin levetid.",
      "img": "https://gemini.no/wp-content/uploads/2026/10/hypso-1_inspeksjonnt-265x152.jpg",
-     "published": "2026-10-27T03:03Z"
+     "published": "2026-10-27T03:02Z"
     },
     {
-     "title": "Kortfilm fanger det sjeldne synet av et fly foran månen",
-     "url": "https://psyche.co/videos/one-mans-10-year-mission-to-film-a-plane-engulfed-by-the-moon",
-     "source": "Psyche",
-     "summary": "En filmskaper har brukt ti år på prosjektet med å filme en perfekt silhuett av et fly som krysser måneskiven. Resultatet er en visuelt imponerende kortfilm som dokumenterer det sjeldne øyeblikket.",
-     "img": "https://images.aeonmedia.co/images/42c7ba69-b7d7-4a87-b619-08bd7edfbd52/a-plane-crossing-the-moon-landscape-1.jpg?top=0&left=0&cropWidth=2560&cropHeight=1440&width=1200&quality=75&format=auto",
-     "published": "2026-10-27T10:02Z"
+     "title": "Nytt plaster måler pulsen helt uten elektronikk",
+     "url": "https://www.forskning.no/elektronikk-helse-materialteknologi/plaster-maler-pulsen-uten-elektronikk/2724626",
+     "source": "forskning.no",
+     "summary": "Et nyutviklet plaster kan i kombinasjon med en helt vanlig smarttelefon brukes til å undersøke hjertets tilstand.",
+     "img": "https://image.forskning.no/2724636.jpg?imageId=2724636&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=32.97&heighty=0.00&heightw=46.67&heighth=100.00&width=1058&height=478&format=webp&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-10-28T23:02Z"
+    },
+    {
+     "title": "Romersk sarkofag gravd opp ved kjent kirke",
+     "url": "https://www.forskning.no/arkeologi-romerriket/denne-romerske-sarkofagen-ble-gravd-opp-ved-en-verdensberomt-kirke-men-skjelettet-oppi-var-ikke-fra-romertiden/2728499",
+     "source": "forskning.no",
+     "summary": "En nesten 2.000 år gammel sarkofag ble gravd opp ved en verdensberømt kirke, men skjelettet på innsiden var ikke fra romertiden.",
+     "img": "https://image.forskning.no/2728615.webp?imageId=2728615&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-10-27T23:02Z"
     }
    ]
   },
@@ -96,28 +96,28 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Jeanette Winterson om KI: Menneskeheten står ved et vendepunkt",
-     "url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity",
-     "source": "The Guardian (bøker)",
-     "summary": "Forfatteren Jeanette Winterson mener vi er i en brytningstid som art og at det er opp til oss hvordan vi vil bruke teknologien. Hun uttrykker optimisme for fremtiden til tross for de store teknologiske endringene.",
-     "img": "https://i.guim.co.uk/img/media/a8bb7ed7e6602f38677e183ed940fad6e2200bc1/176_0_6160_4928/master/6160.jpg?width=140&quality=85&auto=format&fit=max&s=e8e4fa1c7b98d5d73ea0ec5263d5370e",
-     "published": "2026-10-28T10:01Z"
-    },
-    {
-     "title": "Epic-sjefen kritiserer Steams regler for merking av KI-innhold",
-     "url": "https://www.pressfire.no/artikkel/epic-sjefen-gar-los-pa-steams-ki-merking",
-     "source": "Pressfire",
-     "summary": "Tim Sweeney i Epic Games mener at strenge krav til merking av kunstig intelligens kan ramme spillutviklere unødig. Han tar til orde for en mer balansert tilnærming til teknologien i spillbransjen.",
-     "img": "https://www.pressfire.no/storage/images/2026/10/26/21764/top_image.webp",
-     "published": "2026-10-27T08:34Z"
-    },
-    {
-     "title": "Studie: Studenter som ikke brukte KI presterte best på eksamen",
+     "title": "Studenter som ikke brukte kunstig intelligens presterte best",
      "url": "https://gemini.no/2026/10/studenter-som-ikke-brukte-ki-presterte-best-pa-eksamen/",
      "source": "Gemini",
-     "summary": "En undersøkelse viser en sammenheng mellom måten studenter bruker kunstig intelligens på og deres eksamenskarakterer. De som stolte på egne ferdigheter uten KI-støtte, oppnådde de beste resultatene.",
+     "summary": "En undersøkelse viser at både bruken av KI og måten studentene brukte den på hang tydelig sammen med karakterene de oppnådde på eksamen.",
      "img": "https://gemini.no/wp-content/uploads/2026/10/immatrikulering_ntnu_kait_dragland-265x152.jpg",
-     "published": "2026-10-26T03:03Z"
+     "published": "2026-10-26T03:02Z"
+    },
+    {
+     "title": "Etterlyser grundigere sjekk av helseråd generert av kunstig intelligens",
+     "url": "https://www.forskning.no/kronikk-kunstig-intelligens-meninger/regjeringen-vil-gi-oss-helserad-med-ki-hvem-skal-undersoke-om-de-skader/2729771",
+     "source": "forskning.no",
+     "summary": "Forskere peker på at regjeringens arbeid med KI bør gå foran i å undersøke om helseråd og hjelp til psykiske problemer kan ha uønskede skadevirkninger.",
+     "img": "https://image.forskning.no/2730331.webp?imageId=2730331&width=1058&height=478&format=jpg",
+     "published": "2026-10-27T23:02Z"
+    },
+    {
+     "title": "Jeanette Winterson om kunstig intelligens: – Det finnes ingen uunngåelig dystopi",
+     "url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity",
+     "source": "The Guardian (bøker)",
+     "summary": "Forfatter Jeanette Winterson mener menneskeheten er ved et veiskille, og at det er opp til oss selv hvordan vi vil forme fremtiden med kunstig intelligens.",
+     "img": "https://i.guim.co.uk/img/media/a8bb7ed7e6602f38677e183ed940fad6e2200bc1/176_0_6160_4928/master/6160.jpg?width=140&quality=85&auto=format&fit=max&s=e8e4fa1c7b98d5d73ea0ec5263d5370e",
+     "published": "2026-10-28T10:00Z"
     }
    ]
   },
@@ -126,12 +126,12 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Nye kart viser at Davvi-området er svært viktig for snøugla",
+     "title": "Nye kart dokumenterer at villmarka i Davvi er avgjørende for snøugla",
      "url": "https://www.birdlife.no/naturforvaltning/nyheter/?id=4115",
      "source": "BirdLife Norge",
-     "summary": "Unike data fra det norske snøugleprosjektet dokumenterer at villmarksområdene i Davvi er kritiske leveområder for arten. Forskningen er et samarbeid mellom BirdLife Norge, NINA og UiA.",
+     "summary": "Det norske snøugleprosjektet har fremskaffet unike data som viser hvor viktig Davvi-området er for arten.",
      "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/10/23/12790/snougle.jpg",
-     "published": "2026-10-23T00:01Z"
+     "published": "2026-10-23T00:00Z"
     },
     {
      "title": "Slik gjør oljegigantens milliardsuksess lånet ditt dyrere",
@@ -139,14 +139,14 @@
      "source": "NRK Rogaland",
      "summary": "Equinor leverer nok et skyhøyt resultat, og milliardene strømmer inn i oljefondet. Dette betyr kvartalsresultatet for deg.",
      "img": "https://gfx.nrk.no/UqvVTBIp6WP-bMHiMHkScAPgMf1ViPxVIeadRF_jJGAA.jpg",
-     "published": "2026-10-28T05:48Z"
+     "published": "2026-10-28T05:47Z"
     },
     {
-     "title": "Nibbana er bedre enn du tror",
+     "title": "Buddhistisk munk: – Nibbana er bedre enn du tror",
      "url": "https://tricycle.org/article/thanissaro-bhikkhu-nibbana/",
      "source": "Tricycle",
      "summary": "En munk fra den thailandske skogtradisjonen argumenterer for at man ikke bør trekke forhastede konklusjoner om naturen til opphør.",
-     "published": "2026-10-26T10:02Z",
+     "published": "2026-10-26T10:01Z",
      "img": "https://tricycle.org/wp-content/uploads/2026/10/DSC_9980.jpg"
     }
    ]
@@ -156,28 +156,20 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Om kunsten å finne sin egen kraft og frihet",
-     "url": "https://www.themarginalian.org/2026/10/27/freedom/",
-     "source": "The Marginalian",
-     "summary": "En refleksjon over hvordan vi kan finne personlig frihet i en kultur som ofte forvrenger betydningen av makt. Teksten utforsker veien til indre styrke og selvstendighet.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2025/05/SummerRedBird_suffering1.jpg",
-     "published": "2026-10-28T00:03Z"
-    },
-    {
-     "title": "Slik kan man finne mening og retning gjennom ubehag",
+     "title": "Slik kan medfølende tilstedeværelse hjelpe mot smerte og ubehag",
      "url": "https://www.mindful.org/diana-hill-finding-meaning-in-pain/",
      "source": "Mindful",
-     "summary": "Psykolog Diana Hill forklarer hvordan det å være til stede i eget ubehag kan hjelpe oss å få kontakt med det vi bryr oss mest om. Ved å møte vanskelige følelser med medfølelse kan man skape positive endringer i livet.",
-     "published": "2026-10-27T16:41Z",
+     "summary": "Når vi tar oss tid til å være genuint og medfølende til stede med vårt eget ubehag, kan vi bedre koble oss på det vi bry oss om mest.",
+     "published": "2026-10-27T16:40Z",
      "img": "https://www.mindful.org/content/uploads/12MM_Article_Diana-Hill_Finding-Meaning-in-Pain.jpg"
     },
     {
-     "title": "Forståelsen av forskjellen mellom hverdagsangst og klinisk angst",
+     "title": "Slik skiller klinisk angst seg fra hverdagssituasjoner",
      "url": "https://psyche.co/ideas/everyone-says-they-have-anxiety-clinical-anxiety-is-different",
      "source": "Psyche",
-     "summary": "En personlig og faglig gjennomgang av hvordan man kan endre sitt forhold til angst. Artikkelen belyser at selv om angst er en naturlig del av livet, finnes det gode verktøy for å mestre den kliniske varianten.",
+     "summary": "Erfaringer viser at man ikke kan utslette det som er en del av en selv, men at man kan endre måten man relaterer seg til angsten på.",
      "img": "https://images.aeonmedia.co/images/aa7df25e-05ae-4109-86cf-f6ae0620515a/sz-this-gettyimages-2215104767.jpg?top=254&left=0&cropWidth=2592&cropHeight=1458&width=1200&quality=75&format=auto",
-     "published": "2026-10-26T10:01Z"
+     "published": "2026-10-26T10:00Z"
     }
    ]
   },
@@ -186,28 +178,28 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Nye behandlingsmetoder gir bedre livskvalitet i overgangsalderen",
+     "title": "Uventet blodsponsutslag ved mye mettet fett i kosten",
+     "url": "https://www4.uib.no/forskning/aktuelt/mer-mettet-fett-ga-uventet-utslag-i-blodet",
+     "source": "UiB",
+     "summary": "Forskere har undersøkt hva som skjer i kroppen når man spiser et kosthold med lite karbohydrater og mye mettet fett.",
+     "published": "2026-10-27T12:46Z",
+     "img": "https://www4.uib.no/sites/default/files/styles/large/public/2026-10/COLOURBOX17203140.jpg.avif?itok=6gaAYdED"
+    },
+    {
+     "title": "Alternative metoder kan hjelpe mot humørsvingninger i overgangsalderen",
      "url": "https://www.forskning.no/hormoner-kvinnehelse/dette-hjalp-pa-humorsvingninger-og-ga-bedre-livskvalitet-for-kvinner-i-overgangsalderen/2728894",
      "source": "forskning.no",
-     "summary": "Forskning viser at andre behandlingsformer enn hormoner kan ha god effekt på humørsvingninger og livskvalitet for kvinner. En norsk forsker mener det er svært positivt at valgmulighetene for pasientene blir flere.",
+     "summary": "En norsk forsker peker på at det er svært nyttig å vurdere andre behandlinger enn hormoner for å bedre livskvaliteten for kvinner i overgangsalderen.",
      "img": "https://image.forskning.no/2729540.jpg?imageId=2729540&panox=0.00&panoy=16.26&panow=100.00&panoh=63.55&heightx=36.92&heighty=0.00&heightw=46.67&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-27T23:03Z"
+     "published": "2026-10-27T23:02Z"
     },
     {
-     "title": "Kosthold kan bremse hjernens aldring med flere år",
+     "title": "Kostholdsvaner knyttet til bremset aldring i hjernen",
      "url": "https://www.psykologisk.no/nyheter/dette-kostholdet-kan-bremse-aldringen-med-to-og-et-halvt-ar/164160",
      "source": "Psykologisk.no",
-     "summary": "En tolvårig studie viser at et spesifikt kosthold kan bidra til å holde hjernen yngre og bremse aldringsprosessen. Forskere kartla endringer i hjernen hos over tusen deltakere og fant tydelige positive utslag.",
+     "summary": "En langtidssuksessstudie med over tusen deltakere har kartlagt hvordan visse kostholdsvaner henger sammen med hjernehelsen over tid.",
      "img": "https://image.psykologisk.no/164165.jpg?imageId=164165&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-26T05:02Z"
-    },
-    {
-     "title": "Forskere undersøker om man alltid må fullføre antibiotikakuren",
-     "url": "https://www.forskning.no/antibiotikaresistens-medisiner-videnskabdk/ma-du-fullfore-antibiotikakuren-studie-far-professorer-til-a-gi-klar-beskjed/2726206",
-     "source": "forskning.no",
-     "summary": "En ny studie utfordrer det gamle rådet om at alle antibiotikakurer må fullføres til punkt og prikke. Professorer gir nå klarere beskjeder basert på oppdatert medisinsk kunnskap.",
-     "img": "https://image.forskning.no/2728475.jpg?imageId=2728475&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-26T23:03Z"
+     "published": "2026-10-26T05:01Z"
     }
    ]
   },
@@ -216,28 +208,28 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Mestringssmie skal gi elever praktisk glede i skolehverdagen",
-     "url": "https://www.utdanningsnytt.no/fravaer-motivasjon-praktisk-undervisning/elektrikeren-knut-inge-vil-tenne-skolegnisten-med-smie-og-3d-printing/505805",
-     "source": "Utdanningsnytt",
-     "summary": "I Aurskog-Høland har det åpnet en 'mestringssmie' der elever får jobbe med praktiske fag som smie og 3D-printing. Målet er å skape skolegnist og gode mestringsopplevelser gjennom praktisk arbeid.",
-     "img": "https://image.utdanningsnytt.no/505811.jpg?imageId=505811&x=0.00&y=4.12&cropw=100.00&croph=63.86&heightx=53.33&heighty=0.00&heightw=46.67&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-10-28T12:23Z"
-    },
-    {
-     "title": "Forskning viser at fremmedspråk styrker ferdigheter i morsmål",
+     "title": "Forskning viser at franskundervisning styrker morsmålet og engelsk",
      "url": "https://www.utdanningsnytt.no/engelsk-fransk-fremmedsprak/mener-fransk-styrker-elever-i-norsk-og-engelsk/506064",
      "source": "Utdanningsnytt",
-     "summary": "Undervisning i språk som fransk bidrar til at elever mestrer både norsk og engelsk bedre. Forskningen peker på at språklig bevissthet overføres mellom ulike språkfag.",
+     "summary": "Undervisning i fremmedspråk bidrar til at elever mestrer både sitt eget morsmål og engelsk på en bedre måte.",
      "img": "https://image.utdanningsnytt.no/506072.jpg?imageId=506072&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-10-28T08:25Z"
+     "published": "2026-10-28T08:24Z"
     },
     {
-     "title": "Veronica Salinas utnevnt til førsteamanuensis i skrivekunst",
-     "url": "https://barnebokinstituttet.no/aktuelt/veronica-salinas-er-blitt-forsteamanuensis-i-skrivekunst-og-estetisk-formidling/",
-     "source": "Norsk barnebokinstitutt",
-     "summary": "En sakkyndig komité har godkjent Veronica Salinas for opprykk til førsteamanuensis ved Norsk barnebokinstitutt. Hun får anerkjennelse for sin kunstneriske, faglige og pedagogiske virksomhet.",
-     "published": "2026-10-28T14:42Z",
-     "img": "https://barnebokinstituttet.no/wp-content/uploads/2026/05/tfadk-0037.jpg"
+     "title": "Skolen mistet en tredel av én elevgruppe etter første termin",
+     "url": "https://www.utdanningsnytt.no/grunnskole-karakterbasert-inntak-videregaende/skolen-mistet-en-tredel-av-en-elevgruppe-etter-forste-termin/504690",
+     "source": "Utdanningsnytt",
+     "summary": "Ved Rosenvilde videregående skole sluttet eller uteble en tredel av elevene som var tatt inn etter individuell behandling forrige skoleår. Tilstedeværelse er nøkkelen for å få flere til å fullføre, mener avdelingsleder.",
+     "img": "https://image.utdanningsnytt.no/505197.jpg?imageId=505197&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
+     "published": "2026-10-27T04:57Z"
+    },
+    {
+     "title": "«En modig fortelling som ikke kan ha vært lett å skrive»",
+     "url": "https://www.vl.no/kultur/morke-tangentar-i-sar-slektsroman/10603158",
+     "source": "Vårt Land",
+     "summary": "ANMELDELSE: Lars Amund Vaage har fullført trilogien som hentar næring frå hans eiga slektshistorie. Flygelet ved fjorden er sår lesing om det destruktive forholdet mellom ei mor og eit barn.",
+     "img": "https://image.vl.no/10603287.jpg?imageId=10603287&panox=0.00&panoy=22.47&panow=100.00&panoh=31.85&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=700&format=webp&format=jpg",
+     "published": "2026-10-27T14:29Z"
     }
    ]
   },
@@ -246,26 +238,24 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Marcus Aurelius om å finne styrke i møte med motgang",
-     "url": "https://www.themarginalian.org/2026/10/27/marcus-aurelius-luck/",
-     "source": "The Marginalian",
-     "summary": "Filosofiske betraktninger fra den romerske keiseren om hvordan man kan bære livets utfordringer med verdighet. Han minner om at vår reaksjon på hendelser er det som definerer vår karakter.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2021/04/meditations_robinwaterfield.jpg?fit=320%2C496&ssl=1",
-     "published": "2026-10-27T11:53Z"
-    },
-    {
-     "title": "Ny biskop ønsker en kirke der alle føler seg hjemme",
-     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20kirke%20som%20er%20%C3%A5pen%20for%20alle/",
-     "source": "Den norske kirke",
-     "summary": "Stig Lægdene har tiltrådt som ny biskop med et ønske om at flest mulig skal oppleve Den norske kirke som sitt eget fellesskap. Han legger vekt på inkludering og tilhørighet for alle."
-    },
-    {
-     "title": "Zen Fredrikstad tilbyr fellesskap gjennom meditasjon og ro",
+     "title": "Zen Fredrikstad fremmer indre ro gjennom meditasjon",
      "url": "https://buddhistforbundet.no/medlemsorganisasjoner/automatisk-kladd/",
      "source": "Buddhistforbundet",
-     "summary": "Foreningen Zen Fredrikstad arbeider for å fremme praktisering av zenbuddhisme i lokalmiljøet. Gjennom undervisning og felles meditasjon legges det til rette for indre ro og refleksjon.",
+     "summary": "Foreningen jobber for å spre forståelse for zenbuddhisme gjennom felles meditasjon, undervisning og et inkluderende felleskap.",
      "published": "2026-10-22T12:27Z",
      "img": "https://buddhistforbundet.no/wp-content/uploads/2026/10/Zen-Fredkrikstad-seshin.jpeg"
+    },
+    {
+     "title": "Utveksler julehilsener på tvers av landegrenser i kirken",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/jul-i-den-verdensvide-kirke/",
+     "source": "Den norske kirke",
+     "summary": "Den norske kirke mottar årlig julehilsener fra samarbeidskirker over hele verden for å markere den globale julefeiringen."
+    },
+    {
+     "title": "Ny sjef for Forsvarets tros- og livssynskorps",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/ny-sjef-for-ftlk/",
+     "source": "Den norske kirke",
+     "summary": "Torstein Tveiten Holten ble innsatt som ny sjef for Forsvarets tros- og livssynskorps under en gudstjeneste i Akershus slottskirke."
     }
    ]
   },
@@ -274,28 +264,28 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Kunstnere inkluderes tidlig i utviklingen av Filipstad i Oslo",
+     "title": "Vil ha kunstnere med fra start i byutviklingen",
      "url": "https://kunstkritikk.no/tar-kunstnerne-med-fra-start/",
      "source": "Kunstkritikk",
-     "summary": "Utviklingsteamet for havneområdet Filipstad ønsker å integrere kunst fra starten av prosjektet. Målet er å øke forståelsen for hvilken verdi kunst tilfører byutviklingen og byens befolkning.",
-     "published": "2026-10-28T14:57Z",
+     "summary": "Utviklere av havneområdet Filipstad i Oslo ønsker å involvere kunstnere tidlig for å styrke forståelsen for kunstens verdi i byen.",
+     "published": "2026-10-28T14:56Z",
      "img": "https://cdn.kunstkritikk.no/uploads/2026/10/A7_00447.jpg"
     },
     {
-     "title": "Bak kulissene på det enorme byggeprosjektet Sagrada Família",
-     "url": "https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html",
-     "source": "Open Culture",
-     "summary": "En gjennomgang av byggeprosessen til Barcelonas berømte katedral, som har vært under konstruksjon i 144 år. Prosjektet kombinerer tradisjonelt håndverk med moderne arkitektoniske løsninger.",
-     "img": "https://i.ytimg.com/vi/gVlrhYh8vU4/maxresdefault.jpg",
-     "published": "2026-10-28T09:01Z"
+     "title": "Utforsker kunstnerisk ego i ferskt magasincover",
+     "url": "https://www.theparisreview.org/blog/2026/10/28/elizabeth-glaessner-big-head/",
+     "source": "The Paris Review",
+     "summary": "Elizabeth Glaessners maleri av en bitte liten person som maler et kjempehodet settes i sammenheng med kunstnerens indre prosesser.",
+     "img": "https://www.theparisreview.org/blog/wp-content/uploads/2026/10/img-0168-1-1024x683.jpg",
+     "published": "2026-10-28T15:58Z"
     },
     {
-     "title": "En kort historie om små hunder i europeisk kunst",
-     "url": "https://lithub.com/tiny-furry-friends-a-short-history-of-small-dogs-in-european-art/",
-     "source": "Literary Hub",
-     "summary": "Artikkelen utforsker hvordan små hunder har blitt fremstilt i europeisk kunsthistorie, blant annet som symboler på status og selskap. Historien strekker seg tilbake til renessansen og kjente mestere.",
-     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/small-dogs-painting-768x410.png",
-     "published": "2026-10-28T08:47Z"
+     "title": "Dykker ned i historien bak Sagrada Famílias enorme byggeprosjekt",
+     "url": "https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html",
+     "source": "Open Culture",
+     "summary": "Det gigantiske og langvarige prosjektet i Barcelona fortsetter å fascinere og tiltrekke seg stor oppmerksomhet fra hele verden.",
+     "img": "https://i.ytimg.com/vi/gVlrhYh8vU4/maxresdefault.jpg",
+     "published": "2026-10-28T09:00Z"
     }
    ]
   },
@@ -304,28 +294,28 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Her er vinnerne av årets Nopa-priser",
+     "title": "Disse vant priser under Nopas høstseminar",
      "url": "https://www.ballade.no/priser-og-tildelinger/nopa-prisene-2026-big-dipper-thomas-stronen-og-symre-blant-vinnerne/",
      "source": "Ballade",
-     "summary": "Under foreningens årlige høstseminar ble det delt ut priser til blant andre Big Dipper, Thomas Strønen og Symre. Prisene feirer fremragende arbeid innen komposisjon og tekstforfatting.",
+     "summary": "Nopa-prisene ble delt ut under komponist- og tekstforfatterforeningens årlige samling, der flere profilerte aktører ble hedret.",
      "img": "https://www.ballade.no/wp-content/uploads/2026/10/Photo-25-10-2026-20-25-55-scaled-e1793113485521-1024x760.jpg",
-     "published": "2026-10-27T15:11Z"
+     "published": "2026-10-27T15:10Z"
     },
     {
-     "title": "CMAT leverer fengslende konsert hos NPR Tiny Desk",
+     "title": "Morgener med jazz: Borgerrettsikonets ukjente lidenskap",
+     "url": "https://www.npr.org/2026/10/28/nx-s1-6020581/civil-rights-leader-dolores-huertas-love-of-jazz-revealed-her-awe-for-art",
+     "source": "NPR Music",
+     "summary": "Borgerrettsleseren Dolores Huerta var ikke bare en sentral skikkelse i arbeiderbevegelsen, men også en stor og lidenskapelig jazzfan.",
+     "published": "2026-10-28T21:15Z",
+     "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg"
+    },
+    {
+     "title": "Skarpe låter og sjarmerende sceneopptreden med CMAT",
      "url": "https://www.npr.org/2026/10/27/g-s1-146871/cmat-tiny-desk-concert",
      "source": "NPR Music",
-     "summary": "Den irske artisten CMAT imponerer med sterk låtskriving og scenetilstedeværelse i sin ferske opptreden. Konserten trekkes frem for sin kombinasjon av vokal rekkevidde og humoristisk timing.",
-     "published": "2026-10-27T09:01Z",
+     "summary": "Den irske artisten leverte en fengslende og humoristisk opptreden med sitt faste band.",
+     "published": "2026-10-27T09:00Z",
      "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2048x1152+0+0/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F29%2Fbb%2F11411d3243ffbefcef88a4ad1ed2%2F20260929-cmat-performs-a-tiny-desk-concert-at-npr-in-washington-d-c-vanessa-castillo-3-2-3.jpg"
-    },
-    {
-     "title": "Stem på din favoritt til å bli årets artist på P3 Gull",
-     "url": "https://www.nrk.no/kultur/nominert-til-_p3-gull_-2026-1.18053856",
-     "source": "NRK",
-     "summary": "Fem norske artister er nominert til den gjeve prisen 'Årets artist'. Publikumsavstemningen er nå åpen for alle som vil støtte sine favoritter før utdelingen.",
-     "img": "https://gfx.nrk.no/S3shMpHCH19Szpo24qq23At0aKG-Z_hlVsNiYAQcXiiQ.jpg",
-     "published": "2026-10-26T11:08Z"
     }
    ]
   },
@@ -334,28 +324,28 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Ellah Wakatama løfter frem svarte forfattere inn i litteraturhistorien",
-     "url": "https://psyche.co/portraits/ellah-wakatama-the-godmother-of-african-books",
-     "source": "Psyche",
-     "summary": "Som redaktør og mentor jobber Ellah Wakatama for å sikre at begavede svarte forfattere får sin rettmessige plass i den litterære kanon. Hennes arbeid spenner over flere roller i forlagsbransjen.",
-     "img": "https://images.aeonmedia.co/images/60273164-9332-4838-964a-2547b831a857/ellah-pedzisai-wakatama-09.jpg?top=93&left=3&cropWidth=3296&cropHeight=1854&width=1200&quality=75&format=auto",
-     "published": "2026-10-28T10:01Z"
+     "title": "Å skrive bok i sin fars stemme",
+     "url": "https://lithub.com/pretending-to-be-tony-shalhoub-on-co-writing-a-book-in-my-fathers-voice/",
+     "source": "Literary Hub",
+     "summary": "En forfatter deler erfaringene med å samarbeide med sin far om en memoar i første person.",
+     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/tony-shalhoub-and-josie-adams-768x432.png",
+     "published": "2026-10-28T09:01Z"
     },
     {
-     "title": "Stor pågang fra fans under lanseringen av ny bok i Sarah J. Maas-serien",
-     "url": "https://www.npr.org/2026/10/27/nx-s1-6011109/acotar-a-court-of-splintered-harmony-sarah-j-maas",
+     "title": "Elif Shafak hyller litteraturen i krevende tider",
+     "url": "https://www.theguardian.com/books/2026/oct/28/in-one-brief-moment-all-eternity-by-elif-shafak-review-what-madame-bovary-thought-of-flaubert",
+     "source": "The Guardian (bøker)",
+     "summary": "Forfatteren portretterer den franske forfatteren Gustave Flaubert gjennom blikket til kvinnene i hans liv som en kjærlighetserklæring til lesningen.",
+     "img": "https://i.guim.co.uk/img/media/1c2999ed593fcc54457691ddedeb1762e9d37456/1392_2_2912_2331/master/2912.jpg?width=140&quality=85&auto=format&fit=max&s=4660d0c33d8869f0bc596eba706864c2",
+     "published": "2026-10-28T09:00Z"
+    },
+    {
+     "title": "Korte historier fanger familiedynamikk med varme",
+     "url": "https://www.npr.org/2026/10/26/nx-s1-6017155/seven-stories-about-tammy-elizabeth-mccracken-review",
      "source": "NPR Books",
-     "summary": "Tilhengere av 'romantasy'-sjangeren møtte opp i store antall for å sikre seg det nyeste bindet i den populære bokserien. Arrangementet markerte en av årets mest etterlengtede bokutgivelser.",
-     "published": "2026-10-27T20:16Z",
-     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4570x2570+69+120/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2Ff5%2Fba78baac4439bbd5a6c84cb03334%2Facotar-9.JPG"
-    },
-    {
-     "title": "Slik påvirket Balzacs ekstreme kaffevaner hans produktive skriving",
-     "url": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
-     "source": "Open Culture",
-     "summary": "En historisk gjennomgang av den franske forfatteren Honoré de Balzacs arbeidsrutiner og hans legendariske kaffeforbruk. Teksten belyser hvordan hans daglige ritualer la grunnlaget for en enorm litterær produksjon.",
-     "img": "https://cdn8.openculture.com/2026/10/26223252/balzac-scaled.png",
-     "published": "2026-10-27T09:01Z"
+     "summary": "Elizabeth McCrackens samlede fortellinger gir et nært og treffende innblikk i en families opplevelser.",
+     "published": "2026-10-26T16:28Z",
+     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1080x607+0+499/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F79%2F8e%2F673f7b924423b225dd5827152429%2F71xkiie-zul-sl1500.jpg"
     }
    ]
   },
@@ -364,28 +354,28 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Nye prøver antyder at Vågåkyrkja kan være Norges eldste",
-     "url": "https://www.nrk.no/artikkel/nye-prover-av-kyrkja-trur-det-kan-vere-noregs-eldste-1531094",
-     "source": "NRK Innlandet",
-     "summary": "Nye undersøkelser av tømmeret i Vågåkyrkja gir forskere grunn til å tro at kirken kan ha røtter lenger tilbake enn tidligere antatt. Funnene kan kaste nytt lys over norsk middelalderhistorie.",
-     "img": "https://gfx.nrk.no/aka8hkZEVB-C7qGE_buzQg2KwHuTI9hsalF8CzknJ7Ow.jpg",
-     "published": "2026-10-28T06:18Z"
-    },
-    {
-     "title": "Mysteriet om skjelettet i den 2000 år gamle sarkofagen",
-     "url": "https://www.forskning.no/arkeologi-romerriket/denne-romerske-sarkofagen-ble-gravd-opp-ved-en-verdensberomt-kirke-men-skjelettet-oppi-var-ikke-fra-romertiden/2728499",
-     "source": "forskning.no",
-     "summary": "Arkeologer har undersøkt en romersk sarkofag funnet ved en berømt kirke, der innholdet viste seg å være fra en annen tidsepoke enn selve kisten. Funnet gir ny innsikt i hvordan historiske gjenstander har blitt gjenbrukt gjennom århundrene.",
-     "img": "https://image.forskning.no/2728615.webp?imageId=2728615&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-27T23:03Z"
-    },
-    {
-     "title": "Film fra Sør presenterer et bredt internasjonalt program",
+     "title": "Variert filmprogram med internasjonale prisvinnere",
      "url": "https://rushprint.no/2026/10/film-fra-sor-romcom-i-kabul-og-massiv-japansk-monsterfilm/",
      "source": "Rushprint",
-     "summary": "Årets filmfestival byr på alt fra romantiske komedier til japanske monsterfilmer. Programmet inkluderer flere prisvinnende filmer som gir publikum et innblikk i kulturer fra hele verden.",
-     "published": "2026-10-26T17:12Z",
+     "summary": "Årets utgave av Film fra Sør byr på alt fra romantiske komedier til kritikerroste sørfond-støttede filmer.",
+     "published": "2026-10-26T17:11Z",
      "img": "https://rushprint.no/wp-content/uploads/2026/10/Still-1_Courtesy-Of-NEON.jpg.jpeg"
+    },
+    {
+     "title": "Kinodokumentar kaster lys over norske fjellområder",
+     "url": "https://rushprint.no/2026/10/innblikk-og-utsyn/",
+     "source": "Rushprint",
+     "summary": "Dokumentaren «La fjella leve» gir et nøkternt og grundig innblikk i naturens verdier og menneskenes relasjon til landskapet.",
+     "published": "2026-10-26T12:50Z",
+     "img": "https://rushprint.no/wp-content/uploads/2026/10/LET_OUR_MOUNTAINS_LIVE_UPNORTH-FILM-30-1.jpeg"
+    },
+    {
+     "title": "Regissør Peter Medak er død",
+     "url": "https://www.theguardian.com/film/2026/oct/28/peter-medak-veteran-director-of-the-krays-and-the-changeling-dies-aged-88",
+     "source": "The Guardian (film)",
+     "summary": "Den britisk-ungarske regissøren Peter Medak, kjent for filmer som The Krays og The Changeling, er dør 88 år gammel etter en lang og variert karriere.",
+     "img": "https://i.guim.co.uk/img/media/64e02666420906b5465098b638072cbf8f8b0764/0_6_2712_2169/master/2712.jpg?width=140&quality=85&auto=format&fit=max&s=a480e45873ced9c2431cf57d6049e6ca",
+     "published": "2026-10-28T17:44Z"
     }
    ]
   },
@@ -394,28 +384,28 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Eventyrspillet Witchbrook har fått lanseringsdato",
-     "url": "https://www.gamereactor.no/witchbrook-har-endelig-fatt-en-lanseringsdato-28-januar-2027/",
-     "source": "Gamereactor",
-     "summary": "Utvikleren Chucklefish har kunngjort at det etterlengtede spillet Witchbrook lanseres 28. januar 2027. Spillet blir tilgjengelig på alle store plattformer, inkludert den kommende Switch 2.",
-     "published": "2026-10-28T22:56Z",
-     "img": "https://www.gamereactor.no/wp-content/uploads/sites/6/2026/10/cover-332420-1793224237821.jpg"
-    },
-    {
-     "title": "Millionstøtte til ni nye norske spillprosjekter",
+     "title": "Flere millioner i støtte til nye norske spillprosjekter",
      "url": "https://www.pressfire.no/artikkel/ni-norske-spill-deler-pa-143-millioner-kroner",
      "source": "Pressfire",
-     "summary": "Norsk filminstitutt har tildelt 14,3 millioner kroner til utvikling av norske dataspill. Flere av prosjektene er spesielt rettet mot barn og unge.",
+     "summary": "Flere spillutviklere i Norge har mottatt midler fra Norsk filminstitutt, og flere av de støttede prosjektene retter seg spesielt mot barn.",
      "img": "https://www.pressfire.no/storage/images/2026/10/28/21769/top_image.webp",
      "published": "2026-10-28T07:52Z"
     },
     {
-     "title": "Mario-skaper Shigeru Miyamoto tildelt høy japansk kulturutmerkelse",
-     "url": "https://www.pressfire.no/artikkel/shigeru-miyamoto-far-japans-hoyeste-kulturutmerkelse",
-     "source": "Pressfire",
-     "summary": "Shigeru Miyamoto blir den første spillutvikleren som mottar Japans høyeste kulturutmerkelse. Prisen anerkjenner hans enorme bidrag til spillmediet og japansk kultur globalt.",
-     "img": "https://www.pressfire.no/storage/images/2026/10/27/21766/top_image.webp",
-     "published": "2026-10-27T09:18Z"
+     "title": "Witchbrook har fått fastsatt lanseringsdato",
+     "url": "https://www.gamereactor.no/witchbrook-har-endelig-fatt-en-lanseringsdato-28-januar-2027/",
+     "source": "Gamereactor",
+     "summary": "Chucklefish har kunngjort at det etterlengtede spillet lanseres i slutten av januar 2027 på en rekke plattformer.",
+     "published": "2026-10-28T22:56Z",
+     "img": "https://www.gamereactor.no/wp-content/uploads/sites/6/2026/10/cover-332420-1793224237821.jpg"
+    },
+    {
+     "title": "Utfordrende og sjarmerende eventyr for klassisk maskinvare",
+     "url": "https://spillhistorie.no/2026/10/27/ropoko-herlig-eventyr-for-klassisk-maskinvare/",
+     "source": "Spillhistorie.no",
+     "summary": "Det nye retrospillet Ropoko byr på tøffe utfordringer for spillere som setter pris på eldre datamaskiner.",
+     "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2025/12/ropoko.jpg?fit=300%2C150&ssl=1",
+     "published": "2026-10-27T13:10Z"
     }
    ]
   },
@@ -424,26 +414,26 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Liverpool videre i ligacupen etter dramatisk straffesparkkonkurranse",
+     "title": "Liverpool videre i ligacupen etter straffedrama mot Chelsea",
      "url": "https://www.nrk.no/sport/liverpool-vant-straffedrama-mot-chelsea-1.18067577",
      "source": "NRK",
-     "summary": "Liverpool sikret avansement til neste runde i ligacupen etter å ha slått Chelsea i en nervepirrende straffekonkurranse. Oppgjøret på Anfield bød på spenning helt til siste slutt.",
+     "summary": "Etter 18 straffespark til sammen var det til slutt Liverpool som trakk det lengste strået mot Chelsea.",
      "img": "https://gfx.nrk.no/Lhxy6YfXDBROArRaGISrzAIx0-97NB8dgiVpkAs_B90A.jpg",
-     "published": "2026-10-28T22:14Z"
+     "published": "2026-10-28T22:13Z"
     },
     {
-     "title": "HamKam overrasket og slo Rosenborg ut av cupen",
+     "title": "HamKam slo ut formlaget Rosenborg i cupen",
      "url": "https://www.aftenposten.no/sport/i/Kr5EqX/hamkam-sendte-formlaget-rosenborg-ut-av-cupen",
      "source": "Aftenposten",
-     "summary": "HamKam leverte en sterk prestasjon og snudde kampen mot formlaget Rosenborg i cupens tredje runde. Seieren sender laget videre i turneringen etter en imponerende snuoperasjon.",
+     "summary": "Rosenborg tok ledelsen i kampen, men HamKam snudde oppgjøret og sendte trønderne ut av cupen.",
      "img": "https://akamai.vgc.no/v2/images/62894e73-2e5d-380e-a46a-9807e660319a?format=auto&w=1000&s=6b2be6c643605c48e9b85638c5482c606887b436",
-     "published": "2026-10-28T18:56Z"
+     "published": "2026-10-28T18:55Z"
     },
     {
-     "title": "Manchester City videre på straffer mot Brighton",
+     "title": "Manchester City vant på straffer uten Haaland",
      "url": "https://www.nrk.no/sport/haaland-lost-city-slet-mot-brighton-_-vant-likevel-pa-straffer-1.18067594",
      "source": "NRK",
-     "summary": "Til tross for at Erling Braut Haaland hvilte, klarte Manchester City å kjempe seg til seier mot Brighton. Kampen ble avgjort på straffespark der hjemmelaget viste seg som de sterkeste.",
+     "summary": "Uten Erling Braut Haaland i troppen slet Manchester City mot Brighton, men avgjorde til slutt i straffesparkkonkurransen.",
      "img": "https://gfx.nrk.no/oiFmh92vqcqJJMWKstvyuw9y1_X_HMlnEPKNrMFov4FQ.jpg",
      "published": "2026-10-28T21:35Z"
     }
@@ -451,18 +441,18 @@
   }
  ],
  "stats": {
-  "total": 960,
-  "chosen": 45,
-  "notchosen": 205,
+  "total": 961,
+  "chosen": 44,
+  "notchosen": 207,
   "removed": {
    "uro": 41,
-   "kjendis": 161,
+   "kjendis": 159,
    "sykdom": 34,
    "gammel": 341,
-   "krim": 52,
+   "krim": 53,
    "format": 27,
    "konflikt": 33,
-   "betalt": 21
+   "betalt": 22
   }
  },
  "today": {
@@ -993,7 +983,7 @@
   "power_tomorrow": {},
   "weather": {
    "oslo": {
-    "temp": 11,
+    "temp": 10,
     "min": 7,
     "max": 13,
     "symbol": "fair_day",
@@ -1016,7 +1006,7 @@
    "tromso": {
     "temp": 9,
     "min": 6,
-    "max": 10,
+    "max": 9,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
@@ -1025,11 +1015,11 @@
     "min": 10,
     "max": 12,
     "symbol": "lightrain",
-    "rain6": 2.9
+    "rain6": 2.5
    },
    "stavanger": {
-    "temp": 10,
-    "min": 9,
+    "temp": 11,
+    "min": 10,
     "max": 12,
     "symbol": "cloudy",
     "rain6": 0.0
