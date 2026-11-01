@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-01T09:04",
+ "updated": "2026-11-01T09:52",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Månedskortet blir billigere i flere byer",
-     "url": "https://www.nrk.no/stor-oslo/sondag-blir-manedskortet-enda-billigere-_-enkeltbilletten-er-like-dyr-1.18067233",
-     "source": "NRK",
-     "summary": "Søndag settes prisen på månedskortet ned, mens enkeltbilletten forblir like dyr. Kritikere peker på at dette kanskje ikke er det mest effektive grepet dersom målet er å få flere til å la bilen stå.",
-     "img": "https://gfx.nrk.no/vwM5HhryRoiz0kxX99nTugBa4iNCQnO5bQW64oHf4BZA.jpg",
-     "published": "2026-10-31T11:10Z"
-    },
-    {
      "title": "Hjørnesteinsbedrift i Kjøpsvik ber om å få heve støygrensen",
      "url": "https://www.nrk.no/nordland/fabrikk-far-ikke-ned-stoyen-_-ber-om-a-fa-slippe-krav-1.18062602",
      "source": "NRK",
-     "summary": "Bedriften sliter med å holde seg innenfor dagens støykrav og søker nå om å få heve grensen. Naboene stiller seg positive til søknaden.",
+     "summary": "Hjørnesteinsbedriften i Kjøpsvik sliter med å holde seg innenfor dagens støykrav og søker nå om å få heve grensen, noe naboene stiller seg positive til.",
      "img": "https://gfx.nrk.no/_lr4gsaLxLqYX1DjU0FBBwmEXeoZ_2L4un4fw6QMnoAw.jpg",
-     "published": "2026-10-31T17:31Z"
+     "published": "2026-10-31T17:27Z"
     },
     {
-     "title": "Hjemløsheten har økt i USA det siste tiåret",
-     "url": "https://www.tv2.no/a/19368155",
-     "source": "TV 2",
-     "summary": "En fersk rapport viser at antall hjemløse i USA har steget med 35 prosent over en tiårsperiode, og mange familier må overnatte i bilene sine hver natt.",
-     "img": "https://www.cdn.tv2.no/images/?imageId=19375747&width=480",
-     "published": "2026-10-31T22:02Z"
+     "title": "Cruiseskip måtte snu i tåken i Oslofjorden",
+     "url": "https://www.nrk.no/nyheter/cruiseskip-matte-snu-i-oslofjorden-1.18069967",
+     "source": "NRK",
+     "summary": "Cruiseskipet «Sky Princess» var på veg til Oslo, men måtte snu i Oslofjorden da det ikke kunne seile gjennom Drøbaksundet på grunn av tett tåke.",
+     "published": "2026-10-31T07:55Z",
+     "img": "https://static.nrk.no/nrkno/serum/2.0.532/common/img/default.jpg"
+    },
+    {
+     "title": "Innlandet åpner skiløypene tre uker før tiden",
+     "url": "https://www.nrk.no/artikkel/apner-loypene-tre-uker-for-sesongstart-1531352",
+     "source": "NRK Innlandet",
+     "summary": "Skiløypene i Innlandet åpner allerede tre uker før den planlagte sesongstarten takket være gode forberedelser.",
+     "img": "https://gfx.nrk.no/jfpgRr1QgPlP1Pgan4mB8wxgFXXlmOVA3iPjXCb4Xi-A.jpg",
+     "published": "2026-10-31T07:30Z"
     }
    ]
   },
@@ -36,28 +36,28 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Fire milliarder til havvindutvikling på Karmøy",
+     "title": "Sa opp lederjobben for å satse på eget klesmerke",
+     "url": "https://www.nrk.no/sorlandet/en-gjenglemt-herrebokser-ble-starten-pa-annikens-nye-liv-1.18056976",
+     "source": "NRK",
+     "summary": "En gjenglemt herrebokser ble startskuddet for at Anniken sa opp sjefsjobben for å satse alt på klesmerket sitt, i en tid der kvinner fortsatt er underrepresentert blant gründere.",
+     "img": "https://gfx.nrk.no/lmY8hL661Uf-ydnCBSAQmQo06P7M_uM_zk_s63p0aEzg.jpg",
+     "published": "2026-10-31T21:46Z"
+    },
+    {
+     "title": "De fleste brukskontoer har null i rente",
+     "url": "https://www.aftenposten.no/norge/i/0B210g/nesten-alle-gir-banken-en-tusenlapp-i-aaret",
+     "source": "Aftenposten",
+     "summary": "Nesten alle gir banken en tusenlapp i året ettersom de fleste brukskontoer har 0 prosent rente, noe som merkes for en gjennomsnittlig norsk husholdning.",
+     "img": "https://akamai.vgc.no/v2/images/d3d0b323-6097-36ca-9625-586d53d511fe?format=auto&w=1000&s=195fac961ca98157572c93db9d63731591a58d3c",
+     "published": "2026-11-01T08:13Z"
+    },
+    {
+     "title": "Milliardstøtte til gigantiske havvindturbiner utenfor Karmøy",
      "url": "https://www.nrk.no/rogaland/enova-bevilger-4-milliarder-til-prosjekt-som-skal-gjore-havvind-billigere-1.18069163",
      "source": "NRK Rogaland",
-     "summary": "Enova tildeler milliarder til to selskaper som skal bygge fire rekordstore havvindturbiner utenfor Karmøy for å gjøre teknologien billigere.",
+     "summary": "Enova gir 4 milliarder kroner til to selskap som skal sette opp fire havvindturbiner utenfor Karmøy, og det er aldri tidligere bygget så store turbiner i Norge.",
      "img": "https://gfx.nrk.no/9KkyuCPhOFl-_TpPgXlnUgLEGZu-n03Ps825cDxNgH7g.jpg",
-     "published": "2026-10-30T10:20Z"
-    },
-    {
-     "title": "Vellykket samarbeid gir nye data for CO2-lagring",
-     "url": "https://www.tu.no/energi/et-litt-tilfeldig-samarbeid-ga-felttestene-en-ny-dimensjon/7178223",
-     "source": "Teknisk Ukeblad",
-     "summary": "Da aktører innen CO₂-lagring ble samlet til en felles felttest, ga det langt mer verdifulle resultater enn bare rene tall og data.",
-     "img": "https://image.tu.no/7178293.webp?imageId=7178293&x=0.00&y=7.50&cropw=100.00&croph=71.67&heightx=30.17&heighty=10.56&heightw=28.40&heighth=68.85&width=1058&height=636&format=jpg",
-     "published": "2026-10-31T11:34Z"
-    },
-    {
-     "title": "Norges Bank-rapport viser at foreldre hjelper barna inn på boligmarkedet",
-     "url": "https://www.forskning.no/boligmarkedet-hus-og-hjem-partner/foreldre-selger-boliger-til-barna-for-en-million-under-markedspris/2725895",
-     "source": "forskning.no",
-     "summary": "En ny rapport avdekker at mange foreldre selger boliger til barna sine for betydelige summer under markedspris, noe som gir unge med rike foreldre en stor fordel.",
-     "img": "https://image.forskning.no/2725908.jpg?imageId=2725908&panox=0.00&panoy=0.00&panow=100.00&panoh=84.87&heightx=0.00&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=402&format=webp&format=jpg",
-     "published": "2026-10-30T23:07Z"
+     "published": "2026-10-30T10:16Z"
     }
    ]
   },
@@ -66,28 +66,28 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Astronomer mener de har løst 137 år gammel gåte om van Goghs mesterverk",
-     "url": "https://www.forskning.no/kunst-videnskabdk/137-ar-gammel-gate-om-van-goghs-stjernenatt-kan-vaere-lost/2730637",
-     "source": "forskning.no",
-     "summary": "Forskere tror de har funnet ut nøyaktig hvilken stjernehimmel som inspirerte Vincent van Gogh da han malte det berømte maleri «Stjernenatt».",
-     "img": "https://image.forskning.no/2730646.webp?imageId=2730646&x=0.00&y=9.39&cropw=100.00&croph=60.56&heightx=5.28&heighty=0.00&heightw=49.05&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-30T23:05Z"
-    },
-    {
-     "title": "Nye skritt tas mot en permanent base på månen",
+     "title": "Månehull skal undersøkes med sikte på permanent base",
      "url": "https://www.tu.no/romfart/hull-pa-manen-skal-undersokes-malet-er-en-permanent-base/7148958",
      "source": "Teknisk Ukeblad",
-     "summary": "Det såkalte Gimli-prosjektet er et nytt steg fremover for å undersøke månehull og legge til rette for en fremtidig base.",
+     "summary": "Gimli-prosjektet er et skritt nærmere å etablere en permanent base på månen ved å undersøke hull på overflaten.",
      "img": "https://image.tu.no/7148968.webp?imageId=7148968&x=0.00&y=15.13&cropw=100.00&croph=84.87&heightx=48.40&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-10-31T15:04Z"
+     "published": "2026-10-31T15:00Z"
     },
     {
-     "title": "De gamle grekerne brukte meteorittmetall i smykker",
+     "title": "137 år gammel gåte om van Goghs «Stjernenatt» kan være løst",
+     "url": "https://www.forskning.no/kunst-videnskabdk/137-ar-gammel-gate-om-van-goghs-stjernenatt-kan-vaere-lost/2730637",
+     "source": "forskning.no",
+     "summary": "Astronomer mener de har funnet ut nøyaktig hvilken stjernehimmel som inspirerte Vincent van Gogh da han malte mesterverket sitt.",
+     "img": "https://image.forskning.no/2730646.webp?imageId=2730646&x=0.00&y=9.39&cropw=100.00&croph=60.56&heightx=5.28&heighty=0.00&heightw=49.05&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-10-30T23:01Z"
+    },
+    {
+     "title": "Gamle grekere brukte metall fra meteoritter i smykker",
      "url": "https://www.forskning.no/historie-kultur-universet/de-gamle-grekerne-brukte-metall-fra-meteoritter-i-smykker-ifolge-studie/2724991",
      "source": "forskning.no",
-     "summary": "En studie viser at ringer som er flere tusen år gamle inneholder metall fra meteoritter som falt til jorden.",
+     "summary": "En ny studie viser at tusenvis av år gamle ringer inneholder spor av metall fra meteoritter.",
      "img": "https://image.forskning.no/2725001.jpg?imageId=2725001&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=10.16&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-29T23:05Z"
+     "published": "2026-10-29T23:01Z"
     }
    ]
   },
@@ -96,20 +96,20 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Etikkutvalg advarer mot nivådeling av KI-bruk i akademia",
+     "title": "Grovbrødskala",
      "url": "https://prosa.no/artikler/kommentarer/grovbrodskala",
      "source": "Prosa",
-     "summary": "Et utvalg advarer mot at faste retningslinjer for kunstig intelligens kan gi et ufortjent godkjentstempel til tvilsom praksis.",
+     "summary": "Nivådeling av KI-bruk kan gi godkjentstempel til tvilsom praksis. Fredag 30. oktober la NFFOs etikkutvalg frem sine forslag til retningslinjer for bruk av kunstig intelligens i sakprosa på et frokostmøte i …",
      "img": "https://prosa.no/dynamic_images/bafd9d961c2e379bdd31743b7e5d4df008e59820/1920x1536/2137-20261030141621362532.jpeg",
-     "published": "2026-10-30T13:59Z"
+     "published": "2026-10-30T13:55Z"
     },
     {
-     "title": "Teolog advarer mot ukritisk bruk av kunstig intelligens i kirken",
+     "title": "Slik bør prester bruke KI",
      "url": "https://www.vl.no/nyheter/skal-ki-bli-med-pa-prekestolen-prest-mener-teknologien-minner-om-slangen-i-paradis/10607053",
      "source": "Vårt Land",
-     "summary": "En professor tar til orde for å skille mellom klok og ukritisk bruk av KI blant predikanter, mens en sokneprest heller ønsker å garantere kirken som et fristed.",
+     "summary": "KUNSTIG INTELLIGENS: Professor vil hjelpe predikanter skille mellom klok og uklok KI-bruk. Sokneprest vil heller at kirker skal garanteres som fri for KI.",
      "img": "https://image.vl.no/10607344.webp?imageId=10607344&x=0.00&y=35.08&cropw=100.00&croph=59.72&heightx=23.98&heighty=18.09&heightw=35.05&heighth=70.71&width=1058&height=700&format=jpg",
-     "published": "2026-10-30T16:54Z"
+     "published": "2026-10-30T16:50Z"
     }
    ]
   },
@@ -118,28 +118,28 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Forskere ser håp for å redde bananen",
+     "title": "Bananen kan reddes ifølge produsent",
      "url": "https://www.forskning.no/genetikk-mat/bananen-kan-reddes-ifolge-bananprodusent/2730706",
      "source": "forskning.no",
-     "summary": "Bananprodusenter og forskere melder at en løsning kan være på vei for den truede frukten som lenge har bekymret eksperter.",
+     "summary": "Forskere og produsenter har lenge fryktet at bananen kunne bli utryddet, men nå kan en løsning være på vei.",
      "img": "https://image.forskning.no/2730717.webp?imageId=2730717&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-30T23:05Z"
+     "published": "2026-10-30T23:01Z"
     },
     {
-     "title": "Behov for en helhetlig naturregnskap på linje med klimaregnskapet",
+     "title": "Norge får sin første naturregnskap i november",
      "url": "https://www.forskning.no/biologisk-mangfold-fn-klima/eit-tonn-co2-er-eit-tonn-co2-eit-dekar-natur-er-ikkje-eit-dekar-natur/2732058",
      "source": "forskning.no",
-     "summary": "Når Norge i november innfører sin første naturregnskap, påpekes det at arealer må måles med like strenge prinsipper som klimautslipp.",
+     "summary": "I november får Norge sin første naturregnskap, og forskere understreker at en slik oversikt må behandles med samme vekt som klimaregnskapet.",
      "img": "https://image.forskning.no/2732332.webp?imageId=2732332&x=0.00&y=3.06&cropw=100.00&croph=71.67&heightx=33.44&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-31T23:05Z"
+     "published": "2026-10-31T23:01Z"
     },
     {
-     "title": "Michael Pollan om hager og plantenes opprinnelige kraft",
-     "url": "https://www.themarginalian.org/2026/10/30/michael-pollan-witch-broomstick/",
-     "source": "The Marginalian",
-     "summary": "Forfatteren minner om at hager historisk sett har handlet mer om plantenes faktiske kraft til å forandre oss enn bare om ren estetikk.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2021/10/botanyofdesire.jpg?fit=320%2C493&ssl=1",
-     "published": "2026-10-30T16:45Z"
+     "title": "Tredje runde av Fotonøtta i gang",
+     "url": "https://www.birdlife.no/organisasjonen/nyheter/?id=4122",
+     "source": "BirdLife Norge",
+     "summary": "Fotonøtta er i gang med sin tredje runde i 2026, hvor deltakerne bryner seg på både enkle og mer krevende fugleobservasjoner.",
+     "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/10/29/12803/1-poeng_var_fuglefauna_3-2026.jpg",
+     "published": "2026-10-29T00:00Z"
     }
    ]
   },
@@ -148,28 +148,28 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Hvorfor det å gi opp kan lære deg mer enn å holde ut",
-     "url": "https://psyche.co/ideas/when-giving-up-teaches-you-more-than-persevering-ever-could",
-     "source": "Psyche",
-     "summary": "Selv om pågangsmot og stahet ofte hylles, kan det å tørre og avbryte feilslåtte mål være en avgjørende døråpner for å oppdage hvem du er.",
-     "img": "https://images.aeonmedia.co/images/7de9ad31-6e9d-4918-8dc6-50fcbee2b1e0/sz-gettyimages-1083192412.jpg?top=105&left=0&cropWidth=2000&cropHeight=1125&width=1200&quality=75&format=auto",
-     "published": "2026-10-29T10:04Z"
+     "title": "Slik påvirker venner barn med ufølsomme trekk",
+     "url": "https://www.forskning.no/barn-og-ungdom-partner-sosiale-relasjoner/barn-med-kalde-og-ufolsomme-trekk-hvilken-rolle-spiller-venner/2728854",
+     "source": "forskning.no",
+     "summary": "Forskning viser at sosiale relasjoner både kan beskytte og utsette barn med kalde og ufølsomme trekk for videre atferdsvansker.",
+     "img": "https://image.forskning.no/2729013.jpg?imageId=2729013&panox=0.00&panoy=44.82&panow=100.00&panoh=38.17&heightx=9.58&heighty=0.00&heightw=77.62&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=686&format=webp&format=jpg",
+     "published": "2026-10-31T23:01Z"
     },
     {
-     "title": "Barndomstraumer knyttes til økt risiko for depresjon",
-     "url": "https://www.psykologisk.no/nyheter/traumer-i-barndommen-dobler-risikoen-for-depresjon-ifolge-studie/164027",
-     "source": "Psykologisk.no",
-     "summary": "En nylig publisert studie antyder at så mange som en av fire depresjoner kan spores tilbake til vanskelige opplevelser i barndommen.",
-     "img": "https://image.psykologisk.no/164032.jpg?imageId=164032&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-10-30T05:04Z"
-    },
-    {
-     "title": "Hva betyr egentlig myke ferdigheter i arbeidslivet?",
+     "title": "Hva betyr egentlig «myke ferdigheter» på jobbsøk?",
      "url": "https://www.forskning.no/arbeidsliv-kronikk-meninger/pa-jobbsok-da-trenger-du-myke-ferdigheter-men-hva-betyr-det/2732003",
      "source": "forskning.no",
-     "summary": "Fagkunnskap alene strekker ikke til, men begrepet «menneskelige ferdigheter» oppleves ofte ulikt avhengig av hvem du spør på arbeidsplassen.",
+     "summary": "Fagkunnskap alene holder ikke på arbeidsmarkedet, og eksperter peker på at menneskelige og myke ferdigheter spiller en stadig viktigere rolle.",
      "img": "https://image.forskning.no/2732030.webp?imageId=2732030&x=0.00&y=14.17&cropw=100.00&croph=71.67&heightx=39.17&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-30T23:05Z"
+     "published": "2026-10-30T23:01Z"
+    },
+    {
+     "title": "Når det å gi opp kan lære deg mer enn å holde ut",
+     "url": "https://psyche.co/ideas/when-giving-up-teaches-you-more-than-persevering-ever-could",
+     "source": "Psyche",
+     "summary": "Selv om pågangsmot og utholdenhet ofte hylles, kan det å av og til forlate gamle mål være avgjørende for å oppdage hvem du egentlig er.",
+     "img": "https://images.aeonmedia.co/images/7de9ad31-6e9d-4918-8dc6-50fcbee2b1e0/sz-gettyimages-1083192412.jpg?top=105&left=0&cropWidth=2000&cropHeight=1125&width=1200&quality=75&format=auto",
+     "published": "2026-10-29T10:00Z"
     }
    ]
   },
@@ -178,20 +178,20 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Flere kvinner får dekket behandling for overgangsplager",
+     "title": "Hormonbehandling for overgangsplager kan bli dekket på blå resept",
      "url": "https://www.nrk.no/innlandet/flere-kvinner-med-overgangsplager-kan-fa-hormonbehandling-pa-bla-resept-1.18069755",
      "source": "NRK Innlandet",
-     "summary": "Fra desember vil rundt 50.000 flere kvinner få dekket hormonbehandling mot overgangsplager på blå resept.",
+     "summary": "Rundt 50.000 flere kvinner vil kunne få dekket behandling for overgangsplager på blå resept fra desember.",
      "img": "https://gfx.nrk.no/NcvrT-3P9nhtRrynVx1LaABhGrvPZDl6B6Pfh5kaygoQ.jpg",
-     "published": "2026-10-30T19:19Z"
+     "published": "2026-10-30T19:15Z"
     },
     {
-     "title": "Griseforskning kan åpne for nye muligheter for nyrepasienter",
+     "title": "Griseforskning kan gi nytt håp for nyrepasienter",
      "url": "https://www.nrk.no/innlandet/forskning-pa-grisehjerter-kan-vaere-godt-nytt-for-mennesker-1.18053476",
      "source": "NRK Innlandet",
-     "summary": "Forskning på griser gir håp om at funnene på sikt kan komme menneskelige pasienter til gode.",
+     "summary": "Forskning på griser gir ny innsikt som på sikt kan vise seg å bli svært viktig for menneskelige nyrepasienter.",
      "img": "https://gfx.nrk.no/D0f5Vgx_n58h-UJwgShhBAUvAyU21vSDd--BoUYOHmRg.jpg",
-     "published": "2026-10-30T20:41Z"
+     "published": "2026-10-30T20:38Z"
     },
     {
      "title": "Feil medisin for leiemarkedet",
@@ -199,7 +199,7 @@
      "source": "E24",
      "summary": "Et forbud mot bindingstid fjerner ikke risikoen i leiemarkedet. Det sender regningen videre til…",
      "img": "https://akamai.vgc.no/v2/images/7ba90758-8cd8-327c-9545-7bd2a21a3682?format=auto&w=1000&s=d7dd5b86b80f21fff4a0970a68e77c0e1ad183e6",
-     "published": "2026-10-30T14:08Z"
+     "published": "2026-10-30T14:04Z"
     }
    ]
   },
@@ -208,20 +208,20 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Barn som fikk velge bok selv, gjorde det bedre på språktest",
+     "title": "Barna som fikk velge bok selv, gjorde det bedre på språktesten",
      "url": "https://www.utdanningsnytt.no/lesing/da-barna-fikk-velge-bok-selv-gjorde-de-det-bedre-pa-spraktesten/506481",
      "source": "Utdanningsnytt",
-     "summary": "Elevane som selv fikk bestemme hvilken bok de ville høre, skåret bedre på prøver i muntlige språkferdigheter enn de som fulgte nøye planlagte lesestunder.",
+     "summary": "Barna som selv fikk velge hvilken bok de ville høre, skåret bedre på en prøve i muntlige språkferdigheter enn de som deltok i nøye planlagte lesestunder.",
      "img": "https://image.utdanningsnytt.no/490379.jpg?imageId=490379&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-11-01T07:41Z"
+     "published": "2026-11-01T07:37Z"
     },
     {
-     "title": "Elevundersøkelsen gir verdifull innsikt i skolemiljøet",
+     "title": "Elevundersøkelsen gir viktig innsikt i skolemiljøet",
      "url": "https://www.utdanningsnytt.no/ikke-meningslost-at-elevene-far-si-sin-mening/506229",
      "source": "Utdanningsnytt",
-     "summary": "Selv om undersøkelsen ikke gir svar på alt, bidrar elevenes anonyme svar til å avdekke viktig informasjon om hverdagen i klasserommet.",
+     "summary": "Selv om Elevundersøkelsen ikke forteller alt om hverdagen i klasserommet, gir elevenes anonyme svar verdifull informasjon om miljøet på skolen.",
      "img": "https://image.utdanningsnytt.no/389134.jpg?imageId=389134&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=1587&format=jpg",
-     "published": "2026-10-29T09:20Z"
+     "published": "2026-10-29T09:16Z"
     },
     {
      "title": "Når profesjonelt skjønn møter barnehagens rammer",
@@ -229,7 +229,7 @@
      "source": "Barnehage.no",
      "summary": "Hva gjør egentlig en pedagogisk leder når flere hensyn krever oppmerksomhet samtidig?",
      "img": "https://image.barnehage.no/270369.webp?imageId=270369&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-30T14:54Z"
+     "published": "2026-10-30T14:50Z"
     }
    ]
   },
@@ -241,25 +241,23 @@
      "title": "Albert Camus om tre mottrekk mot livets absurditet",
      "url": "https://www.themarginalian.org/2026/10/31/albert-camus-interview-absurd/",
      "source": "The Marginalian",
-     "summary": "I en kompleks verden understreker filosofien viktigheten av å oppnå større oppriktighet og gjensidig forståelse mennesker imellom.",
+     "summary": "Filosofen pekte på viktigheten av å oppnå større grad av forståelse og oppriktighet mellom mennesker i en kompleks verden.",
      "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2015/11/albertcamus_essays.jpg?fit=263%2C388&ssl=1",
-     "published": "2026-10-31T12:39Z"
+     "published": "2026-10-31T12:35Z"
     },
     {
-     "title": "Teolog etterlyser forankring i en stedsløs kristendom",
+     "title": "Teolog etterlyser ro og stedsfølelse i moderne kristendom",
      "url": "https://www.vl.no/kultur/var-moderne-kristendom-virker-a-vaere-helt-stedslos/10598097",
      "source": "Vårt Land",
-     "summary": "En aktuell bok diskuterer om en truende verden har gjort oss rotløse, og om kristendommen har fjernet seg fra sin lokale tilhørighet.",
+     "summary": "En aktuell bok tar for seg hvordan en truende verden kan gjøre oss rotløse, og diskuterer kristendommens plass i hverdagen.",
      "img": "https://image.vl.no/9917573.webp?imageId=9917573&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=700&format=jpg",
-     "published": "2026-10-31T14:20Z"
+     "published": "2026-10-31T14:16Z"
     },
     {
-     "title": "Tanker om livets sjeldenhet og det å miste foreldre",
-     "url": "https://www.themarginalian.org/2026/10/29/when-your-parents-are-dying-mary-gaitskill/",
-     "source": "The Marginalian",
-     "summary": "Refleksjoner rundt døden som en påminnelse om hvor tettpakket og dyrebart et menneskeliv faktisk er fra øyeblikk til øyeblikk.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2021/09/takemyadvice_harmon.jpg?fit=320%2C495&ssl=1",
-     "published": "2026-10-30T01:41Z"
+     "title": "Ny biskop ønsker en kirke som er åpen for alle",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20kirke%20som%20er%20%C3%A5pen%20for%20alle/",
+     "source": "Den norske kirke",
+     "summary": "Stig Lægdene ønsker at flest mulig skal føle seg hjemme i Den norske kirke og kjenne på en genuin tilhørighet."
     }
    ]
   },
@@ -268,28 +266,28 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Hélène Fauquet åpner glitrende skatkammer i Paris",
-     "url": "https://kunstkritikk.no/bursting-bubbles-in-a-rococo-age/",
-     "source": "Kunstkritikk",
-     "summary": "Midt i en hektisk kunstuke i den franske hovedstaden åpnet det seg et lite, funklende utstillingsrom for publikum.",
-     "published": "2026-10-30T10:11Z",
-     "img": "https://cdn.kunstkritikk.no/uploads/2026/10/IMG_7213-4-scaled.jpeg"
-    },
-    {
-     "title": "Éva Mags skulpturer henter inspirasjon fra telefonklotter",
+     "title": "Éva Mags viser nye skulpturer inspirert av telefonklotter",
      "url": "https://kunstkritikk.no/former-pa-drift/",
      "source": "Kunstkritikk",
-     "summary": "Den aktuelle utstillingen viser nye skulpturer som minner om de spontane krusedullene vi tegner mens vi prater i telefonen.",
-     "published": "2026-10-29T09:23Z",
+     "summary": "Kunstneren Éva Mag er aktuell med nye skulpturer som har former som minner om tilfeldige kruseduller på papiret.",
+     "published": "2026-10-29T09:19Z",
      "img": "https://cdn.kunstkritikk.no/uploads/2026/10/EvaMag_32A2017-978x652.jpg"
     },
     {
-     "title": "Veronica Salinas er blitt førsteamanuensis i skrivekunst og estetisk formidling",
-     "url": "https://barnebokinstituttet.no/aktuelt/veronica-salinas-er-blitt-forsteamanuensis-i-skrivekunst-og-estetisk-formidling/",
-     "source": "Norsk barnebokinstitutt",
-     "summary": "En sakkyndig komité har vurdert Veronica Salinas sin kunstneriske, faglige og pedagogiske virksomhet, og godkjent opprykk til førsteamanuensis. Innlegget Veronica Salinas er blitt førsteamanuensis i skrivekunst og …",
-     "published": "2026-10-28T14:45Z",
-     "img": "https://barnebokinstituttet.no/wp-content/uploads/2026/05/tfadk-0037.jpg"
+     "title": "Høstutgavens forside spiller på kunstnerisk ego",
+     "url": "https://www.theparisreview.org/blog/2026/10/28/elizabeth-glaessner-big-head/",
+     "source": "The Paris Review",
+     "summary": "The Paris Review viser frem Elizabeth Glaessners maleri som avbildet i miniatyr viser en person som maler et gigantisk hode.",
+     "img": "https://www.theparisreview.org/blog/wp-content/uploads/2026/10/img-0168-1-1024x683.jpg",
+     "published": "2026-10-28T15:58Z"
+    },
+    {
+     "title": "Hélène Fauquet åpnet lite skatkammer i Paris",
+     "url": "https://kunstkritikk.no/bursting-bubbles-in-a-rococo-age/",
+     "source": "Kunstkritikk",
+     "summary": "Hélène Fauquets glitrende lille utstilling åpnet i Paris i en hektisk kunstuke.",
+     "published": "2026-10-30T10:07Z",
+     "img": "https://cdn.kunstkritikk.no/uploads/2026/10/IMG_7213-4-scaled.jpeg"
     }
    ]
   },
@@ -298,28 +296,28 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Pianist hyller jazzmusikkens tidløse glede",
+     "title": "Pianisten som hyller jazzens tidløse glede",
      "url": "https://www.npr.org/2026/10/31/nx-s1-6022141/pianist-and-podcaster-on-the-timeless-joy-of-jazz-music",
      "source": "NPR Music",
-     "summary": "Jazzpianist Joe Alterman deler sine tanker om musikkens evne til å spre glede gjennom sitt ferske podkastprosjekt.",
-     "published": "2026-10-31T21:18Z",
+     "summary": "Jazzpianist Joe Alterman deler sine tanker om musikkens evne til å spre glede gjennom podkasten sin.",
+     "published": "2026-10-31T21:15Z",
      "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg"
     },
     {
      "title": "Jubileum og sterke gjensyn på neste års Jazzfest",
      "url": "https://jazzinorge.no/2026/10/30/jubileum-og-gjensyn/",
      "source": "Jazz i Norge",
-     "summary": "Festivalen har sluppet de første artistene, der blant annet Silje Nergaard opptrer med Trondheimsolistene i en stor jubileumskonsert.",
-     "published": "2026-10-30T09:03Z",
+     "summary": "Jazzfest er klar med sine første artister for 2027, der blant annet Silje Nergaard møter Trondheimsolistene til jubileumskonsert.",
+     "published": "2026-10-30T08:59Z",
      "img": "https://jazzinorge.no/content/uploads/2026/10/Silje-Nergaard_foto-Nancy-Bundt_Jazzfest-programslipp-2027.jpg"
     },
     {
-     "title": "CD-platen opplever et uventet comeback",
-     "url": "https://www.theguardian.com/music/2026/oct/29/algorithms-make-everything-predictable-music-fans-opting-buy-cds",
-     "source": "The Guardian (musikk)",
-     "summary": "Flere handler etter en markant økning i søket etter CD-spillere, ettersom musikkfans søker alternativer til de algoritmestyrte strømmetjenestene.",
-     "img": "https://i.guim.co.uk/img/media/6c5d940d9e11c6caae6853f116dbc9a3116469c0/129_0_2285_1828/master/2285.jpg?width=140&quality=85&auto=format&fit=max&s=bc0fa434e1cfcf349acefcfaf00ed604",
-     "published": "2026-10-29T13:05Z"
+     "title": "Anja Lauvdal henter fram barndommens salmer til Vossa Jazz",
+     "url": "https://jazzinorge.no/2026/10/29/tilbake-til-rottene-i-tingingsverket/",
+     "source": "Jazz i Norge",
+     "summary": "Som Tingingsverk-komponist for Vossa Jazz 2027 vender Anja Lauvdal tilbake til gospel- og salmemusikken hun vokste opp med.",
+     "published": "2026-10-29T18:01Z",
+     "img": "https://jazzinorge.no/content/uploads/2026/10/Anja-Lauvdal_foto-Signe-Luksengard_Vossa-Jazz-Tingingsverket-2027-PM.jpg"
     }
    ]
   },
@@ -328,28 +326,28 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Hvorfor ser vi en oppblomstring av føljetonger?",
+     "title": "Derfor opplever føljetong-fortellinger en ny renessanse",
      "url": "https://lithub.com/why-is-serial-fiction-having-a-moment/",
      "source": "Literary Hub",
-     "summary": "Historien bak hvordan forfattere som Charles Dickens trollbandt leserne med fortellinger utgitt i små doser over tid, gjenspeiles i dagens lesetrender.",
+     "summary": "Historien viser hvordan oppdelte historier har fenget lesere helt siden Charles Dickens sin tid, og formatet er igjen aktuelt.",
      "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Untitled-Design-9-768x384.png",
-     "published": "2026-10-30T17:14Z"
+     "published": "2026-10-30T17:10Z"
     },
     {
-     "title": "Boktips for høstmørket fra forfattere og lesere",
-     "url": "https://www.theguardian.com/books/2026/oct/31/what-were-reading-ian-rankin-louise-kennedy-and-guardian-readers-on-the-books-they-enjoyed-in-october",
-     "source": "The Guardian (bøker)",
-     "summary": "En samling av leseropplevelser og anbefalinger viser hvilke bøker som har fanget oppmerksomheten til både anmeldere og publikum den siste måneden.",
-     "img": "https://i.guim.co.uk/img/media/dbacfb9989eb82cded2b58d1df825f6427175ee5/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=64e9089c8d553c2dfc56d0b7168d3442",
-     "published": "2026-10-31T09:08Z"
-    },
-    {
-     "title": "Kazuo Ishiguro om skrivekunsten og kunsten å forme fremtidsvisjoner",
+     "title": "Kazuo Ishiguro om å skrive fremtidsromaner og kunsten å skape historier",
      "url": "https://www.npr.org/2026/10/30/nx-s1-6022105/kazuo-ishiguro-on-klara-and-the-sun-and-writing-novels-about-the-future",
      "source": "NPR Books",
-     "summary": "Nobelprisvinneren forteller om hvordan bakgrunnen som låtskriver hjalp ham å finskrive ferdighetene som har preget romanene hans.",
-     "published": "2026-10-30T14:40Z",
+     "summary": "Nobelprisvinneren forteller om hvordan bakgrunnen som låtskriver hjalp ham i forfatterlivet, og romanen «Klara og sola» har blitt adaptert videre.",
+     "published": "2026-10-30T14:36Z",
      "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg"
+    },
+    {
+     "title": "Slik lærte forfatteren seg håndverket gjennom 100 romaner",
+     "url": "https://www.theguardian.com/books/2026/oct/30/philippa-gregory-i-read-100-of-the-best-18th-century-novels-the-perfect-authors-apprenticeship",
+     "source": "The Guardian (bøker)",
+     "summary": "Forfatter Philippa Gregory forteller om sin grundige forberedelse og lesning av eldre litteratur som en oppskrift på å forstå historiefortelling.",
+     "img": "https://i.guim.co.uk/img/media/2907001ed7d8f3498b89dc3dfa700399ebc6d269/561_1687_4931_3945/master/4931.jpg?width=140&quality=85&auto=format&fit=max&s=050b550e21516d2d005ce4bd40891216",
+     "published": "2026-10-30T10:01Z"
     }
    ]
   },
@@ -358,28 +356,28 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "TV-serie om Rinnan skaper dyp debatt og sterke inntrykk",
-     "url": "https://www.vl.no/kultur/ned-i-torturkjelleren-med-rinnan/10605955",
-     "source": "Vårt Land",
-     "summary": "En ny okkupasjonsskildring får skryt for rå virkemidler og en intens hovedrolletolkning som gir rom for bred refleksjon.",
-     "img": "https://image.vl.no/10606161.jpg?imageId=10606161&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=29.41&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=700&format=webp&format=jpg",
-     "published": "2026-10-30T05:04Z"
-    },
-    {
-     "title": "William Kentridges animerte ballett forener kunst og musikk",
+     "title": "Animasjon og musikk i unikt ballettmøte",
      "url": "https://www.theguardian.com/film/2026/oct/30/oh-to-believe-in-another-world-review-william-kentridges-amazing-animated-ballet-of-black-comic-pain",
      "source": "The Guardian (film)",
-     "summary": "Et visuelt mesterverk satt til Sjostakovskijs musikk utforsker menneskelige uttrykk gjennom dans, dukkekunst og humor.",
+     "summary": "William Kentridges kunstverk akkompagnerer Sjostakovitsj' tiende symfoni i en oppsetning som forener dukketeater og dans.",
      "img": "https://i.guim.co.uk/img/media/767e80dd289faea26ca4fe0ee96b3c5c9829a068/753_19_2828_2263/master/2828.jpg?width=140&quality=85&auto=format&fit=max&s=70b94b0b4c2ec2ea6cc46981cbce9475",
-     "published": "2026-10-30T09:33Z"
+     "published": "2026-10-30T09:30Z"
     },
     {
-     "title": "Ein sakna formel",
-     "url": "https://www.gamer.no/artikler/ein-sakna-formel/521289",
-     "source": "Gamer.no",
-     "summary": "Final Fantasy Resonance er ei fin reise inn i Final Fantasy-seriens fortid.",
-     "img": "https://i.bo3.no/image/402598/FFR_Key_Art.jpg?c=0&h=337&w=599",
-     "published": "2026-10-30T20:14Z"
+     "title": "Klassiske filmer gjøres tilgjengelig på nett",
+     "url": "https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html",
+     "source": "Open Culture",
+     "summary": "Et stort utvalg klassiske filmer fra midten av det forrige århundre kan nå ses helt gratis på nettet.",
+     "published": "2026-10-30T08:00Z",
+     "img": "https://cdn8.openculture.com/2026/10/29231611/Screenshot-2026-10-29-at-11.27.10-PM-1024x774.png"
+    },
+    {
+     "title": "Nordic Docs samler dokumentarbransjen",
+     "url": "https://rushprint.no/2026/10/nrk-plakaten-under-lupen-pa-nordic-docs/",
+     "source": "Rushprint",
+     "summary": "Årets utgave av Nordic Docs byr på premierer på nye norske dokumentarer, mesterklasser og spennende panelsamtaler.",
+     "published": "2026-10-30T06:24Z",
+     "img": "https://rushprint.no/wp-content/uploads/2025/10/Trillion-foto-Egil-Haaskjold-Larsen-for-Sant-og-usant.jpg.jpeg"
     }
    ]
   },
@@ -388,28 +386,28 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Hekseskolen «Witchbrook» åpner i 2027",
+     "title": "Hekseskolen «Witchbrook» får endelig slippdato",
      "url": "https://www.pressfire.no/artikkel/witchbrook-far-slippdato-etter-ti-ars-venting",
      "source": "Pressfire",
-     "summary": "Etter nesten ti års venting har det etterlengtede koselige spillet omsider fått en fast utgivelsesdato i januar 2027.",
+     "summary": "Etter nesten ti års venting er det klart at det etterlengtede spillet åpner dørene i januar 2027.",
      "img": "https://www.pressfire.no/storage/images/2026/10/30/21774/top_image.webp",
-     "published": "2026-10-30T11:51Z"
+     "published": "2026-10-30T11:48Z"
     },
     {
-     "title": "«Enshrouded» imponerer med et av årets beste byggesystemer",
+     "title": "Nintendo feirer Pikmin-dagen med nyheter og demoer",
+     "url": "https://www.gamereactor.no/nintendo-gjor-det-offisielt-1-november-er-na-pikmin-dagen/",
+     "source": "Gamereactor",
+     "summary": "Nintendo har erklært 1. november som offisiell Pikmin-dag, og byr i den forbindelse på både demoversjoner og lanseringer.",
+     "published": "2026-11-01T07:52Z",
+     "img": "https://www.gamereactor.no/wp-content/uploads/sites/6/2026/11/pikmin-day-direct-nintendo.avif"
+    },
+    {
+     "title": "Byggespillet «Enshrouded» imponerer med ferdig versjon",
      "url": "https://www.gamer.no/artikler/et-av-spillene-jeg-har-kost-meg-mest-med-i-ar/521278",
      "source": "Gamer.no",
-     "summary": "Etter å ha forlatt early access fremstår spillet større, rikere og med kreative verktøy som gir stor spillglede.",
+     "summary": "Spillet har forlatt tidlig tilgang og fremstår nå større og rikere, med et av sjangerens beste byggesystemer.",
      "img": "https://i.bo3.no/image/402603/a364ca9f928549734555bff6200c011f3d5fc449f41e3a9e.jpg?c=0&h=337&w=599",
-     "published": "2026-10-31T09:04Z"
-    },
-    {
-     "title": "Klassiske huleboerninjaer gjør comeback i ny samling",
-     "url": "https://spillhistorie.no/2026/10/29/inntrykk-joe-mac-retro-collection/",
-     "source": "Spillhistorie.no",
-     "summary": "Retro-entusiaster kan glede seg over at de fargerike spillene om Joe & Mac fra SNES-æraen er relansert.",
-     "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/10/joe-mac-collection.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-10-29T08:47Z"
+     "published": "2026-10-31T09:00Z"
     }
    ]
   },
@@ -418,20 +416,20 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Antonelli kan skrive historie i Formel 1",
+     "title": "Kimi Antonelli kan skrive historie i Formel 1",
      "url": "https://www.nrk.no/sport/antonelli-kan-bli-tidenes-yngste-formel-1-verdensmester-sondag-1.18070412",
      "source": "NRK",
-     "summary": "Kimi Antonelli (20) starter langt fremme i Mexico og trenger bare en niendeplass for å sikre seg tittelen som tidenes yngste verdensmester.",
+     "summary": "Bare 20 år gammel kan Kimi Antonelli sikre seg verdensmesterskapet i Formel 1 under søndagens Grand Prix i Mexico by.",
      "img": "https://gfx.nrk.no/ix1yORB680fuNT_-A4kLTg6XWyTiJGAdsCn5l6IKluaA.jpg",
-     "published": "2026-11-01T07:35Z"
+     "published": "2026-11-01T07:31Z"
     },
     {
-     "title": "Dramatisk målkamp mellom Dortmund og Bayern München",
-     "url": "https://www.nrk.no/sport/dortmund-og-ryerson-rystet-bayern-i-thriller-1.18070303",
+     "title": "Historisk norsk EM-medalje i U23",
+     "url": "https://www.nrk.no/sport/21-aring-tok-historisk-em-medalje-_-satser-mot-ol-1.18070290",
      "source": "NRK",
-     "summary": "Julian Ryerson og Dortmund sikret uavgjort etter intense sluttminutter i et dramatisk oppgjør som holder tysk seriegamp åpen.",
-     "img": "https://gfx.nrk.no/rJG9DqALTcztXpNiwAhtJgwQHcroo7BdjeysrwC-OuTA.jpg",
-     "published": "2026-10-31T19:33Z"
+     "summary": "Martin Brekke-Jenssen (21) sikret seg sølv i U23-EM i Napoli, noe som er den første norske mesterskapsmedaljen i klassen på 45 år.",
+     "img": "https://gfx.nrk.no/IiyuT4JnUMQ68b922w89VwEtJWV4EQwobKhAO94t2t9Q.jpg",
+     "published": "2026-10-31T18:33Z"
     },
     {
      "title": "Ny sjef trekker seg fra alpin-VM",
@@ -439,24 +437,24 @@
      "source": "NRK",
      "summary": "Atle Skårdal er den andre på kort tid som sier opp VM-jobben, melder Fremover. – Atle har av personlige årsaker valgt å trekke seg fra jobben som sportssjef for VM i 2029, sier VM-sjef Knut-Eirik Dybdal til Fremover. …",
      "img": "https://gfx.nrk.no/cHZe0rXkf6ikJ8hG6CBn9QCPuuoC9WWGsz7sACx67SPw.jpg",
-     "published": "2026-10-31T21:28Z"
+     "published": "2026-10-31T21:24Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 960,
+  "total": 958,
   "chosen": 44,
   "notchosen": 180,
   "removed": {
-   "format": 30,
-   "sykdom": 33,
-   "gammel": 354,
-   "krim": 55,
-   "kjendis": 168,
+   "format": 29,
+   "kjendis": 172,
+   "sykdom": 32,
+   "gammel": 353,
+   "krim": 56,
    "uro": 30,
-   "konflikt": 32,
-   "betalt": 34
+   "konflikt": 30,
+   "betalt": 32
   }
  },
  "today": {
@@ -1015,9 +1013,9 @@
     "rain6": 2.9
    },
    "bergen": {
-    "temp": 11,
+    "temp": 10,
     "min": 6,
-    "max": 11,
+    "max": 10,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
