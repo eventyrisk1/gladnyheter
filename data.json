@@ -1,33 +1,32 @@
 {
- "updated": "2026-11-02T07:10",
+ "updated": "2026-11-02T08:31",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Norsk tunnelmetode vekker internasjonal oppsikt",
-     "url": "https://www.tu.no/samferdsel/norsk-tunnelmetode-sparer-miljo-og-milliarder/7149635",
-     "source": "Teknisk Ukeblad",
-     "summary": "En effektiv måte å bygge tunneler på, utviklet gjennom erfaring fra vannkraftutbygging, sparer både miljøet og store økonomiske summer.",
-     "img": "https://image.tu.no/7178107.webp?imageId=7178107&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-11-01T11:06Z"
+     "title": "Rekordmange startet i høyere utdanning",
+     "url": "https://www.tv2.no/a/19383922",
+     "source": "TV 2",
+     "summary": "Over 107.500 studenter møtte til studiestart ved norske universiteter og høgskoler i høst. Det er ny rekord.",
+     "published": "2026-11-02T07:20Z"
     },
     {
-     "title": "Bygger klyngetun for byfolk på landet",
-     "url": "https://www.nrk.no/artikkel/her-vil-tor-evert-fra-der-ingen-skulle-tru-byggje-klyngetun-for-byfolk-1531104",
+     "title": "Kommunen vil ha flere til bygdene med billige tomter",
+     "url": "https://www.nrk.no/innlandet/stange-kommune-vil-ha-flere-innbyggere-og-skal-auksjonere-bort-18-tomter-i-asbygda_-vallset-og-pa-es-1.18066961",
      "source": "NRK",
-     "summary": "Tor-Evert fra TV-serien «Der ingen skulle tru» skaper et nytt bofellesskap for folk som ønsker å flytte fra byen til mer landlige omgivelser.",
-     "img": "https://gfx.nrk.no/oLffB-5CA_wBvmAVZnZSTgPQU5WSrh018FNlPpeUWMIA.jpg",
-     "published": "2026-11-01T19:56Z"
+     "summary": "Stange kommune ønsker å lokke flere innbyggere til bygdene ved å tilby billige tomter.",
+     "img": "https://gfx.nrk.no/CMgh5i7bVlfRzC0R92jnegZKIj7qlonGAo24VSC9DSLA.jpg",
+     "published": "2026-11-02T06:21Z"
     },
     {
-     "title": "Kåret til verdensmester i jeansbruk",
-     "url": "https://www.nrk.no/sorlandet/jorn-bjorn-er-verdensmester-i-jeans_-har-brukt-samme-bukse-i-et-ar-1.18066831",
-     "source": "NRK",
-     "summary": "Jørn-Bjørn Fuller-Gee har brukt den samme buksen i et helt år for å sette søkelys på bærekraft og ta et oppgjør med klesindustrien.",
-     "img": "https://gfx.nrk.no/DUixOayvgEhsPi0UXPjOHgJufTDrIV2lwALit-wepR0w.jpg",
-     "published": "2026-11-01T09:44Z"
+     "title": "Rødgrønt press for å sikre posttjenester til eldre",
+     "url": "https://www.nettavisen.no/nyheter/rodgront-press-for-a-sikre-postens-dorterskeltjeneste/s/80-95-211022",
+     "source": "Nettavisen",
+     "summary": "De fire rødgrønne budsjettpartnerne vil overtale Arbeiderpartiet til å la eldre over hele landet få postbud på døra en dag i uka.",
+     "published": "2026-11-02T06:54Z",
+     "img": "https://g.acdn.no/obscura/API/dynamic/r1/cue/tr_2000_2000_s_f/1793602007000/nettav/2026/11/2/6/Eldre+mennesker+i+ni+kommuner+har+ftt+tilbud+om++f+post+p+dra+n+gang+i+uka.+N+kan+ordningen+b?chk=924F9F"
     }
    ]
   },
@@ -36,28 +35,28 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Norske gründere satser på argentinsk yerba mate",
+     "title": "Kunstig intelligens kan frigjøre store verdier i offentlig sektor",
+     "url": "https://e24.no/norsk-oekonomi/i/lKPAnA/ai-kan-frigjoere-naer-100-000-aarsverk",
+     "source": "E24",
+     "summary": "Kunstig intelligens kan spare det offentlige for over 80 milliarder kroner årlig, tilsvarende nær 100.000 årsverk, ifølge en ny rapport.",
+     "img": "https://akamai.vgc.no/v2/images/d92df535-009a-3168-b51b-41369b063c1c?format=auto&w=1000&s=0318a3e95209f11857e4b297e42e88cc8522590f",
+     "published": "2026-11-02T07:04Z"
+    },
+    {
+     "title": "Kompiser satsede alt på populær drikk fra Argentina",
      "url": "https://e24.no/naeringsliv/i/L3rWOR/kompisene-satser-alt-paa-ny-haaland-favoritt",
      "source": "E24",
-     "summary": "To venner sa opp jobbene sine og brukte sparepengene på å importere fem tonn av den søramerikanske teen til Norge.",
+     "summary": "To 29-åringer sa opp jobbene sine og brukte alle sparepengene på å importere fem tonn yerba mate.",
      "img": "https://akamai.vgc.no/v2/images/ce5239e9-94df-3a97-a704-d88aaa1fd448?format=auto&w=1000&s=728542dd0dc6d1fce880d4133c00d5940d9b3b26",
-     "published": "2026-11-01T10:23Z"
+     "published": "2026-11-01T10:21Z"
     },
     {
-     "title": "Kursmål fra meglerhus kan være lønnsomme å følge",
-     "url": "https://www.nettavisen.no/okonomi/nordea-topp-robert-nass-slakter-meglerhusenes-anbefalinger/s/80-95-210803",
+     "title": "Kinesisk bilsalg skyter til himmels i Norge",
+     "url": "https://www.nettavisen.no/okonomi/kinesisk-elbil-flodbolge-over-norge/s/80-95-211133",
      "source": "Nettavisen",
-     "summary": "Selv om generelle kjøpsanbefalinger varierer i treffsikkerhet, viser tall fra Oslo Børs at meglerhusenes spesifikke kursmål kan gi god avkastning.",
-     "published": "2026-11-02T03:48Z",
-     "img": "https://g.acdn.no/obscura/API/dynamic/r1/cue/tr_2000_2000_s_f/1793348087000/nettav/2026/10/30/8/Robert+N%C3%A6ss+6.jpg?chk=C38C91"
-    },
-    {
-     "title": "Det er ikke tilfeldig at det blir strømpriskrise i vinter",
-     "url": "https://www.nettavisen.no/norsk-debatt/norgespris-legitimerer-strompriskrisen/o/80-95-205580",
-     "source": "Nettavisen",
-     "summary": "Strømpriskrise er den nye normalen og den legitimeres av Norgespris.",
-     "published": "2026-11-02T05:08Z",
-     "img": "https://g.acdn.no/obscura/API/dynamic/r1/cue/tr_2000_2000_s_f/1793363255000/nettav/2026/10/30/12/Jonas+Kristiansen+N%C3%B8land.jpg?chk=F38752"
+     "summary": "Bilsalget skyter i været i forkant av en kommende avgiftsøkning, hvor biler fra Kina tar en stor del av markedet.",
+     "published": "2026-11-02T07:19Z",
+     "img": "https://g.acdn.no/obscura/API/dynamic/r1/cue/tr_2000_2000_s_f/1791534465000/nettav/2026/10/9/8/cueres_scp-mangler_navn_1nMt93qft8o.jpg?chk=FC7BD4"
     }
    ]
   },
@@ -66,28 +65,28 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Koraller sender avkom på leting etter nye hjem",
+     "title": "Hvordan koraller sprer avkommet sitt til nye områder",
      "url": "https://gemini.no/2026/11/koraller-sender-babyer-pa-boligjakt/",
      "source": "Gemini",
-     "summary": "Forskere har undersøkt hvordan fastsittende nesledyr sprer seg over store avstander i havet ved å sende ut larver på boligjakt.",
+     "summary": "Voksne koraller og andre nesledyr sitter fast på havbunnen, men sender ut babyer som legger ut på boligjakt i havet.",
      "img": "https://gemini.no/wp-content/uploads/2026/10/nematostella-vectensis-foto-madeline-m-schuldt-ntnu_nt-265x152.jpg",
-     "published": "2026-11-02T03:06Z"
+     "published": "2026-11-02T03:04Z"
     },
     {
-     "title": "Ny kunnskap om vulkansk aktivitet på havbunnen",
-     "url": "https://www.forskning.no/geofag-havet-partner/forskere-kan-ha-funnet-ut-hvorfor-det-er-mer-vulkansk-aktivitet-noen-steder-pa-havbunnen-enn-andre/2724587",
+     "title": "Bokanmeldelse av Laura Kuenssbergs «Pay Attention»",
+     "url": "https://www.theguardian.com/books/2026/nov/02/pay-attention-by-laura-kuenssberg-review-a-bbc-reporters-howl-of-frustration",
+     "source": "The Guardian (bøker)",
+     "summary": "Etter over to tiår med nøytralitet leverer BBC-reporteren Laura Kuenssberg ærlige og frustrerte betraktninger om moderne politikk i sin første bok.",
+     "img": "https://i.guim.co.uk/img/media/57fc4663e72898f096428ce30b387e97c1a9c3de/1284_0_3278_2623/master/3278.jpg?width=140&quality=85&auto=format&fit=max&s=9a5924306756363659c211a4d5b4682a",
+     "published": "2026-11-02T07:03Z"
+    },
+    {
+     "title": "Kan du redusere risikoen for demens ved å drikke 2–3 kopper kaffe om dagen?",
+     "url": "https://www.forskning.no/demens-mat-og-helse-videnskabdk/kan-du-redusere-risikoen-for-demens-ved-a-drikke-23-kopper-kaffe-om-dagen/2729478",
      "source": "forskning.no",
-     "summary": "Forskere har funnet en sammenheng mellom to dype strukturer i jordens indre og dannelsen av tusenvis av undersjøiske fjell.",
-     "img": "https://image.forskning.no/2724600.jpg?imageId=2724600&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=3.48&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=402&format=webp&format=jpg",
-     "published": "2026-11-01T23:07Z"
-    },
-    {
-     "title": "Undersøker grotter på månen for fremtidig base",
-     "url": "https://www.tu.no/romfart/hull-pa-manen-skal-undersokes-malet-er-en-permanent-base/7148958",
-     "source": "Teknisk Ukeblad",
-     "summary": "Prosjektet Gimli undersøker naturlige hull og grotter på månen som mulige steder for en permanent menneskelig base.",
-     "img": "https://image.tu.no/7148968.webp?imageId=7148968&x=0.00&y=15.13&cropw=100.00&croph=84.87&heightx=48.40&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-10-31T15:06Z"
+     "summary": "En studie om at kaffe skal hjelpe mot demens, har gått verden rundt. Men flere feilkilder har gått under radaren, ifølge forskere.",
+     "img": "https://image.forskning.no/2729543.jpg?imageId=2729543&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-10-31T23:05Z"
     }
    ]
   },
@@ -96,20 +95,20 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Foreslår «grovbrødskala» for merking av KI-bruk",
+     "title": "Etikkutvalg foreslår retningslinjer for KI-bruk",
      "url": "https://prosa.no/artikler/kommentarer/grovbrodskala",
      "source": "Prosa",
-     "summary": "Etikkutvalget i NFFO foreslår retningslinjer som skal tydeliggjøre i hvilken grad kunstig intelligens er benyttet i tekstproduksjon.",
+     "summary": "NFFOs etikkutvalg har lagt frem sine forslag til retningslinjer for hvordan kunstig intelligens skal brukes.",
      "img": "https://prosa.no/dynamic_images/bafd9d961c2e379bdd31743b7e5d4df008e59820/1920x1536/2137-20261030141621362532.jpeg",
-     "published": "2026-10-30T14:00Z"
+     "published": "2026-10-30T13:58Z"
     },
     {
-     "title": "Forfattere mottar KI-genererte e-poster fra fans",
+     "title": "Forfatter opplevde ubehagelig overraskelse etter å ha svart på KI-genererte fan-epost",
      "url": "https://www.theguardian.com/books/2026/nov/01/like-many-authors-im-bombarded-by-scam-fan-mail-i-wasnt-prepared-for-what-would-happen-when-i-wrote-back",
      "source": "The Guardian (bøker)",
-     "summary": "En romanforfatter forteller om hvordan han håndterer daglige mengder med kunstig genererte meldinger fra lesere som ønsker kontakt.",
+     "summary": "En norsk-tilsvarende situasjon beskrives der en forfatter som ukentlig mottar KI-genererte fan-eposter, tok imot et tilbud om nye lesere som ledet ut i en mørkere vending.",
      "img": "https://i.guim.co.uk/img/media/8391dca1b5f47a3e14d5b9ff67498971e58f7917/232_292_1147_917/master/1147.jpg?width=140&quality=85&auto=format&fit=max&s=20b1b27cd50f482d97e6159cd174209d",
-     "published": "2026-11-01T12:05Z"
+     "published": "2026-11-01T12:03Z"
     }
    ]
   },
@@ -118,28 +117,28 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Eik kan bli viktigere i fremtidens skogbruk",
-     "url": "https://www.forskning.no/jord-og-skog-klima-klimaendringer/kan-eika-bli-viktigere-i-fremtidens-skogbruk/2729265",
-     "source": "forskning.no",
-     "summary": "Forskere undersøker om eiketrær er et mer robust alternativ enn gran i møte med et klima i endring.",
-     "img": "https://image.forskning.no/2729288.jpg?imageId=2729288&panox=0.00&panoy=6.94&panow=100.00&panoh=71.67&heightx=39.81&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=686&format=webp&format=jpg",
-     "published": "2026-11-01T23:08Z"
-    },
-    {
-     "title": "Fotonøtta 2026 er i gang",
+     "title": "Nye utfordringer i Fotonøtta",
      "url": "https://www.birdlife.no/organisasjonen/nyheter/?id=4122",
      "source": "BirdLife Norge",
-     "summary": "BirdLife Norge inviterer fugleinteresserte til en ny runde med sin populære bildekonkurranse og artsidentifisering.",
+     "summary": "Fuglekjennerne har fått nye oppgaver å bryne seg på i den tredje runden av Fotonøtta.",
      "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/10/29/12803/1-poeng_var_fuglefauna_3-2026.jpg",
-     "published": "2026-10-29T00:05Z"
+     "published": "2026-10-29T00:03Z"
     },
     {
-     "title": "Bananen kan reddes fra utryddelse",
-     "url": "https://www.forskning.no/genetikk-mat/bananen-kan-reddes-ifolge-bananprodusent/2730706",
-     "source": "forskning.no",
-     "summary": "Forskere og bananprodusenter mener de nå har funnet løsninger som kan sikre bananens overlevelse mot truslene den står overfor.",
-     "img": "https://image.forskning.no/2730717.webp?imageId=2730717&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-30T23:07Z"
+     "title": "Vil forby turistene å ta med seg fisk ut av Norge",
+     "url": "https://www.nrk.no/nordland/fisketurister-har-tatt-med-seg-fisk-for-4-milliarder-ut-av-norge.-ordforer-etterlyser-forbud-1.18066011",
+     "source": "NRK Nordland",
+     "summary": "I løpet av de siste årene har fisketurister tatt med seg fisk for over 4 milliarder ut av Norge. Nå tar politikere til orde for både forbud og andre begrensninger.",
+     "img": "https://gfx.nrk.no/VoU6zhI_QNUQM6r4vPh9Wwt3HnFUpvibxh4RneIXhc-Q.jpg",
+     "published": "2026-11-01T09:57Z"
+    },
+    {
+     "title": "Kaller kunstig intelligens for en skrekkhistorie",
+     "url": "https://lithub.com/artificial-intelligence-is-a-horror-story/",
+     "source": "Literary Hub",
+     "summary": "Med utgangspunkt i en mørk profeti av en irsk fysiker, trekkes det paralleller til en skremmende virkelighet der menneskekroppen kastes bort og hjernen holdes i væske.",
+     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Untitled-design-2026-10-28T141919.667-768x432.png",
+     "published": "2026-10-30T08:53Z"
     }
    ]
   },
@@ -148,28 +147,28 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Derfor bør karisma behandles som et varselssignal",
-     "url": "https://www.theguardian.com/science/2026/nov/01/why-you-should-treat-charisma-as-a-red-flag",
-     "source": "The Guardian (bøker)",
-     "summary": "Artikkelen forklarer hvordan vi kan beskytte oss mot veltalende personer som utnytter menneskelig sårbarhet gjennom evolusjonære mekanismer.",
-     "img": "https://i.guim.co.uk/img/media/92b7466c257758563f3be722cea9fbc03af2c6f6/159_0_1530_1224/master/1530.jpg?width=140&quality=85&auto=format&fit=max&s=59d87089c88f140eac9fbfb23f9b3d61",
-     "published": "2026-11-01T12:05Z"
-    },
-    {
-     "title": "Albert Camus om motgiftene mot livets absurditet",
-     "url": "https://www.themarginalian.org/2026/10/31/albert-camus-interview-absurd/",
-     "source": "The Marginalian",
-     "summary": "Den franske filosofen mente at økt forståelse og oppriktighet mellom mennesker er avgjørende i en uforutsigbar verden.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2015/11/albertcamus_essays.jpg?fit=263%2C388&ssl=1",
-     "published": "2026-10-31T12:40Z"
-    },
-    {
-     "title": "Vitenskapen bak å se ansikter i gjenstander",
+     "title": "Utforsker vitenskapen bak pareidolia",
      "url": "https://psyche.co/videos/why-we-see-faces-in-unexpected-places-and-what-it-says-about-us",
      "source": "Psyche",
-     "summary": "Fenomenet pareidoli utforskes gjennom både kunst og vitenskap for å forklare hvorfor hjernen ser kjente former i skyer og steiner.",
+     "summary": "Utforsk kunsten og vitenskapen bak hvorfor vi ser kjente former i alt fra steiner og skyer til brødskiver.",
      "img": "https://images.aeonmedia.co/images/a3ca8750-d72c-4eb7-b02d-bdb252ec5071/the-power-of-pareidolia-landscape-1.jpg?top=0&left=0&cropWidth=2560&cropHeight=1440&width=1200&quality=75&format=auto",
-     "published": "2026-10-30T10:06Z"
+     "published": "2026-10-30T10:04Z"
+    },
+    {
+     "title": "Pastoren deres kan bli senator – om demokratene lykkes i mellomvalget",
+     "url": "https://www.vl.no/reportasje/den-store-landsbyen/10605702",
+     "source": "Vårt Land",
+     "summary": "",
+     "img": "https://image.vl.no/10608458.webp?imageId=10608458&width=1058&height=700&format=jpg",
+     "published": "2026-11-01T04:34Z"
+    },
+    {
+     "title": "Ufornuft og følelser",
+     "url": "https://www.nrk.no/sport/ufornuft-og-folelser-1.18070276",
+     "source": "NRK",
+     "summary": "Fotballhelgen i Bodø har nok en gang vist oss hvor viktig det er med følelser, selv i den moderne fotballen.",
+     "img": "https://gfx.nrk.no/Mx42xU_0Bn9jVrlBEVo93QVfOcxi2mlt0Jx4T5QO0zqw.jpg",
+     "published": "2026-10-31T21:07Z"
     }
    ]
   },
@@ -178,19 +177,26 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "HPV-vaksine kan redusere risiko for tidlig fødsel",
+     "title": "HPV-vaksine kan ha sammenheng med sjeldnere fortidligfødsler",
      "url": "https://www.forskning.no/fodsel-graviditet-vaksiner/fikk-du-hpv-vaksinen-som-ung-det-kan-ha-betydning-hvis-du-skal-fode/2726919",
      "source": "forskning.no",
-     "summary": "En stor svensk studie viser at kvinner som ble vaksinert mot HPV som unge, sjeldnere opplever å føde for tidlig.",
+     "summary": "Kvinner som var vaksinert mot HPV, fødte sjeldnere for tidlig, viser en stor svensk studie.",
      "img": "https://image.forskning.no/2243978.jpg?imageId=2243978&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-11-01T23:07Z"
+     "published": "2026-11-01T23:05Z"
     },
     {
-     "title": "Studie på lavkarbo og mettet fett",
+     "title": "Ny satellittfunksjon på iPhone har trolig reddet liv i Norge",
+     "url": "https://www.vg.no/i/2Vr0WR/iphones-noedanrop-sos-via-satellitt-har-trolig-allerede-reddet-liv-i-norge",
+     "source": "VG",
+     "summary": "På én måned ble den nye satellittjenesten brukt i tre reelle nødsituasjoner i Norge.",
+     "published": "2026-11-02T07:21Z"
+    },
+    {
+     "title": "Undersøker virkningen av mettet fett i blodet",
      "url": "https://www4.uib.no/forskning/aktuelt/mer-mettet-fett-ga-uventet-utslag-i-blodet",
      "source": "UiB",
-     "summary": "Forskere ved Universitetet i Bergen har undersøkt hvordan et kosthold med lite karbohydrater og mye mettet fett påvirker kroppen og blodet.",
-     "published": "2026-10-27T12:51Z",
+     "summary": "Forskere har sett på hva som skjer i kroppen og med risikoen for hjerte-karsykdom når man spiser et kosthold med lite karbohydrater og mye mettet fett.",
+     "published": "2026-10-27T12:50Z",
      "img": "https://www4.uib.no/sites/default/files/styles/large/public/2026-10/COLOURBOX17203140.jpg.avif?itok=6gaAYdED"
     }
    ]
@@ -200,28 +206,28 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Slik skaper du trygghet for sinte barn",
-     "url": "https://www.forskning.no/barn-og-ungdom-foreldre-partner/kjefte-eller-gi-etter-for-sinte-barn-dette-gjor-barna-tryggere-og-mindre-stressa/2726775",
-     "source": "forskning.no",
-     "summary": "Eksperter forklarer hvordan foreldre kan møte barns sterke følelser på en måte som gjør barna tryggere og mindre stresset.",
-     "img": "https://image.forskning.no/2726810.jpg?imageId=2726810&panox=0.00&panoy=8.06&panow=100.00&panoh=71.67&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=686&format=webp&format=jpg",
-     "published": "2026-11-01T23:09Z"
-    },
-    {
-     "title": "Barn lærte mer språk når de valgte bøker selv",
+     "title": "Barn presterte bedre på språktest da de fikk velge bok selv",
      "url": "https://www.utdanningsnytt.no/lesing/da-barna-fikk-velge-bok-selv-gjorde-de-det-bedre-pa-spraktesten/506481",
      "source": "Utdanningsnytt",
-     "summary": "En studie viser at barn som fikk velge lesestoff selv, skåret bedre på tester av muntlige språkferdigheter enn barn i planlagte lesestunder.",
+     "summary": "Barna som fikk velge hvilken bok de ville høre, skåret bedre på en prøve i muntlige språkferdigheter sammenlignet med de som deltok i faste lesestunder.",
      "img": "https://image.utdanningsnytt.no/490379.jpg?imageId=490379&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-11-01T07:42Z"
+     "published": "2026-11-01T07:40Z"
     },
     {
-     "title": "Profesjonelt skjønn i barnehagehverdagen",
+     "title": "Barn lærer foreldrene om kriseberedskap",
+     "url": "https://www.nrk.no/sorlandet/na-skal-barna-laere-foreldrene-om-kriseberedskap-1.18068044",
+     "source": "NRK",
+     "summary": "Skoleelever har fylt sekken med kunnskap om beredskap og tar nå oppgaven med å lære opp foreldrene sine.",
+     "img": "https://gfx.nrk.no/yZQyk3xp8Rk-J0nZLvBdCwlPIxZus5fc4EOeS8slnxPg.jpg",
+     "published": "2026-11-01T19:21Z"
+    },
+    {
+     "title": "Hvordan det pedagogiske skjønnet utøves i barnehagen",
      "url": "https://www.barnehage.no/nar-profesjonelt-skjonn-moter-barnehagens-rammer/278806",
      "source": "Barnehage.no",
-     "summary": "Pedagogiske ledere må balansere mange ulike faglige og praktiske hensyn innenfor barnehagens rammer.",
+     "summary": "Pedagogiske ledere må balansere flere ulike hensyn samtidig i en travel hverdag i barnehagen.",
      "img": "https://image.barnehage.no/270369.webp?imageId=270369&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-10-30T14:55Z"
+     "published": "2026-10-30T14:53Z"
     }
    ]
   },
@@ -230,28 +236,24 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Buddhistiske sutraer som filosofi og ritual",
-     "url": "https://tricycle.org/article/from-the-academy-buddhist-sutras/",
-     "source": "Tricycle",
-     "summary": "Tekstene har gjennom historien blitt brukt til alt fra dype filosofiske debatter til rituelle seremonier og meditasjon.",
-     "img": "https://tricycle.org/wp-content/uploads/2026/11/chanting-machine.jpg",
-     "published": "2026-11-01T11:05Z"
+     "title": "Julehilsener fra den verdensvide kirke",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/jul-i-den-verdensvide-kirke/",
+     "source": "Den norske kirke",
+     "summary": "Hvert år mottar Den norske kirke julehilsener fra samarbeidskirker i en rekke ulike land."
     },
     {
-     "title": "Verdien av ensomhet og sjelens ro",
-     "url": "https://www.themarginalian.org/2026/11/01/may-sarton-canticle-6-considerations/",
-     "source": "The Marginalian",
-     "summary": "May Sartons tekster fra 1938 hyller den frivillige ensomheten som en kilde til intimitet med ens egen ånd.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2017/11/innerlandscape_maysarton.jpg?fit=320%2C488&ssl=1",
-     "published": "2026-11-01T13:43Z"
+     "title": "Flere deltar på julegudstjenester",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/flere-til-julegudstjeneste/",
+     "source": "Den norske kirke",
+     "summary": "Mange kirker melder om økt oppmøte på julaftensgudstjenestene sammenlignet med tidligere år."
     },
     {
-     "title": "Retreatsenteret Lia Gård inn i hovedorganisasjonen KA",
+     "title": "Retreatsenter melder seg inn i KA",
      "url": "https://www.vl.no/nyheter/har-nok-allerede-spart-inn-arskontingenten/10609761",
      "source": "Vårt Land",
-     "summary": "Det kjente retreatstedet har meldt seg inn i KA for å sikre profesjonelle rammer rundt sin virksomhet.",
+     "summary": "Lia Gård har blitt medlem i Hovedorganisasjonen KA for å ha orden på de administrative rammene.",
      "img": "https://image.vl.no/10189942.webp?imageId=10189942&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=700&format=jpg",
-     "published": "2026-11-01T12:05Z"
+     "published": "2026-11-01T12:03Z"
     }
    ]
   },
@@ -260,28 +262,28 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Hélène Fauquets moderne rokokko-utstilling i Paris",
+     "title": "Veronica Salinas godkjent som førsteamanuensis",
+     "url": "https://barnebokinstituttet.no/aktuelt/veronica-salinas-er-blitt-forsteamanuensis-i-skrivekunst-og-estetisk-formidling/",
+     "source": "Norsk barnebokinstitutt",
+     "summary": "En sakkyndig komité har vurdert den kunstneriske og faglige virksomheten og godkjent opprykk til førsteamanuensis i skrivekunst og estetisk formidling.",
+     "published": "2026-10-28T14:44Z",
+     "img": "https://barnebokinstituttet.no/wp-content/uploads/2026/05/tfadk-0037.jpg"
+    },
+    {
+     "title": "Hélène Fauquet åpnet utstilling i Paris under urolige tider",
      "url": "https://kunstkritikk.no/bursting-bubbles-in-a-rococo-age/",
      "source": "Kunstkritikk",
-     "summary": "Utstillingen «Bursting Bubbles» viser glitrende og detaljrike verk som fungerer som et moderne skatkammer.",
-     "published": "2026-10-30T10:12Z",
+     "summary": "Hélène Fauquets glitrende utstilling åpnet i Paris samtidig som byen brant og Art Basel Paris ble tvunget til å stenge dørene tidlig.",
+     "published": "2026-10-30T10:10Z",
      "img": "https://cdn.kunstkritikk.no/uploads/2026/10/IMG_7213-4-scaled.jpeg"
     },
     {
-     "title": "Salvador Dalí hilser på museumsgjester via skjerm",
-     "url": "https://lithub.com/if-salvador-dali-died-in-1989-then-why-can-he-still-take-a-selfie-with-you/",
-     "source": "Literary Hub",
-     "summary": "Ved hjelp av moderne teknologi kan besøkende ved Dalí-museet i Florida nå møte en digital versjon av kunstneren.",
-     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/dali-museum-768x320.jpg",
-     "published": "2026-10-30T09:05Z"
-    },
-    {
-     "title": "Elizabeth Glaessners maleri pryder forsiden av The Paris Review",
-     "url": "https://www.theparisreview.org/blog/2026/10/28/elizabeth-glaessner-big-head/",
-     "source": "The Paris Review",
-     "summary": "Kunstnerens verk «Big Head» utforsker temaer som ego og perspektiv gjennom en fremstilling av en liten person som maler et gigantisk hode.",
-     "img": "https://www.theparisreview.org/blog/wp-content/uploads/2026/10/img-0168-1-1024x683.jpg",
-     "published": "2026-10-28T16:03Z"
+     "title": "Bristede bobler i en rokokotid",
+     "url": "https://kunstkritikk.no/bristede-bobler-i-en-rokokotid/",
+     "source": "Kunstkritikk",
+     "summary": "Hélène Fauquets lille funklende skatkammer åbnede i Paris, mens byen stod i brand og Art Basel Paris måtte lukke før tid. The post Bristede bobler i en rokokotid appeared first on Kunstkritikk .",
+     "published": "2026-10-30T10:10Z",
+     "img": "https://cdn.kunstkritikk.no/uploads/2026/10/IMG_7213-4-scaled.jpeg"
     }
    ]
   },
@@ -290,27 +292,27 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Dagny og Bigbang klare for Alta Live",
-     "url": "https://www.nrk.no/tromsogfinnmark/alta-live_-dagny-og-bigbang-blant-de-forste-artistene-1.18070733",
-     "source": "NRK",
-     "summary": "Festivalsjefen melder om stor tillit fra publikum etter slippet av de fem første artistene til neste års festival.",
-     "img": "https://gfx.nrk.no/aNibZTfWLA9jCNmYmJmgtAlQp9nJdG6uilUNb1K5XaNg.jpg",
-     "published": "2026-11-01T18:44Z"
+     "title": "Trygve Skaug får bibelsk rolle i musikal",
+     "url": "https://www.vl.no/nyheter/trygve-skaug-skal-spille-bibelsk-rolle-i-ny-oppsetning-av-musikal/10611392",
+     "source": "Vårt Land",
+     "summary": "Trygve Skaug skal spille en skikkelse i Bibelen i nyoppsetningen av en musikal-suksess fra 1990-tallet.",
+     "img": "https://image.vl.no/10611396.webp?imageId=10611396&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=700&format=jpg",
+     "published": "2026-11-02T07:24Z"
     },
     {
-     "title": "Jazzens tidløse glede og betydning",
-     "url": "https://www.npr.org/2026/10/31/nx-s1-6022141/pianist-and-podcaster-on-the-timeless-joy-of-jazz-music",
-     "source": "NPR Music",
-     "summary": "Pianist Joe Alterman snakker om musikkformens evne til å spre optimisme og skape fellesskap på tvers av generasjoner.",
-     "published": "2026-10-31T21:20Z",
-     "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg"
+     "title": "Høstkonserter med jazzprofiler",
+     "url": "https://jazzinorge.no/2026/10/30/ntt-vi-underkaster-oss-hosten/",
+     "source": "Jazz i Norge",
+     "summary": "Artister som Uma Morelia Bustos Reksten, Thea Grant og Carsten Dahl byr på vokalforestillinger og konserter denne høsten.",
+     "img": "https://jazznytt.jazzinorge.no/content/uploads/sites/8/2026/10/nr-280-host-2026-fb-banner-1.jpg",
+     "published": "2026-10-30T15:44Z"
     },
     {
-     "title": "Jazzfest annonserer jubileumskonsert",
+     "title": "Jazzfest presenterer de første artistene for neste års festival",
      "url": "https://jazzinorge.no/2026/10/30/jubileum-og-gjensyn/",
      "source": "Jazz i Norge",
-     "summary": "Silje Nergaard og Trondheimsolistene er blant de første bekreftede artistene til neste års festival i Trondheim.",
-     "published": "2026-10-30T09:04Z",
+     "summary": "Silje Nergaard møter Trondheimsolistene til jubileumskonsert, og både Jaga Jazzist er klare for festivalen.",
+     "published": "2026-10-30T09:03Z",
      "img": "https://jazzinorge.no/content/uploads/2026/10/Silje-Nergaard_foto-Nancy-Bundt_Jazzfest-programslipp-2027.jpg"
     }
    ]
@@ -320,28 +322,28 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Kazuo Ishiguro om låtskriving og fremtidsromaner",
+     "title": "Kazuo Ishiguro om å skrive romaner om fremtiden",
      "url": "https://www.npr.org/2026/10/30/nx-s1-6022105/kazuo-ishiguro-on-klara-and-the-sun-and-writing-novels-about-the-future",
      "source": "NPR Books",
-     "summary": "Nobelprisvinneren forteller hvordan erfaringen som låtskriver har formet hans arbeid med romaner som «Klara og solen».",
-     "published": "2026-10-30T14:41Z",
+     "summary": "Den nulevende nobelprisvinneren forteller om hvordan låtskriverbakgrunnen hjalp ham å finpusse forfatterstilen.",
+     "published": "2026-10-30T14:39Z",
      "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg"
     },
     {
-     "title": "Derfor er føljetonger populære igjen",
-     "url": "https://lithub.com/why-is-serial-fiction-having-a-moment/",
-     "source": "Literary Hub",
-     "summary": "Formatet som gjorde Charles Dickens berømt i 1836, opplever nå en ny bølge av interesse i den litterære verden.",
-     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Untitled-Design-9-768x384.png",
-     "published": "2026-10-30T17:15Z"
+     "title": "Baz Luhrmanns «Romeo + Juliet» fyller 30 år",
+     "url": "https://www.theguardian.com/film/2026/nov/01/baz-luhrmann-romeo-and-juliet-turns-30",
+     "source": "The Guardian (film)",
+     "summary": "Den visuelle og dramatiske filmatiseringen gjorde hovedrolleinnehaverne til stjerner og har fungert som et populært verktøy for engelsklærere i tre tiår.",
+     "img": "https://i.guim.co.uk/img/media/780dc006ffeb503f765b140a9823242821e3ff21/141_0_2387_1911/master/2387.jpg?width=140&quality=85&auto=format&fit=max&s=f01de641ba83c06614809b7d2502ad62",
+     "published": "2026-11-01T10:03Z"
     },
     {
-     "title": "Veronica Salinas utnevnt til førsteamanuensis",
-     "url": "https://barnebokinstituttet.no/aktuelt/veronica-salinas-er-blitt-forsteamanuensis-i-skrivekunst-og-estetisk-formidling/",
-     "source": "Norsk barnebokinstitutt",
-     "summary": "Norsk barnebokinstitutt har godkjent Salinas' kunstneriske og pedagogiske virksomhet for opprykk til førsteamanuensis i skrivekunst.",
-     "published": "2026-10-28T14:46Z",
-     "img": "https://barnebokinstituttet.no/wp-content/uploads/2026/05/tfadk-0037.jpg"
+     "title": "Superparet skilles etter tre år",
+     "url": "https://www.nettavisen.no/kjendis/margaret-qualley-og-jack-antonoff-skilles-etter-tre-ar/s/80-95-211040",
+     "source": "Nettavisen",
+     "summary": "Etter tre år er romansen over mellom Margaret Qualley og Jack Antonoff over.",
+     "published": "2026-11-02T06:53Z",
+     "img": "https://g.acdn.no/obscura/API/dynamic/r1/cue/tr_2000_2000_s_f/1793602136000/nettav/2026/11/2/6/NTB_5A1uotLfsZc.jpg?chk=9DE803"
     }
    ]
   },
@@ -350,28 +352,28 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Filmen Romeo + Juliet fyller 30 år",
-     "url": "https://www.theguardian.com/film/2026/nov/01/baz-luhrmann-romeo-and-juliet-turns-30",
-     "source": "The Guardian (film)",
-     "summary": "Baz Luhrmanns fargerike filmatisering av Shakespeare hylles for sin evne til å gjøre klassisk litteratur levende for nye generasjoner.",
-     "img": "https://i.guim.co.uk/img/media/780dc006ffeb503f765b140a9823242821e3ff21/141_0_2387_1911/master/2387.jpg?width=140&quality=85&auto=format&fit=max&s=f01de641ba83c06614809b7d2502ad62",
-     "published": "2026-11-01T10:05Z"
+     "title": "Dagny og Bigbang klare for Alta Live",
+     "url": "https://www.nrk.no/tromsogfinnmark/alta-live_-dagny-og-bigbang-blant-de-forste-artistene-1.18070733",
+     "source": "NRK",
+     "summary": "De første artistene til neste års musikkfestival i Alta er offentliggjort, og arrangøren melder om stor publikumstillit.",
+     "img": "https://gfx.nrk.no/aNibZTfWLA9jCNmYmJmgtAlQp9nJdG6uilUNb1K5XaNg.jpg",
+     "published": "2026-11-01T18:43Z"
     },
     {
-     "title": "Programmet for dokumentarfestivalen Nordic Docs er klart",
-     "url": "https://rushprint.no/2026/10/nrk-plakaten-under-lupen-pa-nordic-docs/",
-     "source": "Rushprint",
-     "summary": "Årets utgave byr på premierer på nye norske dokumentarer, mesterklasser og panelsamtaler.",
-     "published": "2026-10-30T06:29Z",
-     "img": "https://rushprint.no/wp-content/uploads/2025/10/Trillion-foto-Egil-Haaskjold-Larsen-for-Sant-og-usant.jpg.jpeg"
+     "title": "Sterkt filmportrett av tzotzil-kvinner i Mexico",
+     "url": "https://www.theguardian.com/film/2026/nov/02/i-died-review-moving-portrait-of-tzotzil-women-confronting-patriarchal-violence-in-the-mexican-highlands",
+     "source": "The Guardian (film)",
+     "summary": "Ana Ts’uyebs poetiske film «I Died» feirer urfolkskvinners motstandsdyktighet i de meksikanske høylandet i møte med patriarkalsk vold.",
+     "img": "https://i.guim.co.uk/img/media/6f5267864f2f482758bd0cf69b62e00528d77e6a/529_0_2698_2160/master/2698.jpg?width=140&quality=85&auto=format&fit=max&s=5c963fde694a699f5fb3572ae186c9d2",
+     "published": "2026-11-02T07:03Z"
     },
     {
-     "title": "Animasjonsballett om menneskeheten og humor",
-     "url": "https://www.theguardian.com/film/2026/oct/30/oh-to-believe-in-another-world-review-william-kentridges-amazing-animated-ballet-of-black-comic-pain",
+     "title": "Alex Garlands «Elden Ring»-adapsjon kan bli tidenes blodigste fantasifilm",
+     "url": "https://www.theguardian.com/film/2026/nov/02/alex-garland-elden-ring-adaptation-amazon-mgm-cailee-spaeny",
      "source": "The Guardian (film)",
-     "summary": "William Kentridges verk kombinerer dukketeater, dans og humor til musikk av Sjostakovitsj i en unik cine-musikal.",
-     "img": "https://i.guim.co.uk/img/media/767e80dd289faea26ca4fe0ee96b3c5c9829a068/753_19_2828_2263/master/2828.jpg?width=140&quality=85&auto=format&fit=max&s=70b94b0b4c2ec2ea6cc46981cbce9475",
-     "published": "2026-10-30T09:35Z"
+     "summary": "Det storslåtte filmprosjektet har både pengene og hypen i ryggen, men står overfor utfordringen med å unngå fellen som mange tidligere Hollywood-filmatiseringer har falt i.",
+     "img": "https://i.guim.co.uk/img/media/3153d8dfcc692315cd63ebeabf01d29718716a6a/115_69_2462_1969/master/2462.jpg?width=140&quality=85&auto=format&fit=max&s=3241016aa145195389da60485d7d2a28",
+     "published": "2026-11-02T06:03Z"
     }
    ]
   },
@@ -380,28 +382,28 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Fortnite-spillere får gratis gjenstander i Pirate Shop",
-     "url": "https://www.gamer.no/artikler/fortnite-spillere-i-ekstase-over-nysesongens-pirate-shop/521296",
-     "source": "Gamer.no",
-     "summary": "Spillere kan nå sikre seg en rekke kosmetiske gjenstander og uttrykksikoner helt kostnadsfritt i spillets nye butikk.",
-     "img": "https://i.bo3.no/image/402660/cmvtxwkjzkcp207og2v3qvn80.jpg?c=0&h=338&w=600",
-     "published": "2026-11-01T12:14Z"
+     "title": "Hekseskolen «Witchbrook» får omsider slippdato",
+     "url": "https://www.pressfire.no/artikkel/witchbrook-far-slippdato-etter-ti-ars-venting",
+     "source": "Pressfire",
+     "summary": "Etter nesten ti års venting er det klart at spillet lanseres i januar 2027.",
+     "img": "https://www.pressfire.no/storage/images/2026/10/30/21774/top_image.webp",
+     "published": "2026-10-30T11:51Z"
     },
     {
-     "title": "Nintendo utnevner 1. november til Pikmin-dagen",
-     "url": "https://www.gamereactor.no/nintendo-gjor-det-offisielt-1-november-er-na-pikmin-dagen/",
-     "source": "Gamereactor",
-     "summary": "Feiringen markeres med en ny demo for Nintendo Switch og kunngjøring av lanseringsdato for det fulle spillet.",
-     "published": "2026-11-01T07:57Z",
-     "img": "https://www.gamereactor.no/wp-content/uploads/sites/6/2026/11/pikmin-day-direct-nintendo.avif"
-    },
-    {
-     "title": "Klassisk spill fra 1984 er gjort spillbart igjen",
+     "title": "Gammelt spill fra 1984 gjenoppstår",
      "url": "https://spillhistorie.no/2026/10/30/fra-papir-til-piksler-larve-invasjon/",
      "source": "Spillhistorie.no",
-     "summary": "Spillet «LARVE Invasjon», som opprinnelig ble trykket som kode i et tidsskrift på 80-tallet, er nå relansert for moderne spillere.",
+     "summary": "Spillet «LARVE Invasjon», som først ble trykket i bladet Mikrodata i 1984, er gjort klart for spilling igjen.",
      "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/10/larve-invasjon.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-10-30T11:51Z"
+     "published": "2026-10-30T11:49Z"
+    },
+    {
+     "title": "Spesialutgave av spionasje-RPG på vei til PS5",
+     "url": "https://www.gamereactor.no/zero-parades-director-s-cut-er-pa-vei-til-ps5-bekrefter-oversiktstrailer/",
+     "source": "Gamereactor",
+     "summary": "PlayStation har bekreftet en oversiktstrailer som viser at et etterlengtet spill kommer til konsollen.",
+     "published": "2026-11-01T11:55Z",
+     "img": "https://www.gamereactor.no/wp-content/uploads/sites/6/2026/11/ss_5d9fda00ef153259e4c1c8a306a5909fa7114387.1920x1080-1600x900.jpg"
     }
    ]
   },
@@ -410,45 +412,45 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Kimi Antonelli ble tidenes yngste Formel 1-verdensmester",
-     "url": "https://www.nrk.no/sport/andrea-kimi-antonelli-blir-verdensmester-i-formel-1-1.18070787",
+     "title": "Svensk sensasjon vant New York Marathon i debuten",
+     "url": "https://www.nrk.no/sport/almgren-vant-new-york-marathon-etter-thrilleravslutning-1.18070684",
      "source": "NRK",
-     "summary": "Den 20 år gamle italieneren sikret VM-tittelen i Mexico og slo dermed den tidligere rekorden for yngste mester noensinne.",
-     "img": "https://gfx.nrk.no/flZxk-HLROyKBpYsIeOG8gJCQxRR1VBmyujlFB4R1cgw.jpg",
-     "published": "2026-11-01T22:29Z"
+     "summary": "Andreas Almgren løp inn til en sterk seier på tiden 2.06.01 etter en dramatisk avslutning på maratondebuten.",
+     "img": "https://gfx.nrk.no/RPyUGGhILAlgCP1OwW74wQeGsa1Ox66M2YrtPxxe-I0g.jpg",
+     "published": "2026-11-01T16:16Z"
     },
     {
-     "title": "Sondre Ørjasæter satte historisk assist-rekord i Nederland",
-     "url": "https://www.nrk.no/sport/orjasaeter-ble-historisk-i-nederland-_-leverte-fem-___-assist-1.18070651",
+     "title": "Sterk norsk prestasjon sikrer trolig PGA-kortet",
+     "url": "https://www.nrk.no/sport/stor-ventura-opptur-i-mexico-_-inne-pa-viktig-liste-1.18070887",
      "source": "NRK",
-     "summary": "22-åringen ble den første spilleren i Eredivisie dette årtusenet til å levere fem målgivende pasninger i én og samme kamp.",
-     "img": "https://gfx.nrk.no/gkkR3_nL3wtblm1HFIwhpgYjITALbnC__5jRpb6giRHg.jpg",
-     "published": "2026-11-01T16:27Z"
+     "summary": "Kristoffer Ventura leverte en knallsterk turnering i Mexico som kan ha sikret ham spillerettigheter på PGA-touren i 2027.",
+     "img": "https://gfx.nrk.no/y1vpqwpdfDg5Gm32ioxRuAYwRIyaAx-H2FJMWRtYpmiw.jpg",
+     "published": "2026-11-02T05:13Z"
     },
     {
-     "title": "Andreas Almgren vant New York Marathon i debuten",
-     "url": "https://www.aftenposten.no/sport/i/8GgmJG/almgren-til-topps-i-new-york-i-maratondebuten",
-     "source": "Aftenposten",
-     "summary": "Svenske Andreas Almgren løp inn til en overraskende seier i sitt aller første maratonløp etter en spennende avslutning.",
-     "img": "https://akamai.vgc.no/v2/images/8fcbdd54-933c-3b22-a59e-8ca8e8a72cc6?format=auto&w=1000&s=02d535ee1d29ae6038325aaecdea220c5df2358a",
-     "published": "2026-11-01T16:17Z"
+     "title": "Messi matchvinner da Inter Miami tok viktig seier",
+     "url": "https://www.nrk.no/sport/messi-matchvinner-da-inter-miami-tok-viktig-seier-1.18070893",
+     "source": "NRK",
+     "summary": "Lionel Messi scoret vinnermålet og sendte Inter Miami opp på andreplass i den østlige avdelingen med 2-1-seier borte mot New England Revolution. Dániel Gazdag ga New England ledelsen tidlig i andre omgang i kampen …",
+     "img": "https://gfx.nrk.no/L-GJ4DlRElvo3bI9XhaGigbpjWF95xntfRv6QQMh6psw.jpg",
+     "published": "2026-11-02T05:14Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 969,
-  "chosen": 43,
-  "notchosen": 168,
+  "total": 898,
+  "chosen": 44,
+  "notchosen": 146,
   "removed": {
-   "kjendis": 170,
-   "format": 25,
-   "sykdom": 35,
-   "gammel": 379,
-   "krim": 54,
-   "uro": 37,
-   "konflikt": 30,
-   "betalt": 28
+   "kjendis": 166,
+   "format": 20,
+   "sykdom": 39,
+   "gammel": 348,
+   "krim": 48,
+   "uro": 32,
+   "konflikt": 25,
+   "betalt": 30
   }
  },
  "today": {
@@ -996,15 +998,15 @@
     "temp": 5,
     "min": 5,
     "max": 8,
-    "symbol": "lightrainshowers_day",
-    "rain6": 0.8
+    "symbol": "partlycloudy_day",
+    "rain6": 0.0
    },
    "tromso": {
     "temp": 5,
-    "min": 4,
-    "max": 6,
-    "symbol": "rain",
-    "rain6": 4.9
+    "min": 3,
+    "max": 5,
+    "symbol": "heavyrain",
+    "rain6": 8.8
    },
    "bergen": {
     "temp": 5,
