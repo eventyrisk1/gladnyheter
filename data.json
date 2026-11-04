@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-04T18:57",
+ "updated": "2026-11-04T20:05",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Regjeringen vil åpne for mastergrad på fagskoler",
-     "url": "https://www.utdanningsnytt.no/fagskoler-hoyere-utdanning-mastergrad/vil-apne-for-mastergrad-pa-fagskoler/507081",
-     "source": "Utdanningsnytt",
-     "summary": "Regjeringen varsler nye grep for å gi fagskolene mulighet til å tilby utdanninger på høyere nivå.",
-     "img": "https://image.utdanningsnytt.no/499409.jpg?imageId=499409&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-11-04T11:21Z"
+     "title": "God høst for reiselivet i Nord-Norge",
+     "url": "https://www.nrk.no/nordland/nyhetssenter-nordland-1.15898380#1.18073222.1.18073222",
+     "source": "NRK Nordland",
+     "summary": "Reiselivsnæringen i Nord-Norge kan vise til en svært god høstsesong.",
+     "img": "https://gfx.nrk.no/Dg_O6Eq7RgtGRKu16g956gWDJdFrcyWtCjUpCpez__wQ.jpg",
+     "published": "2026-11-04T12:33Z"
     },
     {
-     "title": "Millionpris til Fagskolen Innlandet for ny helseutdanning",
-     "url": "https://www.utdanningsnytt.no/fagskoler-yrke-yrkesfag/millionpris-til-fagskolen-innlandet/507022",
-     "source": "Utdanningsnytt",
-     "summary": "Fagskolen Innlandet får 1 million kroner i premie for å ha utviklet Norges første høyere fagskolegrad for helsefagarbeidere.",
-     "img": "https://image.utdanningsnytt.no/507047.jpg?imageId=507047&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=46.92&heighty=0.00&heightw=38.10&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-11-03T13:32Z"
+     "title": "Rekordtall for norsk laks",
+     "url": "https://www.nrk.no/nordland/rekordhoy-eksportverdi-for-norsk-laks-1.18073129",
+     "source": "NRK Nordland",
+     "summary": "Det meldes om nye rekordtall for norsk laks.",
+     "img": "https://gfx.nrk.no/L_WiHlGjoOGfKL8Us66ylQtR4iWfiEdXpkTTq4ClTuZg.jpg",
+     "published": "2026-11-04T08:53Z"
     },
     {
-     "title": "Energiministeren foreslår lovendringer for mer vindkraft og strømkabler",
-     "url": "https://www.tu.no/energi/aasland-mer-vindkraft-pa-land-og-stromkabler-i-lufta/7181426",
-     "source": "Teknisk Ukeblad",
-     "summary": "Energiminister Terje Aasland sender nå omfattende lovendringer for utbygging av kraftnett og vindkraft på høring.",
-     "img": "https://image.tu.no/7181429.webp?imageId=7181429&x=0.00&y=0.00&cropw=100.00&croph=71.67&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-11-04T06:32Z"
+     "title": "San Francisco offentliggjør enormt historisk nettarkiv",
+     "url": "https://www.openculture.com/2026/11/the-san-francisco-public-library-launches-a-free-online-archive-with-80000-historical-images-documents-to-explore-download.html",
+     "source": "Open Culture",
+     "summary": "San Francisco Public Library har lansert et gratis nettarkiv med over 80.000 historiske bilder og dokumenter som kan utforskes og lastes ned.",
+     "img": "https://cdn8.openculture.com/2026/11/02224604/default-7.jpg",
+     "published": "2026-11-03T10:07Z"
     }
    ]
   },
@@ -36,28 +36,28 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "God høst for reiselivsnæringen i Nord-Norge",
-     "url": "https://www.nrk.no/nordland/nyhetssenter-nordland-1.15898380#1.18073222.1.18073222",
-     "source": "NRK Nordland",
-     "summary": "Reiselivet i Nord-Norge melder om en god sesong denne høsten.",
-     "img": "https://gfx.nrk.no/Dg_O6Eq7RgtGRKu16g956gWDJdFrcyWtCjUpCpez__wQ.jpg",
-     "published": "2026-11-04T12:28Z"
+     "title": "Boligprisene falt svakt i oktober",
+     "url": "https://www.nrk.no/nyheter/boligprisene-falt-med-1-prosent-i-oktober-1.18073195",
+     "source": "NRK",
+     "summary": "Boligprisene i Norge falt med 1 prosent i oktober, viser ferske tall fra Eiendom Norge. Sesongjustert var det imidlertid en oppgang på 0,1 prosent.",
+     "published": "2026-11-04T10:07Z",
+     "img": "https://static.nrk.no/nrkno/serum/2.0.532/common/img/default.jpg"
     },
     {
-     "title": "Tromsø forventes å få landets sterkeste boligprisvekst",
-     "url": "https://www.nrk.no/tromsogfinnmark/venter-34-prosent-boligprisvekst_-tromso-gar-forbi-oslo-pa-ny-boligprisprognose-1.18072005",
-     "source": "NRK Troms og Finnmark",
-     "summary": "Tromsø er ventet å få den sterkeste boligprisveksten i landet ifølge nye prognoser fra Samfunnsøkonomisk analyse.",
-     "img": "https://gfx.nrk.no/sqljOrqqCoMY2Q7rt5-qUAI3vucnM_LqwTmY77rd652A.jpg",
-     "published": "2026-11-03T09:40Z"
-    },
-    {
-     "title": "Prisveksten i eurosonen endte på 4 prosent i oktober",
+     "title": "Prisene i eurosonen opp 4 prosent",
      "url": "https://e24.no/internasjonal-oekonomi/i/n98JKm/prisene-steg-4-prosent-i-eurosonen",
      "source": "E24",
-     "summary": "Prisveksten i eurosonen i oktober var på 4 prosent, noe som var i tråd med forventningene.",
+     "summary": "Inflasjonen i eurosonen var som ventet på 4 prosent i oktober.",
      "img": "https://akamai.vgc.no/v2/images/615bc2af-7df7-30d0-bff5-15bef4946a91?format=auto&w=1000&s=9fa4e11ad4a11898f4478381f4e56f69291697d1",
-     "published": "2026-11-04T11:21Z"
+     "published": "2026-11-04T11:26Z"
+    },
+    {
+     "title": "Tromsø spås landets sterkeste boligprisvekst",
+     "url": "https://www.nrk.no/tromsogfinnmark/venter-34-prosent-boligprisvekst_-tromso-gar-forbi-oslo-pa-ny-boligprisprognose-1.18072005",
+     "source": "NRK Troms og Finnmark",
+     "summary": "Nye prognoser fra Samfunnsøkonomisk analyse peker på Tromsø som byen med den sterkeste ventede boligprisveksten i landet.",
+     "img": "https://gfx.nrk.no/sqljOrqqCoMY2Q7rt5-qUAI3vucnM_LqwTmY77rd652A.jpg",
+     "published": "2026-11-03T09:45Z"
     }
    ]
   },
@@ -66,28 +66,28 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Støy fra havvindmøller får planteplankton til å vokse raskere",
+     "title": "Nytt plaster måler pulsen helt uten elektronikk",
+     "url": "https://www.forskning.no/elektronikk-helse-materialteknologi/plaster-maler-pulsen-uten-elektronikk/2724626",
+     "source": "forskning.no",
+     "summary": "Et nyutviklet plaster kan i kombinasjon med en vanlig smarttelefon undersøke hjertets tilstand uten bruk av tradisjonell elektronikk.",
+     "img": "https://image.forskning.no/2724636.jpg?imageId=2724636&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=32.97&heighty=0.00&heightw=46.67&heighth=100.00&width=1058&height=478&format=webp&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-11-03T23:08Z"
+    },
+    {
+     "title": "Støy fra havvindmøller fikk planteplankton til å vokse raskere",
      "url": "https://gemini.no/2026/11/stoy-fra-havvindmoller-fikk-planteplankton-til-a-vokse-raskere/",
      "source": "Gemini",
-     "summary": "Forskere har målt at planteplankton i havet vokser raskere når de utsettes for støy fra vindmølleparker.",
+     "summary": "Forskere har målt hvordan de aller minste plantene i havet reagerer når de utsettes for støy fra vindmølleparker, noe som viste økt vekst.",
      "img": "https://gemini.no/wp-content/uploads/2026/10/img-20240805-wa0014_hovedbilde-265x152.jpg",
-     "published": "2026-11-04T02:02Z"
+     "published": "2026-11-04T02:07Z"
     },
     {
-     "title": "Forskere bruker moderne teknologi for å lytte til historiske brygger",
-     "url": "https://gemini.no/2026/11/forskerne-har-lyttet-til-gamle-brygger-og-fatt-svar/",
-     "source": "Gemini",
-     "summary": "Ved hjelp av sensorer og digital modellering har forskere undersøkt historiske brygger i Trondheim for å lære om deres tilstand.",
-     "img": "https://gemini.no/wp-content/uploads/2026/11/istock-1134120334-265x152.jpg",
-     "published": "2026-11-03T08:25Z"
-    },
-    {
-     "title": "Ny søkemotor gir tilgang til 4 millioner kunstverk og historiske bilder",
-     "url": "https://www.openculture.com/2026/11/a-new-search-engine-lets-you-explore-4-million-works-of-art.html",
-     "source": "Open Culture",
-     "summary": "En ny søkemotor lar brukere utforske over 4 millioner kunstverk og historiske fotografier fra museer over hele verden.",
-     "img": "https://cdn8.openculture.com/2026/11/03201051/OC-Arkivism-Kyosai-Sleeping-Cat.jpg",
-     "published": "2026-11-04T10:02Z"
+     "title": "Forskere har analysert rusmidler i inkaenes hår og negler",
+     "url": "https://www.forskning.no/arkeologi/inkaene-ofret-barn-pa-hoye-vulkan-topper-na-har-forskere-analysert-hva-slags-narkotiske-stoffer-de-fikk-i-seg-for-de-ble-drept/2729631",
+     "source": "forskning.no",
+     "summary": "Forskere har funnet spor av narkotiske stoffer ved å analysere negler og hår fra inkaer som ble offret på høye vuljantopper.",
+     "img": "https://image.forskning.no/2730562.webp?imageId=2730562&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-11-03T23:08Z"
     }
    ]
   },
@@ -96,28 +96,28 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Kvinner bruker mindre kunstig intelligens enn menn",
+     "title": "Debatt om kvinners bruk av kunstig intelligens",
      "url": "https://gemini.no/2026/11/kvinner-og-ki/",
      "source": "Gemini",
-     "summary": "Selv om kvinner bruker mindre kunstig intelligens enn menn, påpeker forskere at bruksmønsteret ikke nødvendigvis sier alt om kompetanse.",
+     "summary": "Oljefondsjef Nicolai Tangen uttrykker bekymring for at kvinner henger etter i KI-utviklingen, selv om eksperter påpeker at bruksvolum alene sier lite om kvaliteten.",
      "img": "https://gemini.no/wp-content/uploads/2026/11/istock-1909554928-265x152.jpg",
-     "published": "2026-11-04T07:55Z"
+     "published": "2026-11-04T08:00Z"
     },
     {
-     "title": "Aker-sjefen forventer fortsatt vekst i KI-markedet",
-     "url": "https://e24.no/boers-og-finans/i/PgKmQ6/aker-sjefen-tror-ai-boomen-fortsetter-etter-usa-valget",
-     "source": "E24",
-     "summary": "Aker-sjefen forventer at den kraftige veksten innen kunstig intelligens vil fortsette i USA også etter valget.",
-     "img": "https://akamai.vgc.no/v2/images/62318ed6-0a59-39c5-970c-f01578687fe0?format=auto&w=1000&s=b60f2e4f2f89ac01bde7a8f0b85ca00cfb535c0a",
-     "published": "2026-11-04T12:37Z"
-    },
-    {
-     "title": "Forslag om etiske retningslinjer for bruk av KI i litteraturen",
+     "title": "Nye etiske retningslinjer for KI-bruk",
      "url": "https://prosa.no/artikler/kommentarer/grovbrodskala",
      "source": "Prosa",
-     "summary": "NFFOs etikkutvalg foreslår en merkeordning kalt «grovbrødskala» for bruk av kunstig intelligens i litterære verk.",
+     "summary": "NFFOs etikkutvalg har lagt frem forslag til retningslinjer for nivådeling av KI-bruk for å motvirke tvilsom praksis.",
      "img": "https://prosa.no/dynamic_images/bafd9d961c2e379bdd31743b7e5d4df008e59820/1920x1536/2137-20261030141621362532.jpeg",
-     "published": "2026-10-30T13:56Z"
+     "published": "2026-10-30T14:01Z"
+    },
+    {
+     "title": "Aker-sjefen tror AI-boomen fortsetter",
+     "url": "https://e24.no/boers-og-finans/i/PgKmQ6/aker-sjefen-tror-ai-boomen-fortsetter-etter-usa-valget",
+     "source": "E24",
+     "summary": "Aker har store verdier knyttet til KI-boomen i USA og tror veksten vil fortsette til tross for politiske endringer.",
+     "img": "https://akamai.vgc.no/v2/images/62318ed6-0a59-39c5-970c-f01578687fe0?format=auto&w=1000&s=b60f2e4f2f89ac01bde7a8f0b85ca00cfb535c0a",
+     "published": "2026-11-04T12:42Z"
     }
    ]
   },
@@ -126,28 +126,28 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Nye GPS-data viser hvordan fugler beveger seg nær vindkraftverk",
+     "title": "Nye GPS-data gir unikt innblikk i fuglelivet ved vindkraftverk",
      "url": "https://www.birdlife.no/fuglekunnskap/nyheter/?id=4125",
      "source": "BirdLife Norge",
-     "summary": "BirdLife Norge har publisert nye karthistorier basert på GPS-data som gir innsikt i fuglelivet rundt norske vindkraftanlegg.",
+     "summary": "BirdLife Norge har fulgt fugler med GPS-loggere i og rundt vindkraftanlegg, og resultatene kan nå utforskes i tre nye karthistorier.",
      "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/11/03/12816/vindkraft.jpg",
-     "published": "2026-11-04T00:01Z"
+     "published": "2026-11-04T00:06Z"
     },
     {
-     "title": "Forskning viser hvordan koraller sprer seg til nye områder",
+     "title": "Koraller sender avkommet på boligjakt",
      "url": "https://gemini.no/2026/11/koraller-sender-babyer-pa-boligjakt/",
      "source": "Gemini",
-     "summary": "Voksne koraller sitter fast på havbunnen, men sprer seg ved å sende ut larver som leter etter egnede steder å slå seg ned.",
+     "summary": "Voksne koraller sitter fast på havbunnen, men sprer sine små avkom videre til nye områder for å etablere seg.",
      "img": "https://gemini.no/wp-content/uploads/2026/10/nematostella-vectensis-foto-madeline-m-schuldt-ntnu_nt-265x152.jpg",
-     "published": "2026-11-02T03:02Z"
+     "published": "2026-11-02T03:07Z"
     },
     {
-     "title": "Tredje runde av nasjonal fotokonkurranse for fugleinteresserte",
-     "url": "https://www.birdlife.no/organisasjonen/nyheter/?id=4122",
-     "source": "BirdLife Norge",
-     "summary": "BirdLife Norge har lansert en ny runde av sin nasjonale fotokonkurranse «Fotonøtta» for fugleinteresserte.",
-     "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/10/29/12803/1-poeng_var_fuglefauna_3-2026.jpg",
-     "published": "2026-10-29T00:01Z"
+     "title": "Derfor lever små hunder lenger enn store",
+     "url": "https://www.forskning.no/dyreverden/hvorfor-lever-sma-hunder-lenger-enn-store/2730999",
+     "source": "forskning.no",
+     "summary": "Hvor lenge en hund lever avhenger i stor grad av dens størrelse, viser forskning på firbeinte venner.",
+     "img": "https://image.forskning.no/2731008.webp?imageId=2731008&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-11-03T23:08Z"
     }
    ]
   },
@@ -156,28 +156,28 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Nevrovitenskapens grunnlegger om ensomhetens betydning for tenkning",
-     "url": "https://www.themarginalian.org/2026/11/03/cajal-science-solitude/",
-     "source": "The Marginalian",
-     "summary": "Santiago Ramón y Cajal beskrev ensomhet som en gunstig tilstand for utvikling av originale og banebrytende tanker.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2017/03/cajal_advice.jpg?fit=320%2C486&ssl=1",
-     "published": "2026-11-03T21:04Z"
+     "title": "Derfor føler mange skyld og skam etter spontanabort",
+     "url": "https://www.psykologisk.no/nyheter/derfor-foler-mange-skyld-og-skam-etter-spontanabort/164595",
+     "source": "Psykologisk.no",
+     "summary": "De aller fleste spontanaborter skyldes ikke noe kvinnen har gjort, men mange klandrer likevel seg selv og opplever vanskelige følelser i etterkant.",
+     "img": "https://image.psykologisk.no/164614.jpg?imageId=164614&panox=0.00&panoy=1.64&panow=100.00&panoh=84.87&heightx=57.49&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-11-03T05:07Z"
     },
     {
-     "title": "Vitenskapen bak menneskelig tilknytning og nervesystemet",
+     "title": "Ny studie om foreldreskap og barneønsker",
+     "url": "https://www.forskning.no/barn-familie-foreldre/har-det-blitt-for-slitsomt-a-ha-barn-ny-studie-overrasker/2729663",
+     "source": "forskning.no",
+     "summary": "Forskere trodde at idealet om intensivt foreldreskap ville dempe folks lyst til å få barn, men fant det motsatte resultatet.",
+     "img": "https://image.forskning.no/2733440.webp?imageId=2733440&x=0.00&y=2.56&cropw=100.00&croph=66.15&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-11-03T23:08Z"
+    },
+    {
+     "title": "Forbindelsen mellom nervesystemet og våre fortellinger",
      "url": "https://www.themarginalian.org/2026/11/03/polyvagal-theory/",
      "source": "The Marginalian",
-     "summary": "Polyvagal-teorien gir innsikt i hvordan nervesystemet vårt påvirker menneskelig tilknytning og evnen til å reparere relasjoner.",
+     "summary": "Ifølge polyvagal teori forsøker sinnet å narrativt forklare det som nervesystemet allerede opplever gjennom kroppens tilstand.",
      "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2024/05/polyvagal_dana.jpg?fit=320%2C487&ssl=1",
-     "published": "2026-11-03T08:47Z"
-    },
-    {
-     "title": "Klassiske psykologistudier utfordres av ny forskning om personlighet",
-     "url": "https://psyche.co/ideas/its-time-to-ditch-the-empty-self-view-of-human-psychology",
-     "source": "Psyche",
-     "summary": "Nyere analyser av klassiske psykologistudier tyder på at menneskets personlighet er mer stabil enn tidligere antatt.",
-     "img": "https://images.aeonmedia.co/images/1ec811de-68ae-4dea-8f17-0fc6058d6c09/sz-gettyimages-2280377751.jpg?top=134&left=0&cropWidth=2560&cropHeight=1440&width=1200&quality=75&format=auto",
-     "published": "2026-11-02T11:01Z"
+     "published": "2026-11-03T08:52Z"
     }
    ]
   },
@@ -186,28 +186,28 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Nytt plaster kan måle pulsen uten bruk av elektronikk",
-     "url": "https://www.forskning.no/elektronikk-helse-materialteknologi/plaster-maler-pulsen-uten-elektronikk/2724626",
-     "source": "forskning.no",
-     "summary": "Et nytt plaster kan i kombinasjon med en smarttelefon undersøke hjertets tilstand uten bruk av innebygd elektronikk.",
-     "img": "https://image.forskning.no/2724636.jpg?imageId=2724636&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=32.97&heighty=0.00&heightw=46.67&heighth=100.00&width=1058&height=478&format=webp&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-11-03T23:03Z"
-    },
-    {
-     "title": "HPV-vaksine kan redusere risikoen for for tidlig fødsel",
+     "title": "HPV-vaksine kan gi redusert risiko for fortidligfødsel",
      "url": "https://www.forskning.no/fodsel-graviditet-vaksiner/fikk-du-hpv-vaksinen-som-ung-det-kan-ha-betydning-hvis-du-skal-fode/2726919",
      "source": "forskning.no",
-     "summary": "En stor svensk studie viser at kvinner som ble vaksinert mot HPV som unge, sjeldnere opplever for tidlig fødsel.",
+     "summary": "En stor svensk studie viser at kvinner som ble vaksinert mot HPV som unge, fødte sjeldnere for tidlig.",
      "img": "https://image.forskning.no/2243978.jpg?imageId=2243978&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-11-01T23:03Z"
+     "published": "2026-11-01T23:08Z"
     },
     {
-     "title": "Eget behandlingstilbud bidrar til å forebygge kriser i psykisk helse",
+     "title": "Distriktspsykiatrisk senter innførte forebyggende seng",
      "url": "https://www.nrk.no/tromsogfinnmark/xl/pasient-med-bipolar-lidelse-frykter-store-konsekvenser-nar-det-lokale-dps-tilbudet-flyttes-1.18056663",
      "source": "NRK",
-     "summary": "En tilgjengelig sengeplass ved et distriktspsykiatrisk senter har vist seg å være et viktig forebyggende tiltak for pasienter i sårbare faser.",
+     "summary": "En spesiell sengeordning ved et distriktspsykiatrisk senter har fungert som et effektivt verktøy for å forhindre alvorlige kriser.",
      "img": "https://gfx.nrk.no/JoF78jts43AtuBMG1NYUwg7Xgke_NdlIEpQsDDuqsd-g.jpg",
-     "published": "2026-11-04T16:06Z"
+     "published": "2026-11-04T16:10Z"
+    },
+    {
+     "title": "Millionpris til Fagskolen Innlandet",
+     "url": "https://www.utdanningsnytt.no/fagskoler-yrke-yrkesfag/millionpris-til-fagskolen-innlandet/507022",
+     "source": "Utdanningsnytt",
+     "summary": "Norges første høyere fagskolegrad for helsefagarbeidere lønner seg – på flere måter. Fagskolen Innlandet får 1 million kroner i premie for å ha utviklet graden.",
+     "img": "https://image.utdanningsnytt.no/507047.jpg?imageId=507047&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=46.92&heighty=0.00&heightw=38.10&heighth=100.00&width=1587&height=954&format=jpg",
+     "published": "2026-11-03T13:37Z"
     }
    ]
   },
@@ -216,28 +216,28 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Rekordmange studenter har begynt på høyere utdanning i høst",
+     "title": "Forsker etterlyser fornyelse av barnehagemusikken",
+     "url": "https://www.barnehage.no/barn-skal-kunne-kjenne-seg-igjen-i-barnehagens-sangrepertoar-1/278922",
+     "source": "Barnehage.no",
+     "summary": "Selv om det lages mye ny barnemusikk, dominerer fortsatt de eldre klassikerne i norske barnehager ifølge forsker Hanne Bæverfjord.",
+     "img": "https://image.barnehage.no/278930.webp?imageId=278930&x=11.39&y=9.67&cropw=80.00&croph=57.33&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-11-04T14:38Z"
+    },
+    {
+     "title": "Stabilisering i søkertallene til barnehagelærerutdanningen",
+     "url": "https://www.barnehage.no/mott-tallene-viser-stans-i-nedgangen/278957",
+     "source": "Barnehage.no",
+     "summary": "Ved studiestart i år flatet nedgangen i søkertall for barnehagelærerutdanningen ut, med en liten økning i antall oppmøtte studenter.",
+     "img": "https://image.barnehage.no/278962.webp?imageId=278962&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-11-02T15:30Z"
+    },
+    {
+     "title": "Flere nye studenter velger lektorutdanning",
      "url": "https://www.forskning.no/hk-dir-direktoratet-for-hoyere-utdanning-og-kompetanse-lektor-partner/nye-studenter-flere-vil-bli-lektor-men-ikke-alle-laererutdanningene-vokser/2733330",
      "source": "forskning.no",
-     "summary": "Over 107 500 studenter startet på høyere utdanning i høst, med en særlig vekst i antall studenter som vil bli lektor.",
+     "summary": "Over 107.500 studenter startet på høyere utdanning i høst, med særlig vekst innenfor lærerutdanningene.",
      "img": "https://image.forskning.no/2733344.jpg?imageId=2733344&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=9.68&heighty=0.00&heightw=46.67&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=684&format=webp&format=jpg",
-     "published": "2026-11-04T09:55Z"
-    },
-    {
-     "title": "Studie viser at idealet om aktivt foreldreskap ikke skremmer folk fra å få barn",
-     "url": "https://www.forskning.no/barn-familie-foreldre/har-det-blitt-for-slitsomt-a-ha-barn-ny-studie-overrasker/2729663",
-     "source": "forskning.no",
-     "summary": "Forskere fant at de som ser for seg en krevende foreldrerolle, fortsatt er svært interessert i å få barn.",
-     "img": "https://image.forskning.no/2733440.webp?imageId=2733440&x=0.00&y=2.56&cropw=100.00&croph=66.15&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-11-03T23:03Z"
-    },
-    {
-     "title": "Oppfordrer lærerstudenter til å lære av lekeeksperter i barnehagen",
-     "url": "https://www.barnehage.no/laer-av-ein-leikeekspert-send-laerarstudenten-i-praksis-i-barnehage/278934",
-     "source": "Barnehage.no",
-     "summary": "Kronikkforfattere mener lærerstudenter bør ha praksis i barnehager for å lære om lekens betydning direkte fra barna.",
-     "img": "https://image.barnehage.no/278942.webp?imageId=278942&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-11-02T15:29Z"
+     "published": "2026-11-04T09:59Z"
     }
    ]
   },
@@ -246,24 +246,26 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Buddhistisk visdom om kunsten å leve godt alene",
+     "title": "Urgamle sutraer om å finne indre frihet alene",
      "url": "https://tricycle.org/article/thich-nhat-hanh-present-moment/",
      "source": "Tricycle",
-     "summary": "Oversettelser av gamle buddhistiske tekster gir veiledning i hvordan man kan finne indre ro og frihet i hverdagen.",
+     "summary": "En ny oversettelse av to klassiske sutraer utforsker hvordan man kan finne ro og frihet i hverdagen.",
      "img": "https://tricycle.org/wp-content/uploads/2026/11/9781967175086-Our-Appointment-with-Life-Updated-1200x1829-1-410x625.jpg",
-     "published": "2026-11-04T11:02Z"
+     "published": "2026-11-04T11:07Z"
     },
     {
-     "title": "Ny biskop ønsker en åpen og inkluderende kirke for alle",
-     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20kirke%20som%20er%20%C3%A5pen%20for%20alle/",
+     "title": "Flere deltok på julegudstjenester",
+     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/flere-til-julegudstjeneste/",
      "source": "Den norske kirke",
-     "summary": "Biskop Stig Lægdene understreker viktigheten av at flest mulig skal føle tilhørighet og kjenne seg hjemme i kirken."
+     "summary": "Flere kirker over hele landet melder om økt oppmøte og deltakelse på julaftensgudstjenestene sammenlignet med året før."
     },
     {
-     "title": "Den norske kirke opplever økt interesse fra unge",
-     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/den-norske-kirke-satser-pa-unge/",
-     "source": "Den norske kirke",
-     "summary": "Kirken opplever en økning i antall innmeldinger fra unge og planlegger nå en større satsing på denne målgruppen."
+     "title": "Bertrand Russell om kunsten å eldes med meningsfulle interesser",
+     "url": "https://www.themarginalian.org/2026/11/03/how-to-grow-old-bertrand-russell/",
+     "source": "The Marginalian",
+     "summary": "Filosofen Bertrand Russell påpekte at et tilfredsstillende liv oppstår når ens interesser gradvis blir mer upersonlige og samfunnsrettede.",
+     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2018/07/portraitsfrommemory_russell.jpg?fit=320%2C520&ssl=1",
+     "published": "2026-11-03T08:44Z"
     }
    ]
   },
@@ -272,28 +274,28 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Overraskende kunstutstilling med Jørgen Dobloug på Lillehammer",
-     "url": "https://kunstkritikk.no/forskjellen-mellom-en-regel-og-dens-hensikt/",
+     "title": "Løgnaktig utstilling speiler tidsånden",
+     "url": "https://kunstkritikk.no/sant-nok/",
      "source": "Kunstkritikk",
-     "summary": "Lillehammer Kunstmuseum viser en utstilling som utforsker forholdet mellom regler og kreativitet med uventede vendinger.",
-     "published": "2026-11-02T13:51Z",
-     "img": "https://cdn.kunstkritikk.no/uploads/2026/11/LKM.001732_desktop-2.jpg"
+     "summary": "Christian Torp står bak en ny kunstutstilling som utforsker samtidens sannhetsbegreper.",
+     "published": "2026-11-04T12:00Z",
+     "img": "https://cdn.kunstkritikk.no/uploads/2026/11/crop2-2026_10_CT_On_Lying_HighRes_21-2.jpeg"
     },
     {
-     "title": "Islandsk natur preger kunstscenen i Reykjavík",
-     "url": "https://kunstkritikk.no/the-ash-cloud-in-my-minds-eye/",
+     "title": "Islands natur preger landets kunstscene",
+     "url": "https://kunstkritikk.no/askeskyen-pa-min-nethinde/",
      "source": "Kunstkritikk",
-     "summary": "Den voldsomme islandske naturen fungerer som et sentralt omdreiningspunkt for samtidskunsten i landet.",
-     "published": "2026-11-03T10:34Z",
+     "summary": "Reykjavíks kunstscene er sterkt preget av den voldsomme og altomsluttende islandske naturen.",
+     "published": "2026-11-03T10:40Z",
      "img": "https://cdn.kunstkritikk.no/uploads/2026/11/Veil-2012_Sigurdur-Gudjonsson-4.jpg"
     },
     {
-     "title": "San Francisco åpner digitalt arkiv med over 80 000 historiske dokumenter",
-     "url": "https://www.openculture.com/2026/11/the-san-francisco-public-library-launches-a-free-online-archive-with-80000-historical-images-documents-to-explore-download.html",
-     "source": "Open Culture",
-     "summary": "Biblioteket i San Francisco har gjort en enorm samling bilder og dokumenter tilgjengelig for gratis nedlasting og utforskning.",
-     "img": "https://cdn8.openculture.com/2026/11/02224604/default-7.jpg",
-     "published": "2026-11-03T10:02Z"
+     "title": "Det er mange veier til den første spillefilmen.",
+     "url": "https://rushprint.no/2026/11/det-er-mange-veier-til-den-forste-spillefilmen/",
+     "source": "Rushprint",
+     "summary": "Grunnen til at NFI vektlegger kortfilmer over andre kunstneriske erfaringer som inngang til langfilmstøtte, er åpenbar og forståelig. Likevel er det problematisk, begrensende og historieløst, mener Erik Wensaas og Yonas …",
+     "published": "2026-11-04T06:07Z",
+     "img": "https://rushprint.no/wp-content/uploads/2019/03/Varda.jpg"
     }
    ]
   },
@@ -302,28 +304,28 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Jazzen står sterkt under musikkfestivalen Vill Vill Vest",
-     "url": "https://jazzinorge.no/2026/11/04/jazzen-lever-i-beste-velgaende-pa-vill-vill-vest/",
-     "source": "Jazz i Norge",
-     "summary": "Festivalen i Bergen inviterer til konserter og debatter som feirer den aktuelle og levende jazzscenen.",
-     "published": "2026-11-04T14:44Z",
-     "img": "https://jazzinorge.no/content/uploads/2026/11/Sverre-Saebo-Quintet_foto-presse_til-VillVillVest.jpg"
+     "title": "Knut Olaf Sunde blir ny leder for Notam",
+     "url": "https://www.ballade.no/bransjen/knut-olaf-sunde-gar-fra-komponistforeningen-til-notam/",
+     "source": "Ballade",
+     "summary": "Styrelederen i Komponistforeningen har tiltrådt som kunstnerisk og daglig leder i Notam.",
+     "img": "https://www.ballade.no/wp-content/uploads/2026/11/NKF_sundvolden_hotell_14-03-26_renatemadsen_243.jpg",
+     "published": "2026-11-03T13:51Z"
     },
     {
-     "title": "Ane Brun utforsker tillit og fellesskap på sitt nye album",
-     "url": "https://www.aftenposten.no/kultur/i/Jrjpp8/ane-brun-synger-om-tillitsbruddet-og-veien-tilbake",
-     "source": "Aftenposten",
-     "summary": "Den norske artisten synger om veien tilbake til å stole på menneskene rundt seg i sin nyeste utgivelse.",
-     "img": "https://akamai.vgc.no/v2/images/7949d532-c804-3ec9-b461-c08189e1c07a?format=auto&w=1000&s=3bb51fc49c0ce37c5a3fb7603b3f6012ebb77bbb",
-     "published": "2026-11-03T07:03Z"
-    },
-    {
-     "title": "Jungle leverer stemningsfull konsert hos Tiny Desk",
+     "title": "Jungle leverte intimkonsert med klassiske soul-rytmer",
      "url": "https://www.npr.org/2026/11/02/g-s1-148929/jungle-tiny-desk-concert",
      "source": "NPR Music",
-     "summary": "De britiske mestrene av moderne soul og R&B fremfører flere låter i en sammenhengende musikalsk flyt.",
-     "published": "2026-11-02T10:01Z",
+     "summary": "Moderne mestre av vintage soul og R&B fremførte en sammenhengende rekke låter under en eksklusiv opptreden.",
+     "published": "2026-11-02T10:06Z",
      "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4149x2334+0+0/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2c%2F16%2Fde09eaa4423b99945e7a19580326%2F20261013-jungle-credit-lexybeale-13b.jpg"
+    },
+    {
+     "title": "Ane Brun aktuell med plate om tillit og tilgivelse",
+     "url": "https://www.aftenposten.no/kultur/i/Jrjpp8/ane-brun-synger-om-tillitsbruddet-og-veien-tilbake",
+     "source": "Aftenposten",
+     "summary": "På sitt nyeste album utforsker artisten Ane Brun temaet rundt det å gjenvinne tilliten til menneskene rundt seg.",
+     "img": "https://akamai.vgc.no/v2/images/7949d532-c804-3ec9-b461-c08189e1c07a?format=auto&w=1000&s=3bb51fc49c0ce37c5a3fb7603b3f6012ebb77bbb",
+     "published": "2026-11-03T07:08Z"
     }
    ]
   },
@@ -332,28 +334,28 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Sigrid Bonde Tusvik kåret til vinner av lesekonkurransen Boktober",
-     "url": "https://www.nrk.no/artikkel/sigrid-bonde-tusvik-er-vinner-av-arets-boktober-1531245",
-     "source": "NRK",
-     "summary": "Komikeren vant årets utgave av konkurransen og mener folk nå er klare for å prioritere lesing fremfor skjermtid.",
-     "img": "https://gfx.nrk.no/iROlsUpSh4seRlScbb59YQAafpSRZ2nQEilgh47pF-9A.jpg",
-     "published": "2026-11-04T08:24Z"
+     "title": "Boktips: Seks aktuelle bøker for november",
+     "url": "https://www.npr.org/2026/11/03/nx-s1-6027314/new-books-november",
+     "source": "NPR Books",
+     "summary": "En oversikt over nye bokutgivelser fra forfattere som Daisy Johnson og Louise Kennedy som byr på sterke historier.",
+     "published": "2026-11-03T14:31Z",
+     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2c%2F10%2F70c2abb640b1ab54620b12d50892%2Funtitled-design-99.jpg"
     },
     {
-     "title": "Poeten Grace Nichols tildelt prestisjetung litteraturpris",
-     "url": "https://www.theguardian.com/books/2026/nov/03/poet-grace-nichols-wins-pioneer-prize-royal-society-of-literature",
-     "source": "The Guardian (bøker)",
-     "summary": "Grace Nichols har mottatt Pioneer-prisen på 10 000 pund for sitt betydningsfulle bidrag til litteraturen over flere tiår.",
-     "img": "https://i.guim.co.uk/img/media/345349ef98357410741ea83720f90877f0f347b4/690_553_3259_2607/master/3259.jpg?width=140&quality=85&auto=format&fit=max&s=ed36fcd983595a29fa70372837779be6",
-     "published": "2026-11-03T14:47Z"
-    },
-    {
-     "title": "Sarah J. Maas setter salgsrekord med ny fantasyroman",
+     "title": "Sarah J. Maas setter nye salgsrekorder",
      "url": "https://www.theguardian.com/books/2026/nov/03/sarah-j-maas-court-of-splintered-harmony-uk-fastest-selling-adult-fantasy-novel",
      "source": "The Guardian (bøker)",
-     "summary": "Den nyeste boken i serien har blitt den raskest selgende voksenromanen i sin sjanger i Storbritannia.",
+     "summary": "Boken A Court of Splintered Harmony har blitt Storbritannias raskest selgende voksne fantasynovelle i nyere tid.",
      "img": "https://i.guim.co.uk/img/media/a66284888e3afdbadb797170646a8e779da2d7ef/0_0_3223_2579/master/3223.jpg?width=140&quality=85&auto=format&fit=max&s=070687fe4604d02863ea4f03623ba34e",
-     "published": "2026-11-03T18:53Z"
+     "published": "2026-11-03T18:57Z"
+    },
+    {
+     "title": "Sigrid Bonde Tusvik kåret til vinner av Boktober",
+     "url": "https://www.nrk.no/artikkel/sigrid-bonde-tusvik-er-vinner-av-arets-boktober-1531245",
+     "source": "NRK",
+     "summary": "Komiker og forfatter Sigrid Bonde Tusvik har vunnet årets utgave av lesekampanjen Boktober.",
+     "img": "https://gfx.nrk.no/iROlsUpSh4seRlScbb59YQAafpSRZ2nQEilgh47pF-9A.jpg",
+     "published": "2026-11-04T08:29Z"
     }
    ]
   },
@@ -362,28 +364,27 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Tommy Lørdahl mottar Filmklubbprisen 2026",
+     "title": "Filmklubbprisen 2026 tildelt Tommy Lørdahl",
      "url": "https://rushprint.no/2026/11/filmklubbprisen-2026-til-tommy-lordahl/",
      "source": "Rushprint",
-     "summary": "Prisvinneren får anerkjennelse for sitt langvarige arbeid med å forme og fremme filmkulturen i Norge.",
-     "published": "2026-11-03T09:51Z",
+     "summary": "Årets prisvinner hedres for sin lange innsats med å forme norsk filmkultur.",
+     "published": "2026-11-03T09:56Z",
      "img": "https://rushprint.no/wp-content/uploads/2026/11/tommy-loerdahl-filmklubbprisen-1024x563-1.jpeg"
     },
     {
-     "title": "Storslått indisk epos om legenden Ramayana får gode anmeldelser",
-     "url": "https://www.theguardian.com/film/2026/nov/04/ramayana-rise-of-a-legend-review-indias-most-expensive-film-ever-becomes-spectacular-huge-scale-epic",
-     "source": "The Guardian (film)",
-     "summary": "Indias dyreste filmproduksjon noensinne beskrives som et spektakulært og underholdende verk basert på klassisk poesi.",
-     "img": "https://i.guim.co.uk/img/media/12eb62d74a294db635745f2c7c9b1e8210c29723/1288_0_2699_2160/master/2699.jpg?width=140&quality=85&auto=format&fit=max&s=3e7856daa89c2657ea01985e5598f2b9",
-     "published": "2026-11-04T13:01Z"
+     "title": "Norske filmer til Nordiske filmdager i Lübeck",
+     "url": "https://rushprint.no/2026/11/norske-filmer-til-nordiske-filmdager-i-lubeck/",
+     "source": "Rushprint",
+     "summary": "Flere kjente norske kinofilmer er plukket ut til å representere landet under filmdagene i Tyskland.",
+     "published": "2026-11-03T09:15Z"
     },
     {
-     "title": "Historien bak de klassiske sovjetiske animasjonsfilmene om Ole Brumm",
-     "url": "https://www.openculture.com/2026/11/soviet-animations-of-winnie-the-pooh-created-by-the-innovative-animator-fyodor-khitruk.html",
-     "source": "Open Culture",
-     "summary": "Innovatøren Fyodor Khitruk skapte en unik versjon av den kjente bjørnen som brøt med datidens animasjonstrender.",
-     "published": "2026-11-03T09:01Z",
-     "img": "https://cdn8.openculture.com/2026/11/02223855/VinniPuh-1024x685.jpg"
+     "title": "Den italienske filmregissøren Tinto Brass er død",
+     "url": "https://www.theguardian.com/film/2026/nov/04/tinto-brass-director-of-caligula-erotic-cinema-dies-aged-93",
+     "source": "The Guardian (film)",
+     "summary": "Den kjente italienske filmregissøren Tinto Brass, som var kjent for sine erotiske filmer og sin tid som assistent for Roberto Rossellini, er død 93 år gammel.",
+     "img": "https://i.guim.co.uk/img/media/200f4cf3cbea53e1603982201c59d54825ccfb60/324_0_3240_2592/master/3240.jpg?width=140&quality=85&auto=format&fit=max&s=db952823de612983007e304c16abdb05",
+     "published": "2026-11-04T16:53Z"
     }
    ]
   },
@@ -392,28 +393,28 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Klassikeren Commodore 64 Ultimate kommer i europeiske butikker",
+     "title": "Guild Wars får ny utvidelse 22 år etter lansering",
+     "url": "https://www.gamer.no/artikler/guild-wars-far-plutselig-en-ny-utvidelse-22-ar-etter-lanseringen/521316",
+     "source": "Gamer.no",
+     "summary": "Det klassiske nettspillet får overraskende nok en splitter ny utvidelse over to tiår etter at det først kom ut.",
+     "img": "https://i.bo3.no/image/402874/Key_Art_1920x1080.png?c=0&h=337&w=599",
+     "published": "2026-11-04T16:14Z"
+    },
+    {
+     "title": "Commodore 64 Ultimate får bred europeisk distribusjon",
      "url": "https://spillhistorie.no/2026/11/04/commodore-64-ultimate-far-europeisk-distribusjon/",
      "source": "Spillhistorie.no",
-     "summary": "Den moderniserte versjonen av den ikoniske datamaskinen skal etter planen slippes i butikk før jul.",
+     "summary": "Den moderne versjonen av retro-maskinen slippes i europeiske butikker før jul.",
      "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/04/commodore-64c-ultimate.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-11-04T09:06Z"
+     "published": "2026-11-04T09:11Z"
     },
     {
-     "title": "Nye spilltitler klare for Game Pass i november",
-     "url": "https://www.gamer.no/artikler/warhammer-vampyrer-og-fotball-blant-game-pass-spillene-for-november/521313",
-     "source": "Gamer.no",
-     "summary": "Microsoft ruller ut flere nye spill denne måneden, inkludert titler innen Warhammer-universet og fotball.",
-     "img": "https://i.bo3.no/image/402870/e4aff7577e3908f3854e51eb8933fe29eefb3e82a37b5131.jpg?c=0&h=338&w=600",
-     "published": "2026-11-04T13:07Z"
-    },
-    {
-     "title": "Ny generasjon retro-spillmaskin lansert med fysiske kassetter",
+     "title": "Evercade Nexus lanserer ny generasjon retrohåndholdt",
      "url": "https://spillhistorie.no/2026/11/03/evercade-nexus-er-ute-na/",
      "source": "Spillhistorie.no",
-     "summary": "Evercade Nexus er nå tilgjengelig for de som ønsker å spille klassiske spill på en moderne håndholdt konsoll.",
+     "summary": "En ny bærbar spillkonsoll basert på fysiske kassetter er nå tilgjengelig for retroentusiaster.",
      "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/11/evercade-nexus.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-11-03T11:23Z"
+     "published": "2026-11-03T11:28Z"
     }
    ]
   },
@@ -422,45 +423,45 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "To nye fjes tatt ut i landslagstroppen mot Wales og Danmark",
-     "url": "https://www.aftenposten.no/sport/fotball/i/ylQn0E/horn-myhre-og-helland-tatt-ut-i-landslagstroppen-mot-wales-og-danmark",
-     "source": "Aftenposten",
-     "summary": "Felix Horn Myhre og Eivind Helland er Ståle Solbakkens ferskeste valg til de kommende landskampene.",
-     "img": "https://akamai.vgc.no/v2/images/d090414f-38f4-3bb3-8cf9-b07d2c65b8be?format=auto&w=1000&s=a01ab91849dca7f09a7ff4acbb1876159ff34427",
-     "published": "2026-11-04T11:04Z"
-    },
-    {
-     "title": "Therese Johaug nominert til pris som månedens friidrettsutøver",
+     "title": "Therese Johaug nominert til prestisjefylt pris",
      "url": "https://www.nrk.no/sport/johaug-nominert-til-manedens-europeiske-friidrettsutover-1.18073316",
      "source": "NRK",
-     "summary": "Etter seieren på 10 kilometer i oktober er Johaug blant kandidatene til den europeiske utmerkelsen for månedens utøver.",
+     "summary": "Therese Johaug er blant de nominerte til utmerkelsen som månedens europeiske friidrettsutøver for oktober etter sterke prestasjoner.",
      "img": "https://gfx.nrk.no/gycZHWupjVm0ZwIjyi8Z_wsdszhYmf1jb6OWHP-2v7lA.jpg",
-     "published": "2026-11-04T09:53Z"
+     "published": "2026-11-04T09:58Z"
     },
     {
-     "title": "Amalie Iuel blir assistenttrener for stafettlandslaget",
-     "url": "https://www.aftenposten.no/sport/i/8GnyOQ/amalie-iuel-faar-ny-jobb-blir-assistenttrener",
+     "title": "Alexander Sørloth tilbake i aksjon for Bayern München-kamp",
+     "url": "https://www.aftenposten.no/sport/fotball/i/rMok5K/soerloth-tilbake-startet-i-storkampen-mot-bayern-munchen",
      "source": "Aftenposten",
-     "summary": "Friidrettsprofilen trer inn i en ny lederrolle for stafettlaget hun selv har vært en del av i mange år.",
-     "img": "https://akamai.vgc.no/v2/images/70dc64c4-02cf-3f2c-9a59-037e6f8938f8?format=auto&w=1000&s=38d70602407432abc11d49d542d1ac77456d080e",
-     "published": "2026-11-03T17:13Z"
+     "summary": "Etter å ha mistet starten av sesongen på grunn av skade, var angrepsspilleren endelig tilbake på banen i storkampen.",
+     "img": "https://akamai.vgc.no/v2/images/1f09267e-52f5-3b77-9a1b-18881b7f95fb?format=auto&w=1000&s=3188b4ddfdc359fff66db8bbfc8c2f15e95f13eb",
+     "published": "2026-11-03T20:05Z"
+    },
+    {
+     "title": "Nye navn i landslagstroppen mot Wales og Danmark",
+     "url": "https://www.vg.no/sport/i/BMo2dQ/staale-solbakken-tar-ut-landslagstroppen",
+     "source": "VG",
+     "summary": "Ståle Solbakken har funnet plass til Felix Horn Myhre og Eivind Helland i den norske landslagstroppen.",
+     "published": "2026-11-04T11:09Z",
+     "img": "https://akamai.vgc.no/v2/images/3daf9cf2-50ed-3b20-b0ff-6dca9f410790?format=auto&w=1080&s=29f1d93a314a4f86be80caa5f49ec8bed1826775"
     }
    ]
   }
  ],
  "stats": {
-  "total": 957,
+  "total": 975,
   "chosen": 45,
-  "notchosen": 200,
+  "notchosen": 208,
   "removed": {
    "uro": 33,
-   "kjendis": 156,
+   "kjendis": 162,
    "konflikt": 34,
-   "sykdom": 35,
-   "gammel": 345,
-   "krim": 59,
-   "format": 24,
-   "betalt": 26
+   "sykdom": 34,
+   "gammel": 347,
+   "krim": 57,
+   "format": 28,
+   "betalt": 27
   }
  },
  "today": {
@@ -1488,17 +1489,38 @@
     "symbol": "clearsky_night",
     "rain6": 0.0
    },
-   "tromso": {
-    "temp": 6,
-    "min": 4,
+   "kristiansand": {
+    "temp": 5,
+    "min": 5,
     "max": 6,
+    "symbol": "fair_night",
+    "rain6": 0.0
+   },
+   "trondheim": {
+    "temp": 10,
+    "min": 9,
+    "max": 10,
+    "symbol": "lightrainshowers_night",
+    "rain6": 2.0
+   },
+   "tromso": {
+    "temp": 5,
+    "min": 4,
+    "max": 5,
     "symbol": "rain",
-    "rain6": 4.5
+    "rain6": 3.1
    },
    "bergen": {
     "temp": 7,
-    "min": 7,
-    "max": 8,
+    "min": 6,
+    "max": 7,
+    "symbol": "partlycloudy_night",
+    "rain6": 0.0
+   },
+   "stavanger": {
+    "temp": 6,
+    "min": 5,
+    "max": 6,
     "symbol": "partlycloudy_night",
     "rain6": 0.0
    }
