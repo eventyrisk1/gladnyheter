@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T23:56",
+ "updated": "2026-11-06T00:50",
  "categories": [
   {
    "id": "samfunn",
@@ -11,7 +11,7 @@
      "source": "BirdLife Norge",
      "summary": "Regjeringen bekrefter at det europeiske forbudet mot blyhagl skal innføres i norsk regelverk. Men når det gjelder bruk av blykuler under jakt, har regjeringen foreløpig ingen plan for utfasing. Det er uholdbart, mener …",
      "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/11/04/12821/blyhagl_og_fjar.jpg",
-     "published": "2026-11-02T00:05Z"
+     "published": "2026-11-02T00:03Z"
     },
     {
      "title": "Den er stripete, stilig og stinkende, og for første gang i Norge",
@@ -19,7 +19,7 @@
      "source": "forskning.no",
      "summary": "POPULÆRVITENSKAP: Den er på størrelse med en negl, har stinkkjertler og suger plantesaft.",
      "img": "https://image.forskning.no/2733494.webp?imageId=2733494&x=0.00&y=18.23&cropw=100.00&croph=63.55&heightx=18.64&heighty=0.00&heightw=46.67&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-11-04T23:06Z"
+     "published": "2026-11-04T23:04Z"
     },
     {
      "title": "Widerøe-fly til Mo i Rana fikk ikke ut landingshjul – måtte lande i Bodø",
@@ -27,7 +27,7 @@
      "source": "NRK Trøndelag",
      "summary": "Bodø lufthavn satte full beredskap. Flyet klarte likevel å lande som normalt onsdag kveld.",
      "img": "https://gfx.nrk.no/c3fG5JlNNCQXEIylBdq53wV5XgGjWoyJn1hERNK42nlg.jpg",
-     "published": "2026-11-04T18:07Z"
+     "published": "2026-11-04T18:06Z"
     }
    ]
   },
@@ -41,7 +41,7 @@
      "source": "Spillhistorie.no",
      "summary": "Skal etter planen slippes i europeiske butikker før jul.",
      "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/04/commodore-64c-ultimate.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-11-04T09:09Z"
+     "published": "2026-11-04T09:08Z"
     },
     {
      "title": "Boligbrann på Eiganes – beboere evakuerte seg selv",
@@ -49,7 +49,7 @@
      "source": "NRK Rogaland",
      "summary": "",
      "img": "https://gfx.nrk.no/HzeDm46LhLNQYpuy0WfpnAxWaoLS6b6S0yUjBUrAuQkQ.jpg",
-     "published": "2026-11-05T18:17Z"
+     "published": "2026-11-05T18:16Z"
     },
     {
      "title": "Har toppsjef med russisk bakgrunn og tidligere CIA-sjef i styret",
@@ -57,7 +57,7 @@
      "source": "Teknisk Ukeblad",
      "summary": "Den nye eieren av Nussir-gruva har toppsjef med russisk bakgrunn og en tidligere CIA-sjef i styret. – Man kan ikke påvirke hvor man blir født, sier Nussir-gründer Øystein Rushfeldt.",
      "img": "https://image.tu.no/7181771.webp?imageId=7181771&x=0.00&y=10.28&cropw=100.00&croph=71.67&heightx=21.34&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-11-05T11:06Z"
+     "published": "2026-11-05T11:05Z"
     }
    ]
   },
@@ -66,12 +66,20 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
+     "title": "Klarer du ukens forskningsquiz?",
+     "url": "https://www.forskning.no/helse-kultur-miljo/klarer-du-ukens-forskningsquiz/2734257",
+     "source": "forskning.no",
+     "summary": "Uke 45/2026: Ti spørsmål om det som har skjedd i forskningens verden denne uken.",
+     "img": "https://image.forskning.no/2734271.jpg?imageId=2734271&panox=0.00&panoy=36.17&panow=100.00&panoh=62.62&heightx=15.22&heighty=0.00&heightw=47.14&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-11-05T23:05Z"
+    },
+    {
      "title": "Høringsinnspill om batterier og energilagring",
      "url": "https://gemini.no/2026/11/horingsinnspill-om-batterier-og-energilagring/",
      "source": "Gemini",
      "summary": "Energi2050 skal gi retning for Norges samlede forsknings- og innovasjonsinnsats på energiområdet fram mot 2050. Ledelsen av FME BATTERY mener at batterier og energilagring er underprioritert i det foreliggende …",
      "img": "https://gemini.no/wp-content/uploads/2026/11/odne-burheim_hanne-flaten-andersen-265x152.jpg",
-     "published": "2026-11-05T02:05Z"
+     "published": "2026-11-05T02:04Z"
     },
     {
      "title": "Forskernes beredskaps­råd: Lang holdbarhet er ikke alltid best",
@@ -79,15 +87,7 @@
      "source": "forskning.no",
      "summary": "Noen matvarer kan holde seg i årevis, mens andre blir dårlige etter få dager. Tre matforskere forklarer forskjellen.",
      "img": "https://image.forskning.no/2732972.webp?imageId=2732972&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-11-04T23:06Z"
-    },
-    {
-     "title": "Hvorfor drømmer vi?",
-     "url": "https://www.forskning.no/hjernen-sovn/hvorfor-drommer-vi/2727241",
-     "source": "forskning.no",
-     "summary": "SPØR EN FORSKER: Alle mennesker drømmer hver eneste natt. Det må vel ha en naturlig forklaring?",
-     "img": "https://image.forskning.no/2727250.webp?imageId=2727250&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-11-04T23:06Z"
+     "published": "2026-11-04T23:04Z"
     }
    ]
   },
@@ -101,23 +101,23 @@
      "source": "Gemini",
      "summary": "Oljefondsjef Nicolai Tangen er bekymret for at kvinner skal bli hengende etter i KI-utviklingen. Men hvor mye vi bruker KI, sier lite om hvor godt vi bruker den. Det avgjørende er om teknologien faktisk gjør arbeidet …",
      "img": "https://gemini.no/wp-content/uploads/2026/11/istock-1909554928-265x152.jpg",
-     "published": "2026-11-04T07:58Z"
+     "published": "2026-11-04T07:57Z"
     },
     {
-     "title": "Vinner av Prix Goncourt innrømmer bruk av KI",
+     "title": "Prix Goncourt-vinner innrømmer bruk av kunstig intelligens",
      "url": "https://www.theguardian.com/books/2026/nov/05/winner-of-the-prix-goncourt-literary-prize-admits-to-using-ai-philippe-jaenada",
      "source": "The Guardian (bøker)",
-     "summary": "Philippe Jaenada fortalte fransk radio at han brukte ChatGPT for å «leke med leseren» i boken sin. Dette skjer etter at en annen bok tidligere ble fjernet fra langlisten til prisen på grunn av anklager om KI-bruk.",
+     "summary": "Philippe Jaenada har innrømt overfor fransk radio at han brukte ChatGPT for å «leke med leseren». Innrømmelsen kommer etter at prisen tidligere fjernet en annen bok fra sin langliste på grunn av anklager om KI-bruk.",
      "img": "https://i.guim.co.uk/img/media/3828a993d195cb9ebff36c53aed34bb94581d25f/299_0_6000_4800/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=238b427a8fd2e13915e0fcbd73cffd7e",
-     "published": "2026-11-05T18:13Z"
+     "published": "2026-11-05T18:12Z"
     },
     {
-     "title": "Studenter som ikke brukte KI, presterte best på eksamen",
-     "url": "https://www.forskning.no/kunstig-intelligens-ntnu-partner/studenter-som-ikke-brukte-ki-presterte-best-pa-eksamen/2730085",
-     "source": "forskning.no",
-     "summary": "Både hvor mye og hvordan studentene brukte kunstig intelligens, hadde sammenheng med karakterene de fikk.",
-     "img": "https://image.forskning.no/2730105.jpg?imageId=2730105&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=684&format=webp&format=jpg",
-     "published": "2026-11-04T23:11Z"
+     "title": "Vil ta tilbake historien om den barmhjertige samaritan",
+     "url": "https://www.vl.no/kultur/frykter-musikkens-politiske-kraft-gar-tapt-med-ki/10601099",
+     "source": "Vårt Land",
+     "summary": "AKTUELL: Den verdenskjente tenkeren Paul Gilroy vil ta tilbake historien om den barmhjertige samaritan, og er redd for hvordan KI truer musikken. Selv oppdaget han klangens kraft da han sang Händels Messias som smågutt.",
+     "img": "https://image.vl.no/10612214.jpg?imageId=10612214&panox=0.00&panoy=11.81&panow=100.00&panoh=59.72&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=700&format=webp&format=jpg",
+     "published": "2026-11-03T19:02Z"
     }
    ]
   },
@@ -131,7 +131,7 @@
      "source": "BirdLife Norge",
      "summary": "I 2026 har BirdLife Norge fulgt fugler med GPS-loggere i og rundt vindkraftanlegg. Nå kan du utforske noen av resultatene i tre nye karthistorier. Her får du et innblikk i hvordan fuglene beveger seg i landskapet og …",
      "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/11/03/12816/vindkraft.jpg",
-     "published": "2026-11-04T00:05Z"
+     "published": "2026-11-04T00:03Z"
     },
     {
      "title": "Et hav av nye skjermbilder",
@@ -139,15 +139,15 @@
      "source": "Gamer.no",
      "summary": "",
      "img": "https://i.bo3.no/image/402904/Jason_and_Lucia_20.jpg?c=0&h=337&w=599",
-     "published": "2026-11-05T20:54Z"
+     "published": "2026-11-05T20:52Z"
     },
     {
-     "title": "FeFo: 740 elg felte i Finnmark",
-     "url": "https://www.nrk.no/tromsogfinnmark/finnmarkseigedommen-melder-at-det-blei-felt-740-elg-i-finnmark-i-2026-1.18074651",
-     "source": "NRK Troms og Finnmark",
-     "summary": "Finnmarkseigedommen melder at ein må tilbake til 2019 for å finne høgare fellingstal enn i år.",
-     "img": "https://gfx.nrk.no/ichxe2HcnGRynGYH4vrSawT6N92oMeLS1IJkQifB2hpg.jpg",
-     "published": "2026-11-05T12:33Z"
+     "title": "Derfor er det viktig å overvåke fugleinfluensa på Svalbard",
+     "url": "https://www.forskning.no/arktis-dyresykdommer-dyreverden/derfor-er-det-viktig-a-overvake-fugleinfluensa-pa-svalbard/2730007",
+     "source": "forskning.no",
+     "summary": "Svalbard ligger langt mot nord. Her er det is, kulde og store avstander. Dette hindrer ikke fugleinfluensaen i å spre seg. Tvert imot.",
+     "img": "https://image.forskning.no/2730045.jpg?imageId=2730045&panox=0.00&panoy=54.81&panow=100.00&panoh=31.85&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=582&format=webp&width=1058&height=684&format=webp&format=jpg",
+     "published": "2026-11-05T23:06Z"
     }
    ]
   },
@@ -160,7 +160,7 @@
      "url": "https://kunstkritikk.no/designet-kaos/",
      "source": "Kunstkritikk",
      "summary": "Sung Hwan Kims mangfoldige udstilling på Bergen Kunsthall giver tidvis følelsen af at man bevæger sig inde i et Excel-ark. The post Designet kaos appeared first on Kunstkritikk .",
-     "published": "2026-11-05T12:23Z",
+     "published": "2026-11-05T12:21Z",
      "img": "https://cdn.kunstkritikk.no/uploads/2026/11/15_BKH_2026_SungHwanKim_photo_by_Helge_Skodvin-scaled.jpeg"
     },
     {
@@ -169,7 +169,7 @@
      "source": "Psykologisk.no",
      "summary": "De aller fleste spontanaborter skyldes ikke noe kvinnen har gjort. Likevel klandrer mange seg selv – også for følelsene de har etterpå.",
      "img": "https://image.psykologisk.no/164614.jpg?imageId=164614&panox=0.00&panoy=1.64&panow=100.00&panoh=84.87&heightx=57.49&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-11-03T05:05Z"
+     "published": "2026-11-03T05:03Z"
     }
    ]
   },
@@ -183,7 +183,7 @@
      "source": "NRK Vestland",
      "summary": "",
      "img": "https://gfx.nrk.no/m_gfg9khiNCyFL0WL7zqfgai4S3X_ikUJk2uj_ANnibA.jpg",
-     "published": "2026-11-05T07:25Z"
+     "published": "2026-11-05T07:24Z"
     }
    ]
   },
@@ -197,7 +197,7 @@
      "source": "Barnehage.no",
      "summary": "Fra 2027 foreslår kommunen faste rapporteringer flere ganger i året. Hensikten er at tilskuddet i større grad følger det faktiske barnetallet og aktiviteten i den enkelte barnehage.",
      "img": "https://image.barnehage.no/274753.webp?imageId=274753&x=0.00&y=0.57&cropw=100.00&croph=73.30&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-11-05T12:04Z"
+     "published": "2026-11-05T12:02Z"
     },
     {
      "title": "Setter av penger til lærernormen i 2027 – men åpner for endringer",
@@ -205,7 +205,7 @@
      "source": "Utdanningsnytt",
      "summary": "Utdanningsforbundet tolker statsministerens tale i Stortinget som en garanti for lærernormen. Men kunnskapsministeren presiserer at de ikke har tatt endelig stilling til spørsmålet.",
      "img": "https://image.utdanningsnytt.no/507247.jpg?imageId=507247&x=0.00&y=0.00&cropw=100.00&croph=71.67&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-11-05T10:04Z"
+     "published": "2026-11-05T10:02Z"
     },
     {
      "title": "Inngår i en maktkamp i og om skolen",
@@ -213,7 +213,7 @@
      "source": "Utdanningsnytt",
      "summary": "Debatt: Det har gjort at læreres kritikk om når skolen ikke er til barnas beste oftest blir til en debatt om lærernes ytringsfrihet, om lærernes rett til å si ifra.",
      "img": "https://image.utdanningsnytt.no/507301.jpg?imageId=507301&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-11-05T11:05Z"
+     "published": "2026-11-05T11:03Z"
     }
    ]
   },
@@ -250,23 +250,23 @@
      "url": "https://rushprint.no/2026/11/det-er-mange-veier-til-den-forste-spillefilmen/",
      "source": "Rushprint",
      "summary": "Grunnen til at NFI vektlegger kortfilmer over andre kunstneriske erfaringer som inngang til langfilmstøtte, er åpenbar og forståelig. Likevel er det problematisk, begrensende og historieløst, mener Erik Wensaas og Yonas …",
-     "published": "2026-11-04T06:05Z",
+     "published": "2026-11-04T06:03Z",
      "img": "https://rushprint.no/wp-content/uploads/2019/03/Varda.jpg"
     },
     {
-     "title": "Bli med inn i hjemmet til Eudora Welty i Mississippi",
+     "title": "Utforsker Eudora Weltys hjem i Mississippi",
      "url": "https://lithub.com/inside-eudora-weltys-home-in-jackson-mississippi/",
      "source": "Literary Hub",
-     "summary": "Monica Nelsons bok These Long Shadows utforsker hjemmet til forfatteren Eudora Welty i Jackson, Mississippi. Huset ble bygget i 1925 og fungerer i dag som et museum dedikert til forfatterens liv og virke.",
+     "summary": "En ny bøkene gir et innblikk i forfatteren Eudora Weltys historiske hjem i Jackson, Mississippi, som ble bygget i 1925. Hjemmet er en av flere kvinners husmuseer i det amerikanske sørstatenes litterære historie.",
      "img": "https://s26162.pcdn.co/wp-content/uploads/2026/11/welty-768x410.jpg",
-     "published": "2026-11-05T09:45Z"
+     "published": "2026-11-05T09:43Z"
     },
     {
-     "title": "Løgnaktig utstilling fanger tidsånden hos Christian Torp",
+     "title": "Kunstkritikk: Sant nok av Christian Torp",
      "url": "https://kunstkritikk.no/sant-nok/",
      "source": "Kunstkritikk",
-     "summary": "Utstillingen Sant nok på galleriet Christian Torp beskrives som en løgnaktig presentasjon som knabber tidsånden.",
-     "published": "2026-11-04T11:58Z",
+     "summary": "Utstillingen «Sant nok» av Christian Torp omtales som en løgnaktig utstilling som treffer tidsånden. Anmeldelsen er publisert på Kunstkritikk.",
+     "published": "2026-11-04T11:56Z",
      "img": "https://cdn.kunstkritikk.no/uploads/2026/11/crop2-2026_10_CT_On_Lying_HighRes_21-2.jpeg"
     }
    ]
@@ -280,24 +280,24 @@
      "url": "https://jazzinorge.no/2026/11/05/garbarek-som-festivalapner/",
      "source": "Jazz i Norge",
      "summary": "Jan Garbarek Group feat. Trilok Gurtu blir åpningskonserter på både Maijazz i Stavanger og Bærum Jazzfestival neste år. The post Garbarek som festivalåpner appeared first on Jazz i Norge .",
-     "published": "2026-11-05T15:16Z",
+     "published": "2026-11-05T15:15Z",
      "img": "https://jazzinorge.no/content/uploads/2022/08/Jan-Garbarek_Foto_Guri_Dahl.jpg"
     },
     {
-     "title": "Bassvictim med kaotisk og energisk utgivelse",
+     "title": "Anmeldelse av Bassvictim: Peace + War",
      "url": "https://www.theguardian.com/music/2026/nov/05/bassvictim-peace-and-war-review",
      "source": "The Guardian (musikk)",
-     "summary": "Den amerikansk-polske duoen Bassvictim er ute med sitt fjerde prosjekt på to år, Peace + War, som beskrives som en kaotisk og røff festopplevelse. Anmelderen mener de er på sitt beste når de lener seg inn i det ubehandlede lydbildet.",
+     "summary": "Den US-polske duoen Bassvictim er ute med sitt fjerde prosjekt på to år, og albumet beskrives som en kaotisk og røff opplevelse. Duoen er på sitt beste når de lener seg inn i det røffe lydbildet.",
      "img": "https://i.guim.co.uk/img/media/dbb0a7e670c3d71c73809fb0f2ebdbecedf6b4e0/318_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=47814e1eab9f193ea0f4766c47a08320",
-     "published": "2026-11-05T14:35Z"
+     "published": "2026-11-05T14:33Z"
     },
     {
-     "title": "En guide til John Bergers forfatterskap",
+     "title": "Slik kommer du i gang med forfatteren John Berger",
      "url": "https://www.theguardian.com/books/2026/nov/05/where-to-start-with-john-berger",
      "source": "The Guardian (bøker)",
-     "summary": "I anledning 100-årsdagen for den britiske forfatteren og kritikeren John Bergers fødsel, presenteres en guide til hans sjangeroverskridende tekster. Han skrev omfattende om temaer som kunst, kjærlighet, dødelighet og sex.",
+     "summary": "I anledning 100-årsjubileum for den innflytelsesrike britiske forfatteren og kritikeren John Berger, gis det en guide til hans sjangeroverskridende forfatterskap. Berger skrev om temaer som kunst, kjærlighet, sex og dødelighet.",
      "img": "https://i.guim.co.uk/img/media/0d76862186c31229f6cb6c9dc7c2a7b20ac00845/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=cecf2e27930abfc4270debbbe1ae0312",
-     "published": "2026-11-05T12:35Z"
+     "published": "2026-11-05T12:33Z"
     }
    ]
   },
@@ -311,14 +311,14 @@
      "source": "Psykologisk.no",
      "summary": "Eldre i dag kan mye mer om fysisk helse og trening enn generasjonene før dem. Men vi trenger styrketrening og vedlikehold i toppetasjen også, mener forfatter Marit Figenschou.",
      "img": "https://image.psykologisk.no/164627.jpg?imageId=164627&panox=0.00&panoy=6.25&panow=100.00&panoh=84.87&heightx=37.17&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-11-05T05:05Z"
+     "published": "2026-11-05T05:03Z"
     },
     {
-     "title": "Seks bøker du bør få med deg i november",
+     "title": "Se 6 bøker du ikke må gå glipp av i november",
      "url": "https://www.npr.org/2026/11/03/nx-s1-6027314/new-books-november",
      "source": "NPR Books",
-     "summary": "NPR trekker frem seks anbefalte bokutgivelser denne måneden, inkludert verk fra forfattere som Daisy Johnson og Louise Kennedy. Bøkene dekker temaer fra vanskelig kjærlighet til kampen for forløsning.",
-     "published": "2026-11-03T14:29Z",
+     "summary": "November byr på flere spennende bokutgivelser fra forfattere som Daisy Johnson og Louise Kennedy. Bøkene forteller historier om skjebnesvangre romanser, hardt tilkjent forsoning og dramatiske kamper.",
+     "published": "2026-11-03T14:27Z",
      "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2c%2F10%2F70c2abb640b1ab54620b12d50892%2Funtitled-design-99.jpg"
     },
     {
@@ -327,7 +327,7 @@
      "source": "NRK Vestland",
      "summary": "",
      "img": "https://gfx.nrk.no/eEhck0oyKG4TVzxUJfP_KwZBE4ssRXoPoDXiPAVV4YZQ.jpg",
-     "published": "2026-11-05T07:49Z"
+     "published": "2026-11-05T07:48Z"
     }
    ]
   },
@@ -341,7 +341,7 @@
      "source": "Spillhistorie.no",
      "summary": "Jubileumsutgaver av Wing Commander-spillene og Road Rash, hele Ultima-serien, Theme Hospital og mer.",
      "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/11/wing-commander-3.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-11-05T21:48Z"
+     "published": "2026-11-05T21:47Z"
     },
     {
      "title": "Sigrid Bonde Tusvik er vinner av årets Boktober!",
@@ -349,7 +349,7 @@
      "source": "NRK",
      "summary": "– Jeg tror vi har scrollet oss ferdig. Nå kommer lesingen!",
      "img": "https://gfx.nrk.no/iROlsUpSh4seRlScbb59YQAafpSRZ2nQEilgh47pF-9A.jpg",
-     "published": "2026-11-04T08:27Z"
+     "published": "2026-11-04T08:26Z"
     },
     {
      "title": "Halvspilt i Mesterligaen – ekspert tror bare én av Viking og Glimt går videre",
@@ -357,7 +357,7 @@
      "source": "NRK",
      "summary": "Kan både Glimt og Viking gå videre i Mesterligaen? Ekspertene tror i alle fall at Bodø/Glimt har størst sjanse for avansement.",
      "img": "https://gfx.nrk.no/vHPw-Rl4wZ4WLQTHxbUZ_QaD253Iumg5Xn6jjms8pdjg.jpg",
-     "published": "2026-11-05T20:03Z"
+     "published": "2026-11-05T20:02Z"
     }
    ]
   },
@@ -371,7 +371,7 @@
      "source": "Gamer.no",
      "summary": "Sony melder også om «solid fremdrift» på PlayStation 6.",
      "img": "https://i.bo3.no/image/402900/PS5%25252BPro%25252Bvs%25252BPS5.jpg?c=0&h=337&w=599",
-     "published": "2026-11-05T13:20Z"
+     "published": "2026-11-05T13:18Z"
     },
     {
      "title": "Ubisoft blant flere som ønsker å kjøpe Arkane",
@@ -379,7 +379,7 @@
      "source": "Gamer.no",
      "summary": "Xbox selger unna Dishonored-utvikleren.",
      "img": "https://i.bo3.no/image/402857/bhiihnx1zPu3thnYo0t4TcGr.jpg?c=0&h=337&w=599",
-     "published": "2026-11-04T05:06Z"
+     "published": "2026-11-04T05:04Z"
     }
    ]
   },
@@ -393,7 +393,7 @@
      "source": "NRK",
      "summary": "Rafael Nadal har vært en ivrig tilhenger av fotballklubben Real Madrid hele livet. Onsdag ble han innlemmet i styret. Det ble offisielt under et styremøte, opplyser Real Madrid på sitt nettsted. «For Real Madrid og for …",
      "img": "https://gfx.nrk.no/yRqnm9n4SP9s88RgQnNH1g3P2it7PfS7aDDO8AwCgsaA.jpg",
-     "published": "2026-11-05T09:57Z"
+     "published": "2026-11-05T09:55Z"
     },
     {
      "title": "Ruud-showet i Paris fortsetter til kvartfinale – blir topp 20 igjen",
@@ -401,7 +401,7 @@
      "source": "NRK",
      "summary": "Tennisstjernen Casper Ruud er klar for kvartfinale i Masters-turneringen i Paris og klatrer inn blant topp 20 på verdensrankingen. Oppgjøret endte med sifrene 6-3, 6–3 for Ruud i sitt første møte med 36-åringen …",
      "img": "https://gfx.nrk.no/AwcO-HXvKYAOLjXKwO_piwjs0oHVcw4xDKl74igv0HRw.jpg",
-     "published": "2026-11-05T21:03Z"
+     "published": "2026-11-05T21:01Z"
     },
     {
      "title": "Norsk Champions League-fest: Nusa herjet og Haaland avgjorde",
@@ -409,22 +409,22 @@
      "source": "Aftenposten",
      "summary": "Antonio Nusa scoret og imponerte. Men Erling Braut Haaland kunne juble til slutt.",
      "img": "https://akamai.vgc.no/v2/images/1200c2a3-be4a-3ad0-b053-76ff2ca8590e?format=auto&w=1000&s=479f4979244894f520074384699e48c33fe8ca04",
-     "published": "2026-11-04T21:59Z"
+     "published": "2026-11-04T21:57Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 976,
+  "total": 975,
   "chosen": 41,
-  "notchosen": 220,
+  "notchosen": 222,
   "removed": {
-   "kjendis": 158,
-   "uro": 35,
+   "kjendis": 157,
+   "uro": 34,
    "konflikt": 36,
    "gammel": 330,
-   "sykdom": 45,
-   "krim": 56,
+   "sykdom": 46,
+   "krim": 54,
    "format": 34,
    "betalt": 21
   }
@@ -463,498 +463,6 @@
    }
   ],
   "power": {
-   "NO1": [
-    [
-     "00:00",
-     224.2
-    ],
-    [
-     "01:00",
-     220.5
-    ],
-    [
-     "02:00",
-     219.6
-    ],
-    [
-     "03:00",
-     219.7
-    ],
-    [
-     "04:00",
-     220.0
-    ],
-    [
-     "05:00",
-     225.9
-    ],
-    [
-     "06:00",
-     235.4
-    ],
-    [
-     "07:00",
-     260.3
-    ],
-    [
-     "08:00",
-     265.1
-    ],
-    [
-     "09:00",
-     258.5
-    ],
-    [
-     "10:00",
-     242.7
-    ],
-    [
-     "11:00",
-     231.0
-    ],
-    [
-     "12:00",
-     224.1
-    ],
-    [
-     "13:00",
-     224.5
-    ],
-    [
-     "14:00",
-     224.2
-    ],
-    [
-     "15:00",
-     257.8
-    ],
-    [
-     "16:00",
-     292.3
-    ],
-    [
-     "17:00",
-     296.1
-    ],
-    [
-     "18:00",
-     298.1
-    ],
-    [
-     "19:00",
-     288.9
-    ],
-    [
-     "20:00",
-     274.7
-    ],
-    [
-     "21:00",
-     262.0
-    ],
-    [
-     "22:00",
-     240.7
-    ],
-    [
-     "23:00",
-     223.6
-    ]
-   ],
-   "NO2": [
-    [
-     "00:00",
-     245.7
-    ],
-    [
-     "01:00",
-     249.1
-    ],
-    [
-     "02:00",
-     252.2
-    ],
-    [
-     "03:00",
-     250.8
-    ],
-    [
-     "04:00",
-     254.0
-    ],
-    [
-     "05:00",
-     253.5
-    ],
-    [
-     "06:00",
-     259.2
-    ],
-    [
-     "07:00",
-     286.5
-    ],
-    [
-     "08:00",
-     285.1
-    ],
-    [
-     "09:00",
-     278.7
-    ],
-    [
-     "10:00",
-     260.6
-    ],
-    [
-     "11:00",
-     259.6
-    ],
-    [
-     "12:00",
-     254.7
-    ],
-    [
-     "13:00",
-     258.3
-    ],
-    [
-     "14:00",
-     257.2
-    ],
-    [
-     "15:00",
-     286.9
-    ],
-    [
-     "16:00",
-     316.0
-    ],
-    [
-     "17:00",
-     320.0
-    ],
-    [
-     "18:00",
-     321.8
-    ],
-    [
-     "19:00",
-     309.6
-    ],
-    [
-     "20:00",
-     295.0
-    ],
-    [
-     "21:00",
-     285.0
-    ],
-    [
-     "22:00",
-     275.6
-    ],
-    [
-     "23:00",
-     262.7
-    ]
-   ],
-   "NO3": [
-    [
-     "00:00",
-     130.1
-    ],
-    [
-     "01:00",
-     127.5
-    ],
-    [
-     "02:00",
-     127.1
-    ],
-    [
-     "03:00",
-     127.1
-    ],
-    [
-     "04:00",
-     128.5
-    ],
-    [
-     "05:00",
-     131.2
-    ],
-    [
-     "06:00",
-     120.4
-    ],
-    [
-     "07:00",
-     132.6
-    ],
-    [
-     "08:00",
-     136.7
-    ],
-    [
-     "09:00",
-     134.2
-    ],
-    [
-     "10:00",
-     124.8
-    ],
-    [
-     "11:00",
-     124.8
-    ],
-    [
-     "12:00",
-     117.9
-    ],
-    [
-     "13:00",
-     120.0
-    ],
-    [
-     "14:00",
-     119.7
-    ],
-    [
-     "15:00",
-     122.5
-    ],
-    [
-     "16:00",
-     145.0
-    ],
-    [
-     "17:00",
-     146.6
-    ],
-    [
-     "18:00",
-     153.7
-    ],
-    [
-     "19:00",
-     147.9
-    ],
-    [
-     "20:00",
-     147.2
-    ],
-    [
-     "21:00",
-     156.1
-    ],
-    [
-     "22:00",
-     142.9
-    ],
-    [
-     "23:00",
-     133.8
-    ]
-   ],
-   "NO4": [
-    [
-     "00:00",
-     14.8
-    ],
-    [
-     "01:00",
-     14.8
-    ],
-    [
-     "02:00",
-     14.9
-    ],
-    [
-     "03:00",
-     14.8
-    ],
-    [
-     "04:00",
-     14.8
-    ],
-    [
-     "05:00",
-     15.1
-    ],
-    [
-     "06:00",
-     15.2
-    ],
-    [
-     "07:00",
-     16.2
-    ],
-    [
-     "08:00",
-     17.5
-    ],
-    [
-     "09:00",
-     17.6
-    ],
-    [
-     "10:00",
-     15.9
-    ],
-    [
-     "11:00",
-     16.6
-    ],
-    [
-     "12:00",
-     17.1
-    ],
-    [
-     "13:00",
-     17.6
-    ],
-    [
-     "14:00",
-     17.7
-    ],
-    [
-     "15:00",
-     17.7
-    ],
-    [
-     "16:00",
-     18.0
-    ],
-    [
-     "17:00",
-     17.9
-    ],
-    [
-     "18:00",
-     17.6
-    ],
-    [
-     "19:00",
-     17.8
-    ],
-    [
-     "20:00",
-     17.7
-    ],
-    [
-     "21:00",
-     17.7
-    ],
-    [
-     "22:00",
-     17.7
-    ],
-    [
-     "23:00",
-     17.7
-    ]
-   ],
-   "NO5": [
-    [
-     "00:00",
-     221.3
-    ],
-    [
-     "01:00",
-     220.8
-    ],
-    [
-     "02:00",
-     220.5
-    ],
-    [
-     "03:00",
-     220.8
-    ],
-    [
-     "04:00",
-     221.0
-    ],
-    [
-     "05:00",
-     221.6
-    ],
-    [
-     "06:00",
-     234.2
-    ],
-    [
-     "07:00",
-     263.2
-    ],
-    [
-     "08:00",
-     269.4
-    ],
-    [
-     "09:00",
-     262.3
-    ],
-    [
-     "10:00",
-     246.6
-    ],
-    [
-     "11:00",
-     232.0
-    ],
-    [
-     "12:00",
-     224.8
-    ],
-    [
-     "13:00",
-     224.4
-    ],
-    [
-     "14:00",
-     224.2
-    ],
-    [
-     "15:00",
-     260.3
-    ],
-    [
-     "16:00",
-     296.8
-    ],
-    [
-     "17:00",
-     300.6
-    ],
-    [
-     "18:00",
-     303.0
-    ],
-    [
-     "19:00",
-     294.2
-    ],
-    [
-     "20:00",
-     281.0
-    ],
-    [
-     "21:00",
-     264.6
-    ],
-    [
-     "22:00",
-     236.8
-    ],
-    [
-     "23:00",
-     224.9
-    ]
-   ]
-  },
-  "power_tomorrow": {
    "NO1": [
     [
      "00:00",
@@ -1446,50 +954,51 @@
     ]
    ]
   },
+  "power_tomorrow": {},
   "weather": {
    "oslo": {
-    "temp": 3,
-    "min": 3,
-    "max": 3,
+    "temp": 2,
+    "min": 1,
+    "max": 5,
     "symbol": "fair_day",
     "rain6": 0.0
    },
    "kristiansand": {
     "temp": 3,
-    "min": 3,
-    "max": 3,
+    "min": 2,
+    "max": 9,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    },
    "trondheim": {
     "temp": 6,
-    "min": 6,
+    "min": 2,
     "max": 6,
     "symbol": "fair_day",
     "rain6": 0.0
    },
    "tromso": {
-    "temp": 2,
-    "min": 2,
-    "max": 2,
+    "temp": 3,
+    "min": 3,
+    "max": 7,
     "symbol": "lightrain",
     "rain6": 0.0
    },
    "bergen": {
-    "temp": 5,
-    "min": 5,
-    "max": 5,
+    "temp": 4,
+    "min": 4,
+    "max": 10,
     "symbol": "cloudy",
     "rain6": 0.0
    },
    "stavanger": {
     "temp": 4,
     "min": 4,
-    "max": 4,
+    "max": 8,
     "symbol": "partlycloudy_day",
     "rain6": 0.0
    }
   },
-  "date": "2026-11-05"
+  "date": "2026-11-06"
  }
 }
