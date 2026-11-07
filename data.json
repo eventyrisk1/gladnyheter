@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-07T09:03",
+ "updated": "2026-11-07T10:02",
  "categories": [
   {
    "id": "samfunn",
    "name": "Samfunn",
    "stories": [
     {
-     "title": "Ingeniører bruker fritiden til å tette tomrom på verdenskartet",
-     "url": "https://www.tu.no/it/ingeniorer-bruker-fritiden-til-a-tette-tomrom-pa-verdenskartet/7179450",
-     "source": "Teknisk Ukeblad",
-     "summary": "Med utgangspunkt i satellittbilder og kartdata bidrar frivillige ingeniører til å gjøre kartene mer nøyaktige, slik at det blir enklere for hjelpeorganisasjoner å finne frem i krevende situasjoner.",
-     "img": "https://image.tu.no/7179454.webp?imageId=7179454&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-11-07T04:01Z"
-    },
-    {
-     "title": "Rekordkontrakter for sikring av fylkesveier i Nordland",
-     "url": "https://www.nrk.no/nordland/rekordkontrakter-for-sikring-av-fylkesveier-i-nordland-1.18076123",
-     "source": "NRK Nordland",
-     "summary": "Nordland fylkeskommune har tildelt store kontrakter som skal ruste opp og sikre fylkesveiene for framtiden.",
-     "img": "https://gfx.nrk.no/93B4fM7khMKPaYQFfRRJuAerL2Y5JVjLAQ8cCmO7bvLA.jpg",
-     "published": "2026-11-06T21:08Z"
-    },
-    {
-     "title": "Kommunalt hjemmebesøk skal styrke elldres digitale hverdag",
+     "title": "Kommunalt tiltak mot digitalt utenforskap blant eldre",
      "url": "https://www.tv2.no/a/19400593",
      "source": "TV 2",
-     "summary": "For å motvirke digitalt utenforskap får eldre nå tilbud om veiledning i eget hjem for å mestre digitale tjenester bedre.",
+     "summary": "I Volda får eldre innbyggere hjemmebesøk fra kommunen for å heve den digitale kompetansen. Tiltaket skal bidra til å forebygge ensomhet og isolasjon i en stadig mer digital hverdag.",
      "img": "https://www.cdn.tv2.no/images/?imageId=19402358&width=480",
-     "published": "2026-11-06T17:53Z"
+     "published": "2026-11-06T18:00Z"
+    },
+    {
+     "title": "Ingeniører tetter tomrom på verdenskartet på fritiden",
+     "url": "https://www.tu.no/it/ingeniorer-bruker-fritiden-til-a-tette-tomrom-pa-verdenskartet/7179450",
+     "source": "Teknisk Ukeblad",
+     "summary": "Frivillige ingeniører bruker satellittbilder og kartdata for å oppdatere kart over sårbare områder. Dette gjør det lettere for hjelpeorganisasjoner å finne frem ved framtidige kriser.",
+     "img": "https://image.tu.no/7179454.webp?imageId=7179454&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=636&format=jpg",
+     "published": "2026-11-07T04:08Z"
+    },
+    {
+     "title": "Foreslår lovendringer for å få fart på kraftutbygging",
+     "url": "https://www.nrk.no/nordland/vil-fa-fart-pa-kraftutbyggingen-_-na-er-lovforslagene-pa-horing-1.18075770",
+     "source": "NRK Nordland",
+     "summary": "Nye lovforslag er sendt på høring for å korte ned behandlingstiden for store kraftledninger. Målet er å sikre raskere utbygging av nødvendig strømnett i Norge.",
+     "img": "https://gfx.nrk.no/5P24XbDF70nlXCNvvgefPQM_s77_LVd-fu10o_iwc3iA.jpg",
+     "published": "2026-11-06T13:11Z"
     }
    ]
   },
@@ -36,28 +36,28 @@
    "name": "Økonomi og næringsliv",
    "stories": [
     {
-     "title": "Ber om bred innsats for batterier og energilagring frem mot 2050",
-     "url": "https://gemini.no/2026/11/horingsinnspill-om-batterier-og-energilagring/",
-     "source": "Gemini",
-     "summary": "Ledelsen for FME BATTERY peker på at kraftfull satsing på batteriteknologi og energilagring er avgjørende for Norges fremtidige energiforsyning og forskning.",
-     "img": "https://gemini.no/wp-content/uploads/2026/11/odne-burheim_hanne-flaten-andersen-265x152.jpg",
-     "published": "2026-11-05T02:02Z"
-    },
-    {
-     "title": "Grønt lys for storindustri i Orkanger",
-     "url": "https://www.tu.no/energi/norsk-satsing-gront-lys-til-a-bygge-datasenter-og-batterifabrikk-i-orkanger/7181262",
-     "source": "Teknisk Ukeblad",
-     "summary": "Regjeringen har godkjent områdeplanen for en ny industripark som legger til rette for batterifabrikk og storsatsing på datasenter.",
-     "img": "https://image.tu.no/7181688.webp?imageId=7181688&x=0.00&y=0.00&cropw=100.00&croph=71.67&heightx=24.68&heighty=0.00&heightw=41.20&heighth=100.00&width=1058&height=636&format=jpg",
-     "published": "2026-11-06T12:19Z"
-    },
-    {
-     "title": "Betydelig vekst i amerikansk arbeidsmarked",
+     "title": "Sterk jobbvekst i USA med 165 000 nye stillinger",
      "url": "https://e24.no/internasjonal-oekonomi/i/GrvbEQ/det-ble-skapt-165-000-nye-jobber-utenfor-landbruket-i-usa-i-oktober",
      "source": "E24",
-     "summary": "Det ble skapt 165.000 nye arbeidsplasser i USA, noe som er en god del mer enn det som var ventet på forhånd.",
+     "summary": "Ferske arbeidsmarkedstall fra USA viser at det ble skapt 165 000 nye jobber den siste måneden. Tallet var langt høyere enn analytikerne hadde forventet på forhånd.",
      "img": "https://akamai.vgc.no/v2/images/0bb62621-7f7b-327a-beef-c35803a72f04?format=auto&w=1000&s=38cbb6d4853b9cc03859281b17bdafdb2b996baa",
-     "published": "2026-11-06T13:31Z"
+     "published": "2026-11-06T13:38Z"
+    },
+    {
+     "title": "Grønt lys for ny industripark og batterifabrikk i Orkanger",
+     "url": "https://www.tu.no/energi/norsk-satsing-gront-lys-til-a-bygge-datasenter-og-batterifabrikk-i-orkanger/7181262",
+     "source": "Teknisk Ukeblad",
+     "summary": "Regjeringen har godkjent områdeplanen der Elinor Batteries skal bygge en ny batterifabrikk. Industriparken skal også huse Norges største planlagte datasenter.",
+     "img": "https://image.tu.no/7181688.webp?imageId=7181688&x=0.00&y=0.00&cropw=100.00&croph=71.67&heightx=24.68&heighty=0.00&heightw=41.20&heighth=100.00&width=1058&height=636&format=jpg",
+     "published": "2026-11-06T12:25Z"
+    },
+    {
+     "title": "Kraftig økning i etterspørselen etter strømnett",
+     "url": "https://www.tu.no/energi/halvparten-av-nettettersporselen-siden-2021-kom-i-ar/7181388",
+     "source": "Teknisk Ukeblad",
+     "summary": "Statnett har mottatt henvendelser om tilknytning på rundt 25 000 megawatt bare i år. Det utgjør halvparten av all etterspørsel etter nettkapasitet siden 2021.",
+     "img": "https://image.tu.no/7182129.webp?imageId=7182129&width=1058&height=636&format=jpg",
+     "published": "2026-11-05T14:27Z"
     }
    ]
   },
@@ -66,28 +66,28 @@
    "name": "Vitenskap og teknologi",
    "stories": [
     {
-     "title": "Ny forskning sår tvil om Homer sitt greske hjemsted",
+     "title": "Arkeologisk kongegrav kaster nytt lys over oldtidshistorien",
+     "url": "https://www.tv2.no/a/19403004",
+     "source": "TV 2",
+     "summary": "I en 2800 år gammel kongegrav har arkeologer oppdaget hesteutstyr, våpen og spor av historisk plante- og cannabisbruk. Funnet gir ny innsikt i fortidens ritualer og skikker.",
+     "img": "https://www.cdn.tv2.no/images/?imageId=19403112&panow=100&panoh=84.51&panoy=7.75&panox=0&heightw=100&heighty=7.75&heightx=0&heighth=84.51&width=480",
+     "published": "2026-11-06T21:29Z"
+    },
+    {
+     "title": "Forskningsmiljøer gir innspill om fremtidens energilagring",
+     "url": "https://gemini.no/2026/11/horingsinnspill-om-batterier-og-energilagring/",
+     "source": "Gemini",
+     "summary": "Ledelsen for forskningssenteret FME BATTERY har levert høringsinnspill til regjeringens Energi2050-strategi. De understreker behovet for en samlet satsing på batteriteknologi og lagring frem mot 2050.",
+     "img": "https://gemini.no/wp-content/uploads/2026/11/odne-burheim_hanne-flaten-andersen-265x152.jpg",
+     "published": "2026-11-05T02:09Z"
+    },
+    {
+     "title": "Ny forskning utfordrer to tusen år gammel oppfatning om Homers Ithaka",
      "url": "https://www.openculture.com/2026/11/was-homers-ithaca-really-an-island.html",
      "source": "Open Culture",
-     "summary": "Ferske studier utfordrer den over 2000 år gamle antakelsen om hvor den greske helten Odysseus kom fra.",
+     "summary": "Forskere undersøker nå om det antikke kongedømmet til Odyssevs faktisk lå på en annen halvøy eller øy enn dagens Ithaki. Nye geografiske og historiske analyser utfordrer den etablerte antagelsen.",
      "img": "https://i.ytimg.com/vi/TG2xnZ_fn5U/maxresdefault.jpg",
-     "published": "2026-11-06T09:01Z"
-    },
-    {
-     "title": "Forsøk med ny gel mot tanntap",
-     "url": "https://www.forskning.no/antibiotika-medisinske-metoder-partner/forskere-har-laget-en-gele-som-kan-motvirke-tanntap/2729256",
-     "source": "forskning.no",
-     "summary": "Forskere har utviklet en spesiell gele basert på en kombinasjon av krydder og antibiotika som kan bidra til å motvirke tanntap.",
-     "img": "https://image.forskning.no/2729275.jpg?imageId=2729275&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=92.86&heighth=100.00&width=1058&height=478&format=webp&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-11-06T23:02Z"
-    },
-    {
-     "title": "Stor nysgjerrighet på fermenterte grønnsaker blant norske forbrukere",
-     "url": "https://www.forskning.no/fermentering-mat-matproduksjon/hvis-du-far-smake-litt-vil-du-da-like-fermenterte-gronnsaker/2727920",
-     "source": "forskning.no",
-     "summary": "Nordmenn viser økende interesse for fermentert mat, selv om mange fremdeles er usikre på både smak og bruk her til lands.",
-     "img": "https://image.forskning.no/2727940.jpg?imageId=2727940&panox=0.00&panoy=14.78&panow=100.00&panoh=63.55&heightx=36.20&heighty=0.00&heightw=46.37&heighth=100.00&width=1058&height=478&format=webp&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-11-06T23:02Z"
+     "published": "2026-11-06T09:08Z"
     }
    ]
   },
@@ -96,20 +96,28 @@
    "name": "Kunstig intelligens",
    "stories": [
     {
-     "title": "Forholdet mellom humor, demokrati og kunstig intelligens",
-     "url": "https://www.themarginalian.org/2026/11/06/humor/",
-     "source": "The Marginalian",
-     "summary": "Ifølge tanker fra Viktor Frankl gir humor mennesker en unik evne til å heve seg over vanskelige situasjoner, selv om det bare varer i noen sekunder.",
-     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2026/10/veliz_prophecy.jpg?fit=320%2C486&ssl=1",
-     "published": "2026-11-06T19:47Z"
-    },
-    {
-     "title": "Vinneren av den prestisjetunge litteraturprisen Prix Goncourt innrømmer bruk av kunstig intelligens",
+     "title": "Goncourt-vinner forteller at han lekte med leseren ved hjelp av ChatGPT",
      "url": "https://www.theguardian.com/books/2026/nov/05/winner-of-the-prix-goncourt-literary-prize-admits-to-using-ai-philippe-jaenada",
      "source": "The Guardian (bøker)",
-     "summary": "Philippe Jaenada fortalte på fransk radio at han brukte ChatGPT for å «leke med leseren», etter at prisen tidligere hadde vraket en annen bok på grunn av anklager om KI-bruk.",
+     "summary": "Den franske forfatteren Philippe Jaenada opplyser at han tok i bruk språkmodellen ChatGPT i skriveprosessen for å utforske litterære virkemidler og leke med leserens forventninger.",
      "img": "https://i.guim.co.uk/img/media/3828a993d195cb9ebff36c53aed34bb94581d25f/299_0_6000_4800/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=238b427a8fd2e13915e0fcbd73cffd7e",
-     "published": "2026-11-05T18:10Z"
+     "published": "2026-11-05T18:16Z"
+    },
+    {
+     "title": "Samspillet mellom humor, demokrati og kunstig intelligens",
+     "url": "https://www.themarginalian.org/2026/11/06/humor/",
+     "source": "The Marginalian",
+     "summary": "En ny analyse ser på hvordan menneskelig humor og satire skiller seg fra algoritmisk intelligens. Evnen til å heve seg over situasjoner og se det absurde forblir en særegen menneskelig egenskap.",
+     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2026/10/veliz_prophecy.jpg?fit=320%2C486&ssl=1",
+     "published": "2026-11-06T19:54Z"
+    },
+    {
+     "title": "Nevroteknologi og kunstig intelligens gir lamme pasienter stemmen tilbake",
+     "url": "https://lithub.com/how-neuroscience-can-give-paralyzed-people-the-chance-to-speak-again/",
+     "source": "Literary Hub",
+     "summary": "Fremskritt innen hjerne-datamaskin-grensesnitt og maskinlæring gjør det mulig å dekode hjernebølger til tale. Teknologien gjør at pasienter med lammelser nå kan kommunisere med omverdenen via tekst og syntetisk tale.",
+     "img": "https://s26162.pcdn.co/wp-content/uploads/2026/10/neural-network-brain-768x410.jpg",
+     "published": "2026-11-06T09:39Z"
     }
    ]
   },
@@ -118,28 +126,28 @@
    "name": "Natur og miljø",
    "stories": [
     {
-     "title": "Nye GPS-data gir unik innsikt i fuglelivet ved vindkraftverk",
-     "url": "https://www.birdlife.no/fuglekunnskap/nyheter/?id=4125",
-     "source": "BirdLife Norge",
-     "summary": "BirdLife Norge har fulgt fugler med GPS-loggere i og rundt vindkraftanlegg, noe som gir ny og verdifull kunnskap om fuglenes bevegelser.",
-     "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/11/03/12816/vindkraft.jpg",
-     "published": "2026-11-04T00:01Z"
-    },
-    {
-     "title": "Vinter uten snø skaper utfordringer for rypene",
-     "url": "https://www.nrk.no/tromsogfinnmark/forsker_-rypene-vil-slite-med-a-tilpasse-seg-klimaendringene-1.18073352",
-     "source": "NRK Troms og Finnmark",
-     "summary": "Når snøen lar vente på seg, beholder rypene den hvite fellen og blir dermed mer synlige for rovdyr og jegere.",
-     "img": "https://gfx.nrk.no/PaEnHq2_yEqXBc9IdEqbxwfhX7oAfcorC67hzketd_gQ.jpg",
-     "published": "2026-11-05T17:47Z"
-    },
-    {
-     "title": "Nærøyfjorden høster anerkjennelse for geologi i verdensklasse",
+     "title": "Nærøyfjorden kåret til geologi i verdensklasse",
      "url": "https://www.nrk.no/vestland/vestlandsfjordar-og-bergartar-i-verdsklasse-1.18075282",
      "source": "NRK Vestland",
-     "summary": "Den norske fjorden har blitt vurdert gjennom et nytt nåløye og bekreftet sin posisjon som et geologisk område av ypperste internasjonal klasse.",
+     "summary": "Nærøyfjorden i Vestland har passert et trangt internasjonalt nåløye og er offisielt anerkjent for sin enestående geologiske verdi. Den storslåtte vestlandsnaturen hylles nok en gang internasjonalt.",
      "img": "https://gfx.nrk.no/05WUddB5Y_BNvJ-2ZklpjQeQbdaVfvplLFr06zeu4qjQ.jpg",
-     "published": "2026-11-06T06:01Z"
+     "published": "2026-11-06T06:08Z"
+    },
+    {
+     "title": "GPS-sporing gir ny innsikt i fuglers adferd",
+     "url": "https://www.birdlife.no/fuglekunnskap/nyheter/?id=4125",
+     "source": "BirdLife Norge",
+     "summary": "BirdLife Norge har publisert nye karthistorier basert på fugler merket med GPS-sendere. Dataene gir forskere verdifull kunnskap om fuglelivets bevegelsesmønstre i norsk natur.",
+     "img": "https://www.birdlife.no/thumbnails/88x88/innhold/bilder/2026/11/03/12816/vindkraft.jpg",
+     "published": "2026-11-04T00:08Z"
+    },
+    {
+     "title": "En hyllest til dyrenes vesen og tilstedeværelse",
+     "url": "https://www.themarginalian.org/2026/11/04/the-souls-of-animals/",
+     "source": "The Marginalian",
+     "summary": "Med utgangspunkt i Walt Whitmans klassiske tekster utforskes dyrenes evne til å leve uforstyrret i nuet. Refleksjonen fremhever naturens ro og dyrenes plass i vår felles eksistens.",
+     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2025/02/thesoulsofanimals.jpg?fit=320%2C492&ssl=1",
+     "published": "2026-11-04T22:31Z"
     }
    ]
   },
@@ -148,28 +156,28 @@
    "name": "Psykologi",
    "stories": [
     {
-     "title": "Slik kan bedre kjennskap til hjernen hjelpe deg å bryte dårlige vaner",
+     "title": "Slik kan du bryte uvaner ved å forstå hjernen bedre",
      "url": "https://psyche.co/videos/to-break-a-bad-habit-try-telling-yourself-a-different-story",
      "source": "Psyche",
-     "summary": "Ved å forstå mer om hvordan hjernen fungerer, kan du enklere endre egne handlingsmønstre og komme ut av uønskede vaner.",
+     "summary": "Psykolog Tracey Marks forklarer hvordan vaner dannes i hjernen og hvordan man kan omprogrammere faste handlingsmønstre. Ved å forstå de underliggende mekanismene blir det enklere å gjøre varige endringer i hverdagen.",
      "img": "https://images.aeonmedia.co/images/279ea3af-c0a1-471e-8521-daa836666f5d/how-to-break-a-bad-habit-landscape-2.jpg?top=0&left=0&cropWidth=2560&cropHeight=1440&width=1200&quality=75&format=auto",
-     "published": "2026-11-06T11:02Z"
+     "published": "2026-11-06T11:09Z"
     },
     {
-     "title": "Seks måter å finne tilhørighet på når du kjenner deg usikker",
+     "title": "Psykologisk fleksibilitet kan hjelpe oss til å høre til",
      "url": "https://www.mindful.org/how-psychological-flexibility-can-help-us-belong/",
      "source": "Mindful",
-     "summary": "Psykologisk fleksibilitet kan hjelpe deg med å skape gode relasjoner og nærme deg fellesskap, selv i situasjoner der du føler deg litt beklemt.",
-     "published": "2026-11-05T18:23Z",
+     "summary": "En artikkel hos Mindful gir seks konkrete råd for å bygge relasjoner og føle tilhørighet, selv når man kjenner på sjenanse eller uro i sosiale settinger.",
+     "published": "2026-11-05T18:30Z",
      "img": "https://www.mindful.org/content/uploads/the-cheeserom-H5eCU_xNnsM-unsplash-1-scaled.jpg"
     },
     {
-     "title": "Husk å trene hodet i en aktiv hverdag",
-     "url": "https://www.psykologisk.no/nyheter/livet-ma-ha-lys-i-alle-etasjene-ogsa-i-hodet/164622",
-     "source": "Psykologisk.no",
-     "summary": "Eldre i dag har god oversikt over fysisk trening, men eksperter minner om at toppetasjen også trenger regelmessig mental stimulans.",
-     "img": "https://image.psykologisk.no/164627.jpg?imageId=164627&panox=0.00&panoy=6.25&panow=100.00&panoh=84.87&heightx=37.17&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
-     "published": "2026-11-05T05:01Z"
+     "title": "Ekspertens råd: Ta notater som faktisk forbedrer læringen",
+     "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+     "source": "Psyche",
+     "summary": "Å skrive av ord for ord gir sjelden god læringseffekt. En læringsforsker deler konkrete strategier for hvordan aktiv bearbeiding av notater hjelper hjernen med å forstå og huske pensum bedre.",
+     "img": "https://images.aeonmedia.co/images/0639d30e-055d-4f29-afdb-1375f1ddbe12/sz-adrianna-geo-rjdxjv3vxe4-unsplash.jpg?top=127&left=0&cropWidth=2416&cropHeight=1359&width=1200&quality=75&format=auto",
+     "published": "2026-11-05T11:08Z"
     }
    ]
   },
@@ -178,27 +186,28 @@
    "name": "Helse og trening",
    "stories": [
     {
-     "title": "Høy oppslutning om RS-vaksine blant gravide i Norge",
-     "url": "https://www.fhi.no/nyheter/2026/store-forskjeller-i-vaksinedekning-mot-rs-virus-blant-gravide-i-norge/",
-     "source": "FHI",
-     "summary": "Over halvparten av kvinnene som fødte i september, valgte å ta vaksine mot RS-vaksine i løpet av svangerskapet ifølge nye tall.",
-     "published": "2026-11-06T06:02Z"
-    },
-    {
-     "title": "Å få Lidl tilbake til Norge er feil medisin på et viktig spørsmål",
-     "url": "https://www.forskning.no/beredskap-debattinnlegg-jordbruk/a-fa-lidl-tilbake-til-norge-er-feil-medisin-pa-et-viktig-sporsmal/2734299",
+     "title": "Forskere utvikler ny gel som kan motvirke tanntap",
+     "url": "https://www.forskning.no/antibiotika-medisinske-metoder-partner/forskere-har-laget-en-gele-som-kan-motvirke-tanntap/2729256",
      "source": "forskning.no",
-     "summary": "DEBATT: Å legge til rette for Lidl i Norge vil kunne gi mange nedlagte lokale butikker, noe billigere hermetikk og tørrvarer, men totalt sett mer av det vi ikke trenger, skriver innsenderen.",
-     "img": "https://image.forskning.no/2734308.webp?imageId=2734308&x=0.00&y=14.17&cropw=100.00&croph=71.67&heightx=28.98&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-11-06T07:57Z"
+     "summary": "En nyskapende kombinasjon av krydderstoffer og antibiotika i gelform viser lovende resultater mot tannkjøttsykdom. Løsningen kan bidra til å forebygge tap av tenner hos voksne.",
+     "img": "https://image.forskning.no/2729275.jpg?imageId=2729275&panox=0.00&panoy=0.00&panow=100.00&panoh=100.00&heightx=0.00&heighty=0.00&heightw=92.86&heighth=100.00&width=1058&height=478&format=webp&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-11-06T23:09Z"
     },
     {
-     "title": "Ekspert: Omstridte helsedirektører kan beholde «topplønna» i staten",
-     "url": "https://www.nrk.no/norge/helsereformutvalget_-dette-skjer-med-de-omstridte-helsedirektorene-1.18073338",
-     "source": "NRK Nordland",
-     "summary": "Helsereformutvalget vil overføre helsetoppene til staten, men enkelte direktører vil da tjene én million kroner mer i året enn andre statlige ledere har lov til.",
-     "img": "https://gfx.nrk.no/Awb3vxj97z2xvkhIyRqWLQduzC0pXzpL8OyWwNsV9t6Q.jpg",
-     "published": "2026-11-06T04:12Z"
+     "title": "Fermenterte grønnsaker vekker interesse blant norske forbrukere",
+     "url": "https://www.forskning.no/fermentering-mat-matproduksjon/hvis-du-far-smake-litt-vil-du-da-like-fermenterte-gronnsaker/2727920",
+     "source": "forskning.no",
+     "summary": "Stadig flere nordmenn er nysgjerrige på tradisjonelt fermentert mat, som er kjent for sine gode helsefordeler for fordøyelsen. Smakstester viser at interessen for å ta vare på tarmfloraen er økende.",
+     "img": "https://image.forskning.no/2727940.jpg?imageId=2727940&panox=0.00&panoy=14.78&panow=100.00&panoh=63.55&heightx=36.20&heighty=0.00&heightw=46.37&heighth=100.00&width=1058&height=478&format=webp&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-11-06T23:09Z"
+    },
+    {
+     "title": "Psykologer oppfordrer til mental styrketrening hele livet",
+     "url": "https://www.psykologisk.no/nyheter/livet-ma-ha-lys-i-alle-etasjene-ogsa-i-hodet/164622",
+     "source": "Psykologisk.no",
+     "summary": "Mange voksne og eldre er flinke til å trene kroppen, men hodet trenger også jevnlig stimuli og vedlikehold. Forskere fremhever viktigheten av kognitive utfordringer for å bevare en skarp hjerne.",
+     "img": "https://image.psykologisk.no/164627.jpg?imageId=164627&panox=0.00&panoy=6.25&panow=100.00&panoh=84.87&heightx=37.17&heighty=0.00&heightw=34.76&heighth=100.00&width=1058&height=478&format=webp&format=jpg",
+     "published": "2026-11-05T05:08Z"
     }
    ]
   },
@@ -207,28 +216,28 @@
    "name": "Barn og oppvekst",
    "stories": [
     {
-     "title": "Lokale skoler i gang med stor lesekonkurranse",
+     "title": "Leseglede med Haalands nye lesekonkurranse på Frøyland",
      "url": "https://www.utdanningsnytt.no/kommune-lesing-laerer/haaland-skal-fa-elever-i-time-til-a-lese-mer/507069",
      "source": "Utdanningsnytt",
-     "summary": "Engasjerte elever har tatt imot lesekonkurransen med stor glede, og både lærere og ordførere håper på et løft for leselysten.",
+     "summary": "Frøyland ungdomsskole i Time sparket i gang Erling Braut Haalands egen lesekonkurranse med full trommevirvel. Både elever, lærere og ordføreren heier frem initiativet for å øke leselysten blant unge.",
      "img": "https://image.utdanningsnytt.no/507576.jpg?imageId=507576&x=0.00&y=5.28&cropw=100.00&croph=71.67&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1587&height=954&format=jpg",
-     "published": "2026-11-06T12:36Z"
+     "published": "2026-11-06T12:43Z"
     },
     {
-     "title": "Politiske partier i budsjettforhandlinger om barnehagesektoren",
-     "url": "https://www.barnehage.no/i-gang-med-budsjettforhandlinger/279102",
+     "title": "Trondhjems barnehageselskap fornyer seg etter 150 år",
+     "url": "https://www.barnehage.no/tradisjonsrik-aktor-skifter-navn/279141",
      "source": "Barnehage.no",
-     "summary": "De rødgrønne partiene er i gang med forhandlinger om statsbudsjettet der barnehagens rammer og prioriteringer står på agendaen.",
-     "img": "https://image.barnehage.no/278357.webp?imageId=278357&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-11-06T10:51Z"
+     "summary": "Den ærverdige stiftelsen Trondhjems Asylselskap har besluttet å endre navn til Trondhjems barnehageselskap. Målet er å gjenspeile organisasjonens moderne samfunnsrolle til beste for byens barn.",
+     "img": "https://image.barnehage.no/239964.webp?imageId=239964&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-11-06T15:37Z"
     },
     {
-     "title": "Forsker etterlyser fornyelse av sangskatten i barnehagen",
+     "title": "Forsker ønsker mer sang og musikalsk fornyelse i barnehagen",
      "url": "https://www.barnehage.no/barn-skal-kunne-kjenne-seg-igjen-i-barnehagens-sangrepertoar-1/278922",
      "source": "Barnehage.no",
-     "summary": "Selv om det skrives mye ny musikk for barn, opplever barnehagene at de tradisjonelle klassikerne fortsatt dominerer nesten fullstendig.",
+     "summary": "En ny studie på musikkbruk i norske barnehager viser at sangtradisjonen står sterkt. Forsker Hanne Bæverfjord oppfordrer til å utforske nye barnesanger ved siden av de klassiske visene.",
      "img": "https://image.barnehage.no/278930.webp?imageId=278930&x=11.39&y=9.67&cropw=80.00&croph=57.33&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
-     "published": "2026-11-04T14:33Z"
+     "published": "2026-11-04T14:39Z"
     }
    ]
   },
@@ -237,24 +246,28 @@
    "name": "Tro, ånd og ettertanke",
    "stories": [
     {
-     "title": "Disse er aktuelle som ny biskop i Tunsberg",
-     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20av%20disse%20blir%20biskop%20i%20tunsberg/",
-     "source": "Den norske kirke",
-     "summary": "Etter en rådgivende avstemning står tre kandidater igjen som aktuelle til å overta biskop-rollen i Tunsberg."
+     "title": "Kristen Idrettskontakt hedres med pris etter sterk medlemsvekst",
+     "url": "https://www.vl.no/nyheter/krik-far-sareptaprisen-2026/10620538",
+     "source": "Vårt Land",
+     "summary": "Organisasjonen KRIK opplever markant vekst i medlemsmassen og har blitt tildelt Sareptaprisen fra Knif for sitt engasjement for fellesskap og idrettsglede blant unge.",
+     "img": "https://image.vl.no/10620650.webp?imageId=10620650&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=700&format=jpg",
+     "published": "2026-11-06T08:50Z"
     },
     {
-     "title": "118-år gammel tekst om ensomhetens gleder og utfordringer",
-     "url": "https://tricycle.org/article/chomei-hojoki/",
-     "source": "Tricycle",
-     "summary": "En historisk beretning fra eneboeren i det gamle Japan tar for seg hva man kan lære av å søke ro og stillhet i naturen.",
-     "img": "https://tricycle.org/wp-content/uploads/2026/10/9780141192109.jpeg",
-     "published": "2026-11-05T11:01Z"
+     "title": "Sansevandring i naturen gir ro og nærvær",
+     "url": "https://www.mindful.org/a-rosefulness-wonder-walk-to-notice-the-living-world/",
+     "source": "Mindful",
+     "summary": "En enkel oppmerksomhetsøvelse for voksne og barn inviterer til å stoppe opp ved små detaljer i naturen. Metoden hjelper oss å finne ro, takknemlighet og tilknytning til omgivelsene.",
+     "published": "2026-11-06T20:00Z",
+     "img": "https://www.mindful.org/content/uploads/anna-khromova-W-fsfYk48gc-unsplash-scaled.jpg"
     },
     {
-     "title": "Vil skape en åpen kirke for alle",
-     "url": "https://www.kirken.no/nb-NO/om-kirken/aktuelt/en%20kirke%20som%20er%20%C3%A5pen%20for%20alle/",
-     "source": "Den norske kirke",
-     "summary": "Den nye biskopen ønsker at flest mulig skal oppleve Den norske kirke som et nært og inkluderende fellesskap i hverdagen."
+     "title": "C.S. Lewis om sjenerøsitet og ekte mening i livet",
+     "url": "https://www.themarginalian.org/2026/11/05/interesting/",
+     "source": "The Marginalian",
+     "summary": "Et tilbakeblikk på C.S. Lewis' forfatterskap belyser hvordan et meningsfylt liv formes av det vi deler av tid, oppmerksomhet og omsorg for menneskene rundt oss.",
+     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2026/09/cslewis_surprisedbyjoy.jpg?fit=320%2C482&ssl=1",
+     "published": "2026-11-05T18:06Z"
     }
    ]
   },
@@ -263,28 +276,28 @@
    "name": "Kunst",
    "stories": [
     {
-     "title": "Den usentimentale kraften i Tracey Emins kunstnerskap",
-     "url": "https://kunstkritikk.no/sarede-helede-ojne/",
-     "source": "Kunstkritikk",
-     "summary": "Et tilbakeblikk på det personlige og ærlige livsverket minner oss om hvorfor den private kunsten fremdeles treffer en alminnelig klangbunn.",
-     "published": "2026-11-06T07:29Z",
-     "img": "https://cdn.kunstkritikk.no/uploads/2026/10/Tracey-Emin-How-It-Feels-1996_2.jpeg"
+     "title": "Urgammel hulekunst oppdaget under spansk landsby",
+     "url": "https://www.forskning.no/arkeologi/urgammel-kunst-var-skjult-i-en-stor-hule-under-en-liten-by-i-spania/2733039",
+     "source": "forskning.no",
+     "summary": "Arkeologer har funnet enestående, urgamle hulemalerier i et omfattende underjordisk grottesystem som strekker seg under en liten spansk landsby.",
+     "img": "https://image.forskning.no/2733491.webp?imageId=2733491&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg",
+     "published": "2026-11-06T23:09Z"
     },
     {
-     "title": "Fargerik og mangfoldig utstilling på Bergen Kunsthall",
-     "url": "https://kunstkritikk.no/designet-kaos/",
-     "source": "Kunstkritikk",
-     "summary": "Sung Hwan Kims utstilling tar publikum med inn i et rikt og visuelt univers som vekker oppsikt.",
-     "published": "2026-11-05T12:19Z",
-     "img": "https://cdn.kunstkritikk.no/uploads/2026/11/15_BKH_2026_SungHwanKim_photo_by_Helge_Skodvin-scaled.jpeg"
-    },
-    {
-     "title": "Ny søkemotor gir tilgang til millioner av kunstverk og historiske foto",
+     "title": "Ny digital portal åpner for 4 millioner historiske kunstverk",
      "url": "https://www.openculture.com/2026/11/a-new-search-engine-lets-you-explore-4-million-works-of-art.html",
      "source": "Open Culture",
-     "summary": "En ny digital tjeneste lar deg utforske et enormt arkiv med historiske skatter og kunstverk fra museer verden over.",
+     "summary": "En ny søketjeneste samler digitaliserte kunstverk og historiske fotografier fra museer over hele verden. Brukere kan nå utforske århundrer med kulturskatter helt gratis fra sofakroken.",
      "img": "https://cdn8.openculture.com/2026/11/03201051/OC-Arkivism-Kyosai-Sleeping-Cat.jpg",
-     "published": "2026-11-04T10:01Z"
+     "published": "2026-11-04T10:08Z"
+    },
+    {
+     "title": "Sung Hwan Kim stiller ut på Bergen Kunsthall",
+     "url": "https://kunstkritikk.no/designet-kaos/",
+     "source": "Kunstkritikk",
+     "summary": "Bergen Kunsthall viser en omfattende og kompleks ny utstilling av den internasjonalt anerkjente kunstneren Sung Hwan Kim, som utforsker rom, struktur og sanser.",
+     "published": "2026-11-05T12:26Z",
+     "img": "https://cdn.kunstkritikk.no/uploads/2026/11/15_BKH_2026_SungHwanKim_photo_by_Helge_Skodvin-scaled.jpeg"
     }
    ]
   },
@@ -293,28 +306,28 @@
    "name": "Musikk",
    "stories": [
     {
-     "title": "Sven Ingvars feirer 70 år med stor jubileumsturné i Norge",
+     "title": "Jan Garbarek Group åpner to store norske jazzfestivaler",
+     "url": "https://jazzinorge.no/2026/11/05/garbarek-som-festivalapner/",
+     "source": "Jazz i Norge",
+     "summary": "Den legendariske saksofonisten Jan Garbarek og hans ensemble feat. Trilok Gurtu er bekreftet som åpningsartister for både Maijazz i Stavanger og Bærum Jazzfestival neste år.",
+     "published": "2026-11-05T15:19Z",
+     "img": "https://jazzinorge.no/content/uploads/2022/08/Jan-Garbarek_Foto_Guri_Dahl.jpg"
+    },
+    {
+     "title": "Sven-Ingvars feirer 70 år som band med norgesturné",
      "url": "https://www.ballade.no/dansemusikk/sven-ingvars-tar-70-arsfeiringen-til-norge/",
      "source": "Ballade",
-     "summary": "Det svenske dansebandet markerer 70 år på veien og tar med seg jubileumssuksessen til det norske publikummet.",
+     "summary": "Det svenske folkekjære bandet Sven-Ingvars markerer sitt 70-årsjubileum med 70 konserter, og tar også turen over grensen for å glede sine mange norske fans.",
      "img": "https://www.ballade.no/wp-content/uploads/2026/11/Sven-Ingvars10821-scaled.jpg",
-     "published": "2026-11-06T15:55Z"
+     "published": "2026-11-06T16:02Z"
     },
     {
-     "title": "Vinni tildelt hederlig omtale på P3 Gull",
-     "url": "https://www.nrk.no/artikkel/marstein-apna-ballet-1531107",
-     "source": "NRK",
-     "summary": "Artistveteranen ble hederlig omtalt og tildelt pris under årets store musikkfest.",
-     "img": "https://gfx.nrk.no/cRUqxijYe8SChaNwg1bGAQaghNbAsim2saUTXEFf44Zg.jpg",
-     "published": "2026-11-06T19:05Z"
-    },
-    {
-     "title": "Helene Bøksle nominert til internasjonal musikkpris",
+     "title": "Helene Bøksle nominert til høythengende musikkpris i Hollywood",
      "url": "https://www.ballade.no/spillmusikk/helene-boksle-nominert-til-amerikansk-musikkpris/",
      "source": "Ballade",
-     "summary": "Den norske artisten og komponisten Knut Avenstroup Haugen er nominert til Hollywood Music in Media Awards.",
+     "summary": "Vokalisten Helene Bøksle og komponist Knut Avenstroup Haugen er nominert til Hollywood Music in Media Awards for sitt musikalske samarbeid.",
      "img": "https://www.ballade.no/wp-content/uploads/2026/11/Helene-Boksle-og-KORK_foto-Andre-Loyning-.jpg",
-     "published": "2026-11-06T13:31Z"
+     "published": "2026-11-06T13:38Z"
     }
    ]
   },
@@ -323,28 +336,28 @@
    "name": "Litteratur",
    "stories": [
     {
-     "title": "Sigrid Bonde Tusvik til topps i Boktober-lesing",
-     "url": "https://www.nrk.no/artikkel/sigrid-bonde-tusvik-er-vinner-av-arets-boktober-1531245",
-     "source": "NRK",
-     "summary": "Forfatteren og humoristen feirer lesegleden og oppfordrer flere til å legge bort skjermen til fordel for gode bøker.",
-     "img": "https://gfx.nrk.no/iROlsUpSh4seRlScbb59YQAafpSRZ2nQEilgh47pF-9A.jpg",
-     "published": "2026-11-04T08:24Z"
-    },
-    {
-     "title": "Riksmålspriser tildelt fremtredende forfattere",
+     "title": "Riksmålsforbundets litteraturpriser til Anders Heger og Martin Aas",
      "url": "https://www.aftenposten.no/kultur/i/yz1mgK/riksmaalspriser-til-heger-og-aas",
      "source": "Aftenposten",
-     "summary": "Anders Heger og Martin Aas er hedret med Riksmålsforbundets priser for fremragende litterært arbeid.",
+     "summary": "Anders Heger tildeles Riksmålsforbundets litteraturpris for biografien om sin mor, mens Martin Aas hedres for sitt fremragende forfatterskap.",
      "img": "https://akamai.vgc.no/v2/images/3a1e173a-7ecf-3463-98e6-79b3ca11c53b?format=auto&w=1000&s=5056de5da9ae3c34694fe493a6b096922cc89c5a",
-     "published": "2026-11-06T18:42Z"
+     "published": "2026-11-06T18:49Z"
     },
     {
-     "title": "Ny og særegen roman fra Erlend O. Nødtvedt",
-     "url": "https://www.vl.no/kultur/er-denne-boken-for-god/10617080",
-     "source": "Vårt Land",
-     "summary": "Anmeldere løfter frem forfatterens evne til å skape språklig glede og uvanlige fortellinger i sin nyeste bok.",
-     "img": "https://image.vl.no/10617098.jpg?imageId=10617098&panox=0.00&panoy=24.72&panow=100.00&panoh=71.67&heightx=42.99&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=700&format=webp&format=jpg",
-     "published": "2026-11-06T10:24Z"
+     "title": "Umberto Ecos bibliotek: Hvorfor uleste bøker har en spesiell verdi",
+     "url": "https://www.themarginalian.org/2026/11/05/umberto-eco-antilibrary/",
+     "source": "The Marginalian",
+     "summary": "Forfatteren Umberto Eco fremhevet betydningen av det personlige 'antibiblioteket'. Bøkene vi ennå ikke har lest minner oss om alt vi fortsatt har å lære, og holder nysgjerrigheten levende.",
+     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2015/03/blackswan.jpg?w=680&ssl=1",
+     "published": "2026-11-05T13:33Z"
+    },
+    {
+     "title": "Lyrikeren Marianne Moore om kunsten å skrive overbevisende",
+     "url": "https://www.themarginalian.org/2026/11/06/marianne-moore-predilections-writing/",
+     "source": "The Marginalian",
+     "summary": "Historiske arkivfunn kaster lys over den amerikanske poeten Marianne Moores tanker om hva som gir en tekst varig kraft, formidlingsevne og litterær kvalitet.",
+     "img": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2026/04/predilections_mariannemoore.jpg?fit=320%2C469&ssl=1",
+     "published": "2026-11-06T15:21Z"
     }
    ]
   },
@@ -353,28 +366,28 @@
    "name": "Film, scene og historie",
    "stories": [
     {
-     "title": "Sylvester Stallones livshistorie gir et nytt syn på Hollywood-helten",
-     "url": "https://www.nrk.no/bokbrevet/bokbrevet-_76-sylvester-stallones-liv-er-som-en-dickens-roman-1.18063128",
-     "source": "NRK",
-     "summary": "I sin selvbiografi forteller skuespilleren åpenhjertig om veien fra en vanskelig barndom til internasjonal stjernestatus.",
-     "img": "https://gfx.nrk.no/3z6ItAtDbSN5gfnDhORjwANOv227wPqdao0mw6fvoWqA.jpg",
-     "published": "2026-11-07T06:39Z"
-    },
-    {
-     "title": "Toni Collette spiller hovedrollen i adaptasjon av norsk serie",
+     "title": "Toni Collette i internasjonal versjon av Henriette Steenstrups «Pørni»",
      "url": "https://rushprint.no/2026/11/toni-collette-blir-britisk-porni/",
      "source": "Rushprint",
-     "summary": "Den kjente skuespilleren tar over hovedrollen i en ny dramakomedie basert på den populære norske serien «Pørni».",
-     "published": "2026-11-04T19:38Z",
+     "summary": "Den australske stjerneskuespilleren Toni Collette skal spille hovedrollen i en ny serie basert på den populære norske dramakomedien «Pørni». Hun skal også spille i Morten Tyldums film om Mats Steen.",
+     "published": "2026-11-04T19:45Z",
      "img": "https://rushprint.no/wp-content/uploads/2026/11/WAYWARD-SCREENCOMMENT-e1758467234905.jpeg"
     },
     {
-     "title": "Martin Scorseses utvalgte filmfavoritter for unge filmskapere",
+     "title": "Martin Scorsese deler sine 39 utenlandske filmfavoritter",
      "url": "https://www.openculture.com/2026/11/martin-scorsese-creates-a-list-of-39-essential-foreign-films-for-a-young-filmmaker.html",
      "source": "Open Culture",
-     "summary": "Den legendariske regissøren har satt sammen en liste over essensielle filmer som enhver filminteressert bør sjekke ut.",
+     "summary": "Stjerneregissøren Martin Scorsese har satt sammen en liste over 39 internasjonale mesterverk som han mener enhver ung filmskaper og filmentusiast bør få med seg.",
      "img": "https://cdn8.openculture.com/2026/11/04203700/uuM85o4.jpeg",
-     "published": "2026-11-05T09:01Z"
+     "published": "2026-11-05T09:07Z"
+    },
+    {
+     "title": "Midtnorsk filmsenter støtter nye filmprosjekter",
+     "url": "https://rushprint.no/2026/11/midtnorsk-stotter-taekwon-do-mester-pa-gronland-og-uvanlige-polarhelter/",
+     "source": "Rushprint",
+     "summary": "Filmsenteret har tildelt støtte til blant annet en utforskende dokumentar om en taekwondo-mester på Grønland og en animert satire om polarekspedisjoner.",
+     "published": "2026-11-05T16:56Z",
+     "img": "https://rushprint.no/wp-content/uploads/2026/11/59952368e5533ff7e0dae884ac4a3e7a2eeae303-3350x1858-1.jpeg"
     }
    ]
   },
@@ -383,28 +396,28 @@
    "name": "Spill og hobby",
    "stories": [
     {
-     "title": "Stardew Valley rykker mot tidenes største oppdatering neste år",
+     "title": "Stardew Valley planlegger stor oppdatering for gårdsentusiaster",
      "url": "https://www.gamereactor.no/stardew-valley-oppdateringen-1-7-kan-bli-den-storste-i-spillets-historie/",
      "source": "Gamereactor",
-     "summary": "Utviklerne varsler at spillere kan glede seg til omfattende nyvinninger og nytt innhold i suksesspillet.",
-     "published": "2026-11-05T08:56Z",
+     "summary": "Skaperen av det enormt populære gårdssimulatorspillet Stardew Valley jobber med versjon 1.7, som ligger an til å bli spillets mest omfattende innholdsoppdatering til nå.",
+     "published": "2026-11-05T09:02Z",
      "img": "https://www.gamereactor.no/wp-content/uploads/sites/6/2026/11/cover-346283-1793751045970.jpg"
     },
     {
-     "title": "Norsk indiespill lanseres på Steam",
-     "url": "https://spillhistorie.no/2026/11/05/legends-of-rock-slippes-pa-steam-i-dag/",
+     "title": "Commodore 64 Ultimate lanseres i Europa før jul",
+     "url": "https://spillhistorie.no/2026/11/04/commodore-64-ultimate-far-europeisk-distribusjon/",
      "source": "Spillhistorie.no",
-     "summary": "Det norske spillet Legends of Rock er endelig tilgjengelig for spillere, noe utviklerne markerer på lanseringsdagen.",
-     "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/02/legends-of-rock.jpg?fit=300%2C150&ssl=1",
-     "published": "2026-11-05T08:48Z"
+     "summary": "Retrogamere kan glede seg over at den nye utgaven av den klassiske hjemmedatamaskinen Commodore 64 nå får offisiell europeisk butikkdistribusjon i god tid før høytiden.",
+     "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/04/commodore-64c-ultimate.jpg?fit=300%2C150&ssl=1",
+     "published": "2026-11-04T09:12Z"
     },
     {
-     "title": "Høy interesse for ny Zelda-lansering i norske butikker",
-     "url": "https://www.gamer.no/artikler/norske-butikker-opplever-kraftig-zelda-pagang/521333",
-     "source": "Gamer.no",
-     "summary": "Spillbutikker over hele landet melder om stor pågang fra ivrige spillere som sikrer seg det nyeste spillet i serien.",
-     "img": "https://i.bo3.no/image/403188/ftmsmdf7sffiu1q2o10z.jpg?c=0&h=337&w=599",
-     "published": "2026-11-06T12:53Z"
+     "title": "Det norske indiespillet «Legends of Rock» er sluppet på Steam",
+     "url": "https://spillhistorie.no/2026/11/05/legends-of-rock-slippes-pa-steam-i-dag/",
+     "source": "Spillhistorie.no",
+     "summary": "Utvikler Arik Zurabian har nå lansert sitt nyutviklede musikk- og strategispill på PC-plattformen Steam til stor glede for spillere som elsker rockehistorie.",
+     "img": "https://i0.wp.com/spillhistorie.no/wp-content/uploads/2026/02/legends-of-rock.jpg?fit=300%2C150&ssl=1",
+     "published": "2026-11-05T08:55Z"
     }
    ]
   },
@@ -413,45 +426,45 @@
    "name": "Sport",
    "stories": [
     {
-     "title": "Casper Ruud klar for semifinale i Paris etter sterk seier",
+     "title": "Casper Ruud storspiller i Paris og er klar for semifinale",
      "url": "https://www.nrk.no/sport/ruud-fikk-revansje-i-paris-_-klar-for-forste-semifinale-siden-mai-1.18076278",
      "source": "NRK",
-     "summary": "Etter en god uke med storspill tok Casper Ruud seg forbi Nuno Borges og er dermed klar for sin første semifinale siden mai.",
+     "summary": "Casper Ruud viste fremragende spill i Paris Masters og beseiret Nuno Borges i to strake sett. Nordmannen er dermed klar for sin første semifinale på ATP-touren siden mai.",
      "img": "https://gfx.nrk.no/AwcO-HXvKYAOLjXKwO_piwxURQ_vx5kGb8UdMBF_nOPA.jpg",
-     "published": "2026-11-06T23:58Z"
+     "published": "2026-11-07T00:04Z"
     },
     {
-     "title": "Everton tok tre poeng etter overtak i annen omgang",
+     "title": "Norges Fotballforbund innfører semiautomatisert offside i Eliteserien",
+     "url": "https://www.nrk.no/sport/nff-innforer-semiautomatisert-offside-i-eliteserien-1.18075445",
+     "source": "NRK",
+     "summary": "NFF bekrefter at de tar i bruk den nyeste teknologien for semiautomatisert offside fra neste sesong. Prisreduksjon på utstyret gjør at norsk toppfotball nå får enda mer presise dommeravgjørelser.",
+     "img": "https://gfx.nrk.no/FBBBVNoIe3a1FmumX73RRAQ9O3_YNx5kFjG2bdLcs1Lw.jpg",
+     "published": "2026-11-06T10:24Z"
+    },
+    {
+     "title": "Barry-dobbel fikset Everton-seier",
      "url": "https://www.nrk.no/sport/barry-dobbel-fikset-everton-seier-1.18076182",
      "source": "NRK",
-     "summary": "Til tross for tidlig motgang og uenighet om straffesituasjoner, sikret en scoringsoppvisning 3-1-seier for Everton.",
+     "summary": "Coventry hadde ropt på to straffer og tatt ledelsen da Thierno Barry scoret to ganger og hjalp Everton til 3-1-seier i Premier League. Yann Gboho tuppet Coventry i ledelsen etter 52 minutter, men jubelen stilnet raskt. …",
      "img": "https://gfx.nrk.no/LMu4HAvKcgJ4KZ4LSiKCQAGBNNWbDl3APSecg_nfDTvA.jpg",
-     "published": "2026-11-06T22:07Z"
-    },
-    {
-     "title": "Infantino-støtte fra Karibia – besøkte medlemsland",
-     "url": "https://www.nrk.no/sport/infantino-stotte-fra-karibia-_-besokte-medlemsland-1.18076082",
-     "source": "NRK",
-     "summary": "Det karibiske fotballforbundet ønsker å se at Gianni Infantino fortsetter som Fifa-president. Det kommer fram i en uttalelse fredag. «Etter en formell hørings- og godkjenningsprosess som involverte medlemsforbundene, …",
-     "img": "https://gfx.nrk.no/M8-_1oGBwPzLuBvF2_ffOwC0mQpdnU3kajnQBvI2cxPQ.jpg",
-     "published": "2026-11-06T20:51Z"
+     "published": "2026-11-06T22:14Z"
     }
    ]
   }
  ],
  "stats": {
-  "total": 981,
-  "chosen": 44,
-  "notchosen": 221,
+  "total": 982,
+  "chosen": 45,
+  "notchosen": 215,
   "removed": {
-   "kjendis": 153,
-   "gammel": 337,
-   "uro": 32,
-   "konflikt": 29,
+   "kjendis": 156,
+   "gammel": 339,
+   "uro": 33,
+   "konflikt": 30,
    "sykdom": 43,
-   "krim": 57,
-   "format": 32,
-   "betalt": 33
+   "krim": 58,
+   "format": 31,
+   "betalt": 32
   }
  },
  "today": {
@@ -982,7 +995,7 @@
   "power_tomorrow": {},
   "weather": {
    "oslo": {
-    "temp": 0,
+    "temp": 1,
     "min": 0,
     "max": 3,
     "symbol": "clearsky_day",
@@ -1003,11 +1016,11 @@
     "rain6": 0.9
    },
    "tromso": {
-    "temp": 5,
-    "min": 3,
-    "max": 5,
-    "symbol": "rain",
-    "rain6": 11.3
+    "temp": 4,
+    "min": 2,
+    "max": 4,
+    "symbol": "sleet",
+    "rain6": 11.5
    },
    "bergen": {
     "temp": 6,
@@ -1019,7 +1032,7 @@
    "stavanger": {
     "temp": 6,
     "min": 5,
-    "max": 9,
+    "max": 8,
     "symbol": "fair_day",
     "rain6": 0.0
    }
